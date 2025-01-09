@@ -1,0 +1,56 @@
+<DrugsOnBoat>
+
+    <General>
+        <Text>Ein bekanntes Drogentransportschiff wurde gesichtet</Text>
+        <Text>Überprüfen Sie das Schiff auf mögliche Drogen</Text>
+        <Text>HINWEIS: Durchsuchen Sie das Schiff nach Drogen</Text>
+        <Text>Zentrale, ich konnte keine Drogen finden. Ich werde noch einmal mit dem Schiffseigentümer sprechen.</Text>
+        <Text>Verstanden.</Text>
+        <Text>Wir haben ~o~anonyme Hinweise~s~ auf Standorte erhalten.</Text>
+        <Text>Zentrale, eine Person zu Fuß flüchtig!</Text>
+        <Text>Zentrale, Schüsse abgegeben!</Text>
+        <Text>Sie sind auf dem Weg zu einem Schiff, um nach illegalen Drogen zu suchen.</Text>
+        <Text>Drücken Sie {Y}, um Beweismittel aufzunehmen.</Text>
+        <Text>Stellen Sie den Schiffseigentümer zur Rede oder suchen Sie weiter.</Text>
+        <Text>~g~Alle Beweismittel gefunden</Text>
+        <Text>Gef. Drogen:</Text>
+    </General>
+
+
+    <Persons>
+        <Text>Eigentümer</Text>
+        <Text>Sie</Text>
+    </Persons>
+
+
+    <D_Owner_Arrive>
+        <Dialogue>Guten Tag, wir haben einen Durchsuchungsbefehl für dieses Schiff.</Dialogue>
+        <Dialogue>Zum Teufel, Sie durchsuchen mein Schiff nicht!</Dialogue>
+        <Dialogue>Treten Sie beiseite, Sie können meine Kollegen dort unten nach dem schriftlichen Befehl fragen.</Dialogue>
+    </D_Owner_Arrive>
+
+
+    <D_Owner_NoDrugs>
+        <Dialogue>In Ordnung, ich bin mit der Durchsuchung Ihres Schiffes fertig, Sie können weiterfahren!</Dialogue>
+        <Dialogue>Das hat einige Zeit gekostet und Zeit ist Geld! Ich muss mich jetzt beeilen.</Dialogue>
+        <Dialogue>Ich mache nur meinen Job. Trotzdem eine gute Fahrt!</Dialogue>
+    </D_Owner_NoDrugs>
+
+
+    <D_Owner_Surrender>
+        <Dialogue>Ich habe mehrere Drogen auf diesem Schiff gefunden, können Sie das erklären?</Dialogue>
+        <Dialogue>... Ich meine ... verdammt, Sie haben mich sowieso erwischt. Ja, sie gehören mir.</Dialogue>
+        <Dialogue>Ich werde mich nicht wehren, ich habe versucht, diese zu verkaufen. Sie können mich verhaften.</Dialogue>
+    </D_Owner_Surrender>
+
+
+    <D_Owner_Pursuit_Shooting>
+        <Dialogue>Ich habe mehrere Drogen auf diesem Schiff gefunden, können Sie das erklären?</Dialogue>
+    </D_Owner_Pursuit_Shooting>
+
+
+    <End>
+        <Text>Einsatz abgeschlossen. Code 4.</Text>
+    </End>
+
+</DrugsOnBoat>

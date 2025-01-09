@@ -1,0 +1,12 @@
+<FastPursuit>
+
+    <General>
+        <Text>Rychle pronasledovani</Text>
+        <Text>Dustojnik zada o posilu pri pronasledovani</Text>
+        <Text>Najdete a pronasledujte ~r~podezreleho~w~.</Text>
+        <Text>Podezrely je ~r~zesnuly~w~. pod ~g~Kodem 4~w~.</Text>
+        <Text>Podezrely je ~b~zadrzen~w~. pod ~g~Kodem 4~w~.</Text>
+        <Text>~g~Kod 4~w~.</Text>
+    </General>
+
+</FastPursuit>

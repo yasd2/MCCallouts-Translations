@@ -1,0 +1,36 @@
+<CashTransport>
+
+    <General>
+        <Text>Trasporto di denaro rischioso</Text>
+        <Text>Guida fino al ~g~~h~luogo del messaggio~h~~s~.</Text>
+        <Text>Premi {Y} per parlare</Text>
+        <Text>Guida fino alla ~b~~h~destinazione~h~~s~.</Text>
+        <Text>Premi {Y} in qualsiasi momento se Mezzo Blindato è bloccato.</Text>
+        <Text>Prendi la ~HC_3~~h~valigia dei contanti~h~~s~ dal retro del ~r~~h~camion dei soldi~h~~s~.</Text>
+        <Text>Porta la valigia in banca.</Text>
+        <Text>Premi ~y~~h~End~h~~s~ in qualsiasi momento per terminare il callout.</Text>
+    </General>
+
+    <Persons>
+         <Text>Guardia</Text>
+        <Text>Tu</Text>
+        <Text>Banchiere</Text>
+    </Persons>
+
+    <Guard>
+        <Dialogue>Ciao Agente! Grazie per essere venuto! Abbiamo una consegna molto importante!</Dialogue>
+        <Dialogue>Il furgone blindato della banca consegnerà una grande quantità di denaro alla nostra destinazione.</Dialogue>
+        <Dialogue>Il camion sarà guidato da te, seguito da un veicolo corazzato.</Dialogue>
+        <Dialogue>Abbiamo ricevuto segnalazioni che potrebbe esserci attacchi, ecco perché abbiamo te e la squadra speciale. Andiamo!</Dialogue>
+    </Guard>
+
+    <Bankman>
+        <Dialogue>Ciao! Vedo che ne sei uscito vivo! Ora sai perché assumiamo professionisti come te e non come... i miei colleghi.</Dialogue>
+        <Dialogue>... sicuramente. Almeno il veicolo della squadra speciale è a prova di proiettile.</Dialogue>
+        <Dialogue>Anche il camion dei soldi è blindato. Solo le finestre no.</Dialogue>
+        <Dialogue>Ecco il caso.</Dialogue>
+        <Dialogue>Perfetto, grazie, ho messo una buona parola per te!</Dialogue>
+        <Dialogue>Spero che ne sia valsa la pena, buona giornata!</Dialogue>
+    </Bankman>
+
+</CashTransport>

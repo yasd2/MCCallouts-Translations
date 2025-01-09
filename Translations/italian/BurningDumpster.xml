@@ -1,0 +1,62 @@
+<BurningDumpster>
+
+    <General>
+        <Text>~r~Bruciatura del cassonetto~b~ segnalato</Text>
+        <Text>L'unità con estintore risponde al codice 2</Text>
+        <Text>Guida sul posto e spegni l'~r~incendio~s~ o chiama i ~r~vigili del fuoco!</Text>
+    </General>
+
+    <Persons>
+     <Text>Chiamante</Text>
+        <Text>Tu</Text>
+    </Persons>
+
+    <Extingiush>
+       <Text>Per prendere un ~r~estintore~s~, vai al bagagliaio e premi</Text>
+        <Text>~r~Estintore~s~ equipaggiato!</Text>
+        <Text>Ora cerca ~y~prove~s~ premendo il {tasto} mentre sei nei ~y~marcatori~s~.</Text>
+    </Extingiush>
+
+    <Tasks>
+       <Text>Parla con il ~b~chiamante~s~ del 112 con</Text>
+        <Text>Premi {MusicMenuKey} in qualsiasi momento per visualizzare nuovamente l'immagine!</Text>
+        <Text>Dispaccio, il sospetto ~r~fugge!</Text>
+    </Tasks>
+
+    <Caller>
+        <Dialogue>Ciao, sei tu quello che ha chiamato la spazzatura in fiamme?</Dialogue>
+        <Dialogue>Sì, sono io. Volevo segnalare una persona sospetta che ho visto.</Dialogue>
+        <Dialogue>Stavo passando davanti al bidone della spazzatura quando ho visto una persona che si allontanava.</Dialogue>
+        <Dialogue>Subito dopo il fuoco cominciò ad ardere!</Dialogue>
+        <Dialogue>Sembra sospetto, hai dettagli sul sospettato?</Dialogue>
+        <Dialogue>Certo, era un {gender} e aveva circa {age} anni.</Dialogue>
+        <Dialogue>Sono riuscito a scattare una foto, eccola!</Dialogue>
+        <Dialogue>Grazie, stiamo cercando il sospettato adesso. Ciao!</Dialogue>
+    </Caller>
+
+    <Genders>
+       <Text>femmina</Text>
+        <Text>maschio</Text>
+        <Text>non definito</Text>
+    </Genders>
+
+    <Evidence>
+        <Dialogue>Una bomba molotov, non è stato un caso... qualcuno voleva appiccare un incendio.</Dialogue>
+        <Dialogue>Una tanica piena di benzina, sembra che qualcuno si stesse preparando ad accendere qualcosa.</Dialogue>
+        <Dialogue>Un bong? Strano... forse qualcuno era troppo in alto per notare l'incendio che hanno appiccato.</Dialogue>
+        <Dialogue>Una granata a frammentazione. Questo non è un semplice incendio, abbiamo a che fare con qualcosa di molto più pericoloso.</Dialogue>
+        <Dialogue>Una granata fumogena. Potrebbero essere stati usati per coprire le loro tracce prima di appiccare il fuoco.</Dialogue>
+        <Dialogue>Una bottiglia rotta. Sembra improvvisato, ma potrebbe essere servito per appiccare il fuoco.</Dialogue>
+        <Dialogue>Una bombola di gas. Se fosse esploso, l'intera area avrebbe potuto andare in fiamme.</Dialogue>
+        <Dialogue>Un fusto di petrolio. Perde... ed è altamente infiammabile. Sembra che qualcuno volesse diffondere il fuoco.</Dialogue>
+        <Dialogue>Una tanica di benzina. Puzza di benzina... qualcuno voleva davvero bruciare questo posto.</Dialogue>
+        <Dialogue>Un calzino? Beh, potrebbe non sembrare molto, ma ha un odore abbastanza cattivo da costituire un pericolo di incendio.</Dialogue>
+        <Dialogue>Tipico. Qualcuno ha gettato nella spazzatura una sigaretta accesa, che poi ha cominciato ad accendersi.</Dialogue>
+        <Dialogue>Un calzino? Beh, potrebbe non sembrare molto, ma ha un odore abbastanza cattivo da costituire un pericolo di incendio.</Dialogue>
+    </Evidence>
+
+    <End>
+        <Text>~g~La situazione è in codice 4.</Text>
+    </End>
+    
+</BurningDumpster>

@@ -1,0 +1,48 @@
+<Shooting>
+
+    <General>
+        <Text>Fusillade en cours</Text>
+        <Text>2 individus se tirent dessus</Text>
+        <Text>Rendez-vous sur les lieux ~b~Code 3~s~, 2 individus armés, ~r~prudence~s~, ~r~des coups de feu~s~ ont été ~r~tirés~s~!</Text>
+        <Text>~y~Vous~s~: ~p~Jetez vos ~r~armes~s~, ~b~Police~s~!!!</Text>
+        <Text>Appelez des renforts!</Text>
+    </General>
+
+
+    <Outcomes>
+
+        <StillShooting>
+            <Text>~y~Vous~s~: Ils n'écoutent pas nos injonctions, usez de la ~r~force~s~ ~o~de manière proportionné et maitrisé~s~!</Text>
+        </StillShooting>
+
+        <Surrender>
+            <Text>~r~Suspect 1~s~: Ne tirez pas, je ~g~me rends~s~!</Text>
+            <Text>~p~Suspect 2~s~: Ok ok mec~g~je me rends~s~, aussi!</Text>
+        </Surrender>
+
+        <ShootAtPlayer>
+            <Text>La police est prise pour cible!</Text>
+            <Text>~p~Suspect~s~: Je me rends, mettez-moi en garde à vue.</Text>
+        </ShootAtPlayer>
+
+    </Outcomes>
+
+    <Arrest>
+        <Text>Radio, un suspect ~y~interpellé~w~!</Text>
+        <Text>Radio, un suspect ~o~à terre~w~!</Text>
+    </Arrest>
+
+    <OnScene>
+        <Text>Appelez une patrouille pour ~b~tansporter~s~ les ~r~suspects~s~.</Text>
+        <Text>Appelez une patrouille pour ~b~tansporter~s~ et une ~p~ambulance~s~ pour les ~r~suspect~s~.</Text>
+        <Text>Appelez une ~p~ambulance~s~ pour les ~r~suspects~s~.</Text>
+    </OnScene>
+
+    <End>
+        <Text>Une ~r~erreur GTA~s~ s'es produite, Intervention ~g~terminée~s~</Text>
+        <Text>~y~Vous~s~ êtes à terre, intervention ~g~terminée~s~</Text>
+        <Text>Intervention terminée</Text>
+        <Text>~g~Code 4~s~, ~b~terminez~s~ l' ~b~intervention~s~ et repartez en ~g~patrouille~s~.</Text>
+    </End>
+
+</Shooting>

@@ -1,0 +1,22 @@
+<IntoxicatedIndividual>
+
+    <General>
+        <Text>คนเมาเหล้าในที่สาธารณะ</Text>
+        <Text>ครับ</Text>
+        <Text>คุณผู้หญิง</Text>
+        <Text>กด {0} เพื่อพูดกับผู้ต้องสงสัย.</Text>
+        <Text>~y~คุณ~s~: ขอโทษนะครับ {0}, คุณต้องการความช่วยเหลือไหม?</Text>
+        <Text>~p~ผู้ต้องสงสัย~s~: ไม่ *เวรเอ้ย* ฉันสบายดี.</Text>
+        <Text>~y~คุณ~s~:เมาในที่สาธารณะไม่ถูกต้องนะครับ.ผมจะต้องเขียนอ้างอิงถึงคุณ.</Text>
+        <Text>~p~ผู้ต้องสงสัย~s~:ห้ะ? ไปไกลๆฉันซะ!.</Text>
+        <Text>ไม่มีคำพูดต่อไป.</Text>
+    </General>
+
+    <End>
+        <Text>1 ผู้ต้องสงสัยถูกจับกุม! ~g~Code 4~s~</Text>
+        <Text>1 ผู้ต้องสงสัยเสียชีวิต, ~g~Code 4~w~</Text>
+        <Text>~g~Code 4~w~</Text>
+        <Text>~r~GTA Ped Error,~s~ ภารกิจสิ้นสุด</Text>
+    </End>
+
+</IntoxicatedIndividual>

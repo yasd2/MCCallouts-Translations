@@ -1,0 +1,9 @@
+<Timecycle>
+    <General>
+		<Text>Chcete hrat v ~b~9 pm~w~ pro realisticky zazitek?</Text>
+        <Text>Stisknete '~g~Y~w~' pro ~g~Ano~w~, '~r~N~w~' pro ~r~Ne~w~.</Text>
+        <Text>Stisknete {0} pro ~g~Ano~w~, {1} pro ~r~Ne~w~.</Text>
+        <Text>Cas zustava, bavte se!</Text>
+        <Text>Cas byl nastaven na ~b~noc~w~.</Text>
+    </General>
+</Timecycle>

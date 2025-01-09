@@ -1,0 +1,23 @@
+<WantedSuspectLocated>
+
+    <General>
+        <Text>Possibile ubicazione del sospetto ricercato</Text>
+         <Text>Controlla le 2 posizioni possibili</Text>
+         <Text>Sospetto in custodia, ~g~Codice 4~w~</Text>
+    </General>
+
+    <Scenes>
+        <Text>Cerca il ~r~sospetto~w~ nella prima area.</Text>
+         <Text>Cerca il ~r~sospetto~w~ nell'~g~area~w~.</Text>
+         <Text>Nessun sospetto trovato, spostati nella ~g~seconda posizione~w~.</Text>
+        <Text>Ora cerca il ~r~sospetto~w~ nella seconda ~g~area~w~. Lui ~r~deve~w~ essere lì!</Text>
+        <Text>Descrizione del ~r~sospetto~s~:{0}~y~maschio asiatico~s~, magro,{0}capelli neri, 30{0}indossa una maglietta ~b~blu~s~</Text>
+    </Scenes>
+    
+    <Outcomes>
+        <Dialogue>~r~Sospetto~w~: Oh mio Dio, polizia! Non sparare! Mi arrendo!</Dialogue>
+        <Dialogue>~r~Sospetto~w~: Oh merda, i poliziotti! Fo**etevi, ~o~vi faccio ~w~ saltare~w~ la ~o~testa~w~, stupidi maiali!</Dialogue>
+        <Dialogue>~y~Tu~w~: Comunicazione da centrale, trovato il sospetto,~ procedere con inseguimento~w~!</Dialogue>
+    </Outcomes>
+
+</WantedSuspectLocated>

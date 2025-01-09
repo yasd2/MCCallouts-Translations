@@ -1,0 +1,171 @@
+<SolveMurder2>
+
+    <General>
+        <Text>~p~Detectiv~s~ v pripade vrazdy je vyzadovan!</Text>
+        <Text>~g~Dispatch~s~: Jedte do Mirror Parku v Los Santos, a vyzadujte ~p~detektiva~w~.</Text>
+    </General>
+
+    <Officer>
+        <Dialogue>Jdete na misto za ~b~dustojnikem~w~ a promluvte si s nim </Dialogue>
+        <Dialogue>~b~Dustojnik Walter~s~: Dobry den, detektive! Jmenuji se ~g~Jack Walter~s~, rikejte mi Jacku. Doufam, ze provoz nebyl tak spatny.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Dobry den! Ne, bylo to v poradku. Co tady mame?</Dialogue>
+        <Dialogue>~b~Jack~s~: Mame tady ~g~mrtvou osobu~s~, pravdepodobne zavrazdenou, policista Dawson ~g~tam~s~ ma vice informaci.</Dialogue>
+        <Dialogue>~b~Jack~s~: Na druhe strane mame tri mozne podezrele, jeden z nich je volajici.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Diky, pak si promluvim, jdu za ~b~dustojnikem Dawsonem~s~.</Dialogue>
+        <Dialogue>Jdete a promluvte si s ~b~dustojnikem Dawsonem~s~.</Dialogue>
+    </Officer>
+
+    <Officer2>
+        <Dialogue>Promluvte si s ~b~dustojnikem Dawsonem~s~ </Dialogue>
+        <Dialogue>~y~Detectiv~s~: Hej, dustojniku Dawsone! Dustojnik Walter rekl, ze mate pro me nejake informace?</Dialogue>
+        <Dialogue>~b~Dustojnik Dawson~s~: Hezky den detektive! Muzete mi rikat Eriko!</Dialogue>
+        <Dialogue>~b~Erika~s~: Takze obeti je Lilliana Wyatt, 33 let, ktera bydlela kolem ulice Nikola Avenue.</Dialogue>
+        <Dialogue>~b~Erika~s~: Jo, a mame tu tri mozne podezrele z potencialni vrazdy.</Dialogue>
+        <Dialogue>~b~Erika~s~: Jedna z nich, Belle Hamilton, je volajici co to nahlasil, ale take by mohl byt potencialnim vrahem.</Dialogue>
+        <Dialogue>~b~Erika~s~: Navrhuji, abyste sel na misto cinu a prozkoumal to tam jeste. Je mozne ze tam jeste neco nenajdete.</Dialogue>
+        <Dialogue>Jdete na misto cinu a hledejte ~b~dukazy~s~.</Dialogue>
+    </Officer2>
+
+    <Evidence>
+        <Text>~y~Detectiv~s~: No tam co tu mame, vidim tu ranu na ~r~hlave~s~, vypada ze by to mohla byt takhle rozbita lahev...</Text>
+        <Text>Aaa.. tady je Mobilni telefon... Na pozadi je videt ~p~nejaky vozidlo v cerne barve~s~...</Text>
+        <Text>Hmmm... co tu mame dalsiho, napul ~r~snedeny burger...~s~ Hmmm... pro muj pripad ovsem nezajimavy.</Text>
+        <Text>Ale ~r~krev~s~ vypada stale cerstve, muselo se to stat ani ne pred dvemi hodinami...</Text>
+        <Text>Vysetrovani ukonceno! Jdete k ~o~volajicimu~w~ a promluvte si s nim </Text>
+    </Evidence>
+
+    <Suspect1>
+        <Dialogue>Promluvte si s ~o~podezrelym~w~ </Dialogue>
+        <Dialogue>~y~Detectiv~s~: Ahoj! V tomto pripade jsem detektiv. A mohu se ptat na cokoliv. Jak se jmenujes?</Dialogue>
+        <Dialogue>~o~Volajici~s~: Dobry vecer, jmenuji se ~y~Belle Hamilton~s~. Sel jsem po ulici, kdyz jsem ji uvidel...</Dialogue>
+        <Dialogue>~y~Detectiv~s~: To jste udelal(a) spravnou vec, kdyz jste nam zavolal(a). Ale i presto si rychle zkontroluji vase udaje.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Dispatch, zadam si kod deset dvacet sedum osoby s jmenem ~y~'Belle Hamilton'~s~?</Dialogue>
+        <Dialogue>Dispatch deset ctyri</Dialogue>
+        <Dialogue>~b~Belle Hamilton~s~</Dialogue>
+        <Dialogue>~g~Nema na sebe zatykajici rozkaz</Dialogue>
+        <Dialogue>~g~Nebyl(a) ani zadrzena</Dialogue>
+        <Dialogue>~y~Ma tu pokutu za: Prekroceni rychlosti~s~</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Vypada to ze vas zaznam je cisty. Jeste na vas mam par otazek.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Znate obet?</Dialogue>
+        <Dialogue>~o~Pani Hamiltonova~s~: Ne, neznam a nechci. Predstavte si cleny rodiny, jak se musi citit...</Dialogue>
+        <Dialogue>~y~Detectiv~s~: My se o ne postarame i o jejich bezpecnost. Ale ted bych rad videl vas mobilni telefon?</Dialogue>
+        <Dialogue>*ukazuje mobilni telefon*</Dialogue>
+        <Dialogue>~o~Pani Hamiltonova~s~: Tady, ale...eee...jsou tu moje soukrome fotky, a nerada bych je nekomu ukazovala a nemuzu je dat pryc.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Muzete si je nechat. Ted me zajima, jakym vozidlem jezdite a jaka je SPZtka?</Dialogue>
+        <Dialogue>~o~Pani Hamiltonova~s~: Jezdim znackou auta ~w~Lampadati Pigalle~s~, a SPZtka je ~r~86LUN445~s~.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Dispatch, zadam kod deset dvacet osum na SPZtku ~r~86LUN445~s~ jedná se o vozidlo ~w~Lampadati Pigalle~s~.</Dialogue>
+        <Dialogue>deset ctyri</Dialogue>
+        <Dialogue>~b~86LUN445~s~</Dialogue>
+        <Dialogue>~g~Znacka vozidla~s~: Lampadati Pigalle</Dialogue>
+        <Dialogue>~b~Majitelka~s~: Belle Hamilton</Dialogue>
+        <Dialogue>~r~Prosle pojisteni~s~</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Dobre, zajima me proc vasemu vozidlu vyprselo pojisteni, mela byste ho obnovit.</Dialogue>
+        <Dialogue>~o~Pani Hamiltonova~s~: OH diky. To jsem nevedela, udelam to.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: To by bylo vse, vyckejte prosim na dalsi pokyny.</Dialogue>
+        <Dialogue>Nyni prejdete k dalsimu ~o~podezrelemu~s~ a promluvte si s nim.</Dialogue>
+		
+        <Dialogue>~y~Detectiv~s~: To by bylo vse, dekuji za vas cas.</Dialogue>
+    </Suspect1>
+
+    <Suspect2>
+        <Dialogue>Promluvte si s ~o~podezrelym~w~ </Dialogue>
+        <Dialogue>~y~Detectiv~s~: Dobry vecer pane! Jsem mistni detektiv. Mohu dostat vase jmeno, prosim?</Dialogue>
+        <Dialogue>~o~Podezrely~s~: Dobry den, detektive, jmenuji se ~w~Talon Knight~s~, narozen 12. prosince 1992. Proc jsem tady zadrzovany?</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Tak jinak otazky tu davam ja. Rozumime si? Takze byli jste v oblasti, kdyz se to stalo.</Dialogue>
+        <Dialogue>~o~Talon~s~: To je proti me vuli! Pust me, nic jsem neudelal!</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Jakmile odpovite na me otazky, budete tu min casu stat. Takze kde bydlite?</Dialogue>
+        <Dialogue>~o~Talon~s~: Bydlim pobliz, tak dva bloky odtud.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: A znate obet?</Dialogue>
+        <Dialogue>~o~Talon~s~: Ne!</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Takze vy zijete pobliz a neznate obet? Pro vasi informaci obet se jmenuje ~w~Lillianu Wyattova~s~.</Dialogue>
+        <Dialogue>~o~Talon~s~: Dobre, znam ji, jen ji nemam rad, nebyla moc pratelska, ani aktivni, ani oblibena v sousedstvi...</Dialogue>
+        <Dialogue>~o~Talon~s~: Jednou na me zavolala policajty, protoze muj pes parkrat zastekal, kratce po 22. hodine...</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Hmmm... Dobre, muzete mi ukazat svuj mobil telefon, prosim?</Dialogue>
+        <Dialogue>~o~Talon~s~: Rad bych, ale minuly tyden jsem ho nechal dat do opravny. Bude to stat asi 100 $...</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Rozumim. Jake vozidlo ridite a jaka je SPZtka?</Dialogue>
+        <Dialogue>~o~Talon~s~: Mam ~w~Vapid Minivan~s~, moje poznavaci znacka je... eeee... 47LIF... 341.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Dispatch, zadam kod deset dvacet osum na SPZtku ~r~47LIF341~s~ jedná se o vozidlo ~w~Vapid Minivan~s~.</Dialogue>
+        <Dialogue>Rozumim, vyckejte.</Dialogue>
+        <Dialogue>~b~47LIF341~s~</Dialogue>
+        <Dialogue>~g~Znacka vozidla~s~: Vapid Minivan</Dialogue>
+        <Dialogue>~b~Majitel~s~: Talon Knight</Dialogue>
+        <Dialogue>~y~Poznamka: Vozidlo bylo registrovane pred 4 mesici~s~</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Dispatch, zadam si kod deset dvacet sedum osoby s jmenem ~w~'Talon Knight'~s~ dekuji.</Dialogue>
+        <Dialogue>deset ctyri cekejte</Dialogue>
+        <Dialogue>~b~Talon Knight~s~</Dialogue>
+        <Dialogue>~g~Nebyl zadrzen</Dialogue>
+        <Dialogue>~y~Pokuta za: Spatne parkovani~s~</Dialogue>
+        <Dialogue>~y~Detectiv~s~: No tak to vypada ze vas zaznam vypada ciste, jakmile to tu vyresime, vratime se k vam a rekneme co a jak.</Dialogue>
+        <Dialogue>~o~Talon~s~: V poradku!</Dialogue>
+        <Dialogue>Promluvte si s poslednim ~o~podezrelym~s~.</Dialogue>
+    </Suspect2>
+
+    <Suspect3>
+        <Dialogue>Promluvte si s ~o~podezrelym~w~ </Dialogue>
+        <Dialogue>~y~Detectiv~s~: Dobry den pani! V tomto pripade jsem detektiv, a muzu se vas zeptat na par otazek, prvni je jak se jmenujete, prosim?</Dialogue>
+        <Dialogue>~o~Podezrely~s~: Dobry den, jmenuji se ~w~Nylah Lane~s~.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Dispatch, zadam si kod deset dvacet sedum osoby s jmenem ~w~'Nylah Lane'~s~.</Dialogue>
+        <Dialogue>deset ctyri.</Dialogue>
+        <Dialogue>~b~Nylah Lane~s~</Dialogue>
+        <Dialogue>~g~Nema na sebe zatykajici rozkaz~s~</Dialogue>
+        <Dialogue>~g~Nebyla zadrzena</Dialogue>
+        <Dialogue>~y~Pokuta za: Parkovani na miste pro invalidy~s~</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Dobre vypada to v poradku, Tak kde bydlite?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Bydlim ve ~p~Vinewood Hills~s~, mam tam byt.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Pani, to je pekne misto k zivotu! Muzu videt vase mobilni zarizeni, prosim?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Jo jasne, je to v meeee... Sakra, kde to je?... Mozna jsem to tedy nechala v aute.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: To doufam tedy. Jakym autem tedy jezdite?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Ridim... eeeehhhh... ~w~Grotti... Stinger~s~.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Dobre, a jaka je SPZtka?</Dialogue>
+        <Dialogue>~o~Nylah~s~: ... Aaah, ja nevim.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Takze vy neznate SPZtku sveho vlastniho vozidla?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Jo!, myslim... ze... je moc slozita...</Dialogue>
+        <Dialogue>~y~Detectiv~s~: No dobre mi si to zjistime. Dispatch, zadam kod deset dvacet osum SPZtky na majitelku ~b~Nylah Lane~s~ melo by se jedna o znacku vozidla ~b~Grotti Stinger~s~.</Dialogue>
+        <Dialogue>10-4 pockejte.</Dialogue>
+        <Dialogue>Dispatch, zadne vysledky pro tuto kombinaci, nebyli nalezeny ale dovolte mi zkontrolovat majitele.</Dialogue>
+        <Dialogue>Dispatch, U majtelky jsme nasely jine vozidlo s SPZtkou:</Dialogue>
+        <Dialogue>~b~58RLD582~s~</Dialogue>
+        <Dialogue>~y~Znacka vozidla~s~: Obey Tailgater</Dialogue>
+        <Dialogue>~b~Majitelka~s~: Nylah Lane</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Zajimavy. Pani, proc jste lhala o svem vozidle?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Co tim myslite? Chci rict.. Mam dve vozidla... nebo ne?</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Velmi vtipne, lhala jste take o svem telefonu?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Proc se na to ptate? Vy jste ho nasli tady pobliz? Proto se ptate?</Dialogue>
+        <Dialogue>~y~Detectiv~s~: ... Jaky je vas vztah k obeti?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Je to moje sestrenice a dluzi mi hodne penez.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Proto jste ji zavrazdila?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Jela jsem k ni domu, abych ji konfrontovala s dluhy.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Dekuji za spolupraci, obratim se zachvilku hned za vami.</Dialogue>
+        <Dialogue>Promluvte si znovu s ~b~dustojnikem Erikou~s~.</Dialogue>
+    </Suspect3>
+
+    <Officer3>
+        <Dialogue>Promluvte si znovu s ~b~dustojnikem~w~</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Dobre, prohledal jsem misto cinu a mluvil s podezrelymi.</Dialogue>
+        <Dialogue>~b~Erika~s~: To je super, a mohl byste zjistit, kdo je vrah?</Dialogue>
+        <Dialogue>Zmacknout {1} ~r~pro Belle Hamilton~s~, {2} ~o~pro Talon Knight~s~ or {3} ~y~pro Nylah Lane~s~!</Dialogue>
+
+        <Dialogue>~y~Detectiv~s~: ... ~r~Belle Hamilton~s~!</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Pani Hamiltonova mi nechtela ukazat obsah jejich telefonu a rekla, ze byla v oblasti, kdyz se to stalo!</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Ona je vrah!</Dialogue>
+
+        <Dialogue>~y~Detectiv~s~: ... ~o~Talon Knight~s~!</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Pan Knight nemel obet moc rad, a bydli pobliz!</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Take mi nemohl ukazat svuj mobil telefon! On je jistej vrah!</Dialogue>
+
+        <Dialogue>~y~Detectiv~s~: ... ~y~Nylah Lane~s~!</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Pani Laneova byla pobliz, kdyz se to stalo, a je pribuzna obeti!</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Lhala mi o svem vozidle a svem mobilu zarizeni!</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Ovsem jeji mobil ukazuje jeji vozidlo. A myslim si ze to ztratila zde na tomhle miste cinu. Ona je jisty vrah!</Dialogue>
+
+        <Dialogue>~b~Erika~s~: Aha, chapu! Pokracujte a zatknete ~r~podezreleho~s~!</Dialogue>
+    </Officer3>
+
+    <Arrest>
+		<Text>Uspesne jste zatkli ~r~vraha~s~! ~g~Vycistete scenu~s~!</Text>
+        <Text>Ach ne, zatkli jste ~y~nespravnou~ osobu! ~g~Vycistete scenu~s~!</Text>
+        <Text>~o~Podezrely~s~ ~r~zemrel~s~.{0}Situace je pod ~g~Kodem 4~s~, ~g~vycistete scenu~s~!</Text>
+        <Text>~b~Dustojnik~s~ ~r~zemrel~s~.{0}Situace je pod ~g~Kodem 4~s~.</Text>
+    </Arrest>
+
+</SolveMurder2>

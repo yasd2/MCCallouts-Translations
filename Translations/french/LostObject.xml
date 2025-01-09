@@ -1,0 +1,83 @@
+<LostObject>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+
+    <General>
+        <Text>Lost Object</Text>
+        <Text>Caller lost an object, Police required</Text>
+        <Text><![CDATA[Drive to the ~g~caller~s~ & find out what the issue is.]]></Text>
+    </General>
+
+
+    <DisplayHelp>
+        <Text>Talk to the caller pressing </Text>
+        <Text>Search for the ~o~cellphone~s~. Press </Text> <!--Search for the ~o~cellphone~s~. Press __Key-Y__  to pick up the object.-->
+        <Text>Search for the ~o~wallet~s~. Press </Text>    <!--Search for the ~o~wallet~s~. Press __Key-Y__  to pick up the object.-->
+        <Text>Search for the ~o~shoe~s~. Press </Text>      <!--Search for the ~o~shoe~s~. Press __Key-Y__  to pick up the object.-->
+        <Text> to pick up the object.</Text>
+        <Text>Press </Text>                                 <!--Press __Key-Y__ to shout to the caller!-->
+        <Text> to shout to the caller!</Text>               <!--Press __Key-Y__ to shout to the caller!-->
+        <Text>Here's a ~r~hint~s~ as help.</Text>
+        <Text>Press ~g~1 ~s~to accept or ~r~2~s~ to abort.</Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+        <Text>~r~Cellphone~s~ found!</Text>
+        <Text>~r~Wallet~s~ found!</Text>
+        <Text>~r~Shoe~s~ found!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>~y~You~s~: Hello, are you the caller?</Dialogue>
+        <Dialogue>~b~Caller~s~: Wait, I'm coming!</Dialogue>
+        <Dialogue>~b~Caller~s~: Thank you very much! I wish I had eyes like you!</Dialogue>
+        <Dialogue>~y~You~s~: No worries, bye!</Dialogue>
+    </Conversation>
+
+
+    <OutcomeCellphone>
+        <Dialogue>~b~Caller~s~: Yes, I called. I can't find my cellphone.</Dialogue>
+        <Dialogue>~y~You~s~: I understand. I will help you to find it.</Dialogue>
+        <Dialogue>~y~You~s~: When was the last time you used it?</Dialogue>
+        <Dialogue><![CDATA[~b~Caller~s~: I was walking right here & I thought I had put it in my pocket.]]></Dialogue>
+        <Dialogue>~y~You~s~: Then it must be somewhere nearby. Lets take a look.</Dialogue>
+        <Dialogue>~y~You~s~: Heeey, I found your cellphone!</Dialogue>
+    </OutcomeCellphone>
+
+
+    <OutcomeWallet>
+        <Dialogue><![CDATA[~b~Caller~s~: Yes, it was me. I lost my wallet & I can't find it.]]></Dialogue>
+        <Dialogue>~y~You~s~: Oh dear. I'm sure we will find it.</Dialogue>
+        <Dialogue>~y~You~s~: Do you remember the last time you had it?</Dialogue>
+        <Dialogue>~b~Caller~s~: Yeah, just a minute ago. It must be around here.</Dialogue>
+        <Dialogue>~y~You~s~: Ok, let's search your wallet.</Dialogue>
+        <Dialogue>~y~You~s~: Heeey, I found your wallet!</Dialogue>
+    </OutcomeWallet>
+
+
+    <OutcomeShoe>
+        <Dialogue>~b~Caller~s~: Yes, I need your help. I have a huuuge problem.</Dialogue>
+        <Dialogue>~b~Caller~s~: I lost my shoe... my poor shoe, I loved it soo much!</Dialogue>
+        <Dialogue>~y~You~s~: Ahhh... sorry, this is not a reason to call the police.</Dialogue>
+        <Dialogue>~b~Caller~s~: But is was a 100$ shoe! I'm sorry, but can you please help me search it?</Dialogue>
+        <Dialogue>~y~You~s~: Okay, I will help you search your shoe. Let's search the area.</Dialogue>
+        <Dialogue>~y~You~s~: No, as I said. Please only call the police for emergencies. Have a nice rest of the day!</Dialogue>
+        <Dialogue>~y~You~s~: Heeey, I found your shoe!</Dialogue>
+        <Dialogue>~y~You~s~: Alright, but next time only call for emergencies! Bye!</Dialogue>
+    </OutcomeShoe>
+
+
+    <End>
+        <Text>We're ~g~code 4~s~, ~b~missing item was ~g~found~s~.</Text>
+        <Text>Code ~g~4~s~, Case over.</Text>
+    </End>
+
+
+
+</LostObject>

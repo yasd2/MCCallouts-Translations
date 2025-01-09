@@ -1,0 +1,22 @@
+<IntoxicatedIndividual>
+
+    <General>
+        <Text>Betrunkene Person in der Öffentlichkeit</Text>
+        <Text>der Herr</Text>
+        <Text>die Frau</Text>
+        <Text>Drücken Sie {0}, um mit dem Verdächtigen zu sprechen.</Text>
+        <Text>~y~Du~s~: Entschuldigen Sie {0}, brauchen Sie Hilfe?</Text>
+        <Text>~p~Verdächtiger~s~: Nahhh *hicks* es ist alles *hicks* in Ordnung.</Text>
+        <Text>~y~Du~s~: Betrunken in der Öffentlichkeit zu sein, ist nicht erlaubt. Ich muss Ihnen einen Strafzettel ausstellen.</Text>
+        <Text>~p~Verdächtiger~s~: Ein was? Geh mir aus dem Weeeeg.</Text>
+        <Text>Keine weiteren Äußerungen.</Text>
+    </General>
+
+    <End>
+        <Text>Ein Verdächtiger festgenommen! ~g~Code 4~s~</Text>
+        <Text>Ein Verdächtiger am Boden, ~g~Code 4~w~</Text>
+        <Text>~g~Code 4~w~</Text>
+        <Text>~r~GTA Ped Fehler,~s~ Einsatz beendet</Text>
+    </End>
+
+</IntoxicatedIndividual>

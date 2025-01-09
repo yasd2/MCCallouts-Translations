@@ -1,0 +1,50 @@
+<Shooting>
+
+    <General>
+        <Text>Tiroteo</Text>
+        <Text>Dos personas se están disparando entre sí.</Text>
+        <Text>Conduzca al lugar. ~b~Código 3~s~, 2 tiradores, ~r~¡Peligro, extreme la precaución, hay disparos ahora!~s~</Text>
+        <Text>~y~Usted~s~: ¡~p~Tirad las ~r~armas~s~, ~b~policía~s~!</Text>
+        <Text>Call for backup!</Text>
+        <Text></Text>
+        <Text></Text>
+    </General>
+
+
+    <Outcomes>
+
+        <StillShooting>
+            <Text>~y~Central~s~: Parece que no escuchan, uso de ~r~fuerza letal autorizado~s~. ¡Tú decides, ~o~actua~s~ como lo creas ~o~conveniente~s~!</Text>
+        </StillShooting>
+
+        <Surrender>
+            <Text>~r~Primer tirador~s~: No dispares, !no quiero morir¡. ¡~g~Me rindo~s~!</Text>
+            <Text>~p~Segundo tirador~s~: ¡Yo también ~g~me rindo~s~!</Text>
+        </Surrender>
+
+        <ShootAtPlayer>
+            <Text>¡Nos disparan!</Text>
+            <Text>~p~Sujeto~s~: Me rindo, metedme a la cárcel.</Text>
+        </ShootAtPlayer>
+
+    </Outcomes>
+
+    <Arrest>
+        <Text>¡Central, un sospechoso ~y~detenido~w~!</Text>
+        <Text>¡Central, tirador ~o~abatido~w~!</Text>
+    </Arrest>
+
+    <OnScene>
+        <Text>Lllama a un ~b~tansporte~s~ para los dos ~r~sujetos~s~.</Text>
+        <Text>Llama a un ~b~tansporte~s~ y al ~p~forense~s~.</Text>
+        <Text>LLama al ~p~forense~s~ para los dos ~r~tiradores muertos~s~.</Text>
+    </OnScene>
+
+    <End>
+        <Text>Ha ocurrido un ~r~"GTA ped error"~s~, el aviso ha ~g~finalizado automaticamente~s~</Text>
+        <Text>~y~Usted~s~ ha muerto, el aviso ~g~ha finalizado~s~</Text>
+        <Text>Aviso finalizado</Text>
+        <Text>~g~Código 4~s~, ~b~Limpia la escena~s~ y vuelve a ~g~patrullar~s~.</Text>
+    </End>
+
+</Shooting>

@@ -1,0 +1,64 @@
+<Kidnapping>
+
+    <General>
+        <Message>Rozmówca poinformował o możliwym porwaniu</Message>
+        <Message>Wymagane zatrzymanie drogowe</Message>
+        <Message>Przeprowadź ~g~kontrolę~w~ na ~o~podejrzanym pojeździe~w~, odpowiedz na wezwanie w kodzie 3.</Message>
+        <Message>Centrala, podejrzany został ~y~zatrzymany~w~!</Message>
+        <Message>Kierowca ~r~nie żyje, ~g~Kod 4</Message>
+        <Message>Pasażer ~r~nie żyje, ~g~Kod 4</Message>
+        <Message>O nie, ofiara ~r~nie żyje! ~g~Kod 4</Message>
+    </General>
+
+    <Infos>
+        <Info>Pojazd został zgłoszony za ~y~przekroczenie prędkości~w~.</Info>
+        <Info>Pojazd to ~b~czarny Granger SUV~w~.</Info>
+    </Infos>
+
+    <Conversation1>
+        <Dialogue>Aby porozmawiać z kierowcą naciśnij </Dialogue>
+        <Dialogue>~y~Ty~w~: Witaj, jestem z lokalnego departamentu policji.</Dialogue>
+        <Dialogue>~o~Kierowca~w~: Widzę. Jaki jest powód zatrzymania?</Dialogue>
+        <Dialogue>~y~Ty~w~: Dostaliśmy zgłoszenie dotyczące twojego pojazdu. Kto jest z tobą?</Dialogue>
+        <Dialogue>~o~Kierowca~w~: Za mną siedzi mój szef. Więcej nie musisz wiedzieć.</Dialogue>
+        <Dialogue>~y~Ty~w~: Cóż, to ja decyduję z kim rozmawiam.</Dialogue>
+        <Dialogue>~o~Pasażer za kierowcą~w~: Przestań się z nami droczyć, nic złego nie zrobiliśmy!</Dialogue>
+        <Dialogue>~y~Ty~w~: Z panem teraz nie rozmawiam, chcę porozmawiać z panią.</Dialogue>
+        <Dialogue>~y~Ty~w~: Proszę pani, czy wszystko w porządku? Zna pani tych panów?</Dialogue>
+        <Dialogue>~p~Kobieta~w~: Tak...</Dialogue>
+        <Dialogue>Kobieta wydaje się ~r~wstrząśnięta~w~ i ~r~zakłopotana~w~.</Dialogue>
+        <Dialogue>~o~Pasażer za kierowcą~w~: Widzisz, nic tu się nie dzieje, przestań marnować swój czas!</Dialogue>
+        <Dialogue>Coś tu się wydaje nie tak, wezwij wsparcie.</Dialogue>
+        <Dialogue>~y~Ty~w~: W porządku, teraz wszyscy wychodzą z pojazdu pojedynczo...</Dialogue>
+    </Conversation1>
+
+    <OutcomeVehiclePursuit>
+        <Dialogue>~o~Pasażer za kierowcą~w~: ~r~Jedź, jedź, jedź~w~!</Dialogue>
+        <Dialogue>~y~Ty~w~: Centrala, rozpoczynam ~r~pościg~w~!</Dialogue>
+        <Dialogue>~g~Złap~w~ obu podejrzanych, wezwij ~b~wsparcie~w~ w razie potrzeby!</Dialogue>
+    </OutcomeVehiclePursuit>
+
+    <OutcomeSurrender>
+        <Dialogue>~o~Kierowca~w~: ~r~Poddajemy się~w~!</Dialogue>
+        <Dialogue>~g~Zaaresztuj~w~ obu podejrzanych!</Dialogue>
+    </OutcomeSurrender>
+
+    <OutcomeFootPursuit>
+        <Dialogue>~o~Pasażer za kierowcą~w~: ~r~Uciekać!</Dialogue>
+        <Dialogue>~y~Ty~w~: Centrala, rozpoczynam ~r~pieszy pościg~w~ za dwoma podejrzanymi!</Dialogue>
+        <Dialogue>~g~Złap~w~ obu podejrzanych, wezwij ~b~wsparcie~w~ w razie potrzeby!</Dialogue>
+    </OutcomeFootPursuit>
+
+    <VictimTalk>
+        <Dialogue>Podejdź do ~g~ofiary~w~ i upewnij się czy wszystko z nią ~g~w porządku~w~.</Dialogue>
+        <Dialogue>~y~Ty~w~: Spokojnie, jesteś bezpieczna.</Dialogue>
+        <Dialogue>~g~Ofiara~w~: O mój Boże, dziękuje ci bardzo! Tak się bałam!</Dialogue>
+        <Dialogue>~y~Ty~w~: Znasz któregoś z napastników?</Dialogue>
+        <Dialogue>~g~Ofiara~w~: Nie, nigdy wcześniej ich nie widziałam! Mówili, że zamierzają mnie sprzedać!</Dialogue>
+        <Dialogue>~y~Ty~w~: Teraz są za kratami. Potrzebujesz pomocy medycznej?</Dialogue>
+        <Dialogue>~g~Ofiara~w~: Nie, czuje się dobrze, tylko trochę roztrzęsiona. Bardzo dziękuję za pomoc!</Dialogue>
+        <Dialogue>~y~Ty~w~: Cieszę się, że nic ci nie jest, wracaj bezpiecznie do domu!</Dialogue>
+        <Dialogue>Wybierz, czy ma ją zabrać ~y~taxi~w~, ~g~uber~w~ albo ~b~ma poradzić sobie sama~w~.</Dialogue>
+    </VictimTalk>
+    
+</Kidnapping>

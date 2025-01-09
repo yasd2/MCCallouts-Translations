@@ -1,0 +1,12 @@
+<FastPursuit>
+
+    <General>
+        <Text>Inseguimento veloce</Text>
+        <Text>Agente richiesto per veicolo in fuga</Text>
+        <Text>Localizza e insegui il ~r~sospetto~w~.</Text>
+        <Text>Il sospetto é ~r~deceduto~w~. Noi abbiamo ~g~Codice 4~w~.</Text>
+        <Text>il sospetto  é in ~b~custodia~w~. Noi abbiamo ~g~Codice 4~w~.</Text>
+        <Text>Noi abbiamo  ~g~Codice 4~w~.</Text>
+    </General>
+
+</FastPursuit>

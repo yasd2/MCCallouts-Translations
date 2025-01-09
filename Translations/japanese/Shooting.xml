@@ -1,0 +1,49 @@
+<Shooting>
+
+    <General>
+        <Text>発砲事案</Text>
+        <Text>2人がそれぞれお互いに拳銃で撃ち合っています。</Text>
+        <Text>現場に~b~緊急走行~s~し、2人の発砲者に~r~注意~s~してください。~r~発砲を確認しています~s~!</Text>
+        <Text>~y~あなた~s~: ~r~武器~s~を~p~捨てなさい!~s~ ~b~警察だ~s~!!!</Text>
+        <Text>応援を要請してください!</Text>
+        <Text></Text>
+        <Text></Text>
+    </General>
+
+    <Outcomes>
+
+        <StillShooting>
+            <Text>~y~あなた~s~: 被疑者らは耳を一切傾けません。~o~あなたが正しいと信じて~s~、~r~制圧~s~するか、~o~逮捕~s~するか決めてください!</Text>
+        </StillShooting>
+
+        <Surrender>
+            <Text>~r~被疑者1~s~: 撃たないでくれ、~g~諦めるよ~s~!</Text>
+            <Text>~p~被疑者2~s~: 私も~g~降参~s~だ!</Text>
+        </Surrender>
+
+        <ShootAtPlayer>
+            <Text>警察官に対して発砲を確認!</Text>
+            <Text>~p~被疑者~s~: もう諦めるよ。刑務所に入れてくれ。もう終わりだ。</Text>
+        </ShootAtPlayer>
+
+    </Outcomes>
+
+    <Arrest>
+        <Text>本部、被害者の一人を~y~逮捕~w~した!</Text>
+        <Text>本部、被害者の一人が~o~負傷~w~した!</Text>
+    </Arrest>
+
+    <OnScene>
+        <Text>~r~容疑者~s~に~b~移送~s~を要請してください。</Text>
+        <Text>~r~容疑者~s~に~b~移送~s~と~p~検視官~s~を要請してください。</Text>
+        <Text>~r~容疑者~s~に~p~検視官~s~を要請してください。</Text>
+    </OnScene>
+
+    <End>
+        <Text>~r~GTA5のPedのエラー~s~が発生しました。コールアウトを~g~終了~s~します。</Text>
+        <Text>~y~あなた~s~は死亡しました。コールアウトを~g~終了~s~します。</Text>
+        <Text>コールアウトが終了しました。</Text>
+        <Text>~g~事案解決~s~です。~b~現場~s~を~b~片付けてから~s~、~g~パトロール~s~に戻ってください。</Text>
+    </End>
+
+</Shooting>

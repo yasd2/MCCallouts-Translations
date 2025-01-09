@@ -1,0 +1,35 @@
+<PersonWithFirearm>
+
+    <General>
+        <Text>Suspect armé</Text>
+        <Text>Un individu est soupçonné de porter une arme à feu. Prenez contact avec lui.</Text>
+        <Text>Approchez-vous du ~r~Suspect~w~ et procédez au ~y~contrôle~w~.</Text>
+        <Text>Appuyez sur {0} pour arrêter et parler avec le suspect.</Text>
+        <Text>Il n'y a plus de dialogue avec le ~r~Suspect~w~.</Text>
+    </General> 
+
+    <Conversation>
+        <Dialogue>~b~Vous:~w~ Bonjour, contrôle de police.</Dialogue>
+        <Dialogue>~r~Suspect:~w~ Qu'es-ce-que tu me veux toi ?!</Dialogue>
+        <Dialogue>~b~Vous:~w~ C'est un contrôle de police. Nous voulons verifier si vous n'êtes pas en possession d'une arme.</Dialogue>
+        <Dialogue>~r~Suspect:~w~ C'est faux! Vous vous trompez de personne.</Dialogue>
+        <Dialogue>~b~Vous:~w~ Veuillez coopérer s'il vous plait.</Dialogue>
+    </Conversation>
+
+    <Shooting>
+        <Dialogue>~r~Suspect:~w~ NON! JAMAIS!</Dialogue>
+    </Shooting>
+
+    <Surrender>  
+        <Dialogue>~r~Suspect:~w~ Ok, Je suis désolé...que dois-je faire?</Dialogue>
+        <Dialogue>~b~Vous:~w~ Nous allons vous menotter et vous emmener au poste.</Dialogue>
+        <Dialogue>~r~Suspect:~w~ Daccord monsieur...désolé...</Dialogue>
+    </Surrender>
+
+    <End>
+        <Text>,Suspect interpellé ~g~Code 4~w~</Text>
+        <Text>~g~Code 4~w~</Text>
+        <Text>Le ~r~suspect est décédé.~g~ Code 4</Text>
+    </End>
+
+</PersonWithFirearm>

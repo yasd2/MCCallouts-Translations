@@ -1,0 +1,70 @@
+<Shoplifting>
+
+    <General>
+        <Text>Ein gemeldeter Ladendiebstahl</Text>
+        <Text>Ein Ladenbesitzer hat die Polizei gerufen</Text>
+        
+        <Text>~HC_64~Ladenbesitzer~s~:</Text>
+        <Text>~y~Sie~s~:</Text>
+    </General>
+
+    <GetInfos>
+        <Dialogue>Hallo, ich bin ein Beamter von der örtlichen Polizeidienststelle.</Dialogue>
+        <Dialogue>Sie haben uns wegen eines Ladendiebstahls gerufen?</Dialogue>
+        <Dialogue>Hallo! Ja, der Verdächtige ist vor ein paar Minuten geflohen!</Dialogue>
+        <Dialogue>Dieser Kerl hat eine Menge Zeug gestohlen, er trägt eine Tasche damit.</Dialogue>
+        <Dialogue>Wie sieht der Verdächtige aus?</Dialogue>
+
+        <!-- {1}: ShoplHelper.Background() -->
+        <Dialogue>Er hat schwarze Hautfarbe und ist männlich</Dialogue>
+        <Dialogue>Er hat weiße Hautfarbe und ist männlich</Dialogue>
+
+        <!-- {1}: {Suspect.GetRoundAge()} = {10} -->
+        <Dialogue>und ist ungefähr {10} Jahre alt.</Dialogue>
+
+        <!-- {2}: ShoplHelper.TShirt() -->
+        <Dialogue>Er trug ein weißes Tanktop</Dialogue>
+        <Dialogue>Er trug ein graues Tanktop</Dialogue>
+        <Dialogue>Er trug eine schwarze Lederjacke</Dialogue>
+
+        <!-- {2}: ShoplHelper.Pants() -->
+        <Dialogue>und karierte Hosen.</Dialogue>
+        <Dialogue>und weiße Hosen.</Dialogue>
+        <Dialogue>und eine hellblaue Jeans.</Dialogue>
+
+        <Dialogue>Ich habe ihn auf der Überwachungskamera erwischt, hier ist ein Foto von ihm!</Dialogue>
+        <Dialogue>Der Verdächtige ist zu Fuß geflohen!</Dialogue>
+        <Dialogue>Alles klar, vielen Dank, auf Wiedersehen!</Dialogue>
+    </GetInfos>
+
+    <LocationUpdater>
+        <Text>Die ~y~Position~s~ wurde aktualisiert!</Text> 
+        <Text>Die ~g~Position~s~ wurde aktualisiert!</Text> <!-- EasyLocationUpdater -->
+        <Text>Der ~r~Verdächtige~s~ wurde gefunden. Nehmen Sie ihn fest!</Text>
+    </LocationUpdater>
+
+    <Mugshot>
+        <Text>Schwarze Hautfarbe, männlich</Text>
+        <Text>weißes Tanktop</Text>
+
+        <Text>Weiße Hautfarbe, männlich</Text>
+        <Text>graues Tanktop</Text>
+
+        <Text>schwarze Lederjacke</Text>
+
+        <Text>~h~Beschreibung Verdächtiger~h~</Text>
+
+        <Text>Drücken Sie ~y~J~s~ jederzeit, um das ~y~Bild~s~ erneut anzusehen!</Text>
+    </Mugshot>
+
+    <SearchForSuspect>
+        <Text>Durchsuchen Sie nun die ~y~Gegend~s~ nach dem Verdächtigen., die auf Ihrem Navi ~y~markiert~s~ ist.</Text>
+        <Text>Suchen Sie den Verdächtigen und fahren Sie nach eigenem Ermessen fort.</Text>
+    </SearchForSuspect>
+
+    <WaitForEnd>
+        <Text>Der Verdächtige ist gestorben.</Text>
+        <Text>~g~Code 4.</Text>
+    </WaitForEnd>
+
+</Shoplifting>

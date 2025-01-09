@@ -1,0 +1,35 @@
+<PersonWithFirearm>
+
+    <General>
+      <Text>Persona con arma da fuoco</Text>
+         <Text>Si sospetta che un individuo porti con sé un'arma da fuoco. Entra in contatto con lui.</Text>
+         <Text>Avvicinati al ~r~sospetto~w~ e procedi con il ~y~dialogo~w~.</Text>
+         <Text>Premi {0} per fermarti e parlare con il sospetto.</Text>
+         <Text>Non c'è più dialogo con il ~r~sospetto~w~.</Text>
+    </General> 
+
+    <Conversation>
+        <Dialogue>~b~Tu:~w~ Ciao, va bene se parliamo un momento?</Dialogue>
+        <Dialogue>~r~Sospetto:~w~ No, chi sei?! Cosa vuoi!</Dialogue>
+        <Dialogue>~b~Tu:~w~ Voglio solo chiacchierare. Penso che potresti avere un'arma con te.</Dialogue>
+        <Dialogue>~r~Sospetto:~w~ Non è vero! Hai sbagliato persona.</Dialogue>
+        <Dialogue>~b~Tu:~w~ Per favore collabora con noi così possiamo sistemare le cose.</Dialogue>
+    </Conversation>
+
+    <Shooting>
+        <Dialogue>~r~Sospetto:~w~ NO! MAI!</Dialogue>
+    </Shooting>
+
+    <Surrender>  
+        <Dialogue>~r~Sospetto:~w~ Ok, mi dispiace... cosa devo fare?</Dialogue>
+        <Dialogue>~b~Tu:~w~ Per favore, puoi alzare le mani in aria così posso arrestarti.</Dialogue>
+        <Dialogue>~r~Sospetto:~w~ Sì, agente... mi dispiace...</Dialogue>
+    </Surrender>
+
+    <End>
+      <Text>Sospetto in custodia, ~g~Codice 4~w~</Text>
+         <Text>~g~Codice 4~w~</Text>
+         <Text>Il ~r~sospetto è morto.~g~ Codice 4</Text>
+    </End>
+
+</PersonWithFirearm>

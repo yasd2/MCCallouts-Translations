@@ -1,0 +1,12 @@
+<FastPursuit>
+
+    <General>
+        <Text>Fast Pursuit</Text>
+        <Text>Officer required for evading vehicle</Text>
+        <Text>Locate and pursue the ~r~suspect~w~.</Text>
+        <Text>Suspect is ~r~deceased~w~. We are ~g~Code 4~w~.</Text>
+        <Text>Suspect in ~b~custody~w~. We are ~g~Code 4~w~.</Text>
+        <Text>We are ~g~Code 4~w~.</Text>
+    </General>
+
+</FastPursuit>

@@ -1,0 +1,64 @@
+<Kidnapping>
+
+    <General>
+        <Message>La persona che ha chiamato ha avvisato di un possibile rapimento</Message>
+        <Message>Stop al traffico richiesto</Message>
+        <Message>Esegui un ~g~blocco del traffico~w~ sul ~o~veicolo sospetto~w~, rispondi al codice 3.</Message>
+        <Message>Centrale, un sospetto ~y~arrestato~w~!</Message>
+        <Message>L'autista ~r~è morto, ~g~Codice 4</Message>
+        <Message>l passeggero ~r~è morto, ~g~Codice 4</Message>
+        <Message>Oh no, la vittima ~r~è morta! ~g~</Message>
+    </General>
+
+    <Infos>
+        <Info>Il veicolo è stato segnalato ~y~eccesso di velocità~w~.</Info>
+        <Info>Il modello del veicolo è un ~b~SUV Granger nero~w~.</Info>
+    </Infos>
+
+    <Conversation1>
+        <Dialogue>Parla con il conducente usando </Dialogue>
+        <Dialogue>~y~Tu~w~: Ciao, sono un agente del dipartimento di polizia locale.</Dialogue>
+        <Dialogue>~o~Driver~w~: Lo vedo. Qual è il motivo dello stop?</Dialogue>
+        <Dialogue>~y~Tu~w~: Abbiamo ricevuto una chiamata riguardo al tuo veicolo. Chi altro c'è con te?</Dialogue>
+        <Dialogue>~o~Autista~w~: Solo il mio capo nella parte posteriore sinistra. Non hai bisogno di saperne di più.</Dialogue>
+        <Dialogue>~y~Tu~w~: Beh, dipende da me con chi parlare.</Dialogue>
+        <Dialogue>~o~Passeggero posteriore sinistro~w~: Amico, non scherzare con noi, non abbiamo fatto niente!</Dialogue>
+        <Dialogue>~y~Tu~w~: Signore, non sto parlando con te, lasciami parlare con la signora, adesso.</Dialogue>
+        <Dialogue>~y~Tu~w~: Signora, come sta? Conosci quei signori?</Dialogue>
+        <Dialogue>~p~Donna~w~: Sì...</Dialogue>
+        <Dialogue>La donna sembra ~r~tremare~w~ e sentirsi ~r~a disagio~w~.</Dialogue>
+        <Dialogue>~o~Passeggero posteriore sinistro~w~: Vedi, non c'è niente che non va, smettila di sprecare il tuo tempo!</Dialogue>
+        <Dialogue>Sembra che ci sia qualcosa che non va, procurati un'unità di backup.</Dialogue>
+        <Dialogue>~y~Tu~w~: Va bene, voglio che tutti escano uno per uno...</Dialogue>
+    </Conversation1>
+
+    <OutcomeVehiclePursuit>
+        <Dialogue>~o~Passeggero posteriore sinistro~w~: ~r~Vai vai vai~w~!</Dialogue>
+        <Dialogue>~y~Tu~w~: Dispaccio, sarà un ~r~inseguimento~w~!</Dialogue>
+        <Dialogue>~g~Insegui~w~ entrambi i sospettati, alla fine chiedi ~b~rinforzi~w~!</Dialogue>
+    </OutcomeVehiclePursuit>
+
+    <OutcomeSurrender>
+        <Dialogue>~o~Autista~w~: ~r~Ci arrendiamo~w~!</Dialogue>
+        <Dialogue>~g~Arresta~w~ entrambi i sospettati!</Dialogue>
+    </OutcomeSurrender>
+
+    <OutcomeFootPursuit>
+        <Dialogue>~o~Passeggero posteriore sinistro~w~: ~r~Corri!</Dialogue>
+        <Dialogue>~y~Tu~w~: Centrale, due sospettati ~r~inseguimento a piedi~w~!</Dialogue>
+        <Dialogue>~g~Insegui~w~ entrambi i sospettati, alla fine chiedi ~b~rinforzi~w~!</Dialogue>
+    </OutcomeFootPursuit>
+
+    <VictimTalk>
+        <Dialogue>Vai dalla ~g~vittima~w~ e assicurati che stia ~g~bene~w~.</Dialogue>
+        <Dialogue>~y~Tu~w~: Ciao signora, sei al sicuro ora.</Dialogue>
+        <Dialogue>~g~Vittima~w~: Oh mio Dio, grazie mille! Avevo tanta paura!</Dialogue>
+        <Dialogue>~y~Tu~w~: Conosci gli uomini che ti hanno rapito?</Dialogue>
+        <Dialogue>~g~Vittima~w~: No, non li ho mai visti! Mi avevano detto che mi avrebbero venduto!</Dialogue>
+        <Dialogue>~y~Tu~w~: Sono dietro le sbarre adesso. Hai bisogno di assistenza medica?</Dialogue>
+        <Dialogue>~g~Vittima~w~: No, sto bene, solo un po' tremante in questo momento. Grazie mille per il tuo aiuto!</Dialogue>
+        <Dialogue>~y~Tu~w~: Sono felice che tu stia bene, assicurati di tornare a casa sano e salvo!</Dialogue>
+        <Dialogue>Scegli, se vuoi un ~y~taxi~w~, ~g~Uber~w~ per prenderla o mandarla ~b~in viaggio~w~.</Dialogue>
+    </VictimTalk>
+    
+</Kidnapping>

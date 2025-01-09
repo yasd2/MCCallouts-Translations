@@ -1,0 +1,35 @@
+<PrisonerFlight>
+
+    <General>
+        <Text>Gefangenentransport per Flugzeug</Text>
+        <Text>Polizei-Pilot für Transport benötigt</Text>
+        <Text>Fahren Sie zum ~g~Flughafen~s~, das Flugzeug steht bereit!</Text>
+    </General>
+
+    <Agent>
+        <Dialogue>Sprechen Sie mit dem ~b~Agent~s~ mit</Dialogue>
+        <Dialogue>~y~Sie~s~: Hallo, ich bin Pilot der Polizei-Dienststelle, wie lautet der Auftrag?</Dialogue>
+        <Dialogue>~b~Agent~s~: Guten Tag, wir haben hier einen Schwerverbrecher, der nach North Yankton transportiert wird.</Dialogue>
+        <Dialogue>~b~Agent~s~: Nehmen Sie den Jet hier, der Gefangene befindet bereits innen.</Dialogue>
+        <Dialogue>~b~Agent~s~: Fliegen Sie zum Zielort auf Ihrem Navigationssystem, Sie können es nicht verfehlen.</Dialogue>
+        <Dialogue>~b~Agent~s~: Kräfte warten bereits vor Ort. Guten Flug!</Dialogue>
+        <Dialogue><![CDATA[Steigen Sie ins Flugzeug & fliegen Sie zum ~o~Ziel~s~.]]></Dialogue>
+        <Dialogue>Kein weiterer Dialog.</Dialogue>
+    </Agent>
+
+    <Officer>
+        <Dialogue>Fliegen Sie zum ~o~Ziel~s~ auf der Karte.</Dialogue>
+        <Dialogue>Sprechen Sie mit dem ~b~Polizisten~s~ mit</Dialogue>
+        <Dialogue><![CDATA[~b~Polizist~s~: Herzlich Willkommen in North Yankton!]]></Dialogue>
+        <Dialogue><![CDATA[~b~Polizist~s~: Es mag vielleicht etwas kalt & die Straßen rutschig sein...]]></Dialogue>
+        <Dialogue>~b~Polizist~s~: Der Gefangene sitzt bereits im Fahrzeug.</Dialogue>
+        <Dialogue>~b~Polizist~s~: Fahren Sie nun mit unserem Dienstfahrzeug zum ~g~Gefängnis~s~, welches auf dem Navi markiert ist.</Dialogue>
+        <Dialogue><![CDATA[Steigen Sie ins Fahrzeug & fahren Sie zum ~g~Gefängnis~s~.]]></Dialogue>
+        <Dialogue>Kein weiterer Dialog.</Dialogue>
+        <Dialogue>Folgen Sie der markierten Route zum ~g~Gefängnis~s~.</Dialogue>
+        <Dialogue>Einsatz abgeschlossen</Dialogue>
+        <Dialogue>Gute Arbeit!</Dialogue>
+        <Dialogue>Code 4.</Dialogue>
+    </Officer>
+
+</PrisonerFlight>

@@ -1,0 +1,23 @@
+<WantedSuspectLocated>
+
+    <General>
+        <Text>指名手配犯の発見</Text>
+        <Text>2箇所で目撃情報がありました。</Text>
+        <Text>被疑者を逮捕した。~g~事案解決~w~です。</Text>
+    </General>
+
+    <Scenes>
+        <Text>最初のエリアで~r~指名手配犯~w~を探します。</Text>
+        <Text>~g~エリア~s~内で~r~指名手配犯~w~を探します。</Text>
+        <Text>見つかりませんでした。~g~次の場所~w~へ移動して下さい。</Text>
+        <Text>~r~指名手配犯~w~を~g~第二のエリア~w~で捜索します。~r~きっと~w~ここに居るはずだ!</Text>
+        <Text>~r~指名手配犯~s~の情報: {0}~y~アジア系男性~s~, 細身, {0}黒髪, 30歳 {0}~b~青~s~のTシャツを着ています。</Text>
+    </Scenes>
+
+    <Outcomes>
+        <Dialogue>~r~指名手配犯~w~: やっべ警察だ。撃たないでくれ! 降参するから!</Dialogue>
+        <Dialogue>~r~指名手配犯~w~: やっべ警察だ。死んじまえ! ~o~脳天~s~ごと~o~ぶっ飛ばしてやる~s~!</Dialogue>
+        <Dialogue>~y~あなた~w~: 本部、指名手配犯を発見した。現在~o~逃走中~w~!</Dialogue>
+    </Outcomes>
+
+</WantedSuspectLocated>

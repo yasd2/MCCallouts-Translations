@@ -1,0 +1,64 @@
+<Kidnapping>
+
+    <General>
+        <Message>Anrufer meldet mögliche Entführung per Fahrzeug</Message>
+        <Message>Verkehrskontrolle erforderlich</Message>
+        <Message>Führen Sie eine ~g~Verkehrskontrolle~w~ am ~o~verdächtigen Fahrzeug~w~ durch, Anfahrt mit Blaulicht.</Message>
+        <Message>Zentrale, ein Verdächtiger ~y~verhaftet~w~!</Message>
+        <Message>Der Fahrer ~r~ist gestorben, ~g~Code 4</Message>
+        <Message>Ein Beifahrer ~r~ist gestorben, ~g~Code 4</Message>
+        <Message>Oh nein, das Opfer ~r~ist gestorben! ~g~Code 4</Message>
+    </General>
+
+    <Infos>
+        <Info>Das Fahrzeug wurde mit überhöhter Geschwindigkeit ~y~gemeldet~w~.</Info>
+        <Info>Das Fahrzeugmodell ist ein ~b~schwarzer Granger SUV~w~.</Info>
+    </Infos>
+
+    <Conversation1>
+        <Dialogue>Sprechen Sie mit dem Fahrer mit </Dialogue>
+        <Dialogue>~y~You~w~: Hallo, ich bin Beamter von der örtlichen Polizeidienststelle.</Dialogue>
+        <Dialogue>~o~Fahrer~w~: Das sehe ich. Was ist der Grund für den Halt?</Dialogue>
+        <Dialogue>~y~Sie~w~: Wir haben einen Anruf wegen Ihres Fahrzeuges erhalten. Wer ist noch bei Ihnen?</Dialogue>
+        <Dialogue>~o~Fahrer~w~: Nur mein Chef hinten links. Sie müssen nicht mehr wissen.</Dialogue>
+        <Dialogue>~y~Sie~w~: Nun, überlassen Sie das mir.</Dialogue>
+        <Dialogue>~o~Hinterer linker Beifahrer~w~: Kumpel, mach keine Probleme, wir haben nichts getan!</Dialogue>
+        <Dialogue>~y~Sie~w~: Der Herr, ich spreche nicht mit Ihnen, ich würde mich gern mit der Dame unterhalten.</Dialogue>
+        <Dialogue>~y~Sie~w~ ~g~zur Dame~s~: Wie geht es Ihnen? Kennen Sie diese Herren?</Dialogue>
+        <Dialogue>~p~Frau~w~: Ja...</Dialogue>
+        <Dialogue>Die Frau scheint zu ~r~zittern~w~ und sich ~r~unwohl~w~ zu fühlen.</Dialogue>
+        <Dialogue>~o~Hinterer linker Beifahrer~w~: Sehen Sie, hier ist alles in Ordnung, hören Sie auf, Ihre Zeit zu verschwenden!</Dialogue>
+        <Dialogue>Es scheint etwas nicht in Ordnung zu sein, rufen Sie Verstärkung.</Dialogue>
+        <Dialogue>~y~Sie~w~: Folgendes, ich möchte, dass alle nacheinander aussteigen...</Dialogue>
+    </Conversation1>
+
+    <OutcomeVehiclePursuit>
+        <Dialogue>~o~Hinterer linker Beifahrer~w~: ~r~Los, gib Gas~w~!</Dialogue>
+        <Dialogue>~y~You~w~: Zentrale, ~r~Fahrzeug~w~ entzieht sich Kontrolle!</Dialogue>
+        <Dialogue>~g~Verfolgen Sie~w~ beide Verdächtige, rufen Sie ~b~Verstärkung~w~ wenn nötig!</Dialogue>
+    </OutcomeVehiclePursuit>
+
+    <OutcomeSurrender>
+        <Dialogue>~o~Fahrer~w~: ~r~Wir geben auf~w~!</Dialogue>
+        <Dialogue>~g~Verhaften~w~ Sie beide Verdächtige!</Dialogue>
+    </OutcomeSurrender>
+
+    <OutcomeFootPursuit>
+        <Dialogue>~o~Hinterer linker Beifahrer~w~: ~r~Lauf!</Dialogue>
+        <Dialogue>~y~Sie~w~: Zentrale, zwei Verdächtige flüchten ~r~zu Fuß~w~!</Dialogue>
+        <Dialogue>~g~Verfolgen~w~ Sie beide Verdächtige, rufen Sie evtl. ~b~Verstärkung~w~!</Dialogue>
+    </OutcomeFootPursuit>
+
+    <VictimTalk>
+        <Dialogue>Gehen Sie zum ~g~Opfer~w~ und stellen Sie sicher, dass es ~g~wohlauf~w~ ist.</Dialogue>
+        <Dialogue>~y~Sie~w~: Hallo, Sie sind jetzt sicher.</Dialogue>
+        <Dialogue>~g~Opfer~w~: Oh mein Gott, vielen Dank! Ich hatte solche Angst!</Dialogue>
+        <Dialogue>~y~Sie~w~: Kennen Sie die Männer, die Sie entführt haben?</Dialogue>
+        <Dialogue>~g~Opfer~w~: Nein, ich habe sie noch nie gesehen! Sie haben mir gesagt, sie wollten mich verkaufen!</Dialogue>
+        <Dialogue>~y~Sie~w~: Die kommen jetzt erstmal ins Gefängnis. Brauchen Sie ärztliche Hilfe?</Dialogue>
+        <Dialogue>~g~Opfer~w~: Nein, mir geht's gut, ich bin nur total aufgeregt. Vielen Dank für Ihre Hilfe!</Dialogue>
+        <Dialogue>~y~Sie~w~: Schön, dass es Ihnen gut geht, kommen Sie sicher nach Hause!</Dialogue>
+        <Dialogue>Wählen Sie, ob Sie der Dame ein ~y~Taxi~w~ oder ~g~Uber~w~ rufen oder Sie ~b~zu Fuß~w~ entlassen möchten.</Dialogue>
+    </VictimTalk>
+    
+</Kidnapping>

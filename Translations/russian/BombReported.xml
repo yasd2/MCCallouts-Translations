@@ -1,0 +1,65 @@
+<BombReported>
+
+    <General>
+        <Text>Possible bomb reported</Text>
+        <Text>Search for a potential bomb thread, ~r~Code 3~s~.</Text>
+        <Text>Press {Y} to evacuate the citizens!</Text>
+        <Text>Search for the bomb in the ~y~area~s~.</Text>
+        <Text>HINT: Press {Y} to call the bomb specialist.</Text>
+        <Text>No bomb found, the area is clear.</Text>
+        <Text>Bomb disarmed! Good job!</Text>
+        <Text>~g~Green~s~ wire cut!</Text>
+        <Text>~y~Yellow~s~ wire cut!</Text>
+        <Text>~b~Blue~s~ wire cut!</Text>
+        <Text>Shit, you have cut the wrong wire! Run, the bomb will explode!</Text>
+    </General>
+
+    <Persons>
+        <Text>You</Text>
+        <Text>Specialist</Text>
+        <Text>Officer</Text>
+    </Persons>
+
+    <Officer>
+        <Dialogue>Hi! Thanks for coming out!</Dialogue>
+        <Dialogue>We have a big scene going on! A report about a possible bomb came in!</Dialogue>
+        <Dialogue>We took it very seriously and blocked off the scene.</Dialogue>
+        <Dialogue>When we're done talking, evacuate everybody on the scene, then search for a bomb! Good luck!</Dialogue>
+    </Officer>
+
+    <Evacuate>
+        <Dialogue>Hey, please leave the scene immediately! We might have a bomb here!</Dialogue>
+        <Dialogue>Hey you, we have a bomb thread, get a safe distance!</Dialogue>
+        <Dialogue>This area need to be evacuated immediately! Hurry up!</Dialogue>
+        <Dialogue></Dialogue>
+    </Evacuate>
+
+    <SpecialistGeneral>
+        <Dialogue>Hello? Have you found the bomb?</Dialogue>
+        <Dialogue>Yes, I think so. It's right in front of me.</Dialogue>
+        <Dialogue>Alright, let me think. It has some kind of fancy control.</Dialogue>
+        <Dialogue>Hmm... okay... damn... what the... ? Ah, I got it.</Dialogue>
+        <Dialogue>Then... hm... oh no... ah, ok...</Dialogue>
+        <Dialogue>Awesome, I'm still alive! The bomb seems to be disarmed. Good job and thank you!</Dialogue>
+        <Dialogue>You're welcome, bye.</Dialogue>
+    </SpecialistGeneral>
+
+    <SpecialistGYB>
+        <Dialogue>First cut the green wire.</Dialogue>
+        <Dialogue>Now cut the yellow wire.</Dialogue>
+        <Dialogue>Ok, if it hasn't exploded yet, cut the remaining blue wire.</Dialogue>
+    </SpecialistGYB>
+
+    <SpecialistBYG>
+        <Dialogue>First cut the blue wire.</Dialogue>
+        <Dialogue>Now cut the yellow wire.</Dialogue>
+        <Dialogue>Ok, if it hasn't exploded yet, cut the remaining green wire.</Dialogue>
+    </SpecialistBYG>
+
+    <SpecialistGBY>
+        <Dialogue>First cut the green wire.</Dialogue>
+        <Dialogue>Now cut the blue wire.</Dialogue>
+        <Dialogue>Ok, if it hasn't exploded yet, cut the remaining yellow wire.</Dialogue>
+    </SpecialistGBY>
+
+</BombReported>

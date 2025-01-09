@@ -1,0 +1,36 @@
+<CashTransport>
+
+    <General>
+        <Text>Riskanter Geldtransport</Text>
+        <Text>Fahren Sie zum ~g~~h~Einsatzort~h~~s~.</Text>
+        <Text>Drücken Sie {Y}, um zu sprechen</Text>
+        <Text>Fahren Sie zum ~b~~h~Zielort~h~~s~.</Text>
+        <Text>Drücken Sie jederzeit {Y}, wenn der RIOT stecken bleibt.</Text>
+        <Text>Nehmen Sie den ~HC_3~~h~Geldkoffer~h~~s~ aus dem hinteren Teil des ~r~~h~Geldtransporters~h~~s~.</Text>
+        <Text>Bringen Sie den Koffer in die Bank.</Text>
+        <Text>Drücken Sie ~y~~h~End~h~~s~, um den Einsatz jederzeit zu beenden.</Text>
+    </General>
+
+    <Persons>
+        <Text>Wachmann</Text>
+        <Text>Sie</Text>
+        <Text>Bankangestellter</Text>
+    </Persons>
+
+    <Guard>
+        <Dialogue>Hallo Officer! Vielen Dank, dass Sie gekommen sind! Wir haben eine sehr wichtige Lieferung!</Dialogue>
+        <Dialogue>Der gepanzerte Geldtransporter muss eine große Geldsumme zu unserem Zielort bringen.</Dialogue>
+        <Dialogue>Der Transporter wird von Ihnen gefahren, ein gepanzertes SWAT-Fahrzeug wird folgen.</Dialogue>
+        <Dialogue>Wir haben Berichte erhalten, dass ein Angriff stattfinden könnte, deshalb haben wir Sie und das SWAT-Team dabei. Los geht's!</Dialogue>
+    </Guard>
+
+    <Bankman>
+        <Dialogue>Hallo! Ich sehe, Sie haben es lebend geschafft! Jetzt wissen Sie, warum wir Profis wie Sie engagieren und nicht... meine Kollegen.</Dialogue>
+        <Dialogue>... absolut. Zumindest ist das SWAT-Fahrzeug kugelsicher.</Dialogue>
+        <Dialogue>Der Geldtransporter ist ebenfalls gepanzert. Nur die Fenster sind es nicht.</Dialogue>
+        <Dialogue>Hier ist der Koffer.</Dialogue>
+        <Dialogue>Perfekt, danke, ich werde ein gutes Wort für Sie einlegen!</Dialogue>
+        <Dialogue>Ich hoffe, das Risiko hat sich gelohnt. Einen schönen Tag noch!</Dialogue>
+    </Bankman>
+
+</CashTransport>

@@ -1,0 +1,12 @@
+<FastPursuit>
+
+    <General>
+        <Text>Szybki pościg</Text>
+        <Text>Potrzebne wsparcie do uciekającego pojazdu</Text>
+        <Text>Dogoń i złap ~r~podejrzanego~w~.</Text>
+        <Text>Podejrzany jest ~r~martwy~w~. ~g~Kod 4~w~.</Text>
+        <Text>Podejrzany został ~b~zatrzymany~w~. ~g~Kod 4~w~.</Text>
+        <Text>~g~Kod 4~w~.</Text>
+    </General>
+
+</FastPursuit>

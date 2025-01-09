@@ -1,0 +1,22 @@
+<IntoxicatedIndividual>
+
+    <General>
+        <Text>Odurzona osoba w miejscu publicznym</Text>
+        <Text>pana</Text>
+        <Text>panią</Text>
+        <Text>Naciśnij {0}, aby porozmawiać z podejrzanym.</Text>
+        <Text>~y~Ty~s~: Przepraszam {0}, potrzebujesz pomocy?</Text>
+        <Text>~p~Podejrzany~s~: Niuueee *hic*, wszystko w...*hic*...w porządkuuu.</Text>
+        <Text>~y~Ty~s~: Bycie pod wpływem w miejscu publicznym jest nielegalne. Muszę wypisać ci mandat.</Text>
+        <Text>~p~Podejrzany~s~: Mand...coo? Spaadaj mi stądd.</Text>
+        <Text>Koniec rozmowy.</Text>
+    </General>
+
+    <End>
+        <Text>Podejrzany został aresztowany! ~g~Kod 4~s~</Text>
+        <Text>Podejrzany jest martwy, ~g~Kod 4~w~</Text>
+        <Text>~g~Kod 4~w~</Text>
+        <Text>~r~GTA Ped Error,~s~ Wezwanie zakończone</Text>
+    </End>
+
+</IntoxicatedIndividual>

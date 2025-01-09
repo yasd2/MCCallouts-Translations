@@ -1,0 +1,9 @@
+<Timecycle>
+    <General>
+        <Text>Do you want to play at ~b~9 pm~w~ for a realistic experience?</Text>
+        <Text>Press '~g~Y~w~' for ~g~yes~w~, '~r~N~w~' for ~r~no~w~.</Text>
+        <Text>Press {0} for ~g~yes~w~,  {1} for ~r~no~w~.</Text>
+        <Text>Time stays, have fun!</Text>
+        <Text>Time was set to ~b~night~w~.</Text>
+    </General>
+</Timecycle>

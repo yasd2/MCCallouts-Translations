@@ -1,0 +1,68 @@
+<LostFreight>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+
+    <General>
+        <Text>Ztracený náklad</Text>
+        <Text>Volající nahlásil ztrátu nákladu na dálnici.</Text>
+        <Text><![CDATA[Dojedte k volajícímu a navazte kontakt.]]></Text>
+    </General>
+
+
+    <DisplayHelp>
+        <Text>Mluvte s volajícím</Text>
+        <Text><![CDATA[Prohledejte ~y~oblast~s~ a odstrante prekázky]]></Text>
+        <Text>Promluvte si s ~b~dustojníky~s~</Text>
+        <Text>zádná dalsí konverzace.</Text>
+        <Text>Zde je malá ~g~nápoveda.</Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+        <Text>~r~zádné objekty~s~ v blízkosti.</Text>
+        <Text>~r~Objekt~s~ odstranen!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>~y~Ty~s~: Dobrý den, volali jste kvuli ztracenému nákladu?</Dialogue>
+        <Dialogue><![CDATA[~b~Volající~s~: Ahoj, ano, dvere prívesu se otevrely a veci spadly na dálnici.!]]></Dialogue>
+        <Dialogue>~y~Ty~s~: To je nebezpecné, co jste mel za náklad.?</Dialogue>
+        <Dialogue>~b~Volající~s~: Vsechny druhy ~b~tenisových vecí~s~, protoze jsme vyklízeli klubovnu.</Dialogue>
+        <Dialogue>~b~Volající~s~: Spousta ~b~kancelárských vecí~s~, skríne, obrazovky, zidle a reproduktory...</Dialogue>
+        <Dialogue>~b~Volající~s~: Spousta ~b~kuchynského náciní~s~, hrncu, príboru, talíru atd., protoze jsme meli stehování firmy.</Dialogue>
+        <Dialogue>~y~Ty~s~: Aha, a odkud jste jel/a jako smer po té dalnici?</Dialogue>
+        <Dialogue>~b~Volající~s~: Jel/a jsem jenom jedním smerem a to hned za vámi jak jste prijel..</Dialogue>
+        <Dialogue>~y~Ty~s~: Dispecinku, zablokujte poslední vjezd na dálnici, cásti jsou na silnici.!</Dialogue>
+        <Dialogue>deset ctyri, provoz bude zastaven, jednotky na ceste.</Dialogue>
+    </Conversation>
+
+
+    <Officer1>
+        <Dialogue>~b~Dustojník Morris~s~: Ahoj! Doufám, ze más skvelý den.!</Dialogue>
+        <Dialogue>~b~Dustojník Morris~s~: Zastavíme dopravu, dokud nebude silnice volná.!</Dialogue>
+        <Dialogue>~b~Dustojník Morris~s~: Hodne stestí!</Dialogue>
+    </Officer1>
+
+
+    <Officer2>
+        <Dialogue>~b~Dustojník Ferris~s~: Dobrý den, jak dlouho to bude trvat?</Dialogue>
+        <Dialogue>~b~Dustojník Ferris~s~: Mám i jiné veci na práci!</Dialogue>
+        <Dialogue>~b~Dustojník Ferris~s~: Kdybys tolik nemluvil, uz bych byl pryc!</Dialogue>
+    </Officer2>
+
+
+    <End>
+        <Text>Vse pod ~g~Kodem 4~s~</Text>
+        <Text>Predmety odstraneny:</Text> <!--There are 4 items to find, on this message you get to see how many you've found.-->
+        <Text>/~g~4</Text> <!--This means X items from 4 items were found -> X/4 items found-->
+        <Text>~r~Dekuji, ~g~doprava muze být otevrena!</Text>
+    </End>
+
+
+
+</LostFreight>

@@ -1,0 +1,64 @@
+<Kidnapping>
+
+    <General>
+        <Message>誘拐事件</Message>
+        <Message>職務質問が必要です。</Message>
+        <Message>~g~職務質問~w~を~o~容疑車両~w~に行ってください。緊急走行で向かってください。</Message>
+        <Message>本部、容疑者を一名~y~逮捕~w~しました!</Message>
+        <Message>運転手が~r~死亡~s~しました。~g~事案解決~s~です。</Message>
+        <Message>同乗者が~r~死亡~s~しました。~g~事案解決~s~です。</Message>
+        <Message>ああ、被害者が~r~死亡~s~しました! ~g~事案解決~s~です。</Message>
+    </General>
+
+    <Infos>
+        <Info>車両は~y~速度違反~w~を繰り返しているようです。</Info>
+        <Info>車両が~b~黒のSUV~s~、車種は~b~グレンジャー~w~だと特定しました。</Info>
+    </Infos>
+
+    <Conversation1>
+        <Dialogue>次を使用して運転手と話してください: </Dialogue>
+        <Dialogue>~y~あなた~w~: こんにちは、警察です。</Dialogue>
+        <Dialogue>~o~運転手~w~: それは分かりますが、なぜ止められたのですか?</Dialogue>
+        <Dialogue>~y~あなた~w~: 我々はあなたの車に対して通報を受けたので来ました。他に誰が乗っていますか?</Dialogue>
+        <Dialogue>~o~運転手~w~: 上司が左後ろに乗っているが、あとは知らなくていいよ。</Dialogue>
+        <Dialogue>~y~あなた~w~: Well, that's up to me who I'm talking to.</Dialogue>
+        <Dialogue>~o~同乗者~w~: なあ、我々に干渉しないでくれ。何もしていないんだから!</Dialogue>
+        <Dialogue>~y~あなた~w~: 失礼ですが、こちらの女性と話をさせてください。</Dialogue>
+        <Dialogue>~y~あなた~w~: 奥さん、こちらの方々はお知り合いですか?</Dialogue>
+        <Dialogue>~p~女性~w~: はい...</Dialogue>
+        <Dialogue>女性は~r~震え~w~、~r~居心地が悪い~w~ように見えます。</Dialogue>
+        <Dialogue>~o~同乗者~w~: ほら、何もおかしくないじゃないか! 早く開放してくれ!</Dialogue>
+        <Dialogue>何か問題がありそうです。応援要請をしてください。</Dialogue>
+        <Dialogue>~y~あなた~w~: さて、一人ずつ車から降りてきてもらえますかね...</Dialogue>
+    </Conversation1>
+
+    <OutcomeVehiclePursuit>
+        <Dialogue>~o~同乗者~w~: ~r~行け行け行け~w~!</Dialogue>
+        <Dialogue>~y~あなた~w~: 本部、~r~被疑者が逃走した~w~!</Dialogue>
+        <Dialogue>被疑者らを~g~追跡~w~して、必要に応じて~b~応援要請~w~をしてください!</Dialogue>
+    </OutcomeVehiclePursuit>
+
+    <OutcomeSurrender>
+        <Dialogue>~o~運転手~w~: ~r~もうここまでだ~w~!</Dialogue>
+        <Dialogue>被疑者を両方~g~逮捕~w~してください!</Dialogue>
+    </OutcomeSurrender>
+
+    <OutcomeFootPursuit>
+        <Dialogue>~o~同乗者~w~: ~r~走れ!</Dialogue>
+        <Dialogue>~y~あなた~w~: 本部、~r~被疑者が徒歩で逃走した~w~!</Dialogue>
+        <Dialogue>被疑者らを~g~追跡~w~して、必要に応じて~b~応援要請~w~をしてください!</Dialogue>
+    </OutcomeFootPursuit>
+
+    <VictimTalk>
+        <Dialogue>~g~被害者~w~の~g~安全確認~w~をしてください。</Dialogue>
+        <Dialogue>~y~あなた~w~: もう大丈夫ですよ。</Dialogue>
+        <Dialogue>~g~被害者~w~: ええ、ありがとうございます! とても怖かったですわ!</Dialogue>
+        <Dialogue>~y~あなた~w~: 誘拐犯はお知り合いですか?</Dialogue>
+        <Dialogue>~g~被害者~w~: いいえ、初対面ですわよ! この無様な殿方はわたくしを売るつもりだったようですわ!</Dialogue>
+        <Dialogue>~y~あなた~w~: お怪我などされていましたら救急車をお呼びしますよ。</Dialogue>
+        <Dialogue>~g~被害者~w~: 大丈夫ですわ。恐怖でまだ震えているくらいですから。助けていただいたことに感謝申し上げますわ。</Dialogue>
+        <Dialogue>~y~あなた~w~: ご自宅まで安全にお帰りください!</Dialogue>
+        <Dialogue>~y~タクシー~w~か、~g~配車サービス~w~を呼んで、彼女を~g~帰宅~s~させてください。</Dialogue>
+    </VictimTalk>
+
+</Kidnapping>

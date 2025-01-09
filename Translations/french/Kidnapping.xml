@@ -1,0 +1,64 @@
+<Kidnapping>
+
+    <General>
+        <Message>Le requérant nous a informé d'un possible enlèvement et d'une fuite en véhicule</Message>
+        <Message>Controle routier requis</Message>
+        <Message>Effectuez un ~g~contrôle routier~w~ sur le ~o~véhicule suspect~w~, répondez au Code 3.</Message>
+        <Message>Suspect ~y~interpellé~w~!</Message>
+        <Message>Suspect ~r~décédé, ~g~Code 4</Message>
+        <Message>Passager ~r~décédé, ~g~Code 4</Message>
+        <Message>Oh no, la victime est ~r~décédé! ~g~Code 4</Message>
+    </General>
+
+    <Infos>
+        <Info>Le véhicule a été signalé en ~y~excès de vitesse~w~.</Info>
+        <Info>Le modèle du véhicule est un ~b~SUV Granger noir~w~.</Info>
+    </Infos>
+
+    <Conversation1>
+        <Dialogue>Parlez au Conducteur </Dialogue>
+        <Dialogue>~y~Vous~w~ : Bonjour, contrôle de police.</Dialogue>
+        <Dialogue>~o~Conducteur~w~ : Je le vois. Quelle est la raison du contrôle ?</Dialogue>
+        <Dialogue>~y~Vous~w~ : Nous avons reçu un appel concernant votre véhicule. Qui d'autre est avec vous ?</Dialogue>
+        <Dialogue>~o~Conducteur~w~ : Juste mon patron à l'arrière gauche. Vous n'avez pas besoin d'en savoir plus.</Dialogue>
+        <Dialogue>~y~You~w~ : Eh bien, c'est moi qui décide monsieur.</Dialogue>
+        <Dialogue>~o~Passager arrière gauche~w~ : Mec, ne fais pas l'américain, nous n'avons rien fait !</Dialogue>
+        <Dialogue>~y~Vous~w~ : Monsieur, je ne vous parle pas, laissez-moi parler à la dame, maintenant.</Dialogue>
+        <Dialogue>~y~Vous~w~ : Madame, comment allez-vous ? Connaissez-vous ces messieurs ?</Dialogue>
+        <Dialogue>~p~Femme~w~ : Oui...</Dialogue>
+        <Dialogue>La femme semble ~r~secouer~w~ et se sentir ~r~mal à l'aise~w~.</Dialogue>
+        <Dialogue>~o~Passager arrière gauche~w~ : Vous voyez, il n'y a rien de mal ici, vous perdez votre temps !</Dialogue>
+        <Dialogue>Il semble y avoir quelque chose qui ne va pas, contacter une unité de secours.</Dialogue>
+        <Dialogue>~y~You~w~ : Très bien, je veux que tout le monde sorte du véhicule un par un...</Dialogue>
+     </Conversation1>
+
+    <OutcomeVehiclePursuit>
+        <Dialogue>~o~Passager arrière gauche~w~ : ~r~Allez, allez, allez~w~!</Dialogue>
+        <Dialogue>~y~Vous~w~ : Dépêchez-vous, prise en chasse du véhicule ~r~poursuite~w~ !</Dialogue>
+        <Dialogue>~g~Poursuivez~w~ les deux suspects, appelez ~b~des renforts~w~ éventuellement !</Dialogue>
+    </OutcomeVehiclePursuit>
+
+    <OutcomeSurrender>
+        <Dialogue>~o~Conducteur~w~: ~r~Ok ok on s'arrte~w~!</Dialogue>
+        <Dialogue>~g~Interpellez~w~ les suspects!</Dialogue>
+    </OutcomeSurrender>
+
+    <OutcomeFootPursuit>
+        <Dialogue>~o~Passager arrière gauche~w~: ~r~Courrez!</Dialogue>
+        <Dialogue>~y~Vous~w~: Dispatch, Deux suspects ~r~s'enfuient à pied~w~!</Dialogue>
+        <Dialogue>~g~Poursuivez~w~ les suspects, appelez des ~b~renforts~w~ éventuellement!</Dialogue>
+    </OutcomeFootPursuit>
+
+    <VictimTalk>
+        <Dialogue>Allez voir la ~g~victime~w~ et assurez-vous qu'elle va ~g~bien~w~.</Dialogue>
+        <Dialogue>~y~Vous~w~ : Bonjour madame, vous êtes en sécurité maintenant.</Dialogue>
+        <Dialogue>~g~Victime~w~ : Oh mon Dieu, merci beaucoup ! J'avais tellement peur !</Dialogue>
+        <Dialogue>~y~Vous~w~ : Connaissez-vous les hommes qui vous ont kidnappé ?</Dialogue>
+        <Dialogue>~g~Victime~w~ : Non, je ne les ai jamais vus ! Ils m'ont dit qu'ils allaient me vendre !</Dialogue>
+        <Dialogue>~y~Vous~w~ : Ils ont été arrêtés maintenant, rassurez vous. Avez-vous besoin d'une assistance médicale ?</Dialogue>
+        <Dialogue>~g~Victime~w~ : Non, je vais bien, je suis juste un peu sonné. Merci beaucoup pour votre aide !</Dialogue>
+        <Dialogue>~y~Vous~w~ : Content que tout se passe bien, assurez-vous de rentrer chez vous saine et sauve !</Dialogue>
+        <Dialogue>Choisissez, si vous voulez un ~y~taxi~w~, ou un ~g~Uber~w~ pour la raccompagner ~b~chez elle~w~.</Dialogue>
+    </VictimTalk>
+    
+</Kidnapping>

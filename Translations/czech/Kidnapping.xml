@@ -1,0 +1,64 @@
+<Kidnapping>
+
+    <General>
+        <Message>Volajici informoval o moznem unosu osoby.</Message>
+        <Message>Vyzadovano zastaveni dopravy</Message>
+        <Message>Zastavte ~g~provoz~w~ na ~o~podezrele vozidlo~w~, odpovezte na kod 3.</Message>
+        <Message>Dispatch, jeden podezrely je ~y~zatcen~w~!</Message>
+        <Message>Ridic je ~r~zesnuly, pod ~g~Kodem 4</Message>
+        <Message>Pasazer je ~r~zesnuly, pod ~g~Kodem 4</Message>
+        <Message>Ach ne, obet zemrela! pod ~g~Kodem 4</Message>
+    </General>
+
+    <Infos>
+        <Info>Vozidlo bylo nahlaseno ~y~prekroceni rychlosti~w~.</Info>
+        <Info>Model vozidla je ~b~cerny Granger SUV~w~.</Info>
+    </Infos>
+
+    <Conversation1>
+        <Dialogue>Promluvte si s ridicem. </Dialogue>
+        <Dialogue>~y~Dustojnik~w~: Dobry den, jsem dustojnik z mistniho policejniho oddeleni.</Dialogue>
+        <Dialogue>~o~Ridic~w~: To vidím. Jaky je duvod zastaveni?</Dialogue>
+        <Dialogue>~y~Dustojnik~w~: Mame podezrení ohledne vaseho vozidla. kdo je jeste s tebou?</Dialogue>
+        <Dialogue>~o~Driver~w~: Jen muj sef vlevo vzadu. Víc vedet nepotrebujes.</Dialogue>
+        <Dialogue>~y~Dustojnik~w~: No, to je na mne, s kym budu mluvit.</Dialogue>
+        <Dialogue>~o~Levy zadní spolujezdec~w~: Kamo, nezahravej se s nami, nic jsme neprovedli!</Dialogue>
+        <Dialogue>~y~Dustojnik~w~: Pane, ja s vami nemluvim, dovolte mi, abych si promluvil s pani.</Dialogue>
+        <Dialogue>~y~Dustojnik~w~: Pani, jak se mate? Znate ty pany?</Dialogue>
+        <Dialogue>~p~Zena~w~: Ano...</Dialogue>
+        <Dialogue>Zda se, ze zena se ~r~trese~w~ a cítí se ~r~neprijemne~w~.</Dialogue>
+        <Dialogue>~o~Levy zadní spolujezdec~w~: Vidís, tady není nic spatneho, prestan ztracet cas!</Dialogue>
+        <Dialogue>Zda se, ze neco není v poradku, zavolejte na dispach o posily.</Dialogue>
+        <Dialogue>~y~Dustojnik~w~: Dobre, chci, aby vsichni vystoupili jeden po druhem...</Dialogue>
+    </Conversation1>
+
+    <OutcomeVehiclePursuit>
+        <Dialogue>~o~Levy zadní spolujezdec~w~: ~r~Jed Jed~w~!</Dialogue>
+        <Dialogue>~y~Dustojnik~w~: Dispatch, jsem v ~r~pronasledovani~w~!</Dialogue>
+        <Dialogue>~g~Dispatch~w~ mame tady ujizdejíci vozidlo, jednotkam blizko oblasti ~b~reagujte~w~!</Dialogue>
+    </OutcomeVehiclePursuit>
+
+    <OutcomeSurrender>
+        <Dialogue>~o~Ridic~w~: ~r~Vzdavame se~w~!</Dialogue>
+        <Dialogue>~g~Zatknout~w~ oba podezreli!</Dialogue>
+    </OutcomeSurrender>
+
+    <OutcomeFootPursuit>
+        <Dialogue>~o~Levy zadní spolujezdec~w~: ~r~Utikej!</Dialogue>
+        <Dialogue>~y~Dustojnik~w~: Dispatch, mam tu dve podezrele osoby na ~r~uteku~w~!</Dialogue>
+        <Dialogue>~g~Dispatch~w~ mame tady dve podezrele osoby na uteku, jednotkam blizko oblasti ~b~reagujte~w~!</Dialogue>
+    </OutcomeFootPursuit>
+
+    <VictimTalk>
+        <Dialogue>Jdete k ~g~obeti~w~ a ujistete se, ze je ~g~v poradku~w~.</Dialogue>
+        <Dialogue>~y~Dustojnik~w~: Dobry den, pani, uz jste v bezpeci.</Dialogue>
+        <Dialogue>~g~Obet~w~: Ach muj boze, moc ti dekuji! Tolik jsem se bala!</Dialogue>
+        <Dialogue>~y~Dustojnik~w~: Znate muze, kteri vas unesli?</Dialogue>
+        <Dialogue>~g~Obet~w~: Ne, nikdy jsem je nevidel(a)! Rekli mi, ze me prodaji!</Dialogue>
+        <Dialogue>~y~Dustojnik~w~: Nyni jsou za mrizemi. Potrebujete lekarskou pomoc?</Dialogue>
+        <Dialogue>~g~Obet~w~: Ne, jsem v poradku, jen jsem ted trochu roztreseny(a). Moc dekuji za Vasi pomoc!</Dialogue>
+        <Dialogue>~y~Dustojnik~w~: Jsem rad, ze se mas(te) dobre, dojdete v poradku domu!</Dialogue>
+        <Dialogue>Vyberte, jednu z moznosti ~y~taxi~w~, ~g~Uber~w~. Tak aby jste obet dostali bezpecne ~b~domu~w~.</Dialogue>
+    </VictimTalk>
+    
+</Kidnapping>

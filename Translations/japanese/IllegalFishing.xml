@@ -1,0 +1,67 @@
+<IllegalFishing>
+
+    <General>
+        <Text>違法漁業の可能性</Text>
+    </General>
+
+    <Setup>
+        <Dialogue>{0}を押して話す</Dialogue>
+        <Dialogue>~y~あなた~s~: こんにちは、近くの警察署の者です。</Dialogue>
+        <Dialogue>~y~あなた~s~: 先ほど、違法な漁業をしているという通報がありました。</Dialogue>
+        <Dialogue>~b~被疑者~s~: あら、私は一人でここに居るだけで、何も違法ではありません。ただ釣りをしていただけです...</Dialogue>
+        <Dialogue>~y~あなた~s~: なにか捕獲しましたか?</Dialogue>
+        <Dialogue>~b~被疑者~s~: ええ、今のところはいくつか。</Dialogue>
+        <Dialogue>~y~あなた~s~: 分かりました。漁業免許があるか確認させて下さい。</Dialogue>
+        <Dialogue>{0}を押してIDを確認する。</Dialogue>
+        <Dialogue>{0}と{1}を押してIDを確認する。</Dialogue>
+        <Dialogue>{0}を押してインタラクションメニューを開く。</Dialogue>
+        <Dialogue>{0}と{1}を押してインタラクションメニューを開く</Dialogue>
+    </Setup>
+
+    <ConversationAfterCheckingLicense>
+        <Dialogue>~y~あなた~s~: 確認が終わりました。</Dialogue>
+        <Dialogue>~y~あなた~s~: あなたの漁業免許は有効です。これは問題ありません!</Dialogue>
+        <Dialogue>~y~あなた~s~: あなたの漁業免許は無効です。あなたは釣りをしてはいけません!</Dialogue>
+        <Dialogue>~y~あなた~s~: これに加えて、IDに問題がなければ、何も心配いりません。</Dialogue>
+        <Dialogue>~y~あなた~s~: そしてあなたには逮捕状も出ていないようです。</Dialogue>
+        <Dialogue>~y~あなた~s~: あなたには逮捕状が出ているようです。署までご同行願えますか?</Dialogue>
+        <Dialogue>~y~あなた~s~: 逮捕状に基づいてあなたを逮捕します。</Dialogue>
+        <Dialogue>被疑者を逮捕する。</Dialogue>
+        <Dialogue>事案が終了したら、被疑者を連行し、パトロールに戻る。</Dialogue>
+        <Dialogue>~y~あなた~s~: 違法漁業の告発を受けることになります。</Dialogue>
+        <Dialogue>~y~あなた~s~: ここを離れて下さい。さもなければ刑務所に行くことになります。それはどちらも望んでいません。</Dialogue>
+        <Dialogue>被疑者に罰金を課し、開放する。</Dialogue>
+        <Dialogue>{0}を押して、再び話す</Dialogue>
+    </ConversationAfterCheckingLicense>
+
+    <ConversationAfterPursuitArrest>
+        <Dialogue>~y~あなた~s~: こんなことのために走るなんて馬鹿だな...</Dialogue>
+        <Dialogue>~b~被疑者~s~: いずれにしろ、もう遅すぎだな...</Dialogue>
+    </ConversationAfterPursuitArrest>
+
+    <ConversationAndSearch>
+        <Dialogue>~y~あなた~s~: 危害を加えられるようなものは所持していませんか?</Dialogue>
+        <Dialogue>~b~被疑者~s~: いいえ...</Dialogue>
+        <Dialogue>容疑者の身体検査を行い、書類を作成して、被疑者を連行する。</Dialogue>
+    </ConversationAndSearch>
+
+    <End>
+        <Text>被疑者が死亡しました。</Text>
+        <Text>{0}を押していつでもコールアウトを終了します。</Text>
+        <Text>~r~GTA-エラー: Pedが見つかりません。~s~</Text>
+        <Text>~g~事案終了~s~</Text>
+    </End>
+
+    <Menu>
+        <Text>インタラクションメニュー</Text>
+        <Text>オプション:</Text>
+        <Text>漁業免許を確認</Text>
+        <Text>名前:</Text>
+        <Text>出生日:</Text>
+        <Text>漁業免許</Text>
+        <Text>IDを確認</Text>
+        <Text>~g~有効な免許~s~</Text>
+        <Text>~r~無効な免許~s~</Text>
+    </Menu>
+
+</IllegalFishing>

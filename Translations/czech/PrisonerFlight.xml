@@ -1,0 +1,35 @@
+<PrisonerFlight>
+
+    <General>
+        <Text>Letecký transport vezne</Text>
+        <Text>Policejní pilot potrebný pro prepravu vezne</Text>
+        <Text>Jedte na ~g~letiste~s~, letadlo uz ceká!</Text>
+    </General>
+
+    <Agent>
+        <Dialogue>Promluvte si s ~b~agentem~s~</Dialogue>
+        <Dialogue>~y~Ty~s~: Dobrý den, jsem pilot z policejního oddelení, co tu máme?</Dialogue>
+        <Dialogue>~b~Agent~s~: Dobrý den, máme zde vysoce rizikového vezne, který bude prevezen do North Yanktonu.</Dialogue>
+        <Dialogue>~b~Agent~s~: Máme tu soukromé letadlo, vezen uz je v nem.</Dialogue>
+        <Dialogue>~b~Agent~s~: Lette prosím na místo urcení, které bude na vasem navigacním systému, nemuzete ho minout.</Dialogue>
+        <Dialogue>~b~Agent~s~: Policie tam na vás bude cekat. Preji vám stastný let!</Dialogue>
+        <Dialogue><![CDATA[Nasednete do letadla a odlette do ~o~destinace~s~.]]></Dialogue>
+        <Dialogue>zádný dalsí dialog.</Dialogue>
+    </Agent>
+
+    <Officer>
+        <Dialogue>Lette ke znacce ~o~cíle~s~ na minimape.</Dialogue>
+        <Dialogue>Promluvte si s ~b~dustojníkem~s~</Dialogue>
+        <Dialogue><![CDATA[~b~Dustojník~s~: Dobrý den a vítejte v North Yanktonu!]]></Dialogue>
+        <Dialogue><![CDATA[~b~Dustojník~s~: Mozná je tu trochu zima a ulice jsou kluzké...]]></Dialogue>
+        <Dialogue>~b~Dustojník~s~: Podezrelý jiz sedí ve vozidle.</Dialogue>
+        <Dialogue>~b~Dustojník~s~: Prosím, jedte s nasím policejním vozidlem do ~g~veznice~s~ oznacené na GPS.</Dialogue>
+        <Dialogue><![CDATA[Nasednete do vozidla a jedte do ~g~veznice~s~.]]></Dialogue>
+        <Dialogue>zádný dalsí dialog.</Dialogue>
+        <Dialogue>Jedte do ~g~veznice~s~ oznacené na GPS.</Dialogue>
+        <Dialogue>Callout dokoncen</Dialogue>
+        <Dialogue>Dobrá práce!</Dialogue>
+        <Dialogue>Pod kodem 4.</Dialogue>
+    </Officer>
+
+</PrisonerFlight>

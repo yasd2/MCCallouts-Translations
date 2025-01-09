@@ -1,0 +1,67 @@
+<IllegalFishing>
+
+    <General>
+        <Text>Meldungen über mögliche illegale Fischerei</Text>
+    </General>
+
+    <Setup>
+        <Dialogue>Drücken Sie {0}, um zu sprechen</Dialogue>
+        <Dialogue>~y~Sie~s~: Hallo, ich bin Beamter der örtlichen Polizeibehörde.</Dialogue>
+        <Dialogue>~y~Sie~s~: Wir haben einen Bericht über illegale Fischerei erhalten.</Dialogue>
+        <Dialogue>~b~Verdächtiger~s~: Oh, ich bin hier ganz allein, nichts Illegales, nur ein bisschen Angeln...</Dialogue>
+        <Dialogue>~y~Sie~s~: Haben Sie schon etwas gefangen?</Dialogue>
+        <Dialogue>~b~Verdächtiger~s~: Ja, ein paar habe ich schon gefangen.</Dialogue>
+        <Dialogue>~y~Sie~s~: Gut, ich benötige Ihre Angellizenz.</Dialogue>
+        <Dialogue>Drücken Sie {0}, um das Interaktionsmenü zu öffnen, verwenden Sie STP, um den Ausweis zu überprüfen.</Dialogue>
+        <Dialogue>Drücken Sie {0} und {1}, um das Interaktionsmenü zu öffnen, verwenden Sie STP, um den Ausweis zu überprüfen.</Dialogue>
+        <Dialogue>Drücken Sie {0}, um das Interaktionsmenü zu öffnen.</Dialogue>
+        <Dialogue>Drücken Sie {0} und {1}, um das Interaktionsmenü zu öffnen.</Dialogue>
+    </Setup>
+    
+    <ConversationAfterCheckingLicense>
+        <Dialogue>~y~Sie~s~: In Ordnung, ich habe Ihre Informationen überprüft.</Dialogue>
+        <Dialogue>~y~Sie~s~: Ihre Angellizenz ist gültig, soweit alles in Ordnung!</Dialogue>
+        <Dialogue>~y~Sie~s~: Ihre Angellizenz ist suspendiert, Sie dürfen nicht angeln!</Dialogue>
+        <Dialogue>~y~Sie~s~: Außerdem ist Ihr Ausweis sauber, nichts worüber Sie sich Sorgen machen müssten.</Dialogue>
+        <Dialogue>~y~Sie~s~: Sie haben auch keine Haftbefehle.</Dialogue>
+        <Dialogue>~y~Sie~s~: Meine Datenbank zeigt jedoch, dass Sie einen Haftbefehl haben. Sie müssen mit uns kommen.</Dialogue>
+        <Dialogue>~y~Sie~s~: Sie haben mir nichts von Ihrem Haftbefehl erzählt. Sie sind verhaftet.</Dialogue>
+        <Dialogue>Verhaften Sie den Verdächtigen.</Dialogue>
+        <Dialogue>Sobald Sie fertig sind, entlassen Sie den Verdächtigen und setzen Ihre Patrouille fort.</Dialogue>
+        <Dialogue>~y~Sie~s~: Sie erhalten eine Anzeige wegen illegaler Fischerei.</Dialogue>
+        <Dialogue>~y~Sie~s~: Kommen Sie nicht zurück, sonst bringe ich Sie ins Gefängnis und das wollen wir beide nicht.</Dialogue>
+        <Dialogue>Erstellen Sie eine Anzeige für den Verdächtigen  und lassen Sie ihn frei.</Dialogue>
+        <Dialogue>Drücken Sie erneut {0}, um zu sprechen</Dialogue>
+    </ConversationAfterCheckingLicense>
+
+    <ConversationAfterPursuitArrest>
+        <Dialogue>~y~Sie~s~: Das war dumm, wegen dieser Kleinigkeit wegzurennen...</Dialogue>
+        <Dialogue>~b~Verdächtiger~s~: Es ist jetzt sowieso zu spät...</Dialogue>
+    </ConversationAfterPursuitArrest>
+
+    <ConversationAndSearch>
+        <Dialogue>~y~Sie~s~: Haben Sie etwas bei sich, das mich stechen oder verletzen könnte?</Dialogue>
+        <Dialogue>~b~Verdächtiger~s~: Nein...</Dialogue>
+        <Dialogue>Durchsuchen Sie den Verdächtigen, erledigen Sie die Dokumentation und bringen Sie ihn ins Gefängnis.</Dialogue>
+    </ConversationAndSearch>
+
+    <End>
+        <Text>Der Verdächtige ist gestorben.</Text>
+        <Text>Drücken Sie jederzeit {0}, um den Einsatz zu beenden.</Text>
+        <Text>~r~GTA-Fehler: Ein Ped wurde invalid.~s~</Text>
+        <Text>~g~Code 4.~s~</Text>
+    </End>
+
+    <Menu>
+        <Text>Interaktionsmenü</Text>
+        <Text>Optionen:</Text>
+        <Text>Angellizenz anzeigen</Text>
+        <Text>Name:</Text>
+        <Text>Geboren:</Text>
+        <Text>Angellizenz</Text>
+        <Text>Ausweis zeigen</Text>
+        <Text>~g~Gültige Lizenz~s~</Text>
+        <Text>~r~Entzogene Lizenz~s~</Text>
+    </Menu>
+
+</IllegalFishing>

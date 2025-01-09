@@ -1,0 +1,35 @@
+<PersonWithFirearm>
+
+    <General>
+        <Text>Osoba z bronią</Text>
+        <Text>Osoba jest podejrzana o posiadanie broni. Spróbuj nawiązać rozmowę.</Text>
+        <Text>Podejdź do ~r~podejrzanego~w~ i rozpocznij ~y~dialog~w~.</Text>
+        <Text>Naciśnij {0}, aby porozmawiać z podejrzanym.</Text>
+        <Text>Koniec dialogu z ~r~podejrzanym~w~.</Text>
+    </General> 
+
+    <Conversation>
+        <Dialogue>~b~Ty:~w~ Witaj, możemy chwilę porozmawiać?</Dialogue>
+        <Dialogue>~r~Podejrzany:~w~ Nie, kim jesteś?! Czego chcesz!</Dialogue>
+        <Dialogue>~b~Ty:~w~ Chcę tylko porozmawiać. Istnieją podejrzenia, że jesteś w posiadaniu broni.</Dialogue>
+        <Dialogue>~r~Podejrzany:~w~ To nieprawda! Masz złą osobę.</Dialogue>
+        <Dialogue>~b~Ty:~w~ Proszę, zacznij współpracować, żebyśmy mogli rozwiązać ten problem.</Dialogue>
+    </Conversation>
+
+    <Shooting>
+        <Dialogue>~r~Podejrzany:~w~ NIE! NIGDY!</Dialogue>
+    </Shooting>
+
+    <Surrender>  
+        <Dialogue>~r~Podejrzany:~w~ W porządku, przepraszam...co mam zrobić?</Dialogue>
+        <Dialogue>~b~Ty:~w~ Podnieś ręcę do góry, nie stawiaj oporu i pozwól się zaaresztować.</Dialogue>
+        <Dialogue>~r~Podejrzany:~w~ Dobrze... przepraszam...</Dialogue>
+    </Surrender>
+
+    <End>
+        <Text>Podejrzany został aresztowany, ~g~Kod 4~w~</Text>
+        <Text>~g~Kod 4~w~</Text>
+        <Text>~r~Podejrzany jest martwy. ~g~ Kod 4</Text>
+    </End>
+
+</PersonWithFirearm>

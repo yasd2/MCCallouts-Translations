@@ -1,0 +1,12 @@
+<FastPursuit>
+
+    <General>
+        <Text>Schnelle Verfolgungsjagd</Text>
+        <Text>Beamter benötigt zur Verfolgung eines Fahrzeugs</Text>
+        <Text>Finden und verfolgen Sie den ~r~Verdächtigen~w~.</Text>
+        <Text>Verdächtiger ist ~r~verstorben~w~. Wir sind ~g~Code 4~w~.</Text>
+        <Text>Verdächtiger in ~b~Gewahrsam~w~. Wir sind ~g~Code 4~w~.</Text>
+        <Text>Zentrale, ~g~Code 4~w~.</Text>
+    </General>
+
+</FastPursuit>

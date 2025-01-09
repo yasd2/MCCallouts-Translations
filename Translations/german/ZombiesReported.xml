@@ -1,0 +1,36 @@
+<ZombiesReported>
+
+    <General>
+        <Text>Zivilist meldet Zombies</Text>
+        <Text>Fahren Sie zum besorgten Zivilisten, ~r~Code 3~s~.</Text>
+    </General>
+
+    <Persons>
+        <Text>Sie</Text>
+        <Text>Zivilist</Text>   
+    </Persons>
+
+    <Civilian>
+        <Dialogue>Hallo, geht es Ihnen gut?</Dialogue>
+        <Dialogue>Sie werden mir nicht glauben... Ich habe Zombies gesehen!!!</Dialogue>
+        <Dialogue>Okay, alles wird gut...</Dialogue>
+        <Dialogue>Da sind sie, aaaaaah!...</Dialogue>
+    </Civilian>
+
+    <Civilian2>
+        <Dialogue>Hallo, was ist los?</Dialogue>
+        <Dialogue>Ich glaube, ich werde verrückt... Ich habe Zombies herumlaufen sehen...</Dialogue>
+        <Dialogue>Verdammt, sind Sie sicher?</Dialogue>
+        <Dialogue>Oh Gott, da sind sie... rennen Sie!!!</Dialogue>
+    </Civilian2>
+
+    <Wave>
+        <Text>Welle {WaveNumber} beginnt!</Text>
+        <Text>~g~Welle {WaveNumber} abgeschlossen</Text>
+        <Text>~o~Welle {WaveNumber} beginnt in {time}s~s~</Text>
+        <Text>Glückwunsch, 10 Wellen gemeistert.</Text>
+        <Text>Drücken Sie ~y~End~s~, um den Einsatz jederzeit zu beenden.</Text>
+        <Text>Welle {WaveNumber}</Text>
+    </Wave>
+
+</ZombiesReported>

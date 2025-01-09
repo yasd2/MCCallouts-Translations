@@ -1,0 +1,9 @@
+<Timecycle>
+    <General>
+        <Text>Czy chcesz rozegrać tę misję o ~b~9 pm~w~ dla lepszej imersji?</Text>
+        <Text>Naciśnij '~g~Y~w~', aby ~g~zmienić czas~w~, '~r~N~w~', aby ~r~nie zmieniać~w~.</Text>
+        <Text>Naciśnij {0}, aby ~g~zmienić czas~w~,  {1}, aby ~r~nie zmieniać~w~.</Text>
+        <Text>Czas się nie zmienił, miłej zabawy!</Text>
+        <Text>Czas został zmieniony na ~b~noc~w~.</Text>
+    </General>
+</Timecycle>

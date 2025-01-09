@@ -1,0 +1,218 @@
+<BicycleAccident>
+
+    <General>
+        <Text>Dopravní nehoda na jízdním kole</Text>
+        <Text>Prozkoumejte místo cinu</Text>
+        <Text>A uz jste zjistili, co bylo prícinou nehody?</Text>
+        <Text>Dokoncení calloutu nehody na jízdním kole.</Text>
+    </General>
+
+
+    <D_Witness1_0>
+        <Dialogue>Ahoj, jmenuji se Greg. reknu vám, proc se to stalo.</Dialogue>
+        <Dialogue>Vidíte támhle toho podezrelého? Mel by být zastaven a vyslechnut.</Dialogue>
+        <Dialogue>Prekrocil povolenou rychlost.</Dialogue>
+        <Dialogue>Lidé se dnes nestarají o rychlostní limity.</Dialogue>
+    </D_Witness1_0>
+
+    <D_Witness2_0>
+        <Dialogue>Dobrý den. Videl jsem cást nehody.</Dialogue>
+        <Dialogue>cekal na chodníku a ohlízel se smerem k protijedoucím vozidlum.</Dialogue>
+        <Dialogue>I on mel neco v rukou. Nevidel jsem to.</Dialogue>
+        <Dialogue>Nejsem si stoprocentne jistý a nechci vinit cyklistu, ale vypadal nervózne.</Dialogue>
+        <Dialogue>Pak jsem si hledel svého, kdyz jsem uslysel hlasitý tresk, a tehdy se to stalo.</Dialogue>
+    </D_Witness2_0>
+
+    <D_Witness3_0>
+        <Dialogue>Jmenuji se Paul a ríkám vám, ze potrebujeme vetsí ochranu cyklistu.</Dialogue>
+        <Dialogue>Neexistuje zádná cyklostezka, kam by pak mel cyklista bezpecne vjet?</Dialogue>
+        <Dialogue>Ale nemuzete vinit ridice auta, ten cyklista byl proste hloupý.</Dialogue>
+        <Dialogue>Podíval se doprava, prímo na protijedoucí vozidlo. V tu chvíli se rozjel.</Dialogue>
+        <Dialogue>To je prece hloupost, ne?</Dialogue>
+    </D_Witness3_0>
+
+    <D_Witness4_Driver_0>
+        <Dialogue>Dobrý den, já jsem Sarah. Videla jsem, co se stalo, kdyz jsem rídila.</Dialogue>
+        <Dialogue>Podezrelý mel zjevne neco za lubem.</Dialogue>
+        <Dialogue>Omlouvám se, mel bych zmínit, ze mluvím o jezdci na kole.</Dialogue>
+        <Dialogue>Mel v ruce kameru, vypadalo to, ze si to chce natocit.</Dialogue>
+        <Dialogue>Vypadalo to, ze cyklista chtel skocit prímo pred vozidlo.</Dialogue>
+    </D_Witness4_Driver_0>
+
+    <D_Suspect_0>
+        <Dialogue>Dobrý den, strázníku, omlouvám se za to vsechno.</Dialogue>
+        <Dialogue>Byla to chyba cyklisty? Nebo moje? Vubec jsem toho cyklistu nevidel.</Dialogue>
+        <Dialogue>rídil jsem, kdyz se najednou prímo prede mnou objevil cyklista.</Dialogue>
+        <Dialogue>slápl jsem prudce na brzdu, ale nestacilo to. Doufám, ze bude v porádku.</Dialogue>
+        <Dialogue>Moje auto je vázne poskozené, ale o to se postará pojistovna.</Dialogue>
+    </D_Suspect_0>
+
+
+    <D_Witness1_1>
+        <Dialogue>Proc to trvá tak dlouho?! Mám naspech.</Dialogue>
+        <Dialogue>Jsem na ceste do práce, uz mám 5 minut zpozdení!</Dialogue>
+        <Dialogue>Videl jsem jen, jak ten motorkár jel jako dábel, prílis rychle.</Dialogue>
+        <Dialogue>Jel velmi rychle po chodníku, to jsem videl.</Dialogue>
+        <Dialogue>Uz opravdu musím jít, nashle!</Dialogue>
+    </D_Witness1_1>
+
+    <D_Witness2_1>
+        <Dialogue>Ahoj, jmenuji se Linda. Tihle cyklisté vzdycky blokují silnici!</Dialogue>
+        <Dialogue>Není divu, ze k takovým nehodám dochází. ridici musí být rychle v cíli a nemohou cekat na jezdce.</Dialogue>
+        <Dialogue>Tento cyklista nemel na hlave ani helmu! Jaká nedbalost!</Dialogue>
+        <Dialogue>Tenhle motorkár jel jako dábel. A vsechna ostatní auta musí nebezpecne predjízdet a riskovat zivoty protijedoucích!</Dialogue>
+        <Dialogue>reknu vám, ze na toho cyklistu musíte dávat pozor.</Dialogue>
+    </D_Witness2_1>
+
+    <D_Witness3_1>
+        <Dialogue>Ahoj, já jsem Paul. Chtel bych nahlásit. Wow, opravdu se mi líbí vase uniforma.</Dialogue>
+        <Dialogue>Jakou pistoli nosíte? Je to SFP9? To je pekná zbran.</Dialogue>
+        <Dialogue>Jo, omlouvám se, nejdrív jsem videl, ze ten motorkár nemel helmu.</Dialogue>
+        <Dialogue>Zapiste si: Cyklista mel pri jízde na usích sluchátka a nemel na hlave prilbu.</Dialogue>
+        <Dialogue>reknete mi: Mám na to, abych se stal policistou?</Dialogue>
+    </D_Witness3_1>
+
+    <D_Witness4_Driver_1>
+        <Dialogue>Dobrý den, já jsem Sarah. Jela jsem k nehode v protismerném pruhu. Vsechno jsem videla.</Dialogue>
+        <Dialogue>Auto bylo zaparkované a ridic se chystal odjet.</Dialogue>
+        <Dialogue>V tu chvíli cyklista prejel z chodníku na ulici a ani se nerozhlédl.</Dialogue>
+        <Dialogue>Cyklista jel rychle. To je vse, co jsem videl.</Dialogue>
+    </D_Witness4_Driver_1>
+
+
+    <D_Suspect_1_2>
+        <Dialogue>Dobrý den, to je ale scéna. A to jen proto, ze me ten motorkár odrízl.</Dialogue>
+        <Dialogue>Hloupí motorkári, podívejte se na moje auto! Predek je v háji!</Dialogue>
+        <Dialogue>Práve jsem si koupil toto vozidlo, není ani mesíc staré!</Dialogue>
+        <Dialogue>Motorkár jel po chodníku a pak do me náhle vjel. Nemel jsem sanci zareagovat.</Dialogue>
+        <Dialogue>Doufám, ze se brzy uzdraví, nechápejte me spatne. Ale já za to nemuzu.</Dialogue>
+    </D_Suspect_1_2>
+
+    <D_Witness1_2>
+        <Dialogue>Hej, spechám, tak to udelej rychle. Poslouchej.</Dialogue>
+        <Dialogue>Jak se jmenuji? Greg. Musím se rychle dostat do práce.</Dialogue>
+        <Dialogue>Videl jsem jen auto, které jelo prílis rychle.</Dialogue>
+        <Dialogue>O kole nic nevím, nevidel jsem ho.</Dialogue>
+        <Dialogue>Muzu uz jít? To je vse, co vím.</Dialogue>
+    </D_Witness1_2>
+
+    <D_Witness2_2>
+        <Dialogue>Ahoj, jmenuji se Linda. Podívej se na to kolo, je úplne v háji.</Dialogue>
+        <Dialogue>Sledoval jsem cyklistu kvuli kolu. To je nebo byl... muj oblíbený.</Dialogue>
+        <Dialogue>Omlouvám se, jel po krajnici. Najednou do nej nekdo zezadu narazil.</Dialogue>
+        <Dialogue>Slysel jsem hlasité brzdení a pak... kolo odletelo....</Dialogue>
+    </D_Witness2_2>
+
+    <D_Witness3_2>
+        <Dialogue>Ahoj strázníku, já jsem Paul, rád vás poznávám.!</Dialogue>
+        <Dialogue>Vís, ze jsem premýslel o práci u policie, jsem pro to stvorený.</Dialogue>
+        <Dialogue>sel jsem zrovna pesky, kdyz jsem uvidel toho cyklistu. Nemel na sobe helmu a nemel prední svetlo.</Dialogue>
+        <Dialogue>Nekdy je tezké videt lidi v tmavém oblecení, zejména za spatných povetrnostních podmínek.</Dialogue>
+    </D_Witness3_2>
+
+    <D_Witness4_Driver_2>
+        <Dialogue>Ahoj! Jmenuji se Sarah. Pracuji v nedaleké pekárne.</Dialogue>
+        <Dialogue>Díval jsem se z okna, kdyz jsem uvidel projízdet auto.</Dialogue>
+        <Dialogue>Mohlo to být prekrocení rychlosti, ale videl jsem ho na telefonu. Jsem si docela jistý, ze to bylo tohle auto.</Dialogue>
+        <Dialogue>Kdyz jsem uslysel hlasitou ránu, vybehl jsem ven. V tu chvíli jsem videl tu událost.</Dialogue>
+    </D_Witness4_Driver_2>  
+
+
+    <Persons>
+        <Text>Ty</Text>
+        <Text>Greg</Text>
+        <Text>Linda</Text>
+        <Text>Paul</Text>
+        <Text>Sarah</Text>
+        <Text>Záchranári</Text>
+        <Text>Obet</Text>
+        <Text>Peter</Text>
+        <Text>Isabella</Text>
+        <Text>Dustojník Thompson</Text>
+        <Text>Dustojník Reynolds</Text>
+        <Text>Dustojník Harrison</Text>
+        <Text>Dustojník Clinton</Text>
+        <Text>Hasici</Text>
+    </Persons>
+
+
+    <D_Paramedic1>
+        <Dialogue>Ahoj, jak to jde? Nenech se odlákat od mých velkých crowexových hodinek za 10 000.</Dialogue>
+        <Dialogue>Jak se darí pacientovi? Cyklista nevypadá dobre. Je tezce zranený.</Dialogue>
+        <Dialogue>Nereaguje, takze ho musíme okamzite odvézt do nemocnice.</Dialogue>
+    </D_Paramedic1>
+
+    <D_Paramedic2>
+        <Dialogue>Nemám cas si povídat. Motorkár má nejaké osklivé zranení, tak ho prosím neruste.</Dialogue>
+        <Dialogue>* sténání * ...</Dialogue>
+    </D_Paramedic2>
+
+    <D_Officer1>
+        <Dialogue>Hej, strázníku! Díky, ze jste se ukázal! Máme tu nejakou dopravní nehodu.</Dialogue>
+        <Dialogue>Klidne vyslechnete svedky, já se tu mezitím zdrzím.</Dialogue>
+        <Dialogue>Zjistete, kdo je na vine a o co tu vubec jde. Pokud jste skoncili s vysetrováním, znovu se mi ozvete! Hodne stestí!</Dialogue>
+    </D_Officer1>
+
+
+    <D_Officer1_InsuranceFraud>
+        <Dialogue>Cyklista se pokusil spáchat pojistný podvod na ridici..</Dialogue>
+        <Dialogue>Jakmile ho lékar proverí, zatkneme ho! Zatím dekujeme!</Dialogue>
+    </D_Officer1_InsuranceFraud>
+
+    <D_Officer1_BikersFault>
+        <Dialogue>Cyklista se zjevne nesoustredil na cestu. Je to jeho chyba.</Dialogue>
+        <Dialogue>Dobre, jakmile mu lékar udelí povolení, dostane pokutu! Dekuji!</Dialogue>
+    </D_Officer1_BikersFault>
+
+    <D_Officer1_DriversFault>
+        <Dialogue>ridic zjevne nedodrzel dopravní predpisy. Je to jeho vina!</Dialogue>
+        <Dialogue>Rozumím, zatknete ridice!</Dialogue>
+    </D_Officer1_DriversFault>
+
+
+    <D_Officer2>
+        <Dialogue>Jeste jsem si nedal ranní kávu, nás kávovar je rozbitý...</Dialogue>
+    </D_Officer2>
+
+    <D_Officer3>
+        <Dialogue>Hej, tenhle clovek neco videl, mohl by sis s ním promluvit.</Dialogue>
+    </D_Officer3>
+
+    <D_Officer4>
+        <Dialogue>Ahoj partáku, to je ale osklivá nehoda. Nezapomente vyslechnout vsechny svedky.</Dialogue>
+    </D_Officer4>
+
+    <D_Fireman1>
+        <Dialogue>Toto vozidlo má vázné poskození prední cásti.</Dialogue>
+        <Dialogue>Jsme tu jen pro prípad, ze by vozidlo shorelo nebo ztratilo olej.</Dialogue>
+    </D_Fireman1>
+
+    <D_Fireman3>
+        <Dialogue>clovece, miluju kávu z Bean Machine, zejména v nocních smenách. Meli byste to zkusit!</Dialogue>
+    </D_Fireman3>
+
+
+    <Menu>
+        <Text>Scénáre</Text>
+        <Text>Dopravní nehoda</Text>
+        <Text>Vyberte si ten správný!</Text>
+
+        <Text>Pojistné podvody</Text>
+        <Text>Cyklista to udelal schválne!</Text>
+        <Text>Cyklista se pokusil o pojistný podvod!</Text>
+
+        <Text>Chyba motorkáru</Text>
+        <Text>Motorkár nedával pozor!</Text>
+        <Text>Mohou za to cyklisté!</Text>
+
+        <Text>Chyba ridice</Text>
+        <Text>Na vine je ridic!</Text>
+        <Text>ridic automobilu zpusobil nehodu!</Text>
+
+        <Text>~g~Správné vysetrování</Text>
+        <Text>~r~Vysetrování se nezdarilo</Text>
+
+        <Text>Stisknutím tlacítka ~y~End~s~ kdykoli ukoncíte callout.</Text>
+    </Menu>
+
+</BicycleAccident>

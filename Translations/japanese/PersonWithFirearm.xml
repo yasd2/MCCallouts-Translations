@@ -1,0 +1,35 @@
+<PersonWithFirearm>
+
+    <General>
+        <Text>武器を持った人物</Text>
+        <Text>武器を持った人物が居ると通報がありました。被疑者と接触してください。</Text>
+        <Text>~r~被疑者~w~に近づいて、~y~対話~w~を開始してください。</Text>
+        <Text>{0}を押して被疑者と会話します。</Text>
+        <Text>これで~r~被疑者~s~との会話は終了です。</Text>
+    </General>
+
+    <Conversation>
+        <Dialogue>~b~あなた:~w~ こんにちは、少しお話できますか?</Dialogue>
+        <Dialogue>~r~被疑者:~w~ いや、誰だお前!? 何がしたいんだ!</Dialogue>
+        <Dialogue>~b~あなた:~w~ いえ、お話したいだけですよ。武器を持っているのではないかという疑いがかけられているので。</Dialogue>
+        <Dialogue>~r~被疑者:~w~ それは間違いだ! お前は間違っている!</Dialogue>
+        <Dialogue>~b~あなた:~w~ 事件を解決するためにご協力お願いします。</Dialogue>
+    </Conversation>
+
+    <Shooting>
+        <Dialogue>~r~被疑者:~w~ するわけ無いだろ!</Dialogue>
+    </Shooting>
+
+    <Surrender>
+        <Dialogue>~r~被疑者:~w~ 分かりました。ごめんなさい... 何をすればいいですか?</Dialogue>
+        <Dialogue>~b~あなた:~w~ 抵抗しないでください。武器の所持の現行犯で逮捕します。</Dialogue>
+        <Dialogue>~r~被疑者:~w~ はい... ごめんなさい。</Dialogue>
+    </Surrender>
+
+    <End>
+        <Text>被疑者を逮捕しました。~g~事案解決~w~です。</Text>
+        <Text>~g~事案解決~w~</Text>
+        <Text>~r~被疑者が死亡~s~しました。~g~事案解決~w~です。</Text>
+    </End>
+
+</PersonWithFirearm>

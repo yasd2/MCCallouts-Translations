@@ -1,0 +1,22 @@
+<IntoxicatedIndividual>
+
+    <General>
+        <Text>公共の場での泥酔者</Text>
+        <Text>お父さん</Text>
+        <Text>お母さん</Text>
+        <Text>{0}を押して、対象と話します。</Text>
+        <Text>~y~あなた~s~: すみません、{0}。お手伝いが必要ですか?</Text>
+        <Text>~p~対象~s~: うう... *ヒッ* 別に *ヒッ* 大丈夫ぅ。</Text>
+        <Text>~y~あなた~s~: 公共の場で酩酊することは違法ですよ。違反切符を切る必要があります。</Text>
+        <Text>~p~対象~s~: い... なんだって? 帰れ!</Text>
+        <Text>これで会話は終了です。</Text>
+    </General>
+
+    <End>
+        <Text>容疑者一名を逮捕しました! ~g~事案解決~s~です。</Text>
+        <Text>容疑者一名が負傷しました。~g~事案解決~w~です。</Text>
+        <Text>~g~事案解決~w~</Text>
+        <Text>~r~GTA5のPedのエラーです。~s~コールアウトを終了します。</Text>
+    </End>
+
+</IntoxicatedIndividual>

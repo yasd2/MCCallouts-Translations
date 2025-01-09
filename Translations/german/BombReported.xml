@@ -1,0 +1,65 @@
+<BombReported>
+
+    <General>
+        <Text>Mögliche Bombe gemeldet</Text>
+        <Text>Durchsuchen Sie den Bereich nach einer möglichen Bombe, ~r~Code 3~s~.</Text>
+        <Text>Drücken Sie {Y}, um die Bürger zu evakuieren!</Text>
+        <Text>Durchsuchen Sie den ~y~Bereich~s~ nach der Bombe.</Text>
+        <Text>HINWEIS: Drücken Sie {Y}, um den Bombenspezialisten zu rufen.</Text>
+        <Text>Keine Bombe gefunden, der Bereich ist sicher.</Text>
+        <Text>Bombe entschärft! Gute Arbeit!</Text>
+        <Text>~g~Grüne~s~ Leitung durchtrennt!</Text>
+        <Text>~y~Gelbe~s~ Leitung durchtrennt!</Text>
+        <Text>~b~Blaue~s~ Leitung durchtrennt!</Text>
+        <Text>Verdammte Scheiße, Sie haben die falsche Leitung durchtrennt! Rennen Sie, die Bombe wird explodieren!</Text>
+    </General>
+
+    <Persons>
+        <Text>Sie</Text>
+        <Text>Spezialist</Text>
+        <Text>Beamter</Text>
+    </Persons>
+
+    <Officer>
+        <Dialogue>Hallo! Danke, dass Sie gekommen sind!</Dialogue>
+        <Dialogue>Wir haben eine große Szene, die gerade läuft! Ein Bericht über eine mögliche Bombe ist eingegangen!</Dialogue>
+        <Dialogue>Wir haben es sehr ernst genommen und den Bereich abgesperrt.</Dialogue>
+        <Dialogue>Wenn wir mit dem Gespräch fertig sind, evakuieren Sie alle an der Szene und suchen Sie dann nach einer Bombe! Viel Glück!</Dialogue>
+    </Officer>
+
+    <Evacuate>
+        <Dialogue>Bitte verlassen Sie die Szene sofort! Hier könnte sich eine Bombe befinden!</Dialogue>
+        <Dialogue>Hey Sie, wir haben eventuell einen Bombenanschlag, halten Sie einen sicheren Abstand!</Dialogue>
+        <Dialogue>Dieser Bereich muss sofort evakuiert werden! Beeilen Sie sich!</Dialogue>
+        <Dialogue></Dialogue>
+    </Evacuate>
+
+    <SpecialistGeneral>
+        <Dialogue>Hallo? Haben Sie die Bombe gefunden?</Dialogue>
+        <Dialogue>Ja, ich glaube schon. Sie ist direkt vor mir.</Dialogue>
+        <Dialogue>In Ordnung, lassen Sie mich nachdenken. Sie hat eine Art komplizierte Steuerung.</Dialogue>
+        <Dialogue>Hmm... okay... verdammte Axt... was ist das...? Ah, ich habs.</Dialogue>
+        <Dialogue>Dann... hm... oh nein... ah, okay...</Dialogue>
+        <Dialogue>Wunderbar, ich lebe noch! Die Bombe ist entschärft. Gute Arbeit und danke!</Dialogue>
+        <Dialogue>Bitte schön, auf Wiedersehen.</Dialogue>
+    </SpecialistGeneral>
+
+    <SpecialistGYB>
+        <Dialogue>Schneiden Sie zuerst die grüne Leitung durch.</Dialogue>
+        <Dialogue>Jetzt schneiden Sie die gelbe Leitung durch.</Dialogue>
+        <Dialogue>Okay, wenn sie noch nicht explodiert ist, schneiden Sie die verbleibende blaue Leitung durch.</Dialogue>
+    </SpecialistGYB>
+
+    <SpecialistBYG>
+        <Dialogue>Schneiden Sie zuerst die blaue Leitung durch.</Dialogue>
+        <Dialogue>Jetzt schneiden Sie die gelbe Leitung durch.</Dialogue>
+        <Dialogue>Okay, wenn sie noch nicht explodiert ist, schneiden Sie die verbleibende grüne Leitung durch.</Dialogue>
+    </SpecialistBYG>
+
+    <SpecialistGBY>
+        <Dialogue>Schneiden Sie zuerst die grüne Leitung durch.</Dialogue>
+        <Dialogue>Jetzt schneiden Sie die blaue Leitung durch.</Dialogue>
+        <Dialogue>Okay, wenn sie noch nicht explodiert ist, schneiden Sie die verbleibende gelbe Leitung durch.</Dialogue>
+    </SpecialistGBY>
+
+</BombReported>

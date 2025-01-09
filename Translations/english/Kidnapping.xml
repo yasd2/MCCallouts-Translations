@@ -1,0 +1,64 @@
+<Kidnapping>
+
+    <General>
+        <Message>Caller advised a possible Vehicular Kidnapping</Message>
+        <Message>Traffic Stop required</Message>
+        <Message>Do a ~g~traffic stop~w~ on the ~o~suspected vehicle~w~, respond Code 3.</Message>
+        <Message>Dispatch, one suspect ~y~arrested~w~!</Message>
+        <Message>The Driver ~r~died, ~g~Code 4</Message>
+        <Message>The Passenger ~r~died, ~g~Code 4</Message>
+        <Message>Oh no, the Victim ~r~died! ~g~Code 4</Message>
+    </General>
+
+    <Infos>
+        <Info>The vehicle was reported ~y~speeding~w~.</Info>
+        <Info>The vehicle model is a ~b~black Granger SUV~w~.</Info>
+    </Infos>
+
+    <Conversation1>
+        <Dialogue>Talk to the Driver using </Dialogue>
+        <Dialogue>~y~You~w~: Hello, I'm an officer from the local police department.</Dialogue>
+        <Dialogue>~o~Driver~w~: I can see that. What's the reason for the stop?</Dialogue>
+        <Dialogue>~y~You~w~: We've got a call about your vehicle. Who else is with you?</Dialogue>
+        <Dialogue>~o~Driver~w~: Just my boss in the left rear. You don't need to know more.</Dialogue>
+        <Dialogue>~y~You~w~: Well, that's up to me who I'm talking to.</Dialogue>
+        <Dialogue>~o~Left rear passenger~w~: Dude, don't mess with us, we haven't done anything!</Dialogue>
+        <Dialogue>~y~You~w~: Sir, I'm not talking to you, let me talk to the lady, now.</Dialogue>
+        <Dialogue>~y~You~w~: M'am, how are you doing? Do you know those gentlemen?</Dialogue>
+        <Dialogue>~p~Woman~w~: Yes...</Dialogue>
+        <Dialogue>The woman appears to ~r~shake~w~ and feel ~r~uncomfortable~w~.</Dialogue>
+        <Dialogue>~o~Left rear passenger~w~: See, there's nothing wrong here, stop waisting your time!</Dialogue>
+        <Dialogue>There seems to be something not right, get a backup unit.</Dialogue>
+        <Dialogue>~y~You~w~: Alright, I want everyone to step out one by one...</Dialogue>
+    </Conversation1>
+
+    <OutcomeVehiclePursuit>
+        <Dialogue>~o~Left rear passenger~w~: ~r~Go go go~w~!</Dialogue>
+        <Dialogue>~y~You~w~: Dispatch, gonna be a ~r~pursuit~w~!</Dialogue>
+        <Dialogue>~g~Chase down~w~ both suspects, call for ~b~backup~w~ eventually!</Dialogue>
+    </OutcomeVehiclePursuit>
+
+    <OutcomeSurrender>
+        <Dialogue>~o~Driver~w~: ~r~We give up~w~!</Dialogue>
+        <Dialogue>~g~Arrest~w~ both suspects!</Dialogue>
+    </OutcomeSurrender>
+
+    <OutcomeFootPursuit>
+        <Dialogue>~o~Left rear passenger~w~: ~r~Run!</Dialogue>
+        <Dialogue>~y~You~w~: Dispatch, two suspects on ~r~foot pursuit~w~!</Dialogue>
+        <Dialogue>~g~Chase down~w~ both suspects, call for ~b~backup~w~ eventually!</Dialogue>
+    </OutcomeFootPursuit>
+
+    <VictimTalk>
+        <Dialogue>Go to the ~g~victim~w~ and make sure she's ~g~fine~w~.</Dialogue>
+        <Dialogue>~y~You~w~: Hello M'am, you're safe now.</Dialogue>
+        <Dialogue>~g~Victim~w~: Oh my god, thank you so much! I was so afraid!</Dialogue>
+        <Dialogue>~y~You~w~: Do you know the men who kidnapped you?</Dialogue>
+        <Dialogue>~g~Victim~w~: No, I've never seen them! They told me they were gonna sell me!</Dialogue>
+        <Dialogue>~y~You~w~: They are behind bars now. Do you need medical assistance?</Dialogue>
+        <Dialogue>~g~Victim~w~: No, I'm fine, just a bit shaky right now. Thank you very much for your help!</Dialogue>
+        <Dialogue>~y~You~w~: Glad your fine, make sure to go home safely!</Dialogue>
+        <Dialogue>Choose, if you want a ~y~taxi~w~, ~g~Uber~w~ to pick her up or send her ~b~on her way~w~.</Dialogue>
+    </VictimTalk>
+    
+</Kidnapping>

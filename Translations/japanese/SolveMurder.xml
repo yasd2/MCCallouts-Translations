@@ -1,0 +1,65 @@
+<SolveMurder>
+
+    <General>
+        <Text>殺人事件</Text>
+        <Text>~g~本部~s~: 高速道路沿いの~y~北チリアド山 ガソリンスタンド~w~にて、~r~刑事~w~の応援を求めています。</Text>
+    </General>
+
+    <Officer>
+        <Dialogue>次を使用して~b~警官~w~と話してください: </Dialogue>
+        <Dialogue>~b~警官~w~: こんにちは刑事さん! 来てくれてありがとうございます!</Dialogue>
+        <Dialogue>~b~警官~w~: 本官の右手にある死体と、二人の被疑者が居ます。</Dialogue>
+        <Dialogue>~b~警官~w~: まずは、右手の~r~犯行現場~w~の~r~調査~s~をお願いします。何か見つかるかもしれません。</Dialogue>
+    </Officer>
+
+    <Evidence>
+        <Text>~y~あなた~w~: ~r~空のお酒のボトル~s~、被害者の所持品だろうか...</Text>
+        <Text>~y~あなた~w~: 首と腹と背中に~o~複数の傷跡~s~があるようだ。</Text>
+        <Text>~y~あなた~w~: 数枚の~g~ポテトチップス~w~? 誰かが~g~ついさっき~w~まで~g~食べていた~w~のだろうか...</Text>
+        <Text>調査完了! 次を使用して~r~被疑者~w~と対話します: </Text>
+    </Evidence>
+
+    <Suspect1>
+        <Dialogue>次を使用して~o~被疑者~w~と話します: </Dialogue>
+        <Dialogue>~y~あなた~w~: こんにちは、この事件を担当する刑事です。いくつかあなたに質問があります。</Dialogue>
+        <Dialogue>~o~戸田正弘~s~: 私はとても~r~神経質~w~なので、この事件とは全く関係ありません。</Dialogue>
+        <Dialogue>~y~あなた~w~: 心配しないで、大丈夫です。あなたはどんなお酒を飲みますか?</Dialogue>
+        <Dialogue>~o~戸田正弘~s~: 私は~g~一度も~w~アルコールを飲んだことはないです... もし飲むことがあるなら赤ワインを一杯かな。</Dialogue>
+        <Dialogue>~y~あなた~w~: ~r~ポテトチップス~w~をよく食べますか?</Dialogue>
+        <Dialogue>~o~戸田正弘~s~: ~g~いいえ~w~、健康に気を使っているので。あとよくスポーツをします。</Dialogue>
+        <Dialogue>~y~あなた~w~: これで質問は以上です。ご協力感謝します。</Dialogue>
+    </Suspect1>
+
+    <Suspect2>
+        <Dialogue>次を使用して~o~被疑者~w~と話します: </Dialogue>
+        <Dialogue>~y~あなた~w~: こんにちは、この事件を担当する刑事です。いくつかあなたに質問があります。</Dialogue>
+        <Dialogue>~r~禿頭栗夫~s~: 調子はどうだい! 恥ずかしがらないで! (笑)</Dialogue>
+        <Dialogue>~y~あなた~w~: ~r~酔っている~w~ようですね! どれくらい飲まれたんですか?</Dialogue>
+        <Dialogue>~r~禿頭栗夫~s~: 何も飲んでないですよ... 唾液さえも!</Dialogue>
+        <Dialogue>~y~あなた~w~: 真剣に話をしてください。お仕事は何ですか?</Dialogue>
+        <Dialogue>~r~禿頭栗夫~s~: ああ、~o~狩猟~w~で生計を立てているんだ。ここから遠くない森が職場さ。</Dialogue>
+        <Dialogue>~y~あなた~w~: よく、~r~ポテトチップス~w~を食べますか?</Dialogue>
+        <Dialogue>~r~禿頭栗夫~s~: もちろん! ~r~ポテチだーいすき~w~。いつも食ってるよ。~y~さっきも袋ごと...</Dialogue>
+        <Dialogue>~y~あなた~w~: これで質問は以上です。ご協力感謝します。</Dialogue>
+    </Suspect2>
+
+    <Officer2>
+        <Dialogue>次を使用して再び~b~警官~w~と話をしてください: </Dialogue>
+        <Dialogue>~b~警官~w~: 証拠と質問から、~r~犯人~w~が誰か分かりましたか?</Dialogue>
+        <Dialogue>~y~あなた~w~: もちろん。犯人は... ~o~[1] 戸田正弘  ~r~[2] 禿頭栗夫</Dialogue>
+        <Dialogue>~o~'1'~w~か~r~'2'~w~で~r~殺人犯~s~を指名してください。</Dialogue>
+        <Dialogue>~y~あなた~w~: ...~o~戸田正弘~w~だ!</Dialogue>
+        <Dialogue>~y~あなた~w~: ...~r~禿頭栗夫~w~だ!</Dialogue>
+        <Dialogue>~b~警官~w~: 分かりました! あいつを逮捕しましょう!</Dialogue>
+    </Officer2>
+
+    <Arrest>
+        <Text>ああ、あなたは~r~無実~w~の人を逮捕してしまいました! ~o~事案解決~w~です。</Text>
+        <Text>~g~事案解決~w~です。事件は~g~解決~w~しました。~g~正しい犯人を逮捕したようです!</Text>
+        <Text>~y~被害者~s~の検視を行うために、~b~検視官~w~を、~r~被疑者~w~を~o~連行~w~するために移送を要請してください。</Text>
+        <Text>~g~戸田正弘~s~が~r~死亡~s~しました。本当に必要な行為でしたか? ~g~事案解決~s~です。</Text>
+        <Text>~b~禿頭栗夫~s~が~r~死亡~s~しました。本当に必要な行為でしたか? ~g~事案解決~s~です。</Text>
+        <Text>~b~警官~s~が~r~死亡~s~しました。ええ? 何このエンディング!? ~g~事案解決~s~です。</Text>
+    </Arrest>
+
+</SolveMurder>

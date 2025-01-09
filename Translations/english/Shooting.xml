@@ -1,0 +1,50 @@
+<Shooting>
+
+    <General>
+        <Text>Shooting</Text>
+        <Text>2 people shooting at each other with pistols</Text>
+        <Text>Drive to the scene ~b~Code 3~s~, 2 shooters, ~r~caution~s~, ~r~shots~s~ were ~r~fired~s~!</Text>
+        <Text>~y~You~s~: ~p~Drop your ~r~weapons~s~, ~b~Police~s~!!!</Text>
+        <Text>Call for backup!</Text>
+        <Text></Text>
+        <Text></Text>
+    </General>
+
+
+    <Outcomes>
+
+        <StillShooting>
+            <Text>~y~You~s~: They appear not to listen, use ~r~force~s~ or ~o~act~s~ with what you ~o~believe is right~s~!</Text>
+        </StillShooting>
+
+        <Surrender>
+            <Text>~r~First Suspect~s~: Don't shoot, I ~g~give up~s~!</Text>
+            <Text>~p~Second Suspect~s~: I ~g~surrender~s~, too!</Text>
+        </Surrender>
+
+        <ShootAtPlayer>
+            <Text>Shots fired at the police!</Text>
+            <Text>~p~Suspect~s~: I'm giving up, put me in jail, I'm done.</Text>
+        </ShootAtPlayer>
+
+    </Outcomes>
+
+    <Arrest>
+        <Text>Dispatch, one suspect ~y~arrested~w~!</Text>
+        <Text>Dispatch, one suspect ~o~down~w~!</Text>
+    </Arrest>
+
+    <OnScene>
+        <Text>Call a ~b~transport~s~ for both ~r~suspects~s~.</Text>
+        <Text>Call ~b~transport~s~ and a ~p~coroner~s~ for each ~r~suspect~s~.</Text>
+        <Text>Call a ~p~coroner~s~ for both ~r~suspects~s~.</Text>
+    </OnScene>
+
+    <End>
+        <Text>An ~r~GTA ped error~s~ occured, Callout ~g~ended~s~</Text>
+        <Text>~y~You~s~ have died, Callout ~g~ended~s~</Text>
+        <Text>Callout ended</Text>
+        <Text>~g~Code 4~s~, ~b~clear~s~ the ~b~scene~s~ and go back to ~g~patrol~s~.</Text>
+    </End>
+
+</Shooting>

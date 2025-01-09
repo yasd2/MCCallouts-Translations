@@ -1,0 +1,36 @@
+<ZombiesReported>
+
+    <General>
+        <Text>Un civile ha riferito di aver visto degli zombie</Text>
+        <Text>Vai dal civile interessato, ~r~Codice 3~s~.</Text>
+    </General>
+
+        <Persons>
+        <Text>Tu</Text>
+        <Text>Civile</Text>  
+    </Persons>
+
+    <Civilian>
+        <Dialogue>Ciao, stai bene?</Dialogue>
+        <Dialogue>Non mi crederai... ho visto gli zombie!!!</Dialogue>
+        <Dialogue>Va bene, andrà tutto bene...</Dialogue>
+        <Dialogue>Eccoli, aaaaaah!...</Dialogue>
+    </Civilian>
+
+    <Civilian2>
+       <Dialogue>Ciao, cosa succede?</Dialogue>
+        <Dialogue>Penso di essere pazzo... ho visto degli zombie che vagavano in giro...</Dialogue>
+        <Dialogue>Accidenti, sei sicuro?</Dialogue>
+        <Dialogue>Oh mio Dio, eccoli... scappa!!!</Dialogue>
+    </Civilian2>
+
+    <Wave>
+        <Text>L'ondata {WaveNumber} sta iniziando!</Text>
+        <Text>~g~Wave {WaveNumber} completata</Text>
+        <Text>~o~L'onda {WaveNumber} inizia tra {time}s~s~</Text>
+        <Text>Congratulazioni, 10 onde padroneggiate.</Text>
+        <Text>Premi ~y~End~s~ per terminare la chiamata in qualsiasi momento.</Text>
+        <Text>Onda {WaveNumber}</Text>
+    </Wave>
+
+</ZombiesReported>

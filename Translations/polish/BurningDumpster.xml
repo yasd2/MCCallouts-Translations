@@ -1,0 +1,62 @@
+<BurningDumpster>
+
+    <General>
+        <Text>Zgłoszenie o ~r~podpalonym śmietniku~b~</Text>
+        <Text>Jednostka z gaśnicą zareaguj w kodzie 2</Text>
+        <Text>Pojedź na miejsce wezwania i ugaś ~r~pożar~s~, albo wezwij ~r~straż pożarną!</Text>
+    </General>
+
+    <Persons>
+        <Text>Rozmówca</Text>
+        <Text>Ty</Text>
+    </Persons>
+
+    <Extingiush>
+        <Text>Aby wziąć ~r~gaśnice~s~ podejdź do bagażnika i naciśnij</Text>
+        <Text>~r~Gaśnica~s~ zebrana!</Text>
+        <Text>Poszukaj ~y~poszlak~s~ naciskając {Key} będąc w ~y~oznaczeniach~s~.</Text>
+    </Extingiush>
+
+    <Tasks>
+        <Text>Porozmawiaj z ~b~osobą wzywającą~s~ naciskając</Text>
+        <Text>Naciśnij {MusicMenuKey} w dowolnej chwili, aby ponownie zobaczyć zdjęcie!</Text>
+        <Text>Centrala, podejrzany ~r~ucieka!</Text>
+    </Tasks>
+
+    <Caller>
+        <Dialogue>Cześć, to ty zawiadomiłeś nas o podpalonym śmietniku?</Dialogue>
+        <Dialogue>Tak, to ja. Chciałbym jeszcze zgłosić podejrzaną osobę, która się tu kręciła.</Dialogue>
+        <Dialogue>Akurat szedłem wynieść śmieci i wtedy widziałem, że ktoś odchodzi od śmietnika.</Dialogue>
+        <Dialogue>Kilka sekund później cały śmietnik był w płomieniach!</Dialogue>
+        <Dialogue>Faktycznie to brzmi podejrzanie, masz może coś, co pomogłoby nam odnaleźć sprawcę?</Dialogue>
+        <Dialogue>Tak, to {gender}, około {age} lat.</Dialogue>
+        <Dialogue>Udało mi się zrobić zdjęcie tej osoby!</Dialogue>
+        <Dialogue>Dzięki, w takim razie zaczynamy poszukiwania. Cześć!</Dialogue>
+    </Caller>
+
+    <Genders>
+        <Text>kobieta</Text>
+        <Text>mężczyzna</Text>
+        <Text>osoba niebinarna</Text>
+    </Genders>
+
+    <Evidence>
+        <Dialogue>Koktajl Mołotowa, to nie był wypadek... ktoś chciał rozniecić ogień.</Dialogue>
+        <Dialogue>Kanister pełny benzyny, wygląda na to, że ktoś przygotowywał się do podpalenia czegoś.</Dialogue>
+        <Dialogue>Bongo? Dziwne... może ktoś był zbyt naćpany, żeby zauważyć pożar, który wzniecił.</Dialogue>
+        <Dialogue>Granat odłamkowy. To nie było zwykłe podpalenie, mamy do czynienienia z czymś znacznie bardziej niebezpiecznym.</Dialogue>
+        <Dialogue>Granat dymny. Sprawca mógł go użyć, aby zatrzeć ślady przed podpaleniem.</Dialogue>
+        <Dialogue>Rozbita butelka. Wygląda amatorsko, ale mogła zostać użyta to wzniecenia pożaru.</Dialogue>
+        <Dialogue>Butla z gazem. Gdyby to wybuchło, cała okolica mogłaby stanąć w płomieniach.</Dialogue>
+        <Dialogue>Beczka z olejem. Przecieka... i jest łatwopalny. Wygląda na to, że ktoś chciał rozprzestrzenić ogień..</Dialogue>
+        <Dialogue>Kanister. Śmierdzi benzyną... ktoś naprawdę chciał spalić to miejsce.</Dialogue>
+        <Dialogue>Skarpeta? Cóż, nic szczególnego, ale śmierdzi tak bardzo, że mogła zostać użyta do podpalenia.</Dialogue>
+        <Dialogue>Typowo. Ktoś wyrzucił żarzący się niedopałek do śmieci, a to podpaliło resztę.</Dialogue>
+        <Dialogue>Skarpeta? Cóż, nic szczególnego, ale śmierdzi tak bardzo, że mogła zostać użyta do podpalenia.</Dialogue>
+    </Evidence>
+
+    <End>
+        <Text>~g~Kod 4.</Text>
+    </End>
+    
+</BurningDumpster>

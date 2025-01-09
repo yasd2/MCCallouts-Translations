@@ -1,0 +1,68 @@
+<LostFreight>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+
+    <General>
+        <Text>Zagubiony ładunek</Text>
+        <Text>Rozmówca zgłosił zagubiony ładunek na autostradzie.</Text>
+        <Text><![CDATA[Pojedź do rozmówcy i nawiąż kontakt.]]></Text>
+    </General>
+
+
+    <DisplayHelp>
+        <Text>Aby porozmawiać naciśnij </Text>
+        <Text><![CDATA[Przeszukaj ~y~okolicę~s~ i usuń przeszkody naciskając ]]></Text>
+        <Text>Porozmawiaj z ~b~oficerem~s~ naciskając </Text>
+        <Text>Koniec rozmowy.</Text>
+        <Text>Oto mała ~g~pomoc.</Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+        <Text>~r~Brak obiektów~s~ w pobliżu.</Text>
+        <Text>~r~Obiekt~s~ usunięty!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>~y~Ty~s~: Witaj, to ty dzwoniłeś w sprawie zagubionego ładunku?</Dialogue>
+        <Dialogue><![CDATA[~b~Zgłaszający~s~: Cześć, tak, drzwi w przyczepie jakoś się otworzyły i teraz cały towar jest rozrzucony na autostradzie!]]></Dialogue>
+        <Dialogue>~y~Ty~s~: To niebezpieczne, co takiego przewoziłeś?</Dialogue>
+        <Dialogue>~b~Zgłaszający~s~: Wszelkiego rodzaju ~b~sprzęt do tenisa~s~, ponieważ sprzątamy nasz klub.</Dialogue>
+        <Dialogue>~b~Zgłaszający~s~: Dużo ~b~sprzętu biurowego~s~, szafki, monitory, krzesła, głośniki...</Dialogue>
+        <Dialogue>~b~Zgłaszający~s~: Wiele ~b~kuchennych przyborów~s~, garnki, sztućce, talerze itp., jako, że nasza firma zmienia siedzibę na nową.</Dialogue>
+        <Dialogue>~y~Ty~s~: Rozumiem, którędy jechałeś?</Dialogue>
+        <Dialogue>~b~Zgłaszający~s~: Jechałem tylko ~y~w tym kierunku~s~, więc sprawdź tylko tę stronę autostrady.</Dialogue>
+        <Dialogue>~y~Ty~s~: Centrala, zablokuj najbliższy wjazd na autostradę, wiele przeszkód na drodze!</Dialogue>
+        <Dialogue>Zrozumiano, ruch zostanie wstrzymany, wsparcie w drodze.</Dialogue>
+    </Conversation>
+
+
+    <Officer1>
+        <Dialogue>~b~Oficer Blue~s~: Cześć! Zapowiada się pracowity dzień!</Dialogue>
+        <Dialogue>~b~Oficer Blue~s~: Będę zarządzać ruchem, dopóki nie posprzątacie drogi!</Dialogue>
+        <Dialogue>~b~Oficer Blue~s~: Powodzenia!</Dialogue>
+    </Officer1>
+
+
+    <Officer2>
+        <Dialogue>~b~Oficer Night~s~: Cześć, jak długo to jeszcze zajmie?</Dialogue>
+        <Dialogue>~b~Oficer Night~s~: Mam jeszcze inne rzeczy na głowie!</Dialogue>
+        <Dialogue>~b~Oficer Night~s~: Nie gadaj tyle, już by nas tu nie było!</Dialogue>
+    </Officer2>
+
+
+    <End>
+        <Text>~g~Kod 4~s~</Text>
+        <Text>Usunięte przedmioty: </Text> <!--There are 4 items to find, on this message you get to see how many you've found.-->
+        <Text>/~g~4</Text> <!--This means X items from 4 items were found -> X/4 items found-->
+        <Text>~r~Dziękuję, ~g~można wznowić ruch!</Text>
+    </End>
+
+
+
+</LostFreight>

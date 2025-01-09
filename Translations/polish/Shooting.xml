@@ -1,0 +1,50 @@
+<Shooting>
+
+    <General>
+        <Text>Strzelanina</Text>
+        <Text>2 osoby strzelają do siebie z pistoletów</Text>
+        <Text>Udaj się na miejsce ~b~w kodzie 3~s~. 2 osoby strzelające. ~r~Uwaga~s~, ~r~padły~s~ ~r~strzały~s~!</Text>
+        <Text>~y~Ty~s~: ~p~Rzuć ~r~broń~s~! ~b~Policja~s~!!!</Text>
+        <Text>Wezwij wsparcie!</Text>
+        <Text></Text>
+        <Text></Text>
+    </General>
+
+
+    <Outcomes>
+
+        <StillShooting>
+            <Text>Nie słuchają, użyj ~r~siły~s~ lub ~o~zrób~s~ co ~o~uważasz za słuszne~s~!</Text>
+        </StillShooting>
+
+        <Surrender>
+            <Text>~r~Pierwszy podejrzany~s~: Nie strzelaj, ~g~poddaje się~s~!</Text>
+            <Text>~p~Drugi podejrzany~s~: Też ~g~się poddaje~s~!</Text>
+        </Surrender>
+
+        <ShootAtPlayer>
+            <Text>Oddano strzały w kierunku policji!</Text>
+            <Text>~p~Podejrzany~s~: Poddaje się, wsadź mnie do paki, mam dość.</Text>
+        </ShootAtPlayer>
+
+    </Outcomes>
+
+    <Arrest>
+        <Text>Centrala, podejrzany ~y~aresztowany~w~!</Text>
+        <Text>Centrala, podejrzany ~o~obezwładniony~w~!</Text>
+    </Arrest>
+
+    <OnScene>
+        <Text>Wezwij ~b~tansport~s~ dla obu ~r~podejrzanych~s~.</Text>
+        <Text>Wezwij ~b~tansport~s~ i ~p~koronera~s~ dla ~r~podejrzanych~s~.</Text>
+        <Text>Wezwij ~p~koronera~s~ dla obu ~r~podejrzanych~s~.</Text>
+    </OnScene>
+
+    <End>
+        <Text>Wystąpił błąd ~r~GTA ped error~s~. Wezwanie ~g~zakończone~s~</Text>
+        <Text>~s~Zgon. Wezwanie ~g~zakończone~s~</Text>
+        <Text>Wezwanie zakończone</Text>
+        <Text>~g~Kod 4~s~, ~b~posprzątaj~s~ ~b~okolicę~s~ i wróć na ~g~patrol~s~.</Text>
+    </End>
+
+</Shooting>

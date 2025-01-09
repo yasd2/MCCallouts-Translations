@@ -1,0 +1,22 @@
+<IntoxicatedIndividual>
+
+    <General>
+      <Text>Persona ubriaca in pubblico</Text>
+         <Text>signore</Text>
+         <Text>mamma</Text>
+         <Text>Premi {0} per parlare con il sospetto.</Text>
+         <Text>~y~Tu~s~: Scusi {0}, hai bisogno di assistenza?</Text>
+         <Text>~p~Sospetto~s~: Nahhh *hic* è tutto *hic* finnne.</Text>
+         <Text>~y~Tu~s~: Essere ubriachi in pubblico non è legale. Dovrò farti un verbale.</Text>
+         <Text>~p~Sospetto~s~: Un che cosa? Non ho proprio capito che hai detto !!! Esci dalle mie faccende.</Text>
+         <Text>Non c'è altro discorso.</Text>
+    </General>
+
+    <End>
+        <Text>Un sospettato arrestato! ~g~Codice 4~s~</Text>
+         <Text>Un sospetto a terra, ~g~Codice 4~w~</Text>
+         <Text>~g~Codice 4~w~</Text>
+         <Text>~r~Errore GTA Ped,~s~ Callout terminato</Text>
+    </End>
+
+</IntoxicatedIndividual>

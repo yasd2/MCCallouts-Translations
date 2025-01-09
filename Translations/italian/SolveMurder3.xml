@@ -1,0 +1,174 @@
+<SolveMurder3>
+
+
+    <General>
+      <Text>È richiesto ~b~detective~s~ per un caso di omicidio</Text>
+        <Text>Agente morto dopo un blocco del traffico</Text>
+    </General>
+
+
+    <Approach>
+      <Text>Parla con il ~HC_43~Detective~s~ per ricevere un aggiornamento sulla scena.</Text>
+    </Approach>
+
+
+    <Characters>
+        <Text>~HC_43~Detective~s~: </Text>
+        <Text>~y~Tu~s~: </Text>
+        <Text>~p~reparto scientifico~s~: </Text>
+        <Text>~g~Testimone~s~: </Text>
+        <Text>~r~Sospetto~s~: </Text>
+    </Characters>
+
+
+    <TalkToDetective>
+       <Dialogue>Ciao ~HC_43~Detective~s~! Che grande scena abbiamo qui! Che succede?</Dialogue>
+        <Dialogue>Ciao, sì, assolutamente! Sfortunatamente uno dei nostri ~b~ufficiali ~r~è stato ucciso~s~ a un posto di blocco...</Dialogue>
+        <Dialogue>Al momento non abbiamo idea di chi fosse, per questo abbiamo chiamato te, che hai una certa esperienza.</Dialogue>
+        <Dialogue>Ho sentito parlare del caso al ~g~Monte Chiliad~s~ alla stazione di servizio, l'hai risolto bene!</Dialogue>
+        <Dialogue>Grazie, signore, vediamo cosa riesco a trovare su questo caso.</Dialogue>
+        <Dialogue>Oh scusa, sì certo, per favore cerchiamo le ~y~prove~s~ sulla scena, tutto può aiutarci.</Dialogue>
+        <Dialogue>Puoi premere ~y~{0}~s~ per ~y~raccogliere~s~ le ~y~prove~s~ quando ti trovi accanto ad esse. ~g~Buona fortuna~s~!</Dialogue>
+        <Dialogue>Vai nell'area chiusa e cerca le prove, premi ~y~{1}~s~ per raccogliere le ~y~prove~s~.</Dialogue>
+        <Dialogue>Controlla di nuovo la scena, ti mancano ancora ~o~alcuni~s~!</Dialogue>
+    </TalkToDetective>
+
+
+    <SearchForEvidence>
+      <Dialogue>Ecco un piccolo ~HC_211~aiuto~s~.</Dialogue>
+        <Dialogue>~r~Nessuna prova~s~ nelle vicinanze.</Dialogue>
+
+      <Dialogue>Un ~o~fucile~s~, questo può essere solo dei sospettati o del agente.</Dialogue>
+        <Dialogue>Questo deve essere il ~o~portafoglio~s~ del sospettato...</Dialogue>
+        <Dialogue>Un ~o~telefono cellulare~s~, se solo potessi avere la password.</Dialogue>
+        <Dialogue>Una ~o~birra~s~? Qualcuno l'ha buttato dal finestrino.</Dialogue>
+
+        <Dialogue>Un ~o~coltello~s~... c'è del sangue sopra.</Dialogue>
+        <Dialogue>Una ~o~carta d'identità~s~, sarà meglio che la mostri al reparto scientifico.</Dialogue>
+        <Dialogue>Una ~o~chiavetta USB~s~, mi chiedo cosa ci sia sopra.</Dialogue>
+        <Dialogue>Una ~o~borsa~s~... Attenzione a non dovrei lasciarci impronte.</Dialogue>
+
+        <Dialogue>Una ~o~pistola~s~... non sembra quella della polizia.</Dialogue>
+        <Dialogue>Una ~o~targa~s~... potrebbe essere quella del sospettato?</Dialogue>
+        <Dialogue>Una ~o~scarpa~, non rilasciata da nessun dipartimento di polizia.</Dialogue>
+        <Dialogue>Un ~o~whisky~s~... vorrei poterne bere un bicchierino :p</Dialogue>
+
+        <Dialogue>Parla con il ~HC_43~Detective~s~ delle ~g~prove trovate~s~.</Dialogue>
+    </SearchForEvidence>
+
+
+    <AgainTalkToDetective>
+       <Dialogue>Ehi, ho trovato delle prove interessanti, che ci aiuteranno.</Dialogue>
+        <Dialogue>Va bene, dimmi!</Dialogue>
+        <Dialogue>Ho trovato {0}.</Dialogue>
+        <Dialogue>un fucile, un portafoglio, un telefono e una birra</Dialogue>
+        <Dialogue>un coltello, una carta d'identità, una chiavetta USB e una borsa</Dialogue>
+        <Dialogue>una pistola, una targa, una scarpa e una bottiglia di whisky</Dialogue>
+        <Dialogue>Sono abbastanza sicuro che questa sia l'arma del delitto.</Dialogue>
+        <Dialogue>Dovremmo anche riuscire a trovare informazioni sul sospettato.</Dialogue>
+        <Dialogue>Certo! Vai dal ~p~reparto scientifico~s~, analizzerà le prove e scoprirà di più!</Dialogue>
+        <Dialogue>Usa ~y~{1}~s~ per parlare con il ~p~Laborante~s~ delle ~y~prove~s~.</Dialogue>
+    </AgainTalkToDetective>
+
+
+    <TalkToLaborant>
+       <Dialogue>Salve signore, grazie per essere venuto. Ho trovato molte prove, ti dispiace controllare?</Dialogue>
+        <Dialogue>Ciao anche a te. Sì, certo, questo è il mio lavoro c; Per favore, consegna le prove.</Dialogue>
+        <Dialogue>Grazie, controllerò velocemente.</Dialogue>
+        <Dialogue>Premi di nuovo ~y~{3}~s~ per parlare</Dialogue>
+        <Dialogue>Va bene, ho controllato le prove.</Dialogue>
+
+      <Dialogue>Il proprietario di ~o~{3}~s~ è ~o~{4}~s~!</Dialogue> 
+        <Dialogue>Nella ~o~{3}~s~ ho trovato la patente di ~o~{4}~s~.</Dialogue>
+        <Dialogue>Sulla ~o~{3}~s~ ho trovato il nome del proprietario: ~o~{4}~s~!</Dialogue>
+        <Dialogue>Il ~o~{3}~s~ era difficilmente leggibile, ma il nome è ~o~{4}~s~.</Dialogue>
+        <Dialogue>Sulla ~o~{3}~s~ ho trovato i file di ~o~{4}~s~.</Dialogue>
+        <Dialogue>Il numero di serie su ~o~{3}~s~ torna a ~o~{4}~s~.</Dialogue>
+        <Dialogue>Il ~o~{3}~s~ ritorna a ~o~{4}~s~.</Dialogue>
+
+       <Dialogue>Probabilmente questo è il nostro sospettato!</Dialogue>
+        <Dialogue>Questo potrebbe essere il nostro sospettato!</Dialogue>
+
+       <Dialogue>Il Detective voleva parlarti ancora, torna da lui, per favore.</Dialogue>
+        <Dialogue>Parla di nuovo con il ~HC_43~Detective~s~.</Dialogue>
+    </TalkToLaborant>
+
+
+    <TalkToDetectiveAnalyzedEvidence>
+      <Dialogue>Ehi, abbiamo qualche nuova informazione?</Dialogue>
+        <Dialogue>Sì! Il ~o~{4}~s~ ci porta nella giusta direzione!</Dialogue>
+        <Dialogue>Perfetto! Inoltre abbiamo una ~g~testimone~s~ laggiù, speriamo che possa fornirci maggiori dettagli.</Dialogue>
+        <Dialogue>Vai dalla ~g~testimone~s~ e parlale usando ~y~{0}~s~</Dialogue>
+    </TalkToDetectiveAnalyzedEvidence>
+
+
+    <TalkToWitness>
+
+        <Vehicle>
+            <Dialogue>Salve ,sono il ~y~Detective~s~,che sta seguendo il caso  hai assistito a qualcosa?</Dialogue>
+            <Dialogue>Ciao ~y~Detective~s~, mi chiamo {5} e sì, ho alcune informazioni.</Dialogue>
+            <Dialogue>All'inizio volevo andare a fare la spesa al supermercato.</Dialogue>
+            <Dialogue>Naturalmente ho notato questo blocco del traffico con le luci blu lampeggianti, quando all'improvviso ho visto un veicolo che si allontanava freneticamente.</Dialogue>
+            <Dialogue>Non sono riuscito a vedere né il conducente né la targa, ma il modello era un ~o~{0}~s~.</Dialogue>
+            <Dialogue>Fantastico, grazie per le informazioni, vediamo cosa riesce a scoprire .</Dialogue>
+        </Vehicle>
+
+        <House>
+            <Dialogue>Salve ,sono il ~y~Detective~s~,che sta seguendo il caso  hai assistito a qualcosa?</Dialogue>
+            <Dialogue>Ciao ~y~Detective~s~, mi chiamo {5} e sì, ho alcune informazioni.</Dialogue>
+            <Dialogue>Inizialmente volevo fare la spesa lì nel supermercato, sono del posto.</Dialogue>
+            <Dialogue>Naturalmente ho notato questo blocco del traffico con le luci blu lampeggianti, quando all'improvviso ho visto una persona scappare.</Dialogue>
+            <Dialogue>Penso di aver riconosciuto la persona, il sospettato deve essere ~o~{4}~s~.</Dialogue>
+            <Dialogue>Fantastico, grazie per le informazioni, vediamo cosa riesce a scoprire la centrale.</Dialogue>
+        </House>
+        
+    </TalkToWitness>
+
+
+    <SearchForSuspect>
+
+        <Vehicle>
+            <Dialogue>Centrale, potete controllare le telecamere del traffico per un veicolo sospettato di omicidio, il modello è ~o~{0}~s~.</Dialogue>
+            <Dialogue>Controllo...</Dialogue>
+            <Dialogue>Un colpo sul un veicolo, è segnato sul tuo GPS</Dialogue>
+            
+			<Dialogue>Nuovo ~r~ALPR Colpo ~s~sul ~y~Veicolo {1}!~s~</Dialogue>
+        </Vehicle>
+
+        <House>
+          <Dialogue>Centrale, potete impostare il percorso verso casa dei sospettati?</Dialogue>
+            <Dialogue>Controllo...</Dialogue>
+            <Dialogue>Ho trovato la casa, è segnata sul tuo GPS</Dialogue>
+        </House>
+
+    </SearchForSuspect>
+
+
+    <InPursuit>
+            <Dialogue>Oh merda, i poliziotti!</Dialogue>
+    </InPursuit>
+
+
+    <QuestioningSuspect>
+        <Dialogue>Una volta che sei pronto, ~r~affronta il sospettato~s~ riguardo alle sue azioni, usa ~y~{0}~s~ per parlare.</Dialogue>
+        <Dialogue>In nome della legge, sei in arresto per l'~r~omicidio~s~ di un ~b~ufficiale di polizia~s~!</Dialogue>
+        <Dialogue>Ti leggerò i tuoi diritti Miranda... * legge i diritti Miranda *</Dialogue>
+        <Dialogue>Perché sei scappato?</Dialogue>
+        <Dialogue>Signore, mi dispiace tanto per quello che ho fatto, ho fatto una cazzata.</Dialogue>
+        <Dialogue>Sono scappato perché avevo paura, tutto qui.</Dialogue>
+        <Dialogue>Hai ucciso un agente di polizia!</Dialogue>
+        <Dialogue>Cosa? E' morto? Io... semplicemente non volevo andare in prigione, ma non volevo ucciderlo...</Dialogue>
+        <Dialogue>Gli hai sparato... </Dialogue>
+        <Dialogue>Volevo solo spaventarlo, così posso scappare ed essere libero.</Dialogue>
+        <Dialogue>Verrai messo in prigione e probabilmente non ne uscirai molto presto...</Dialogue>
+        <Dialogue>Porta il ~r~sospetto~s~ in ~o~galera~s~.</Dialogue>
+    </QuestioningSuspect>
+
+
+    <End>
+        <Text>Premi ~y~End~s~ in qualsiasi momento per terminare il callout.</Text>
+        <Text>Siamo ~g~Codice 4.~s~</Text>
+    </End>
+
+
+</SolveMurder3>

@@ -1,0 +1,65 @@
+<BombReported>
+
+    <General>
+        <Text>Hlásena pravdepodobná bomba</Text>
+        <Text>Hledejte vlákno potenciální bomby, ~r~Kód 3~s~.</Text>
+        <Text>Stisknete {Y} pro evakuaci obcanu!</Text>
+        <Text>Pátrejte po bombe v ~y~oblasti~s~.</Text>.
+        <Text>TIP: Stisknutím {Y} zavolejte specialistu na bomby.</Text>
+        <Text>Bomba nebyla nalezena, oblast je cistá.</Text>
+        <Text>Bomba zneskodnena! Dobrá práce!</Text>
+        <Text>~g~Zelený~s~drát prerusen!</Text>
+        <Text>~y~Zlutý~s~ drát prestrižen!</Text>
+        <Text>~b~Modrý~s~ drát prestrižen!</Text>
+        <Text>Hovno, prestrihl jsi spatný drát! Utíkej, bomba vybuchne! </Text>
+    </General>
+
+    <Persons>
+        <Text>Ty</Text>
+        <Text>Specialista</Text>
+        <Text>Dustojník</Text>
+    </Persons>
+
+    <Officer>
+        <Dialogue>Ahoj! Díky, že jsi prisel!</Dialogue>
+        <Dialogue>Máme tu velkou scénu! Prislo hlásení o možné bombe!</Dialogue>
+        <Dialogue>Brali jsme to velmi vážne a místo cinu jsme zablokovali.</Dialogue>
+        <Dialogue>Když skoncíme, evakuujte vsechny na míste cinu a pak hledejte bombu! Hodne stestí!</Dialogue>
+    </Officer>
+
+    <Evacuate>
+        <Dialogue>Hej, prosím, okamžite opustte scénu! Mohli bychom tu mít bombu!</Dialogue>
+        <Dialogue>Hej vy, máme tu vlákno s bombou, dostante se do bezpecné vzdálenosti!</Dialogue>
+        <Dialogue>Tuto oblast je treba okamžite evakuovat! Pospeste si!</Dialogue>
+        <Dialogue></Dialogue>
+    </Evacuate>
+
+    <SpecialistGeneral>
+        <Dialogue>Dobrý den? Nasli jste bombu?</Dialogue>
+        <Dialogue>Ano, myslím, že ano. Je prímo prede mnou.</Dialogue>
+        <Dialogue>Dobre, nech me premýslet. Má to nejaký fantastický ovládací prvek.</Dialogue>
+        <Dialogue>Hmm... dobre... sakra... co to... ? Aha, už to mám.</Dialogue>
+        <Dialogue>Tedy... hm... ach ne... ah, ok...</Dialogue>
+        <Dialogue>Úžasné, jsem stále naživu! Zdá se, že bomba je zneskodnena. Dobrá práce a dekuji!</Dialogue>
+        <Dialogue>Nemás zac, nashle.</Dialogue>
+    </SpecialistGeneral>
+
+    <SpecialistGYB>
+        <Dialogue>Nejprve prestrihnete zelený drát.</Dialogue>
+        <Dialogue>Ted prestrihnete žlutý vodic.</Dialogue>
+        <Dialogue>Ok, pokud jeste nevybuchl, prestrihnete zbývající modrý drát.</Dialogue>
+    </SpecialistGYB>
+
+    <SpecialistBYG>
+        <Dialogue>Nejprve prestrihnete modrý vodic.</Dialogue>
+        <Dialogue>Ted prestrihnete žlutý vodic.</Dialogue>
+        <Dialogue>Ok, pokud jeste nevybuchl, prestrihnete zbývající zelený drát.</Dialogue>
+    </SpecialistBYG>
+
+    <SpecialistGBY>
+        <Dialogue>Nejprve prestrihnete zelený drát.</Dialogue>
+        <Dialogue>Ted prestrihnete modrý drát.</Dialogue>
+        <Dialogue>Ok, pokud jeste nevybuchl, prestrihnete zbývající žlutý drát.</Dialogue>
+    </SpecialistGBY>
+
+</BombReported>

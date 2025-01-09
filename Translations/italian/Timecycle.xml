@@ -1,0 +1,9 @@
+<Timecycle>
+    <General>
+        <Text>Vuoi giocare alle ~b~21~w~ per un'esperienza realistica?</Text>
+        <Text>Premi '~g~Y~w~' per ~g~yes~w~, '~r~N~w~' per ~r~no~w~.</Text>
+        <Text>Premi {0} per ~g~sì~w~, {1} per ~r~no~w~.</Text>
+        <Text>Il tempo scorre, buon divertimento!</Text>
+        <Text>L'ora è stata impostata su ~b~notte~w~.</Text>
+    </General>
+</Timecycle>

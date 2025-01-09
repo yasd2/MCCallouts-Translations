@@ -1,0 +1,9 @@
+<Timecycle>
+    <General>
+        <Text>さらにリアルな体験をするために時間を~b~午後9時~w~にしてプレイしませんか?</Text>
+        <Text>~g~同意~s~するなら'~g~Y~w~'、~r~拒否~s~するなら'~r~N~w~'を押してください。</Text>
+        <Text>~g~同意~s~するなら{0}、~r~拒否~s~するなら{1}を押してください。</Text>
+        <Text>時間を変更しました! お楽しみください!</Text>
+        <Text>時間を~b~夜~w~に変更しました。</Text>
+    </General>
+</Timecycle>

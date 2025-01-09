@@ -1,0 +1,68 @@
+<LostFreight>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+
+    <General>
+        <Text>Merci smarrite</Text>
+         <Text>Il chiamante segnala la perdita di merci in autostrada.</Text>
+        <Text><![CDATA[Raggiungi il chiamante e stabilisci un contatto.]]></Text>
+    </General>
+
+
+    <DisplayHelp>
+       <Text>Parla con il chiamante </Text>
+        <Text><![CDATA[Search the ~y~area~s~ & clear the obstacles with ]]></Text>
+       <Text>Parla con l'~b~ufficiale~s~ con </Text>
+         <Text>Nessuna ulteriore comunicazione.</Text>
+         <Text>Ecco un piccolo ~g~aiuto.</Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+       <Text>~r~Nessun oggetto~s~ nelle vicinanze.</Text>
+         <Text>~r~Oggetto~s~ rimosso!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>~y~Tu~s~: Ciao, hai chiamato per la perdita di merci?</Dialogue>
+        <Dialogue><![CDATA[~b~Chiamante~s~: Ciao, sì, la porta della roulotte si è aperta e ora la roba cade sull'autostrada!]]></Dialogue>
+       <Dialogue>~y~Tu~s~: È pericoloso, cosa stavi portando?</Dialogue>
+         <Dialogue>~b~Chiama~s~: Tutta ~b~roba da tennis~s~, visto che stavamo sgombrando il nostro circolo.</Dialogue>
+         <Dialogue>~b~Chiamante~s~: Un sacco di ~b~roba da ufficio~s~, armadietti, schermi, sedie, altoparlanti...</Dialogue>
+         <Dialogue>~b~Chiamante~s~: Un sacco di ~b~utensili da cucina~s~, pentole, posate, piatti, ecc., poiché avevamo un trasloco aziendale.</Dialogue>
+         <Dialogue>~y~Tu~s~: Capisco, dove eri diretto?</Dialogue>
+         <Dialogue>~b~Chiamante~s~: Stavo andando solo in ~y~questa direzione~s~, quindi cerca in quell'altro lato dell'autostrada.</Dialogue>
+         <Dialogue>~y~Tu~s~: Centrale, blocca l'ultimo ingresso dell'autostrada, ci sono dei pezzi sulla strada!</Dialogue>
+         <Dialogue>Ricevuto, il traffico verrà fermato, le unità sono lungo il percorso.</Dialogue>
+    </Conversation>
+
+
+    <Officer1>
+        <Dialogue>~b~Agente Blue~s~: Ciao! Spero che tu stia passando una bella giornata!</Dialogue>
+         <Dialogue>~b~Agente Blue~s~: Terrò il traffico bloccato finché la strada non sarà libera!</Dialogue>
+         <Dialogue>~b~Agente Blue~s~: Buona fortuna!</Dialogue>
+    </Officer1>
+
+
+    <Officer2>
+        <Dialogue>~b~Serata Ufficiale~s~: Ciao, quanto tempo ci vorrà?</Dialogue>
+         <Dialogue>~b~Serata Ufficiale~s~: Ho anche altre cose da fare!</Dialogue>
+         <Dialogue>~b~Serata Ufficiale~s~: Se non parlassi così tanto, me ne sarei già andato!</Dialogue>
+    </Officer2>
+
+
+    <End>
+        <Text>Abbiamo ~g~codice 4~s~</Text>
+        <Text>Elementi rimossi:</Text> <!--There are 4 items to find, on this message you get to see how many you've found.-->
+        <Text>/~g~4</Text> <!--This means X items from 4 items were found -> X/4 items found-->
+        <Text>~r~Grazie, ~g~il traffico torna a scorrere!</Text>
+    </End>
+
+
+
+</LostFreight>

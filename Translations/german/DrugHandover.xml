@@ -1,0 +1,46 @@
+<DrugHandover>
+
+    <General>
+        <CalloutMessage>Drogenübergabe</CalloutMessage>
+        <CalloutAdvisory>~o~Unterbrechen Sie das Treffen als Spezialkräfte-Scharfschütze~s~</CalloutAdvisory>
+    </General>
+
+    <Persons>
+        <Text>Sie</Text>
+        <Text>Beamter</Text>
+    </Persons>
+
+    <EState>
+        <Meeting>
+            <D_Briefing>
+                <Dialogue>Hallo, vielen Dank, dass Sie sich uns angeschlossen haben.</Dialogue>
+                <Dialogue>Diese Besprechung soll Ihnen einen Überblick darüber geben, was vor sich geht.</Dialogue>
+                <Dialogue>Wir haben Berichte über eine illegale Drogenübergabe, die heute auf dem Flugplatz von Sandy Shores stattfinden soll.</Dialogue>
+                <Dialogue>Da Sie einer der bestausgebildeten Scharfschützen sind, besteht Ihre Aufgabe darin, die Lage zu beobachten und uns zu informieren, sobald ein Drogendeal stattfindet.</Dialogue>
+                <Dialogue>Wir werden dann mit zwei zivilen Einheiten und einem SWAT Bearcat eingreifen. Sollten wir unter Beschuss geraten, ist es Ihre Aufgabe, die Angreifer auszuschalten.</Dialogue>
+                <Dialogue>Wir haben eine gute Scharfschützenposition für Sie auf einem der Gebäude neben dem Flugplatz ausgemacht.</Dialogue>
+                <Dialogue>Aber zuerst wählen Sie bitte einen Scharfschützen aus. Dieser liegt im Polizeirevier auf dem Tisch bereit.</Dialogue>
+            </D_Briefing>
+            <Text>Besorgen Sie sich ein Scharfschützengewehr im Polizeirevier.</Text>
+        </Meeting>
+
+        <Weapon>
+            <WeaponSelector>
+                <Text>Waffenauswahl</Text>
+                <Text>Waffen</Text>
+                <Text>Wählen Sie eine Waffe</Text>
+                <Text>Sie haben ausgerüstet: </Text> <!--Der Waffentyp ist fest auf Englisch kodiert-->
+            </WeaponSelector>
+            <Text>Fahren Sie jetzt zur Szene und bereiten Sie sich vor.</Text>
+        </Weapon>
+
+        <DriveToScene>
+            <Text>Dies ist der gemeldete ~o~Treffpunkt für die Drogenübergabe~s~. Auf der Minikarte sehen Sie jetzt, wo sich ~g~Ihre Scharfschützenposition~s~ befindet. Begeben Sie sich auf das Dach dort.</Text>
+        </DriveToScene>
+
+        <IsAtÜbergabeort>
+            <Text>Warten Sie nun auf die ~r~tatsächliche Übergabe.</Text>
+        </IsAtÜbergabeort>
+    </EState>
+
+</DrugHandover>

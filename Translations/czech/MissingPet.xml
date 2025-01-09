@@ -1,0 +1,118 @@
+<MissingPet>
+
+    <General>
+        <Text>Chybející domácí mazlícek</Text>
+        <Text>Volající má strach o domácího mazlícka.</Text>
+        <Text>Jedte za ~b~~h~volajícím~h~~s~ a zjistete více o pohresovaném zvíreti.</Text>
+    </General>
+
+    <Persons>
+        <Dialogue>Volající</Dialogue>
+        <Dialogue>ridic</Dialogue>
+        <Dialogue>Ty</Dialogue>
+        <Dialogue>Obet</Dialogue>
+    </Persons>
+
+    <Tasks>
+        <Text>Stisknutím tlacítka {Key} muzete s danou osobou hovorit.</Text>
+        <Text>Prislo hlásení o napadení cloveka zvíretem!</Text>
+        <Text>Pokus se zvíre ~y~zastavit~s~ a to dríve nez ~o~bude~s~ útocit!</Text>
+        <Text>~r~Zvíre~s~ prestalo ~g~útocit~s~!</Text>
+        <Text>Zavolejte ~g~veterináre~s~ pro zvíre.</Text>
+        <Text>Zavolejte ~r~záchranku~s~ pro obet.</Text>
+        <Text>Promluvte si s obetí</Text>
+        <Text>Dojedte k volajícímu a poskytnete mu aktuální informace.</Text>
+        <Text>Stisknutím tlacítka ~y~J~s~ ~r~prenesete~s~ zvíre do vozidla!</Text>
+        <Text>~r~Nejprve nasednete do vozidla,~s~ pak to zkuste znovu.</Text>
+    </Tasks>
+
+    <TasksAccident>
+        <Text>Osoba nasla {PetTypeAsNormalWord} a nahlásila ho.</Text>
+        <Text>Dojedte na místo, kde bylo zvíre nalezeno.</Text>
+        <Text>Zavolejte ~b~~h~koronera~h~~s~ pro zvíre, pak znovu zajedte k ~b~~h~volající~h~~s~.</Text>
+    </TasksAccident>
+
+    <Animals>
+        <Text>Agresivní pes</Text>
+        <Text>Puma</Text>
+        <Text>Pes</Text>
+        <Text>Kocka</Text>
+        <Text>Kojot</Text>
+        <Text>Jelen</Text>
+        <Text>Králík</Text>
+        <Text>Slepice</Text>
+        <Text>Divoký kanec</Text>
+        <Text>Opice</Text>
+        <Text>Opice druhu Rhesus</Text>
+    </Animals>
+
+    <CallerGeneral>
+        <Dialogue>Dobrý den! Nemohu najít svého mazlícka!</Dialogue>
+        <Dialogue>Je nezvestný uz {min} minut, ale musí být nekde poblíz!</Dialogue>
+        <Dialogue>Aha, prominte, je to {PetTypeAsNormalWord}, a jeho jméno je {PetName}.</Dialogue>
+        <Dialogue>Proste mi vyklouzla! Prosím, najdete ji!</Dialogue>
+    </CallerGeneral>
+
+    <DriverAccident1>
+        <Dialogue>Dobrý den, strázníku! Podívejte se, co se stalo!</Dialogue>
+        <Dialogue>Zvíre mi vbehlo pod auto! Nemel jsem sanci se mu vyhnout!</Dialogue>
+        <Dialogue>Moje auto je také poskozené! Muzete mi zavolat taxi a odtahovku?</Dialogue>
+    </DriverAccident1>
+
+    <DriverAccident2>
+        <Dialogue>Dobrý den, pane policisto, moc se omlouvám, jen jsem rídil, kdyz mi to zvíre prebehlo pres ulici.</Dialogue>
+        <Dialogue>Nebyl jsem schopen vcas zareagovat. Zatracene.</Dialogue>
+        <Dialogue>Pokud jste v porádku, je vse v porádku. V porádku je i vase vozidlo.</Dialogue>
+        <Dialogue>Dekuji za zprávu, upozorním tedy majitele. Jezdete opatrne.</Dialogue>
+    </DriverAccident2>
+
+    <CallerReturnAccident1>
+        <Dialogue>Dobrý den, jsem zpet se spatnými zprávami.</Dialogue>
+        <Dialogue>Ale ne, co se stalo?</Dialogue>
+        <Dialogue>Zvíre bylo srazeno autem a neprezilo.</Dialogue>
+        <Dialogue>To je smutné, ale to zvíre nebylo moje, patrilo sousedum.</Dialogue>
+        <Dialogue>Moji sousedé me budou navzdy nenávidet, ach ne...</Dialogue>
+        <Dialogue>Presto dekuji, ze jste mi dali vedet!</Dialogue>
+        <Dialogue>Ale ne, presto vám preji hezký den!</Dialogue>
+    </CallerReturnAccident1>
+
+    <CallerReturnAccident2>
+        <Dialogue>Dobrý den,...</Dialogue>
+        <Dialogue>A... nasli jste to zvíre?</Dialogue>
+        <Dialogue>Je mi líto, ale vás mazlícek byl nestastnou náhodou prejetý. Nekdo to práve nahlásil.</Dialogue>
+        <Dialogue>Sakra... Nebyl to muj mazlícek, sousedi mají dovolenou, tak jsem to prevzal...</Dialogue>
+        <Dialogue>Mohu pro vás jeste neco udelat?</Dialogue>
+        <Dialogue>Ne, dekuji... sakra... jak to mám vysvetlit...</Dialogue>
+    </CallerReturnAccident2>
+
+    <DriverAttackSafed1>
+        <Dialogue>Omg, dekuji ti za záchranu!</Dialogue>
+        <Dialogue>Já jsem si hledel svého, kdyz tu najednou to zvíre vyrazilo prímo na me!</Dialogue>
+        <Dialogue>Nic se nedeje, jsem rád, ze jsi v bezpecí.</Dialogue>
+        <Dialogue>Dekuji, preji hezký den!</Dialogue>
+    </DriverAttackSafed1>
+
+    <CallerAttackReturnPetAlive2>
+        <Dialogue>Hej, privedl jsem ti zpátky tvého mazlícka!</Dialogue>
+        <Dialogue>Úzasné, dekuji! Kde jsi byl, {Jméno zvírete}? </Dialogue>
+        <Dialogue>Muzu ti ríct, ze tvuj mazlícek napadl nevinného civilistu!</Dialogue>
+        <Dialogue>Oh, to je mi moc líto, doufám, ze není vázne zranený.</Dialogue>
+        <Dialogue>Potrebuji vase údaje, napríklad prukaz totoznosti, a podám hlásení.</Dialogue>
+        <Dialogue>Jakmile to bude hotové, muzete jít.</Dialogue>
+    </CallerAttackReturnPetAlive2>
+
+    <CallerAttackReturnPetDead2>
+        <Dialogue>Dobrý den, mám pro vás spatné zprávy. Vás mazlícek bohuzel napadl civilistu.</Dialogue>
+        <Dialogue>Byl jsem nucen pouzít smrtící sílu, zvíre je po smrti.</Dialogue>
+        <Dialogue>Oh dobre, je mi to moc líto, doufám, ze se tomu cloveku nic nestalo? </Dialogue>
+        <Dialogue>Osobe se nic nestalo.</Dialogue>
+        <Dialogue>Príste si budu dávat vetsí pozor na svá zvírata.</Dialogue>.
+        <Dialogue>Nejdulezitejsí je, aby byli vsichni v bezpecí. Preji vám hezký den.</Dialogue>
+    </CallerAttackReturnPetDead2>
+
+    <End>
+        <Text>Stisknutím tlacítka ~y~End~s~ kdykoli ukoncíte volání.</Text>
+        <Text>~g~Callout je pod kodem 4.</Text>
+    </End>
+
+</MissingPet>

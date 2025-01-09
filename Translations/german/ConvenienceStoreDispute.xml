@@ -1,0 +1,100 @@
+<ConvenienceStoreDispute>
+
+    <General>
+        <Text>Streit im Gemischtwarenladen</Text>
+        <Text>Lösen Sie die Unstimmigkeit</Text>
+    </General>
+
+    <Persons>
+        <Text>~y~Sie:~s~ </Text>
+        <Text>~HC_7~Dame:~s~ </Text>
+        <Text>~b~Verkäufer:~s~ </Text>
+    </Persons>
+
+    <D_Argue>
+        <Dialogue>Na endlich, die Polizei! Der Verkäufer will meinen Gutschein nicht akzeptieren!</Dialogue>
+        <Dialogue>Gnädige Frau, ich habe Ihnen bereits gesagt, dass dieser Gutschein ungültig ist. Ich kann ihn nicht annehmen.</Dialogue>
+        <Dialogue>Das ist lächerlich, er ist gültig! Ich habe Rechte! Sie können es nicht ablehnen, ihn zu akzeptieren!</Dialogue>
+        <Dialogue>Könnten Sie bitte einen Blick darauf werfen und das klären?</Dialogue>
+        <Dialogue>Sicher, lassen Sie mich ihn sehen...</Dialogue>
+        <Dialogue>* Sie schauen sich den Gutschein an... *</Dialogue>
+    </D_Argue>
+
+    <D_Expired>
+        <Dialogue>* Gutschein über 30 € für den 24/7-Markt, gültig bis 01.06.2024 *</Dialogue>
+        <Dialogue>Der Gutschein ist definitiv abgelaufen.</Dialogue>
+    </D_Expired>
+
+    <D_Manipulated>
+        <Dialogue>* Sie sehen, dass der Gutschein für den 24/7-Markt über 30 € auf 60 € manipuliert wurde *</Dialogue>
+        <Dialogue>Dieser Gutschein wurde manipuliert. Sehen Sie, die Zahlen wurden verändert.</Dialogue>
+    </D_Manipulated>
+
+    <D_RefuseLeave>
+        <Dialogue>Das kann nicht wahr sein! Sie lügen!</Dialogue>
+        <Dialogue>Das ist rassistisch! Ich gehe nicht, bevor ich mein Recht bekomme!</Dialogue>
+    </D_RefuseLeave>
+
+    <D_Run>
+        <Dialogue>Alle sind gegen mich! Vergessen Sie es, ich werde das nicht bezahlen!</Dialogue>
+    </D_Run>
+
+    <D_Fight>
+        <Dialogue>Ich habe genug von Ihrem Blödsinn!</Dialogue>
+        <Dialogue>Und Sie, Herr Wachtmeister, sind Teil des Problems!!! Aaaaaargh!</Dialogue>
+    </D_Fight>
+
+    <D_Taser>
+        <Dialogue>Wie wagen Sie es, mich zu bedrohen!</Dialogue>
+        <Dialogue>ATTACKE! Sie haben mich attackiert!</Dialogue>
+        <Dialogue>Das ist Selbstverteidigung!</Dialogue>
+    </D_Taser>
+
+
+
+    <D_Eco_Argue>
+        <Dialogue>Das ist ungeheuerlich! Schauen Sie sich diese Verpackung an! Überall Plastik! Wollen Sie den Planeten zerstören?</Dialogue>
+        <Dialogue>Ich verstehe Ihre Besorgnis, aber wir stellen die Produkte nicht her. Wir verkaufen sie nur.</Dialogue>
+        <Dialogue>Nur verkaufen? Dann machen Sie sich mitschuldig! Nicht umweltfreundliche Produkte zu verkaufen, ist praktisch illegal!</Dialogue>
+        <Dialogue>Gute Frau, das ist nicht wahr. Es gibt keine Gesetze gegen diese Verpackung—</Dialogue>
+        <Dialogue>Lügen Sie mich nicht an! Ich werde diesen Laden schließen lassen, weil Sie illegale Aktivitäten unterstützen! Sie sind Teil des Problems! Sie sind ein—Sie sind ein Mörder!</Dialogue>
+        <Dialogue>Entschuldigen Sie? Gut, bitte entfernen Sie sie aus dem Laden, sie ist ab sofort aus diesem Laden ausgeschlossen.</Dialogue>
+    </D_Eco_Argue>
+
+    <D_Eco_RefuseLeave>
+        <Dialogue>Ich werde diesen Laden nicht verlassen, bis dieser Kriminelle verhaftet wird!</Dialogue>
+        <Dialogue>Ich verstehe, dass Sie verärgert sind, aber das ist keine strafrechtliche Angelegenheit. Sie müssen den Laden verlassen, oder ich muss Sie selbst entfernen.</Dialogue>
+        <Dialogue>Ich weigere mich! Wenn Sie diesen Mörder nicht verhaften, dann sind SIE auch mitschuldig! Ich bleibe hier den ganzen Tag, wenn es sein muss!</Dialogue>
+    </D_Eco_RefuseLeave>
+
+    <D_Eco_FleeWPackage>
+        <Dialogue>Wissen Sie was? Wenn Sie es nicht beheben, werde ich es selbst tun! Das endet jetzt!</Dialogue>
+        <Dialogue>Ich rette den Planeten! Das gehört in die richtige Entsorgung und nicht in Ihre dreckigen Regale!</Dialogue>
+        <Dialogue>Das ist Diebstahl. Legen Sie den Artikel hin und treten Sie zurück.</Dialogue>
+        <Dialogue>Das ist kein Diebstahl, wenn ich die Menschheit rette! Verhaften Sie DIE, weil sie diesen Müll verkaufen!</Dialogue>
+        <Dialogue>Das ist Ihre letzte Warnung. Lassen Sie den Artikel fallen und kooperieren Sie, oder Sie werden verhaftet.</Dialogue>
+    </D_Eco_FleeWPackage>
+
+    <D_Eco_Argumentative>
+        <Dialogue>Sie müssen diesen Mann sofort verhaften! Er ist ein Mörder! Mit dem Verkauf von all diesem Plastik—er erstickt den Planeten praktisch selbst!</Dialogue>
+        <Dialogue>Das ist keine strafrechtliche Angelegenheit. Jetzt, wenn Sie —</Dialogue>
+        <Dialogue>Fangen Sie gar nicht erst an! Wo ist Ihr Vorgesetzter? Ich möchte seinen Namen. Und SIE— * zeigt auf Polizist * —Ich möchte Ihren Namen und Ihre Dienstnummer! SOFORT!</Dialogue>
+        <Dialogue>Das machen wir nicht. Entweder verlassen Sie den Laden, oder ich muss Sie hinausbegleiten.</Dialogue>
+        <Dialogue>Oh, ich würde gerne sehen, wie Sie das versuchen! Ich werde ALLE von Ihnen melden! Der Zentrale, dem Bürgermeister, den Medien—jeder wird davon hören!</Dialogue>
+    </D_Eco_Argumentative>
+
+    <D_Eco_Taser>
+        <Dialogue>Oh, jetzt bedrohen Sie mich? Ich fühle mich gerade so unsicher! Das ist ein Übergriff!</Dialogue>
+        <Dialogue>Niemand bedroht Sie. Bitte beruhigen Sie sich—</Dialogue>
+        <Dialogue>ÜBERGRIFF! SIE HABEN MICH ANGEGRIFFEN! Jeder hat es gesehen!</Dialogue>
+        <Dialogue>Niemand hat Sie berührt. Lassen Sie uns einfach—</Dialogue>
+        <Dialogue>Sprechen Sie nicht mit mir, Mörder!</Dialogue>
+    </D_Eco_Taser>
+
+
+
+    <End>
+        <Text>Callout ist Code 4.</Text>
+    </End>
+
+</ConvenienceStoreDispute>

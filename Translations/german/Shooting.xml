@@ -1,0 +1,47 @@
+<Shooting>
+    <General>
+    <Text>Schießerei</Text>
+    <Text>2 Personen beschießen sich gegenseitig mit Pistolen</Text>
+    <Text>Fahren Sie mit ~b~Code 3~s~ mit ~b~Blaulicht und Sirene~s~ an, 2 Schützen, ~r~Vorsicht~s~, ~r~Schüsse~s~ wurden ~r~abgefeuert~s~!</Text>
+    <Text>~y~Du~s~: ~p~Legt eure ~r~Waffen~s~ nieder, ~b~Polizei~s~!!!</Text>
+    <Text>Rufe Verstärkung!</Text>
+    </General>
+
+
+    <Outcomes>
+
+    <StillShooting>
+        <Text>~y~Du~s~: Sie scheinen nicht zu hören, benutze ~r~Gewalt~s~ oder ~o~handle~s~ nach deinem ~o~Ermessen~s~!</Text>
+    </StillShooting>
+
+    <Surrender>
+        <Text>~r~Erster Verdächtiger~s~: Nicht schießen, ich ~g~gebe auf~s~!</Text>
+        <Text>~p~Zweiter Verdächtiger~s~: Ich ~g~ergebe mich~s~ auch!</Text>
+    </Surrender>
+
+    <ShootAtPlayer>
+        <Text>Schüsse auf die Polizei!</Text>
+        <Text>~p~Verdächtiger~s~: Ich gebe auf, sperrt mich ein, ich bin fertig.</Text>
+    </ShootAtPlayer>
+
+    </Outcomes>
+
+    <Arrest>
+    <Text>Zentrale, ein Verdächtiger ~y~festgenommen~w~!</Text>
+    <Text>Zentrale, ein Verdächtiger ~o~ausgeschaltet~w~!</Text>
+    </Arrest>
+
+    <OnScene>
+    <Text>Rufe einen ~b~Transport~s~ für beide ~r~Verdächtige~s~ an.</Text>
+    <Text>Rufe ~b~Transport~s~ und einen ~p~Bestatter~s~ für jeden ~r~Verdächtigen~s~ an.</Text>
+    <Text>Rufe einen ~p~Bestatter~s~ für beide ~r~Verdächtige~s~ an.</Text>
+    </OnScene>
+
+    <End>
+    <Text>Ein ~r~GTA-Ped-Fehler~s~ ist aufgetreten, Einsatz ~g~beendet~s~</Text>
+    <Text>~y~Du~s~ bist gestorben, Einsatz ~g~beendet~s~</Text>
+    <Text>Einsatz beendet</Text>
+    <Text>~g~Code 4~s~, ~b~Räume~s~ die ~b~Szene~s~ frei und kehre zur ~g~Streife~s~ zurück.</Text>
+    </End>
+
+</Shooting>

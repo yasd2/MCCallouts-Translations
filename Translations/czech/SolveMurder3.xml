@@ -1,0 +1,174 @@
+<SolveMurder3>
+
+
+    <General>
+        <Text>~b~Detektiv~s~ je v prípade vrazdy vyzadován!</Text>
+        <Text>Mrtvý policista po zastavení vozidla na vyzádání</Text>
+    </General>
+
+
+    <Approach>
+        <Text>Promluvte si s ~HC_43~Detektivem~s~ abyste získali aktuální informace co se deje na míste.</Text>
+    </Approach>
+
+
+    <Characters>
+        <Text>~HC_43~Detektiv~s~: </Text>
+        <Text>~y~Ty~s~: </Text>
+        <Text>~p~Laborant~s~: </Text>
+        <Text>~g~Svedek~s~: </Text>
+        <Text>~r~Podezrelý~s~: </Text>
+    </Characters>
+
+
+    <TalkToDetective>
+        <Dialogue>Dobrý den, pane ~HC_43~Detektive~s~! Máme tu nejaké velké pozdvizení! Co se deje?</Dialogue>
+        <Dialogue>Dobrý den, urcite ano! Bohuzel máme jednoho z nasi ~b~kolegu ~r~zavrazdeného~s~ pri zastavení vozidla na vyzádání...</Dialogue>
+        <Dialogue>V tuto chvíli netusíme, kdo to byl, a proto jsme zavolali vám, nekomu, kdo s tím má zkusenosti.</Dialogue>
+        <Dialogue>Slysel jsem o prípadu na ~g~Mount Chiliadu~s~ u cerpací stanice, vyresil jste ho rychle a dobre!</Dialogue>
+        <Dialogue>Dekuji vám, pane, podívám se, na to o co tu jde a co tady najdu.</Dialogue>
+        <Dialogue>Omlouvám se, ano, jiste, prohledejte si to tu ~y~dukazný materiály~s~ jsou na míste cinu muze pomoci s cím cokoli.</Dialogue>
+        <Dialogue>Zmácknete ~y~{0}~s~ pro ~y~sebrání~s~ ~y~dukazných materiálu~s~ kdyz stojíte vedle nich. ~g~Preji hodne stestí~s~!</Dialogue>
+        <Dialogue>Jdete do uzavrené oblasti a hledejte dukazné materiály, stisknutím ~y~{1}~s~ pro sebrání ~y~dukazného materiálu~s~.</Dialogue>
+        <Dialogue>Podívej se na místo znovu, porád ti neco ~o~chybí!~s~!</Dialogue>
+    </TalkToDetective>
+
+
+    <SearchForEvidence>
+        <Dialogue>Zde je málá ~HC_211~vypomoc~s~.</Dialogue>
+        <Dialogue>~r~V okolí nejsou zádné~s~ dukazy.</Dialogue>
+
+        <Dialogue>~o~Pusku~s~, mohou mít pouze podezrelí nebo policisté.</Dialogue>
+        <Dialogue>Tohle musí být ~o~penezenka~s~ podezrelého...</Dialogue>
+        <Dialogue>~o~Mobilní telefon~s~, jen kdybych mel heslo abych ho mohl otevrít.</Dialogue>
+        <Dialogue>~o~Pivo~s~? Nekdo ho vyhodil z okna nejspís.</Dialogue>
+
+        <Dialogue>A hele ~o~Nuz~s~... vypadá to ze je od krve.</Dialogue>
+        <Dialogue>~o~Obcanský prukaz~s~, hm.. radeji ho dám laborantovi.</Dialogue>
+        <Dialogue>~o~USB flash disk~s~, doopravdy by me zajímalo, co na nem je.</Dialogue>
+        <Dialogue>Hm... ~o~taska~s~... Nemel bych na ni sahat bez rukavic abych tam nedal dalsí otisky prstu.</Dialogue>
+
+        <Dialogue>A hele ~o~Pistole~s~... nevypadá jako policejní.</Dialogue>
+        <Dialogue>Co to je? ~o~Poznávací znacka~s~... mohla by to být toho naseho podezrelého.</Dialogue>
+        <Dialogue>A máme tu ~o~botu~s~, ale tahle nevydává jako z naseho policejní oddelení.</Dialogue>
+        <Dialogue>~o~Whisky~s~... No... Kéz bych si mohl dát panáka :p</Dialogue>
+
+        <Dialogue>Promluvte si s ~HC_43~Detektivem~s~ o najitých ~g~dukazných materiálech~s~.</Dialogue>
+    </SearchForEvidence>
+
+
+    <AgainTalkToDetective>
+        <Dialogue>Ahoj, nasel jsem zajímavý dukazy, který nám pomuze.</Dialogue>
+        <Dialogue>Dobre, rekni mi o jaký to jde?</Dialogue>
+        <Dialogue>Nasel jsem {0}.</Dialogue>
+        <Dialogue>pusku, penezenku, telefon a pivo.</Dialogue>
+        <Dialogue>nuz, prukaz totoznosti, USB flash disk a tasku.</Dialogue>
+        <Dialogue>pistoli, poznávací znacku, botu a láhev whisky.</Dialogue>
+        <Dialogue>Jsem si jistý, ze tohle je vrazedná zbran.</Dialogue>
+        <Dialogue>Také bychom meli být schopni zjistit informace o podezrelém.</Dialogue>
+        <Dialogue>Jiste! Jdete za ~p~Laborantem~s~, a ten zanalyzuje dukazy a zjistí víc!</Dialogue>
+        <Dialogue>Pouzijte ~y~{1}~s~ pro mluvení s ~p~Laborantem~s~~s~ o ~y~dukazných materiálech~s~.</Dialogue>
+    </AgainTalkToDetective>
+
+
+    <TalkToLaborant>
+        <Dialogue>Dobrý den, pane, dekuji, ze jste prisel. Nasel jsem spoustu dukazu, mohl byste se na ne podívat?</Dialogue>
+        <Dialogue>Zdravím i vás. Jo, jasne, to je moje práce c; Prosím, predejte mi dukazy.</Dialogue>
+        <Dialogue>Díky, jdu to rychle zkontrolovat.</Dialogue>
+        <Dialogue>Opetovným stisknutím ~y~{3}~s~ muzete mluvit.</Dialogue>
+        <Dialogue>Dobre, zkontroloval jsem dukazy.</Dialogue>
+
+        <Dialogue>Majitelem ~o~{3}~s~ je ~o~{4}~s~!</Dialogue> 
+        <Dialogue>V ~o~{3}~s~ jsem nasel ridicský prukaz z ~o~{4}~s~.</Dialogue>
+        <Dialogue>Na ~o~{3}~s~ jsem nasel jméno majitele: ~o~{4}~s~!</Dialogue>
+        <Dialogue>~o~{3}~s~ bylo sotva citelné, ale jméno je ~o~{4}~s~.</Dialogue>
+        <Dialogue>Na ~o~{3}~s~ jsem nasel soubory ~o~{4}~s~.</Dialogue>
+        <Dialogue>Sériové císlo na ~o~{3}~s~ je na osobu ~o~{4}~s~.</Dialogue>
+        <Dialogue>~o~{3}~s~ patří osobě ~o~{4}~s~.</Dialogue>
+
+        <Dialogue>To je pravdepodobne nás podezrelý!</Dialogue>
+        <Dialogue>To by mohl být nás podezrelý!</Dialogue>
+
+        <Dialogue>Detektiv s vámi chtel znovu mluvit, jdete za ním, prosím.</Dialogue>
+        <Dialogue>Promluvte si s ~HC_43~Detektivem~s~ znovu.</Dialogue>
+    </TalkToLaborant>
+
+
+    <TalkToDetectiveAnalyzedEvidence>
+        <Dialogue>Ahoj, máme nejaké nové informace?</Dialogue>
+        <Dialogue>Ano! ~o~{4}~s~ nás vede správným smerem!</Dialogue>
+        <Dialogue>Perfektní! Navíc tu máme ~g~svedkyni~s~ snad nám poskytne více informací.</Dialogue>
+        <Dialogue>Jdete k ~g~svedkyni~s~ a promluvte si s ní pres ~y~{0}~s~</Dialogue>
+    </TalkToDetectiveAnalyzedEvidence>
+
+
+    <TalkToWitness>
+
+        <Vehicle>
+            <Dialogue>Dobrý den, madam, v tomto prípade jsem ~y~Detektiv~s~ a budu mít na vás par otázek. Byla jste neceho svedkem?</Dialogue>
+            <Dialogue>Dobrý den, ~y~Detektive~s~ mé jméno je {5} a ano, mám nejaké informace.</Dialogue>
+            <Dialogue>Puvodne jsem tam chtel nakupovat v supermarketech.</Dialogue>
+            <Dialogue>Samozrejme jsem si vsimla této dopravní zastávky s blikajícími modrými svetly, kdyz jsem najednou uvidela hekticky ujízdející vozidlo.</Dialogue>
+            <Dialogue>Nevidela jsem ridice ani poznávací znacku, ale model vozidla byl ~o~{0}~s~.</Dialogue>
+            <Dialogue>Úzasné, dekuji za informace, uvidíme, co zjistí dispecink.</Dialogue>
+        </Vehicle>
+
+        <House>
+            <Dialogue>Dobrý den, madam, v tomto prípade jsem ~y~Detektiv~s~ a budu mít na vás par otázek. Byla jste neceho svedkem?</Dialogue>
+            <Dialogue>Dobrý den, ~y~Detektive~s~ mé jméno je {5} a ano, mám nejaké informace.</Dialogue>
+            <Dialogue>Puvodne jsem tam chtel nakupovat v supermarketech, jsem totíz od sud.</Dialogue>
+            <Dialogue>Samozrejme jsem si vsiml této dopravní zastávky s blikajícími modrými svetly, kdyz jsem najednou uvidel utíkající osobu.</Dialogue>
+            <Dialogue>Myslím, ze jsem tu osobu poznala, podezrelý musí být ~o~{4}~s~.</Dialogue>
+            <Dialogue>Úzasné, dekuji za informace, uvidíme, co zjistí dispecink.</Dialogue>
+        </House>
+        
+    </TalkToWitness>
+
+
+    <SearchForSuspect>
+
+        <Vehicle>
+            <Dialogue>Dispecinku, muzete zkontrolovat dopravní kamery, jestli tam není vozidlo podezrelé z vrazdy, model je ~o~{0}~s~.</Dialogue>
+            <Dialogue>10-4 standby...</Dialogue>
+            <Dialogue>Vozidlo bylo najito a bylo vyznaceno v systému PD GPS.</Dialogue>
+            
+            <Dialogue>Nová lokace pres ~r~ALPR ~s~daného ~y~vozidla je {1}!~s~</Dialogue>
+        </Vehicle>
+
+        <House>
+            <Dialogue>Dispecere, muzete nastavit trasu k domu podezrelého?</Dialogue>
+            <Dialogue>10-4 pockejte...</Dialogue>
+            <Dialogue>Místo je ho domova, je oznaceno ve vasem PD GPS</Dialogue>
+        </House>
+
+    </SearchForSuspect>
+
+
+    <InPursuit>
+        <Dialogue>Do prdele, policajti!</Dialogue>
+    </InPursuit>
+
+
+    <QuestioningSuspect>
+        <Dialogue>Jakmile jste pripraveni, ~r~konfrontujte podezrelého~s~ o jeho cinech, pouzijte ~y~{0}~s~ k rozhovoru.</Dialogue>
+        <Dialogue>Ve jménu zákona jste zatcen ~r~za vrazdu~s~ naseho ~b~dustojníka~s~!</Dialogue>
+        <Dialogue>Prectu vám vase práva podle Mirandy...  * cte mirandu *</Dialogue>
+        <Dialogue>Proc jsi utekl?</Dialogue>
+        <Dialogue>Pane, moc se omlouvám za to, co jsem udelal, podelal jsem to.</Dialogue>
+        <Dialogue>Utekl jsem, protoze jsem se bál, to je vse.</Dialogue>
+        <Dialogue>Zavrazdil jste policistu!</Dialogue>
+        <Dialogue>Coze? Je mrtvý? Já jen... Jen jsem nechtel jít do vezení, ale nechtel jsem ho zabít...</Dialogue>
+        <Dialogue>Strílel jsi na nej... </Dialogue>
+        <Dialogue>Chtel jsem ho jen vydesit, abych mohl utéct a být volný.</Dialogue>
+        <Dialogue>Dostanete se do vezení a pravdepodobne se z nej brzy nedostanete...</Dialogue>
+        <Dialogue>Odvedte ~r~podezrelé ~s~ do ~o~vezení~s~.</Dialogue>
+    </QuestioningSuspect>
+
+
+    <End>
+        <Text>Stisknutím tlacítka ~y~End~s~ kdykoli ukoncíte callout.</Text>
+        <Text>Vse pod ~g~kodem 4.~s~</Text>
+    </End>
+
+
+</SolveMurder3>

@@ -1,0 +1,172 @@
+<SolveMurder2>
+
+    <General>
+        <Text>~s~Potrzebny ~p~detektyw~s~ w sprawie morderstwa</Text>
+        <Text>~g~Centrala~s~: Podjedź do Mirror Park w Los Santos. ~w~Potrzebny ~p~detektyw~w~.</Text>
+    </General>
+
+    <Officer>
+        <Dialogue>Podejdź do ~b~oficera~w~ i porozmawiaj z nim </Dialogue>
+        <Dialogue>~b~Oficer~s~: Cześć detektywie! Jestem ~g~Jack Walter~s~, ale mów mi Jack. Mam nadzieję, że korki nie były zbyt duże.</Dialogue>
+        <Dialogue>~y~Ty~s~: Cześć! Nie, wszystko w porządku. Co tutaj się stało?</Dialogue>
+        <Dialogue>~b~Jack~s~: Mamy ~g~denata~s~, prawdopodobnie zamordowana. Oficer Dawson, ~g~która jest tam~s~ ma więcej informacji.</Dialogue>
+        <Dialogue>~b~Jack~s~: Do tego mamy 3 podejrzanych, wśród z nich jest osoba, która zawiadomiła nas o morderstwie.</Dialogue>
+        <Dialogue>~y~Ty~s~: Dzięki, pójdę porozmawiać z ~b~panią oficer~s~.</Dialogue>
+        <Dialogue>Podejdź i porozmawiaj z ~b~oficer Dawson~s~.</Dialogue>
+    </Officer>
+
+    <Officer2>
+        <Dialogue>Porozmawiaj z ~b~oficer Dawson~s~</Dialogue>
+        <Dialogue>~y~Ty~s~: Witam panią oficer Dawson! Oficer Walter powiedział, że masz jakieś informacje?</Dialogue>
+        <Dialogue>~b~Oficer Dawson~s~: Witaj detektywie! Możesz mi mówić Erika!</Dialogue>
+        <Dialogue>~b~Erika~s~: Ofiara to Lilliana Wyatt, 33 lata, mieszkała niedaleko, na Nikola Avenue.</Dialogue>
+        <Dialogue>~b~Erika~s~: Mamy 3 potencjalnych sprawców.</Dialogue>
+        <Dialogue>~b~Erika~s~: Jedna z nich, Belle Hamilton, to ona nas o tym zawiadomiła, ale też pozostaje w gronie podejrzanych.</Dialogue>
+        <Dialogue>~b~Erika~s~: Proponuję przejrzeć miejsce zbrodni i sprawdzić, czy uda ci się coś tam znaleźć.</Dialogue>
+        <Dialogue>Idź na miejsce zbrodni i poszukaj ~b~wskazówek~s~.</Dialogue>
+    </Officer2>
+
+    <Evidence>
+        <Text>~y~Ty~s~: Ma ranę na głowie, została uderzona tą stłuczoną butelką...</Text>
+        <Text>Telefon komórkowy... Na tapecie jest ~p~czarny Obey Tailgater~s~...</Text>
+        <Text>Hmmm... niedokończony burger... nic szczególnego.</Text>
+        <Text>Krew wydaje się jeszcze świeża, to nie mogło się stać dłużej niż 2 godziny temu...</Text>
+        <Text>Śledztwo zakończone! Podejdź do ~o~osoby zawiadamiającej~w~ i porozmawiaj z nią naciskając </Text>
+    </Evidence>
+
+    <Suspect1>
+        <Dialogue>Porozmawiaj z ~o~podejrzaną~w~ naciskając </Dialogue>
+        <Dialogue>~y~Ty~s~: Witam! Jestem detektywem w tej sprawie. Jak się nazywasz?</Dialogue>
+        <Dialogue>~o~Zawiadamiająca~s~: Dobry wieczór, nazywam się Belle Hamilton. Przechodziłam niedaleko i wtedy ją zobaczyłam...</Dialogue>
+        <Dialogue>~y~Ty~s~: Dobrze zrobiłaś wzywając nas. Sprawdzę jeszcze twoje dane.</Dialogue>
+        <Dialogue>~y~Ty~s~: Centrala, możesz sprawdzić dla mnie 'Belle Hamilton'?</Dialogue>
+        <Dialogue>Oczekuj, sprawdzam.</Dialogue>
+        <Dialogue>~b~Belle Hamilton~s~</Dialogue>
+        <Dialogue>~g~Żadnych listów gończych</Dialogue>
+        <Dialogue>~g~Żadnych aresztowań</Dialogue>
+        <Dialogue>~y~1 mandat: Przekroczenie prędkości~s~</Dialogue>
+        <Dialogue>~y~Ty~s~: Masz czystą kartotekę. Muszę zadać ci jeszcze kilka pytań.</Dialogue>
+        <Dialogue>~y~Ty~s~: Znałaś ofiarę?</Dialogue>
+        <Dialogue>~o~Ms. Hamilton~s~: Nie. Ale jej rodzina, co oni teraz muszę czuć...</Dialogue>
+        <Dialogue>~y~Ty~s~: Zajmiemy się nimi. Mogę zobaczyć twój telefon?</Dialogue>
+        <Dialogue>*Pokazuje telefon*</Dialogue>
+        <Dialogue>~o~Ms. Hamilton~s~: Tutaj, ale... aaah... mam na nim swoje prywatne zdjęcia, nie mogę go oddać.</Dialogue>
+        <Dialogue>~y~Ty~s~: Możesz go zatrzymać. Em, jakim pojazdem się poruszasz i jakie są jego numery rejestracyjne?</Dialogue>
+        <Dialogue>~o~Ms. Hamilton~s~: Jeżdżę Lampadati Pigalle, numer rejestracyjny 86LUN445.</Dialogue>
+        <Dialogue>~y~Ty~s~: Centrala, potrzebuję informacji o pojeździe z rejestracją 86LUN445.</Dialogue>
+        <Dialogue>Zrozumiano, daj mi chwilę.</Dialogue>
+        <Dialogue>~b~86LUN445~s~</Dialogue>
+        <Dialogue>~g~Model~s~: Lampadati Pigalle</Dialogue>
+        <Dialogue>~b~Właściciel~s~: Belle Hamilton</Dialogue>
+        <Dialogue>~r~Ubezpieczenie przedawnione~s~</Dialogue>
+        <Dialogue>~y~Ty~s~: W porządku, ale twój pojazd ma przedawnione ubezpieczenie, powinnaś je odnowić.</Dialogue>
+        <Dialogue>~o~Ms. Hamilton~s~: Oh, dzięki. Nawet nie wiedziałam, odnowię.</Dialogue>
+        <Dialogue>~y~Ty~s~: To na razie wszystko, niedługo cię poinformuję co dalej.</Dialogue>
+        <Dialogue>Podejdź do następnego ~o~podejrzanego~s~ i porozmawiaj z nim.</Dialogue>
+
+        <Dialogue>~y~Ty~s~: Póki co to wszystko, dziękuję za poświęcony czas.</Dialogue>
+    </Suspect1>
+
+    <Suspect2>
+        <Dialogue>Rozpocznij rozmowę naciskając </Dialogue>
+        <Dialogue>~y~Ty~s~: Witam pana! Jestem detektywem w tej sprawie. Mogę prosić o pańskie dane?</Dialogue>
+        <Dialogue>~o~Podejrzany~s~: Witam, nazywam się Talon Knight, urodzony 12 grudnia 1992. Czemu mnie tu trzymacie?</Dialogue>
+        <Dialogue>~y~Ty~s~: Byłeś w okolicy, kiedy to się wydarzyło.</Dialogue>
+        <Dialogue>~o~Talon~s~: To wbrew mojej woli! Wypuśćcie mnie, nic nie zrobiłem!</Dialogue>
+        <Dialogue>~y~Ty~s~: Wypuścimy, ale najpierw musisz odpowiedzieć na kilka pytań. Gdzie mieszkasz?</Dialogue>
+        <Dialogue>~o~Talon~s~: Mieszkam niedaleko, 2 domy dalej.</Dialogue>
+        <Dialogue>~y~Ty~s~: Znałeś ofiarę?</Dialogue>
+        <Dialogue>~o~Talon~s~: Nie?</Dialogue>
+        <Dialogue>~y~Ty~s~: Mieszkasz w okolicy i mówisz mi, że nie znałeś Lilliana'y Wyatt?</Dialogue>
+        <Dialogue>~o~Talon~s~: Ok, znam ją, po prostu jej nie lubię, nie była zbyt przyjazna i lubiana w sąsiedztwie...</Dialogue>
+        <Dialogue>~o~Talon~s~: Raz nawet zadzwoniła na policję, ponieważ mój pies szczęknął kilka razy, chwilę po 10 pm...</Dialogue>
+        <Dialogue>~y~Ty~s~: Hmmm... Ok, możesz pokazać mi swój telefon?</Dialogue>
+        <Dialogue>~o~Talon~s~: Chciałbym, ale wypadł mi z kieszeni tydzień temu i oddałem go do naprawy. Kosztował około 100$...</Dialogue>
+        <Dialogue>~y~Ty~s~: Rozumiem. Jakim pojazdem się poruszasz i jaki ma numer rejestracyjny?</Dialogue>
+        <Dialogue>~o~Talon~s~: Mój pojazd to Vapid Minivan, o numerach... aaaah... 47LIF... 341.</Dialogue>
+        <Dialogue>~y~Ty~s~: Centrala, sprawdź dla mnie tablicę 47LIF341.</Dialogue>
+        <Dialogue>Zrozumiano, oczekuj.</Dialogue>
+        <Dialogue>~b~47LIF341~s~</Dialogue>
+        <Dialogue>~g~Model~s~: Vapid Minivan</Dialogue>
+        <Dialogue>~b~Właściciel~s~: Talon Knight</Dialogue>
+        <Dialogue>~y~Notatka: Pojazd zarejestrowany 4 miesiące temu~s~</Dialogue>
+        <Dialogue>~y~Ty~s~: Centrala, sprawdź jeszcze osobę 'Talon Knight'.</Dialogue>
+        <Dialogue>Oczekuj, już sprawdzam.</Dialogue>
+        <Dialogue>~b~Talon Knight~s~</Dialogue>
+        <Dialogue>~g~Żadnych aresztowań</Dialogue>
+        <Dialogue>~y~1 mandat: Parkowanie po złej stronie jezdni~s~</Dialogue>
+        <Dialogue>~y~Ty~s~: Masz czystą kartotekę, niedługo do ciebie wrócę, muszę jeszcze coś sprawdzić.</Dialogue>
+        <Dialogue>~o~Talon~s~: W porządku!</Dialogue>
+        <Dialogue>Porozmawiaj z ostatnią ~o~podejrzaną~s~.</Dialogue>
+    </Suspect2>
+
+    <Suspect3>
+        <Dialogue>Rozpocznij rozmowę naciskając </Dialogue>
+        <Dialogue>~y~Ty~s~: Witam panią! Jestem detektywem w tej sprawie, mogę prosić o pani imię i nazwisko?</Dialogue>
+        <Dialogue>~o~Podejrzana~s~: Witam, nazywam się Nylah Lane.</Dialogue>
+        <Dialogue>~y~Ty~s~: Dziękuję. Centrala, możesz sprawdzić dla mnie Nylah Lane?</Dialogue>
+        <Dialogue>Jasne, już sprawdzam.</Dialogue>
+        <Dialogue>~b~Nylah Lane~s~</Dialogue>
+        <Dialogue>~g~Żadnych listów gończych~s~</Dialogue>
+        <Dialogue>~g~Żadnych aresztowań</Dialogue>
+        <Dialogue>~y~1 mandat: Parkowanie na wyłączonym z użytku miejscu~s~</Dialogue>
+        <Dialogue>~y~Ty~s~: Dobra, wszystko wydaje się w porządku. Gdzie mieszkasz?</Dialogue>
+        <Dialogue>~o~Nylah~s~: W Vinewood Hills, Tam mam swoje mieszkanie.</Dialogue>
+        <Dialogue>~y~Ty~s~: Wow, to świetnie miejsce do zamieszkania! Możesz pokazać mi swój telefon?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Tak pewnie, mam go w... O, cholera, gdzie on jest?... Może zostawiłam go w samochodzie.</Dialogue>
+        <Dialogue>~y~Ty~s~: Oh, oby faktycznie tam był. Co to za samochód?</Dialogue>
+        <Dialogue>~o~Nylah~s~: To jest... aaaaah... Grotti ... Stinger, tak.</Dialogue>
+        <Dialogue>~y~Ty~s~: Ok, a numer rejestracyjny?</Dialogue>
+        <Dialogue>~o~Nylah~s~: ... Aaah, nie pamiętam.</Dialogue>
+        <Dialogue>~y~Ty~s~: Nie pamiętasz numeru rejestracyjnego swojego własnego pojazdu?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Tak, znaczy... to skomplikowane...</Dialogue>
+        <Dialogue>~y~Ty~s~: Okej, nieważne. Centrala, potrzebuje sprawdzenia pojazdu marki ~b~Grotti Stinger~s~, właściciel ~b~Nylah Lane~s~.</Dialogue>
+        <Dialogue>10-4, sprawdzam.</Dialogue>
+        <Dialogue>Brak wyników, sprawdzę tylko właściciela.</Dialogue>
+        <Dialogue>Ta osoba posiada inny pojazd:</Dialogue>
+        <Dialogue>~b~58RLD582~s~</Dialogue>
+        <Dialogue>~y~Model~s~: Obey Tailgater</Dialogue>
+        <Dialogue>~b~Właściciel~s~: Nylah Lane</Dialogue>
+        <Dialogue>~y~Ty~s~: Interesujące. Dlaczego pani skłamała na temat pojazdu?</Dialogue>
+        <Dialogue>~o~Nylah~s~: W jakim sensie? Znaczy.. Mam 2 samochody... mam?</Dialogue>
+        <Dialogue>~y~Ty~s~: Bardzo śmieszne, historyjka z telefonem także zmyślona?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Jest gdzieś w pobliżu? Stąd to pytanie?</Dialogue>
+        <Dialogue>~y~Ty~s~: ... Jakie miałaś relacje z ofiarą?</Dialogue>
+        <Dialogue>~o~Nylah~s~: To moja kuzynka i jest mi winna sporą sumę pieniędzy.</Dialogue>
+        <Dialogue>~y~Ty~s~: Dlatego ją zamordowałaś?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Przyjechałam tylko do niej porozmawiać o długu.</Dialogue>
+        <Dialogue>~y~Ty~s~: No dobra, póki co to wszystko, niedługo do ciebie wrócę.</Dialogue>
+        <Dialogue>Porozmawiaj z ~b~oficer Dawson~s~.</Dialogue>
+    </Suspect3>
+
+    <Officer3>
+        <Dialogue>Porozmawiaj ponownie z ~b~panią oficer~w~ naciskając </Dialogue>
+        <Dialogue>~y~Ty~s~: W porządku, miejsce zbrodni sprawdzone i zeznania zebrane.</Dialogue>
+        <Dialogue>~b~Erika~s~: Udało ci się ustalić kto za tym stoi?</Dialogue>
+        <Dialogue>Osądź {1} ~r~Belle Hamilton~s~, {2} ~o~Talon Knight~s~ albo {3} ~y~Nylah Lane~s~!</Dialogue>
+
+        <Dialogue>~y~Ty~s~: ... ~r~Belle Hamilton~s~!</Dialogue>
+        <Dialogue>~y~Ty~s~: Pani Hamilton nie chciała pokazać co ma na telefonie i powiedziała, że była w okolicy kiedy to się stało!</Dialogue>
+        <Dialogue>~y~Ty~s~: Ona jest mordercą!</Dialogue>
+
+        <Dialogue>~y~Ty~s~: ... ~o~Talon Knight~s~!</Dialogue>
+        <Dialogue>~y~Ty~s~: Pan Knight nie przepadał za ofiarą i mieszka niedaleko!</Dialogue>
+        <Dialogue>~y~Ty~s~: Nie był w stanie pokazać mi swojego telefonu! On jest mordercą!</Dialogue>
+
+        <Dialogue>~y~Ty~s~: ... ~y~Nylah Lane~s~!</Dialogue>
+        <Dialogue>~y~Ty~s~: Pani Lane była w okolicy, kiedy to się stało. Na dodatek jest powiązana z ofiarą!</Dialogue>
+        <Dialogue>~y~Ty~s~: Skłamała na temat swojego pojazdu i telefonu!</Dialogue>
+        <Dialogue>~y~Ty~s~: Na telefonie są zdjęcia jej samochodu. Zgubiła go na miejscu zbrodni. Ona jest mordercą!</Dialogue>
+
+        <Dialogue>~b~Erika~s~: Oh, rozumiem! W porządku, idź zaaresztować ~r~sprawcę~s~!</Dialogue>
+    </Officer3>
+
+    <Arrest>
+        <Text>Zaaresztowano właściwą ~r~osobę~s~! ~g~Posprzątaj okolicę~s~!</Text>
+        <Text>O nie, zaaresztowano ~y~złą~s~ osobę! ~g~Posprzątaj okolicę~s~!</Text>
+        <Text>~o~Podejrzany~s~ ~r~nie żyje~s~. {0}~g~Kod 4~s~, ~g~posprzątaj okolicę~s~!</Text>
+        <Text>~b~Oficer~s~ ~r~nie żyje~s~. {0}~g~Kod 4~s~.</Text>
+
+    </Arrest>
+
+</SolveMurder2>

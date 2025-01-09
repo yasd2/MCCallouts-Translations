@@ -1,0 +1,70 @@
+<Shoplifting>
+
+    <General>
+        <Text>Nahlásená krádez v obchode</Text>
+        <Text>Majitel obchodu zavolal policii</Text>
+        
+        <Text>~HC_64~Majitel obchodu~s~:</Text>
+        <Text>~y~Ty~s~:</Text>
+    </General>
+
+    <GetInfos>
+        <Dialogue>Dobrý den, jsem policista z místního policejního oddelení.</Dialogue>
+        <Dialogue>Volali jste nám kvuli krádezi v obchode?</Dialogue>
+        <Dialogue>Dobrý den! Ano, podezrelý pred nekolika minutami odesel!</Dialogue>
+        <Dialogue>Tenhle sasek ukradl spoustu vecí, má s sebou tasku.</Dialogue>
+        <Dialogue>Jak podezrelý vypadá?</Dialogue>
+
+        <!-- {1}: ShoplHelper.Background() -->
+        <Dialogue>Je to cernoch</Dialogue>
+        <Dialogue>Je to beloch</Dialogue>
+
+        <!-- {1}: {Suspect.GetRoundAge()} = {10} -->
+        <Dialogue>kolem {10} let.</Dialogue>
+
+        <!-- {2}: ShoplHelper.TShirt() -->
+        <Dialogue>Mel na sobe bílé tílko</Dialogue>
+        <Dialogue>Mel na sobe sedé tílko</Dialogue>
+        <Dialogue>Mel na sobe cernou kozenou bundu</Dialogue>
+
+        <!-- {2}: ShoplHelper.Pants() -->
+        <Dialogue>a kostkované kalhoty.</Dialogue>
+        <Dialogue>a bílé kalhoty.</Dialogue>
+        <Dialogue>a svetle modré dzíny.</Dialogue>
+
+        <Dialogue>Zachytil jsem ho na kamerách, tady je jeho fotka!</Dialogue>
+        <Dialogue>Podezrelý odesel pesky!</Dialogue>
+        <Dialogue>Dobre, dekuji, ahoj!</Dialogue>
+    </GetInfos>
+
+    <LocationUpdater>
+        <Text>~y~lokalita~s~ byla aktualizována!</Text> 
+        <Text>~g~lokalita~s~ byl aktualizována!</Text> <!-- EasyLocationUpdater -->
+        <Text>~r~podezrelý~s~ byl(a) nalezena. Zatknete ho!</Text>
+    </LocationUpdater>
+
+    <Mugshot>
+        <Text>cerný muz</Text>
+        <Text>bílé tílko</Text>
+
+        <Text>Bílý muz</Text>
+        <Text>sedé tílko</Text>
+
+        <Text>cerná kozená bunda</Text>
+
+        <Text>~h~Popis podezrelého~h~</Text>
+
+        <Text>Kdykoli stisknete ~y~J~s~ pro opetovné zobrazení ~y~fotografie podezrelého~s~!</Text>
+    </Mugshot>
+
+    <SearchForSuspect>
+        <Text>Nyní hledejte podezrelého v ~y~oblasti~s~, která je ~y~oznacena~s~ na vasí GPS.</Text>
+        <Text>Podezrelého prohledejte a pokracujte dále.</Text>
+    </SearchForSuspect>
+
+    <WaitForEnd>
+        <Text>Podezrelý zemrel.</Text>
+        <Text>~g~Pod kodem 4.</Text>
+    </WaitForEnd>
+
+</Shoplifting>

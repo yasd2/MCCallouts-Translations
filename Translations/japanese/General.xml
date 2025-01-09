@@ -1,0 +1,9 @@
+<General>
+    <UpdateChecker>
+        <Text>最新バージョンのMCCalloutsです。c; </Text>
+        <Text>ベータ版のMCCalloutsです c: </Text>
+        <Text>~r~古いバージョンを検出しました。~w~~n~可能であればアップデートしてください!</Text>
+        <Text>~y~MCCallouts をロードしました。~w~しかしアップデートの有無を~r~確認できません~w~でした。</Text>
+        <Text>~y~MCCallouts ~g~をロードしました~w~!~n~パトロールを楽しんでください!</Text>
+    </UpdateChecker>
+</General>

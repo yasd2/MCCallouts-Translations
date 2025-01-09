@@ -1,0 +1,75 @@
+<MinorAlcohol>
+
+    <General>
+        <Text>Hlásení o pozívání alkoholu nezletilými</Text>
+        <Text>Callout ukoncen</Text>
+        <Text>Vydejte se na místo.</Text>
+        <Text>zádný dalsí dialog.</Text>
+        <Text>Zkontrolujte prukaz totoznosti a provedte test strízlivost.</Text>
+        <Text>Promluvte si s {0}</Text>
+        <Text>Zajedte k ~q~Jachte~s~ a promluvte si s  ~q~Kapitánem~s~.</Text>
+    </General>
+
+    <Music>
+        <Text>Stisknutím tlacítka {0} to ~b~upravíte~s~ hlasitost hudby.</Text>
+        <Text>Stisknutím tlacítka {0} a {1} pro ~b~upravení~s~ hlasitosti hudby.</Text>
+        <Text>Nastavení</Text>
+        <Text>Hlasitost</Text>
+        <Text><![CDATA[<- Dolu; Nahoru ->]]></Text>
+        <Text>Spustit náhodnou skladby</Text>
+        <Text>Spustí náhodnou skladbu ze slozky s hudbou</Text>
+    </Music>
+
+    <Characters>
+        <Text>~b~Ty: ~s~</Text>
+        <Text>~y~Osoba: ~s~</Text>
+        <Text>~q~Kapitán: ~s~</Text>
+        <Text>~r~Asistentka Caty: ~s~</Text>
+        <Text>~r~Asistentka Nicole: ~s~</Text>
+    </Characters>
+
+    <TalkToCaptain>
+        <Dialogue>Dobrý den, dekujeme, ze jste prisli!</Dialogue>
+        <Dialogue>Dnes vecer máme velkou párty, mixuje slavný ~g~DJ Moodyman~s~!</Dialogue>
+        <Dialogue>Bohuzel to vypadá, ze máme s sebou nekolik nezletilých.</Dialogue>
+        <Dialogue>Prosím, zkontrolujte je, nemuzou tu být.</Dialogue>
+        <Dialogue>Zkontrolujte nezletilé osoby.</Dialogue>
+    </TalkToCaptain>
+
+    <Caty>
+        <Dialogue>Ahoj, doufám, ze najdete ty mladé co tu jsou na palube, zkontrolujte zadní cást lodi!</Dialogue>
+        <Dialogue>~g~DJ Moodyman~s~ hraje na horním pódiu, ujistete se, ze nejdete na pódium, abyste neznicili vecírek c;</Dialogue>
+    </Caty>
+
+    <Nicole>
+        <Dialogue>Ahoj, strázníku.</Dialogue>
+        <Dialogue>Pokud budete cokoli potrebovat, kontaktujte me, pomuzeme vám, kdykoli to bude mozné!</Dialogue>
+    </Nicole>
+
+    <PedToCheck0>
+        <Dialogue>Dobrý den, jsem policista z místního policejního oddelení!</Dialogue>
+        <Dialogue>Dostali jsme stíznost na nezletilé, kterí oslavují a popíjejí.</Dialogue>
+        <Dialogue>Potrebuji videt vás prukaz totoznosti a mozná provedu i testy na strízlivost.</Dialogue>
+    </PedToCheck0>
+
+    <PedToCheck1>
+        <Dialogue>Dobrý den, jsem policista z místního policejního oddelení!</Dialogue>
+        <Dialogue>Dostali jsme hlásení o nezletilých, kterí se baví a pijí tu.</Dialogue>
+        <Dialogue>Dejte mi prosím svuj prukaz totoznosti, prípadne provedeme dechovou zkousku.</Dialogue>
+    </PedToCheck1>
+
+    <PedToCheck2>
+        <Dialogue>Dobrý den, jsem policista.</Dialogue>
+        <Dialogue>Nekdo nám zavolal kvuli nezletilým, kterí se baví a pijí tu.</Dialogue>
+        <Dialogue>Potrebuji videt vás prukaz totoznosti a mozná provedeme testy strízlivosti.</Dialogue>
+    </PedToCheck2>
+
+    <Transport>
+        <Text>Az skoncíte, stisknete ~y~1~s~, abyste se s podezrelými ~y~prenesli~s~ do ~b~policejního transportéru~s~.</Text>
+        <Text>Odvedte podezrelého (podezrelé) k ~b~modré znacce~s~ aby si sedli do policejního clunu.</Text>
+        <Text>Odvezte podezrelé do vezení a kdykoli stisknete ~y~End~s~ pro ukoncení calloutu.</Text>
+        <Text>Prosím ~b~pustte~s~ podezrelého a ~b~trochu~s~ ustupte.</Text>
+        <Text>~b~Podezrelý~s~ nyní ceká v policejní lodi.</Text>
+    </Transport>
+
+</MinorAlcohol>

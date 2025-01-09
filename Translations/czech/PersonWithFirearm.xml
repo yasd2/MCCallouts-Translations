@@ -1,0 +1,35 @@
+<PersonWithFirearm>
+
+    <General>
+        <Text>Osoba se strelnou zbrani</Text>
+        <Text>Jedna osoba je podezrela, z noseni strelne zbrane. Spojte se s ni.</Text>
+        <Text>Pristupte k ~r~podezrelemu~w~ a zacnete s ni ~y~mluvit~w~.</Text>
+        <Text>Stisknete {0} pro zastaveni podezreleho a promluvte si s nim.</Text>
+        <Text>S ~r~Podezrelym~w~ jiz neprobiha zadny rozhovor.</Text>
+    </General> 
+
+    <Conversation>
+        <Dialogue>~b~Dustojnik:~w~ Dobry den, je vsetko poradku, kdyz si ted chvili spolu povidame?</Dialogue>
+        <Dialogue>~r~Podezrely:~w~ Ne, kdo jsi?! Co chcete!</Dialogue>
+        <Dialogue>~b~Dustojnik:~w~ Chci si jen popovidat. Myslim, ze byste u sebe mohl(a) mit zbran.</Dialogue>
+        <Dialogue>~r~Podezrely:~w~ To neni pravda! Mate nespravnou osobu.</Dialogue>
+        <Dialogue>~b~Dustojnik:~w~ Prosim, spolupracujte s nami, abychom mohli veci v klidu vyresit.</Dialogue>
+    </Conversation>
+
+    <Shooting>
+        <Dialogue>~r~Podezrely:~w~ NE! NIKDY!</Dialogue>
+    </Shooting>
+
+    <Surrender>  
+        <Dialogue>~r~Podezrely:~w~ Dobre, omlouvam se...co musim ted udelat?</Dialogue>
+        <Dialogue>~b~Dustojnik:~w~ Prosim, muzete dat ruce do nahoru tak abych na ne videl, abych vas mohl zadrzet.</Dialogue>
+        <Dialogue>~r~Podezrely:~w~ Ano strazniku... prominte...</Dialogue>
+    </Surrender>
+
+    <End>
+        <Text>Podezrely je zadrzen, pod ~g~Kodem 4~w~</Text>
+        <Text>~g~Kod 4~w~</Text>
+        <Text>~w~podezrely zemrel.~g~ Kod 4</Text>
+    </End>
+
+</PersonWithFirearm>

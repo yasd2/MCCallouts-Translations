@@ -1,0 +1,45 @@
+<SearchWarrant>
+
+    <General>
+        <Text>Durchsuchungsbefehl Wohngebäude</Text>
+        <Text>Durchsuchen Sie das Haus nach Drogen, Waffen, Geld, Knochen und Personen</Text>
+        <Text>Durchsuchen Sie das Gebäude nach {ChosenEvidenceTranslation}!</Text>
+        <Text>Wir haben ~r~Informationen~s~ erhalten, wo sich die Beweise ~r~befinden~r~.</Text>
+        <Text>Wir haben Informationen erhalten, dass der Verdächtige derzeit bei der Arbeit ist. Sein Name ist {SuspectName}.</Text>
+        <Text>Gefundene Beweise:</Text>
+    </General>
+
+    <Persons>
+        <Text>Gärtner</Text>
+        <Text>Sie</Text>
+    </Persons>
+
+    <EvidTranslation>
+        <Text>Schmuck</Text>
+        <Text>Gold</Text>
+        <Text>Geld</Text>
+        <Text>Waffen</Text>
+        <Text>Drogen</Text>
+    </EvidTranslation>
+
+    <D_Gardener>
+        <Dialogue>Guten Tag, wir haben einen Durchsuchungsbefehl für dieses Grundstück und das gesamte Haus.</Dialogue>
+        <Dialogue>Oh, hallo, ich bin nur der Gärtner hier. Es ist gerade niemand zu Hause, aber die Tür ist offen.</Dialogue>
+    </D_Gardener>
+
+    <EvidenceChecker>
+        <Text>Beweise gefunden!</Text>
+        <Text>~g~Alle Beweise gefunden! Gute Arbeit!~s~</Text>
+    </EvidenceChecker>
+
+    <SuspectAction>
+        <Dialogue>Der Verdächtige flieht zu Fuß, Zentrale!</Dialogue>
+        <Dialogue>Ach Mist, Sie haben mich...</Dialogue>
+        <Dialogue>~r~Verdächtiger:~s~ Verdammt, ich werde mich rausschießen!</Dialogue>
+    </SuspectAction>
+
+    <End>
+        <Text>Einsatz abgeschlossen. Code 4.</Text>
+    </End>
+
+</SearchWarrant>

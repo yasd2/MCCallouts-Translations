@@ -1,0 +1,50 @@
+<Shooting>
+
+    <General>
+       <Text>Sparatoria</Text>
+         <Text>2 persone che si sparano a vicenda con le pistole</Text>
+         <Text>Vai sul posto ~b~Codice 3~s~, 2 tiratori, ~r~attenzione~s~, ~r~colpi~s~ sono stati ~r~sparati~s~!</Text>
+         <Text>~y~Tu~s~: ~p~Lascia cadere le tue ~r~armi~s~, ~b~Te lo ordino ora~s~!!!</Text>
+         <Text>Chiama rinforzi!</Text>
+        <Text></Text>
+        <Text></Text>
+    </General>
+
+
+    <Outcomes>
+
+        <StillShooting>
+           <Text>~y~Tu~s~: Sembra che non ascoltino, usa la ~r~forza~s~ o ~o~agisci~s~ come ~o~credi sia giusto~s~!</Text>
+        </StillShooting>
+
+        <Surrender>
+        <Text>~r~Primo sospettato~s~: Non sparare, io ~g~mi arrendo~s~!</Text>
+             <Text>~p~Secondo sospetto~s~: Anch'io ~g~mi arrendo~s~!</Text>
+        </Surrender>
+
+        <ShootAtPlayer>
+        <Text>Colpi sparati contro la polizia!</Text>
+             <Text>~p~Sospetto~s~: Mi arrendo, mettetemi in prigione, ho finito.</Text>
+        </ShootAtPlayer>
+
+    </Outcomes>
+
+    <Arrest>
+      <Text>Centrale, un sospettato ~y~arrestato~w~!</Text>
+         <Text>Centrale, un sospetto ~o~giù~w~!</Text>
+    </Arrest>
+
+    <OnScene>
+       <Text>Chiama un ~b~trasporto~s~ per entrambi i ~r~sospetti~s~.</Text>
+         <Text>Chiama il ~b~trasporto~s~ e un ~p~scientifica~s~ per ogni ~r~sospetto~s~.</Text>
+         <Text>Chiama un ~p~scientifica~s~ per entrambi i ~r~sospetti~s~.</Text>
+    </OnScene>
+
+    <End>
+        <Text>Si è verificato un ~r~errore di GTA ped~s~, Callout ~g~terminato~s~</Text>
+         <Text>~y~tu~s~ sei morto, Callout ~g~terminato~s~</Text>
+         <Text>Chiamata terminato</Text>
+         <Text>~g~Codice 4~s~, ~b~cancella~s~ la ~b~scena~s~ e torna alla ~g~pattuglia~s~.</Text>
+    </End>
+
+</Shooting>

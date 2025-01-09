@@ -1,0 +1,12 @@
+<FastPursuit>
+
+    <General>
+        <Text>追跡事案</Text>
+        <Text>車両の回避には警察官が必要です。</Text>
+        <Text>~r~容疑者~w~を追跡してください。</Text>
+        <Text>容疑者は~r~死亡~w~しました。~g~事案解決~w~です。</Text>
+        <Text>容疑者を~b~逮捕~w~しました。~g~事案解決~w~です。</Text>
+        <Text>~g~事案解決~w~</Text>
+    </General>
+
+</FastPursuit>

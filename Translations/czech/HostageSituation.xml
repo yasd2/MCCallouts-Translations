@@ -1,0 +1,135 @@
+<HostageSituation>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+<!-- 
+<![CDATA[
+-->
+<!--
+]]>
+-->
+
+
+    <General>
+        <Text>Situace s rukojmími</Text>
+        <Text>Jedna osoba drzí rukojmí a má zbran v ruce.</Text>
+        <Text>Jedte na místo pod kodem 3, priorita!</Text>
+        <Text><![CDATA[Zaparkujte auto na zluté znacce a kryjte se pri rozhovoru s podezrelým.]]></Text>
+        <Text>Promluvte si s ~g~rukojmím.</Text>
+        <Text>Dobre, vzdávám se!</Text>
+        <Text>Zaparkujte tam a kryjte se za vozidlem.</Text>
+    </General>
+
+    <PedStatus>
+        <Text>~r~Podezrelý ~s~zadrzen!</Text>
+        <Text>~g~Rukojmí ~y~zadrzen?!</Text>
+        <Text>~o~Podezrelý~s~ ~r~zemrel.~s~</Text>
+        <Text>~g~Rukojmí~s~ ~r~zemrel...~s~</Text>
+    </PedStatus>
+
+    <DisplayHelp>
+        <Text>Zmácknete</Text>                                                    <!-- Press _Key_Y__ to end ... -->
+        <Text>Ukoncit callout po dokoncení ~b~vysetrování~s~.</Text>			  <!-- Press _Key_Y__ to end ... -->
+        <Text>Promluvte si s podezrelým pomocí</Text>                             <!-- Talk to the suspect using _Key_Y_ -->
+    </DisplayHelp>
+
+    <DistanceToSuspect> <!-- If you're too close to the suspect with the hostage, you first get a warning, if you still in the area after a few seconds, he shoots -->
+        <Dialogue>~o~Vypadni, nebo te zastrelím!</Dialogue>
+        <Dialogue>~g~Jen to stihnout vcas!</Dialogue>
+        <Dialogue>~r~Ted budou prset kulky!</Dialogue>
+    </DistanceToSuspect>
+
+    <DistanceWarner> <!-- If you're too close to the suspects vehicle with the hostage, you first get a warning, if you still in the area after a few seconds, he shoots -->
+        <Dialogue>~o~Udrzujte si odstup, jinak se podezrelý rozzlobí!!~s~</Dialogue>
+        <Dialogue>~g~Dobrá práce, zustante v bezpecné vzdálenosti.~s~</Dialogue>
+        <Dialogue>~r~Byl jsi prílis blízko! Pozor!~s~</Dialogue>
+    </DistanceWarner>
+
+    <Menu>
+        <MenuName>Rozhodnete se:</MenuName>
+
+        <Menu1>
+                <Conversation>Zustante v klidu</Conversation>
+                <Conversation>~y~Ty~s~: Nebojte se, zustanu tady.</Conversation>
+                <Conversation>Vyvíjejte tlak</Conversation>
+                <Conversation>~y~Ty~s~: Ustrelím ti hlavu, ty hajzle!</Conversation>
+        </Menu1>
+
+        <Menu2>
+                <Conversation>$20,000 v hotovosti</Conversation> <!-- Feel free to change currency (€) to your country. -->
+                <Conversation>~y~Ty~s~: Dáme vám $20,000 v hotovosti, zní to dobre?</Conversation> <!-- Feel free to change currency (€) to your country. -->
+                <Conversation>Zlepsení podmínek zadrzování</Conversation>
+                <Conversation>~y~Ty~s~: Muzeme vasemu séfovi sehnat vetsí celu s televizí, co vy na to?</Conversation>
+                <Conversation><![CDATA[Navrhnete nový zacátek a psychologa]]></Conversation>
+                <Conversation>~y~Ty~s~: Rozumím. Moje kamarádka je skvelá psycholozka, muze ti pomoci vrátit se do správných kolejí, co ty na to?</Conversation>
+        </Menu2>
+
+        <Menu3>
+                <Conversation>Únikové vozidlo s omezeným mnozstvím paliva</Conversation>
+                <Conversation>~y~Ty~s~: Dostanete únikové auto s omezeným mnozstvím paliva, ale kam jedete?</Conversation>
+                <Conversation>Navrhnout pizzu</Conversation>
+                <Conversation>~y~Ty~s~: Co si místo toho dát pizzu?</Conversation>
+        </Menu3>
+    </Menu>
+
+    <SuspectTalk>
+                <Dialogue>~r~Podezrelý~s~: Ztratte se! Co tady chces?! Nepriblizujte se!</Dialogue>
+                <Dialogue>~r~Podezrelý~s~: V to doufejte! Ted vsichni odejdete, nechci videt zádnou dalsí policii!</Dialogue>
+                <Dialogue>~r~Podezrelý~s~: Nic mi nemuzete udelat! Uz nechci videt zádnou policii, jinak budou prset kulky!</Dialogue>
+                <Dialogue>~y~Ty~s~: Chápu, ale budova je obklícená.</Dialogue>
+                <Dialogue>~y~Ty~s~: Chci, aby to skoncilo v klidu, pro vás, pro rukojmí i pro policisty.</Dialogue>
+                <Dialogue>~y~Ty~s~: Proc jste vykradl obchod?</Dialogue>
+        <Reasons>
+            <Dialogue>~r~Podezrelý~s~: Potrebuju peníze, jsem na mizine a uz nemuzu platit nájem!</Dialogue>
+            <Dialogue>~r~Podezrelý~s~: Je to její vina! ~b~Odesla ode me!~s~ A ted je mým rukojmím!</Dialogue>
+            <Dialogue>~r~Podezrelý~s~: Muj ~b~séf~s~ je ve ~b~vezení~s~, neodejdu, dokud nebude na svobode!</Dialogue>
+        </Reasons>
+                <Dialogue>~y~Ty~s~: Poslouchejte pozorne, nabízím vám následující nabídku:</Dialogue>
+                <Dialogue>~r~Podezrelý~s~: Dohodneme se, ale co za to chcete?</Dialogue>
+                <Dialogue>~y~Ty~s~: Jeste jednou, vsichni by meli jít domu v bezpecí, musíte nám dát rukojmí!</Dialogue>
+                <Dialogue>~r~Podezrelý~s~: Dejte mi únikové auto, rukojmí pustím pozdeji!</Dialogue>
+                <Dialogue>~r~Podezrelý~s~: To nedává smysl, konecná nabídka...</Dialogue>
+        <Fail>
+            <Dialogue>~r~Podezrelý~s~: Jdete do háje s vasimi nabídkami! A policie je stále tady!</Dialogue>
+            <Dialogue>~r~Podezrelý~s~: Nyní uvidíte, co dostanete!</Dialogue>
+            <Dialogue>~r~Podezrelý~s~: Jsi blázen! Ted uvidíte, co dostanete!</Dialogue>
+        </Fail>
+                <Dialogue>~r~Podezrelý~s~: To neríkám, ale rukojmí propustím, jakmile neuvidím dalsí policisty.</Dialogue>
+                <Dialogue>~y~Ty~s~: Auto by tam melo být kazdou chvíli...</Dialogue>
+        
+        
+    </SuspectTalk>
+
+    <SuspectDrives>
+        <Text>Sledujte vozidlo podezrelého, ale udrzujte si odstup, aby vás nevidel!</Text>
+        <Text><![CDATA[~g~Podezrelý by se mel cítit v bezpecí,~s~ je cas ~r~ho zatknout!~s~]]></Text>
+        <Text>Ve vozidle bylo nainstalováno sledovací zarízení, které je aktivní.</Text>
+        <Text>FBI oznámila: ze motor vozidla muzete ~y~vypnout~s~ stisknutím tlacítka ~y~O~s~!</Text>
+        <Text><![CDATA[Vypnete ~y~motor vozidla~s~! A boxnete vozidlo, následne ho zadrzte!]]></Text>
+        <Text>Motor vozidla podezrelého byl vypnut, zadrzte podezrelého!</Text>
+    </SuspectDrives>
+
+    <HostageTalk>
+                <Dialogue>~g~Rukojmí~s~: Moc dekuji, ten chlap je úplne sílený! Nemuzu tomu uverit!</Dialogue>
+                <Dialogue>~y~Ty~s~: Uklidnete se. Únosce uz pro vás nepredstavuje problém.</Dialogue>
+                <Dialogue>~y~Ty~s~: Jste v porádku? Potrebujete lékarskou nebo psychologickou pomoc?</Dialogue>
+                <Dialogue>~g~Rukojmí~s~: Jsem v porádku, jen chci jít domu.</Dialogue>
+                <Dialogue>~y~Ty~s~: Jak k této situaci doslo ze jste se stala rukojmím?</Dialogue>
+        <ExGirlfriend>
+            <Dialogue>~g~Rukojmí~s~: Muj bývalý prítel se zbláznil, rozesla jsem se s ním pred dvema týdny.</Dialogue>
+            <Dialogue><![CDATA[~g~Rukojmí~s~: Nezvládl to a prisel za mnou sem.]]></Dialogue>
+        </ExGirlfriend>
+                <Dialogue>~g~Rukojmí~s~: Chtel/a jsem si jen nakoupit, pak prisel ten chlap a namíril mi pistoli na hlavu!</Dialogue>
+                <Dialogue>~g~Rukojmí~s~: Byl odhodlán prosadit své pozadavky vsemi prostredky...</Dialogue>
+                <Dialogue><![CDATA[~y~Ty~s~: Dobre, pokud nemáte zádné dalsí obavy, preji vám stastnou cestu domu a opatrujte se!]]></Dialogue>
+                <Dialogue>~g~Rukojmí~s~: Jeste jednou dekuji, na shledanou!</Dialogue>
+    </HostageTalk>
+
+    <End>
+        <Text>~g~pod kodem 4.</Text>
+    </End>
+
+</HostageSituation>

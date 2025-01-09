@@ -1,0 +1,118 @@
+<MissingPet>
+
+    <General>
+        <Text>Animale scomparso</Text>
+        <Text>Il chiamante è preoccupato per l'animale</Text>
+        <Text>Vai al ~b~~h~Chiama~h~~s~ per saperne di più sull'animale scomparso.</Text>
+    </General>
+
+    <Persons>
+        <Dialogue>Chiamante</Dialogue>
+        <Dialogue>Driver</Dialogue>
+        <Dialogue>Tu</Dialogue>
+        <Dialogue>Vittima</Dialogue>
+    </Persons>
+
+    <Tasks>
+        <Text>Premi {Tasto} per parlare con la persona.</Text>
+        <Text>È arrivata una segnalazione di una persona attaccata da un animale!</Text>
+        <Text>Tenta di ~y~tase~s~ l'animale per ~o~fermare~s~ l'attacco!</Text>
+        <Text>L'~r~animale domestico~s~ ha ~g~smesso di attaccare~s~!</Text>
+        <Text>Chiama il ~g~controllo animali~s~ per l'animale.</Text>
+        <Text>Chiama un'~r~ambulanza~s~ per la vittima.</Text>
+        <Text>Parla con la vittima con</Text>
+        <Text>Vai dal chiamante e dagli un aggiornamento.</Text>
+        <Text>Premi ~y~J~s~ per ~r~teletrasportare~s~ l'animale nel tuo veicolo!</Text>
+        <Text>~r~Prima sali su un veicolo,~s~ poi riprova.</Text>
+    </Tasks>
+
+    <TasksAccident>
+        <Text>Una persona ha trovato un {PetTypeAsNormalWord} e lo ha segnalato.</Text>
+        <Text>Guida fino al luogo in cui è stato trovato l'animale.</Text>
+        <Text>Chiama un ~b~~h~coroner~h~~s~ per l'animale, poi guida di nuovo dal ~b~~h~chiamante~h~~s~.</Text>
+    </TasksAccident>
+
+    <Animals>
+       <Text>Cane aggressivo</Text>
+        <Text>Leone di montagna</Text>
+        <Text>Cane</Text>
+        <Text>Gatto</Text>
+        <Text>Lupo</Text>
+        <Text>Cervo</Text>
+        <Text>Coniglio</Text>
+        <Text>Gallina</Text>
+        <Text>Cinghiale</Text>
+        <Text>Scimmia</Text>
+        <Text>Scimmia Macaco</Text>
+    </Animals>
+
+    <CallerGeneral>
+        <Dialogue>Ciao! Non riesco a trovare il mio animale domestico!</Dialogue>
+        <Dialogue>Manca da {min} minuti, ma deve essere nelle vicinanze!</Dialogue>
+        <Dialogue>Oh, scusa, è un {PetTypeAsNormalWord} e il suo nome è {PetName}.</Dialogue>
+        <Dialogue>È semplicemente scivolato via! Per favore, trovalo!</Dialogue>
+    </CallerGeneral>
+
+    <DriverAccident1>
+        <Dialogue>Ciao Agente! Guarda cosa è successo!</Dialogue>
+        <Dialogue>L'animale è corso davanti alla mia macchina! Non avevo alcuna possibilità di evitarlo!</Dialogue>
+        <Dialogue>Anche la mia macchina è danneggiata! Puoi chiamarmi un taxi e un carro attrezzi?</Dialogue>
+    </DriverAccident1>
+
+    <DriverAccident2>
+       <Dialogue>Salve agente, mi dispiace tanto, stavo guidando quando questo animale ha attraversato di corsa la strada.</Dialogue>
+        <Dialogue>Non sono riuscito a reagire in tempo. Dannazione.</Dialogue>
+        <Dialogue>Finché stai bene, va tutto bene. Anche il tuo veicolo è ok.</Dialogue>
+        <Dialogue>Grazie per la segnalazione, poi avviserò il proprietario. Guida con prudenza.</Dialogue>
+    </DriverAccident2>
+
+    <CallerReturnAccident1>
+        <Dialogue>Ciao, sono tornato con brutte notizie.</Dialogue>
+        <Dialogue>Oh no, cosa è successo?</Dialogue>
+        <Dialogue>L'animale è stato investito da un'auto e non è sopravvissuto.</Dialogue>
+        <Dialogue>Oh, che peccato, ma l'animale non era mio; apparteneva ai miei vicini.</Dialogue>
+        <Dialogue>I miei vicini mi odieranno per sempre, oh no...</Dialogue>
+        <Dialogue>Comunque, grazie per avermelo detto!</Dialogue>
+        <Dialogue>Oh no, buona giornata comunque!</Dialogue>
+    </CallerReturnAccident1>
+
+    <CallerReturnAccident2>
+        <Dialogue>Ciao...</Dialogue>
+        <Dialogue>E... hai trovato l'animale domestico?</Dialogue>
+        <Dialogue>Mi dispiace, ma il tuo animale domestico ha avuto una guida eccessiva per sbaglio. Qualcuno lo ha appena segnalato.</Dialogue>
+        <Dialogue>Oh dannazione... Non era il mio animale domestico, i miei vicini sono in vacanza e ho preso il comando io...</Dialogue>
+        <Dialogue>C'è qualcos'altro che posso fare per te?</Dialogue>
+        <Dialogue>No grazie... accidenti... come dovrei spiegarlo...</Dialogue>
+    </CallerReturnAccident2>
+
+    <DriverAttackSafed1>
+       <Dialogue>Oh mio Dio, grazie per avermi salvato!</Dialogue>
+        <Dialogue>Stavo facendo gli affari miei quando all'improvviso questo animale mi è venuto incontro!</Dialogue>
+        <Dialogue>Nessun problema, sono felice che tu sia al sicuro.</Dialogue>
+        <Dialogue>Grazie, buona giornata!</Dialogue>
+    </DriverAttackSafed1>
+
+    <CallerAttackReturnPetAlive2>
+       <Dialogue>Ehi, ho riportato indietro il tuo animale domestico!</Dialogue>
+        <Dialogue>Fantastico, grazie! Dove sei stato, {PetName}?</Dialogue>
+        <Dialogue>Posso dirti che il tuo animale domestico ha attaccato un civile innocente!</Dialogue>
+        <Dialogue>Oh, mi dispiace tanto, spero che non sia ferito gravemente.</Dialogue>
+        <Dialogue>Ho bisogno dei tuoi dati, come la carta d'identità, e farò una denuncia.</Dialogue>
+        <Dialogue>Non appena avrà finito, sarai libero di andare.</Dialogue>
+    </CallerAttackReturnPetAlive2>
+
+    <CallerAttackReturnPetDead2>
+      <Dialogue>Ciao, ho una brutta notizia per te. Sfortunatamente il tuo animale domestico ha attaccato un civile.</Dialogue>
+        <Dialogue>Sono stato costretto a usare la forza letale, l'animale è deceduto.</Dialogue>
+        <Dialogue>Oh okay, mi dispiace tanto, spero che la persona non si faccia male?</Dialogue>
+        <Dialogue>La persona sta bene.</Dialogue>
+        <Dialogue>Per il futuro starò più attento ai miei animali domestici.</Dialogue>
+        <Dialogue>La cosa più importante è che tutti siano al sicuro. Buona giornata.</Dialogue>
+    </CallerAttackReturnPetDead2>
+
+    <End>
+    <Text>Premi ~y~End~s~ in qualsiasi momento per terminare il callout.</Text>
+        <Text>~g~la chiamata è in codice 4.</Text>
+    </End>
+
+</MissingPet>

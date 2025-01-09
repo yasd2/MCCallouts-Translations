@@ -1,0 +1,215 @@
+<BicycleAccident>
+
+    <General>
+        <Text>Fahrradverkehrsunfall</Text>
+        <Text>Analysieren Sie den Unfallort</Text>
+        <Text>Haben Sie herausgefunden, was diesen Unfall verursacht hat?</Text>
+        <Text>Fahrradunfall-Einsatz beendet.</Text>
+    </General>
+
+
+    <D_Witness1_0>
+        <Dialogue>Hallo, mein Name ist Greg. Ich sage Ihnen, warum das passiert ist.</Dialogue>
+        <Dialogue>Sehen Sie diesen Verdächtigen da drüben? Er sollte eine Anzeige bekommen.</Dialogue>
+        <Dialogue>Er ist zu schnell gefahren, über das Tempolimit hinaus.</Dialogue>
+        <Dialogue>Heutzutage kümmern sich die Leute nicht um die Geschwindigkeitsbegrenzung.</Dialogue>
+    </D_Witness1_0>
+
+    <D_Witness2_0>
+        <Dialogue>Guten Tag. Ich habe einen Teil des Unfalls gesehen.</Dialogue>
+        <Dialogue>Er wartete auf dem Gehweg und schaute zurück auf die herannahenden Fahrzeuge.</Dialogue>
+        <Dialogue>Er hatte auch etwas in den Händen. Ich konnte es nicht erkennen.</Dialogue>
+        <Dialogue>Ich bin mir nicht 100% sicher und will dem Radfahrer keine Schuld geben, aber er sah nervös aus.</Dialogue>
+        <Dialogue>Dann habe ich mich um meine eigenen Angelegenheiten gekümmert, als ich einen lauten Knall hörte, da passierte es.</Dialogue>
+    </D_Witness2_0>
+
+    <D_Witness3_0>
+        <Dialogue>Mein Name ist Paul. Ich sage Ihnen, wir brauchen mehr Schutz für Radfahrer.</Dialogue>
+        <Dialogue>Es gibt keinen Radweg, wo soll ein Radfahrer denn sicher fahren?</Dialogue>
+        <Dialogue>Aber Sie können dem Autofahrer keine Schuld geben, dieser Radfahrer war einfach unachtsam.</Dialogue>
+        <Dialogue>Er schaute nach rechts, genau auf das herannahende Fahrzeug. Da begann er zu fahren.</Dialogue>
+        <Dialogue>Das ist doch dumm, oder?</Dialogue>
+    </D_Witness3_0>
+
+    <D_Witness4_Driver_0>
+        <Dialogue>Hallo, ich bin Sarah. Ich habe gesehen, was passiert ist, als ich gefahren bin.</Dialogue>
+        <Dialogue>Der Verdächtige hatte eindeutig etwas vor.</Dialogue>
+        <Dialogue>Oh, Entschuldigung, ich sollte erwähnen, dass ich über den Radfahrer spreche.</Dialogue>
+        <Dialogue>Er hatte eine Kamera in der Hand, es sah aus, als wollte er das filmen.</Dialogue>
+        <Dialogue>Es sah so aus, als wollte der Radfahrer direkt vor das Fahrzeug springen.</Dialogue>
+    </D_Witness4_Driver_0>
+
+    <D_Suspect_0>
+        <Dialogue>Hallo, Officer, es tut mir leid für das Ganze.</Dialogue>
+        <Dialogue>War es die Schuld des Radfahrers? Oder meine? Ich habe den Radfahrer überhaupt nicht gesehen.</Dialogue>
+        <Dialogue>Ich fuhr, als der Radfahrer plötzlich direkt vor mir war.</Dialogue>
+        <Dialogue>Ich habe stark gebremst, aber es hat nicht gereicht. Ich hoffe, ihm geht es gut.</Dialogue>
+        <Dialogue>Mein Auto ist stark beschädigt, aber die Versicherung wird sich darum kümmern.</Dialogue>
+    </D_Suspect_0>
+
+
+    <D_Witness1_1>
+        <Dialogue>Yo, warum dauert das so lange?! Ich habe es eilig.</Dialogue>
+        <Dialogue>Ich bin auf dem Weg zur Arbeit und schon 5 Minuten zu spät!</Dialogue>
+        <Dialogue>Ich habe nur gesehen, wie der Radfahrer wie verrückt gefahren ist, viel zu schnell.</Dialogue>
+        <Dialogue>Er fuhr sehr schnell auf dem Gehweg, das habe ich gesehen.</Dialogue>
+        <Dialogue>Ich muss jetzt wirklich los, tschüss!</Dialogue>
+    </D_Witness1_1>
+
+    <D_Witness2_1>
+        <Dialogue>Hallo, mein Name ist Linda. Diese Radfahrer, sie blockieren immer die Straße!</Dialogue>
+        <Dialogue>Kein Wunder, dass solche Unfälle passieren. Autofahrer müssen schnell ans Ziel kommen und können nicht auf Radfahrer warten.</Dialogue>
+        <Dialogue>Dieser Radfahrer trug nicht einmal einen Helm! Wie nachlässig!</Dialogue>
+        <Dialogue>Dieser Radfahrer fuhr wie verrückt. Und alle anderen Autos müssen gefährlich überholen und setzen so das Leben des Gegenverkehrs aufs Spiel!</Dialogue>
+        <Dialogue>Ich sage Ihnen, Sie sollten ein Auge auf diesen Radfahrer haben.</Dialogue>
+    </D_Witness2_1>
+
+    <D_Witness3_1>
+        <Dialogue>Hallo, ich bin Paul. Ich möchte berichten. Wow, ich mag wirklich Ihre Uniform.</Dialogue>
+        <Dialogue>Welche Pistole tragen Sie? Ist es die SFP9? Was für eine tolle Waffe.</Dialogue>
+        <Dialogue>Oh ja, entschuldigen Sie, zuerst habe ich gesehen, dass der Radfahrer keinen Helm trug.</Dialogue>
+        <Dialogue>Schreiben Sie auf: Der Radfahrer trug Kopfhörer und keinen Helm während der Fahrt.</Dialogue>
+        <Dialogue>Sagen Sie mir, habe ich das Zeug zum Polizisten?</Dialogue>
+    </D_Witness3_1>
+
+    <D_Witness4_Driver_1>
+        <Dialogue>Hallo, ich bin Sarah. Ich fuhr auf der Gegenfahrbahn zum Unfall und habe alles gesehen.</Dialogue>
+        <Dialogue>Das Auto war geparkt, dann wollte der Fahrer gerade losfahren.</Dialogue>
+        <Dialogue>Da wechselte der Radfahrer vom Gehweg auf die Straße, er schaute nicht einmal.</Dialogue>
+        <Dialogue>Der Radfahrer fuhr schnell. Das ist alles, was ich gesehen habe.</Dialogue>
+    </D_Witness4_Driver_1>
+
+
+    <D_Suspect_1_2>
+        <Dialogue>Hallo, was für eine Szene haben wir hier. Alles, weil dieser Radfahrer mir den Weg abgeschnitten hat.</Dialogue>
+        <Dialogue>Dumme Radfahrer, schauen Sie sich jetzt mein Auto an! Die Front ist kaputt!</Dialogue>
+        <Dialogue>Ich habe dieses Fahrzeug gerade erst gekauft, es ist noch nicht einmal einen Monat alt!</Dialogue>
+        <Dialogue>Der Radfahrer fuhr auf dem Gehweg, dann plötzlich in mich hinein. Ich hatte keine Chance zu reagieren.</Dialogue>
+        <Dialogue>Ich hoffe, es geht ihm bald besser, verstehen Sie mich nicht falsch. Aber ich war nicht schuld.</Dialogue>
+    </D_Suspect_1_2>
+
+    <D_Witness1_2>
+        <Dialogue>Yo, ich habe es eilig, machen Sie es kurz. Hören Sie zu.</Dialogue>
+        <Dialogue>Mein Name? Er ist Greg. Ich muss schnell zur Arbeit.</Dialogue>
+        <Dialogue>Ich habe nur gesehen, dass das Auto zu schnell fuhr.</Dialogue>
+        <Dialogue>Ich weiß nichts über das Fahrrad, ich habe es nicht gesehen.</Dialogue>
+        <Dialogue>Darf ich jetzt gehen? Das ist alles, was ich weiß.</Dialogue>
+    </D_Witness1_2>
+
+    <D_Witness2_2>
+        <Dialogue>Hey, mein Name ist Linda. Schauen Sie sich dieses Fahrrad an, völlig hinüber.</Dialogue>
+        <Dialogue>Ich habe den Radfahrer beobachtet, wegen des Fahrrads. Das ist oder war... mein Lieblingsfahrrad.</Dialogue>
+        <Dialogue>Oh, Entschuldigung, er fuhr am Straßenrand. Plötzlich wurde er von hinten angefahren.</Dialogue>
+        <Dialogue>Ich hörte ein lautes Bremsen und dann... flog das Fahrrad weg...</Dialogue>
+    </D_Witness2_2>
+
+    <D_Witness3_2>
+        <Dialogue>Oh hallo, Officer, ich bin Paul, freut mich, Sie kennenzulernen!</Dialogue>
+        <Dialogue>Wissen Sie, ich habe darüber nachgedacht, bei der Polizei zu arbeiten. Ich bin dafür gemacht.</Dialogue>
+        <Dialogue>Ich war spazieren, als ich diesen Radfahrer sah. Er trug keinen Helm und hatte kein Frontlicht.</Dialogue>
+        <Dialogue>Es ist manchmal schwer, Menschen in dunkler Kleidung zu sehen, besonders bei schlechtem Wetter.</Dialogue>
+    </D_Witness3_2>
+
+    <D_Witness4_Driver_2>
+        <Dialogue>Hallo! Mein Name ist Sarah. Ich arbeite in der Bäckerei hier in der Nähe.</Dialogue>
+        <Dialogue>Ich schaute aus dem Fenster, als ich ein Auto vorbeifahren sah.</Dialogue>
+        <Dialogue>Es könnte zu schnell gefahren sein, aber ich sah, dass er am Telefon war. Ich bin mir ziemlich sicher, dass es dieses Auto war.</Dialogue>
+        <Dialogue>Ich rannte nach draußen, als ich den lauten Knall hörte. Da sah ich den Vorfall.</Dialogue>
+    </D_Witness4_Driver_2>  
+
+
+    <Persons>
+        <Text>Sie</Text>
+        <Text>Greg</Text>
+        <Text>Linda</Text>
+        <Text>Paul</Text>
+        <Text>Sarah</Text>
+        <Text>Sanitäter</Text>
+        <Text>Opfer</Text>
+        <Text>Peter</Text>
+        <Text>Isabella</Text>
+        <Text>Officer Thompson</Text>
+        <Text>Officer Reynolds</Text>
+        <Text>Officer Harrison</Text>
+        <Text>Officer Clinton</Text>
+        <Text>Feuerwehrmann</Text>
+    </Persons>
+
+
+    <D_Paramedic1>
+        <Dialogue>Hallo, wie geht es Ihnen? Lassen Sie sich nicht von meiner fetten Crowex-Uhr für 10.000€ ablenken.</Dialogue>
+        <Dialogue>Wie es dem Patienten geht? Der Radfahrer sieht nicht gut aus. Er ist schwer verletzt.</Dialogue>
+        <Dialogue>Er reagiert nicht, daher müssen wir ihn sofort ins Krankenhaus bringen.</Dialogue>
+    </D_Paramedic1>
+
+    <D_Paramedic2>
+        <Dialogue>Ich habe keine Zeit für ein Gespräch. Der Radfahrer hat schwere Verletzungen, bitte unterbrechen Sie mich nicht.</Dialogue>
+        <Dialogue>* stöhnt * ...</Dialogue>
+    </D_Paramedic2>
+
+    <D_Officer1>
+        <Dialogue>Hallo, Officer! Danke, dass Sie hier sind! Wir haben hier einen Verkehrsunfall.</Dialogue>
+        <Dialogue>Fühlen Sie sich frei, die Zeugen zu befragen, ich werde derweil hier bleiben.</Dialogue>
+        <Dialogue>Finden Sie heraus, wer schuld ist und was hier passiert ist. Wenn Sie mit der Untersuchung fertig sind, sprechen Sie bitte noch einmal mit mir! Viel Glück!</Dialogue>
+    </D_Officer1>
+
+    <D_Officer1_InsuranceFraud>
+        <Dialogue>Der Radfahrer hat versucht, Versicherungsbetrug gegen den Fahrer zu begehen.</Dialogue>
+        <Dialogue>Sobald er von den Medizinern freigegeben wird, werden wir ihn verhaften! Vielen Dank bisher!</Dialogue>
+    </D_Officer1_InsuranceFraud>
+
+    <D_Officer1_BikersFault>
+        <Dialogue>Der Radfahrer hat offensichtlich nicht auf die Straße geachtet. Er ist schuld.</Dialogue>
+        <Dialogue>In Ordnung, sobald er von den Medizinern freigegeben wird, wird er eine Strafe bekommen! Danke!</Dialogue>
+    </D_Officer1_BikersFault>
+
+    <D_Officer1_DriversFault>
+        <Dialogue>Der Fahrer hat eindeutig die Verkehrsregeln missachtet. Er ist schuld!</Dialogue>
+        <Dialogue>Verstanden, verhaften Sie den Fahrer!</Dialogue>
+    </D_Officer1_DriversFault>
+
+    <D_Officer2>
+        <Dialogue>Ich hatte noch keinen Kaffee heute Morgen, unsere Maschine ist kaputt...</Dialogue>
+    </D_Officer2>
+
+    <D_Officer3>
+        <Dialogue>Hallo, diese Person hat etwas gesehen, Sie sollten mit ihr sprechen.</Dialogue>
+    </D_Officer3>
+
+    <D_Officer4>
+        <Dialogue>Hallo Partner, was für ein schlimmer Unfall. Achten Sie darauf, alle Zeugen zu befragen.</Dialogue>
+    </D_Officer4>
+
+    <D_Fireman1>
+        <Dialogue>Dieses Fahrzeug hat große Frontschäden.</Dialogue>
+        <Dialogue>Wir sind nur hier, falls das Fahrzeug Feuer fängt oder Öl verliert.</Dialogue>
+    </D_Fireman1>
+
+    <D_Fireman3>
+        <Dialogue>Mann, ich liebe den Kaffee von Bean Machine, besonders in den Nachtschichten. Sie sollten ihn mal probieren!</Dialogue>
+    </D_Fireman3>
+
+    <Menu>
+        <Text>Szene</Text>
+        <Text>Verkehrsunfall</Text>
+        <Text>Wählen Sie das Richtige!</Text>
+
+        <Text>Versicherungsbetrug</Text>
+        <Text>Der Radfahrer hat es absichtlich gemacht!</Text>
+        <Text>Der Radfahrer hat versucht, Versicherungsbetrug zu begehen!</Text>
+
+        <Text>Fehler des Radfahrers</Text>
+        <Text>Der Radfahrer hat nicht aufgepasst!</Text>
+        <Text>Es ist die Schuld des Radfahrers!</Text>
+
+        <Text>Fehler des Fahrers</Text>
+        <Text>Der Fahrer ist schuld!</Text>
+        <Text>Der Autofahrer hat den Unfall verursacht!</Text>
+
+        <Text>~g~Untersuchung korrekt</Text>
+        <Text>~r~Untersuchung fehlgeschlagen</Text>
+
+        <Text>Drücken Sie ~y~End~s~, um den Einsatz jederzeit zu beenden.</Text>
+    </Menu>
+
+</BicycleAccident>

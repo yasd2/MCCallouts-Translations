@@ -1,0 +1,137 @@
+<HostageSituation>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+<!--   
+<![CDATA[
+-->
+<!--
+]]>
+--> 
+
+
+    <General>
+        <Text>Geiselnahme</Text>
+        <Text>Ein Geiselnehmer hält eine Person als Geisel</Text>
+        <Text>Fahre zur Geiselnahme, mit Blaulicht, Priorität!</Text>
+        <Text><![CDATA[Parke dein Fahrzeug bei der gelben Markierung & geh in Deckung, während Du verhandelst.]]></Text>        
+        <Text>Sprechen Sie mit der ~g~Geisel.</Text>       
+        <Text>~r~Verdächtiger~s~: Okay okay, ich gebe auf!</Text>
+        <Text>Parke hier und gehe in Deckung.</Text>
+    </General>
+
+    <PedStatus>
+        <Text>~r~Verdächtiger ~s~verhaftet!</Text>
+        <Text>~g~Geisel ~y~verhaftet?!</Text>
+        <Text>Der ~o~Verdächtige~s~ ist ~r~gestorben.~s~</Text>
+        <Text>Die ~g~Geisel~s~ ist ~r~gestorben...~s~</Text>
+    </PedStatus>
+
+    <DisplayHelp>
+        <Text>Drücke</Text>                                                          <!-- Press _Key_Y__ to end ... -->
+        <Text>um den Einsatz zu beenden, nachdem Du Dich ~b~umgesehen~s~ hast.</Text>  <!-- Press _Key_Y__ to end ... -->
+        <Text>Spreche mit dem Verdächtigen mit</Text>                                          <!-- Talk to the suspect using _Key_Y_ -->
+    </DisplayHelp>
+
+    <DistanceToSuspect> <!-- If you're too close to the suspect with the hostage, you first get a warning, if you still in the area after a few seconds, he shoots -->
+        <Dialogue>~o~Verpiss dich, ich schieß sonst!</Dialogue>
+        <Dialogue>~g~Grade noch rechtzeitig raus!</Dialogue>
+        <Dialogue>~r~Jetzt regnets Kugeln!</Dialogue>
+    </DistanceToSuspect>
+
+    <DistanceWarner> <!-- If you're too close to the suspects vehicle with the hostage, you first get a warning, if you still in the area after a few seconds, he shoots -->
+        <Dialogue>~o~Halte Abstand oder der Verdächtige wird wütend!~s~</Dialogue>
+        <Dialogue>~g~Super, halte Sicherheitsabstand.~s~</Dialogue>
+        <Dialogue>~r~Du warst zu nah! Pass auf!~s~</Dialogue>
+    </DistanceWarner>
+
+    <Menu>
+        <MenuName>Entscheide:</MenuName>
+
+        <Menu1>
+                <Conversation>Bleib stehen</Conversation>
+                <Conversation>~y~Sie~s~: Keine Sorge, ich bleibe hier stehen.</Conversation>
+                <Conversation>Übe Druck aus</Conversation>
+                <Conversation>~y~Sie~s~: Ich blas dir gleich den Kopf weg, du Knecht!</Conversation>
+        </Menu1>
+
+        <Menu2>
+                <Conversation>20.000 € Bargeld</Conversation>
+                <Conversation>~y~Sie~s~: Wir geben dir 20.000 € in bar, hört sich das gut an?</Conversation>
+                <Conversation>Haftbedingungen verbessern</Conversation>
+                <Conversation>~y~Sie~s~: Wir können deinem Boss eine größere Zelle mit Fernseher geben, wie wärs?</Conversation>
+                <Conversation><![CDATA[Neuanfang & Psychologe vorschlagen]]></Conversation>
+                <Conversation>~y~Sie~s~: Ich verstehe. Eine Freundin von mir ist eine super Psychologin, die bringt dich auf Vordermann, was hältst du davon?</Conversation>
+        </Menu2>
+
+        <Menu3>
+                <Conversation>Fluchtauto mit begrenztem Sprit</Conversation>
+                <Conversation>~y~Sie~s~: Du bekommst ein Fluchtauto mit etwas Benzin, aber wo fährst du hin?</Conversation>
+                <Conversation>Pizza vorschlagen</Conversation>
+                <Conversation>~y~Sie~s~: Wie wärs anstattdessen mit einer Pizza?</Conversation>
+        </Menu3>
+    </Menu>
+
+    <SuspectTalk>
+                <Dialogue>~r~Verdächtiger~s~: Verschwindet! Was wollt ihr hier?! Komm nicht näher!</Dialogue>
+                <Dialogue>~r~Verdächtiger~s~: Das will ich auch hoffen! So, jetzt verschwindet alle, ich will keine Polizei mehr sehen!</Dialogue>
+                <Dialogue>~r~Verdächtiger~s~: Du kannst mir gar nix! Ich will keine Polizei mehr sehen, sonst regnets Kugeln!</Dialogue>
+                <Dialogue>~y~Sie~s~: Ich verstehe, jedoch ist das Gebäude umstellt.</Dialogue>
+                <Dialogue>~y~Sie~s~: Ich möchte, dass das Ganze friedlich endet, für Dich, für die Geisel und für die Polizisten.</Dialogue>
+                <Dialogue>~y~Sie~s~: Warum hast du das Geschäft überfallen?</Dialogue>
+        <Reasons>
+            <Dialogue>~r~Verdächtiger~s~: Ich brauche ~b~Geld~s~, ich bin ~b~pleite~s~ und kann meine Miete nicht mehr zahlen!</Dialogue>
+            <Dialogue>~r~Verdächtiger~s~: Sie ist schuld! ~b~Sie hat mich verlassen!~s~ Und jetzt ist sie meine Geisel!</Dialogue>
+            <Dialogue>~r~Verdächtiger~s~: Mein ~b~Boss~s~ ist im ~b~Gefängnis~s~, ich gehe erst, wenn er frei ist!</Dialogue>
+        </Reasons>
+                <Dialogue>~y~Sie~s~: Hör genau zu, ich biete dir folgenden Deal an:</Dialogue>
+                <Dialogue>~r~Verdächtiger~s~: Den Deal machen wir, aber was wollt ihr dafür?</Dialogue>
+                <Dialogue>~y~Sie~s~: Nocheinmal, alle sollen heil nach Hause, du musst uns die Geisel geben!</Dialogue>
+                <Dialogue>~r~Verdächtiger~s~: Ihr gebt mir zusätzlich ein Fluchtauto, ich lasse die Geisel später austeigen!</Dialogue>
+                <Dialogue>~r~Verdächtiger~s~: Das macht keinen Sinn, letztes Angebot...</Dialogue>
+        <Fail>
+            <Dialogue><![CDATA[~r~Verdächtiger~s~: Fick dich & deine Deals! Und immernoch überall Polizei!]]></Dialogue>
+            <Dialogue>~r~Verdächtiger~s~: Jetzt siehst du was du bekommst!</Dialogue>
+            <Dialogue>~r~Verdächtiger~s~: Du hast nen Vogel! Jetzt siehst du was du davon hast!</Dialogue>
+        </Fail>
+                <Dialogue>~r~Verdächtiger~s~: Das sage ich nicht, aber ich werde die Geisel freilassen, sobald ich keine Polizei mehr sehe.</Dialogue>
+                <Dialogue>~y~Sie~s~: Das Auto sollte jeden Moment da sein...</Dialogue>
+    </SuspectTalk>
+
+    
+
+    
+
+    <SuspectDrives>
+        <Text>Folge dem Fahrzeug, halte aber genügend Abstand, sodass Du nicht gesehen wirst!</Text>
+        <Text><![CDATA[Der ~g~Verdächtige sollte sich sicher fühlen,~s~ versperre den Weg & ~r~verhafte ihn!~s~]]></Text>
+        <Text>Ein Peilsender wurde installiert und ist am Fahrzeug aktiv.</Text>
+        <Text>Der Geheimdienst meldet: Du kannst den Motor des Fahrzeugs mit mit ~y~O ~y~abschalten~s~!</Text>
+        <Text><![CDATA[Nimm den ~y~Verdächtigen in Gewahrsam~s~! Versperre den Weg & verhafte ihn!]]></Text>
+        <Text>Das Fahrzeug wurde deaktiviert, schlage jetzt zu!</Text>
+    </SuspectDrives>
+
+    <HostageTalk>
+                <Dialogue>~g~Geisel~s~: Danke Ihnen vielmals, der Typ ist komplett irre! Ich kann es nicht fassen!</Dialogue>
+                <Dialogue>~y~Sie~s~: Beruhigen Sie sich. Der Geiselnehmer ist jetzt kein Problem mehr für Sie.</Dialogue>
+                <Dialogue>~y~Sie~s~: Ihnen geht es soweit gut? Brauchen Sie medizinische oder psychische Unterstützung?</Dialogue>
+                <Dialogue>~g~Geisel~s~: Mir gehts gut soweit, ich möchte einfach nur nach Hause.</Dialogue>
+                <Dialogue>~y~Sie~s~: Wie kam die Geiselnahme zustande?</Dialogue>
+        <ExGirlfriend>
+            <Dialogue>~g~Geisel~s~: Mein Ex-Freund ist durchgedreht, ich habe mich vor 2 Wochen vom ihm getrennt.</Dialogue>
+            <Dialogue><![CDATA[~g~Geisel~s~: Er kam nicht darauf klar & hat mich bis hierher verfolgt.]]></Dialogue>
+        </ExGirlfriend>
+        <Dialogue>~g~Geisel~s~: Ich wollte nur einkaufen, da kam der Typ und hielt mir die Knarre an den Kopf!</Dialogue>
+        <Dialogue>~g~Geisel~s~: Er wollte seine Forderung mit allen Mitteln durchsetzen...</Dialogue>
+        <Dialogue><![CDATA[~y~Sie~s~: Alles klar, wenn Du sonst keine Anliegen mehr hast, einen guten Nachhauseweg & Erholung!]]></Dialogue>
+        <Dialogue>~g~Geisel~s~: Danke nochmals, auf Wiedersehen!</Dialogue>
+    </HostageTalk>
+
+    <End>
+        <Text>~g~Code 4.</Text>
+    </End>
+
+</HostageSituation>

@@ -1,0 +1,61 @@
+<NoiseComplaint>
+    <General>
+        <Text>Lärmbeschwerde</Text>
+        <Text>Meldung einer lauten Hausparty</Text>
+        <Text>Nachbarn haben eine Lärmbeschwerde eingereicht. Stellen Sie sicher, dass der ~o~Veranstalter~s~ die Musiklautstärke reduziert.</Text>
+        <Text>Drücken Sie {Key}, um die Lautstärke für sich selbst anzupassen.</Text>
+    </General>
+
+    <Persons>
+        <Text>Sie</Text>
+        <Text>Besitzer</Text>
+        <Text>DJ</Text>
+    </Persons>
+
+    <Tasks>
+        <Text>Verlassen Sie die Party, indem Sie zum ~y~gelben Marker~s~ fahren.</Text>
+        <Text>Handeln Sie so, wie Sie es für richtig halten, und sprechen Sie dann mit dem ~g~~h~DJ~h~~s~.</Text>
+        <Text>Ein Anrufer hat eine erneute Lärmbeschwerde an derselben Adresse wie zuvor gemeldet. Fahren Sie mit Code 2.</Text>
+    </Tasks>
+
+    <OwnerCooperative>
+        <Dialogue>Guten Tag, Officer, wie kann ich Ihnen helfen?</Dialogue>
+        <Dialogue>Wir haben einen Anruf wegen der lauten Musik erhalten. Bitte reduzieren Sie die Lautstärke.</Dialogue>
+        <Dialogue>Falls ich noch einmal hierherkommen muss, erhalten Sie eine Verwarnung wegen der lauten Musik.</Dialogue>
+        <Dialogue>Schon gut, schon gut, wir drehen die Musik leiser.</Dialogue>
+        <Dialogue>Vielen Dank für die Kooperation, einen schönen Abend noch.</Dialogue>
+    </OwnerCooperative>
+
+    <OwnerUncooperative>
+        <Dialogue>Yo, die Bullen, was wollen Sie hier?</Dialogue>
+        <Dialogue>Wir wurden zu dieser Adresse wegen der lauten Musik gerufen.</Dialogue>
+        <Dialogue>Was soll das, sieht das hier aus wie ein Kindergarten? Wir feiern hier!!</Dialogue>
+        <Dialogue>Sir, drehen Sie die Musik sofort leiser.</Dialogue>
+        <Dialogue>Ich mach gar nichts, Sie müssen mich schon verhaften oder abhauen, Bulle.</Dialogue>
+    </OwnerUncooperative>
+
+    <OwnerSecond>
+        <Dialogue>Guten Tag, wir haben erneut einen Anruf wegen Ihrer lauten Musik erhalten.</Dialogue>
+        <Dialogue>Und wie ich höre, haben Sie die Lautstärke wieder erhöht, anstatt sie niedrig zu halten...</Dialogue>
+        <Dialogue>Ach, Officer, wir haben doch nur Spaß, es ist eine große Party.</Dialogue>
+        <Dialogue>Das ist in Ordnung, solange die Musik in einer angemessenen Lautstärke bleibt.</Dialogue>
+        <Dialogue>Falls ich noch einmal kommen muss, werden Sie verhaftet!</Dialogue>
+        <Dialogue>Ich werde Ihnen eine Verwarnung ausstellen, da es das zweite Mal ist, dass ich hier bin.</Dialogue>
+        <Dialogue>Ich wünsche Ihnen eine schöne, aber ruhigere Nacht.</Dialogue>
+    </OwnerSecond>
+
+    <DJ>
+        <Dialogue>Guten Tag, Sie sind der DJ hier, richtig?</Dialogue>
+        <Dialogue>Ja, Sir, entschuldigen Sie bitte den ~o~Besitzer~s~, mein Name ist ~g~DJ Moodyman~s~.</Dialogue>
+        <Dialogue>Ach, Sie haben vor einiger Zeit auf der Yacht gespielt, oder?</Dialogue>
+        <Dialogue>Ja, ich erinnere mich, dass Sie auch dort waren. Wie kann ich Ihnen behilflich sein?</Dialogue>
+        <Dialogue>Bitte drehen Sie die Lautstärke herunter, die Nachbarn fühlen sich gestört.</Dialogue>
+        <Dialogue>Oh ja, kein Problem, das mache ich. Es tut mir leid, dass der Besitzer so unkooperativ ist.</Dialogue>
+        <Dialogue>Ich werde mich um ihn kümmern. Einen schönen Tag noch!</Dialogue>
+    </DJ>
+
+    <End>
+        <Text>~g~Einsatz abgeschlossen.</Text>
+        <Text>Drücken Sie ~y~Ende~s~, um den Einsatz jederzeit zu beenden.</Text>
+    </End>
+</NoiseComplaint>

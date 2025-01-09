@@ -1,0 +1,70 @@
+<Shoplifting>
+
+    <General>
+        <Text>Kradzież w sklepie</Text>
+        <Text>Właściciel sklepu wzywa policje</Text>
+        
+        <Text>~HC_64~Właściciel sklepu~s~:</Text>
+        <Text>~y~Ty~s~:</Text>
+    </General>
+
+    <GetInfos>
+        <Dialogue>Hej, jestem z lokalnego departamentu policji.</Dialogue>
+        <Dialogue>To ty dzwoniłaś w sprawie kradzieży?</Dialogue>
+        <Dialogue>Cześć! Tak, sprawca uciekł kilka minut temu!</Dialogue>
+        <Dialogue>Ten pajac ukradł mnóstwo rzeczy, ma ze sobą torbę.</Dialogue>
+        <Dialogue>Możesz opowiedzieć mi więcej o sprawcy? Jak wyglądał, co miał na sobie?</Dialogue>
+
+        <!-- {1}: ShoplHelper.Background() -->
+        <Dialogue>To był czarnoskóry mężczyzna,</Dialogue>
+        <Dialogue>To był biały mężczyzna,</Dialogue>
+
+        <!-- {1}: {Suspect.GetRoundAge()} = {10} -->
+        <Dialogue>około {10} lat.</Dialogue>
+
+        <!-- {2}: ShoplHelper.TShirt() -->
+        <Dialogue>Miał na sobie biały podkoszulek</Dialogue>
+        <Dialogue>Miał na sobie szary podkoszulek</Dialogue>
+        <Dialogue>Miał na sobie czarną, skórzaną kurtkę</Dialogue>
+
+        <!-- {2}: ShoplHelper.Pants() -->
+        <Dialogue>i spodnie w kratkę.</Dialogue>
+        <Dialogue>i białe spodnie.</Dialogue>
+        <Dialogue>i jasno niebieskie jeansy.</Dialogue>
+
+        <Dialogue>Udało mi się go złapać na cctv, tu jest jego zdjęcie!</Dialogue>
+        <Dialogue>Sprawca uciekł na piechotę!</Dialogue>
+        <Dialogue>W porządku, dziękuję!</Dialogue>
+    </GetInfos>
+
+    <LocationUpdater>
+        <Text>~y~Miejsce poszukiwania~s~ zostało zaktualizowane!</Text> 
+        <Text>~g~Miejsce poszukiwania~s~ zostało zaktualizowane!</Text> <!-- EasyLocationUpdater -->
+        <Text>~r~Sprawca~s~ został znaleziony. Aresztuj go!</Text>
+    </LocationUpdater>
+
+    <Mugshot>
+        <Text>Czarnoskóry mężczyzna</Text>
+        <Text>biały podkoszulek</Text>
+
+        <Text>Biały mężczyzna</Text>
+        <Text>szary podkoszulek</Text>
+
+        <Text>czarna, skórzana kurtka</Text>
+
+        <Text>~h~Opis sprawcy~h~</Text>
+
+        <Text>Naciśnij ~y~J~s~ w dowolnym momencie, aby zobaczyć ~y~zdjęcie~s~ ponownie!</Text>
+    </Mugshot>
+
+    <SearchForSuspect>
+        <Text>Poszukaj sprawcy w ~y~okolicy~s~, która jest ~y~oznaczona~s~ na twoim gps.</Text>
+        <Text>Przeszukaj sprawcę i kontynuuj jak uznasz za stosowne.</Text>
+    </SearchForSuspect>
+
+    <WaitForEnd>
+        <Text>Sprawca nie żyje.</Text>
+        <Text>~g~Kod 4.</Text>
+    </WaitForEnd>
+
+</Shoplifting>

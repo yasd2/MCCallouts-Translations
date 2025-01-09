@@ -1,0 +1,23 @@
+<WantedSuspectLocated>
+
+    <General>
+        <Text>Localisation possible du suspect recherché</Text>
+        <Text>Découvrez les 2 emplacements possibles</Text>
+        <Text>Suspect en garde à vue, ~g~Code 4~w~</Text>
+    </General>
+
+    <Scenes>
+        <Text>Recherchez le ~r~suspect~w~ dans la première zone.</Text>
+        <Text>Recherchez le ~r~suspect~w~ dans la ~g~zone~w~.</Text>
+        <Text>Aucun suspect trouvé, déplacez-vous vers le ~g~deuxième emplacement~w~.</Text>
+        <Text>Recherchez maintenant le ~r~suspect~w~ dans la deuxième ~g~zone~w~. Il ~r~doit~w~ ​​être là !</Text>
+        <Text>~r~Suspect~s~ description :{0}~y~Homme asiatique~s~, mince,{0}cheveux noirs, 30 ans{0}porte un t-shirt ~b~bleu~s~</Text>
+    </Scenes>
+    
+    <Outcomes>
+        <Dialogue>~r~Suspect~w~ : Bordel, les flics ! Ne tirez pas ! Je me rends !</Dialogue>
+        <Dialogue>~r~Suspect~w~ : Oh merde, les flics ! Va te faire foutre, je vais t'~o~exploser~w~ la tête ~o~dégagez~w~ !</Dialogue>
+        <Dialogue>~y~Vous~w~ : Répartition, suspect trouvé, ça va être une ~o~poursuite~w~!</Dialogue>
+    </Outcomes>
+
+</WantedSuspectLocated>

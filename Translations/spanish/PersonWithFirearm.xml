@@ -1,0 +1,35 @@
+<PersonWithFirearm>
+
+    <General>
+        <Text>Persona portando un arma</Text>
+        <Text>Se ha reportado que una persona está portando un arma de fuego. Establezca contacto con él.</Text>
+        <Text>Acérquese al ~r~sospechosot~w~ y proceda a hablar con él.</Text>
+        <Text>Presione {0} para hablar con el sospechoso.</Text>
+        <Text>La conversación con el ~r~sospechoso~w~ ha finalizado.</Text>
+    </General> 
+
+    <Conversation>
+        <Dialogue>~b~Usted:~w~ Hola, ¿te importa si hablamos un momento?</Dialogue>
+        <Dialogue>~r~Sospechoso:~w~ No, ¿quién coño eres? ¿¡Qué coño quieres!?</Dialogue>
+        <Dialogue>~b~Usted:~w~ Tranquilo, solo quiero hablar. Creo que podrías tener un arma.</Dialogue>
+        <Dialogue>~r~Sospechoso:~w~¡Mentira! Te equivocas de persona.</Dialogue>
+        <Dialogue>~b~Usted:~w~ Por favor, coopere con nosotros para que podamos solucionar las cosas. Nada tiene que salir mal.</Dialogue>
+    </Conversation>
+
+    <Shooting>
+        <Dialogue>~r~Sospechoso:~w~ ¡Y una mierda! ¡Nunca!</Dialogue>
+    </Shooting>
+
+    <Surrender>  
+        <Dialogue>~r~Sospechoso:~w~ Yo... lo siento... ¿Qué tengo que hacer?</Dialogue>
+        <Dialogue>~b~Usted:~w~ Por favor, necesito que ponga las manos arriba. Le voy a detener.</Dialogue>
+        <Dialogue>~r~Sospechoso:~w~ Entendido señor... lo siento...</Dialogue>
+    </Surrender>
+
+    <End>
+        <Text>Sospechoso detenido, ~g~código 4~w~</Text>
+        <Text>~g~Código 4~w~</Text>
+        <Text>El ~r~sospechoso ha sido neutralizado.~g~ Código 4</Text>
+    </End>
+
+</PersonWithFirearm>

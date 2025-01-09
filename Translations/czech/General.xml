@@ -1,0 +1,9 @@
+<General>
+    <UpdateChecker>
+        <Text>Nejnovejsi verze MCCallouts c; </Text>
+        <Text>Beta/ Budouci verze MCCallouts c: </Text>
+        <Text>~r~Zjistena stara verze.~w~~n~Aktualizujte, az to bude mozne!</Text>
+        <Text>~y~MCCallouts se nacetly~w~, ale ~r~nemohli jsme~w~ zkontrolovat aktualizace.</Text>
+        <Text>~y~MCCallouts ~g~nacteny~w~!~n~Stastne hlidkovani!</Text>
+    </UpdateChecker>
+</General>

@@ -1,0 +1,83 @@
+<LostObject>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+
+    <General>
+        <Text>Ztracený predmet</Text>
+        <Text>Volající ztratil predmet, je treba policie</Text>
+        <Text><![CDATA[Zajedte k ~g~volajícímu~s~ a zjistete, v cem je problém.]]></Text>
+    </General>
+
+
+    <DisplayHelp>
+        <Text>Mluvte s volajícím stisknutím tlacítka</Text>
+        <Text>Vyhledejte ~o~mobilní telefon~s~. Stisknutím tlacítka</Text> <!--Search for the ~o~cellphone~s~. Press __Key-Y__  to pick up the object.-->
+        <Text>Vyhledejte ~o~penezenku~s~. Stisknutím tlacítka</Text>    <!--Search for the ~o~wallet~s~. Press __Key-Y__  to pick up the object.-->
+        <Text>Vyhledejte ~o~boty~s~. Stisknutím tlacítka</Text>      <!--Search for the ~o~shoe~s~. Press __Key-Y__  to pick up the object.-->
+        <Text>k vyzvednutí predmetu.</Text>
+        <Text>Zmácknete</Text>                                 <!--Press __Key-Y__ to shout to the caller!-->
+        <Text>vykriknout na volajícího!</Text>               <!--Press __Key-Y__ to shout to the caller!-->
+        <Text>Zde je ~r~nápoveda~s~ jako pomoc.</Text>
+        <Text>Zmácknete ~g~1 ~s~pro prijetí nebo ~r~2~s~ pro prerusení.</Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+        <Text>~r~Mobilní telefon~s~ nalezen!</Text>
+        <Text>~r~Penezenka~s~~s~ nalezana!</Text>
+        <Text>~r~Boty~s~ nalezeny!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>~y~Ty~s~: Dobrý den, jste volající?</Dialogue>
+        <Dialogue>~b~Volající~s~: Pockej, uz jdu!</Dialogue>
+        <Dialogue>~b~Volající~s~: Dekuji mnohokrát! Kéz bych mel oci jako vy!</Dialogue>
+        <Dialogue>~y~Ty~s~: Bez obav, preji hezký den!</Dialogue>
+    </Conversation>
+
+
+    <OutcomeCellphone>
+        <Dialogue>~b~Volající~s~: Ano, volal/a jsem. Nemuzu najít svuj mobil.</Dialogue>
+        <Dialogue>~y~Ty~s~: Rozumím. Pomuzu vám ho najít.</Dialogue>
+        <Dialogue>~y~Ty~s~: Kdy jste ho naposledy pouzil/a?</Dialogue>
+        <Dialogue><![CDATA[~b~Volající~s~: sel jsem zrovna tudy a myslel jsem, ze jsem si ho dal do kapsy.]]></Dialogue>
+        <Dialogue>~y~Ty~s~: Pak musí být nekde poblíz. Pojdme se podívat.</Dialogue>
+        <Dialogue>~y~Ty~s~: Hej, nasel jsem tvuj mobil!</Dialogue>
+    </OutcomeCellphone>
+
+
+    <OutcomeWallet>
+        <Dialogue><![CDATA[~b~Volající~s~: Ano, byl/a jsem to já. Ztratil/a jsem penezenku a nemuzu ji najít.]]></Dialogue>
+        <Dialogue>~y~Ty~s~: Ach boze. Jsem si jistý, ze to najdeme.</Dialogue>
+        <Dialogue>~y~Ty~s~: Pamatujete si, kdy jste ji mel/a naposledy?</Dialogue>
+        <Dialogue>~b~Volající~s~: Jo, pred chvílí. Musí to být nekde tady.</Dialogue>
+        <Dialogue>~y~Ty~s~: Dobre, podíváme se po té vasi penezence.</Dialogue>
+        <Dialogue>~y~Ty~s~: Hej, nasel jsem vasi penezenku!</Dialogue>
+    </OutcomeWallet>
+
+
+    <OutcomeShoe>
+        <Dialogue>~b~Volající~s~: Ano, potrebuji vasi pomoc. Mám obrovský problém.</Dialogue>
+        <Dialogue>~b~Volající~s~: Ztratil/a jsem botu... chudák moje bota, tak moc jsem ji miloval/a!</Dialogue>
+        <Dialogue>~y~Ty~s~: Ahhh... prominte, ale tohle není duvod volat policii.</Dialogue>
+        <Dialogue>~b~Volající~s~: Ale byla to bota za 100 dolaru! Omlouvám se, ale muzete mi prosím pomoci s hledáním?</Dialogue>
+        <Dialogue>~y~Ty~s~: Dobre, pomuzu ti s hledáním boty. Pojdme prohledat okolí.</Dialogue>
+        <Dialogue>~y~Ty~s~: Ne, jak jsem rekl. Policii prosím volejte jen v prípade nouze. Hezký zbytek dne!</Dialogue>
+        <Dialogue>~y~Ty~s~: Hej, nasel jsem tvou botu!</Dialogue>
+        <Dialogue>~y~Ty~s~: Dobre, ale príste volejte jen v prípade nouze! Dobre!</Dialogue>
+    </OutcomeShoe>
+
+
+    <End>
+        <Text>Vse pod ~g~kodem 4~s~, ~b~chybející predmet byl ~g~nalezen~s~.</Text>
+        <Text>Pod kodem ~g~4~s~, prípad skoncil.</Text>
+    </End>
+
+
+
+</LostObject>

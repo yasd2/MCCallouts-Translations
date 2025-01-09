@@ -1,0 +1,172 @@
+<SolveMurder2>
+
+    <General>
+        <Text>Требуется ~p~Детектив~s~ на дело об убийстве</Text>
+        <Text>~g~Dispatch~s~: Езжайте в Миррор-Парк в Лос-Сантосе, требуется ~p~Детектив~w~.</Text>
+    </General>
+
+    <Officer>
+        <Dialogue>Направляйтесь к ~b~Офицеру~w~ и поговорите с ним используя </Dialogue>
+        <Dialogue>~b~Офицер~s~: Здравствуйте Детектив! Меня зовут ~g~Jack Walter~s~, зовите меня просто Jack. Надеюсь пробок по пути не было?</Dialogue>
+        <Dialogue>~y~Вы~s~: Здравствуйте! Нет, всё в порядке. Что у нас здесь?</Dialogue>
+        <Dialogue>~b~Jack~s~: У нас ~g~труп~s~, возможно убийство, Офицер Dawson, ~g~вон там~s~, владеет большей информацией.</Dialogue>
+        <Dialogue>~b~Jack~s~: С другой стороны у нас 3 возможных подозреваемых, одна из них звонившая в 9-1-1.</Dialogue>
+        <Dialogue>~y~Вы~s~: Спасибо, Я поговорю с ~b~Офицером Dawson~s~.</Dialogue>
+        <Dialogue>Идите и поговорите с ~b~Офицером Dawson~s~.</Dialogue>
+    </Officer>
+
+    <Officer2>
+        <Dialogue>Поговорите с ~b~Офицером Dawson~s~ используя </Dialogue>
+        <Dialogue>~y~Вы~s~: Эй, Офицер Dawson! Офицер Walter сказал, что у вас есть какая-то информация?</Dialogue>
+        <Dialogue>~b~Офицер~s~: Здравствуйте Детектив! Зовите меня Erika!</Dialogue>
+        <Dialogue>~b~Erika~s~: Жертву звали Lilliana Wyatt, 33 года, жила на Никола-авеню, неподалёку.</Dialogue>
+        <Dialogue>~b~Erika~s~: Так же у нас 3 возможных подозреваемых потенциального убийства.</Dialogue>
+        <Dialogue>~b~Erika~s~: Одна из них, Belle Hamilton, она позвонила в 9-1-1, но ещё она может быть возможным убийцей.</Dialogue>
+        <Dialogue>~b~Erika~s~: Я предлагаю вам отправиться на место преступления и осмотреться, может найдёте что-нибудь.</Dialogue>
+        <Dialogue>Идите на место преступления и поищите ~b~улики~s~.</Dialogue>
+    </Officer2>
+
+    <Evidence>
+        <Text>~y~Вы~s~: У нее рана на голове., её ударили вон той разбитой бутылкой...</Text>
+        <Text>Мобильный телефон... на обоях изображен ~p~чёрный Obey Tailgater~s~...</Text>
+        <Text>Хммм... наполовину съеденный бургер... не интересно.</Text>
+        <Text>Кровь выглядит все еще свежей, должно быть это произошло не более 2-х часов назад...</Text>
+        <Text>Расследование завершено! Идите к ~o~звонившей~w~ и поговорите с ней используя </Text>
+    </Evidence>
+
+    <Suspect1>
+        <Dialogue>Поговорите с ~o~подозреваемой~w~ используя </Dialogue>
+        <Dialogue>~y~Вы~s~: Здравствуйте! Я детектив по этому делу. Как вас зовут?</Dialogue>
+        <Dialogue>~o~Звонившая~s~: Добрый вечер, меня зовут Belle Hamilton. Я шла вниз по улице, когда увидила её...</Dialogue>
+        <Dialogue>~y~Вы~s~: Вы поступили правильно, позвонив нам. Я быстро проверю ваши данные.</Dialogue>
+        <Dialogue>~y~Вы~s~: Диспетчер, можно проверить человека, 'Belle Hamilton'?</Dialogue>
+        <Dialogue>Я проверяю, ожидайте.</Dialogue>
+        <Dialogue>~b~Belle Hamilton~s~</Dialogue>
+        <Dialogue>~g~Нет ордеров</Dialogue>
+        <Dialogue>~g~Нет арестов</Dialogue>
+        <Dialogue>~y~1 штраф: Превышение скорости~s~</Dialogue>
+        <Dialogue>~y~Вы~s~: Ваша запись чиста. Но у меня еще есть к вам несколько вопросов.</Dialogue>
+        <Dialogue>~y~Вы~s~: Вы знали жертву?</Dialogue>
+        <Dialogue>~o~Мисс Hamilton~s~: Нет, Не знала. Представляю членов семьи, как ужасно они себя чувствуют...</Dialogue>
+        <Dialogue>~y~Вы~s~: Мы позаботимся о ним. Можно, пожалуйста, посмотреть вам мобильный телефон?</Dialogue>
+        <Dialogue>*показывает мобильный телефон*</Dialogue>
+        <Dialogue>~o~Мисс Hamilton~s~: Вот, но... аагх... там мои личные фото, так что я не могу его отдать.</Dialogue>
+        <Dialogue>~y~Вы~s~: Можете оставить его у себя. А на какой машине вы ездите и как у неё номерной знак?</Dialogue>
+        <Dialogue>~o~Мисс Hamilton~s~: Я езжу на Lampadati Pigalle, номерной знак: 86LUN445.</Dialogue>
+        <Dialogue>~y~Вы~s~: Диспетчер, мне нужна проверка автомобиля, номер 86LUN445.</Dialogue>
+        <Dialogue>Принято, дайте мне минуту.</Dialogue>
+        <Dialogue>~b~86LUN445~s~</Dialogue>
+        <Dialogue>~g~Марка~s~: Lampadati Pigalle</Dialogue>
+        <Dialogue>~b~Владелец~s~: Belle Hamilton</Dialogue>
+        <Dialogue>~r~Страховка просрочена~s~</Dialogue>
+        <Dialogue>~y~Вы~s~: Ладно, но у вашей машины истекла страховка, вам следует обновить её.</Dialogue>
+        <Dialogue>~o~Мисс Hamilton~s~: Ох, спасибо. Я не знала этого, я так и сделаю.</Dialogue>
+        <Dialogue>~y~Вы~s~: На этом всё, пожалуйста, подождите дальнейших указаний.</Dialogue>
+        <Dialogue>Теперь идите к следующему ~o~подозреваемому~s~ и поговорите с ним.</Dialogue>
+
+        <Dialogue>~y~Вы~s~: На этом всё, спасибо за ваше время.</Dialogue>
+    </Suspect1>
+
+    <Suspect2>
+        <Dialogue>Поговорите с ~o~ним~s~ используя </Dialogue>
+        <Dialogue>~y~Вы~s~: Добрый вечер, сэр! Я Детектив. Можно узнать ваше имя, пожалуйста?</Dialogue>
+        <Dialogue>~o~Подозреваемый~s~: Здравствуйте Детектив, меня зовите Talon Knight, родился 12 Декабря, 1992. Почему меня держат здесь?</Dialogue>
+        <Dialogue>~y~Вы~s~: Вы были поблизости, когда это произошло..</Dialogue>
+        <Dialogue>~o~Talon~s~: Это против моей воли! Отпустите меня, я ничего не сделал!</Dialogue>
+        <Dialogue>~y~Вы~s~: Как только вы ответите на мои вопросы, вы свободный. Где вы живёте?</Dialogue>
+        <Dialogue>~o~Talon~s~: Я живу поблизости, в двух кварталах отсюда.</Dialogue>
+        <Dialogue>~y~Вы~s~: И вы знаете жертву?</Dialogue>
+        <Dialogue>~o~Talon~s~: Нет?</Dialogue>
+        <Dialogue>~y~Вы~s~: Вы живёте рядом с жертвой и говорите мне, что не знаете Lilliana Wyatt?</Dialogue>
+        <Dialogue>~o~Talon~s~: Ок, Я знаю её, Она просто мне не нравится, она была не очень дружелюбной, активной или популярной в районе...</Dialogue>
+        <Dialogue>~o~Talon~s~: Однажды она вызвала на меня копов, потому что моя собака лаяла несколько раз, вскоре после 10 вечера...</Dialogue>
+        <Dialogue>~y~Вы~s~: Хммм... Ладно, можете показать мне свой телефон, пожалуйста?</Dialogue>
+        <Dialogue>~o~Talon~s~: Я бы с радостью, но я уронил его на прошлой неделе и отдал его в мастерскую на ремонт. Это обойдёться в районе 100$...</Dialogue>
+        <Dialogue>~y~Вы~s~: Понятно. На какой машине вы ездите и как у неё номерной знак?</Dialogue>
+        <Dialogue>~o~Talon~s~: У меня Vapid Minivan, мой номерной знак... аагх... 47LIF... 341.</Dialogue>
+        <Dialogue>~y~Вы~s~: Диспетчер, мне нужно проверить номерной знак 47LIF341.</Dialogue>
+        <Dialogue>Принято, пожалуйста ожидайте.</Dialogue>
+        <Dialogue>~b~47LIF341~s~</Dialogue>
+        <Dialogue>~g~Марка~s~: Vapid Minivan</Dialogue>
+        <Dialogue>~b~Владелец~s~: Talon Knight</Dialogue>
+        <Dialogue>~y~Примечание: Машина зарегистрирована 4 месяца назад~s~</Dialogue>
+        <Dialogue>~y~Вы~s~: Диспетчер, проверьте имя 'Talon Knight', пожалуйста.</Dialogue>
+        <Dialogue>Я проверяю, ожидайте.</Dialogue>
+        <Dialogue>~b~Talon Knight~s~</Dialogue>
+        <Dialogue>~g~Нет арестов</Dialogue>
+        <Dialogue>~y~1 штраф: Парковка не на той стороне улицы~s~</Dialogue>
+        <Dialogue>~y~Вы~s~: Ваша запись похоже чиста, как только я закончу, Я вернусь к вам.</Dialogue>
+        <Dialogue>~o~Talon~s~: Хорошо!</Dialogue>
+        <Dialogue>Поговорите с последней ~o~подозреваемой~s~.</Dialogue>
+    </Suspect2>
+
+    <Suspect3>
+        <Dialogue>Поговорите с ~o~ней~s~ используя </Dialogue>
+        <Dialogue>~y~Вы~s~: Здравствуйте Мисс! Я детектив по этому делу, можете сказать как вас зовут, пожалуйста?</Dialogue>
+        <Dialogue>~o~Подозреваемая~s~: Здравствуйте, меня зовут Nylah Lane.</Dialogue>
+        <Dialogue>~y~Вы~s~: Понятно. Диспетчер, можно проверить имя Nylah Lane?</Dialogue>
+        <Dialogue>Принято, проверяю</Dialogue>
+        <Dialogue>~b~Nylah Lane~s~</Dialogue>
+        <Dialogue>~g~Нет ордеров~s~</Dialogue>
+        <Dialogue>~g~Нет арестов</Dialogue>
+        <Dialogue>~y~1 штраф: Парковка на месте для инвалидов~s~</Dialogue>
+        <Dialogue>~y~Вы~s~: Ладно, это хорошо. Где вы живете?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Я живу на Вайнвуд-Хиллз, У меня там квартира.</Dialogue>
+        <Dialogue>~y~Вы~s~: Ух ты, хорошее место чтоб жить! Могу я взглянуть на ваш мобильный телефон, пожалуйста?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Да, конечно, он в моём... Вот черт, где он?... Похоже, я оставила его в машине?</Dialogue>
+        <Dialogue>~y~Вы~s~: О, надеюсь, что так. На какой машине вы ездите?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Я езжу на... ааагх... Grotti ... Stinger, ага.</Dialogue>
+        <Dialogue>~y~Вы~s~: Ок, какой номерной знак?</Dialogue>
+        <Dialogue>~o~Nylah~s~: ... А-а-а, я не знаю</Dialogue>
+        <Dialogue>~y~Вы~s~: Вы не знаете номер своей собственной машины?</Dialogue>
+        <Dialogue>~o~Nylah~s~: А-а, ну, Я имею в виду... всё сложно...</Dialogue>
+        <Dialogue>~y~ВЫ~s~: Ладно, неважно. Диспетчер, Мне нужно проверить номерной знак ~b~Grotti Stinger~s~, владелец ~b~Nylah Lane~s~.</Dialogue>
+        <Dialogue>10-4, ищу.</Dialogue>
+        <Dialogue>Нет результатов по такой связке, дайте мне проверить владельца.</Dialogue>
+        <Dialogue>Я нашла другой автомобиль у владельца:</Dialogue>
+        <Dialogue>~b~58RLD582~s~</Dialogue>
+        <Dialogue>~y~Марка~s~: Obey Tailgater</Dialogue>
+        <Dialogue>~b~Владелец~s~: Nylah Lane</Dialogue>
+        <Dialogue>~y~Вы~s~: Интересно. Мисс, почему вы соврали насчёт вашей машины</Dialogue>
+        <Dialogue>~o~Nylah~s~: Что вы имеете в виду? Я хотела сказать.. У меня 2 машины... или же..?</Dialogue>
+        <Dialogue>~y~Вы~s~: Очень смешно, насчёт телефона вы тоже соврали?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Вы нашли его поблизости? Поэтому вы спрашиваете?</Dialogue>
+        <Dialogue>~y~Вы~s~: ... Какие у вас отношения с жертвой?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Она моя кузина и она должна мне деньги, много денег.</Dialogue>
+        <Dialogue>~y~Вы~s~: Поэтому вы убили её?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Я только приехала к её дому, чтобы поговорить с ней о её долгах..</Dialogue>
+        <Dialogue>~y~Вы~s~: Спасибо за ваше сотрудничество, Я ещё вернусь к вам.</Dialogue>
+        <Dialogue>Поговорите с ~b~Офицером Erika~s~ ещё раз.</Dialogue>
+    </Suspect3>
+
+    <Officer3>
+        <Dialogue>Идите и поговорите с ~b~Офицером~w~ ещё раз используя </Dialogue>
+        <Dialogue>~y~Вы~s~: И так, Я обыскал место преступления и поговорил с подозреваемыми.</Dialogue>
+        <Dialogue>~b~Erika~s~: И вы смогли выяснить кто убийца?</Dialogue>
+        <Dialogue>Нажмите {1} ~r~обвинить Belle Hamilton~s~, {2} ~o~обвинить Talon Knight~s~ or {3} ~y~обвинить Nylah Lane~s~!</Dialogue>
+
+        <Dialogue>~y~Вы~s~: ... ~r~Belle Hamilton~s~!</Dialogue>
+        <Dialogue>~y~Вы~s~: Мисс Hamilton не захотела показать мне содержимое своего телефона и сказала, что была в районе, когда это произошло!</Dialogue>
+        <Dialogue>~y~Вы~s~: Она убийца!</Dialogue>
+
+        <Dialogue>~y~Вы~s~: ... ~o~Talon Knight~s~!</Dialogue>
+        <Dialogue>~y~Вы~s~: Мистер Knight не взлюбил жертву и живет неподалеку!</Dialogue>
+        <Dialogue>~y~Вы~s~: Он также не смог показать мне свой мобильный телефон! Он убийца!</Dialogue>
+
+        <Dialogue>~y~Вы~s~: ... ~y~Nylah Lane~s~!</Dialogue>
+        <Dialogue>~y~Вы~s~: Мисс Lane была рядом, когда это произошло, и она оказывается родственницей жертвы!</Dialogue>
+        <Dialogue>~y~Вы~s~: Она соврала о своем автомобиле и телефоне!</Dialogue>
+        <Dialogue>~y~Вы~s~: На обоях её телефона изображена её машина. И ещё она потеряла его на месте преступления. Она убийца!</Dialogue>
+
+        <Dialogue>~b~Erika~s~: Оу, понятно! Идите и арестуйте ~r~подозреваемого~s~!</Dialogue>
+    </Officer3>
+
+    <Arrest>
+        <Text>Вы успешно арестовали ~r~убийцу~s~! ~g~Очистите место преступления~s~!</Text>
+        <Text>О нет, вы арестовали ~y~не того~s~ человека! ~g~Очистите место преступления~s~!</Text>
+        <Text>~o~Подозреваемый~s~ ~r~погиб~s~.{0}Ситуация: ~g~Код 4~s~, ~g~очистите место преступления~s~!</Text>
+        <Text>~b~Офицер~s~ ~r~погиб~s~.{0}Ситуация: ~g~Код 4~s~.</Text>
+
+    </Arrest>
+
+</SolveMurder2>

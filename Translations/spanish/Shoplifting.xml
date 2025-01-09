@@ -1,0 +1,70 @@
+<Shoplifting>
+
+    <General>
+        <Text>Robo en una tienda</Text>
+        <Text>Una dependiente ha llamado a la policía</Text>
+        
+        <Text>~HC_64~Propietaria de la tienda~s~:</Text>
+        <Text>~y~Usted~s~:</Text>
+    </General>
+
+    <GetInfos>
+        <Dialogue>Hola, policía local.</Dialogue>
+        <Dialogue>¿Nos ha llamado por un robo en una tienda?</Dialogue>
+        <Dialogue>!Hola! Sí, el tipo acaba de irse hace unos minutos.</Dialogue>
+        <Dialogue>Ese cabrón me ha robado un montón de cosas, se las ha llevado en una bolsa.</Dialogue>
+        <Dialogue>¿Qué aspecto tiene el sujeto?</Dialogue>
+
+        <!-- {1}: ShoplHelper.Background() -->
+        <Dialogue>Es un hombre negro</Dialogue>
+        <Dialogue>Es un hombre blanco</Dialogue>
+
+        <!-- {1}: {Suspect.GetRoundAge()} = {10} -->
+        <Dialogue>alrededor de unos {10} años.</Dialogue>
+
+        <!-- {2}: ShoplHelper.TShirt() -->
+        <Dialogue>Levaba una camiseta sin mangas blanca</Dialogue>
+        <Dialogue>Llevaba una camistea de tirantes gris</Dialogue>
+        <Dialogue>Llevaba una chaqueta de cuero negra</Dialogue>
+
+        <!-- {2}: ShoplHelper.Pants() -->
+        <Dialogue>y unos pantalones a cuadros.</Dialogue>
+        <Dialogue>y unos pantalones blancos.</Dialogue>
+        <Dialogue>y unos vaqueros azules claros.</Dialogue>
+
+        <Dialogue>Lo vi por las cámaras de seguridad, ¡esta es una foto de él!</Dialogue>
+        <Dialogue>Él cabrón se ha ido corriendo.</Dialogue>
+        <Dialogue>Gracias por la información, ¡adiós!</Dialogue>
+    </GetInfos>
+
+    <LocationUpdater>
+        <Text>¡La ~y~ubicación~s~ ha sido actualizada!</Text> 
+        <Text>¡La ~g~ubicación~s~ ha sido actualizada!</Text> <!-- EasyLocationUpdater -->
+        <Text>El ~r~sospechoso~s~ ha sido localizado. ¡Arrestalo!</Text>
+    </LocationUpdater>
+
+    <Mugshot>
+        <Text>Hombre negro</Text>
+        <Text>camiseta sin mangas blanca</Text>
+
+        <Text>Hombre blanco</Text>
+        <Text>camiseta de tirantes gris</Text>
+
+        <Text>chaqueta de cuero negra</Text>
+
+        <Text>~h~Descripción del sospechoso~h~</Text>
+
+        <Text>¡Presiona ~y~J~s~ en cualquier momento para ver la ~y~foto~s~ de nuevo!</Text>
+    </Mugshot>
+
+    <SearchForSuspect>
+        <Text>Ahora busca al sospechoso en la ~y~area~s~ ~y~marcada~s~ en tu GPS.</Text>
+        <Text>Continua buscando al sospechoso.</Text>
+    </SearchForSuspect>
+
+    <WaitForEnd>
+        <Text>El sospechoso ha muerto.</Text>
+        <Text>~g~Código 4.</Text>
+    </WaitForEnd>
+
+</Shoplifting>

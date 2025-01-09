@@ -1,0 +1,83 @@
+<LostObject>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+
+    <General>
+        <Text>Zagubiony przedmiot</Text>
+        <Text>Rozmówca zgubił przedmiot, potrzebna policja</Text>
+        <Text><![CDATA[Pojedź do ~g~rozmówcy~s~ i dowiedz się o co chodzi.]]></Text>
+    </General>
+
+
+    <DisplayHelp>
+        <Text>Aby porozmawiać naciśnij </Text>
+        <Text>Znajdź ~o~telefon~s~. Naciśnij </Text> <!--Search for the ~o~cellphone~s~. Press __Key-Y__  to pick up the object.-->
+        <Text>Znajdź ~o~portfel~s~. Naciśnij </Text>    <!--Search for the ~o~wallet~s~. Press __Key-Y__  to pick up the object.-->
+        <Text>Znajdź ~o~but~s~. Naciśnij </Text>      <!--Search for the ~o~shoe~s~. Press __Key-Y__  to pick up the object.-->
+        <Text>, aby podnieść przedmiot.</Text>
+        <Text>Naciśnij </Text>                                 <!--Press __Key-Y__ to shout to the caller!-->
+        <Text>, aby krzyknąć do zgłaszającego!</Text>               <!--Press __Key-Y__ to shout to the caller!-->
+        <Text>~r~Podpowiedź~s~:</Text>
+        <Text>Naciśnij ~g~1 ~s~, aby przyjąć podpowiedź, albo ~r~2~s~, aby zignorować.</Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+        <Text>~r~Telefon~s~ znaleziony!</Text>
+        <Text>~r~Portfel~s~ znaleziony!</Text>
+        <Text>~r~But~s~ znaleziony!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>~y~Ty~s~: Cześć, to ty dzwoniłeś?</Dialogue>
+        <Dialogue>~b~Zgłaszający~s~: Czekaj, już idę!</Dialogue>
+        <Dialogue>~b~Zgłaszający~s~: Bardzo dziękuję! Chciałbym też mieć tak dobry wzrok jak ty!</Dialogue>
+        <Dialogue>~y~Ty~s~: Nie ma za co, cześć!</Dialogue>
+    </Conversation>
+
+
+    <OutcomeCellphone>
+        <Dialogue>~b~Zgłaszający~s~: Tak, to ja. Nie mogę nigdzie znaleźć mojego telefonu.</Dialogue>
+        <Dialogue>~y~Ty~s~: Rozumiem. Pomogę ci go poszukać.</Dialogue>
+        <Dialogue>~y~Ty~s~: Gdzie ostatni raz go widziałeś?</Dialogue>
+        <Dialogue><![CDATA[~b~Zgłaszający~s~: Szedłem tędy i sądziłem, że mam go w swojej kieszeni.]]></Dialogue>
+        <Dialogue>~y~Ty~s~: Czyli jest gdzieś w pobliżu. Zobaczmy.</Dialogue>
+        <Dialogue>~y~Ty~s~: Hej, mam twój telefon!</Dialogue>
+    </OutcomeCellphone>
+
+
+    <OutcomeWallet>
+        <Dialogue><![CDATA[~b~Zgłaszający~s~: Tak, to ja. Nie mogę nigdzie znaleźć mojego portfela.]]></Dialogue>
+        <Dialogue>~y~Ty~s~: O rany. Na pewno go znajedziemy.</Dialogue>
+        <Dialogue>~y~Ty~s~: Pamiętasz kiedy ostatni raz go widziałeś?</Dialogue>
+        <Dialogue>~b~Zgłaszający~s~: Tak, około minutę temu. Musi gdzieś tu być.</Dialogue>
+        <Dialogue>~y~Ty~s~: Dobra, poszukajmy twojego portfela.</Dialogue>
+        <Dialogue>~y~Ty~s~: Hej, mam twój portfel!</Dialogue>
+    </OutcomeWallet>
+
+
+    <OutcomeShoe>
+        <Dialogue>~b~Zgłaszający~s~: Tak, potrzebuję pomocy. Mam duuuży problem.</Dialogue>
+        <Dialogue>~b~Zgłaszający~s~: Zgubiłem but... mój biedny but, tak go kochałem!</Dialogue>
+        <Dialogue>~y~Ty~s~: Ahhh... przykro mi, ale to nie jest powód, by wzywać policję.</Dialogue>
+        <Dialogue>~b~Zgłaszający~s~: Ale on kosztował 100$! Przepraszam, ale możesz pomóc mi go znaleźć?</Dialogue>
+        <Dialogue>~y~Ty~s~: Dobra, Pomogę ci poszukać twojego buta. Sprawdźmy okolicę.</Dialogue>
+        <Dialogue>~y~Ty~s~: Nie i tak jak mówię, dzwoń na policję tylko w nagłych przypadkach. Miłego dnia!</Dialogue>
+        <Dialogue>~y~Ty~s~: Hej, mam twój but!</Dialogue>
+        <Dialogue>~y~Ty~s~: Nie ma za co. Tylko pamiętaj żeby następnym razem dzwonić tylko w nagłych przypadkach! Do widzenia!</Dialogue>
+    </OutcomeShoe>
+
+
+    <End>
+        <Text>~g~Kod 4~s~, ~b~zgubiony przedmiot ~s~został ~g~znaleziony~s~.</Text>
+        <Text>Kod ~g~4~s~, Sprawa zamknięta.</Text>
+    </End>
+
+
+
+</LostObject>

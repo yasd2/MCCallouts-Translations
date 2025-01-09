@@ -1,0 +1,61 @@
+<NoiseComplaint>
+    <General>
+        <Text>Stíznost na hluk</Text>
+        <Text>Hlásení o hlasité domácí párty</Text>
+        <Text>Sousedé nahlásili stíznost na hluk. Ujistete se, ze poradatel ~o~akce~s~ ztisil hlasitost hudby.</Text>
+        <Text>Stisknutím {Key} si muzete sami upravit hlasitost.</Text>
+    </General>
+
+    <Persons>
+        <Text>Ty</Text>
+        <Text>Majitel</Text>
+        <Text>DJ</Text>
+    </Persons>
+
+    <Tasks>
+        <Text>Odejdete z party smerem k ~y~zluté znacce~s~.</Text>
+        <Text>Zachovejte se tak, jak si myslíte, ze je to správné, a pak si promluv s ~g~~h~DJem~h~~s~.</Text>
+        <Text>Volající nahlásil stíznost na hluk na stejné adrese jako predtím. Jedte na místo pod kodem 2.</Text>
+    </Tasks>
+
+    <OwnerCooperative>
+        <Dialogue>Dobrý den, dustojníku, jak vám mohu pomoci?</Dialogue>
+        <Dialogue>Meli jsme telefonát kvuli hlasité hudbe. Ztlumte prosím hlasitost.</Dialogue>
+        <Dialogue>Pokud sem budu muset prijít znovu, dostanete predvolání za hlasitou hudbu.</Dialogue>
+        <Dialogue>Dobre, dobre, ztisíme to.</Dialogue>
+        <Dialogue>Dekuji za spolupráci, uzijte si noc.</Dialogue>
+    </OwnerCooperative>
+
+    <OwnerUncooperative>
+        <Dialogue>Ju, po-po, co tady kurva deláte? </Dialogue>
+        <Dialogue>Na tuto adresu jsme byli odesláni kvuli hlasité hudbe.</Dialogue>
+        <Dialogue>Kurva, vypadá to tady jako v materské skolce? My tady kurva paríme!!!</Dialogue>
+        <Dialogue>Pane, okamzite ztlumte tu hudbu.</Dialogue>
+        <Dialogue>Delám hovno, budes me muset zatknout, nebo odejít, prase.</Dialogue>
+    </OwnerUncooperative>
+
+    <OwnerSecond>
+        <Dialogue>Dobrý den, opet nám volali kvuli prílis hlasité hudbe.</Dialogue>
+        <Dialogue>A jak slysím, opet jste zvýsili hlasitost, místo abyste ji snízili...</Dialogue>
+        <Dialogue>Oh, obycejný dustojníku, my se jen bavíme, máme tu velkou párty.</Dialogue>
+        <Dialogue>To je v porádku, pokud je hudba na prijatelné hlasitosti.</Dialogue>
+        <Dialogue>Jestli budu muset prijít znovu, tak vás zatknu!“ </Dialogue>.
+        <Dialogue>Dám vám predvolání, protoze jsem tu uz podruhé.</Dialogue>.
+        <Dialogue>Preji vám hezkou, ale klidnejsí noc.</Dialogue>
+    </OwnerSecond>
+
+    <DJ>
+        <Dialogue>Dobrý den, pane, vy jste tady DJem, ze?</Dialogue>
+        <Dialogue>Ano, pane, omlouvám se za ~o~majitele~s~, jmenuji se ~g~DJ Moodyman~s~.</Dialogue>
+        <Dialogue>Aha, vy jste si na jachte pred casem hráli, ze? </Dialogue>
+        <Dialogue>Jo, vzpomínám si, ze jsi tam byl. Co pro tebe mohu udelat?</Dialogue>
+        <Dialogue>Prosím, ztlumte hlasitost, máme tu sousedy, kterí se cítí obtezováni.</Dialogue>
+        <Dialogue>Ano, zádný problém, udelám to. Mrzí me, ze majitel tak nespolupracuje.</Dialogue>
+        <Dialogue>Uvidím, co s ním budu delat. Hezký den!</Dialogue>
+    </DJ>
+
+    <End>
+        <Text>~g~Callout je pod kodem 4.</Text>
+        <Text>Stisknutím tlacítka ~y~End~s~ kdykoli ukoncíte volání.</Text>
+    </End>
+</NoiseComplaint>

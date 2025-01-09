@@ -1,0 +1,67 @@
+<IllegalFishing>
+
+    <General>
+        <Text>Segnalazioni di potenziale pesca illegale</Text>
+    </General>
+
+    <Setup>
+        <Dialogue>Premi {0} per parlare</Dialogue>
+        <Dialogue>~y~Tu~s~: Ciao, sono un ufficiale del dipartimento locale.</Dialogue>
+        <Dialogue>~y~Tu~s~: Abbiamo ricevuto una segnalazione sull'attività di pesca illegale.</Dialogue>
+        <Dialogue>~b~Sospetto~s~: Oh, sono tutto solo qui, niente di illegale, sto solo pescando...</Dialogue>
+        <Dialogue>~y~Tu~s~: Hai già catturato qualcosa?</Dialogue>
+        <Dialogue>~b~Sospetto~s~: Sì, ne ho catturati alcuni finora.</Dialogue>
+        <Dialogue>~y~Tu~s~: Va bene, devo vedere la tua licenza di pesca.</Dialogue>
+        <Dialogue>Premi {0} per aprire il menu di interazione, usa STP per verificare il documento.</Dialogue>
+        <Dialogue>Premi {0} e {1} per aprire il menu di interazione, usa STP per verificare il documento.</Dialogue>
+        <Dialogue>Premi {0} per aprire il menu di interazione.</Dialogue>
+        <Dialogue>Premi {0} e {1} per aprire il menu di interazione.</Dialogue>
+    </Setup>
+    
+    <ConversationAfterCheckingLicense>
+        <Dialogue>~y~Tu~s~: Va bene, ho verificato le tue informazioni.</Dialogue>
+        <Dialogue>~y~Tu~s~: La tua licenza di pesca è valida, fin qui tutto bene!</Dialogue>
+        <Dialogue>~y~Tu~s~: La tua licenza di pesca è sospesa, non ti è permesso pescare!</Dialogue>
+        <Dialogue>~y~Tu~s~: Inoltre non hai precedenti, niente di cui preoccuparsi.</Dialogue>
+        <Dialogue>~y~Tu~s~: Inoltre non hai alcun precedente.</Dialogue>
+        <Dialogue>~y~Tu~s~: Il mio database mostra però che hai precedenti. Devi venire con noi.</Dialogue>
+        <Dialogue>~y~Tu~s~: Non mi hai parlato dei tuoi precedenti. Sei in arresto.</Dialogue>
+        <Dialogue>Arresta il sospettato.</Dialogue>
+        <Dialogue>Una volta finito, rilascia il sospetto e torna di pattuglia.</Dialogue>
+        <Dialogue>~y~Tu~s~: riceverai un verbale per pesca illegale.</Dialogue>
+        <Dialogue>~y~Tu~s~: Non tornare, altrimenti ti porto in prigione e non lo vogliamo entrambi.</Dialogue>
+        <Dialogue>Fai un verbale al sospettato e rilascialo.</Dialogue>
+        <Dialogue>Premi di nuovo {0} per parlare</Dialogue>
+    </ConversationAfterCheckingLicense>
+
+    <ConversationAfterPursuitArrest>
+        <Dialogue>~y~Tu~s~: È stato stupido correre per una cosa così semplice...</Dialogue>
+        <Dialogue>~b~Sospetto~s~: Comunque ormai è troppo tardi...</Dialogue>
+    </ConversationAfterPursuitArrest>
+
+    <ConversationAndSearch>
+        <Dialogue>~y~Tu~s~: Hai qualcosa con te che potrebbe punzecchiarmi o infilzarmi?</Dialogue>
+        <Dialogue>~b~Sospetto~s~: No...</Dialogue>
+        <Dialogue>Perquisisci il sospettato, fai rapporto e portalo in prigione.</Dialogue>
+    </ConversationAndSearch>
+
+    <End>
+       <Text>Il sospettato è morto.</Text>
+        <Text>Premi {0} in qualsiasi momento per terminare l'intervento.</Text>
+        <Text>~r~Errore GTA: un Ped è diventato non valido.~s~</Text>
+        <Text>~g~Codice 4.~s~</Text>
+    </End>
+
+    <Menu>
+        <Text>Menu Interazione</Text>
+        <Testo>Opzioni:</Testo>
+        <Text>Mostra licenza di pesca</Text>
+        <Testo>Nome:</Testo>
+        <Text>Nato:</Text>
+        <Text>Licenza di pesca</Text>
+        <Text>Mostra documento</Text>
+        <Text>~g~Licenza valida~s~</Text>
+        <Text>~r~Licenza sospesa~s~</Text>
+    </Menu>
+
+</IllegalFishing>

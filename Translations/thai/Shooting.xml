@@ -1,0 +1,50 @@
+<Shooting>
+
+    <General>
+        <Text>การยิง</Text>
+        <Text>คน 2 คนยิงปืนใส่กัน</Text>
+        <Text>ขับรถไปยังที่เกิดเหตุ ~b~Code 3~s~, มือปืน 2 คน, ~r~คำเตือน~s~, ~r~มี~s~ การ ~r~ใช้อาวุธ~s~!</Text>
+        <Text>~y~คุณ~s~: ~p~ทิ้ง ~r~อาวุธ~s~, ~b~เจ้าหน้าที่ตำรวจ~s~!!!</Text>
+        <Text>เรียกกำลังเสริม!</Text>
+        <Text></Text>
+        <Text></Text>
+    </General>
+
+
+    <Outcomes>
+
+        <StillShooting>
+            <Text>~y~คุณ~s~: พวกเขาดูเหมือนจะไม่ฟัง, ใช้ ~r~กำลัง~s~ หรือ ~o~ขู่~s~ กับสิ่งที่คุณคิดว่า ~o~ถูกต้อง~s~!</Text>
+        </StillShooting>
+
+        <Surrender>
+            <Text>~r~ผู้ต้องสงสัยคนแรก~s~: อย่ายิง, ฉัน ~g~ยอมแพ้~s~!</Text>
+            <Text>~p~ผู้ต้องสงสัยคนที่สอง~s~: ฉัน ~g~ยอแพ้~s~, เหมือนกัน!</Text>
+        </Surrender>
+
+        <ShootAtPlayer>
+            <Text>ยิงใส่ตำรวจ!</Text>
+            <Text>~p~ผู้ต้องสงสัย~s~: ฉันยอมแพ้, จับฉันเข้าคุก, ฉันทำเสร็จแล้ว.</Text>
+        </ShootAtPlayer>
+
+    </Outcomes>
+
+    <Arrest>
+        <Text>เรียกฐาน, ผู้ต้องสงสัย 1 คน  ~y~ถูกจับกุม~w~!</Text> 
+        <Text>เรียกฐาน, ผู้ต้องสงสัย 1 คน ~o~เสียชีวิต~w~!</Text>
+    </Arrest>
+
+    <OnScene>
+        <Text>เรียก ~b~ขนส่ง~s~ สำหรับ ~r~ผู้ต้องหา~s~.</Text>
+        <Text>เรียก ~b~ขนส่ง~s~ และ ~p~เจ้าหน้าที่ชันสูตร~s~ สำหรับ ~r~ผู้ต้องสงสัย~s~.</Text>
+        <Text>เรียก ~p~เจ้าหน้าที่ชันสูตร~s~ สำหรับ ~r~ผู้ต้องสงสัย~s~.</Text>
+    </OnScene>
+
+    <End>
+        <Text>An ~r~GTA ped error~s~ occured, Callout ~g~ended~s~</Text>
+        <Text>~y~คุณ~s~ เสียชีวิต, ภารกิจ ~g~สิ้นสุด~s~</Text>
+        <Text>ภารกิจ สิ้นสุด</Text>
+        <Text>~g~Code 4~s~, ~b~เหตุการณ~s~ เรียบ ~b~ร้อย~s~ และ กลับไป ~g~ลาดตระเวน~s~.</Text>
+    </End>
+
+</Shooting>

@@ -1,0 +1,135 @@
+<HostageSituation>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+<!-- 
+<![CDATA[
+-->
+<!--
+]]>
+-->
+
+
+    <General>
+        <Text>Porwanie w toku</Text>
+        <Text>Zakładnik jest na celowniku</Text>
+        <Text>Udaj się jak najszybciej na miejsce porwania w kodzie 3!</Text>
+        <Text><![CDATA[Zaparkuj pojazd w żółtym znaczniku i ukryj się za osłoną w trakcie rozmowy z napastnikiem.]]></Text>
+        <Text>Porozmawiaj z ~g~zakładnikiem.</Text>
+        <Text>Dobra, dobra, poddaje się!</Text>
+        <Text>Zaparkuj i ukryj się za swoim pojazdem.</Text>
+    </General>
+
+    <PedStatus>
+        <Text>~r~Napastnik ~s~aresztowany!</Text>
+        <Text>~g~Zakładnik ~y~aresztowany?!</Text>
+        <Text>~o~Napastnik~s~ ~r~nie żyje...~s~</Text>
+        <Text>~g~Zakładnik~s~ ~r~nie żyje...~s~</Text>
+    </PedStatus>
+
+    <DisplayHelp>
+        <Text>Naciśnij </Text>                                                          <!-- Press _Key_Y__ to end ... -->
+        <Text>, aby zakończyć wezwanie, jeżeli ~b~śledztwo ~s~zostało zakończone.</Text>  <!-- Press _Key_Y__ to end ... -->
+        <Text>Aby porozmawiać z napastnikiem naciśnij </Text>                                      <!-- Talk to the suspect using _Key_Y_ -->
+    </DisplayHelp>
+
+    <DistanceToSuspect> <!-- Jeżeli zbliżysz się do napastnika z zakładnikiem otrzymasz ostrzeżenie. Zacznie strzelać, jeśli pozostaniesz zbyt blisko przez kilka sekund -->
+        <Dialogue>~o~Odsuń się bo strzelam!</Dialogue>
+        <Dialogue>~g~Udało ci się zdążyć na czas!</Dialogue>
+        <Dialogue>~r~Teraz się posypią kule!</Dialogue>
+    </DistanceToSuspect>
+
+    <DistanceWarner> <!-- Jeżeli zbliżysz się za bardzo do pojazdu napastnika z zakładnikiem otrzymasz ostrzeżenie. Zacznie strzelać, jeśli pozostaniesz zbyt blisko przez kilka sekund -->
+        <Dialogue>~o~Zachowaj dystans, albo napastnik straci cierpliwość!~s~</Dialogue>
+        <Dialogue>~g~Dobra robota, pozostań w bezpiecznej odległości.~s~</Dialogue>
+        <Dialogue>~r~Jesteś zbyt blisko! Uważaj!~s~</Dialogue>
+    </DistanceWarner>
+
+    <Menu>
+        <MenuName>Decyzja:</MenuName>
+
+        <Menu1>
+                <Conversation>Pozostań w miejscu</Conversation>
+                <Conversation>~y~Ty~s~: Bez obaw, nie ruszam się.</Conversation>
+                <Conversation>Naciskaj</Conversation>
+                <Conversation>~y~Ty~s~: Odstrzele ci łeb!</Conversation>
+        </Menu1>
+
+        <Menu2>
+                <Conversation>20,000 $ w gotówce</Conversation> <!-- Feel free to change currency (€) to your country. -->
+                <Conversation>~y~Ty~s~: Dostaniesz 20,000 $ w gotówce, co ty na to?</Conversation> <!-- Feel free to change currency (€) to your country. -->
+                <Conversation>Zapewnij lepsze warunki odsiadki</Conversation>
+                <Conversation>~y~Ty~s~: Twój szef dostanie większą celę i telewizor, to jak?</Conversation>
+                <Conversation><![CDATA[Zaproponuj świeży start i psychologa]]></Conversation>
+                <Conversation>~y~Ty~s~: Rozumiem. Moja przyjaciółka jest świetnym psychologiem, pomoże ci wrócić na dobry tor, co ty na to?</Conversation>
+        </Menu2>
+
+        <Menu3>
+                <Conversation>Pojazd do ucieczki z niepełnym bakiem</Conversation>
+                <Conversation>~y~Ty~s~: Dostaniesz pojazd do ucieczki z niepełnym bakiem, ale gdzie zamierzasz jechać?</Conversation>
+                <Conversation>Zaproponuj pizze</Conversation>
+                <Conversation>~y~Ty~s~: A co powiesz na pizze?</Conversation>
+        </Menu3>
+    </Menu>
+
+    <SuspectTalk>
+                <Dialogue>~r~Napastnik~s~: Wynocha! Czego tu chcecie?! Nie podchodzić bliżej!</Dialogue>
+                <Dialogue>~r~Napastnik~s~: Lepiej, żeby tak było! Teraz wszyscy wyjazd, nie chcę tu widzieć więcej policji!</Dialogue>
+                <Dialogue>~r~Napastnik~s~: Nic mi nie zrobicie! Nie chcę tu widzieć więcej policji, albo posypią się kule!</Dialogue>
+                <Dialogue>~y~Ty~s~: Rozumiem, ale budynek jest otoczony.</Dialogue>
+                <Dialogue>~y~Ty~s~: Chcę to zakończyć spokojnie i bezpiecznie dla obu stron.</Dialogue>
+                <Dialogue>~y~Ty~s~: Czemu napadasz na sklep?</Dialogue>
+        <Reasons>
+            <Dialogue>~r~Napastnik~s~: Potrzebuje ~b~pieniędzy~s~, jestem ~b~spłukany~s~ i nie stać mnie na rachunki!</Dialogue>
+            <Dialogue>~r~Napastnik~s~: To jej wina! ~b~Zostawiła mnie!~s~ A teraz jest moim zakładnikiem!</Dialogue>
+            <Dialogue>~r~Napastnik~s~: Mój ~b~szef~s~ jest ~b~w więzieniu~s~, Nie spocznę, dopóki go nie wypuścicie!</Dialogue>
+        </Reasons>
+                <Dialogue>~y~Ty~s~: Posłuchaj, możemy się dogadać:</Dialogue>
+                <Dialogue>~r~Napastnik~s~: Dobra, dogadamy się, ale co za to chcesz?</Dialogue>
+                <Dialogue>~y~Ty~s~: Wszyscy pójdą bezpiecznie do domu, a ty wypuścisz zakładnika!</Dialogue>
+                <Dialogue>~r~Napastnik~s~: Dacie mi samochód do ucieczki, a ja wypuszczę zakładnika później!</Dialogue>
+                <Dialogue>~r~Napastnik~s~: To nie ma sensu, ostatnia szansa...</Dialogue>
+        <Fail>
+            <Dialogue>~r~Napastnik~s~: Chrzanić wasze oferty! I czemu tu dalej jest policja!</Dialogue>
+            <Dialogue>~r~Napastnik~s~: Dostaniecie czego chcieliście!</Dialogue>
+            <Dialogue>~r~Napastnik~s~: Po####ło cie! Dostaniecie czego chcieliście!</Dialogue>
+        </Fail>
+                <Dialogue>~r~Napastnik~s~: Nie powiem ci, ale wypuszcze zakładnika jak tylko nie zobaczę żadnego radiowozu za sobą.</Dialogue>
+                <Dialogue>~y~Ty~s~: Samochód niedługo powinien tu być...</Dialogue>
+        
+        
+    </SuspectTalk>
+
+    <SuspectDrives>
+        <Text>Napastnik jest w pojeździe, zachowaj dystans, aby cię nie zauważył!</Text>
+        <Text><![CDATA[~g~Napastnik powinien czuć się bezpiecznie,~s~ czas go otoczyć i ~r~zaaresztować!~s~]]></Text>
+        <Text>W pojeździe został zamontowany i aktywowany nadajnik.</Text>
+        <Text>FBI: Możesz ~y~wyłączyć~s~ silnik naciskając ~y~O~s~!</Text>
+        <Text><![CDATA[~y~Zatrzymaj napastnika~s~! Zablokuj jego pojazd i aresztuj go!]]></Text>
+        <Text>Samochód został wyłączony, zatrzymaj napastnika!</Text>
+    </SuspectDrives>
+
+    <HostageTalk>
+                <Dialogue>~g~Zakładnik~s~: Dziękuję, to był istny szaleniec! Nie mogę w to uwierzyć!</Dialogue>
+                <Dialogue>~y~Ty~s~: Spokojnie. Napastnik już ci nie zagrozi.</Dialogue>
+                <Dialogue>~y~Ty~s~: Wszystko w porządku? Potrzebujesz pomocy medycznej lub psychologa?</Dialogue>
+                <Dialogue>~g~Zakładnik~s~: Jest dobrze, chcę tylko już iść do domu.</Dialogue>
+                <Dialogue>~y~Ty~s~: Jak wyglądała sytuacja z porwaniem?</Dialogue>
+        <ExGirlfriend>
+            <Dialogue>~g~Zakładnik~s~: Mój były oszalał, gdy dwa tygodnie temu się z nim rozstałam.</Dialogue>
+            <Dialogue><![CDATA[~g~Zakładnik~s~: Nie mógł tego znieść i poszedł za mną.]]></Dialogue>
+        </ExGirlfriend>
+                <Dialogue>~g~Zakładnik~s~: Chciałem tylko iść na zakupy, wtedy pojawił się on i zaczął celować mi w głowę!</Dialogue>
+                <Dialogue>~g~Zakładnik~s~: Był zdesperowany, żeby dostać czego chce...</Dialogue>
+                <Dialogue><![CDATA[~y~Ty~s~: W porządku, jeśli to wszystko to możesz wracać bezpiecznie do domu!]]></Dialogue>
+                <Dialogue>~g~Zakładnik~s~: Jeszcze raz, dziękuję. Do widzenia!</Dialogue>
+    </HostageTalk>
+
+    <End>
+        <Text>~g~Kod 4.</Text>
+    </End>
+
+</HostageSituation>

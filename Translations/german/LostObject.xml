@@ -1,0 +1,73 @@
+<LostObject>
+
+<!-- Hallo Übersetzer, lass dich nicht vom CDATA verwirren! -->
+<!-- Schreibe einfach zwischen die Klammern [ ] -->
+<!-- zum Beispiel <![CDATA[ HIER KOMMT DER TEXT ]]> -->
+<!-- CDATA ist im Grunde da, um das '&'-Zeichen und '<>'-Zeichen im Spiel darzustellen -->
+
+    <General>
+        <Text>Verlorener Gegenstand</Text>
+        <Text>Anrufer hat einen Gegenstand verloren, Polizei erforderlich</Text>
+        <Text><![CDATA[Fahre zum ~g~Anrufer~s~ & finde heraus, was das Problem ist.]]></Text>
+    </General>
+
+    <DisplayHelp>
+        <Text>Sprich mit dem Anrufer, indem du </Text>
+        <Text>Suche nach dem ~o~Handy~s~. Drücke </Text> <!--Suche nach dem ~o~Handy~s~. Drücke __Key-Y__ um den Gegenstand aufzuheben.-->
+        <Text>Suche nach der ~o~Brieftasche~s~. Drücke </Text> <!--Suche nach der ~o~Brieftasche~s~. Drücke __Key-Y__ um den Gegenstand aufzuheben.-->
+        <Text>Suche nach dem ~o~Schuh~s~. Drücke </Text> <!--Suche nach dem ~o~Schuh~s~. Drücke __Key-Y__ um den Gegenstand aufzuheben.-->
+        <Text> um den Gegenstand aufzuheben.</Text>
+        <Text>Drücke </Text> <!--Drücke __Key-Y__ um dem Anrufer zuzurufen!-->
+        <Text> um dem Anrufer zuzurufen!</Text> <!--Drücke __Key-Y__ um dem Anrufer zuzurufen!-->
+        <Text>Hier ist ein ~r~Hinweis~s~ als Hilfe.</Text>
+        <Text>Drücke ~g~1 ~s~um anzunehmen oder ~r~2~s~ um abzulehnen.</Text>
+    </DisplayHelp>
+
+    <Pickup>
+        <Text>~r~Handy~s~ gefunden!</Text>
+        <Text>~r~Brieftasche~s~ gefunden!</Text>
+        <Text>~r~Schuh~s~ gefunden!</Text>
+    </Pickup>
+
+    <Conversation>
+        <Dialogue>~y~Du~s~: Hallo, sind Sie der Anrufer?</Dialogue>
+        <Dialogue>~b~Anrufer~s~: Warten Sie, ich komme!</Dialogue>
+        <Dialogue>~b~Anrufer~s~: Vielen Dank! Ich wünschte, ich hätte Augen wie Sie!</Dialogue>
+        <Dialogue>~y~Du~s~: Kein Problem, tschüss!</Dialogue>
+    </Conversation>
+
+    <OutcomeCellphone>
+        <Dialogue>~b~Anrufer~s~: Ja, ich habe angerufen. Ich kann mein Handy nicht finden.</Dialogue>
+        <Dialogue>~y~Du~s~: Ich verstehe. Ich werde Ihnen helfen, es zu finden.</Dialogue>
+        <Dialogue>~y~Du~s~: Wann haben Sie es zuletzt benutzt?</Dialogue>
+        <Dialogue><![CDATA[~b~Anrufer~s~: Ich bin hier entlanggelaufen & ich dachte, ich hätte es in meine Tasche gesteckt.]]></Dialogue>
+        <Dialogue>~y~Du~s~: Dann muss es irgendwo in der Nähe sein. Lass uns nachsehen.</Dialogue>
+        <Dialogue>~y~Du~s~: Heeey, ich habe dein Handy gefunden!</Dialogue>
+    </OutcomeCellphone>
+
+    <OutcomeWallet>
+        <Dialogue><![CDATA[~b~Anrufer~s~: Ja, ich war es. Ich habe meine Brieftasche verloren & ich kann sie nicht finden.]]></Dialogue>
+        <Dialogue>~y~Du~s~: Oh je. Ich bin sicher, wir werden sie finden.</Dialogue>
+        <Dialogue>~y~Du~s~: Erinnern Sie sich, wann Sie sie zuletzt hatten?</Dialogue>
+        <Dialogue>~b~Anrufer~s~: Ja, vor einer Minute. Sie muss hier irgendwo sein.</Dialogue>
+        <Dialogue>~y~Du~s~: Ok, lass uns nach deiner Brieftasche suchen.</Dialogue>
+        <Dialogue>~y~Du~s~: Heeey, ich habe deine Brieftasche gefunden!</Dialogue>
+    </OutcomeWallet>
+
+    <OutcomeShoe>
+        <Dialogue>~b~Anrufer~s~: Ja, ich brauche Ihre Hilfe. Ich habe ein riiiesiges Problem.</Dialogue>
+        <Dialogue>~b~Anrufer~s~: Ich habe meinen Schuh verloren... meinen armen Schuh, ich habe ihn soo sehr geliebt!</Dialogue>
+        <Dialogue>~y~Du~s~: Ahhh... Entschuldigung, das ist kein Grund, die Polizei zu rufen.</Dialogue>
+        <Dialogue>~b~Anrufer~s~: Aber es war ein 100€ Schuh! Es tut mir leid, aber können Sie mir bitte helfen, ihn zu suchen?</Dialogue>
+        <Dialogue>~y~Du~s~: Okay, ich helfe dir, deinen Schuh zu suchen. Lass uns die Gegend absuchen.</Dialogue>
+        <Dialogue>~y~Du~s~: Nein, wie ich sagte. Bitte rufen Sie die Polizei nur in Notfällen. Einen schönen Tag noch!</Dialogue>
+        <Dialogue>~y~Du~s~: Heeey, ich habe deinen Schuh gefunden!</Dialogue>
+        <Dialogue>~y~Du~s~: In Ordnung, aber rufen Sie nächstes Mal nur bei Notfällen an! Tschüss!</Dialogue>
+    </OutcomeShoe>
+
+    <End>
+        <Text>Wir sind ~g~Code 4~s~, ~b~der vermisste Gegenstand wurde ~g~gefunden~s~.</Text>
+        <Text>Code ~g~4~s~, Fall abgeschlossen.</Text>
+    </End>
+
+</LostObject>

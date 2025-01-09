@@ -1,0 +1,61 @@
+<NoiseComplaint>
+    <General>
+      <Text>Reclamo sul rumore</Text>
+        <Text>Resoconto di una  festa rumorosa in casa</Text>
+        <Text>I vicini hanno sporto denuncia per rumore. Assicurati che l'organizzatore dell'~o~evento~s~ abbassi il volume della musica.</Text>
+        <Text>Premi il {tasto} per regolare tu stesso il volume.</Text>
+    </General>
+
+    <Persons>
+    <Text>Tu</Text>
+        <Text>Proprietario</Text>
+        <Text>DJ</Text>
+    </Persons>
+
+    <Tasks>
+       <Text>Lascia il gruppo guidando verso il ~y~segnale giallo~s~.</Text>
+        <Text>Comportati come pensi che sia giusto qui, poi parla con il ~g~~h~DJ~h~~s~.</Text>
+        <Text>Un chiamante ha segnalato un reclamo per rumore allo stesso indirizzo di prima. Rispondi al codice 2.</Text>
+    </Tasks>
+
+    <OwnerCooperative>
+      <Dialogue>Salve agente, come posso aiutarla?</Dialogue>
+        <Dialogue>Abbiamo ricevuto una chiamata per la musica ad alto volume. Per favore abbassa il volume.</Dialogue>
+        <Dialogue>Se dovessi venire di nuovo qui, riceverai una multa per la musica ad alto volume.</Dialogue>
+        <Dialogue>Va bene, va bene, lo abbasseremo.</Dialogue>
+        <Dialogue>Grazie per la collaborazione, buona notte.</Dialogue>
+    </OwnerCooperative>
+
+    <OwnerUncooperative>
+       <Dialogue>Yoo, po-po, che cazzo ci fai qui?</Dialogue>
+        <Dialogue>Siamo stati mandati a questo indirizzo a causa della musica ad alto volume.</Dialogue>
+        <Dialogue>Cazzo, sembra un asilo nido? Stiamo festeggiando, cazzo!!</Dialogue>
+        <Dialogue>Signore, abbassi immediatamente la musica.</Dialogue>
+        <Dialogue>Non rompermi, dovrai arrestarmi o andartene, maiale.</Dialogue>
+    </OwnerUncooperative>
+
+    <OwnerSecond>
+        <Dialogue>Ciao di nuovo, abbiamo ricevuto un'altra chiamata perché la tua musica è troppo alta.</Dialogue>
+        <Dialogue>E da quanto ho sentito hai alzato di nuovo il volume invece di abbassarlo...</Dialogue>
+        <Dialogue>Oh comune agente, ci stiamo solo divertendo, abbiamo una grande festa in corso.</Dialogue>
+        <Dialogue>Va bene, finché la musica è a un volume accettabile.</Dialogue>
+        <Dialogue>Se dovessi tornare di nuovo, verrai arrestato!</Dialogue>
+        <Dialogue>Ti devo fare un verbale  dato che è la seconda volta che sono qui.</Dialogue>
+        <Dialogue>Passa una notte piacevole, ma più tranquilla.</Dialogue>
+    </OwnerSecond>
+
+    <DJ>
+        <Dialogue>Salve signore, lei è il DJ qui, vero?</Dialogue>
+        <Dialogue>Sì signore, mi dispiace per il ~o~proprietario~s~, mi chiamo ~g~DJ Moodyman~s~.</Dialogue>
+        <Dialogue>Oh, hai giocato sullo yacht qualche tempo fa, vero?</Dialogue>
+        <Dialogue>Sì, ricordo che eri lì. Comunque, cosa posso fare per te?</Dialogue>
+        <Dialogue>Per favore abbassa il volume, abbiamo dei vicini che si sentono infastiditi.</Dialogue>
+        <Dialogue>Oh sì, nessun problema, lo farò. Mi dispiace che il proprietario sia così poco collaborativo.</Dialogue>
+        <Dialogue>Vedrò cosa farò con lui. Buona giornata!</Dialogue>
+    </DJ>
+
+    <End>
+   <Text>~g~la chiamata è in codice 4.</Text>
+        <Text>Premi ~y~End~s~ in qualsiasi momento per terminare il callout.</Text>
+    </End>
+</NoiseComplaint>

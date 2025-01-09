@@ -1,0 +1,65 @@
+<SolveMurder>
+
+    <General>
+        <Text>~r~Detectiv~s~ v pripade vrazdy je vyzadovan!</Text>
+        <Text>~g~Dispatch~s~: Jedte na ~y~Mount Chiliad k cerpaci stanici~w~ u dalnice, vyzadujte ~r~detektiva~w~.</Text>
+    </General>
+
+    <Officer>
+        <Dialogue>Jdete na misto za ~b~dustojnikem~w~ a promluvte si s nim </Dialogue>
+        <Dialogue>~b~Dustojnik~s~: Dobry den, pane detektive! Jsem rad, ze jste tady!</Dialogue>
+        <Dialogue>~b~Dustojnik~s~: Mame tady mrtveho cloveka po me pravici a dva mozne podezrele.</Dialogue>
+        <Dialogue>~b~Dustojnik~s~: Jdete prosim na ~r~misto cinu~w~ napravo a ~r~vysetrujte~s~ co se tu mohlo stat, podivejte se, jestli neco tu nenajdete.</Dialogue>
+    </Officer>
+
+    <Evidence>
+        <Text>~y~Detectiv~s~: ~r~Cerstva prazdna lahev likeru~s~, zajimalo by me, jestli vubec patri obeti...</Text>
+        <Text>~y~Detectiv~s~: Rany do obeti se zdaji byt ~o~mnohonasobne bodne raneni~s~, do krku, bricha a zad.</Text>
+        <Text>~y~Detectiv~s~: Nejake ~g~chipsi~w~? Nekdo je tu ~g~nedevno~w~ ~g~snedl~w~ ty...</Text>
+        <Text>Vysetrovani ukonceno! Jdete k ~r~podezrelemu~w~ a promluvte si s nim </Text>
+    </Evidence>
+
+    <Suspect1>
+        <Dialogue>Promluvte si s ~o~podezrelym~w~ </Dialogue>
+        <Dialogue>~y~Detectiv~s~: Dobry den, v tomto pripade jsem detektiv, a mam na vas par otazek.</Dialogue>
+        <Dialogue>~o~Ayla May~s~: Jsem tak ~r~nervozni~w~. Nemam s tim nic spolecneho.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Nebojte, jste v poradku nikdo nerekl ze jste neco udelala. Mohu se vas zeptat jaky druh alkoholu pijete?</Dialogue>
+        <Dialogue>~o~Ayla May~s~: Piju alkohol tak dobry jako ~g~nikdy~w~... a kdyz ano, mozna sklenku cerveneho vina.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Jite nekdy ~r~chipsi~w~?</Dialogue>
+        <Dialogue>~o~Ayla May~s~: ~g~Ne~w~, ziju zdravym zivotnim stylem, taky hodne sportuji.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: To by bylo vse, dekuji za vas cas.</Dialogue>
+    </Suspect1>
+
+    <Suspect2>
+        <Dialogue>Promluvte si s ~o~podezrelym~w~ </Dialogue>
+        <Dialogue>~y~Detectiv~s~: Ahoj, ja jsem v tomto pripade pro vas ~r~detektiv~s~, a mohu se vas zeptat na par otazek?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: Dobry den! jaaaaaaaaaaj, nebud stydlivyyyyyyyyy *smich*</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Vypadate ze jste ~r~opily~w~, kolik jste toho musel vypit?!</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: Nic jsem nemeeeel, ani troskuuuuuu...</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Berte to prosim vazne. Kde pracujete?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: Jooo pracuji jakoo ~o~lovec~w~, kouseeek odtud maaaam les.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Dobre, jite ~r~chipsi~w~ tak casto jako ja?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: Jaaaasssneee, ~r~MILUJU chipsy~w~, Vzdyyyckyyyy jeeee snim, ~y~ Praveeee jsem sneeeedl baliceeeek...</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Dobrá s vyslechem jsem ted skoncil, dam vam vedet, jak budeme pokracovat.</Dialogue>
+    </Suspect2>
+
+    <Officer2>
+        <Dialogue>Promluvte si znovu s ~b~dustojnikem~w~ </Dialogue>
+        <Dialogue>~b~Dustojnik~w~: A mohl byste na zaklade dukazu a mluveni zjistit, kdo je ~r~vrah~w~?</Dialogue>
+        <Dialogue>~y~Detectiv~s~: Ano, myslim, ze vrah je... ~o~[1] Ayla May  ~r~[2] Jameson Fisher</Dialogue>
+        <Dialogue>Zmacknete ~o~'1' ~w~nebo ~r~'2' ~w~a vyberte ~r~vraha.</Dialogue>
+        <Dialogue>~y~Detectiv~s~: ...~o~Ayla May~w~!</Dialogue>
+        <Dialogue>~y~Detectiv~s~: ...~r~Jameson Fisher~w~!</Dialogue>
+        <Dialogue>~b~Dustojnik~w~: Dobre, pokracujte a zatknete podezreleho!</Dialogue>
+    </Officer2>
+
+    <Arrest>
+        <Text>Ach ne, bohuzel jste zatkl ~r~nevinnou~w~ osobu! callout je pod ~o~Kodem 4~w~</Text>
+        <Text>Vysetrovani je pod ~g~Kodem 4~w~, pripad je ~g~vyresen~w~, ~g~pravy podezrely je zadrzen!</Text>
+        <Text>Zavolejte ~b~Koronera~w~, aby jste vyzvedl ~y~obet~w~ z mista cinu a pote ~r~podezreleho~w~ dopravte ~o~do~vezeni~w~.</Text>
+        <Text>~g~Ayla May ~r~zemrela.~s~ Jsi si jisty, ze to bylo nutne? vsetcko pod ~g~Kodem 4~s~</Text>
+        <Text>~b~Jameson Fisher ~r~zemrel,~s~ Doufam, ze mate dobreho pravnika!? vsetcko pod ~g~Kodem 4~s~</Text>
+        <Text>~b~Dustojnik~s~ ~r~zemrel~s~, coz neni dobry konec!? vsetcko pod ~g~Kodem 4~s~</Text>
+    </Arrest>
+
+</SolveMurder>

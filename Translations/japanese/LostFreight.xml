@@ -1,0 +1,68 @@
+<LostFreight>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+
+    <General>
+        <Text>貨物の紛失</Text>
+        <Text>通報者は高速道路で貨物を落としたと報告しました。</Text>
+        <Text>通報者のところへ向かい、情報を入手してください。</Text>
+    </General>
+
+
+    <DisplayHelp>
+        <Text>次のキーを押して通報者と話す: </Text>
+        <Text>~y~範囲内~s~を捜索して、障害物を撤去してください。</Text>
+        <Text>次のキーを押して~b~警官~s~と話す: </Text>
+        <Text>これ以上の会話はありません。</Text>
+        <Text>簡単な~g~ヘルプ~s~: </Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+        <Text>近くに~r~障害物~s~はありません。</Text>
+        <Text>~r~障害物~s~は撤去されました!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>~y~あなた~s~: こんにちは、貨物の紛失を通報したのはあなたですか?</Dialogue>
+        <Dialogue>~b~通報者~s~: はい、ええ、トレーラーのドアが思い切り開いて、中のものが高速道路に落ちてしまいました。</Dialogue>
+        <Dialogue>~y~あなた~s~: それは危険ですね。何を運んでいたのですか?</Dialogue>
+        <Dialogue>~b~通報者~s~: ~b~テニス用品~s~です。クラブハウスを片付けていたので...</Dialogue>
+        <Dialogue>~b~通報者~s~: 大量の~b~オフィス用品~s~です。書類棚、スクリーン、椅子、スピーカー...</Dialogue>
+        <Dialogue>~b~通報者~s~: たいくさんの~b~台所用品~s~です。ポット、包丁、お皿、とか。会社の引っ越しをしていたんです。</Dialogue>
+        <Dialogue>~y~あなた~s~: なるほど、どちらの方向へ向かっていたのですか?</Dialogue>
+        <Dialogue>~b~通報者~s~: こちらの~y~一方向~s~のみに行く予定だったので、そちらを探してみてください。</Dialogue>
+        <Dialogue>~y~あなた~s~: 本部、落下物の情報あり、交通規制の実施を。</Dialogue>
+        <Dialogue>了解、その付近の高速道路の交通規制を実施する。</Dialogue>
+    </Conversation>
+
+
+    <Officer1>
+        <Dialogue>~b~警官~s~: どうも! 良い一日になることを願っています!</Dialogue>
+        <Dialogue>~b~警官~s~: 道路上の障害物がなくなるまで交通規制を続行します!</Dialogue>
+        <Dialogue>~b~警官~s~: お気をつけて!</Dialogue>
+    </Officer1>
+
+
+    <Officer2>
+        <Dialogue>~b~警官~s~: こんにちは、どれくらいかかりそうですか?</Dialogue>
+        <Dialogue>~b~警官~s~: 他にもしなければいけないことがたくさんある、たくさん!</Dialogue>
+        <Dialogue>~b~警官~s~: これ以上喋ることが無いのなら、行ってもいいですか。</Dialogue>
+    </Officer2>
+
+
+    <End>
+        <Text>~g~事案解決~s~です。</Text>
+        <Text>発見した落下物の個数: </Text> <!--There are 4 items to find, on this message you get to see how many you've found.-->
+        <Text>/~g~4</Text> <!--This means X items from 4 items were found -> X/4 items found-->
+        <Text>~r~ありがとうございました。~g~交通規制は解除されました!</Text>
+    </End>
+
+
+
+</LostFreight>

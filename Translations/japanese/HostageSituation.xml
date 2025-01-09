@@ -1,0 +1,135 @@
+<HostageSituation>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+<!-- 
+<![CDATA[
+-->
+<!--
+]]>
+-->
+
+
+    <General>
+        <Text>人質事件</Text>
+        <Text>人質に重厚を突き付けている人が居ます。</Text>
+        <Text>現場に緊急走行ですぐに向かってください!</Text>
+        <Text><![CDATA[黄色のマーカーに車を停車させ、被疑者から身を守ってください。]]></Text>
+        <Text>~g~人質~s~と話せ。</Text>
+        <Text>分かった分かった。降参します!</Text>
+        <Text>駐車して、車の後ろに隠れてください。</Text>
+    </General>
+
+    <PedStatus>
+        <Text>~r~被疑者~s~を逮捕!</Text>
+        <Text>~g~人質~s~を~y~逮捕!?</Text>
+        <Text>~o~被疑者~s~が~r~死亡~s~した。</Text>
+        <Text>~g~人質~s~が~r~死亡~s~した。</Text>
+    </PedStatus>
+
+    <DisplayHelp>
+        <Text>~b~事件の処理~s~を終えた後に</Text>                                                          <!-- Press _Key_Y__ to end ... -->
+        <Text>を押してコールアウトを終了します。</Text>  <!-- Press _Key_Y__ to end ... -->
+        <Text>次のキーを押して被疑者と話す: </Text>                                      <!-- Talk to the suspect using _Key_Y_ -->
+    </DisplayHelp>
+
+    <DistanceToSuspect> <!-- If you're too close to the suspect with the hostage, you first get a warning, if you still in the area after a few seconds, he shoots -->
+        <Dialogue>~o~イライラさせると撃つぞ!</Dialogue>
+        <Dialogue>~g~ちょうど間に合ったようだな!</Dialogue>
+        <Dialogue>~r~銃弾の雨をくらえ!</Dialogue>
+    </DistanceToSuspect>
+
+    <DistanceWarner> <!-- If you're too close to the suspects vehicle with the hostage, you first get a warning, if you still in the area after a few seconds, he shoots -->
+        <Dialogue>~o~怒りを買わないように距離を取ってください!~s~</Dialogue>
+        <Dialogue>~g~良い仕事ぶりです。安全のため距離を取ってください。~s~</Dialogue>
+        <Dialogue>~r~近すぎます! 離れてください!~s~</Dialogue>
+    </DistanceWarner>
+
+    <Menu>
+        <MenuName>選択:</MenuName>
+
+        <Menu1>
+                <Conversation>じっとしてて</Conversation>
+                <Conversation>~y~あなた~s~: 心配しないでください。私はここに居ます。</Conversation>
+                <Conversation>プレッシャーをかける</Conversation>
+                <Conversation>~y~あなた~s~: 頭を吹き飛ばしてやる、この野郎!</Conversation>
+        </Menu1>
+
+        <Menu2>
+                <Conversation>現金300万円を用意</Conversation> <!-- Feel free to change currency (€) to your country. -->
+                <Conversation>~y~あなた~s~: 300万円を現金で用意しよう。それでどうですか?</Conversation> <!-- Feel free to change currency (€) to your country. -->
+                <Conversation>逮捕後の待遇改善</Conversation>
+                <Conversation>~y~あなた~s~: テレビ付きの大きな独房を用意することもできますが、どうですか?</Conversation>
+                <Conversation><![CDATA[心理学者への診断を推奨]]></Conversation>
+                <Conversation>~y~あなた~s~: 分かった。私の友人に素晴らしい心理学者がいる。彼女ならきっとあなたを社会復帰へ導いてくれるだろう。それでどうですか?</Conversation>
+        </Menu2>
+
+        <Menu3>
+                <Conversation>燃料に限りがある逃走用の車</Conversation>
+                <Conversation>~y~あなた~s~: 燃料に限りがあるが、逃走用の車を用意しよう。だが、どこへ行くつもりだ?</Conversation>
+                <Conversation>ピザを提案</Conversation>
+                <Conversation>~y~あなた~s~: 代わりにピザはどうだい?</Conversation>
+        </Menu3>
+    </Menu>
+
+    <SuspectTalk>
+                <Dialogue>~r~被疑者~s~: ふざけるな! 一体何がしたいんだ! 近づくな!</Dialogue>
+                <Dialogue>~r~被疑者~s~: 勝手にそう思っておけ! 全員ここから離れろ! 警察なんか見たくない!</Dialogue>
+                <Dialogue>~r~被疑者~s~: お前は俺に何もできやしない! 警察とはもう会いたくないが、さもなければ銃弾の雨だぞ!</Dialogue>
+                <Dialogue>~y~あなた~s~: 分かりましたが、周りは建物で囲まれています。</Dialogue>
+                <Dialogue>~y~あなた~s~: 全員のためにも、平和に終わらせたい。</Dialogue>
+                <Dialogue>~y~あなた~s~: なぜ強盗をしたのですか?</Dialogue>
+        <Reasons>
+            <Dialogue>~r~被疑者~s~: ~b~金~s~が必要なんだ。~r~破産~s~して、家賃すら払えない!</Dialogue>
+            <Dialogue>~r~被疑者~s~: こいつのせいだ! ~b~こいつは俺を見捨てた!~s~ そして人質になった!</Dialogue>
+            <Dialogue>~r~被疑者~s~: ~b~ボス~s~は~b~刑務所~s~の中だ。ボスが開放されるまでこいつは離さない!</Dialogue>
+        </Reasons>
+                <Dialogue>~y~あなた~s~: よく聞いて下さい。次の取引です。:</Dialogue>
+                <Dialogue>~r~被疑者~s~: 取引は受けよう、だが見返りは何だ?</Dialogue>
+                <Dialogue>~y~あなた~s~: もう一度言いますが、全員が安全に、平和に事件の終わりを迎えることです。人質を引き渡してください!</Dialogue>
+                <Dialogue>~r~被疑者~s~: 逃走用の車を用意しろ! 人質はその後だ!</Dialogue>
+                <Dialogue>~r~被疑者~s~: それは道理にかなってないな。最後のチャンスだ...</Dialogue>
+        <Fail>
+            <Dialogue>~r~被疑者~s~: くたばれ! いつまで警察はここに居るつもりだ!</Dialogue>
+            <Dialogue>~r~被疑者~s~: それがお前らの答えか! 良いぜ、見せてやる!</Dialogue>
+            <Dialogue>~r~被疑者~s~: 狂ってやがる! 良いぜ、見せてやる!</Dialogue>
+        </Fail>
+                <Dialogue>~r~被疑者~s~: そういった覚えはないが、警察が居なくなったら人質は開放しよう。</Dialogue>
+                <Dialogue>~y~あなた~s~: 車がそろそろ到着するはずです...</Dialogue>
+        
+        
+    </SuspectTalk>
+
+    <SuspectDrives>
+        <Text>被疑者に見つからないように、被疑者の車を追跡してください。</Text>
+        <Text><![CDATA[~g~被疑者は安心しています。~s~ ~r~逮捕のチャンスです!~s~]]></Text>
+        <Text>車両内のGPSが有効になりました。</Text>
+        <Text>報告によると、~y~O~s~を押すと、~y~車両のエンジンを切る~s~ことができるようです!</Text>
+        <Text><![CDATA[~y~被疑者を拘束~s~してください! 車両を止めて、逮捕してください!]]></Text>
+        <Text>車両が停止しました。被疑者を逮捕してください!</Text>
+    </SuspectDrives>
+
+    <HostageTalk>
+                <Dialogue>~g~人質~s~: 本当にありがとう。彼はとても狂っていて怖かった...</Dialogue>
+                <Dialogue>~y~あなた~s~: 落ち着いてください。もう何も問題はありません。</Dialogue>
+                <Dialogue>~y~あなた~s~: 本当に大丈夫ですか? 病院への受診や、心理学者の診断が必要ではありませんか?</Dialogue>
+                <Dialogue>~g~人質~s~: 大丈夫です。今は家に帰りたいですね。</Dialogue>
+                <Dialogue>~y~あなた~s~: なぜこのような事態が発生したのですか?</Dialogue>
+        <ExGirlfriend>
+            <Dialogue>~g~人質~s~: 2週間前に破産してから、元カレが狂ってしまったの。</Dialogue>
+            <Dialogue><![CDATA[~g~人質~s~: 彼はそれに耐えられず、私を追いかけてきたんです。]]></Dialogue>
+        </ExGirlfriend>
+                <Dialogue>~g~人質~s~: ただ買い物に行くつもりだったのですが、急にその人が出てきて銃口を突きつけられました。</Dialogue>
+                <Dialogue>~g~人質~s~: この人は自身の要求をどんな手段を用いてでも遂行しようと決意していました。</Dialogue>
+                <Dialogue><![CDATA[~y~あなた~s~: わかりました。他に心配事が無ければ、気をつけてお帰りください。]]></Dialogue>
+                <Dialogue>~g~人質~s~: 改めてありがとうございます。それでは!</Dialogue>
+    </HostageTalk>
+
+    <End>
+        <Text>~g~事案終了</Text>
+    </End>
+
+</HostageSituation>

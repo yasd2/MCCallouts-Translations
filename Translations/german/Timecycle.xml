@@ -1,0 +1,9 @@
+<Timecycle>
+    <General>
+        <Text>Möchten Sie um ~b~21 Uhr~w~ für ein besseres Spielerlebnis spielen?</Text>
+        <Text>Drücken Sie '~g~Y~w~' für ~g~ja~w~, '~r~N~w~' für ~r~nein~w~.</Text>
+        <Text>Drücken Sie {0} für ~g~Ja~w~,  {1} für ~r~Nein~w~.</Text>
+        <Text>Die Zeit bleibt unverändert, viel Spaß!</Text>
+        <Text>Die Zeit wurde auf ~b~Nacht~w~ eingestellt.</Text>
+    </General>
+</Timecycle>

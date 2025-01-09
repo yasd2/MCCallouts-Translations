@@ -1,0 +1,24 @@
+<WantedSuspectLocated>
+
+    <General>
+        <Text>Möglicher Aufenthaltsort eines gesuchten Verdächtigen</Text>
+        <Text>Überprüfen Sie die 2 möglichen Standorte</Text>
+        <Text>Verdächtiger in Gewahrsam, ~g~Code 4~w~</Text>
+    </General>
+
+    <Scenes>
+        <Text>Durchsuchen Sie das erste ~g~Gebiet~s~ nach dem ~r~Verdächtigen~w~.</Text>
+        <Text>Suchen Sie den ~r~Verdächtigen~w~ im ~g~Gebiet~w~.</Text>
+        <Text>Kein Verdächtiger gefunden, begeben Sie sich zum ~g~zweiten Ort~w~.</Text>
+        <Text>Suchen Sie nun den ~r~Verdächtigen~w~ im zweiten ~g~Bereich~w~. Er ~r~muss~w~ dort sein!</Text>
+        <Text>Beschreibung ~r~Verdächtiger~s~:{0}~y~Asiate, männlich~s~, dünn,{0}schwarze Haare, 30{0}trägt blaues T-Shirt</Text>
+
+    </Scenes>
+    
+    <Outcomes>
+        <Dialogue>~r~Verdächtiger~w~: Oh mein Gott, Polizei! Nicht schießen! Ich ergebe mich!</Dialogue>
+        <Dialogue>~r~Verdächtiger~w~: Oh Schei*e, die Bullen! F***t euch, ich ~o~baller~w~ euch den ~o~Kopf~w~ weg, blöde Schweine!</Dialogue>
+        <Dialogue>~y~Sie~w~: Zentrale, Verdächtiger gefunden, er ~o~flieht~w~!</Dialogue>
+    </Outcomes>
+
+</WantedSuspectLocated>

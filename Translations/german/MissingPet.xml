@@ -1,0 +1,118 @@
+<MissingPet>
+
+    <General>
+        <Text>Vermisstes Haustier</Text>
+        <Text>Der Anrufer ist besorgt um das Haustier</Text>
+        <Text>Fahren Sie zum ~b~~h~Anrufer~h~~s~, um mehr über das vermisste Haustier zu erfahren.</Text>
+    </General>
+
+    <Persons>
+        <Dialogue>Anrufer</Dialogue>
+        <Dialogue>Fahrer</Dialogue>
+        <Dialogue>Sie</Dialogue>
+        <Dialogue>Opfer</Dialogue>
+    </Persons>
+
+    <Tasks>
+        <Text>Drücken Sie {Key}, um mit der Person zu sprechen.</Text>
+        <Text>Ein Bericht über eine Person, die von einem Tier angegriffen wird, ist eingegangen!</Text>
+        <Text>Versuchen Sie, das Tier mit dem ~y~Taser~s~ zu ~o~stoppen~s~!</Text>
+        <Text>Das ~r~Tier~s~ hat ~g~den Angriff beendet~s~!</Text>
+        <Text>Rufen Sie die ~g~Tierkontrolle~s~ für das Tier.</Text>
+        <Text>Rufen Sie einen ~r~Krankenwagen~s~ für das Opfer.</Text>
+        <Text>Sprechen Sie mit dem Opfer.</Text>
+        <Text>Fahren Sie zum Anrufer und geben Sie ihm/ihr ein Update.</Text>
+        <Text>Drücken Sie ~y~J~s~, um das Tier in Ihr Fahrzeug zu ~r~teleportieren~s~!</Text>
+        <Text>~r~Steigen Sie zuerst in ein Fahrzeug,~s~ und versuchen Sie es erneut.</Text>
+    </Tasks>
+
+    <TasksAccident>
+        <Text>Eine Person hat ein {PetTypeAsNormalWord} gefunden und gemeldet.</Text>
+        <Text>Fahren Sie zum Fundort des Tieres.</Text>
+        <Text>Rufen Sie einen ~b~~h~Leichenbeschauer~h~~s~ für das Tier und fahren Sie dann erneut zum ~b~~h~Anrufer~h~~s~.</Text>
+    </TasksAccident>
+
+    <Animals>
+        <Text>Aggressiver Hund</Text>
+        <Text>Puma</Text>
+        <Text>Hund</Text>
+        <Text>Katze</Text>
+        <Text>Kojote</Text>
+        <Text>Reh</Text>
+        <Text>Kaninchen</Text>
+        <Text>Huhn</Text>
+        <Text>Wildschwein</Text>
+        <Text>Affe</Text>
+        <Text>Rhesusaffe</Text>
+    </Animals>
+
+    <CallerGeneral>
+        <Dialogue>Hallo! Ich kann mein Haustier nicht finden!</Dialogue>
+        <Dialogue>Es ist seit {min} Minuten verschwunden, aber es muss in der Nähe sein!</Dialogue>
+        <Dialogue>Oh, Entschuldigung, es ist ein {PetTypeAsNormalWord}, und sein Name ist {PetName}.</Dialogue>
+        <Dialogue>Es ist einfach weggelaufen! Bitte finden Sie es!</Dialogue>
+    </CallerGeneral>
+
+    <DriverAccident1>
+        <Dialogue>Hallo Officer! Sehen Sie, was passiert ist!</Dialogue>
+        <Dialogue>Das Tier ist direkt vor mein Auto gelaufen! Ich hatte keine Chance, auszuweichen!</Dialogue>
+        <Dialogue>Mein Auto ist auch beschädigt! Können Sie mir ein Taxi und einen Abschleppwagen rufen?</Dialogue>
+    </DriverAccident1>
+
+    <DriverAccident2>
+        <Dialogue>Hallo Officer, es tut mir so leid, ich war einfach nur am Fahren, als dieses Tier über die Straße lief.</Dialogue>
+        <Dialogue>Ich konnte nicht rechtzeitig reagieren. Verdammt.</Dialogue>
+        <Dialogue>Solange es Ihnen gut geht, ist alles in Ordnung. Ihr Fahrzeug ist auch in Ordnung.</Dialogue>
+        <Dialogue>Danke für den Bericht, ich werde den Besitzer benachrichtigen. Fahren Sie vorsichtig.</Dialogue>
+    </DriverAccident2>
+
+    <CallerReturnAccident1>
+        <Dialogue>Hallo, ich habe schlechte Nachrichten.</Dialogue>
+        <Dialogue>Oh nein, was ist passiert?</Dialogue>
+        <Dialogue>Das Tier wurde von einem Auto angefahren und hat nicht überlebt.</Dialogue>
+        <Dialogue>Oh, das ist traurig, aber das Tier war nicht meins; es gehörte meinen Nachbarn.</Dialogue>
+        <Dialogue>Meine Nachbarn werden mich für immer hassen, oh nein...</Dialogue>
+        <Dialogue>Trotzdem, danke, dass Sie mir Bescheid gesagt haben!</Dialogue>
+        <Dialogue>Oh nein, haben Sie trotzdem einen schönen Tag!</Dialogue>
+    </CallerReturnAccident1>
+
+    <CallerReturnAccident2>
+        <Dialogue>Hallo...</Dialogue>
+        <Dialogue>Und... haben Sie das Tier gefunden?</Dialogue>
+        <Dialogue>Es tut mir leid, aber Ihr Haustier wurde bei einem Unfall überfahren. Jemand hat das gerade gemeldet.</Dialogue>
+        <Dialogue>Oh verdammt... Es war nicht mein Haustier, meine Nachbarn sind im Urlaub und ich habe darauf aufgepasst...</Dialogue>
+        <Dialogue>Kann ich sonst noch etwas für Sie tun?</Dialogue>
+        <Dialogue>Nein, danke... verdammt... wie soll ich das erklären...</Dialogue>
+    </CallerReturnAccident2>
+
+    <DriverAttackSafed1>
+        <Dialogue>Oh mein Gott, danke, dass Sie mich gerettet haben!</Dialogue>
+        <Dialogue>Ich war einfach nur unterwegs, als plötzlich dieses Tier direkt auf mich zukam!</Dialogue>
+        <Dialogue>Kein Problem, ich bin froh, dass es Ihnen gut geht.</Dialogue>
+        <Dialogue>Danke, Ihnen einen schönen Tag!</Dialogue>
+    </DriverAttackSafed1>
+
+    <CallerAttackReturnPetAlive2>
+        <Dialogue>Hallo, ich habe Ihr Haustier zurückgebracht!</Dialogue>
+        <Dialogue>Super, danke! Wo warst du, {PetName}?</Dialogue>
+        <Dialogue>Ich muss Ihnen mitteilen, dass Ihr Haustier einen unschuldigen Zivilisten angegriffen hat!</Dialogue>
+        <Dialogue>Oh, das tut mir so leid, ich hoffe, er ist nicht schwer verletzt.</Dialogue>
+        <Dialogue>Ich benötige Ihre Personalien, wie z.B. einen Ausweis, und werde einen Bericht verfassen.</Dialogue>
+        <Dialogue>Sobald das erledigt ist, können Sie gehen.</Dialogue>
+    </CallerAttackReturnPetAlive2>
+
+    <CallerAttackReturnPetDead2>
+        <Dialogue>Hallo, ich habe schlechte Nachrichten für Sie. Leider hat Ihr Haustier einen Zivilisten angegriffen.</Dialogue>
+        <Dialogue>Ich war gezwungen, tödliche Gewalt anzuwenden, das Tier ist verstorben.</Dialogue>
+        <Dialogue>Oh, okay, es tut mir so leid, ich hoffe, der Mensch ist nicht verletzt?</Dialogue>
+        <Dialogue>Der Person gehts gut.</Dialogue>
+        <Dialogue>In Zukunft werde ich besser auf meine Haustiere aufpassen.</Dialogue>
+        <Dialogue>Das Wichtigste ist, dass alle sicher sind. Einen schönen Tag noch.</Dialogue>
+    </CallerAttackReturnPetDead2>
+
+    <End>
+        <Text>Drücken Sie ~y~End~s~ jederzeit, um den Einsatz zu beenden.</Text>
+        <Text>~g~Einsatz ist Code 4.</Text>
+    </End>
+
+</MissingPet>

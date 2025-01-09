@@ -1,0 +1,9 @@
+<General>
+    <UpdateChecker>
+        <Text>Laatste versie van MCCallouts c:</Text>
+        <Text>Betaversie van MCCalloutsc: </Text>
+        <Text>~r~Oudere versie gedetecteerd,w~~n~update wanneer mogelijk!</Text>
+        <Text>~y~MCCallouts geladen~w~ maar we ~r~konen niet checken~w~ voor updates.</Text>
+        <Text>~y~MCCallouts ~g~geladen!~w~!~n~Fijne dienst!</Text>
+    </UpdateChecker>
+</General>

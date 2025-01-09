@@ -1,0 +1,23 @@
+<WantedSuspectLocated>
+
+    <General>
+		<Text>Mozna poloha hledaneho podezreleho</Text>
+        <Text>Podivejte se na dve mozne mista</Text>
+        <Text>Podezrely ve zadzen, pod ~g~kodem 4~w~</Text>
+    </General>
+
+    <Scenes>
+		<Text>Vyhledejte v prvni oblasti ~r~podezreleho~w~.</Text>
+        <Text>Vyhledejte ~r~podezreleho~w~ v ~g~oblasti~w~.</Text>
+        <Text>Zadny podezrely nebyl nalezen, presunte se na ~g~druhe misto~w~.</Text>
+        <Text>Nyni vyhledejte po ~r~podezrelym~w~ ve druhe ~g~oblasti~w~. ~r~musi~w~ byt!</Text>
+        <Text>~r~Podezreleho~s~ popis je:{0}~y~asijsky muz~s~, je hubeny,{0}ma cerne vlasy, 30{0}a na sobe ma ~b~modre tricko~s~</Text>
+    </Scenes>
+    
+    <Outcomes>
+        <Dialogue>~r~Podezrely~w~: Proboha, policie! Nestrilejte! Vzdavam se!</Dialogue>
+        <Dialogue>~r~Podezrely~w~: Do prdele, policajti! Fu**, ja vam ~o~rozstrilim~w~ ~o~hlavy~w~, pitoma prasata!</Dialogue>
+        <Dialogue>~y~Dustojnik~w~: Dispatch, podezrely je nalezen, bude v ~o~pronasledovani~w~!</Dialogue>
+    </Outcomes>
+
+</WantedSuspectLocated>

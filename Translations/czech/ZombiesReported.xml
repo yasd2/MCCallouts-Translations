@@ -1,0 +1,36 @@
+<ZombiesReported>
+
+    <General>
+        <Text>Civilista hlásil, ze videl zombie.</Text>
+        <Text>Jedte k dotycnému civilistovi, ~r~pod kodem 3~s~.</Text>
+    </General>
+
+        <Persons>
+        <Text>Ty</Text>
+        <Text>Civilista</Text>   
+    </Persons>
+
+    <Civilian>
+        <Dialogue>Ahoj, jsi v porádku?</Dialogue>
+        <Dialogue>Nebudes mi verit... Videl jsem zombie!!!</Dialogue>
+        <Dialogue>Okay, vsechno bude v porádku...</Dialogue>
+        <Dialogue>Tady jsou, aaaaaah!...</Dialogue>
+    </Civilian>
+
+    <Civilian2>
+        <Dialogue>Ahoj, co se deje?</Dialogue>
+        <Dialogue>Myslím, ze jsem se zbláznil... Videl jsem, jak se tu potulují zombie...</Dialogue>
+        <Dialogue>Ksakra, jsi si jistý? </Dialogue>
+        <Dialogue>Omg, tamhle jsou... utíkej!!!</Dialogue>
+    </Civilian2>
+
+    <Wave>
+        <Text>Vlna {WaveNumber} zacíná!</Text>
+        <Text>~g~Vlna {WaveNumber} Ukoncena</Text>
+        <Text>~o~Vlna {WaveNumber} zacíná za {time}s~s~</Text>
+        <Text>Gratulujeme, 10 vln zvládnuto.</Text>
+        <Text>Stisknutím tlacítka ~y~End~s~ kdykoli ukoncíte callout.</Text>
+        <Text>Vlna {WaveNumber}</Text>
+    </Wave>
+
+</ZombiesReported>

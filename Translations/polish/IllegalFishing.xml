@@ -1,0 +1,67 @@
+<IllegalFishing>
+
+    <General>
+        <Text>Zgłoszenie o potencjalnym, nielegalnym połowie</Text>
+    </General>
+
+    <Setup>
+        <Dialogue>Naciśnij {0}, aby rozmawiać</Dialogue>
+        <Dialogue>~y~Ty~s~: Cześć, jestem z lokalnego departamentu policji.</Dialogue>
+        <Dialogue>~y~Ty~s~: Otrzymnaliśmy zgłoszenie o nielegalnym połowie.</Dialogue>
+        <Dialogue>~b~Podejrzany~s~: Oh, jestem tu tylko ja, nic nielegalnego, tak sobie tylko łowię...</Dialogue>
+        <Dialogue>~y~Ty~s~: Udało się coś złapać?</Dialogue>
+        <Dialogue>~b~Podejrzany~s~: Tak, póki co kilka sztuk.</Dialogue>
+        <Dialogue>~y~Ty~s~: W porządku, mogę cię prosić o okazanie karty wędkarskiej?</Dialogue>
+        <Dialogue>Naciśnij {0}, aby otworzyć menu interakcji, użyj STP do sprawdzenia danych.</Dialogue>
+        <Dialogue>Naciśnij {0} i {1}, aby otworzyć menu interakcji, użyj STP do sprawdzenia danych.</Dialogue>
+        <Dialogue>Naciśnij {0}, aby otworzyć menu interakcji.</Dialogue>
+        <Dialogue>Naciśnij {0} i {1}, aby otworzyć menu interakcji.</Dialogue>
+    </Setup>
+    
+    <ConversationAfterCheckingLicense>
+        <Dialogue>~y~Ty~s~: Dziękuję, sprawdzę twoje dane.</Dialogue>
+        <Dialogue>~y~Ty~s~: W porządku, karta wędkarska jest ważna.</Dialogue>
+        <Dialogue>~y~Ty~s~: Twoja karta wędkarska jest zawieszona, nie wolno ci łowić!</Dialogue>
+        <Dialogue>~y~Ty~s~: Twoja kartoteka również jest w porządku, nic nadzwyczajnego.</Dialogue>
+        <Dialogue>~y~Ty~s~: Żadnych poszukiwań.</Dialogue>
+        <Dialogue>~y~Ty~s~: Według mojej bazy danych jesteś poszukiwany. Pójdziesz ze mną.</Dialogue>
+        <Dialogue>~y~Ty~s~: Nic nie wspominałeś, że jesteś poszukiwany. Ręcę do góry, jesteś aresztowany!</Dialogue>
+        <Dialogue>Aresztuj podejrzanego.</Dialogue>
+        <Dialogue>Uwolnij podejrzanego i wróć na patrol po zakończeniu sprawy.</Dialogue>
+        <Dialogue>~y~Ty~s~: Dostajesz mandat za nielegalny połów.</Dialogue>
+        <Dialogue>~y~Ty~s~: Odejdź stąd i nie wracaj, w przeciwnym razie zostaniesz aresztowany, chyba lepiej by było tego uniknąć.</Dialogue>
+        <Dialogue>Wypuść podejrzanego po wypisaniu mandatu.</Dialogue>
+        <Dialogue>Naciśnij {0}, aby ponownie porozmawiać</Dialogue>
+    </ConversationAfterCheckingLicense>
+
+    <ConversationAfterPursuitArrest>
+        <Dialogue>~y~Ty~s~: To było głupie... uciekać za taką błahostkę...</Dialogue>
+        <Dialogue>~b~Podejrzany~s~: I tak już za późno...</Dialogue>
+    </ConversationAfterPursuitArrest>
+
+    <ConversationAndSearch>
+        <Dialogue>~y~Ty~s~: Masz przy sobie coś, co mogłoby mnie zranić lub skrzywdzić?</Dialogue>
+        <Dialogue>~b~Podejrzany~s~: Nie...</Dialogue>
+        <Dialogue>Przeszukaj podejrzanego, wypełnij dokumentację i zabierz go do więzienia.</Dialogue>
+    </ConversationAndSearch>
+
+    <End>
+        <Text>Podejrzany nie żyje.</Text>
+        <Text>Naciśnij {0} w dowolnym momencie, aby zakończyć wezwanie.</Text>
+        <Text>~r~GTA-Error: Ped został unieważniony.~s~</Text>
+        <Text>~g~Kod 4.~s~</Text>
+    </End>
+
+    <Menu>
+        <Text>Menu interakcji</Text>
+        <Text>Opcje:</Text>
+        <Text>Pokaż kartę wędkarską</Text>
+        <Text>Imię i nazwisko:</Text>
+        <Text>Data urodzenia:</Text>
+        <Text>Karta wędkarska:</Text>
+        <Text>Pokaż dokumenty osobiste</Text>
+        <Text>~g~Ważna~s~</Text>
+        <Text>~r~Zawieszona~s~</Text>
+    </Menu>
+
+</IllegalFishing>

@@ -1,0 +1,173 @@
+<SolveMurder2>
+
+    <General>
+        <Text>殺人事件</Text>
+        <Text>~g~本部~s~: 高速道路沿いの~y~北チリアド山 ガソリンスタンド~w~にて、~r~刑事~w~の応援を求めています。</Text>
+    </General>
+
+    <Officer>
+        <Dialogue>次を使用して~b~警官~w~と話してください: </Dialogue>
+        <Dialogue>~b~警官~s~: こんにちは、刑事さん! 私は~g~村田秀亮~s~と言います。村田と呼んでください。</Dialogue>
+        <Dialogue>~y~あなた~s~: こんにちは、状況を教えてくれますか?</Dialogue>
+        <Dialogue>~b~村田~s~: ここに~g~亡くなった方~s~と、詳しい状況を把握している橋本巡査が~g~あそこ~s~に居ます。</Dialogue>
+        <Dialogue>~b~村田~s~: 一方、被疑者は3名です。そのうち一人は通報者です。</Dialogue>
+        <Dialogue>~y~あなた~s~: ありがとう。~b~橋本巡査~s~と話してみるよ。</Dialogue>
+        <Dialogue>~b~橋本巡査~s~と話をしてください。</Dialogue>
+    </Officer>
+
+    <Officer2>
+        <Dialogue>次を使用して~b~橋本巡査~s~と話をします: </Dialogue>
+        <Dialogue>~y~あなた~s~: 橋本巡査、こんにちは! 村田巡査によると、詳しい状況を把握しているそうですね。</Dialogue>
+        <Dialogue>~b~警官~s~: 刑事さん、お疲れ様です。橋本と呼んでください!</Dialogue>
+        <Dialogue>~b~橋本~s~: 被害者は「尾田 伸長」、33歳、近くのNikola通りに住んでいます。</Dialogue>
+        <Dialogue>~b~橋本~s~: そして、被疑者が3名居ます。</Dialogue>
+        <Dialogue>~b~橋本~s~: そのうちの一人、「村崎 色部」が通報者ですが、彼女が殺った可能性もあります。</Dialogue>
+        <Dialogue>~b~橋本~s~: 犯行現場で調査を行えば、何か分かるかもしれません。</Dialogue>
+        <Dialogue>犯行現場で~b~証拠~s~を探してください。</Dialogue>
+    </Officer2>
+
+    <Evidence>
+        <Text>~y~あなた~s~: 被害者は頭に傷があって、あの瓶で殴られたようだな。</Text>
+        <Text>~y~あなた~s~: 携帯電話... 背景は、~p~黒のオベイ テイルゲイター~s~...</Text>
+        <Text>~y~あなた~s~: うーむ、食べかけのバーガー... 奇妙だな。</Text>
+        <Text>~y~あなた~s~: 血の跡がまだ新しい。二時間以内の殺人のようだ。</Text>
+        <Text>~y~あなた~s~: 調査完了! 次を使用して~r~通報者~w~と対話します: </Text>
+    </Evidence>
+
+    <Suspect1>
+        <Dialogue>次を使用して~o~被疑者~w~と話します: </Dialogue>
+        <Dialogue>~y~あなた~s~: こんにちは、この事件を担当する刑事です。お名前は何ですか?</Dialogue>
+        <Dialogue>~o~通報者~s~: どうも、名前は「村崎 色部」です。道路を歩いていたら、彼女が...</Dialogue>
+        <Dialogue>~y~あなた~s~: あなたの通報は正しい行為でしたよ。いくつか確認を行いますね。</Dialogue>
+        <Dialogue>~y~あなた~s~: 本部、身分照会を願います。名前は「村崎 色部」です。</Dialogue>
+        <Dialogue>了解した。確認する。</Dialogue>
+        <Dialogue>~b~村崎 色部~s~</Dialogue>
+        <Dialogue>~g~指名手配: 無効</Dialogue>
+        <Dialogue>~g~逮捕歴: 無し</Dialogue>
+        <Dialogue>~y~違反歴: 速度超過~s~</Dialogue>
+        <Dialogue>~y~あなた~s~: あなたには特に問題が無いようですね。いくつか質問しますね。</Dialogue>
+        <Dialogue>~y~あなた~s~: 被害者をご存知ですか?</Dialogue>
+        <Dialogue>~o~村崎夫人~s~: いえ、私は殺してませんよ。家族の気持ちを考えてみてください。</Dialogue>
+        <Dialogue>~y~あなた~s~: そうですね。携帯電話を見せて頂けますか?</Dialogue>
+        <Dialogue>(携帯電話を見せる)</Dialogue>
+        <Dialogue>~o~村崎夫人~s~: これです... ああ... プライベートな写真があるので渡すことはできません。</Dialogue>
+        <Dialogue>~y~あなた~s~: 持ったままで大丈夫ですよ。あなたは何の車に乗っていますか?</Dialogue>
+        <Dialogue>~o~村崎夫人~s~: ランパダーティのピガールです。ナンバーは86LUN445です。</Dialogue>
+        <Dialogue>~y~あなた~s~: 本部、車両照会を願います。ナンバーは「86LUN445」です。</Dialogue>
+        <Dialogue>了解した。確認する。</Dialogue>
+        <Dialogue>~b~86LUN445~s~</Dialogue>
+        <Dialogue>~g~車種~s~: ランパダーティ ピガール</Dialogue>
+        <Dialogue>~b~所有者~s~: 村崎 色部</Dialogue>
+        <Dialogue>~r~保険切れ~s~</Dialogue>
+        <Dialogue>~y~あなた~s~: 保険が切れているだけのようですね。早めに更新しましょう。</Dialogue>
+        <Dialogue>~o~村崎夫人~s~: あら、知らなかったわ。早めに更新するわ。</Dialogue>
+        <Dialogue>~y~あなた~s~: これで全てです。次の指示まで待機していてください。</Dialogue>
+        <Dialogue>次の~o~被疑者~s~と話をしてください。</Dialogue>
+
+        <!-- Is this miss? -->
+        <Dialogue>~y~あなた~s~: これで全てです。次の指示まで待機していてください。</Dialogue>
+    </Suspect1>
+
+    <Suspect2>
+        <Dialogue>次を使用して~o~被疑者~w~と話します: </Dialogue>
+        <Dialogue>~y~あなた~s~: こんにちは、この事件を担当する刑事です。お名前は何ですか?</Dialogue>
+        <Dialogue>~o~被疑者~s~: 刑事さん、こんにちは。私は「明知 三英」といいます。誕生日は、1992年8月6日。なぜここでずっと待機させられているのですか?</Dialogue>
+        <Dialogue>~y~あなた~s~: 殺人が発生したときに付近に居たためです。</Dialogue>
+        <Dialogue>~o~明知~s~: これは私の意に反する行為だ。私は何もしていないんだから解放してください!</Dialogue>
+        <Dialogue>~y~あなた~s~: 私の質問に答えてください。どこに住んでいますか?</Dialogue>
+        <Dialogue>~o~明知~s~: この近く。2ブロック先です。</Dialogue>
+        <Dialogue>~y~あなた~s~: 被害者をご存知ですか?</Dialogue>
+        <Dialogue>~o~明知~s~: いいえ?</Dialogue>
+        <Dialogue>~y~あなた~s~: ご近所に住んでいるのに被害者をご存じないんですか?</Dialogue>
+        <Dialogue>~o~明知~s~: ああ、彼女は知ってるよ。だけどあまり好きじゃなかったし、フレンドリーでも活発でも近所でも好かれていなかったよ。</Dialogue>
+        <Dialogue>~o~明知~s~: 彼女、私の家の犬が吠えていただけで午後10時に警察に通報したことさえあるんだから。</Dialogue>
+        <Dialogue>~y~あなた~s~: うむ... 携帯電話を見せて頂けますか?</Dialogue>
+        <Dialogue>~o~明知~s~: したいのですが、先週落としてしまって現在修理中です。修理費、高いんですよね...</Dialogue>
+        <Dialogue>~y~あなた~s~: 理解しました。あなたは何の車に乗っていますか、そしてナンバーは何ですか?</Dialogue>
+        <Dialogue>~o~明知~s~: ヴァピッドのミニバンで、ナンバーが... えっと... 47LIF... 341だったかな。</Dialogue>
+        <Dialogue>~y~あなた~s~: 本部、車両照会を願います。ナンバーは「47LIF341」です。</Dialogue>
+        <Dialogue>了解した。確認する。</Dialogue>
+        <Dialogue>~b~47LIF341~s~</Dialogue>
+        <Dialogue>~g~車種~s~: ヴァピッド ミニバン</Dialogue>
+        <Dialogue>~b~所有者~s~: 明知 三英</Dialogue>
+        <Dialogue>~y~メモ: 4か月前に登録された車両~s~</Dialogue>
+        <Dialogue>~y~あなた~s~: 本部、身分照会を願います。名前は「明知 三英」です。</Dialogue>
+        <Dialogue>了解した。確認する。</Dialogue>
+        <Dialogue>~b~明知 三英~s~</Dialogue>
+        <Dialogue>~g~逮捕歴: 無し</Dialogue>
+        <Dialogue>~y~違反歴: 駐車禁止違反~s~</Dialogue>
+        <Dialogue>~y~あなた~s~: あなたの記録は問題ないようです。後で戻りますので、ここで待っていてください。</Dialogue>
+        <Dialogue>~o~明知~s~: 了解しました!</Dialogue>
+        <Dialogue>最後の~o~被疑者~s~と会話して下さい。</Dialogue>
+    </Suspect2>
+
+    <Suspect3>
+        <Dialogue>次を使用して~o~被疑者~w~と話します: </Dialogue>
+        <Dialogue>~y~あなた~s~: こんにちは、この事件を担当する刑事です。お名前は何ですか?</Dialogue>
+        <Dialogue>~o~被疑者~s~: こんにちは、私の名前は「北条 聖子」です。</Dialogue>
+        <Dialogue>~y~あなた~s~: 本部、身分照会を願います。名前は「北条 聖子」です。</Dialogue>
+        <Dialogue>了解した。確認する。</Dialogue>
+        <Dialogue>~b~北条 聖子~s~</Dialogue>
+        <Dialogue>~g~指名手配: 無効~s~</Dialogue>
+        <Dialogue>~g~逮捕歴: 無し</Dialogue>
+        <Dialogue>~y~違反歴: 駐車禁止違反~s~</Dialogue>
+        <Dialogue>~y~あなた~s~: 問題ないようですね。どこに住んでいますか?</Dialogue>
+        <Dialogue>~o~北条~s~: バインウッド・ヒルズに住んでいます。そこにアパートがあります。</Dialogue>
+        <Dialogue>~y~あなた~s~: おお、いい場所に住んでいますね。携帯電話を見せて頂けますか?</Dialogue>
+        <Dialogue>~o~北条~s~: もちろんです。えっと、あれ? どうやら車に忘れてきたようです。</Dialogue>
+        <Dialogue>~y~あなた~s~: あらら。ところで、何の車に乗っていますか?</Dialogue>
+        <Dialogue>~o~北条~s~: えっと... グロッティ... スティンガーです。</Dialogue>
+        <Dialogue>~y~あなた~s~: ナンバーを教えて下さい。</Dialogue>
+        <Dialogue>~o~北条~s~: ... あー、分からないです。</Dialogue>
+        <Dialogue>~y~あなた~s~: ご自身の車なのに分からないんですか?</Dialogue>
+        <Dialogue>~o~北条~s~: ええ、ちょっと複雑すぎてね。</Dialogue>
+        <Dialogue>~y~あなた~s~: 大丈夫ですよ。本部、車両照会を願う。車種は~b~グロッティ スティンガー~s~、所有者は「~b~北条 聖子~s~」です。</Dialogue>
+        <Dialogue>了解した。確認する。</Dialogue>
+        <Dialogue>検索結果がありませんでした。所有者のみで検索します。</Dialogue>
+        <Dialogue>同一の所有者で別の車両が見つかりました:</Dialogue>
+        <Dialogue>~b~58RLD582~s~</Dialogue>
+        <Dialogue>~y~車種~s~: オベイ テイルゲイター</Dialogue>
+        <Dialogue>~b~所有者~s~: 北条 聖子</Dialogue>
+        <Dialogue>~y~あなた~s~: おや、なぜ嘘をついたのですか?</Dialogue>
+        <Dialogue>~o~北条~s~: 何を言っているんですか? ...2台の車を持っているんですよ...?</Dialogue>
+        <Dialogue>~y~あなた~s~: とても面白いですね。ということは、携帯電話についても嘘をついたのですか?</Dialogue>
+        <Dialogue>~o~北条~s~: 近くで見つけたのですか? だから尋ねているのですか?</Dialogue>
+        <Dialogue>~y~あなた~s~: ...あなたと被害者の関係は?</Dialogue>
+        <Dialogue>~o~北条~s~: いとこです。彼女は私に多額の借金をしていました。</Dialogue>
+        <Dialogue>~y~あなた~s~: それが彼女を殺した理由ですか?</Dialogue>
+        <Dialogue>~o~北条~s~: 私は彼女に借金について問い詰めるために彼女の家に車で行っただけです。</Dialogue>
+        <Dialogue>~y~あなた~s~: 後で戻りますので、ここで待っていてください。</Dialogue>
+        <Dialogue>再び~b~橋本巡査~s~と話してください。</Dialogue>
+    </Suspect3>
+
+    <Officer3>
+        <Dialogue>次を使用して~b~警官~w~と話してください: </Dialogue>
+        <Dialogue>~y~あなた~s~: 現場を捜索し、容疑者と話をしました。</Dialogue>
+        <Dialogue>~b~橋本~s~: そして、誰が犯人か特定しましたか?</Dialogue>
+        <Dialogue>ボタンを押して犯人を指名してください。 {1}: ~r~村崎 色部~s~ {2}: ~o~明知 三英~s~ {3}: ~y~明知 三英~s~</Dialogue>
+
+        <Dialogue>~y~あなた~s~: 尾田 伸長を殺したのは... ~r~村崎 色部~s~だ!</Dialogue>
+        <Dialogue>~y~あなた~s~: 村崎夫人は携帯電話を見せようとしなかった。そして彼女は事件当時、この付近に居た!</Dialogue>
+        <Dialogue>~y~あなた~s~: 彼女が犯人だ!</Dialogue>
+
+        <Dialogue>~y~あなた~s~: 尾田 伸長を殺したのは... ~o~明知 三英~s~だ!</Dialogue>
+        <Dialogue>~y~あなた~s~: 明知は被害者のことを好んでおらず、近所に住んでいた!</Dialogue>
+        <Dialogue>~y~あなた~s~: そして彼は携帯を見せようとしなかった! 彼が犯人だ!</Dialogue>
+
+        <Dialogue>~y~あなた~s~: 尾田 伸長を殺したのは... ~y~北条 聖子~s~だ!</Dialogue>
+        <Dialogue>~y~あなた~s~: 北条は事件当時、現場付近に居て、被害者と血の繋がりがある!</Dialogue>
+        <Dialogue>~y~あなた~s~: そして彼女は自身の所有する車と携帯電話について嘘をついた!</Dialogue>
+        <Dialogue>~y~あなた~s~: 彼女の携帯電話の背景は彼女のテイルゲイターだ! 犯行時に携帯を失くしたに違いない。彼女が犯人だ!</Dialogue>
+
+        <Dialogue>~b~橋本~s~: ああ、なるほど! よし、~r~被疑者~s~を逮捕しましょう!</Dialogue>
+    </Officer3>
+
+    <Arrest>
+        <Text>真の~r~殺人犯~s~を逮捕できました! ~g~現場を片付けましょう~s~!</Text>
+        <Text>おっと。~y~間違った~s~人を逮捕してしまいました。~g~現場を片付けましょう~s~!</Text>
+        <Text>~o~被疑者~s~が~r~死亡~s~しました。{0}~g~事案解決~s~です。~g~現場を片付けましょう~s~!</Text>
+        <Text>~b~警官~s~が~r~死亡~s~しました。{0}~g~事案解決~s~です。</Text>
+
+    </Arrest>
+
+</SolveMurder2>

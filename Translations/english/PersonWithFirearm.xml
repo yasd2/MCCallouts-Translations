@@ -1,0 +1,35 @@
+<PersonWithFirearm>
+
+    <General>
+        <Text>Person With Firearm</Text>
+        <Text>An individual is suspected to be carrying a firearm. Make contact with them.</Text>
+        <Text>Approach the ~r~Suspect~w~ and proceed with ~y~dialogue~w~.</Text>
+        <Text>Press {0} to stop and speak with the Suspect.</Text>
+        <Text>There is no more dialogue with the ~r~Suspect~w~.</Text>
+    </General> 
+
+    <Conversation>
+        <Dialogue>~b~You:~w~ Hello, is it okay if we talk for a moment?</Dialogue>
+        <Dialogue>~r~Suspect:~w~ No, who are you?! What do you want!</Dialogue>
+        <Dialogue>~b~You:~w~ I just want to chat. I think you might have a weapon on you.</Dialogue>
+        <Dialogue>~r~Suspect:~w~ That's not true! You have the wrong person.</Dialogue>
+        <Dialogue>~b~You:~w~ Please cooperate with us so we can sort things out.</Dialogue>
+    </Conversation>
+
+    <Shooting>
+        <Dialogue>~r~Suspect:~w~ NO! NEVER!</Dialogue>
+    </Shooting>
+
+    <Surrender>  
+        <Dialogue>~r~Suspect:~w~ Okay, I'm sorry...what do I need to do?</Dialogue>
+        <Dialogue>~b~You:~w~ Please can you put your hands in the air so I can arrest you.</Dialogue>
+        <Dialogue>~r~Suspect:~w~ Yes Officer...sorry...</Dialogue>
+    </Surrender>
+
+    <End>
+        <Text>Suspect in Custody, ~g~Code 4~w~</Text>
+        <Text>~g~Code 4~w~</Text>
+        <Text>The ~r~suspect died.~g~ Code 4</Text>
+    </End>
+
+</PersonWithFirearm>

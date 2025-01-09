@@ -1,0 +1,36 @@
+<CashTransport>
+
+    <General>
+        <Text>Riziková preprava penez</Text>
+        <Text>Jedte na místo ~g~~h~calloutu~h~~s~.</Text>
+        <Text>Stisknete {Y} pro rozhovor</Text>
+        <Text>Jedte na místo ~b~~h~konecné destinace~h~~s~.</Text>
+        <Text>Pokud se vám zasekne SWAT tak, stisknete kdykoli tlacítko {Y}.</Text>
+        <Text>Vezmete si ~HC_3~~h~kufrík s penezmi~h~~s~ ze zadní strany ~r~~h~obrnené prepravní dodávky~h~~s~.</Text>
+        <Text>Prineste kufrík do banky.</Text>
+        <Text>Stisknutím tlacítka ~y~~h~End~h~~s~ kdykoli ukoncíte callout.</Text>
+    </General>
+
+    <Persons>
+        <Text>Hlídac</Text>
+        <Text>Ty</Text>
+        <Text>Bankér</Text>
+    </Persons>
+
+    <Guard>
+        <Dialogue>Dobrý den, dustojníku! Dekuji, ze jste prisel! Máme velmi dulezitou zásilku!</Dialogue>
+        <Dialogue>Obrnený bankovní vuz nám na místo urcení dorucí velké mnozství penez.</Dialogue>
+        <Dialogue>Nákladní auto budete rídit vy, obrnené vozidlo SWAT pojede za vámi.</Dialogue>
+        <Dialogue>Dostali jsme hlásení, ze by mohlo dojít k útoku, proto tu máme tebe a zásahové vozidlo. Jdeme!</Dialogue>
+    </Guard>
+
+    <Bankman>
+        <Dialogue>Dobrý den! Vidím, ze jste se dostali ven ziví! Ted uz víte, proc zamestnáváme profesionály, jako jste vy, a ne jako... moji kolegové.</Dialogue>
+        <Dialogue>... rozhodne. Aspon ze to vozidlo je neprustrelné.</Dialogue>
+        <Dialogue>Vozidlo s penezi je taky pancérované. Jen okna nejsou.</Dialogue>
+        <Dialogue>Tady je kufrík.</Dialogue>
+        <Dialogue>Perfektní, dekuji, primlouvám se za vás!</Dialogue>
+        <Dialogue>Doufám, ze to riziko stálo za to, preji hezký den!</Dialogue>
+    </Bankman>
+
+</CashTransport>

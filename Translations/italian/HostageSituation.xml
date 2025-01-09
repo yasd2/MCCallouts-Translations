@@ -1,0 +1,136 @@
+<HostageSituation>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+<!-- 
+<![CDATA[
+-->
+<!--
+]]>
+-->
+
+
+    <General>
+        <Text>Situazione degli ostaggi</Text>
+        <Text>Una persona tiene in ostaggio un uomo sotto tiro</Text>
+        <Text>Guida alla situazione degli ostaggi Codice 3, priorità!</Text>
+        <Text><![CDATA[Parcheggia la tua auto sul contrassegno giallo e mettiti al riparo mentre parli con il sospettato.]]></Text>
+        <Text>Parla con l' ~g~ostaggio.</Text>
+        <Text>Ok ok, mi arrendo!</Text>
+        <Text>Parcheggia lì e mettiti al riparo dietro il tuo veicolo.</Text>
+    </General>
+
+    <PedStatus>
+        <Text>~r~Il sospetto ~s~è stato arrestato!</Text>
+        <Text>~g~Ostaggio ~y~fermato?!</Text>
+        <Text>Il ~o~sospettato~s~ è ~r~morto.~s~</Text>
+        <Text>L'~g~ostaggio~s~ è ~r~morto...~s~</Text>
+    </PedStatus>
+
+    <DisplayHelp>
+        <Text>Premere</Text>                                                          <!-- Press _Key_Y__ to end ... -->
+        <Text>per terminare la chiamata dopo aver finito di ~b~investigare~s~.</Text>  <!-- Press _Key_Y__ to end ... -->
+        <Text>Parla con il sospetto usando </Text>                                      <!-- Talk to the suspect using _Key_Y_ -->
+    </DisplayHelp>
+
+    <DistanceToSuspect> <!-- If you're too close to the suspect with the hostage, you first get a warning, if you still in the area after a few seconds, he shoots -->
+        <Dialogue>Levati dalle palle o sparo!</Dialogue>
+        <Dialogue>~g~Sono arrivato in tempo!</Dialogue>
+        <Dialogue>~r~Ora pioveranno proiettili!</Dialogue>
+    </DistanceToSuspect>
+
+    <DistanceWarner> <!-- If you're too close to the suspects vehicle with the hostage, you first get a warning, if you still in the area after a few seconds, he shoots -->
+        <Dialogue>~o~Mantieni le distanze o il sospetto si arrabbia!~ s~</Dialogue>
+        <Dialogue>~g~Bel lavoro, resta a distanza di sicurezza.~s~</Dialogue>
+        <Dialogue>~r~Sei troppo vicino!  Attenzione!~s~</Dialogue>
+    </DistanceWarner>
+
+    <Menu>
+        <MenuName>decidi:</MenuName>
+
+        <Menu1>
+                <Conversation>Stai fermo</Conversation>
+                <Conversation>~y~Tu~s~: Non preoccuparti, resterò qui.</Conversation>
+                <Conversation>Applicare pressione</Conversation>
+                <Conversation>~y~Tu~s~: Ti faccio saltare la testa, bastardo!</Conversation>
+        </Menu1>
+
+        <Menu2>
+                <Conversation>€ 50.000 
+ in contanti</Conversation> <!-- Feel free to change currency (€) to your country. -->
+                <Conversation>~y~Tu~s~: Ti daremo € 50.000  in contanti, ti va bene?</Conversation> <!-- Feel free to change currency (€) to your country. -->
+                <Conversation>Migliorare le condizioni di detenzione</Conversation>
+                <Conversation>~y~Tu~s~: Possiamo procurare al tuo capo una cella più grande con una TV, che ne dici?</Conversation>
+                <Conversation><![CDATA[Suggerisci un nuovo inizio e uno psicologo]]></Conversation>
+                <Conversation>~y~Tu~s~: Capisco.  Una mia amica è un'ottima psicologa, può aiutarti a rimetterti in carreggiata, che ne dici?</Conversation>
+        </Menu2>
+
+        <Menu3>
+                <Conversation>Auto per la fuga con il pieno di carburante </Conversation>
+                <Conversation>~y~Tu~s~: Avrai un'auto per la fuga con carburante, ma dove stai andando?</Conversation>
+                <Conversation>Suggerisci la pizza</Conversation>
+                <Conversation>~y~Tu~s~: Che ne dici di una pizza, invece?</Conversation>
+        </Menu3>
+    </Menu>
+
+    <SuspectTalk>
+                <Dialogue>~r~Sospetto~s~: Andatevene!  Cosa vuoi ?!  Non avvicinarti!</Dialogue>
+                <Dialogue>~r~Sospetto~s~: Faresti meglio a sperarlo!  Adesso andatevene tutti, non voglio più vedere nessun agente!</Dialogue>
+                <Dialogue>~r~Sospetto~s~: Non puoi farmi niente!  Non voglio più vedere agenti, altrimenti pioveranno proiettili!</Dialogue>
+                <Dialogue>~y~Tu~s~: Capisco, ma l'edificio è circondato.</Dialogue>
+                <Dialogue>~y~Tu~s~: Voglio che questa cosa finisca pacificamente e nessuno si faccia male ne te, ne l'ostaggio e nessun agente.</Dialogue>
+                <Dialogue>~y~Tu~s~: Perché hai rapinato il negozio?</Dialogue>
+        <Reasons>
+            <Dialogue>~r~Sospetto~s~: Ho bisogno di ~b~soldi~s~, sono ~b~al verde~s~ e non posso più pagare l'affitto!</Dialogue>
+            <Dialogue>~r~Sospetto~s~: È colpa sua!  ~b~Mi ha lasciato!~s~ E ora è il mio ostaggio!</Dialogue>
+            <Dialogue>~r~Sospetto~s~: Il mio ~b~capo~s~ è in ~b~prigione~s~, non me ne andrò finché non sarà libero!</Dialogue>
+        </Reasons>
+                <Dialogue>~y~Tu~s~: Ascolta attentamente, ti offro il seguente accordo:</Dialogue>
+                <Dialogue>~r~Sospetto~s~: Faremo l'accordo, ma cosa vuoi in cambio?</Dialogue>
+                <Dialogue>~y~Tu~s~: Ancora una volta, tutti dovrebbero tornare a casa sani e salvi e tu devi liberare l'ostaggio!</Dialogue>
+                <Dialogue>~r~Sospetto~s~: Datemi un'auto per la fuga, lascerò andare l'ostaggio più tardi!</Dialogue>
+                <Dialogue>~r~Sospetto~s~: Non ha senso, offerta finale...</Dialogue>
+        <Fail>
+            <Dialogue>~r~Sospetto~s~: Fanculo te e i tuoi affari! E la polizia è ancora qui!</Dialogue>
+            <Dialogue>~r~Sospetto~s~: Ora vedrai cosa otterrai!</Dialogue>
+            <Dialogue>~r~Sospetto~s~: Sei pazzo!  Ora vedrai cosa otterrai!</Dialogue>
+        </Fail>
+                <Dialogue>~r~Sospetto~s~: Non te lo dico, ma libererò l'ostaggio non appena non vedrò più nessun agente.</Dialogue>
+                <Dialogue>~y~Tu~s~: L'auto dovrebbe essere lì da un momento all'altro...</Dialogue>
+        
+        
+    </SuspectTalk>
+
+    <SuspectDrives>
+        <Text>Segui il veicolo del sospettato, ma assicurati di mantenere la distanza, in modo che non possa vederti!</Text>
+        <Text><![CDATA[Il ~g~sospettato dovrebbe sentirsi al sicuro,~s~ è ora di i intervenire e ~r~arrestarlo!~s~]]></Text>
+        <Text>Sul veicolo è stato installato ed è attivo un localizzatore.</Text>
+        <Text>Il comando ha riferito: Puoi ~y~disattivare il motore~s~ del veicolo premendo ~y~O~s~!</Text>
+        <Text><![CDATA[Prendi in custodia il ~y~sospetto~s~!  Blocca il suo veicolo e arrestalo!]]]]></Text>
+        <Text>Il veicolo è stato disattivato, arrestate il sospettato!</Text>
+    </SuspectDrives>
+
+    <HostageTalk>
+                <Dialogue>~g~Ostaggio~s~: Grazie mille, quel ragazzo è completamente pazzo!  Non posso crederci!</Dialogue>
+                <Dialogue>~y~Tu~s~: Calmati.  Il sequestratore non è più un problema per te.</Dialogue>
+                <Dialogue>~y~Tu~s~: Stai bene?  Hai bisogno di assistenza medica o psicologica?</Dialogue>
+                <Dialogue>~g~Ostaggio~s~: Sto bene, voglio solo andare a casa.</Dialogue>
+                <Dialogue>~y~Tu~s~: Come è avvenuta la situazione degli ostaggi?</Dialogue>
+        <ExGirlfriend>
+            <Dialogue>~g~Ostaggio~s~: Il mio ex ragazzo è impazzito, ho rotto con lui due settimane fa.</Dialogue>
+            <Dialogue><![CDATA[~g~Ostaggio~s~: Non ce l'ha fatta e mi ha seguito qui.]]></Dialogue>
+        </ExGirlfriend>
+                <Dialogue>~g~Ostaggio~s~: Volevo solo fare shopping, poi è arrivato quel tizio e mi ha puntato una pistola alla testa!</Dialogue>
+                <Dialogue>~g~Ostaggio~s~: Era determinato a far rispettare le sue richieste con ogni mezzo...</Dialogue>
+                <Dialogue><![CDATA[~y~Tu~s~: Va bene, se non hai altre preoccupazioni, fai buon viaggio a casa e fai attenzione!]]></Dialogue>
+                <Dialogue>~g~Ostaggio~s~: Grazie ancora, arrivederci!</Dialogue>
+    </HostageTalk>
+
+    <End>
+        <Text>~g~Codice 4.</Text>
+    </End>
+
+</HostageSituation>

@@ -1,0 +1,9 @@
+<General>
+    <UpdateChecker>
+        <Text>Wykryto aktualną wersję MCCallouts c; </Text>
+        <Text>Beta/ Przyszła wersja MCCallouts c: </Text>
+        <Text>~r~Wykryto przedawnioną wersję.~w~~n~Zaktualizuj jak najszybciej!</Text>
+        <Text>~y~Załadowano MCCallouts~w~, ale ~r~nie mogliśmy sprawdzić~w~ aktualizacji.</Text>
+        <Text>~g~Załadowano ~y~MCCallouts~w~! ~n~Miłego patrolu!</Text>
+    </UpdateChecker>
+</General>

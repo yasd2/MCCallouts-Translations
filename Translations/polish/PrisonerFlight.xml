@@ -1,0 +1,35 @@
+<PrisonerFlight>
+
+    <General>
+        <Text>Powietrzny transport więźnia</Text>
+        <Text>Potrzebny pilot do transportu więźnia</Text>
+        <Text>Pojedź na ~g~lotnisko~s~, samolot jest gotowy do lotu!</Text>
+    </General>
+
+    <Agent>
+        <Dialogue>Porozmawiaj z ~b~agentem~s~ naciskając</Dialogue>
+        <Dialogue>~y~Ty~s~: Witaj, jestem pilotem z lokalnego departamentu policji, o co chodzi?</Dialogue>
+        <Dialogue>~b~Agent~s~: Dzień dobry, mamy więźnia, który ma zostać przetransportowany do North Yankton.</Dialogue>
+        <Dialogue>~b~Agent~s~: Lot odbędzie się prywatnym odrzutowcem, osadzony jest już w środku.</Dialogue>
+        <Dialogue>~b~Agent~s~: Poleć do miejsca, które wskaże ci nawigacja.</Dialogue>
+        <Dialogue>~b~Agent~s~: Policja będzie czekać na ciebie na miejscu. Miłego lotu!</Dialogue>
+        <Dialogue><![CDATA[Wejdź do samolotu i poleć do ~o~wyznaczonego miejsca~s~.]]></Dialogue>
+        <Dialogue>Koniec dialogu.</Dialogue>
+    </Agent>
+
+    <Officer>
+        <Dialogue>Kieruj się do ~o~lokacji~s~ oznaczonej na minimapie.</Dialogue>
+        <Dialogue>Porozmawiaj z ~b~oficerem~s~ naciskając</Dialogue>
+        <Dialogue><![CDATA[~b~Oficer~s~: Witaj w North Yankton!]]></Dialogue>
+        <Dialogue><![CDATA[~b~Oficer~s~: Jest tu trochję zimno i ulice są dość śliskie...]]></Dialogue>
+        <Dialogue>~b~Oficer~s~: Więzień jest już gotowy do transportu w pojeździe.</Dialogue>
+        <Dialogue>~b~Oficer~s~: Kieruj się do ~g~więzienia~s~, jest oznaczone na GPS w pojeździe transportowym.</Dialogue>
+        <Dialogue><![CDATA[Wejdź do pojazdu i jedź do ~g~więzienia~s~.]]></Dialogue>
+        <Dialogue>Koniec dialogu.</Dialogue>
+        <Dialogue>Pojedź do ~g~więzienia~s~ zaznaczonego na twoim gps.</Dialogue>
+        <Dialogue>Wezwanie zakończone</Dialogue>
+        <Dialogue>Dobra robota!</Dialogue>
+        <Dialogue>Kod 4.</Dialogue>
+    </Officer>
+
+</PrisonerFlight>

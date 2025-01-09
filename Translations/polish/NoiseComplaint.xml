@@ -1,0 +1,61 @@
+<NoiseComplaint>
+    <General>
+        <Text>Zakłócanie ciszy nocnej</Text>
+        <Text>Zgłoszenie o zbyt głośnej imprezie domowej</Text>
+        <Text>Sąsiedzi zgłosili skargę dotyczącą hałasu. Upewnij się, aby organizator ~o~wydarzenia~s~ ściszył muzykę.</Text>
+        <Text>Naciśnij {Key}, aby dostosować głośność dla siebie.</Text>
+    </General>
+
+    <Persons>
+        <Text>Ty</Text>
+        <Text>Właściciel</Text>
+        <Text>DJ</Text>
+    </Persons>
+
+    <Tasks>
+        <Text>Opuść imprezę udając się w kierunku ~y~żółtego znacznika~s~.</Text>
+        <Text>Postępuj jak uznasz za stosowne, następne podejdź i porozmawiaj z ~g~~h~DJ'em~h~~s~.</Text>
+        <Text>Rozmówca zgłosił zakłócanie ciszy nocnej pod tym samym adresem co wcześniej. Odpowiedz w kodzie 2.</Text>
+    </Tasks>
+
+    <OwnerCooperative>
+        <Dialogue>Witam, jak mogę pomóc?</Dialogue>
+        <Dialogue>Otrzymaliśmy wezwanie o zbyt głośnej muzyce. Proszę, ścisz to trochę.</Dialogue>
+        <Dialogue>Jeżeli zostaniemy wezwani to znowu, zostanie wypisany mandat za zakłócanie ciszy nocnej.</Dialogue>
+        <Dialogue>Dobra, dobra, przyciszymy to.</Dialogue>
+        <Dialogue>Dziękuję za współpracę, miłej nocy.</Dialogue>
+    </OwnerCooperative>
+
+    <OwnerUncooperative>
+        <Dialogue>Yoo, po-po, czego do cholery tu chcecie?</Dialogue>
+        <Dialogue>Zostaliśmy zawiadomieni o zakłócaniu ciszy nocnej pod tym adresem.</Dialogue>
+        <Dialogue>Czy to k###a wygląda jak jakieś cholerne przedszkole? My tu imprezujemy!!</Dialogue>
+        <Dialogue>Proszę natychmiast ściszyć muzykę.</Dialogue>
+        <Dialogue>Nic nie ściszam, aresztuj mnie jak chcesz albo spadaj stąd... psie.</Dialogue>
+    </OwnerUncooperative>
+
+    <OwnerSecond>
+        <Dialogue>Witam ponownie, otrzymaliśmy kolejne zgłoszenie o zbyt głośnej muzyce.</Dialogue>
+        <Dialogue>Słyszę, że postanowiliście znowu ją podgłośnić zamiast zostawić przyciszoną...</Dialogue>
+        <Dialogue>Oj daj spokój, po prostu się bawimy, w końcu mamy imprezę.</Dialogue>
+        <Dialogue>Nie widzę problemu, przynajmniej tak długo jak muzyka nie będzie grała zbyt głośno.</Dialogue>
+        <Dialogue>Zostaniesz aresztowany, jeżeli zostaniemy jeszcze raz tu wezwani!</Dialogue>
+        <Dialogue>Jako, że zostaliśmy wezwani tu drugi raz, zostaje nałożony na Ciebie mandat.</Dialogue>
+        <Dialogue>Miłej nocy, ale trochę cichszej.</Dialogue>
+    </OwnerSecond>
+
+    <DJ>
+        <Dialogue>Witam, to ty tu jesteś DJ'em prawda?</Dialogue>
+        <Dialogue>Tak, to ja, przepraszam za ~o~właściciela~s~. Jestem ~g~DJ Moodyman~s~.</Dialogue>
+        <Dialogue>Oh, grałeś też na jachcie jakiś czas temu, prawda?</Dialogue>
+        <Dialogue>Tak, pamiętam, że cię tam widziałem. Ale do rzeczy, w czym mogę pomóc?</Dialogue>
+        <Dialogue>Proszę ścisz muzykę, otrzymujemy liczne skargi od sąsiadów o zbyt głośnej muzyce.</Dialogue>
+        <Dialogue>Oh ok, nie ma problemu, już ściszam. Przykro mi, że właściciel jest taki problematyczny.</Dialogue>
+        <Dialogue>Zobaczę, co z nim jeszcze zrobię. Miłego dnia!</Dialogue>
+    </DJ>
+
+    <End>
+        <Text>~g~Wezwanie zakończone. Kod 4.</Text>
+        <Text>Naciśnij ~y~End~s~ w dowolnej chwili, aby zakończyć wezwanie.</Text>
+    </End>
+</NoiseComplaint>

@@ -1,0 +1,62 @@
+<BurningDumpster>
+
+    <General>
+        <Text>Nahlásena ~r~horící popelnice~b~</Text>
+        <Text>Jednotka s hasicím prístrojem reaguje pod kodem dva.</Text>
+        <Text>Dojedte na místo a uhaste ~r~pozár~s~ nebo zavolejte ~r~hasice!</Text>
+    </General>
+
+    <Persons>
+        <Text>Volající</Text>
+        <Text>Ty</Text>
+    </Persons>
+
+    <Extingiush>
+        <Text>Chcete-li získat ~r~hasicí prístroj~s~, prejdete do zavazadlového prostoru a stisknete tlacítko.</Text>
+        <Text>~r~Hasicí prístroj byl~s~ vyndán!</Text>
+        <Text>Nyní vyhledejte ~y~dukazy~s~ stisknutím {Key} kdyz jste na ~y~znacce~s~.</Text>
+    </Extingiush>
+
+    <Tasks>
+        <Text>Promluvte si s ~b~volajícím ~s~ na lince 911.</Text>
+        <Text>Kdykoli stisknete {MusicMenuKey} pro opetovné zobrazení obrázku!</Text>
+        <Text>Dispatch, podezrelý je ~r~na úteku!</Text>
+    </Tasks>
+
+    <Caller>
+        <Dialogue>Dobrý den, jste to vy, kdo zavolal horící odpadky?</Dialogue>
+        <Dialogue>Ano, to jsem já. Chtel jsem nahlásit podezrelou osobu, kterou jsem videl.</Dialogue>
+        <Dialogue>Procházel jsem kolem popelnice, kdyz jsem videl odcházet nejakou osobu.</Dialogue>
+        <Dialogue>Hned potom zacal horet ohen!</Dialogue>
+        <Dialogue>To zní podezrele, máte nejaké podrobnosti o podezrelém?"</Dialogue>
+        <Dialogue>Jiste, jednalo se o {gender} a priblizne ve veku {age}.</Dialogue>
+        <Dialogue>Podarilo se mi porídit fotku, tady je!</Dialogue>
+        <Dialogue>Dekujeme, práve hledáme podezrelého. Ahoj!</Dialogue>
+    </Caller>
+
+    <Genders>
+        <Text>zenu</Text>
+        <Text>muze</Text>
+        <Text>nebinární osobu</Text>
+    </Genders>
+
+    <Evidence>
+        <Dialogue>Molotovuv koktejl, to nebyla náhoda... nekdo chtel zalozit pozár.</Dialogue>
+        <Dialogue>Kanystr plný benzínu, vypadá to, ze se nekdo chystal neco zapálit.</Dialogue>
+        <Dialogue>Bong? Zvlástní... mozná byl nekdo prílis sjetý, nez aby si vsiml ohne, který zalozil.</Dialogue>
+        <Dialogue>Trhavý granát. Tohle není obycejný pozár, máme co do cinení s necím mnohem nebezpecnejsím.</Dialogue>
+        <Dialogue>Dýmový granát. Mohl být pouzit k zahlazení stop pred zalozením pozáru.</Dialogue>
+        <Dialogue>Rozbitá láhev. Vypadá improvizovane, ale mohla být pouzita k zalození pozáru.</Dialogue>
+        <Dialogue>Plynová láhev. Kdyby vybuchla, celá oblast by mohla být v plamenech.</Dialogue>
+        <Dialogue>Buben s olejem. Uniká z nej... a je vysoce horlavý. Vypadá to, ze nekdo chtel rozsírit ohen.</Dialogue>
+        <Dialogue>Kanystr s benzínem. Páchne benzínem... nekdo to tu opravdu chtel zapálit.</Dialogue>
+        <Dialogue>Ponozka? No, mozná se to nezdá, ale smrdí to dost na to, aby to bylo nebezpecí pozáru.</Dialogue>
+        <Dialogue>Typické. Nekdo vyhodil horící cigaretu do kose a ta se pak zacala vznecovat.</Dialogue>
+        <Dialogue>Ponozka? No, mozná se to nezdá, ale smrdí to dost na to, aby to bylo nebezpecí pozáru.</Dialogue>
+    </Evidence>
+
+    <End>
+        <Text>~g~Situace je pod kodem 4.</Text>
+    </End>
+    
+</BurningDumpster>

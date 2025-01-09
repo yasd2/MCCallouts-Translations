@@ -1,0 +1,22 @@
+<IntoxicatedIndividual>
+
+    <General>
+        <Text>Intoxicated person in public</Text>
+        <Text>sir</Text>
+        <Text>mam</Text>
+        <Text>Press {0} to talk to suspect.</Text>
+        <Text>~y~You~s~: Excuse me {0}, do you need any assistance?</Text>
+        <Text>~p~Suspect~s~: Nahhh *hic* it's all *hic* finnne.</Text>
+        <Text>~y~You~s~: Being intoxicated in public is not legal. I'm going to have to write you a citation.</Text>
+        <Text>~p~Suspect~s~: A ciwhat? Get outta my facce.</Text>
+        <Text>No further speech.</Text>
+    </General>
+
+    <End>
+        <Text>One suspect arrested! ~g~Code 4~s~</Text>
+        <Text>One suspect down, ~g~Code 4~w~</Text>
+        <Text>~g~Code 4~w~</Text>
+        <Text>~r~GTA Ped Error,~s~ Callout ended</Text>
+    </End>
+
+</IntoxicatedIndividual>

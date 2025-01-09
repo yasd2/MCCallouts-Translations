@@ -1,0 +1,65 @@
+<SolveMurder>
+
+    <General>
+        <Text>~s~Potrzebny ~p~detektyw~s~ w sprawie morderstwa</Text>
+        <Text>~g~Centrala~s~: Podjedź na ~y~stację benzynową Mount Chiliad~w~ przy autostradzie. ~w~Potrzebny ~r~detektyw~w~.</Text>
+    </General>
+
+    <Officer>
+        <Dialogue>Podejdź do ~b~pani oficer~w~ i porozmawiaj naciskając </Dialogue>
+        <Dialogue>~b~Pani oficer~s~: Witaj detektywie! Dobrze, że jesteś!</Dialogue>
+        <Dialogue>~b~Pani oficer~s~: Mamy denata i dwóch prawdopodobnych sprawców.</Dialogue>
+        <Dialogue>~b~Pani oficer~s~: ~r~Miejsce zbrodni~w~ jest po mojej prawej, ~r~przyjrzyj się~s~ i zobacz czy znajdziesz tam jakiś dowód, który pomoże znaleźć sprawcę.</Dialogue>
+    </Officer>
+
+    <Evidence>
+        <Text>~y~Ty~s~: ~r~Świeżo opróżniona butelka alkoholu~s~, ciekawe czy to należało do ofiary...</Text>
+        <Text>~y~Ty~s~: Rany wyglądają na ~o~liczne rany kłute~s~, na szyi, brzuchu i plecach.</Text>
+        <Text>~y~Ty~s~: ~g~Chipsy~w~? Ktoś ~g~niedawno~w~ je ~g~jadł~w~...</Text>
+        <Text>Śledztwo zakończone! Podejdź do ~r~podejrzanego~w~ i porozmawiaj naciskając </Text>
+    </Evidence>
+
+    <Suspect1>
+        <Dialogue>Porozmawiaj z ~o~podejrzaną~w~ naciskając </Dialogue>
+        <Dialogue>~y~Ty~s~: Witaj, jestem detektywem w tej sprawie, mam do ciebie kilka pytań.</Dialogue>
+        <Dialogue>~o~Ayla May~s~: Tak się ~r~denerwuję~w~. Nie mam z tą sprawą nic wspólnego.</Dialogue>
+        <Dialogue>~y~Ty~s~: Spokojnie, będzie dobrze. Jakiego rodzaju alkohol pijesz?</Dialogue>
+        <Dialogue>~o~Ayla May~s~: Praktycznie ~g~wcale~w~ nie piję... a jeżeli się zdarzy to lampkę czerwonego wina.</Dialogue>
+        <Dialogue>~y~Ty~s~: Jesz czasami ~r~chipsy~w~?</Dialogue>
+        <Dialogue>~o~Ayla May~s~: ~g~Nie~w~, prowadzę zdrowy tryb życia i uprawiam dużo sportu.</Dialogue>
+        <Dialogue>~y~Ty~s~: To wszystko, dziękuję za rozmowę.</Dialogue>
+    </Suspect1>
+
+    <Suspect2>
+        <Dialogue>Porozmawiaj z ~o~podejrzanym~w~ naciskając </Dialogue>
+        <Dialogue>~y~Ty~s~: Cześć, jestem ~r~detektywem~s~ w tej sprawie, mam do ciebie kilka pytań?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: Howdy! Yeeeaaaaahh, nie wstyydź siięęę *śmiech*</Dialogue>
+        <Dialogue>~y~Ty~s~: Wydajesz się być ~r~pijany~w~, ile wypiłeś?!</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: Niic nie piłem, aaani krooopelkii...</Dialogue>
+        <Dialogue>~y~Ty~s~: Weź się w garść, to poważna sprawa. Gdzie pracujesz?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: Pewnie, jestem ~o~myśliwym~w~ w okolicznym lesie, niedaleko stąd.</Dialogue>
+        <Dialogue>~y~Ty~s~: Ok, jesz ~r~chipsy~w~ tak często jak ja?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: Yeeeaaaaah, ~r~KOCHAM chipsy~w~. Jem zawsze kiedy mogę, ~y~niedawno zjadłem paczkę...</Dialogue>
+        <Dialogue>~y~Ty~s~: Dzięki, to na razie wszystko, niedługo ci powiem co dalej.</Dialogue>
+    </Suspect2>
+
+    <Officer2>
+        <Dialogue>Ponownie porozmawiaj z ~b~panią oficer~w~ naciskając </Dialogue>
+        <Dialogue>~b~Pani oficer~w~: I jak? Udało ci się ustalić kto jest ~r~mordercą~w~?</Dialogue>
+        <Dialogue>~y~Ty~s~: Tak, mordercą jest... ~o~[1] Ayla May  ~r~[2] Jameson Fisher</Dialogue>
+        <Dialogue>Naciśnij ~o~'1' ~w~lub ~r~'2'~w~, aby wybrać ~r~mordercę.</Dialogue>
+        <Dialogue>~y~Ty~s~: ...~o~Ayla May~w~!</Dialogue>
+        <Dialogue>~y~Ty~s~: ...~r~Jameson Fisher~w~!</Dialogue>
+        <Dialogue>~b~Pani oficer~w~: W porządku, w takim razie idź zaaresztować mordercę!</Dialogue>
+    </Officer2>
+
+    <Arrest>
+        <Text>O nie, zaaresztowałeś ~r~niewinną~w~ osobę! ~o~Kod 4~w~</Text>
+        <Text>~g~Kod 4~w~, Sprawa ~g~rozwiązana~w~, ~g~zaaresztowano właściwą osobę!</Text>
+        <Text>Wezwij ~b~koronera~w~, aby zabrał ~y~ofiarę~w~ oraz wezwij transport dla ~r~osoby aresztowanej~w~ do ~o~więzienia~w~.</Text>
+        <Text>~g~Ayla May ~r~nie żyje.~s~ Czy to na pewno było konieczne? ~g~Kod 4~s~</Text>
+        <Text>~b~Jameson Fisher ~r~nie żyje,~s~ Mam nadzieję, że masz dobrego prawnika!? ~g~Kod 4~s~</Text>
+        <Text>~b~Pani oficer~s~ ~r~nie żyje~s~, to nie było dobre zakończenie!? ~g~Kod 4~s~</Text>
+    </Arrest>
+
+</SolveMurder>

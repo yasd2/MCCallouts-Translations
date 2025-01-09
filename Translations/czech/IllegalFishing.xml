@@ -1,0 +1,67 @@
+<IllegalFishing>
+
+    <General>
+        <Text>Hlásení o mozném nezákonném rybolovu</Text>
+    </General>
+
+    <Setup>
+        <Dialogue>Stisknete {0} pro hovor</Dialogue>
+        <Dialogue>~y~Ty~s~: Dobrý den, jsem policista z místního oddelení.</Dialogue>
+        <Dialogue>~y~Ty~s~: Dostali jsme hlásení o nelegálním rybolovu.</Dialogue>
+        <Dialogue>~b~Podezrelý~s~: Jsem tu sám, nic nelegálního, jen rybarím...</Dialogue>
+        <Dialogue>~y~Ty~s~: Uz jste neco chytil?</Dialogue>
+        <Dialogue>~b~Podezrelý~s~: Ano, zatím jsem jich pár chytil.</Dialogue>
+        <Dialogue>~y~Ty~s~: Dobre, chci videt vás rybárský prukaz.</Dialogue>
+        <Dialogue>Stisknutím {0} otevrete nabídku interakce, pomocí STP zkontrolujte ID.</Dialogue>
+        <Dialogue>Stisknutím {0} a {1} otevrete nabídku interakce, pomocí STP zkontrolujte ID.</Dialogue>
+        <Dialogue>Stisknutím tlacítka {0} otevrete nabídku interakce.</Dialogue>
+        <Dialogue>Stisknutím tlacítek {0} a {1} otevrete nabídku interakce.</Dialogue>
+    </Setup>
+    
+    <ConversationAfterCheckingLicense>
+        <Dialogue>~y~Ty~s~: Dobre, overil jsem si vase informace.</Dialogue>
+        <Dialogue>~y~Ty~s~: Vás rybárský lístek je platný, zatím vse v porádku!</Dialogue>
+        <Dialogue>~y~Ty~s~: Vase rybárská licence je pozastavena, nesmíte rybarit!</Dialogue>
+        <Dialogue>~y~Ty~s~: Krome toho je vás prukaz totoznosti cistý, není se ceho obávat.</Dialogue>
+        <Dialogue>~y~Ty~s~: Také nemáte zádný zatykac.</Dialogue>
+        <Dialogue>~y~Ty~s~: Moje databáze vsak ukázala, ze máte zatykac. Musíte jít s námi.</Dialogue>
+        <Dialogue>~y~Ty~s~: Nerekl jste mi o svém zatykaci. Jste zatcen.</Dialogue>
+        <Dialogue>Zatknete podezrelého.</Dialogue>
+        <Dialogue>Jakmile skoncíte, propustte podezrelého a vratte se na hlídku.</Dialogue>
+        <Dialogue>~y~Ty~s~: Dostanete obvinení z nezákonného rybolovu.</Dialogue>
+        <Dialogue>~y~Ty~s~: Nevracej se, jinak te odvedu do vezení a to oba nechceme.</Dialogue>
+        <Dialogue>Podezrelému dejte predvolání a propustte ho.</Dialogue>
+        <Dialogue>Opetovným stisknutím tlacítka {0} muzete hovorit</Dialogue>
+    </ConversationAfterCheckingLicense>
+
+    <ConversationAfterPursuitArrest>
+        <Dialogue>~y~Ty~s~: To bylo hloupé, bezet kvuli takové jednoduché veci...</Dialogue>
+        <Dialogue>~b~Podezrelý~s~: Ted uz je stejne pozde...</Dialogue>
+    </ConversationAfterPursuitArrest>
+
+    <ConversationAndSearch>
+        <Dialogue>~y~Ty~s~: Más u sebe neco, co by me mohlo píchnout ci zranit?</Dialogue>
+        <Dialogue>~b~Podezrelý~s~: Ne...</Dialogue>
+        <Dialogue>Podezrelého prohledejte, provedte dokumentaci a odvezte ho do vezení.</Dialogue>
+    </ConversationAndSearch>
+
+    <End>
+        <Text>Podezrelý zemrel.</Text>
+        <Text>Stisknutím {0} kdykoli ukoncíte volání.</Text>
+        <Text>~r~GTA-Error: Ped se stal neplatným.~s~</Text>
+        <Text>~g~Pod kodem 4.~s~</Text>
+    </End>
+
+    <Menu>
+        <Text>Interakcní menu</Text>
+        <Text>Moznosti:</Text>
+        <Text>Ukázat rybárský lístek</Text>
+        <Text>Název:</Text>
+        <Text>Narozen:</Text>
+        <Text>Licence k rybolovu</Text>
+        <Text>Zobrazit ID</Text>
+        <Text>~g~Platná licence~s~</Text>
+        <Text>~r~Pozastavený ridicský prukaz~s~</Text>
+    </Menu>
+
+</IllegalFishing>

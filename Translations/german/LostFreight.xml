@@ -1,0 +1,68 @@
+<LostFreight>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+
+    <General>
+        <Text>Verlorene Fracht</Text>
+        <Text>Anrufer meldet, Fracht auf der Autobahn verloren zu haben.</Text>
+        <Text><![CDATA[Fahren Sie zu dem Anrufer & nehmen Sie Kontakt auf.]]></Text>
+    </General>
+
+
+    <DisplayHelp>
+        <Text>Sprechen Sie mit dem Anrufer mit </Text>
+        <Text><![CDATA[Suchen Sie im ~y~Bereich~s~ & entfernen Sie die Hindernisse mit ]]></Text>
+        <Text>Sprechen Sie mit dem ~b~Polizisten~s~ mit </Text>
+        <Text>Keine weitere Kommunikation.</Text>
+        <Text>Hier ist ne kleine ~g~Hilfe.</Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+        <Text>~r~Kein Hindernis~s~ in der Nähe.</Text>
+        <Text>~r~Hindernis~s~ entfernt!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>Hallo, Sie hatten angerufen bezüglich verlorerener Fracht?</Dialogue>
+        <Dialogue><![CDATA[Hi, ja, die Anhängerklappe ist aufgegangen & jetzt ist einiges auf die Autobahn gefallen!]]></Dialogue>
+        <Dialogue>Das ist gefährlich, was hatten Sie geladen?</Dialogue>
+        <Dialogue>Lauter ~b~Tenniszeugs~s~, da wir unser Vereinsheim ausgeräumt haben.</Dialogue>
+        <Dialogue>Lauter ~b~Büro-Zeugs~s~, Schränke, Bildschirme, Stühle, Lautsprecher...</Dialogue>
+        <Dialogue>Viele ~b~Küchenutensilien~s~, Töpfe, Besteck, Teller usw., da wir einen Firmenumzug haben.</Dialogue>
+        <Dialogue>Verstehe, wo sind Sie denn gefahren?</Dialogue>
+        <Dialogue>Ich bin nur in ~y~diese eine Richtung~s~ gefahren, suchen Sie also die eine Fahrbahnrichtung ab.</Dialogue>
+        <Dialogue>Zentrale, blockieren Sie die letzte Autobahnauffahrt, Teile liegen auf der Straße!</Dialogue>
+        <Dialogue>Verstanden, Verkehr wird angehalten, Einheiten unterwegs.</Dialogue>
+    </Conversation>
+
+
+    <Officer1>
+        <Dialogue>Hi! Ich hoffe, Du hast einen schönen Tag!</Dialogue>
+        <Dialogue>Ich halte den Verkehr solange auf, bis die Straße wieder frei ist!</Dialogue>
+        <Dialogue>Viel Erfolg!</Dialogue>
+    </Officer1>
+
+
+    <Officer2>
+        <Dialogue>Hallo, wie lange dauert das hier noch?</Dialogue>
+        <Dialogue>Ich hab auch noch was anderes zu tun!</Dialogue>
+        <Dialogue>Wenn Du nicht so lang rumschwätzen würdest, wär ich schon längst weg!</Dialogue>
+    </Officer2>
+
+
+    <End>
+        <Text>Wir sind ~g~Code 4~s~</Text>
+        <Text>Gegenstände entfernt:</Text> <!--There are 4 items to find, on this message you get to see how many you've found.-->
+        <Text>/~g~4</Text> <!--This means X items from 4 items were found -> X/4 items found-->
+        <Text>~r~Danke Ihnen, ~g~der Verkehr kann wieder fließen!</Text>
+    </End>
+
+
+
+</LostFreight>

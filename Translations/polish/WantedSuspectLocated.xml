@@ -1,0 +1,23 @@
+<WantedSuspectLocated>
+
+    <General>
+        <Text>Prawdopodobne miejsce przebywania poszukiwanej osoby</Text>
+        <Text>Sprawdź obie możliwe lokacje</Text>
+        <Text>Poszukiwany został zatrzymany, ~g~Kod 4~w~</Text>
+    </General>
+
+    <Scenes>
+        <Text>Znajdź ~r~poszukiwanego~w~ w pierwszym obszarze.</Text>
+        <Text>Znajdź ~r~poszukiwanego~w~ w ~g~okolicy~w~.</Text>
+        <Text>Brak śladów poszukiwanego, pojedź do ~g~drugiej lokacji~w~.</Text>
+        <Text>Znajdź ~r~poszukiwanego~w~ w drugim ~g~obszarze~w~. ~r~Musi~w~ tu być!</Text>
+        <Text>~s~Opis ~r~poszukiwanego~s~:{0}~y~Azjata, mężczyzna~s~, chudy,{0}czarne włosy, około 30 lat, {0}ubrany w ~b~niebieską~s~ koszulkę</Text>
+    </Scenes>
+    
+    <Outcomes>
+        <Dialogue>~r~Poszukiwany~w~: O mój boże, policja! Nie strzelaj! Poddaje się!</Dialogue>
+        <Dialogue>~r~Poszukiwany~w~: O cholera, psy! Spi######jcie, albo ~o~odstzele~w~ wam ~o~łby~w~ głupie kundle!</Dialogue>
+        <Dialogue>~y~Ty~w~: Centrala, widzę poszukiwanego, rozpoczynam ~o~pościg~w~!</Dialogue>
+    </Outcomes>
+
+</WantedSuspectLocated>

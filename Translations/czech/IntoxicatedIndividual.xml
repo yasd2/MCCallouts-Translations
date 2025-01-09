@@ -1,0 +1,22 @@
+<IntoxicatedIndividual>
+
+    <General>
+        <Text>Opily clovek na verejnosti</Text>
+        <Text>pane</Text>
+        <Text>madam</Text>
+        <Text>Chcete-li mluvit s podezrelym, stisknete {0} </Text>
+        <Text>~y~Dustojnik~s~: Prominte {0}, potrebujete pomoc?</Text>
+        <Text>~p~Podezrely~s~: Nahhh *hic* to vsechno je *hic* finnne.</Text>
+        <Text>~y~Dustojnik~s~: Byt opily na veeejnosti neni legalni. Budu vam muset napsat pokutu.</Text>
+        <Text>~p~Podezrely~s~: Co? Vypadnete!</Text>
+        <Text>Tohle si doprosuji.</Text>
+    </General>
+
+    <End>
+        <Text>Jeden podezrely je zatcen! pod ~g~Kodem 4~s~</Text>
+        <Text>Jeden podezrely, je pod ~g~Kodem 4~w~</Text>
+        <Text>~g~Kód 4~w~</Text>
+        <Text>~r~GTA Ped Error,~s~ Popis byl ukoncen</Text>
+    </End>
+
+</IntoxicatedIndividual>

@@ -1,0 +1,75 @@
+<MinorAlcohol>
+
+    <General>
+        <Text>Spożywanie alkoholu przez nieletnich</Text>
+        <Text>Zgłoszenie zakończone</Text>
+        <Text>Udaj się na miejsce zgłoszenia.</Text>
+        <Text>Koniec dialogu.</Text>
+        <Text>Sprawdź dowód i wykonaj badanie trzeźwości.</Text>
+        <Text>Porozmawiaj z {0}</Text>
+        <Text>Udaj się na ~q~jacht~s~ i porozmawiaj z ~q~kapitanem~s~ statku.</Text>
+    </General>
+
+    <Music>
+        <Text>Naciśnij {0}, aby ~b~wyregulować~s~ głośność muzyki.</Text>
+        <Text>Naciśnij {0} i {1}, aby ~b~wyregulować~s~ głośność muzyki.</Text>
+        <Text>Ustawienia</Text>
+        <Text>Głośność</Text>
+        <Text><![CDATA[<- Ciszej; Głośniej ->]]></Text>
+        <Text>Rozpocznij losową ścieżkę</Text>
+        <Text>Rozpocznij losową ścieżkę z folderu z muzyką</Text>
+    </Music>
+
+    <Characters>
+        <Text>~b~Ty: ~s~</Text>
+        <Text>~y~Osoba: ~s~</Text>
+        <Text>~q~Kapitan: ~s~</Text>
+        <Text>~r~Asystentka Caty: ~s~</Text>
+        <Text>~r~Asystentka Nicole: ~s~</Text>
+    </Characters>
+
+    <TalkToCaptain>
+        <Dialogue>Witaj, dziękuję za przybycie!</Dialogue>
+        <Dialogue>Dziś wieczorem będziemy mieli imprezę, którą prowadzi sam ~g~DJ Moodyman~s~!</Dialogue>
+        <Dialogue>Niestety prawdopodobnie mamy tu kilku nieletnich.</Dialogue>
+        <Dialogue>Proszę sprawdź ich, nie mogą tu być.</Dialogue>
+        <Dialogue>Poszukaj osób, które pasują do opisu.</Dialogue>
+    </TalkToCaptain>
+
+    <Caty>
+        <Dialogue>Hej, mam nadzieję, że uda ci się znaleźć młodzież na pokładzie, pamiętaj żeby sprawdzić tył statku!</Dialogue>
+        <Dialogue>~g~DJ Moodyman~s~ gra na podwyższeniu, postaraj się nie wchodzić na scene, żeby nie zepsuć imprezy c;</Dialogue>
+    </Caty>
+
+    <Nicole>
+        <Dialogue>Oh, witam..</Dialogue>
+        <Dialogue>Podejdź do mnie, jeżeli czegoś potrzebujesz, postaram się pomóc jak tylko będę mogła!</Dialogue>
+    </Nicole>
+
+    <PedToCheck0>
+        <Dialogue>Witaj, pracuję w lokalnym departamencie policji!</Dialogue>
+        <Dialogue>Otrzymaliśmy zgłoszenie o nieletnich przebywających tutaj i spożywających alkohol.</Dialogue>
+        <Dialogue>Muszę sprawdzić twoje dokumenty i twój stan trzeźwości.</Dialogue>
+    </PedToCheck0>
+
+    <PedToCheck1>
+        <Dialogue>Witaj, jestem z lokalnego departamentu policji.</Dialogue>
+        <Dialogue>Otrzymaliśmy zgłoszenie o nieletnich przebywających tutaj i spożywających alkohol.</Dialogue>
+        <Dialogue>Poproszę twój dowód tożsamości, dodatkowo przeprowadzimy test trzeźwości.</Dialogue>
+    </PedToCheck1>
+
+    <PedToCheck2>
+        <Dialogue>Hej, jestem z lokalnego departamentu policji.</Dialogue>
+        <Dialogue>Otrzymaliśmy zgłoszenie o nieletnich przebywających tutaj i spożywających alkohol.</Dialogue>
+        <Dialogue>Muszę sprawdzić twoje dokumenty i twój stan trzeźwości.</Dialogue>
+    </PedToCheck2>
+
+    <Transport>
+        <Text>Naciśnij ~y~1~s~, gdy skończysz, aby ~y~przenieść~s~ siebie i podejrzanego do ~b~transportera policyjnego~s~.</Text>
+        <Text>Zabierz podejrzanego(/ych) do ~b~niebieskiego znacznika~s~, aby oczekiwali na łodzi policyjnej.</Text>
+        <Text>Zawieź podejrzanych do więzienia, naciśnij ~y~End~s~ w dowolnym momencie, aby zakończyć wezwanie.</Text>
+        <Text>Proszę ~b~wypuść~s~ podejrzanego i ~b~odsuń się~s~.</Text>
+        <Text>~b~Podejrzany~s~ oczekuje na łodzi policyjnej.</Text>
+    </Transport>
+
+</MinorAlcohol>

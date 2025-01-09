@@ -1,0 +1,21 @@
+<VehicleSpotted>
+
+    <General>
+    <CalloutMessage>Gesichtetes Fluchtfahrzeug</CalloutMessage>
+        <Text>Suchen Sie nach dem ~o~Verdächtigen~s~.</Text>
+        <Text>Ein Beamter hat ein Fahrzeug entdeckt, das zuvor bei einer Verkehrskontrolle geflüchtet ist. Sprechen Sie zuerst mit ihm.</Text>
+        <Text>~g~Richtiger Verdächtiger verhaftet~s~</Text>
+    </General>
+
+    <Persons>
+        <Text>Beamter</Text>
+    </Persons>
+
+    <D_Officer>
+        <Dialogue>Hallo Kollege, schön, Sie zu sehen! Es sieht so aus, als hätten Sie sich einen ordentlichen Bauch angefuttert, oder?</Dialogue>
+        <Dialogue>Wie auch immer, ich habe dieses Fahrzeug hier entdeckt, das uns zuvor entkommen ist.</Dialogue>
+        <Dialogue>Der Verdächtige muss sich in der Nähe befinden, wir wissen nur, dass er ein weißer Mann ist.</Dialogue>
+        <Dialogue>Ich vermute, er ist in das Einkaufszentrum gegangen, er hat wahrscheinlich Hunger.</Dialogue>
+    </D_Officer>
+
+</VehicleSpotted>

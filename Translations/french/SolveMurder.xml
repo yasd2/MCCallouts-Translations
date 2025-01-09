@@ -1,0 +1,65 @@
+<SolveMurder>
+
+    <General>
+        <Text>~r~Détective~s~ dans une affaire de meurtre requis</Text>
+        <Text>~g~Radio~s~ : Conduisez jusqu'à la ~y~Station-service Mount Chiliad~w~ sur l'autoroute, ~r~Détective~w~ requis.</Text>
+    </General>
+
+    <Officer>
+        <Dialogue>Allez voir l' ~b~officier~w~ et parlez-lui en utilisant </Dialogue>
+        <Dialogue>~b~Officier~s~ : Bonjour Détective ! Heureux que vous soyez là !</Dialogue>
+        <Dialogue>~b~Officier~s~ : Nous avons une personne décédée à ma droite et deux suspects potentiels.</Dialogue>
+        <Dialogue>~b~Officier~s~ : S'il vous plaît, allez sur la ~r~scène de crime~w~ à ma droite et ~r~enquêtez~s~, voyez si vous pouvez trouver quelque chose.</Dialogue>
+    </Officer>
+
+    <Evidence>
+        <Text>~y~Vous~s~ : Une ~r~bouteille d'alcool vide et fraîche~s~, je me demande si elle appartient à la victime...</Text>
+        <Text>~y~Vous~s~ : Les blessures semblent être duent à ~o~plusieurs coups de couteau~s~, au cou, au ventre et au dos.</Text>
+        <Text>~y~Vous~s~ : Des ~g~chips~w~ ? Quelqu'un a ~g~récemment~w~ ~g~mangé~w~ ces...</Text>
+        <Text>Enquête terminée ! Allez voir un ~r~suspect~w~ et parlez-lui en utilisant </Text>
+    </Evidence>
+
+    <Suspect1>
+        <Dialogue>Parlez au ~o~suspect~w~ en utilisant </Dialogue>
+        <Dialogue>~y~Vous~s~ : Bonjour, je suis le détective dans cette affaire, j'ai quelques questions à vous poser.</Dialogue>
+        <Dialogue>~o~Ayla May~s~ : Je suis tellement ~r~nerveuse~w~ mais je n'ai rien à voir avec ça.</Dialogue>
+        <Dialogue>~y~Vous~s~ : Ne vous inquiétez pas, vous allez bien c'est l'essentiel. Quel type d’alcool buvez-vous ?</Dialogue>
+        <Dialogue>~o~Ayla May~s~ : Je bois de l'alcool aussi bon que ~g~jamais~w~... et si je le fais, peut-être un verre de vin rouge.</Dialogue>
+        <Dialogue>~y~Vous~s~ : Est-ce que vous mangez des ~r~chips~w~ parfois ?</Dialogue>
+        <Dialogue>~o~Ayla May~s~ : ~g~Non~w~, j'ai une vie saine, je fais beaucoup de sport aussi.</Dialogue>
+        <Dialogue>~y~Vous~s~ : ça sera tout pour le moment, merci.</Dialogue>
+    </Suspect1>
+
+    <Suspect2>
+        <Dialogue>Parlez au ~o~suspect~w~ en utilisant </Dialogue>
+        <Dialogue>~y~Vous~s~ : Bonjour, je suis le ~r~détective~s~ dans cette affaire, puis-je vous poser quelques questions ?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~ : Salut ! Yeeeaaaaahh, ne sois pas timide *rires*</Dialogue>
+        <Dialogue>~y~Vous~s~ : Vous semblez ~r~ivre~w~, qu' avez-vous bu ?!</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~ : Je n'ai rien bu, pas même une bière...</Dialogue>
+        <Dialogue>~y~Vous~s~ : S'il vous plaît, soyez serieux. Vous travaillez ?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~ : Bien sûr, je suis un ~o~garde de chasse~w~, dans une forêt pas très loin d'ici.</Dialogue>
+        <Dialogue>~y~Vous~s~ : D'accord, est-ce que vous mangez des ~r~chips~w~ ?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~ : Ouais, ~r~J'ADORE les chips~w~, j'en mange toujours, ~y~Je viens d'en manger un paquet...</Dialogue>
+        <Dialogue>~y~Vous~s~ : Nous avons terminé les questions, je reviendrais vers vous.</Dialogue>
+    </Suspect2>
+
+    <Officer2>
+        <Dialogue>Allez parler à nouveau à l'~b~Officier~w~ en utilisant </Dialogue>
+        <Dialogue>~b~Officier~w~ : Avez-vous découvert quelque chose? Qui est le ~r~meurtrier~w~ ?</Dialogue>
+        <Dialogue>~y~Vous~s~ : Oui, je pense que le meurtrier est... ~o~[1] Ayla May ~r~[2] Jameson Fisher</Dialogue>
+        <Dialogue>Appuyez sur ~o~'1' ~w~ou ~r~'2' ~w~pour choisir le ~r~meurtrier.</Dialogue>
+        <Dialogue>~y~Vous~s~ : ...~o~Ayla May~w~!</Dialogue>
+        <Dialogue>~y~Vous~s~ : ...~r~Jameson Fisher~w~!</Dialogue>
+        <Dialogue>~b~Officier~w~ : Très bien, interpellez le suspect !</Dialogue>
+    </Officer2>
+
+    <Arrest>
+		<Text>Oh non, vous avez arrêté une personne ~r~innocent~w~ ! ~o~Code 4~w~</Text>
+        <Text>L'enquête est en ~g~Code 4~w~, affaire ~g~résolue~w~, ~g~ le bon suspect a été arrêté !</Text>
+        <Text>Appelez une ~b~ambulance~w~ pour récupérer la ~y~victime~w~, puis transportez le ~r~suspect~w~ à la ~o~prison~w~.</Text>
+        <Text>~g~Ayla May ~r~décédée.~s~ Etes-vous sûr que c'était nécessaire ? ~g~Code 4~s~</Text>
+        <Text>~b~Jameson Fisher ~r~décédé,~s~ J'espère que vous avez un bon avocat !? ~g~Code 4~s~</Text>
+        <Text>Les ~b~Officiers~ ~r~morts~, ce n'est pas une bonne fin !? ~g~Code 4~s~</Text>
+    </Arrest>
+
+</SolveMurder>

@@ -1,0 +1,61 @@
+<NoiseComplaint>
+    <General>
+        <Text>Noise Complaint</Text>
+        <Text>Report of a loud house party</Text>
+        <Text>Neighbours called in a noise complaint. Make sure the ~o~event~s~ organizer lowers the music volume.</Text>
+        <Text>Press {Key} to adjust the volume for yourself.</Text>
+    </General>
+
+    <Persons>
+        <Text>You</Text>
+        <Text>Owner</Text>
+        <Text>DJ</Text>
+    </Persons>
+
+    <Tasks>
+        <Text>Leave the party by driving towards the ~y~yellow marker~s~.</Text>
+        <Text>Act like you think is right here, then talk to the ~g~~h~DJ~h~~s~.</Text>
+        <Text>A caller reported a noise complaint at the same adress as before. Respond Code 2.</Text>
+    </Tasks>
+
+    <OwnerCooperative>
+        <Dialogue>Hello Officer, how can I help?</Dialogue>
+        <Dialogue>We got a call about the loud music. Please lower the volume.</Dialogue>
+        <Dialogue>If I need to come here again, you'll get a citation for the loud music.</Dialogue>
+        <Dialogue>Alright, alright, we will lower it.</Dialogue>
+        <Dialogue>Thanks for the cooperation, enjoy the night.</Dialogue>
+    </OwnerCooperative>
+
+    <OwnerUncooperative>
+        <Dialogue>Yoo, the po-po, what the fuck are you doing here?</Dialogue>
+        <Dialogue>We were disptached to this address about the loud music.</Dialogue>
+        <Dialogue>The fuck, does this look like a kindergarten? We're fucking partying!!</Dialogue>
+        <Dialogue>Sir, turn the music down immediately.</Dialogue>
+        <Dialogue>I'm doing shit, you gonna have to arrest me or leave, pig.</Dialogue>
+    </OwnerUncooperative>
+
+    <OwnerSecond>
+        <Dialogue>Hello again, we got another call about your music being to loud.</Dialogue>
+        <Dialogue>And as I can hear you turned the volume up again instead of keeping it lower...</Dialogue>
+        <Dialogue>Oh common Officer, we just having fun, we have a big party going on.</Dialogue>
+        <Dialogue>That's fine, as long as the music is at an acceptable volume.</Dialogue>
+        <Dialogue>If I have to come again, you will be arrested!</Dialogue>
+        <Dialogue>I will give you a citation since it's the second time I'm here.</Dialogue>
+        <Dialogue>Have a nice, but quieter night.</Dialogue>
+    </OwnerSecond>
+
+    <DJ>
+        <Dialogue>Hello sir, you are the DJ here, right?</Dialogue>
+        <Dialogue>Yes sir, I'm sorry for the ~o~owner~s~, my name is ~g~DJ Moodyman~s~.</Dialogue>
+        <Dialogue>Oh, you have played on the yacht some time ago, right?</Dialogue>
+        <Dialogue>Yeah, I remember you were there. Anyways, what can I do for you?</Dialogue>
+        <Dialogue>Please turn down the volume, we have neighbours who feel bothered.</Dialogue>
+        <Dialogue>Oh yeah, no problem, I will. I'm sorry the owner is that uncooperative.</Dialogue>
+        <Dialogue>I'll see what I'll do with him. Have a nice day!</Dialogue>
+    </DJ>
+
+    <End>
+        <Text>~g~Callout is Code 4.</Text>
+        <Text>Press ~y~End~s~ anytime to end the callout.</Text>
+    </End>
+</NoiseComplaint>

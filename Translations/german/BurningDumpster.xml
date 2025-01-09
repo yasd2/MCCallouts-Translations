@@ -1,0 +1,62 @@
+<BurningDumpster>
+
+    <General>
+        <Text>~r~Brennender Müllcontainer~b~ gemeldet</Text>
+        <Text>Einheit mit Feuerlöscher, antworten Sie mit Code 2</Text>
+        <Text>Fahren Sie zum Ort und löschen Sie das ~r~Feuer~s~ oder rufen Sie die ~r~Feuerwehr!</Text>
+    </General>
+
+    <Persons>
+        <Text>Anrufer</Text>
+        <Text>Sie</Text>
+    </Persons>
+
+    <Extingiush>
+        <Text>Um einen ~r~Feuerlöscher~s~ zu holen, gehen Sie zum Kofferraum und drücken Sie</Text>
+        <Text>~r~Feuerlöscher~s~ ausgerüstet!</Text>
+        <Text>Durchsuchen Sie nun nach ~y~Beweisen~s~, indem Sie {Key} drücken, während Sie in den ~y~Markierungen~s~ sind.</Text>
+    </Extingiush>
+
+    <Tasks>
+        <Text>Sprechen Sie mit dem 911-~b~Anrufer~s~</Text>
+        <Text>Drücken Sie {MusicMenuKey}, um das Bild jederzeit erneut anzusehen!</Text>
+        <Text>Dispatch, Verdächtiger ist ~r~auf der Flucht!</Text>
+    </Tasks>
+
+    <Caller>
+        <Dialogue>Hallo, sind Sie derjenige, der den brennenden Müll gemeldet hat?</Dialogue>
+        <Dialogue>Ja, das bin ich. Ich wollte eine verdächtige Person melden, die ich gesehen habe.</Dialogue>
+        <Dialogue>Ich ging an dem Müllcontainer vorbei, als ich eine Person weggehen sah.</Dialogue>
+        <Dialogue>Gleich danach fing das Feuer an zu brennen!</Dialogue>
+        <Dialogue>Das klingt verdächtig, haben Sie Einzelheiten zum Verdächtigen?</Dialogue>
+        <Dialogue>Sicher, es war ein {gender} und ungefähr {age} Jahre alt.</Dialogue>
+        <Dialogue>Ich konnte ein Foto machen, hier ist es!</Dialogue>
+        <Dialogue>Danke, wir suchen jetzt nach dem Verdächtigen. Auf Wiedersehen!</Dialogue>
+    </Caller>
+
+    <Genders>
+        <Text>weiblich</Text>
+        <Text>männlich</Text>
+        <Text>nicht-binär</Text>
+    </Genders>
+
+    <Evidence>
+        <Dialogue>Ein Molotowcocktail, das war kein Unfall... jemand wollte ein Feuer entfachen.</Dialogue>
+        <Dialogue>Ein Benzinkanister, sieht so aus, als hätte jemand etwas anzünden wollen.</Dialogue>
+        <Dialogue>Eine Bong? Merkwürdig... vielleicht war jemand zu high, um das Feuer zu bemerken, das er verursacht hat.</Dialogue>
+        <Dialogue>Eine Splittergranate. Das ist kein einfaches Feuer, wir haben es mit etwas viel Gefährlicherem zu tun.</Dialogue>
+        <Dialogue>Eine Rauchgranate. Könnte benutzt worden sein, um ihre Spuren zu verwischen, bevor das Feuer gelegt wurde.</Dialogue>
+        <Dialogue>Eine zerbrochene Flasche. Es scheint improvisiert zu sein, könnte aber verwendet worden sein, um das Feuer zu entzünden.</Dialogue>
+        <Dialogue>Ein Gaszylinder. Wenn das explodiert wäre, hätte die ganze Gegend in Flammen stehen können.</Dialogue>
+        <Dialogue>Ein Ölfass. Es leckt... und ist hochentzündlich. Sieht aus, als wollte jemand das Feuer ausbreiten.</Dialogue>
+        <Dialogue>Eine Benzinkanister. Riecht nach Benzin... jemand wollte diesen Ort wirklich niederbrennen.</Dialogue>
+        <Dialogue>Eine Socke? Nun, es mag nicht viel erscheinen, aber es riecht so schlecht, dass es eine Brandgefahr darstellen könnte.</Dialogue>
+        <Dialogue>Typisch. Jemand hat eine brennende Zigarette in den Müll geworfen, dann fing es an zu brennen.</Dialogue>
+        <Dialogue>Eine Socke? Nun, es mag nicht viel erscheinen, aber es riecht so schlecht, dass es eine Brandgefahr darstellen könnte.</Dialogue>
+    </Evidence>
+
+    <End>
+        <Text>~g~Situation ist Code 4.</Text>
+    </End>
+    
+</BurningDumpster>

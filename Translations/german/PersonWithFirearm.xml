@@ -1,0 +1,35 @@
+<PersonWithFirearm>
+
+    <General>
+        <Text>Person mit Schusswaffe</Text>
+        <Text>Es wird vermutet, dass eine Person eine Schusswaffe trägt. Nehmen Sie Kontakt auf.</Text>
+        <Text>Gehen Sie auf den ~r~Verdächtigen~w~ zu und führen Sie ein ~y~Gespräch~w~.</Text>
+        <Text>Drücken Sie {0}, um den Verdächtigen zu stoppen und mit ihm zu sprechen.</Text>
+        <Text>Es gibt keinen weiteren Dialog mit dem ~r~Verdächtigen~w~.</Text>
+    </General> 
+
+    <Conversation>
+        <Dialogue>~b~Du:~w~ Hallo, ist es okay, wenn wir kurz reden?</Dialogue>
+        <Dialogue>~r~Verdächtiger:~w~ Nein, wer sind Sie?! Was wollen Sie!</Dialogue>
+        <Dialogue>~b~Du:~w~ Ich möchte nur plaudern. Ich glaube, Sie könnten eine Waffe bei sich tragen.</Dialogue>
+        <Dialogue>~r~Verdächtiger:~w~ Das stimmt nicht! Sie haben die falsche Person.</Dialogue>
+        <Dialogue>~b~Du:~w~ Bitte arbeiten Sie mit uns zusammen, damit wir die Dinge klären können.</Dialogue>
+    </Conversation>
+
+    <Shooting>
+        <Dialogue>~r~Verdächtiger:~w~ NEIN! NIEMALS!</Dialogue>
+    </Shooting>
+
+    <Surrender>  
+        <Dialogue>~r~Verdächtiger:~w~ Okay, es tut mir leid...was muss ich tun?</Dialogue>
+        <Dialogue>~b~Du:~w~ Bitte nehmen Sie die Hände hoch, damit ich Sie festnehmen kann.</Dialogue>
+        <Dialogue>~r~Verdächtiger:~w~ Ja, Herr Polizist...es tut mir leid...</Dialogue>
+    </Surrender>
+
+    <End>
+        <Text>Verdächtiger in Gewahrsam, ~g~Code 4~w~</Text>
+        <Text>~g~Code 4~w~</Text>
+        <Text>Der ~r~Verdächtige ist gestorben.~g~ Code 4</Text>
+    </End>
+
+</PersonWithFirearm>

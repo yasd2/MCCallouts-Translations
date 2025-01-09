@@ -1,0 +1,83 @@
+<LostObject>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+
+    <General>
+        <Text>落とし物</Text>
+        <Text>通報者が落とし物をしました。警察の介入が必要です。</Text>
+        <Text>~g~通報者~s~の場所に向かい、何が起きているのか確認してください。</Text>
+    </General>
+
+
+    <DisplayHelp>
+        <Text>次のキーを押して通報者と話す: </Text>
+        <Text>~o~携帯電話~s~を探す。</Text> <!--Search for the ~o~cellphone~s~. Press __Key-Y__  to pick up the object.-->
+        <Text>~o~財布~s~を探す。</Text>    <!--Search for the ~o~wallet~s~. Press __Key-Y__  to pick up the object.-->
+        <Text>~o~靴~s~を探す。</Text>      <!--Search for the ~o~shoe~s~. Press __Key-Y__  to pick up the object.-->
+        <Text>を押して落ちているものを拾う。</Text>
+        <Text></Text>                                 <!--Press __Key-Y__ to shout to the caller!-->
+        <Text>を押して、通報者に知らせる。</Text>               <!--Press __Key-Y__ to shout to the caller!-->
+        <Text>助けになる簡単な~r~ヒント~s~。</Text>
+        <Text>~g~1~s~を押して受け入れ、~r~2~s~を押して拒否する。</Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+        <Text>~r~携帯電話~s~を見つけた!</Text>
+        <Text>~r~財布~s~を見つけた!</Text>
+        <Text>~r~靴~s~を見つけた!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>~y~あなた~s~: こんにちは、あなたが通報者ですか?</Dialogue>
+        <Dialogue>~b~通報者~s~: 待って、今行きます!</Dialogue>
+        <Dialogue>~b~通報者~s~: 本当にありがとう! あなたのような目が羨ましいです!</Dialogue>
+        <Dialogue>~y~あなた~s~: 心配いりませんよ、では!</Dialogue>
+    </Conversation>
+
+
+    <OutcomeCellphone>
+        <Dialogue>~b~通報者~s~: はい、通報しました。携帯電話が見つからないんです。</Dialogue>
+        <Dialogue>~y~あなた~s~: なるほど。探すのをお手伝いしましょう。</Dialogue>
+        <Dialogue>~y~あなた~s~: 最後に使ったのはいつですか?</Dialogue>
+        <Dialogue>~b~通報者~s~: ここを歩いていて、確かポケットに入れたと思います。</Dialogue>
+        <Dialogue>~y~あなた~s~: だとしたら近くにあるはずです。探してみましょう。</Dialogue>
+        <Dialogue>~y~あなた~s~: 携帯電話、見つけましたよ!</Dialogue>
+    </OutcomeCellphone>
+
+
+    <OutcomeWallet>
+        <Dialogue>~b~通報者~s~: はい、通報しました。財布が見つからないんです。</Dialogue>
+        <Dialogue>~y~あなた~s~: なるほど。探すのをお手伝いしましょう。</Dialogue>
+        <Dialogue>~y~あなた~s~: 最後に使ったのはいつですか?</Dialogue>
+        <Dialogue>~b~通報者~s~: ええ、数分前です。この近くで使いました。</Dialogue>
+        <Dialogue>~y~あなた~s~: だとしたら近くにあるはずです。探してみましょう。</Dialogue>
+        <Dialogue>~y~あなた~s~: 財布、見つけましたよ!</Dialogue>
+    </OutcomeWallet>
+
+
+    <OutcomeShoe>
+        <Dialogue>~b~通報者~s~: はい、あなたの助けが必要です。とても重大な問題です。</Dialogue>
+        <Dialogue>~b~通報者~s~: 靴を失くしました... 古い靴ですが、それがとても大好きだったんです!</Dialogue>
+        <Dialogue>~y~あなた~s~: あー、申し訳ありませんが、それはお助けできませんね...</Dialogue>
+        <Dialogue>~b~通報者~s~: けど1万5千円したんだ! 申し訳ありませんが、探すのを手伝っていただけませんか?</Dialogue>
+        <Dialogue>~y~あなた~s~: 分かりました。お助けしましょう。近くにあるはずです。</Dialogue>
+        <Dialogue>~y~あなた~s~: いえ、言ったとおりです。警察は非常時のみお呼びください。良い一日を。</Dialogue>
+        <Dialogue>~y~あなた~s~: 靴、見つけましたよ!</Dialogue>
+        <Dialogue>~y~あなた~s~: 次からは緊急時のみ通報してください。では!</Dialogue>
+    </OutcomeShoe>
+
+
+    <End>
+        <Text>~g~事案終了~s~です。~b~落とし物~s~は~g~見つかりました~s~。</Text>
+        <Text>~g~事案終了~s~</Text>
+    </End>
+
+
+
+</LostObject>

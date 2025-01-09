@@ -1,0 +1,30 @@
+<SearchWarrant>
+
+    <General>
+        <CalloutMessage>Ein Bürger meldet einen Einbruch</CalloutMessage>
+        <Text>Fahren Sie zum Ort des Einbruchs und gehen Sie vorsichtig vor.</Text>
+        <Text>Suchen Sie nach Beweisen, drücken Sie {0}, um diese aufzuheben.</Text>
+    </General>
+
+    <FalseAlarm>
+        <Dialogue>Zentrale, hier ist nichts los.</Dialogue>
+        <Dialogue>Verstanden, kehren Sie zur Streife zurück.</Dialogue>
+    </FalseAlarm>
+
+    <AnimalOnScene>
+        <Dialogue>Zentrale, Fehlalarm, hier verursacht nur ein Tier Chaos.</Dialogue>
+        <Dialogue>Verstanden, kehren Sie zur Streife zurück.</Dialogue>
+    </AnimalOnScene>
+
+    <BurglarLeft>
+        <Dialogue>Zentrale, wir haben Anzeichen eines Eindringlings, wir durchsuchen den Tatort.</Dialogue>
+        <Dialogue>Hmm, das hilft nicht weiter.</Dialogue>
+        <Dialogue>Zentrale, ich habe ein Dokument von {DriversName} gefunden.</Dialogue>
+        <Dialogue>Ich habe ein ALPR-Treffer auf ein schnell fahrendes Fahrzeug, der Besitzer ist {DriversName}.</Dialogue>
+    </BurglarLeft>
+
+    <BurglarIsLeaving>
+        <Dialogue>Zentrale, ein Fahrzeug ~r~flieht~s~, zwei Insassen!</Dialogue>
+    </BurglarIsLeaving>
+
+</SearchWarrant>

@@ -1,0 +1,50 @@
+<Shooting>
+
+    <General>
+        <Text>Strelba</Text>
+        <Text>dve osoby po sobe strileji z pistoli</Text>
+        <Text>Jedte na misto udalosti pod ~b~Kodem 3~s~, dva strelci tak strileji, ~r~pozor~s~, ~r~vystrely~s~!</Text>
+        <Text>~y~Dustojnik~s~: ~p~Odhodte ~r~zbrane~s~, ~b~Policie~s~!!!</Text>
+        <Text>Zavolejte si posilu!</Text>
+        <Text></Text>
+        <Text></Text>
+    </General>
+
+
+    <Outcomes>
+
+        <StillShooting>
+			<Text>~y~Dustojnik~s~: Zda se, ze neposlouchaji, budu muset pouzit ~r~donucovaci prostredky~s~ abych upoutal jejich ~o~reakci~s~!</Text>
+        </StillShooting>
+
+        <Surrender>
+            <Text>~r~Prvni podezrely~s~: Nestrilejte, ~g~vzdavam se~s~!</Text>
+            <Text>~p~Druhy podezrely~s~: Take se ~g~vzdavam~s~!</Text>
+        </Surrender>
+
+        <ShootAtPlayer>
+            <Text>Sakra!!! Policii sejmi je!</Text>
+            <Text>~p~Podezrely~s~: Vzdavam se, klidne me dejte do vezeni, koncim.</Text>
+        </ShootAtPlayer>
+
+    </Outcomes>
+
+    <Arrest>
+        <Text>Dispatch, jeden podezrely je ~y~zadrzen~w~!</Text>
+        <Text>Dispatch, jeden podezrely je ~o~dole~w~!</Text>
+    </Arrest>
+
+    <OnScene>
+        <Text>Zavolejte ~b~prevoz~s~ pro oba ~r~podezrele~s~.</Text>
+        <Text>Zavolejte ~b~prevoz~s~ a ~p~koronera~s~ pro kazdeho z ~r~podezdelych~s~.</Text>
+        <Text>Zavolejte ~p~koronera~s~ pro oba ~r~podezrele~s~.</Text>
+    </OnScene>
+
+    <End>
+        <Text>Doslo k chybe ~r~GTA ped~s~, callout ~g~ukoncen~s~</Text>
+        <Text>~y~Dustojnik~s~ zemrel, Callout ~g~ukoncen~s~</Text>
+        <Text>Callout byl ukoncen</Text>
+        <Text>Callout je pod ~g~Kodem 4~s~, ~b~vymazte scenu~s~ a prejdete zpet do ~g~patroly~s~.</Text>
+    </End>
+
+</Shooting>

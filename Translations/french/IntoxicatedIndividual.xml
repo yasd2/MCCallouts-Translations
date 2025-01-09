@@ -1,0 +1,22 @@
+<IntoxicatedIndividual>
+
+    <General>
+        <Text>Ivresse publique et manifeste</Text>
+        <Text>Monsieur</Text>
+        <Text>Madame</Text>
+        <Text>Appuyer sur {0} pour parler au suspect.</Text>
+        <Text>~y~Vous~s~: Excusez-moi {0}, Vous avez besoin d'aide?</Text>
+        <Text>~p~Suspect~s~: Nahhh *hic* c'est bon *hic* tout vas bien.</Text>
+        <Text>~y~Vous~s~: Etre en état d'ivresse sur la voie publique c'est interdit. Je dois vous verbaliser.</Text>
+        <Text>~p~Suspect~s~: Quoi?! Dégages!.</Text>
+        <Text>Le susupect n'a plus rien à dire.</Text>
+    </General>
+
+    <End>
+        <Text>Suspect interpellé! ~g~Code 4~s~</Text>
+        <Text>Suspect à terre, ~g~Code 4~w~</Text>
+        <Text>~g~Code 4~w~</Text>
+        <Text>~r~GTA Ped Error,~s~ Fin d'intervention</Text>
+    </End>
+
+</IntoxicatedIndividual>

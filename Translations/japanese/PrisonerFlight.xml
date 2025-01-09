@@ -1,0 +1,35 @@
+<PrisonerFlight>
+
+    <General>
+        <Text>飛行機による囚人の移送</Text>
+        <Text>囚人の移送においてパイロットが必要です。</Text>
+        <Text>~g~空港~s~へ向かって下さい。飛行機は既に待機しています!</Text>
+    </General>
+
+    <Agent>
+        <Dialogue>次のキーを押して~b~担当者~s~と話す: </Dialogue>
+        <Dialogue>~y~あなた~s~: こんにちは、移送のため警察署から来たパイロットです。何をする必要がありますか?</Dialogue>
+        <Dialogue>~b~担当者~s~: どうも、あの囚人はとても危険です。そして、我々はノース・ヤンクトンに移送する必要があります。</Dialogue>
+        <Dialogue>~b~担当者~s~: このプライベートジェットを使います。既に囚人は中に乗っています。</Dialogue>
+        <Dialogue>~b~担当者~s~: 目的地まで飛行して下さい。ナビに全て表示されるので、迷子になることはありません。</Dialogue>
+        <Dialogue>~b~担当者~s~: 現地の警察が待機しているはずです。安全なフライトを!</Dialogue>
+        <Dialogue>飛行機に乗り込み、~o~目的地~s~までフライトする。</Dialogue>
+        <Dialogue>これ以上の対話はありません。</Dialogue>
+    </Agent>
+
+    <Officer>
+        <Dialogue>地図上の~o~目的地マーカー~s~まで飛行して下さい。</Dialogue>
+        <Dialogue>次のキーを押して~b~警官~s~と話す: </Dialogue>
+        <Dialogue>~b~Officer~s~: こんにちは、そしてようこそ、ノース・ヤンクトンへ。</Dialogue>
+        <Dialogue>~b~Officer~s~: ここは周りより寒いかもしれません... そして道路は滑りやすいです。</Dialogue>
+        <Dialogue>~b~Officer~s~: 対象は既に車両に乗り込みました。</Dialogue>
+        <Dialogue>~b~Officer~s~: GPSに表示された~g~刑務所~s~まで我々のパトカーで運転して下さい。</Dialogue>
+        <Dialogue>車両に乗り込み、~g~刑務所~s~まで運転する。</Dialogue>
+        <Dialogue>これ以上の対話はありません。</Dialogue>
+        <Dialogue>GPS上の~g~刑務所~s~まで運転する。</Dialogue>
+        <Dialogue>移送を達成</Dialogue>
+        <Dialogue>お疲れ様でした!</Dialogue>
+        <Dialogue>事案終了</Dialogue>
+    </Officer>
+
+</PrisonerFlight>

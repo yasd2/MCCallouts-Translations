@@ -1,0 +1,83 @@
+<LostObject>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+
+    <General>
+      <Text>Oggetto perduto</Text>
+         <Text>Il chiamante ha perso un oggetto, richiesta la polizia</Text>
+       <Text><![CDATA[Vai dal ~g~chiamante~s~ e scopri qual è il problema.]]></Text>
+    </General>
+
+
+    <DisplayHelp>
+        <Text>Parla con il chiamante premendo  </Text>
+        <Text>Cerca il ~o~cellulare~s~. Premi  </Text> <!--Search for the ~o~cellphone~s~. Press __Key-Y__  to pick up the object.-->
+        <Text>Cerca il ~o~portafoglio~s~. Premi </Text>    <!--Search for the ~o~wallet~s~. Press __Key-Y__  to pick up the object.-->
+        <Text>Cerca le ~o~scarpe~s~. Premi </Text>      <!--Search for the ~o~shoe~s~. Press __Key-Y__  to pick up the object.-->
+        <Text> per raccogliere l'oggetto.</Text>
+        <Text>Premi </Text>                                 <!--Press __Key-Y__ to shout to the caller!-->
+        <Text>per gridare al chiamante!</Text>               <!--Press __Key-Y__ to shout to the caller!-->
+  <Text>Ecco un ~r~suggerimento~s~ come aiuto.</Text>
+         <Text>Premi ~g~1 ~s~ per accettare o ~r~2~s~ per annullare.</Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+      <Text>~r~Cellulare~s~ trovato!</Text>
+         <Text>~r~Portafoglio~s~ trovato!</Text>
+         <Text>~r~Scarpa~s~ trovata!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>~y~Tu~s~: Ciao, sei stato tu a chiamare?</Dialogue>
+         <Dialogue>~b~Chiamante~s~: Aspetta, sto arrivando!</Dialogue>
+         <Dialogue>~b~Chiamante~s~: Grazie mille! Vorrei avere occhi come te!</Dialogue>
+         <Dialogue>~y~Tu~s~: Non preoccuparti, ciao!</Dialogue>
+    </Conversation>
+
+
+    <OutcomeCellphone>
+       <Dialogue>~b~Chiamante~s~: Sì, ho chiamato. Non riesco a trovare il mio cellulare.</Dialogue>
+         <Dialogue>~y~Tu~s~: Capisco. Ti aiuterò a trovarlo.</Dialogue>
+         <Dialogue>~y~Tu~s~: Quando è stata l'ultima volta che l'hai usato?</Dialogue>
+      <Dialogue><![CDATA[~b~Chiamante~s~: Stavo camminando proprio qui e pensavo di averlo messo in tasca.]]></Dialogue>
+   <Dialogue>~y~Tu~s~: Allora dev'essere da qualche parte nelle vicinanze. Diamo un'occhiata.</Dialogue>
+         <Dialogue>~y~Tu~s~: Ehi, ho trovato il tuo cellulare!</Dialogue>
+    </OutcomeCellphone>
+
+
+    <OutcomeWallet>
+       <Dialogue><![CDATA[~b~Chiamante~s~: Sì, sono stato io. Ho perso il portafoglio e non riesco a trovarlo.]]></Dialogue>
+        <Dialogue>~y~Tu~s~: Oh cielo. Sono sicuro che lo troveremo.</Dialogue>
+         <Dialogue>~y~Tu~s~: Ricordi l'ultima volta che l'avevi?</Dialogue>
+         <Dialogue>~b~Chiamante~s~: Sì, solo un minuto fa. Dev'essere da queste parti.</Dialogue>
+         <Dialogue>~y~Tu~s~: Ok, cerchiamo nel tuo portafoglio.</Dialogue>
+         <Dialogue>~y~Tu~s~: Ehi, ho trovato il tuo portafoglio!</Dialogue>
+    </OutcomeWallet>
+
+
+    <OutcomeShoe>
+        <Dialogue>~b~Chiamante~s~: Sì, ho bisogno del tuo aiuto. Ho un grosso problema.</Dialogue>
+         <Dialogue>~b~Chiamante~s~: Ho perso la mia scarpa... la mia povera scarpa, mi piaceva così tanto!</Dialogue>
+         <Dialogue>~y~Tu~s~: Ahhh... scusa, questo non è un motivo per chiamare la polizia.</Dialogue>
+         <Dialogue>~b~Chiama~s~: Ma era una scarpa da € 500! Mi dispiace, ma potete aiutarmi a cercarlo?</Dialogue>
+         <Dialogue>~y~Tu~s~: Ok, ti aiuterò a cercare nella tua scarpa. Cerchiamo nell'area.</Dialogue>
+         <Dialogue>~y~Tu~s~: No, come ho detto. Si prega di chiamare la polizia solo in caso di emergenza. Buon proseguimento di giornata!</Dialogue>
+         <Dialogue>~y~Tu~s~: Ehi, ho trovato la tua scarpa!</Dialogue>
+         <Dialogue>~y~Tu~s~: Va bene, ma la prossima volta chiama solo per le emergenze! Ciao!</Dialogue>
+    </OutcomeShoe>
+
+
+    <End>
+        <Text>Abbiamo ~g~codice 4~s~, ~b~l'elemento mancante è stato ~g~trovato~s~.</Text>
+         <Text>Codice ~g~4~s~, Caso terminato.</Text>
+    </End>
+
+
+
+</LostObject>
