@@ -1,0 +1,43 @@
+<ATMRobbery>
+
+    <CamText>
+        <Text>CAM1</Text> <!--verwenden Sie einen kurzen Text!-->
+    </CamText>
+
+    <D_Victim>
+        <Dialogue>Hallo, Officer! Ich wurde gerade ausgeraubt!</Dialogue>
+        <Dialogue>Ich hatte gerade Geld am Geldautomaten abgehoben, als eine Person kam und meine Brieftasche nahm!</Dialogue>
+        <Dialogue>Wir haben gekämpft, und er hat mich am Kopf getroffen!</Dialogue>
+        <Dialogue>Leider kann ich mich nicht erinnern, wie die Person aussah...</Dialogue>
+        <Dialogue>Kein Problem, ich sehe, dass wir dort eine Überwachungskamera haben. Ich werde sehen, was ich tun kann.</Dialogue>
+        <Dialogue>Zentrale, können Sie mir Zugriff auf die Überwachungskamera an meinem aktuellen Standort geben?</Dialogue>
+    </D_Victim>
+
+    <D_Suspect>
+        <Dialogue>Was ist Ihr Problem? Warum folgen Sie mir?</Dialogue>
+        <Dialogue>Sie entsprechen der Beschreibung eines kürzlich begangenen Raubüberfalls.</Dialogue>
+        <Dialogue>Sehe ich aus wie ein Krimineller? Das ist lächerlich.</Dialogue>
+        <Dialogue>Sie haben die falsche Person, ich habe nichts getan!</Dialogue>
+    </D_Suspect>
+
+    <Persons>
+        <Text>Opfer</Text>
+        <Text>Sie</Text>
+        <Text>Verdächtiger</Text>
+    </Persons>
+
+    <General>
+        <CalloutMessage>Geldautomaten-Raub</CalloutMessage>
+        <CalloutAdvisory>Eine Person hat gemeldet, dass sie direkt nach dem Geldabheben ausgeraubt wurde</CalloutAdvisory>
+        <Text>Drücken Sie {0}, um mit dem ~g~Anrufer~s~ zu sprechen.</Text>
+        <Text>Bitte warten.</Text>
+        <Text>Sie sollten jetzt Zugriff auf die Kamera haben.</Text>
+        <Text>Drücken Sie {0}, um den Kamerafeed anzuzeigen!</Text>
+        <Text>Wir haben Berichte über einen weiteren Raubüberfall; die ~y~Zone ist auf Ihrem GPS~s~ markiert.</Text>
+        <Text>Drücken Sie {0}, um mit dem ~r~Verdächtigen~s~ zu sprechen.</Text>
+        <Text>Der Verdächtige scheint sich nicht darum zu kümmern.</Text>
+        <Text>Überprüfen Sie ihn.</Text>
+        <Text>Führen Sie eine Verkehrskontrolle durch.</Text>
+    </General>
+
+</ATMRobbery>
