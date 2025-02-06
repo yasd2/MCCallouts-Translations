@@ -4,6 +4,7 @@
         <CalloutMessage>Citizen reports a Burglary</CalloutMessage>
         <Text>Drive to the Burglary, proceed with caution.</Text>
         <Text>Search for evidence, press {0} to pick up.</Text>
+        <Text>Inspect the area around the house.</Text>
     </General>
 
     <FalseAlarm>

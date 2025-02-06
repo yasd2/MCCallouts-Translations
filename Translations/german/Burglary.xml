@@ -4,6 +4,7 @@
         <CalloutMessage>Ein Bürger meldet einen Einbruch</CalloutMessage>
         <Text>Fahren Sie zum Ort des Einbruchs und gehen Sie vorsichtig vor.</Text>
         <Text>Suchen Sie nach Beweisen, drücken Sie {0}, um diese aufzuheben.</Text>
+        <Text>Suche im Bereich um das Haus.</Text>
     </General>
 
     <FalseAlarm>

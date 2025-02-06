@@ -4,6 +4,7 @@
         <CalloutMessage>Il cittadino segnala un furto</CalloutMessage>
         <Text>Guidare fino al furto, procedere con cautela.</Text>
         <Text>Cerca prove, premi {0} per raccoglierle.</Text>
+        <Text>Ispeziona l'area intorno alla casa.</Text>
     </General>
 
     <FalseAlarm>
