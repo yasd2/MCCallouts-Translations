@@ -43,4 +43,14 @@
         </IsAtÜbergabeort>
     </EState>
 
+    <Scenarios>
+        <Text>Sobald die ~g~Übergabe~s~ abgeschlossen ist, gehen Sie hinein und verhaften Sie die ~r~Verdächtigen!</Text>
+        <Text>~r~Schüsse abgegeben!</Text>
+        <Text>Die ~r~Verdächtigen~s~ fliehen, sichern Sie den ~g~Koffer!</Text>
+        <Text>Die Verdächtigen ~r~fliehen~s~, wir nehmen die Verfolgung auf!</Text>
+        <Text>Die Verdächtigen ergeben sich!</Text>
+        <Text>Sie können den ~g~Koffer~s~ mit {0} aufnehmen.</Text>
+        <Text>~g~Koffer~s~ gesichert!</Text>
+    </Scenarios>
+
 </DrugHandover>

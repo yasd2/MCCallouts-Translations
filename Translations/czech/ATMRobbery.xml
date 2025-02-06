@@ -5,39 +5,39 @@
     </CamText>
 
     <D_Victim>
-        <Dialogue>Hello Officer! I have just been robbed!</Dialogue>
-        <Dialogue>I had just finished withdrawing money from the ATM, and then a person came and took my wallet!</Dialogue>
-        <Dialogue>We fought, and he hit me in the head!</Dialogue>
-        <Dialogue>Unfortunately, I can't remember what the person looked like...</Dialogue>
-        <Dialogue>No problem, I see we have a surveillance camera there. I will see what I can do.</Dialogue>
-        <Dialogue>Dispatch, can you give me access to the CCTV at my current location?</Dialogue>
+        <Dialogue>Dobrý den, dustojníku! Práve jsem byl okraden!</Dialogue>
+        <Dialogue>Práve jsem dokoncil výber penez z bankomatu a pak prisla nejaká osoba a vzala mi penezenku!</Dialogue>
+        <Dialogue>Podaly jsme si ruce a on me prastil do hlavy!</Dialogue>
+        <Dialogue>Nanestestí si nepamatuji, jak ta osoba vypadala...</Dialogue>
+        <Dialogue>Ovsem nic se nedeje, vidím, ze tady máme bezpecnostní kameru. Tak uvidíme, co se dá delat.</Dialogue>
+        <Dialogue>Dispecinku, muzete mi umoznit prístup ke kamerovému systému na mém soucasném míste? </Dialogue>
     </D_Victim>
 
     <D_Suspect>
-        <Dialogue>What's your problem? Why are you following me?</Dialogue>
-        <Dialogue>You match the description of a recent robbery that has taken place.</Dialogue>
-        <Dialogue>Do I look like a criminal? That's ridiculous.</Dialogue>
-        <Dialogue>You have the wrong person, I didn't do anything!</Dialogue>
+        <Dialogue>Co más za problém? Proc me sledujes?</Dialogue>
+        <Dialogue>Shodujete se s popisem nedávné loupeze, ke které doslo.</Dialogue>
+        <Dialogue>Vypadám jako zlocinec? To je smesné.</Dialogue>
+        <Dialogue>Más spatnou osobu, já jsem nic neudelal!</Dialogue>
     </D_Suspect>
 
     <Persons>
-        <Text>Victim</Text>
-        <Text>You</Text>
-        <Text>Suspect</Text>
+        <Text>Obet</Text>
+        <Text>Ty</Text>
+        <Text>Podezrelé</Text>
     </Persons>
 
     <General>
-        <CalloutMessage>ATM Robbery</CalloutMessage>
-        <CalloutAdvisory>A person has reported being robbed right after withdrawing money</CalloutAdvisory>
-        <Text>Press {0} to talk to the ~g~caller~s~.</Text>
-        <Text>Standby.</Text>
-        <Text>You should now have access to the camera.</Text>
-        <Text>Press {0} to view the camera feed!</Text>
-        <Text>We have reports of another robbery; the ~y~area is marked~s~ on your GPS.</Text>
-        <Text>Press {0} to talk to the ~r~suspect~s~.</Text>
-        <Text>The suspect doesn't seem to care.</Text>
-        <Text>Check on them.</Text>
-        <Text>Do a traffic stop.</Text>
+        <CalloutMessage>Prepadení u bankomatu</CalloutMessage>
+        <CalloutAdvisory>Osoba nahlásila, ze byla okradena hned po výberu penez.</CalloutAdvisory>
+        <Text>Stisknete {0} pro príjmutí hovoru s ~g~volajícím~s~.</Text>
+        <Text>Pockejte.</Text>
+        <Text>Nyní byste meli mít prístup k fotoaparátu.</Text>
+        <Text>Stisknutím tlacítka {0} zobrazíte obraz z kamery!</Text>
+        <Text>Máme hlásení o dalsí loupezi; je to v ~y~oblasti která je oznacena~s~ na GPS.</Text>
+        <Text>Stisknete {0} a promluvte si s ~r~podezrelým~s~.</Text>
+        <Text>Podezrelému je to zrejme úplne jedno.</Text> 
+        <Text>Zkontrolujteho.</Text>
+        <Text>A následne provedte dopravní zastávku.</Text>
     </General>
 
 </ATMRobbery>

@@ -1,45 +1,45 @@
 <SearchWarrant>
 
     <General>
-        <Text>A Search Warrant has been issued</Text>
-        <Text>Search the house for drugs, weapons, money, bones and persons</Text>
-        <Text>Search for {ChosenEvidenceTranslation} in the building!</Text>
-        <Text>We've received ~r~info~s~ on where the evidence ~r~is located~r~.</Text>
-        <Text>We received info that the suspect is currently at work. His name is {SuspectName}.</Text>
-        <Text>Evidence found:</Text>
+        <Text>Byl vydán soudní príkaz k prohlídce</Text>
+        <Text>Prohledejte dum kvuli drogám, zbraním, penezum, kostem a osobám.</Text>
+        <Text>Vyhledávání {ChosenEvidenceTranslation} v budove!</Text>
+        <Text>Obdrzeli jsme ~r~informace ~s~ o tom, kde se dukazy ~r~nacházejí~r~.</Text>
+        <Text>Obdrzeli jsme informaci, ze podezrelý je v soucasné dobe v práci. Jeho jméno je {SuspectName}.</Text>
+        <Text>Zjistené dukazy:</Text>
     </General>
 
     <Persons>
-        <Text>Gardener</Text>
-        <Text>You</Text>
+        <Text>Zahradník</Text>
+        <Text>Ty</Text>
     </Persons>
 
     <EvidTranslation>
-        <Text>Jewelry</Text>
-        <Text>Gold</Text>
-        <Text>Money</Text>
-        <Text>Weapons</Text>
-        <Text>Drugs</Text>
+        <Text>Klenoty</Text>
+        <Text>Zlato</Text>
+        <Text>Peníze</Text>
+        <Text>Zbrane</Text>
+        <Text>Drogy</Text>
     </EvidTranslation>
 
     <D_Gardener>
-        <Dialogue>Hello sir, we have a search warrant for this property and the whole house.</Dialogue>
-        <Dialogue>Oh hello, I'm just the gardener here, there is nobody at home at this time, but the door is open.</Dialogue>
+        <Dialogue>Dobrý den, pane, máme príkaz k prohlídce tohoto pozemku a celého domu.</Dialogue>
+        <Dialogue>Dobrý den, jsem tu jen zahradník, nikdo není v tuto dobu doma, ale dvere jsou otevrené.</Dialogue>
     </D_Gardener>
 
     <EvidenceChecker>
-        <Text>Evidence found!</Text>
-        <Text>~g~All evidence found! Good job!~s~</Text>
+        <Text>Zjistené dukazy!</Text>
+        <Text>~g~Vsechny dukazy nalezeny! Dobrá práce!~s~</Text>
     </EvidenceChecker>
 
     <SuspectAction>
-        <Dialogue>The suspect is fleeing on foot, Dispatch!</Dialogue>
-        <Dialogue>Ah shit, you got me...</Dialogue>
-        <Dialogue>~r~Suspect:~s~ Fuck the cops, I'll shoot my way out!</Dialogue>
+        <Dialogue>Podezrelý prchá pesky, Dispatch!</Dialogue>
+        <Dialogue>Do prdele, dostal jsi me...</Dialogue>
+        <Dialogue>~r~Podezrelý:~s~ Seru na policajty, prostrílím se ven!</Dialogue>
     </SuspectAction>
 
     <End>
-        <Text>Callout is Code 4.</Text>
+        <Text>Callout pod kodem 4.</Text>
     </End>
 
 </SearchWarrant>

@@ -1,4 +1,4 @@
-<SearchWarrant>
+<Burglary>
 
     <General>
         <CalloutMessage>Ein Bürger meldet einen Einbruch</CalloutMessage>
@@ -27,4 +27,4 @@
         <Dialogue>Zentrale, ein Fahrzeug ~r~flieht~s~, zwei Insassen!</Dialogue>
     </BurglarIsLeaving>
 
-</SearchWarrant>
+</Burglary>

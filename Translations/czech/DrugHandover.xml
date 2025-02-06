@@ -1,46 +1,56 @@
 <DrugHandover>
 
     <General>
-        <CalloutMessage>Drug Handover</CalloutMessage>
-        <CalloutAdvisory>~o~Intercept the meeting as a special force sniper~s~</CalloutAdvisory>
+        <CalloutMessage>Predávání drog</CalloutMessage>
+        <CalloutAdvisory>~o~Zachytte schuzku jako odstrelovac speciálních jednotek~s~</CalloutAdvisory>
     </General>
 
     <Persons>
-        <Text>You</Text>
-        <Text>Officer</Text>
+        <Text>Ty</Text>
+        <Text>Dustojník</Text>
     </Persons>
 
     <EState>
         <Meeting>
             <D_Briefing>
-                <Dialogue>Hello, thanks for joining us.</Dialogue>
-                <Dialogue>This briefing is intended to give you on overview of what's going on.</Dialogue>
-                <Dialogue>We have reports of a illegal drug handover taking place today at the Sandy Shores Airfield.</Dialogue>
-                <Dialogue>Since you're one of the best trained sniper elites, your job is to scout and call us once a drug deal is made.</Dialogue>
-                <Dialogue>We will then come in hot with 2 unmarked units and 1 swat bearcat. If we're taking fire, your job is to take them out.</Dialogue>
-                <Dialogue>We have spotted a good sniper position for you on one of the building next to the airfield.</Dialogue>
-                <Dialogue>But for now, first choose a sniper, for that in the police station right there on the table.</Dialogue>
-            </D_Briefing>
-            <Text>Get yourself a sniper in the police station.</Text>
+                <Dialogue>Dobrý den, dekujeme, ze jste se k nám pripojili.</Dialogue>
+                <Dialogue>Tento briefing vám má poskytnout prehled o tom, co se deje.</Dialogue>
+                <Dialogue>Máme zprávy o tom, ze na letisti Sandy Shores dnes doslo k predání nelegálních drog.</Dialogue>.
+                <Dialogue>Jelikoz jsi jeden z nejlépe vycvicených elitních odstrelovacu, tvým úkolem je provést pruzkum a zavolat nám, jakmile dojde k obchodu s drogami.</Dialogue>
+                <Dialogue>Na místo pak prijdeme v ostrém nasazení se dvema neoznacenými vozidlami a jedním zásahovým bearcatem. Pokud budeme pod palbou, vasím úkolem bude je zlikvidovat.</Dialogue>
+                <Dialogue>Vytipovali jsme pro vás dobrou pozici pro odstrelovace na jedné z budov vedle letiste.</Dialogue>
+                <Dialogue>Ale zatím si nejprve vyber odstrelovacku, prímo na policejní stanici, tady na stole.</Dialogue>       
+			</D_Briefing>
+            <Text>Sezen si na policejní stanici odstrelovacku.</Text>
         </Meeting>
 
         <Weapon>
             <WeaponSelector>
-                <Text>Weapon Chooser</Text>
-                <Text>Weapons</Text>
-                <Text>Select a Weapon</Text>
-                <Text>You have equipped the </Text> <!--WeaponType is harcoded in english-->
+                <Text>Volba zbrane</Text>
+                <Text>Zbrane</Text>
+                <Text>Výber zbrane</Text>
+                <Text>Vybavili jste se</Text> <!--WeaponType is harcoded in english-->
             </WeaponSelector>
-            <Text>Now drive to the scene and prepare.</Text>
+            <Text>Nyní jedte na místo a pripravte se.</Text>
         </Weapon>
 
         <DriveToScene>
-            <Text>This is the reported ~o~drug handover meeting point~s~. You'll now see on the minimap where ~g~your sniper position~s~ will be, go on the roof there.</Text>
+            <Text>Jedná se o hlásené ~o~místo predání drog~s~. Na minimape nyní uvidís, kde bude ~g~tvá pozice odstrelovace~s~, jdete na urcené místo.</Text>
         </DriveToScene>
 
         <IsAtÜbergabeort>
-            <Text>Now wait for the ~r~actual handover.</Text>
+            <Text>Nyní pockejte na ~r~uskutecnení predání.</Text>
         </IsAtÜbergabeort>
     </EState>
+
+    <Scenarios>
+        <Text>Jakmile je ~g~předání~s~ dokončeno, jděte dovnitř a zatkněte ~r~podezřelé!</Text>
+        <Text>Máme ~r~vystřelené rány!</Text>
+        <Text>~r~Podezřelí~s~ odcházejí, zajistěte ~g~pouzdro!</Text>
+        <Text>~r~Podezřelí~s~ prchají, pronásledujeme je!</Text>
+        <Text>~r~Podezřelí~s~ se vzdávají!</Text>
+        <Text>Můžete sebrat ~g~pouzdro~s~ pomocí {0}.</Text>
+        <Text>~g~Pouzdro~s~ zajištěno!</Text>
+    </Scenarios>
 
 </DrugHandover>

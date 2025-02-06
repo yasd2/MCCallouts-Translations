@@ -1,30 +1,30 @@
 <Burglary>
 
     <General>
-        <CalloutMessage>Citizen reports a Burglary</CalloutMessage>
-        <Text>Drive to the Burglary, proceed with caution.</Text>
-        <Text>Search for evidence, press {0} to pick up.</Text>
+        <CalloutMessage>Obcan nahlásil vloupání</CalloutMessage>
+        <Text>Jedte na místo vloupání, postupujte opatrne.</Text>
+        <Text>Hledejte dukazy, stisknutím {0} pro vyzvednutí predmetu.</Text>
     </General>
 
     <FalseAlarm>
-        <Dialogue>Dispatch, nothing going on here.</Dialogue>
-        <Dialogue>Copy that, go back to patrol.</Dialogue>
+        <Dialogue>Dispecink, nic se nedeje.</Dialogue>
+        <Dialogue>Rozumím, vratte se na hlídku.</Dialogue>
     </FalseAlarm>
 
     <AnimalOnScene>
-        <Dialogue>Dispatch, false alarm, just an animal causing chaos.</Dialogue>
-        <Dialogue>Copy that, go back to patrol.</Dialogue>
+        <Dialogue>Dispecink, falesný poplach, jen zvíre zpusobilo chaos.</Dialogue>
+        <Dialogue>Rozumím, vratte se na hlídku.</Dialogue>
     </AnimalOnScene>
 
     <BurglarLeft>
-        <Dialogue>Dispatch, we have signs of an intruder here, searching the scene.</Dialogue>
-        <Dialogue>Hmmm, that doesn't help.</Dialogue>
-        <Dialogue>Dispatch, I found a document of {DriversName}.</Dialogue>
-        <Dialogue>I got an ALPR hit on a speeding vehicle, owner is {DriversName}.</Dialogue>
+        <Dialogue>Dispecinku, máme tu stopy po vetrelci, prohledáváme místo cinu.</Dialogue>
+        <Dialogue>Hmmm, to nepomáhá.</Dialogue>
+        <Dialogue>Dispatch, nasel jsem dokument {DriversName}.</Dialogue>
+        <Dialogue>Dostal jsem ALPR hit na rychlost vozidla, majitel je {DriversName}.</Dialogue>
     </BurglarLeft>
 
     <BurglarIsLeaving>
-        <Dialogue>Dispatch, one Vehicle ~r~fleeing~s~, two occupants!</Dialogue>
+        <Dialogue>Dispatch, jedno vozidlo na ~r~úteku~s~, dva cestující!</Dialogue>
     </BurglarIsLeaving>
 
 </Burglary>

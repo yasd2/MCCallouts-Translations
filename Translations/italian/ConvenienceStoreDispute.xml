@@ -1,100 +1,100 @@
 <ConvenienceStoreDispute>
 
     <General>
-        <Text>Convenience Store Dispute</Text>
-        <Text>Solve the discrepancy</Text>
+        <Text>Controversia sui minimarket</Text>
+        <Text>Risolvi la discrepanza</Text>
     </General>
 
     <Persons>
-        <Text>~y~You:~s~ </Text>
-        <Text>~HC_7~Lady:~s~ </Text>
-        <Text>~b~Clerk:~s~ </Text>
+        <Text>~y~Tu:~s~ </Text>
+        <Text>~HC_7~Signora:~s~ </Text>
+        <Text>~b~Impiegato:~s~ </Text>
     </Persons>
 
     <D_Argue>
-        <Dialogue>Officer! The clerk doesn't want to take my coupon!</Dialogue>
-        <Dialogue>M'am, I already told you, this coupon is invalid. I can't accept it.</Dialogue>
-        <Dialogue>That's ridicolous, it's valid! I do have rights! You can't refuse to take it!</Dialogue>
-        <Dialogue>Officer, may you please take a look at it and clarify?</Dialogue>
-        <Dialogue>Sure, let me see it...</Dialogue>
-        <Dialogue>* Looks at coupon... *</Dialogue>
+        <Dialoque>Ufficiale! L'impiegato non vuole prendere il mio buono!</Dialoque>
+        <Dialoque>Signora, gliel'ho già detto, questo coupon non è valido. Non posso accettarlo.</Dialoque>
+        <Dialoque>È ridicolo, è vero! Ho dei diritti! Non puoi rifiutarti di prenderlo!</Dialoque>
+        <Dialogue>Agente, potrebbe dargli un'occhiata e chiarire?</Dialogue>
+        <Dialogue>Certo, fammi vedere...</Dialogue>
+        <Dialoque>* Guarda il coupon... *</Dialoque>
     </D_Argue>
 
     <D_Expired>
-        <Dialogue>* Coupon for 30 $ at 24/7 market, expires on 06/01/2024 *</Dialogue>
-        <Dialogue>The coupon is definitely expired.</Dialogue>
+       <Dialogue>* Coupon da 30 $ al mercato 24/7, scade il 01/06/2024 *</Dialogue>
+        <Dialoque>Il coupon è definitivamente scaduto.</Dialoque>
     </D_Expired>
 
     <D_Manipulated>
-        <Dialogue>* You can see the 24/7 market coupon for 30$ is manipulated to 60 $ *</Dialogue>
-        <Dialogue>This coupon has been manipulated. Look, the numbers were changed.</Dialogue>
+        <Dialogue>* Puoi vedere che il coupon di mercato 24 ore su 24, 7 giorni su 7, per 30 $ viene manipolato a 60 $ *</Dialogue>
+        <Dialogue>Questo coupon è stato manipolato. Guarda, i numeri sono stati cambiati.</Dialogue>
     </D_Manipulated>
 
     <D_RefuseLeave>
-        <Dialogue>This can't be real! You're lying!</Dialogue>
-        <Dialogue>Officer, that's racist! I won't go before I receive my right!</Dialogue>
+        <Dialogue>Non può essere reale! Stai mentendo!</Dialogue>
+        <Dialogue>Agente, è razzista! Non andrò prima di aver ricevuto il mio diritto!</Dialogue>
     </D_RefuseLeave>
 
     <D_Run>
-        <Dialogue>Everybody is against me! Forget it, I won't pay this!</Dialogue>
+        <Dialogue>Tutti sono contro di me! Lascia perdere, non lo pagherò!</Dialogue>
     </D_Run>
 
     <D_Fight>
-        <Dialogue>I have enough of your bullshit!</Dialogue>
-        <Dialogue>And you Officer, are part of the problem!!! Aaaaaargh!</Dialogue>
+        <Dialogue>Ne ho abbastanza delle tue stronzate!</Dialogue>
+        <Dialogue>E tu, Agente, sei parte del problema!!! Aaaaaargh!</Dialogue>
     </D_Fight>
 
     <D_Taser>
-        <Dialogue>How dare you threaten me!</Dialogue>
-        <Dialogue>ASSAULT! You have attacked me!</Dialogue>
-        <Dialogue>This is self-defense!</Dialogue>
+        <Dialoque>Come osi minacciarmi!</Dialoque>
+        <Dialoque>ASSALTO! Mi hai attaccato!</Dialoque>
+        <Dialogue>Questa è legittima difesa!</Dialogue>
     </D_Taser>
 
 
 
     <D_Eco_Argue>
-        <Dialogue>This is outrageous! Look at this packaging! Plastic everywhere! Are you trying to kill the planet?</Dialogue>
-        <Dialogue>Ma'am, I understand your concern, but we don't manufacture the products. We just sell them.</Dialogue>
-        <Dialogue>Just sell them? So you're complicit! Selling non-eco-friendly products is basically illegal!</Dialogue>
-        <Dialogue>Ma'am, that's not true. There are no laws against this packaging—</Dialogue>
-        <Dialogue>Don't lie to me! I'll have this store shut down for engaging in illegal activities! You're part of the problem! You're a—you're a murderer!</Dialogue>
-        <Dialogue>Excuse me? Alright Officer, please remove her from the store and M'am, you're banned from this store from now on.</Dialogue>
+        <Dialogue>Questo è scandaloso! Guarda questa confezione! Plastica ovunque! Stai cercando di uccidere il pianeta?</Dialogue>
+        <Dialogue>Signora, capisco la sua preoccupazione, ma noi non produciamo i prodotti. Li vendiamo.</Dialogue>
+        <Dialogue>Vendile? Quindi sei complice! Vendere prodotti non ecologici è fondamentalmente illegale!</Dialogue>
+        <Dialogue>Signora, non è vero. Non ci sono leggi contro questo imballaggio-</Dialogue>
+        <Dialogue>Non mentirmi! Farò chiudere questo negozio per aver svolto attività illegali! Sei parte del problema! Sei un assassino!</Dialogue>
+        <Dialogue>Mi scusi? Va bene agente, per favore rimuovila dal negozio e signora, d'ora in poi sarai bandito da questo negozio.</Dialogue>
     </D_Eco_Argue>
 
     <D_Eco_RefuseLeave>
-        <Dialogue>I will not leave this store until this criminal is arrested!</Dialogue>
-        <Dialogue>Ma'am, I understand you're upset, but this is not a criminal matter. You need to leave the store, or I'll have to remove you myself.</Dialogue>
-        <Dialogue>I refuse! If you don't arrest this murderer, then YOU'RE complicit too! I'll stay here all day if I have to!</Dialogue>
+        <Dialogue>Non lascerò questo negozio finché questo criminale non sarà arrestato!</Dialogue>
+        <Dialogue>Signora, capisco che sia turbata, ma questa non è una questione penale. Devi lasciare il negozio, altrimenti dovrò portarti via io stesso.</Dialogue>
+        <Dialogue>Mi rifiuto! Se non arresti questo assassino, allora anche TU SEI complice! Starò qui tutto il giorno se sarà necessario!</Dialogue>
     </D_Eco_RefuseLeave>
 
     <D_Eco_FleeWPackage>
-        <Dialogue>You know what? If you won't fix it, I'll do it myself! This ends now!</Dialogue>
-        <Dialogue>I'm saving the planet! This belongs in proper disposal, not on your filthy shelves!</Dialogue>
-        <Dialogue>Ma'am, that's theft. Put the item down and step away.</Dialogue>
-        <Dialogue>It's not theft if I'm saving humanity! Arrest THEM for stocking this garbage!</Dialogue>
-        <Dialogue>Ma'am, this is your last warning. Drop the item and cooperate, or you'll be placed under arrest.</Dialogue>
+        <Dialogue>Sai cosa? Se non lo aggiusti tu, lo farò io stesso! Questa cosa finisce adesso!</Dialogue>
+        <Dialogue>Sto salvando il pianeta! Questo deve essere smaltito correttamente, non nei tuoi sporchi scaffali!</Dialogue>
+        <Dialogue>Signora, quello è un furto. Metti giù l'oggetto e allontanati.</Dialogue>
+        <Dialogue>Non è un furto se salvo l'umanità! ArrestateLI per aver immagazzinato questa spazzatura!</Dialogue>
+        <Dialogue>Signora, questo è il suo ultimo avvertimento. Lascia cadere l'oggetto e collabora, altrimenti verrai arrestato.</Dialogue>
     </D_Eco_FleeWPackage>
 
     <D_Eco_Argumentative>
-        <Dialogue>Officer! You need to arrest this man immediately! He's a murderer! Selling all this plastic — he's practically choking the Earth himself!</Dialogue>
-        <Dialogue>Ma'am, this isn't a criminal matter. Now, if you—</Dialogue>
-        <Dialogue>Don't even start with me! Where's your supervisor? I want their name. And YOU— * pointing at the officer * —I want your name and badge number! RIGHT NOW!</Dialogue>
-        <Dialogue>Ma'am, we're not doing this. Either leave the store, or I'll have to escort you out.</Dialogue>
-        <Dialogue>Oh, I'd love to see you try! I'm going to report ALL of you! Corporate, the mayor, the media—everyone will hear about this!</Dialogue>
+        <Dialogue>Ufficiale! Devi arrestare quest'uomo immediatamente! È un assassino! Vendendo tutta questa plastica, sta praticamente soffocando la Terra lui stesso!</Dialogue>
+        <Dialogue>Signora, questa non è una questione penale. Ora, se tu...</Dialogue>
+        <Dialogue>Non iniziare nemmeno con me! Dov'è il tuo supervisore? Voglio il loro nome. E TU— *indicando l'ufficiale* —Voglio il tuo nome e il numero del tuo distintivo! PROPRIO ADESSO!</Dialogue>
+        <Dialogue>Signora, non lo faremo. O esci dal negozio o dovrò accompagnarti fuori.</Dialogue>
+        <Dialogue>Oh, mi piacerebbe vederti provare! Vi denuncerò TUTTI! L'azienda, il sindaco, i media: tutti ne sentiranno parlare!</Dialogue>
     </D_Eco_Argumentative>
 
     <D_Eco_Taser>
-        <Dialogue>Oh, so now you're threatening me? I feel so unsafe right now! This is assault!</Dialogue>
-        <Dialogue>Ma'am, no one is threatening you. Please calm—</Dialogue>
-        <Dialogue>ASSAULT! YOU ASSAULTED ME! Everyone saw it!</Dialogue>
-        <Dialogue>Ma'am, no one has touched you. Let's just—</Dialogue>
-        <Dialogue>Don't you talk to me, murderer!</Dialogue>
+        <Dialogue>Oh, quindi adesso mi stai minacciando? Mi sento così insicuro in questo momento! Questa è un'aggressione!</Dialogue>
+        <Dialogue>Signora, nessuno la sta minacciando. Per favore calmati—</Dialogue>
+        <Dialogue>ASSALTO! MI HAI ASSALTO! Tutti lo hanno visto!</Dialogue>
+        <Dialogue>Signora, nessuno l'ha toccata. Facciamo solo...</Dialogue>
+        <Dialogue>Non parlarmi, assassino!</Dialogue>
     </D_Eco_Taser>
 
 
 
     <End>
-        <Text>Callout is Code 4.</Text>
+        <Text>Il callout è il codice 4.</Text>
     </End>
 
 </ConvenienceStoreDispute>

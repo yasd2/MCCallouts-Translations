@@ -1,21 +1,21 @@
 <VehicleSpotted>
 
     <General>
-    <CalloutMessage>Previously Fled Vehicle Spotted</CalloutMessage>
-        <Text>Search for the ~o~suspect~s~.</Text>
-        <Text>An officer has spotted a vehicle that fled from a traffic stop earlier. Talk to him first.</Text>
-        <Text>~g~Right suspect arrested~s~</Text>
+    <CalloutMessage>Spatreno dríve uprchlé vozidlo</CalloutMessage>
+        <Text>Vyhledejte ~o~podezrelého~s~.</Text>
+        <Text>Policista spatril vozidlo, které predtím ujelo pri dopravní kontrole. Nejprve si s ním promluvte.</Text>
+        <Text>~g~Pravý podezrelý zatcen~s~</Text>
     </General>
 
     <Persons>
-        <Text>Officer</Text>
+        <Text>Dustojník</Text>
     </Persons>
 
     <D_Officer>
-        <Dialogue>Hey buddy, nice to see you! Looks like you've grown yourself quite a nice belly, huh?</Dialogue>
-        <Dialogue>Anyways, I have spotted this vehicle right here, which fled from us earlier.</Dialogue>
-        <Dialogue>The suspect has to be around, we only know he is a white male.</Dialogue>
-        <Dialogue>I assume he is going in the shopping mall, he's probably hungry.</Dialogue>
+        <Dialogue>Ahoj kamaráde, rád te vidím! Vypadá to, ze ti narostlo pekné bricho, co ríkás?</Dialogue>
+        <Dialogue>Ano, zahlédl jsem tady to vozidlo, které nám predtím uteklo.</Dialogue>
+        <Dialogue>Podezrelý musí být nekde poblíz, víme jen, ze je to beloch.</Dialogue>
+        <Dialogue>Predpokládám, ze jde do nákupního centra, asi má hlad.</Dialogue>
     </D_Officer>
 
 </VehicleSpotted>

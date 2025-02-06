@@ -1,0 +1,140 @@
+<TrainAccident>
+
+    <CalloutMessage>Zugunglück</CalloutMessage>
+    <CalloutAdvisory><![CDATA[Untersuchen Sie den Vorfall & fassen Sie den Verdächtigen!]]></CalloutAdvisory>
+
+    <Mugshot>Fahndungsfoto des Verdächtigen</Mugshot>
+
+     <DisplayHelp>
+        <Text>Fahren Sie zum gemeldeten ~b~Zugunglück.</Text>
+        <Text><![CDATA[Sprechen Sie mit den ~o~Opfern~s~ & dem ~r~Zugführer.]]></Text>
+        <Text>Sprechen Sie mit den ~o~Opfern.</Text>
+        <Text>Sprechen Sie jetzt mit den ~g~Zeugen.</Text>
+        <Text>Durchsuchen Sie den Bereich um die ~y~Züge nach Beweisen.</Text>
+        <Text>Wir haben Informationen über den Aufenthaltsort des ~r~möglichen Verdächtigen erhalten.</Text>
+        <Text>~g~Code 4,~s~ nehmen Sie den Streifendienst wieder auf.</Text>
+    </DisplayHelp>
+
+    <Detective_NotDUI>
+        <Dialogue>~HC_43~Detektiv~s~: Hallo Officer, danke, dass Sie zu diesem Chaos hier gekommen sind!</Dialogue>
+        <Dialogue>~HC_43~Detektiv~s~: Kommen wir direkt zum Punkt: Wir haben hier einen Zugunfall mit mehreren Verletzten.</Dialogue>
+        <Dialogue>~HC_43~Detektiv~s~: Es sieht so aus, als wäre der Zug entgleist und in der Mitte auseinandergebrochen.</Dialogue>
+        <Dialogue><![CDATA[~HC_43~Detektiv~s~: Zuerst möchte ich, dass Sie mit den ~o~Opfern~s~ & dem ~r~Zugführer~s~ sprechen und dann den Tatort nach ~y~Beweisen~s~ durchsuchen!]]></Dialogue>
+        <Dialogue>~HC_43~Detektiv~s~: Dort drüben befinden sich dann noch ~g~zwei Zeugen~s~. Viel Erfolg!</Dialogue>
+    </Detective_NotDUI>
+
+    <Detective_DUI2>
+        <Dialogue>~HC_43~Detektiv~s~: Zuerst möchte ich, dass Sie mit den ~o~Opfern~s~ sprechen und dann den Tatort nach ~y~Beweisen~s~ durchsuchen!</Dialogue>
+    </Detective_DUI2>
+
+    <Detective_DUI>
+        <Dialogue>~HC_43~Detektiv~s~: Hallo Officer, danke, dass Sie zu diesem Chaos gekommen sind!</Dialogue>
+        <Dialogue>~HC_43~Detektiv~s~: Kommen wir direkt zum Punkt: Wir haben hier einen Zugunfall mit mehreren Verletzten.</Dialogue>
+        <Dialogue>~HC_43~Detektiv~s~: Es sieht so aus, als wäre der Zug entgleist und in der Mitte auseinandergebrochen.</Dialogue>
+        <Dialogue>~HC_43~Detektiv~s~: Zuerst möchte ich, dass Sie mit den ~o~Opfern~s~ sprechen und dann den Tatort nach ~y~Beweisen~s~ durchsuchen!</Dialogue>
+        <Dialogue>~HC_43~Detektiv~s~: Dort drüben befinden sich dann noch ~g~zwei Zeugen~s~. Viel Erfolg!</Dialogue>
+    </Detective_DUI>
+
+    <Victim1_>
+        <Dialogue>~o~Opfer~s~: Ich... ich habe geschlafen, dann plötzlich... ein lauter Knall! Alles hat gewackelt, Leute haben geschrien... Ich sah Funken vor den Fenstern.</Dialogue>
+    </Victim1_>
+
+    <Victim2_NotDUI>
+        <Dialogue>~o~Opfer~s~: Officer, wie kann so etwas nur passieren? Sehen Sie sich die ganzen Verletzten an. Und soviele Einsatzkräfte!</Dialogue>
+        <Dialogue>~o~Opfer~s~: Bitte klären Sie die Sachlage, wir brauchen Antworten.</Dialogue>
+    </Victim2_NotDUI>
+
+    <Victim2_DUI>
+        <Dialogue>~o~Opfer~s~: Ich habe noch Kopfschmerzen von dem starken Aufprall.</Dialogue>
+        <Dialogue>~o~Opfer~s~: Ich kann einfach nicht verstehen, wieso der Zug so schnell unterwegs war.</Dialogue>
+        <Dialogue>~o~Opfer~s~: Es ist kein Wunder, dass der Unfall passiert ist bei so einer Raserei!</Dialogue>
+        <Dialogue>~o~Opfer~s~: Ich muss jetzt erstmal ins Krankenhaus, ich hoffe, der Fahrer wird zur Rechenschaft gezogen!</Dialogue>
+    </Victim2_DUI>
+
+    <Driver_NotDUI>
+        <Dialogue>~HC_8~Fahrer~s~: Ich hatte keinerlei Warnung. Plötzlich riss es den Zug aus den Gleisen! Bremsen konnte ich auch nicht mehr rechtzeitig.</Dialogue>
+    </Driver_NotDUI>
+
+    <Driver_DUI>
+        <Dialogue>~y~Du~s~: Polizei, sofort stehenbleiben, Hände da, wo ich sie sehen kann!</Dialogue>
+        <Dialogue>~HC_8~Fahrer~s~: Was ist los? *hicks* Ich kenne Sie niiiiiicchhhhttt.</Dialogue>
+        <Dialogue>~y~Du~s~: Waren Sie heute Fahrer eines Zuges bei {StreetName}?</Dialogue>
+        <Dialogue>~HC_8~Fahrer~s~: Äh, neee. Ich *hicks* kann nicht mal Rad fahren...</Dialogue>
+        <Dialogue>~y~Du~s~: Ich benötige Ihren Ausweis.</Dialogue>
+    </Driver_DUI>
+
+    <Witness1_Dismantled>
+        <Dialogue>~g~Zeuge~s~: Ich bin Vorstand der Zugwerkstatt. Wir hatten gestern einen Einbruch, wir konnten aber nichts feststellen, was geklaut wurde.</Dialogue>
+        <Dialogue>~g~Zeuge~s~: Die zwei Täter gestern, {Suspect1.GetGender()} und {Suspect2.GetGender()} waren mit einem {SuspectVehicle.Model.Name} unterwegs.</Dialogue>
+        <Dialogue>~g~Zeuge~s~: Außerdem haben wir letzte Woche einen Mitarbeiter entlassen, der Name war {Suspect2.GetFullName()}.</Dialogue>
+        <Dialogue>~g~Zeuge~s~: Ich vermute, dass das mit dem Unfall zusammenhängt...</Dialogue>
+    </Witness1_Dismantled>
+
+    <Witness1_ObjectOnTracks>
+        <Dialogue>~g~Zeuge~s~: Hallo, ich war gerade spazieren, als mir diese zwei Personen auf den Gleisen aufgefallen sind.</Dialogue>
+        <Dialogue>~g~Zeuge~s~: Ich wusste nicht, ob Sie etwas an den Gleisen reparierten oder Unfug trieben.</Dialogue>
+        <Dialogue>~g~Zeuge~s~: Die zwei Täter waren {Suspect1.GetGender()} und {Suspect2.GetGender()}.</Dialogue>
+    </Witness1_ObjectOnTracks>
+
+    <Witness1_DUI>
+        <Dialogue>~g~Zeuge~s~: Hallo, ich war gerade zwei Blocks von hier entfernt spazieren, da ist mir etwas aufgefallen.</Dialogue>
+        <Dialogue>~g~Zeuge~s~: Ich kenne mich mit Zugsignalen nicht aus, aber die Ampel war definitiv auf rot.</Dialogue>
+        <Dialogue>~g~Zeuge~s~: Ich dachte mir einfach, ich melde das einmal.</Dialogue>
+    </Witness1_DUI>
+
+    <Witness2_NotDUI_WithVehicle>
+        <Dialogue>~g~Zeuge~s~: Ich habe zwei Typen gesehen, die direkt nach dem Crash weggelaufen sind! Richtung Straße!</Dialogue>
+        <Dialogue>~g~Zeuge~s~: Das Fahrzeug war ein ~h~{SuspectVehicle.Model.Name}~h~, Nummernschild ~h~{SuspectVehicle.LicensePlate}~h~.</Dialogue>
+        <Dialogue>~g~Zeuge~s~: Hier, einen habe ich auf Kamera erwischt!</Dialogue>
+    </Witness2_NotDUI_WithVehicle>
+
+    <Witness2_NotDUI_OnFoot>
+        <Dialogue>~g~Zeuge~s~: Ich habe zwei Typen gesehen, die direkt nach dem Crash weggelaufen sind! Richtung Straße!</Dialogue>
+        <Dialogue>~g~Zeuge~s~: Eine(r) war {Suspect1.GetGender()}, der andere {Suspect2.GetGender()}.</Dialogue>
+        <Dialogue>~g~Zeuge~s~: Hier, einen habe ich auf Kamera erwischt!</Dialogue>
+    </Witness2_NotDUI_OnFoot>
+
+    <Witness2_DUI_WithVehicle>
+        <Dialogue>~g~Zeuge~s~: Ich habe jemanden torkelnd von der Unfallstelle weggehen sehen.</Dialogue>
+        <Dialogue>~g~Zeuge~s~: Er ist zu einem ~h~{SuspectVehicle.Model.Name}~h~ gerannt.</Dialogue>
+        <Dialogue>~g~Zeuge~s~: Das Nummernschild war ~h~{SuspectVehicle.LicensePlate}~h~.</Dialogue>
+    </Witness2_DUI_WithVehicle>
+
+    <Witness2_DUI_OnFoot>
+        <Dialogue>~g~Zeuge~s~: Ich habe jemanden torkelnd von der Unfallstelle weggehen sehen.</Dialogue>
+        <Dialogue>~g~Zeuge~s~: Er ist wegerannt, wenn man das noch als laufen bezeichnen kann.</Dialogue>
+        <Dialogue>~g~Zeuge~s~: Ich hoffe, Sie finden ihn!</Dialogue>
+    </Witness2_DUI_OnFoot>
+
+    <Suspect1_>
+        <Dialogue>~y~Du~s~: Stopp Polizei! Hände da wo ich sie sehen kann!</Dialogue>
+        <Dialogue>~r~Verdächtiger~s~: Hören Sie, Sie haben die Falschen.</Dialogue>
+        <Dialogue>~r~Verdächtiger~s~: Wir haben nichts mit dem Zugunfall zu tun.</Dialogue>
+        <Dialogue>~y~Du~s~: Woher wissen Sie von dem Zugunglück?</Dialogue>
+        <Dialogue>~r~Verdächtiger~s~: Äh...</Dialogue>
+    </Suspect1_>
+
+    <Evidence>
+        <Dismantled>
+            <Dialogue>Ein Ölschlauch ist lose, das deutet darauf hin, dass jemand ihn gelockert hat.</Dialogue>
+            <Dialogue>Diese Bremse fehlt.</Dialogue>
+            <Dialogue>Jemand hat die Kabel im elektrischen System abgeklemmt.</Dialogue>
+            <Dialogue>Hmmm... ein Burger, jetzt habe ich Hunger.</Dialogue>
+        </Dismantled>
+
+        <ObjectOnTracks>
+            <Dialogue>Ein großer Stein nahe der Schienen ist nicht gut...</Dialogue>
+            <Dialogue>Die Räder des Zugs sind abgebrochen, die müssen über etwas drüber gefahren sein...</Dialogue>
+            <Dialogue>Die Schienen sind locker und hier liegt ein Brecheisen... hmm...</Dialogue>
+            <Dialogue>Warum liegen hier Steine?</Dialogue>
+        </ObjectOnTracks>
+
+        <DUI>
+            <Dialogue>Die Tacho ist bei 100 km/h stehengeblieben... das wäre viel zu schnell.</Dialogue>
+            <Dialogue>Die Bremsen sehen nagelneu aus, es wurde keine Notbremsung durchgeführt.</Dialogue>
+            <Dialogue>Eine Pizza, hmmm, lecker...</Dialogue>
+            <Dialogue>Eine Liste der Lokführer mit Fotos, heute war ~h~{Driver.GetFullName()}~h~ dran...</Dialogue>
+        </DUI>
+    </Evidence>
+
+</TrainAccident>

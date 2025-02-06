@@ -1,46 +1,57 @@
 <DrugHandover>
 
     <General>
-        <CalloutMessage>Drug Handover</CalloutMessage>
-        <CalloutAdvisory>~o~Intercept the meeting as a special force sniper~s~</CalloutAdvisory>
+       <CalloutMessage>Consegna della droga</CalloutMessage>
+        <CalloutAdvisory>~o~Intercetta l'incontro come cecchino delle forze speciali~s~</CalloutAdvisory>
     </General>
 
     <Persons>
-        <Text>You</Text>
-        <Text>Officer</Text>
+   <Testo>Tu</Testo>
+   <Testo>Agente</Testo>
     </Persons>
 
     <EState>
         <Meeting>
             <D_Briefing>
-                <Dialogue>Hello, thanks for joining us.</Dialogue>
-                <Dialogue>This briefing is intended to give you on overview of what's going on.</Dialogue>
-                <Dialogue>We have reports of a illegal drug handover taking place today at the Sandy Shores Airfield.</Dialogue>
-                <Dialogue>Since you're one of the best trained sniper elites, your job is to scout and call us once a drug deal is made.</Dialogue>
-                <Dialogue>We will then come in hot with 2 unmarked units and 1 swat bearcat. If we're taking fire, your job is to take them out.</Dialogue>
-                <Dialogue>We have spotted a good sniper position for you on one of the building next to the airfield.</Dialogue>
-                <Dialogue>But for now, first choose a sniper, for that in the police station right there on the table.</Dialogue>
+                <Dialogue>Ciao, grazie per esserti unito a noi.</Dialogue>
+                <Dialogue>Questo briefing ha lo scopo di darti una panoramica di cosa sta succedendo.</Dialogue>
+                <Dialogue>Abbiamo ricevuto segnalazioni di una consegna illegale di droga in corso oggi all'aeroporto di Sandy Shores.</Dialogue>
+                <Dialogue>Dato che sei uno dei cecchini d'élite meglio addestrati, il tuo compito è di fare ricognizione e chiamarci una volta che viene concluso uno scambio di droga.</Dialogue>
+                <Dialogue>Arriveremo quindi con 2 unità non contrassegnate e 1 SWAT Bearcat. Se prendiamo fuoco, il tuo compito è eliminarli.</Dialogue>
+                <Dialogue>Abbiamo individuato una buona postazione per cecchini per te in uno degli edifici accanto all'aeroporto.</Dialogue>
+                <Dialogue>Ma per ora, prima scegli un cecchino, per quello nella stazione di polizia proprio lì sul tavolo.</Dialogue>
             </D_Briefing>
             <Text>Get yourself a sniper in the police station.</Text>
         </Meeting>
 
         <Weapon>
             <WeaponSelector>
-                <Text>Weapon Chooser</Text>
-                <Text>Weapons</Text>
-                <Text>Select a Weapon</Text>
-                <Text>You have equipped the </Text> <!--WeaponType is harcoded in english-->
+               <Text>Scelta arma</Text>
+               <Text>Armi</Text>
+               <Text>Seleziona un'arma</Text>
+               <Text>Hai equipaggiato </Text> <!--WeaponType is harcoded in english-->
             </WeaponSelector>
-            <Text>Now drive to the scene and prepare.</Text>
+            <Text>Ora guida fino alla scena e preparati.</Text>
         </Weapon>
 
         <DriveToScene>
-            <Text>This is the reported ~o~drug handover meeting point~s~. You'll now see on the minimap where ~g~your sniper position~s~ will be, go on the roof there.</Text>
+            <Text>Questo è il ~o~punto di incontro per la consegna della droga~s~ segnalato. Ora vedrai sulla minimappa dove si troverà la ~g~posizione del tuo cecchino~s~, vai sul tetto lì.</Text>
         </DriveToScene>
 
         <IsAtÜbergabeort>
-            <Text>Now wait for the ~r~actual handover.</Text>
+            <Text>Ora attendi il ~r~vero e proprio passaggio di consegne.</Text>
         </IsAtÜbergabeort>
+		
     </EState>
+
+    <Scenarios>
+        <Text>Una volta completato il ~g~passaggio~s~, entrate e arrestate i ~r~sospetti!</Text>
+        <Text>Abbiamo ~r~colpi sparati!</Text>
+        <Text>I ~r~sospetti~s~ stanno scappando, mettete in sicurezza la ~g~valigetta!</Text>
+        <Text>I sospetti stanno ~r~fuggendo~s~, li stiamo inseguendo!</Text>
+        <Text>I sospetti si stanno arrendendo!</Text>
+        <Text>Potete raccogliere la ~g~valigetta~s~ con {0}.</Text>
+        <Text>~g~Valigetta~s~ messa in sicurezza!</Text>
+    </Scenarios>
 
 </DrugHandover>

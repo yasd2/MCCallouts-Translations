@@ -1,21 +1,21 @@
 <VehicleSpotted>
 
     <General>
-    <CalloutMessage>Previously Fled Vehicle Spotted</CalloutMessage>
-        <Text>Search for the ~o~suspect~s~.</Text>
-        <Text>An officer has spotted a vehicle that fled from a traffic stop earlier. Talk to him first.</Text>
-        <Text>~g~Right suspect arrested~s~</Text>
+  <CalloutMessage>Veicolo precedentemente fuggito individuato</CalloutMessage>
+<Text>Cerca il ~o~sospetto~s~.</Text>
+<Text>Un agente ha individuato un veicolo fuggito da un posto di blocco. Parla prima con lui.</Text>
+<Text>~g~Sospettato giusto arrestato~s~</Text>
     </General>
 
     <Persons>
-        <Text>Officer</Text>
+      <Testo>Agente</Testo>
     </Persons>
 
     <D_Officer>
-        <Dialogue>Hey buddy, nice to see you! Looks like you've grown yourself quite a nice belly, huh?</Dialogue>
-        <Dialogue>Anyways, I have spotted this vehicle right here, which fled from us earlier.</Dialogue>
-        <Dialogue>The suspect has to be around, we only know he is a white male.</Dialogue>
-        <Dialogue>I assume he is going in the shopping mall, he's probably hungry.</Dialogue>
+      <Dialogue>Ehi amico, è bello vederti! Sembra che ti sia fatto crescere una bella pancia, eh?</Dialogue>
+<Dialogue>Comunque, ho notato questo veicolo proprio qui, che è scappato da noi prima.</Dialogue>
+<Dialogue>Il sospettato deve essere in giro, sappiamo solo che è un maschio bianco.</Dialogue>
+<Dialogue>Immagino che stia andando al centro commerciale, probabilmente ha fame.</Dialogue>
     </D_Officer>
 
 </VehicleSpotted>

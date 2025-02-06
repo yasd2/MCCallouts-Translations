@@ -17,7 +17,7 @@
 
     <D_Witness2_0>
         <Dialogue>Dobrý den. Videl jsem cást nehody.</Dialogue>
-        <Dialogue>cekal na chodníku a ohlízel se smerem k protijedoucím vozidlum.</Dialogue>
+        <Dialogue>Cekal na chodníku a ohlízel se smerem k protijedoucím vozidlum.</Dialogue>
         <Dialogue>I on mel neco v rukou. Nevidel jsem to.</Dialogue>
         <Dialogue>Nejsem si stoprocentne jistý a nechci vinit cyklistu, ale vypadal nervózne.</Dialogue>
         <Dialogue>Pak jsem si hledel svého, kdyz jsem uslysel hlasitý tresk, a tehdy se to stalo.</Dialogue>
@@ -42,8 +42,8 @@
     <D_Suspect_0>
         <Dialogue>Dobrý den, strázníku, omlouvám se za to vsechno.</Dialogue>
         <Dialogue>Byla to chyba cyklisty? Nebo moje? Vubec jsem toho cyklistu nevidel.</Dialogue>
-        <Dialogue>rídil jsem, kdyz se najednou prímo prede mnou objevil cyklista.</Dialogue>
-        <Dialogue>slápl jsem prudce na brzdu, ale nestacilo to. Doufám, ze bude v porádku.</Dialogue>
+        <Dialogue>Rídil jsem, kdyz se najednou prímo prede mnou objevil cyklista.</Dialogue>
+        <Dialogue>Slápl jsem prudce na brzdu, ale nestacilo to. Doufám, ze bude v porádku.</Dialogue>
         <Dialogue>Moje auto je vázne poskozené, ale o to se postará pojistovna.</Dialogue>
     </D_Suspect_0>
 
@@ -51,7 +51,7 @@
     <D_Witness1_1>
         <Dialogue>Proc to trvá tak dlouho?! Mám naspech.</Dialogue>
         <Dialogue>Jsem na ceste do práce, uz mám 5 minut zpozdení!</Dialogue>
-        <Dialogue>Videl jsem jen, jak ten motorkár jel jako dábel, prílis rychle.</Dialogue>
+        <Dialogue>Videl jsem jen, jak ten cyklista jel jako dábel, prílis rychle.</Dialogue>
         <Dialogue>Jel velmi rychle po chodníku, to jsem videl.</Dialogue>
         <Dialogue>Uz opravdu musím jít, nashle!</Dialogue>
     </D_Witness1_1>
@@ -60,16 +60,16 @@
         <Dialogue>Ahoj, jmenuji se Linda. Tihle cyklisté vzdycky blokují silnici!</Dialogue>
         <Dialogue>Není divu, ze k takovým nehodám dochází. ridici musí být rychle v cíli a nemohou cekat na jezdce.</Dialogue>
         <Dialogue>Tento cyklista nemel na hlave ani helmu! Jaká nedbalost!</Dialogue>
-        <Dialogue>Tenhle motorkár jel jako dábel. A vsechna ostatní auta musí nebezpecne predjízdet a riskovat zivoty protijedoucích!</Dialogue>
-        <Dialogue>reknu vám, ze na toho cyklistu musíte dávat pozor.</Dialogue>
+        <Dialogue>Tenhle cyklista jel jako dábel. A vsechna ostatní auta musí nebezpecne predjízdet a riskovat zivoty protijedoucích!</Dialogue>
+        <Dialogue>Reknu vám, ze na toho cyklistu musíte dávat pozor.</Dialogue>
     </D_Witness2_1>
 
     <D_Witness3_1>
         <Dialogue>Ahoj, já jsem Paul. Chtel bych nahlásit. Wow, opravdu se mi líbí vase uniforma.</Dialogue>
         <Dialogue>Jakou pistoli nosíte? Je to SFP9? To je pekná zbran.</Dialogue>
-        <Dialogue>Jo, omlouvám se, nejdrív jsem videl, ze ten motorkár nemel helmu.</Dialogue>
+        <Dialogue>Jo, omlouvám se, nejdrív jsem videl, ze ten cyklista nemel helmu.</Dialogue>
         <Dialogue>Zapiste si: Cyklista mel pri jízde na usích sluchátka a nemel na hlave prilbu.</Dialogue>
-        <Dialogue>reknete mi: Mám na to, abych se stal policistou?</Dialogue>
+        <Dialogue>Reknete mi: Mám na to, abych se stal policistou?</Dialogue>
     </D_Witness3_1>
 
     <D_Witness4_Driver_1>
@@ -81,10 +81,10 @@
 
 
     <D_Suspect_1_2>
-        <Dialogue>Dobrý den, to je ale scéna. A to jen proto, ze me ten motorkár odrízl.</Dialogue>
-        <Dialogue>Hloupí motorkári, podívejte se na moje auto! Predek je v háji!</Dialogue>
+        <Dialogue>Dobrý den, to je ale scéna. A to jen proto, ze me ten cyklista odrízl.</Dialogue>
+        <Dialogue>Hloupí cyklisti, podívejte se na moje auto! Predek je v háji!</Dialogue>
         <Dialogue>Práve jsem si koupil toto vozidlo, není ani mesíc staré!</Dialogue>
-        <Dialogue>Motorkár jel po chodníku a pak do me náhle vjel. Nemel jsem sanci zareagovat.</Dialogue>
+        <Dialogue>Cyklista jel po chodníku a pak do me náhle vjel. Nemel jsem sanci zareagovat.</Dialogue>
         <Dialogue>Doufám, ze se brzy uzdraví, nechápejte me spatne. Ale já za to nemuzu.</Dialogue>
     </D_Suspect_1_2>
 
@@ -106,7 +106,7 @@
     <D_Witness3_2>
         <Dialogue>Ahoj strázníku, já jsem Paul, rád vás poznávám.!</Dialogue>
         <Dialogue>Vís, ze jsem premýslel o práci u policie, jsem pro to stvorený.</Dialogue>
-        <Dialogue>sel jsem zrovna pesky, kdyz jsem uvidel toho cyklistu. Nemel na sobe helmu a nemel prední svetlo.</Dialogue>
+        <Dialogue>Sel jsem zrovna pesky, kdyz jsem uvidel toho cyklistu. Nemel na sobe helmu a nemel prední svetlo.</Dialogue>
         <Dialogue>Nekdy je tezké videt lidi v tmavém oblecení, zejména za spatných povetrnostních podmínek.</Dialogue>
     </D_Witness3_2>
 
@@ -143,7 +143,7 @@
     </D_Paramedic1>
 
     <D_Paramedic2>
-        <Dialogue>Nemám cas si povídat. Motorkár má nejaké osklivé zranení, tak ho prosím neruste.</Dialogue>
+        <Dialogue>Nemám cas si povídat. kolista má osklivé zranení, tak ho prosím neruste.</Dialogue>
         <Dialogue>* sténání * ...</Dialogue>
     </D_Paramedic2>
 
@@ -165,7 +165,7 @@
     </D_Officer1_BikersFault>
 
     <D_Officer1_DriversFault>
-        <Dialogue>ridic zjevne nedodrzel dopravní predpisy. Je to jeho vina!</Dialogue>
+        <Dialogue>Ridic zjevne nedodrzel dopravní predpisy. Je to jeho vina!</Dialogue>
         <Dialogue>Rozumím, zatknete ridice!</Dialogue>
     </D_Officer1_DriversFault>
 
@@ -188,12 +188,12 @@
     </D_Fireman1>
 
     <D_Fireman3>
-        <Dialogue>clovece, miluju kávu z Bean Machine, zejména v nocních smenách. Meli byste to zkusit!</Dialogue>
+        <Dialogue>Clovece, miluju kávu z Bean Machine, zejména v nocních smenách. Meli byste to zkusit!</Dialogue>
     </D_Fireman3>
 
 
     <Menu>
-        <Text>Scénáre</Text>
+        <Text>Scenare</Text>
         <Text>Dopravní nehoda</Text>
         <Text>Vyberte si ten správný!</Text>
 
@@ -201,8 +201,8 @@
         <Text>Cyklista to udelal schválne!</Text>
         <Text>Cyklista se pokusil o pojistný podvod!</Text>
 
-        <Text>Chyba motorkáru</Text>
-        <Text>Motorkár nedával pozor!</Text>
+        <Text>Chyba cyklisty</Text>
+        <Text>Cyklista nedával pozor!</Text>
         <Text>Mohou za to cyklisté!</Text>
 
         <Text>Chyba ridice</Text>
