@@ -12,7 +12,8 @@
         <Text>Kein Verdächtiger gefunden, begeben Sie sich zum ~g~zweiten Ort~w~.</Text>
         <Text>Suchen Sie nun den ~r~Verdächtigen~w~ im zweiten ~g~Bereich~w~. Er ~r~muss~w~ dort sein!</Text>
         <Text>Beschreibung ~r~Verdächtiger~s~:{0}~y~Asiate, männlich~s~, dünn,{0}schwarze Haare, 30{0}trägt blaues T-Shirt</Text>
-
+        <Text>Beschreibung ~r~Verdächtige~s~:{0}~y~Schwarze Frau~s~, schlank,{0}schwarze Haare, 30 Jahre alt,{0}trägt ein ~r~rotes Shirt</Text> <!--{0} ist eine neue Zeile-->
+        <Text>~r~Verdächtiger ist ein ~y~asiatischer Mann~s~,{0}Mitte 30, schlank mit schwarzen Haaren{0}und trägt ein ~b~blaues Shirt.</Text>
     </Scenes>
     
     <Outcomes>

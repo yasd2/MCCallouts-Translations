@@ -12,6 +12,8 @@
          <Text>Nessun sospetto trovato, spostati nella ~g~seconda posizione~w~.</Text>
         <Text>Ora cerca il ~r~sospetto~w~ nella seconda ~g~area~w~. Lui ~r~deve~w~ essere lì!</Text>
         <Text>Descrizione del ~r~sospetto~s~:{0}~y~maschio asiatico~s~, magro,{0}capelli neri, 30{0}indossa una maglietta ~b~blu~s~</Text>
+        <Text>~r~Descrizione del sospetto:{0}~y~Donna nera~s~, snella,{0}capelli neri, 30 anni,{0}indossa una ~r~maglietta rossa</Text> <!--{0} è una nuova riga-->
+        <Text>~r~Il sospetto è un ~y~uomo asiatico~s~,{0}a metà dei 30 anni, snello con capelli neri{0}e indossa una ~b~maglietta blu.</Text>
     </Scenes>
     
     <Outcomes>

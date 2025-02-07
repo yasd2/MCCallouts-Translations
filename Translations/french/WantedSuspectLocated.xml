@@ -12,6 +12,8 @@
         <Text>Aucun suspect trouvé, déplacez-vous vers le ~g~deuxième emplacement~w~.</Text>
         <Text>Recherchez maintenant le ~r~suspect~w~ dans la deuxième ~g~zone~w~. Il ~r~doit~w~ ​​être là !</Text>
         <Text>~r~Suspect~s~ description :{0}~y~Homme asiatique~s~, mince,{0}cheveux noirs, 30 ans{0}porte un t-shirt ~b~bleu~s~</Text>
+        <Text>~r~Description du suspect:{0}~y~Femme noire~s~, mince,{0}cheveux noirs, 30 ans,{0}porte un ~r~t-shirt rouge</Text> <!--{0} est une nouvelle ligne-->
+        <Text>~r~Le suspect est un ~y~homme asiatique~s~,{0}fin trentaine, mince avec des cheveux noirs{0}et porte un ~b~t-shirt bleu.</Text>
     </Scenes>
     
     <Outcomes>

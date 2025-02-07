@@ -12,6 +12,8 @@
         <Text>Brak śladów poszukiwanego, pojedź do ~g~drugiej lokacji~w~.</Text>
         <Text>Znajdź ~r~poszukiwanego~w~ w drugim ~g~obszarze~w~. ~r~Musi~w~ tu być!</Text>
         <Text>~s~Opis ~r~poszukiwanego~s~:{0}~y~Azjata, mężczyzna~s~, chudy,{0}czarne włosy, około 30 lat, {0}ubrany w ~b~niebieską~s~ koszulkę</Text>
+        <Text>~r~Opis podejrzanego:{0}~y~Czarnoskóra kobieta~s~, szczupła,{0}czarne włosy, 30 lat,{0}ma na sobie ~r~czerwoną koszulkę</Text> <!--{0} to nowa linia-->
+        <Text>~r~Podejrzany to ~y~azjatycki mężczyzna~s~,{0}po 30. roku życia, szczupły, z czarnymi włosami{0}i ma na sobie ~b~niebieską koszulkę.</Text>
     </Scenes>
     
     <Outcomes>

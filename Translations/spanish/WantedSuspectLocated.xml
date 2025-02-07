@@ -12,6 +12,8 @@
         <Text>No se ha localizado al sospechoso, vaya a la ~g~segunda localización~w~.</Text>
         <Text>Ahora busca al ~r~sospechoso~w~ en la segunda ~g~área~w~. ¡Tiene que estar ahí!</Text>
         <Text>~r~Descripción del sospechoso~s~:{0}~y~Hombre asiático~s~, delgado,{0}pelo negro, 30{0}viste una camiseta ~b~azul~s~.</Text>
+        <Text>~r~Descripción del sospechoso:{0}~y~Mujer negra~s~, delgada,{0}cabello negro, 30 años,{0}lleva una ~r~camisa roja</Text> <!--{0} es una nueva línea-->
+        <Text>~r~El sospechoso es un ~y~hombre asiático~s~,{0}de unos 30 años, delgado con cabello negro{0}y lleva una ~b~camisa azul.</Text>
     </Scenes>
     
     <Outcomes>

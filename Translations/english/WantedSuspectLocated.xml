@@ -12,6 +12,8 @@
         <Text>No suspect found, move to the ~g~second location~w~.</Text>
         <Text>Now search for the ~r~suspect~w~ in the second ~g~area~w~. He ~r~has to~w~ be there!</Text>
         <Text>~r~Suspect~s~ description:{0}~y~Asian male~s~, thin,{0}black hair, 30{0}wears a ~b~blue~s~ t-shirt</Text>
+        <Text>~r~Suspect description:{0}~y~Black female~s~, thin,{0}black hair, 30,{0}wears a ~r~red shirt</Text> <!--{0} is a new line-->
+        <Text>~r~Suspect is an ~y~asian male~s~,{0}mid 30s, thin with black hair{0}and has a ~b~blue shirt.</Text>
     </Scenes>
     
     <Outcomes>

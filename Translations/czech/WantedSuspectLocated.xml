@@ -12,6 +12,8 @@
         <Text>Zadny podezrely nebyl nalezen, presunte se na ~g~druhe misto~w~.</Text>
         <Text>Nyni vyhledejte po ~r~podezrelym~w~ ve druhe ~g~oblasti~w~. ~r~musi~w~ byt!</Text>
         <Text>~r~Podezreleho~s~ popis je:{0}~y~asijsky muz~s~, je hubeny,{0}ma cerne vlasy, 30{0}a na sobe ma ~b~modre tricko~s~</Text>
+        <Text>~r~Popis podezřelého:{0}~y~Černoška~s~, hubená,{0}černé vlasy, 30 let,{0}má na sobě ~r~červené tričko</Text> <!--{0} je nový řádek-->
+        <Text>~r~Podezřelý je ~y~asijský muž~s~,{0}střední 30, hubený s černými vlasy{0}a má ~b~modré tričko.</Text>
     </Scenes>
     
     <Outcomes>
