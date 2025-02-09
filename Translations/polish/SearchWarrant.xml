@@ -1,45 +1,45 @@
 <SearchWarrant>
 
     <General>
-        <Text>A Search Warrant has been issued</Text>
-        <Text>Search the house for drugs, weapons, money, bones and persons</Text>
-        <Text>Search for {ChosenEvidenceTranslation} in the building!</Text>
-        <Text>We've received ~r~info~s~ on where the evidence ~r~is located~r~.</Text>
-        <Text>We received info that the suspect is currently at work. His name is {SuspectName}.</Text>
-        <Text>Evidence found:</Text>
+        <Text>Wydano nakaz przeszukania</Text>
+        <Text>Przeszukaj dom w poszukiwaniu: narkotyków, broni, pieniędzy, kości oraz osób</Text>
+        <Text>Poszukaj {ChosenEvidenceTranslation} w budynku!</Text>
+        <Text>Otrzymaliśmy ~r~informacje~s~, gdzie ~r~znajdują się~s~ dowody.</Text>
+        <Text>Otrzymaliśmy informację, że podejrzany aktualnie jest w pracy. Nazywa się {SuspectName}.</Text>
+        <Text>Znalezione dowody:</Text>
     </General>
 
     <Persons>
-        <Text>Gardener</Text>
-        <Text>You</Text>
+        <Text>Ogrodnik</Text>
+        <Text>Ty</Text>
     </Persons>
 
     <EvidTranslation>
-        <Text>Jewelry</Text>
-        <Text>Gold</Text>
-        <Text>Money</Text>
-        <Text>Weapons</Text>
-        <Text>Drugs</Text>
+        <Text>biżuterii</Text>
+        <Text>złoto</Text>
+        <Text>pieniądzy</Text>
+        <Text>broni</Text>
+        <Text>narkotyków</Text>
     </EvidTranslation>
 
     <D_Gardener>
-        <Dialogue>Hello sir, we have a search warrant for this property and the whole house.</Dialogue>
-        <Dialogue>Oh hello, I'm just the gardener here, there is nobody at home at this time, but the door is open.</Dialogue>
+        <Dialogue>Witam, mamy nakaz przeszukania całego domu i działki.</Dialogue>
+        <Dialogue>O witam, ja jestem tu tylko ogrodnikiem, aktualnie nie ma nikogo w domu, ale drzwi są otwarte.</Dialogue>
     </D_Gardener>
 
     <EvidenceChecker>
-        <Text>Evidence found!</Text>
-        <Text>~g~All evidence found! Good job!~s~</Text>
+        <Text>Dowód znaleziony!</Text>
+        <Text>~g~Znaleziono wszystkie dowody! Dobra robota!~s~</Text>
     </EvidenceChecker>
 
     <SuspectAction>
-        <Dialogue>The suspect is fleeing on foot, Dispatch!</Dialogue>
-        <Dialogue>Ah shit, you got me...</Dialogue>
-        <Dialogue>~r~Suspect:~s~ Fuck the cops, I'll shoot my way out!</Dialogue>
+        <Dialogue>Centrala, podejrzany ucieka na piechote!</Dialogue>
+        <Dialogue>K###a, masz mnie...</Dialogue>
+        <Dialogue>~r~Podejrzany:~s~ J###ć psy, odstrzelę sobie drogę do ucieczki!</Dialogue>
     </SuspectAction>
 
     <End>
-        <Text>Callout is Code 4.</Text>
+        <Text>Zgłoszenie zakończone. Kod 4.</Text>
     </End>
 
 </SearchWarrant>
