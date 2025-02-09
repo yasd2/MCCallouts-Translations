@@ -1,36 +1,36 @@
 <CashTransport>
 
     <General>
-        <Text>Risky Money Transport</Text>
-        <Text>Drive to the ~g~~h~callout location~h~~s~.</Text>
-        <Text>Press {Y} to talk</Text>
-        <Text>Drive to the ~b~~h~destination~h~~s~.</Text>
-        <Text>Press {Y} anytime if the RIOT is stuck.</Text>
-        <Text>Get the ~HC_3~~h~cash suitcase~h~~s~ from the back of the ~r~~h~money truck~h~~s~.</Text>
-        <Text>Bring the case into the bank.</Text>
-        <Text>Press ~y~~h~End~h~~s~ anytime to end the callout.</Text>
+        <Text>Transport pieniędzy o wysokim ryzyku</Text>
+        <Text>Udaj się do ~g~~h~miejsca wezwania~h~~s~.</Text>
+        <Text>Naciśnij {Y}, aby rozmawiać</Text>
+        <Text>Udaj się do ~b~~h~miejsca docelowego~h~~s~.</Text>
+        <Text>Naciśnij {Y} w dowolnym momencie, jeżeli RIOT się zablokuje.</Text>
+        <Text>Zabierz ~HC_3~~h~walizkę z pieniędzmi~h~~s~ z tyłu ~r~~h~furgonetki~h~~s~.</Text>
+        <Text>Zanieś walizkę do banku.</Text>
+        <Text>Naciśnij ~y~~h~End~h~~s~ w dowolnym momencie, aby zakończyć wezwanie.</Text>
     </General>
 
     <Persons>
-        <Text>Guard</Text>
-        <Text>You</Text>
-        <Text>Bankman</Text>
+        <Text>Strażnik</Text>
+        <Text>Ty</Text>
+        <Text>Bankier</Text>
     </Persons>
 
     <Guard>
-        <Dialogue>Hello Officer! Thanks for coming! We have a very important delivery!</Dialogue>
-        <Dialogue>The armoured bank truck will deliver a big amount of money to our destination.</Dialogue>
-        <Dialogue>The truck will be driven by you, a armoured swat vehicle will follow.</Dialogue>
-        <Dialogue>We got reports that an attack might be happening, that's why we have you and the swat team. Let's go!</Dialogue>
+        <Dialogue>Witaj oficerze! Dziękuję za przybycie! Mamy bardzo ważną dostawę do zrealizowania!</Dialogue>
+        <Dialogue>W opancerzonej ciężarówce jest spora suma pieniędzy, musimy ją dostarczyć do celu.</Dialogue>
+        <Dialogue>Ty będziesz prowadzić ciężarówkę, za Tobą będzie jechał opancerzony pojazd SWAT.</Dialogue>
+        <Dialogue>Informatorzy przekazali nam, że jest duże prawdopodobieństwo ataku na konwój. Dlatego wezwaliśmy Ciebie i drużynę SWAT. Czas ucieka, ruszamy!</Dialogue>
     </Guard>
 
     <Bankman>
-        <Dialogue>Hello! I see you made it out alive! Now you know why we hire professionals like you, not like ... my colleagues.</Dialogue>
-        <Dialogue>... definitely. At least the swat vehicle is bullet proof.</Dialogue>
-        <Dialogue>The money truck is armoured, too. Only the windows are not.</Dialogue>
-        <Dialogue>Here is the case.</Dialogue>
-        <Dialogue>Perfect, thank you, I put in a good word for you!</Dialogue>
-        <Dialogue>I hope the risk was worth it, have a nice day!</Dialogue>
+        <Dialogue>Hej! Widzę, że udało Ci się ujść z życiem! Teraz rozumiesz dlaczego zatrudniamy profesjonalistów jak Ty, a nie jak... moi koledzy.</Dialogue>
+        <Dialogue>... rozumiem aż zbyt dobrze. Przynajmniej pojazd SWAT jest kuloodporny.</Dialogue>
+        <Dialogue>Ciężarówka z pieniędzmi też jest opancerzona. Z wyjątkiem szyb.</Dialogue>
+        <Dialogue>Oto walizka.</Dialogue>
+        <Dialogue>Świetnie, dziękuję bardzo. Szepnę dobrym słowem o Tobie!</Dialogue>
+        <Dialogue>Mam nadzieję, że ryzyko było tego warte, miłego dnia!</Dialogue>
     </Bankman>
 
 </CashTransport>
