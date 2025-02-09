@@ -1,36 +1,36 @@
 <ZombiesReported>
 
     <General>
-        <Text>A civilian reported to have seen zombies</Text>
-        <Text>Drive to the concerned civilian, ~r~Code 3~s~.</Text>
+        <Text>Cywil zgłosił, że widział zombie</Text>
+        <Text>Pojedź do zainteresowanej osoby, w ~r~kodzie 3~s~.</Text>
     </General>
 
         <Persons>
-        <Text>You</Text>
-        <Text>Civilian</Text>   
+        <Text>Ty</Text>
+        <Text>Cywil</Text>   
     </Persons>
 
     <Civilian>
-        <Dialogue>Hello, are you alright?</Dialogue>
-        <Dialogue>You won't believe me... I saw zombies!!!</Dialogue>
-        <Dialogue>Okay, everything will be alright...</Dialogue>
-        <Dialogue>There they are, aaaaaah!...</Dialogue>
+        <Dialogue>Witaj, wszystko w porządku?</Dialogue>
+        <Dialogue>Nie uwierzysz mi... Widziałem nieumarłych!!!</Dialogue>
+        <Dialogue>Ok, wszystko będzie w porządku...</Dialogue>
+        <Dialogue>Oni tam są, aaaaaah!...</Dialogue>
     </Civilian>
 
     <Civilian2>
-        <Dialogue>Hi, what's going on?</Dialogue>
-        <Dialogue>I think I'm crazy... I saw zombies wandering around...</Dialogue>
-        <Dialogue>Damn, are you sure?</Dialogue>
-        <Dialogue>Omg, there they are... run!!!</Dialogue>
+        <Dialogue>Hej, co tu się dzieje?</Dialogue>
+        <Dialogue>Chyba zwariowałem... Widziałem błakające się zombie w okolicy...</Dialogue>
+        <Dialogue>Cholera, jesteś pewien?</Dialogue>
+        <Dialogue>Omg, są tam... uciekaj!!!</Dialogue>
     </Civilian2>
 
     <Wave>
-        <Text>Wave {WaveNumber} is starting!</Text>
-        <Text>~g~Wave {WaveNumber} complete</Text>
-        <Text>~o~Wave {WaveNumber} starts in {time}s~s~</Text>
-        <Text>Congrats, 10 waves mastered.</Text>
-        <Text>Press ~y~End~s~ to end the callout anytime.</Text>
-        <Text>Wave {WaveNumber}</Text>
+        <Text>Fala {WaveNumber} właśnie się rozpoczyna!</Text>
+        <Text>~g~Fala {WaveNumber} ukończona</Text>
+        <Text>~o~Fala {WaveNumber} zaczyna się za {time}s~s~</Text>
+        <Text>Gratulacje, odparto 10 fal.</Text>
+        <Text>Naciśnij ~y~End~s~ w dowolnym momencie, aby zakończyć wezwanie.</Text>
+        <Text>Fala {WaveNumber}</Text>
     </Wave>
 
 </ZombiesReported>
