@@ -1,0 +1,9 @@
+<Timecycle>
+    <General>
+        <Text>Bạn có muốn chơi vào lúc ~b~9 giờ tối~w~ để có trải nghiệm thực tế không?</Text>
+		<Text>Nhấn '~g~Y~w~' để ~g~đồng ý~w~ chơi ~g~yes~w~, '~r~N~w~' để ~r~Không~w~ chơi ~r~no~w~.</Text>
+		<Text>Nhấn {0} để chơi ~g~đồng ý~w~, {1} để chơi ~r~không~w~.</Text>
+		<Text>Thời gian vẫn giữ nguyên, hãy vui vẻ nhé!</Text>
+		<Text>Thời gian đã được đặt thành ~b~buổi tối~w~.</Text>		
+    </General>
+</Timecycle>

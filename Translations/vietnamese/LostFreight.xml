@@ -1,0 +1,68 @@
+<LostFreight>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+
+    <General>
+        <Text>Hàng hóa bị mất</Text>
+        <Text>Người gọi báo cáo hàng hóa bị mất trên đường cao tốc.</Text>
+        <Text><![CDATA[Lái xe đến người gọi và liên lạc.]]></Text>
+    </General>
+
+
+    <DisplayHelp>
+        <Text>Nói chuyện với người gọi bằng </Text>
+        <Text><![CDATA[Tìm kiếm ~y~khu vực~s~ và xóa chướng ngại vật bằng ]]></Text>
+        <Text>Nói chuyện với ~b~s~ cảnh sát bằng </Text>
+        <Text>Không có thêm thông tin liên lạc nào nữa.</Text>
+        <Text>Đây là một chút ~g~ trợ giúp nhỏ.</Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+        <Text>~r~Không có vật thể~s~ nào gần đó.</Text>
+        <Text>~r~Vật thể~s~ đã bị xóa!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>~y~Bạn~s~: Xin chào, bạn gọi về hàng hóa bị mất à?</Dialogue>
+        <Dialogue><![CDATA[~b~Người gọi~: Xin chào, đúng rồi, cửa xe kéo mở tung và giờ đồ đạc rơi xuống đường cao tốc!]]></Dialogue>
+        <Dialogue>~y~Bạn~s~: Nguy hiểm quá, bạn đang mang cái gì vậy?</Dialogue>
+        <Dialogue>~b~Người gọi~: Đủ thứ đồ ~b~quần vợt~, vì chúng tôi đang dọn dẹp câu lạc bộ.</Dialogue>
+        <Dialogue>~b~Người gọi~: Rất nhiều đồ ~b~văn phòng~, tủ, màn hình, ghế, loa...</Dialogue>
+        <Dialogue>~b~Người gọi~: Rất nhiều đồ ~b~đồ dùng nhà bếp~, nồi, dao kéo, đĩa, v.v., vì công ty chúng tôi phải chuyển đi nơi khác.</Dialogue>
+        <Dialogue>~y~Bạn~s~: Tôi hiểu rồi, anh định đi đâu vậy?</Dialogue>
+        <Dialogue>~b~Người gọi~: Tôi chỉ đi theo ~y~hướng này~s~, nên hãy tìm kiếm bên kia đường cao tốc.</Dialogue>
+        <Dialogue>~y~Bạn~s~: Đội điều phối, chặn lối vào đường cao tốc cuối cùng, có một số bộ phận trên đường!</Dialogue>
+        <Dialogue>Lặp lại, giao thông sẽ dừng lại, các đơn vị đang trên đường.</Dialogue>
+    </Conversation>
+
+
+    <Officer1>
+        <Dialogue>~b~Sĩ quan Xanh~s~: Xin chào! Hy vọng bạn có một ngày tuyệt vời!</Dialogue>
+		<Dialogue>~b~Sĩ quan Xanh~s~: Tôi sẽ giữ cho giao thông dừng lại cho đến khi đường thông!</Dialogue>
+		<Dialogue>~b~Sĩ quan Xanh~s~: Chúc may mắn!</Dialogue>
+    </Officer1>
+
+
+    <Officer2>
+        <Dialogue>~b~Sĩ quan Night~s~: Xin chào, việc này còn kéo dài bao lâu nữa?</Dialogue>
+		<Dialogue>~b~Sĩ quan Night~s~: Tôi còn nhiều việc khác phải làm nữa!</Dialogue>
+		<Dialogue>~b~Sĩ quan Night~s~: Nếu anh không nói nhiều như vậy, tôi đã đi rồi!</Dialogue>		
+    </Officer2>
+
+
+    <End>
+        <Text>Chúng tôi là ~g~Code 4~s~</Text>
+		<Text>Các mục đã xóa:</Text> <!--Có 4 mục để tìm, trên thông báo này, bạn có thể xem mình đã tìm thấy bao nhiêu mục.-->
+		<Text>/~g~4</Text> <!--Điều này có nghĩa là X mục trong số 4 mục đã được tìm thấy -> X/4 mục đã tìm thấy-->
+		<Text>~r~Cảm ơn bạn, ~g~giao thông có thể lưu thông trở lại!</Text>		
+    </End>
+
+
+
+</LostFreight>

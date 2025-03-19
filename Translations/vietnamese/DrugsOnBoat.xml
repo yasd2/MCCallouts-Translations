@@ -1,0 +1,56 @@
+<DrugsOnBoat>
+
+    <General>
+        <Text>Phát hiện tàu chở ma túy đã biết</Text>
+        <Text>Kiểm tra xem có ma túy trên tàu không</Text>
+        <Text>GỢI Ý: Tìm kiếm ma túy trên thuyền</Text>
+        <Text>Phái đoàn, tôi không tìm thấy bất kỳ loại ma túy nào, tôi sẽ nói chuyện lại với chủ tàu.</Text>
+        <Text>Sao chép lại.</Text>
+        <Text>Chúng tôi đã nhận được ~o~mẹo ẩn danh~ về địa điểm.</Text>
+        <Text>Phái đoàn, có một cuộc truy đuổi bằng chân!</Text>
+        <Text>Phái đoàn, đã nổ súng!</Text>
+        <Text>Bạn đang trên đường đến một con tàu để tìm kiếm ma túy bất hợp pháp.</Text>
+        <Text>Nhấn {Y} để lấy bằng chứng.</Text>
+        <Text>Đối chất với chủ tàu hoặc tiếp tục tìm kiếm.</Text>
+        <Text>~g~Đã tìm thấy tất cả bằng chứng</Text>
+        <Text>Đã tìm thấy ma túy:</Text>
+    </General>
+
+
+    <Persons>
+        <Text>Chủ sở hữu</Text>
+        <Text>Bạn</Text>
+    </Persons>
+
+
+    <D_Owner_Arrive>
+        <Dialogue>Xin chào ngài, chúng tôi có lệnh khám xét chiếc thuyền này.</Dialogue>
+        <Dialogue>Cút đi, anh không được khám xét thuyền của tôi!</Dialogue>
+        <Dialogue>Tránh ra, anh có thể yêu cầu cấp dưới của tôi ở dưới đó viết lệnh khám xét.</Dialogue>
+    </D_Owner_Arrive>
+
+
+    <D_Owner_NoDrugs>
+        <Dialogue>Được rồi, tôi đã khám xét xong tàu của anh, anh có thể đi rồi!</Dialogue>
+        <Dialogue>Việc này mất một thời gian, nhưng thời gian là tiền bạc! Tôi cần phải nhanh lên ngay bây giờ.</Dialogue>
+        <Dialogue>Tôi chỉ làm công việc của mình thôi, dù sao thì chúc bạn có một chuyến đi vui vẻ!</Dialogue>
+    </D_Owner_NoDrugs>
+
+
+    <D_Owner_Surrender>
+        <Dialogue>Thưa ngài, tôi tìm thấy nhiều loại thuốc trên con tàu này, ngài có thể giải thích điều này không?</Dialogue>
+        <Dialogue>... Ý tôi là... chết tiệt, dù sao thì ngài cũng bắt được tôi rồi. Vâng, chúng là của tôi.</Dialogue>
+        <Dialogue>Tôi sẽ không chống cự, tôi đã cố bán chúng, ngài có thể bắt tôi.</Dialogue>
+    </D_Owner_Surrender>
+
+
+    <D_Owner_Pursuit_Shooting>
+        <Dialogue>Thưa ngài, tôi tìm thấy nhiều loại thuốc trên con tàu này, ngài có thể giải thích điều này không?</Dialogue>
+    </D_Owner_Pursuit_Shooting>
+
+
+    <End>
+        <Text>Cuộc gọi Code 4.</Text>
+    </End>
+
+</DrugsOnBoat>

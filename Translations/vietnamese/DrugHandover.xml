@@ -1,0 +1,56 @@
+<DrugHandover>
+
+    <General>
+        <CalloutMessage>Bàn giao ma túy</CalloutMessage>
+        <CalloutAdvisory>~o~Chặn cuộc họp với tư cách là lính bắn tỉa của lực lượng đặc biệt~s~</CalloutAdvisory>
+    </General>
+
+    <Persons>
+        <Text>Bạn</Text>
+        <Text>Sĩ quan</Text>
+    </Persons>
+
+    <EState>
+        <Meeting>
+            <D_Briefing>
+                <Dialogue>Xin chào, cảm ơn bạn đã tham gia cùng chúng tôi.</Dialogue>
+                <Dialogue>Buổi họp này nhằm mục đích cung cấp cho bạn cái nhìn tổng quan về những gì đang diễn ra.</Dialogue>
+                <Dialogue>Chúng tôi có báo cáo về một vụ bàn giao ma túy bất hợp pháp diễn ra hôm nay tại Sân bay Sandy Shores.</Dialogue>
+                <Dialogue>Vì bạn là một trong những tay bắn tỉa tinh nhuệ được đào tạo tốt nhất, nhiệm vụ của bạn là trinh sát và gọi cho chúng tôi sau khi giao dịch ma túy được thực hiện.</Dialogue>
+                <Dialogue>Sau đó, chúng tôi sẽ xông vào với 2 đơn vị không có dấu hiệu nhận dạng và 1 swat bearcat. Nếu chúng ta đang bị bắn, nhiệm vụ của bạn là tiêu diệt chúng.</Dialogue>
+                <Dialogue>Chúng tôi đã phát hiện ra một vị trí bắn tỉa tốt cho bạn trên một trong những tòa nhà bên cạnh sân bay.</Dialogue>
+                <Dialogue>Nhưng bây giờ, trước tiên hãy chọn một tay bắn tỉa, vì điều đó ở đồn cảnh sát ngay trên bàn.</Dialogue>
+            </D_Briefing>
+            <Text>Tìm cho mình một tay bắn tỉa ở đồn cảnh sát.</Text>
+        </Meeting>
+
+        <Weapon>
+            <WeaponSelector>
+                <Text>Chọn vũ khí</Text>
+                <Text>Vũ khí</Text>
+                <Text>Chọn 1 vũ khí</Text>
+                <Text>Bạn đã trang bị </Text> <!--WeaponType được mã hóa bằng tiếng Anh-->
+            </WeaponSelector>
+            <Text>Bây giờ hãy lái xe đến hiện trường và chuẩn bị.</Text>
+        </Weapon>
+
+        <DriveToScene>
+            <Text>Đây là báo cáo ~o~điểm gặp gỡ giao nộp ma túy~s~. Bây giờ bạn sẽ thấy trên bản đồ nhỏ vị trí ~g~vị trí bắn tỉa~s~ của bạn, hãy lên mái nhà ở đó.</Text>
+        </DriveToScene>
+
+        <IsAtÜbergabeort>
+            <Text>Bây giờ hãy đợi ~r~thực tế giao nộp.</Text>
+        </IsAtÜbergabeort>
+    </EState>
+
+    <Scenarios>
+        <Text>Sau khi ~g~giao nộp~s~ xong, hãy vào và bắt giữ ~r~nghi phạm!</Text>
+        <Text>Chúng ta đã ~r~bắn!</Text>
+        <Text>Các ~r~nghi phạm~s~ đang rời đi, hãy bảo vệ ~g~case!</Text>
+        <Text>Các nghi phạm đang ~r~bỏ chạy~s~, chúng ta đang truy đuổi!</Text>
+        <Text>Các nghi phạm đang đầu hàng!</Text>
+        <Text>Bạn có thể nhặt ~g~cái cặp~s~ bằng {0}.</Text>
+        <Text>~g~Vỏ~s~ đã được bảo mật!</Text>
+    </Scenarios>
+
+</DrugHandover>

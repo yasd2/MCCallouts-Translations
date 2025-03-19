@@ -1,0 +1,118 @@
+<MissingPet>
+
+    <General>
+        <Text>Thú cưng mất tích</Text>
+        <Text>Người gọi lo lắng về thú cưng</Text>
+        <Text>Lái xe đến ~b~~h~Người gọi~h~~s~ để tìm hiểu thêm về thú cưng mất tích.</Text>
+    </General>
+
+    <Persons>
+        <Dialogue>Người gọi</Dialogue>
+		<Dialogue>Người lái xe</Dialogue>
+		<Dialogue>Bạn</Dialogue>
+		<Dialogue>Nạn nhân</Dialogue>		
+    </Persons>
+
+    <Tasks>
+        <Text>Nhấn {Key} để nói chuyện với người đó.</Text>
+		<Text>Có báo cáo về một người bị động vật tấn công!</Text>
+		<Text>Cố gắng ~y~tase~s~ con vật cưng để ~o~dừng~s~ cuộc tấn công!</Text>
+		<Text>Con ~r~pet~s~ đã ~g~dừng tấn công~s~!</Text>
+		<Text>Gọi ~g~kiểm soát động vật~s~ để đưa con vật cưng đi.</Text>
+		<Text>Gọi ~r~xe cứu thương~s~ để đưa nạn nhân đi.</Text>
+		<Text>Nói chuyện với nạn nhân bằng</Text>
+		<Text>Lái xe đến chỗ người gọi và cập nhật thông tin cho họ.</Text>
+		<Text>Nhấn ~y~J~s~ để ~r~dịch chuyển~s~ con vật cưng vào xe của bạn!</Text>
+		<Text>~r~Đầu tiên hãy lên xe,~s~ sau đó thử lại.</Text>		
+    </Tasks>
+
+    <TasksAccident>
+        <Text>Một người đã tìm thấy {PetTypeAsNormalWord} và báo cáo về nó.</Text>
+        <Text>Lái xe đến địa điểm tìm thấy thú cưng.</Text>
+        <Text>Gọi một ~b~~h~người giám định tử thi~h~~s~ để tìm con vật, sau đó lái xe đến ~b~~h~người gọi~h~~s~ một lần nữa.</Text>
+    </TasksAccident>
+
+    <Animals>
+        <Text>Chó hung dữ</Text>
+        <Text>Sư tử núi</Text>
+		<Text>Chó</Text>
+		<Text>Mèo</Text>
+		<Text>Chó sói đồng cỏ</Text>
+		<Text>Hươu</Text>
+		<Text>Thỏ</Text>
+		<Text>Gà mái</Text>
+		<Text>Lợn rừng</Text>
+		<Text>Khỉ</Text>
+		<Text>Khỉ Rhesus</Text>
+    </Animals>
+
+    <CallerGeneral>
+        <Dialogue>Xin chào! Tôi không tìm thấy thú cưng của mình!</Dialogue>
+		<Dialogue>Nó đã mất tích trong {min} phút, nhưng nó hẳn phải ở gần đây!</Dialogue>
+		<Dialogue>Ồ, xin lỗi, đó là {PetTypeAsNormalWord}, ​​và tên của nó là {PetName}.</Dialogue>
+		<Dialogue>Nó vừa mới biến mất! Hãy tìm nó!</Dialogue>
+    </CallerGeneral>
+
+    <DriverAccident1>
+        <Dialogue>Xin chào cảnh sát! Hãy xem chuyện gì đã xảy ra!</Dialogue>
+		<Dialogue>Con vật chạy trước xe tôi! Tôi không có cơ hội tránh nó!</Dialogue>
+		<Dialogue>Xe tôi cũng bị hỏng rồi! Anh có thể gọi cho tôi một chiếc taxi và xe kéo không?</Dialogue>		
+    </DriverAccident1>
+
+    <DriverAccident2>
+        <Dialogue>Xin chào cảnh sát, tôi rất xin lỗi, tôi chỉ đang lái xe khi con vật này chạy qua đường.</Dialogue>
+		<Dialogue>Tôi đã không thể phản ứng kịp thời. Chết tiệt.</Dialogue>
+		<Dialogue>Miễn là bạn ổn, mọi thứ đều ổn. Xe của bạn cũng ổn.</Dialogue>
+		<Dialogue>Cảm ơn bạn đã báo cáo, tôi sẽ thông báo cho chủ xe sau. Hãy lái xe an toàn.</Dialogue>
+    </DriverAccident2>
+
+    <CallerReturnAccident1>
+        <Dialogue>Xin chào, tôi trở lại với tin xấu đây.</Dialogue>
+		<Dialogue>Ôi không, chuyện gì đã xảy ra vậy?</Dialogue>
+		<Dialogue>Con vật bị ô tô đâm và không qua khỏi.</Dialogue>
+		<Dialogue>Ồ, buồn quá, nhưng con vật cưng đó không phải của tôi; nó thuộc về hàng xóm của tôi.</Dialogue>
+		<Dialogue>Hàng xóm của tôi sẽ ghét tôi mãi mãi, ôi không...</Dialogue>
+		<Dialogue>Dù sao thì, cảm ơn bạn đã cho tôi biết!</Dialogue>
+		<Dialogue>Ồ không, dù sao thì cũng chúc bạn một ngày tốt lành!</Dialogue>
+    </CallerReturnAccident1>
+
+    <CallerReturnAccident2>
+        <Dialogue>Xin chào...</Dialogue>
+		<Dialogue>Và... bạn đã tìm thấy thú cưng chưa?</Dialogue>
+		<Dialogue>Tôi xin lỗi, nhưng thú cưng của bạn đã bị quá tải do tai nạn. Có người vừa báo cáo điều đó.</Dialogue>
+		<Dialogue>Ôi trời... Không phải thú cưng của tôi, hàng xóm của tôi đang đi nghỉ và tôi đã tiếp quản...</Dialogue>
+		<Dialogue>Tôi có thể làm gì khác cho bạn không?</Dialogue>
+		<Dialogue>Không, cảm ơn... chết tiệt... tôi nên giải thích thế nào đây...</Dialogue>		
+    </CallerReturnAccident2>
+
+    <DriverAttackSafed1>
+        <Dialogue>Ôi trời, cảm ơn anh đã cứu tôi!</Dialogue>
+		<Dialogue>Tôi đang bận việc của mình thì đột nhiên con vật này lao thẳng về phía tôi!</Dialogue>
+		<Dialogue>Không sao, tôi mừng là anh an toàn.</Dialogue>
+		<Dialogue>Cảm ơn anh, chúc anh một ngày tốt lành!</Dialogue>		
+    </DriverAttackSafed1>
+
+    <CallerAttackReturnPetAlive2>
+        <Dialogue>Này, tôi đã mang thú cưng của anh về rồi!</Dialogue>
+		<Dialogue>Tuyệt, cảm ơn anh! Anh đã đi đâu thế, {PetName}?</Dialogue>
+		<Dialogue>Tôi có thể nói với anh, thú cưng của anh đã tấn công một thường dân vô tội!</Dialogue>
+		<Dialogue>Ồ, tôi rất tiếc, tôi hy vọng anh ấy không bị thương nặng.</Dialogue>
+		<Dialogue>Tôi cần thông tin chi tiết của anh như CMND và tôi sẽ lập biên bản.</Dialogue>
+		<Dialogue>Ngay khi mọi chuyện kết thúc, anh được tự do đi.</Dialogue>
+    </CallerAttackReturnPetAlive2>
+
+    <CallerAttackReturnPetDead2>
+        <Dialogue>Xin chào, tôi có tin xấu cho bạn. Thật không may, thú cưng của bạn đã tấn công một thường dân.</Dialogue>
+		<Dialogue>Tôi buộc phải sử dụng vũ lực gây chết người, thú cưng đã chết.</Dialogue>
+		<Dialogue>Ồ, được rồi, tôi rất xin lỗi, tôi hy vọng người đó không bị thương?</Dialogue>
+		<Dialogue>Người đó vẫn ổn.</Dialogue>
+		<Dialogue>Trong tương lai, tôi sẽ cẩn thận hơn với thú cưng của mình.</Dialogue>
+		<Dialogue>Điều quan trọng nhất là mọi người đều an toàn. Chúc bạn một ngày tốt lành.</Dialogue>		
+    </CallerAttackReturnPetDead2>
+
+    <End>
+       <Text>Nhấn ~y~End~s~ bất cứ lúc nào để kết thúc cuộc gọi.</Text>
+       <Text>~g~Cuộc gọi là Code 4.</Text>
+    </End>
+
+</MissingPet>

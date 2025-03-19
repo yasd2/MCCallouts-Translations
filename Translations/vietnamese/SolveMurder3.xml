@@ -1,0 +1,174 @@
+<SolveMurder3>
+
+
+    <General>
+        <Text>~b~Chuyên viên điều tra~s~ tại vụ án giết người cần thiết</Text>
+		<Text>Cảnh sát đã chết sau khi dừng xe</Text>
+    </General>
+
+
+    <Approach>
+        <Text>Nói chuyện với ~HC_43~Chuyên viên điều tra~ để cập nhật tình hình hiện trường.</Text>
+    </Approach>
+
+
+    <Characters>
+        <Text>~HC_43~Chuyên viên điều tra~s~: </Text>
+		<Text>~y~Bạn~s~: </Text>
+		<Text>~p~Công~việc~s~: </Text>
+		<Text>~g~Nhân chứng~s~: </Text>
+		<Text>~r~Nghi phạm~s~: </Text>		
+    </Characters>
+
+
+    <TalkToDetective>
+        <Dialogue>Xin chào ~HC_43~Chuyên viên điều tra~s~! Cảnh tượng thật lớn! Chuyện gì đang xảy ra vậy?</Dialogue>
+		<Dialogue>Xin chào, đúng rồi! Thật không may, chúng tôi có một trong những cảnh sát ~b~ của chúng tôi ~r~bị~giết~tại một trạm dừng xe...</Dialogue>
+		<Dialogue>Hiện tại chúng tôi không biết đó là ai, đó là lý do tại sao chúng tôi gọi anh, một người có khá nhiều kinh nghiệm.</Dialogue>
+		<Dialogue>Tôi đã nghe về vụ án tại ~g~Núi Chiliad~s~ ở trạm xăng, anh đã giải quyết rất tốt!</Dialogue>
+		<Dialogue>Cảm ơn anh, chúng ta hãy xem tôi có thể tìm thấy gì về vụ án này.</Dialogue>
+		<Dialogue>Ồ xin lỗi, vâng, được thôi, vui lòng tìm kiếm ~y~bằng chứng~s~ tại hiện trường, bất cứ điều gì cũng có thể giúp ích.</Dialogue>
+		<Dialogue>Bạn có thể nhấn ~y~{0}~s~ để ~y~nhặt~s~ các ~y~bằng chứng~s~ khi đứng cạnh nó. ~g~Chúc may mắn~s~!</Dialogue>
+		<Dialogue>Đi đến khu vực đóng và tìm kiếm bằng chứng, nhấn ~y~{1}~s~ để nhặt ~y~bằng chứng~s~.</Dialogue>
+        <Dialogue>Kiểm tra lại cảnh đó, bạn vẫn còn ~o~thiếu một số~thứ~!</Dialogue>		
+    </TalkToDetective>
+
+
+    <SearchForEvidence>
+        <Dialogue>Đây là một chút ~HC_211~trợ giúp~.</Dialogue>
+		<Dialogue>~r~Không có bằng chứng~gần đây.</Dialogue>
+
+		<Dialogue>Một ~o~khẩu súng trường~s~, điều này chỉ có thể là nghi phạm hoặc cảnh sát.</Dialogue>
+		<Dialogue>Đây phải là ~o~ví~s~ của nghi phạm...</Dialogue>
+		<Dialogue>Một ~o~điện thoại~di động~, nếu tôi chỉ có mật khẩu.</Dialogue>
+		<Dialogue>Một ~o~bia~s~? Có người đã ném nó ra ngoài cửa sổ.</Dialogue>
+
+		<Dialogue>Một ~o~Con dao~s~... có máu trên đó.</Dialogue>
+		<Dialogue>Một ~o~thẻ căn cước~, tốt hơn là tôi nên đưa nó cho Người lao động.</Dialogue>
+		<Dialogue>Một ~o~ổ USB~s~, tôi tự hỏi có gì trong đó.</Dialogue>
+		<Dialogue>Một ~o~túi~s~... Tôi không nên để thêm dấu vân tay nào nữa trên đó.</Dialogue>
+
+		<Dialogue>Một ~o~súng~s~... trông không giống súng của cảnh sát.</Dialogue>
+		<Dialogue>Một ~o~biển số~s~... có thể là biển số của nghi phạm?</Dialogue>
+		<Dialogue>Một ~o~giày~s~, không do sở cảnh sát nào cấp.</Dialogue>
+		<Dialogue>Một ~o~whiskey~s~... Ước gì mình có thể thử :p</Dialogue>
+
+		<Dialogue>Nói chuyện với ~HC_43~Chuyên viên điều tra~s~ về ~g~bằng chứng~tìm thấy~s~.</Dialogue>		
+    </SearchForEvidence>
+
+
+    <AgainTalkToDetective>
+        <Dialogue>Này, tôi tìm thấy một số bằng chứng thú vị, chúng sẽ giúp ích cho chúng ta.</Dialogue>
+		<Dialogue>Được rồi, nói cho tôi biết!</Dialogue>
+		<Dialogue>Tôi tìm thấy {0}.</Dialogue>
+		<Dialogue>một khẩu súng trường, một chiếc ví, một chiếc điện thoại và một cốc bia</Dialogue>
+		<Dialogue>một con dao, một CCCD, một ổ USB và một chiếc túi</Dialogue>
+		<Dialogue>một khẩu súng lục, một biển số xe, một chiếc giày và một chai rượu whisky</Dialogue>
+		<Dialogue>Tôi khá chắc đây là hung khí giết người.</Dialogue>
+		<Dialogue>Ngoài ra, chúng ta có thể tìm ra thông tin về nghi phạm.</Dialogue>
+		<Dialogue>Chắc chắn rồi! Hãy đến gặp ~p~Laborant~s~, anh ta sẽ phân tích bằng chứng và tìm hiểu thêm!</Dialogue>
+		<Dialogue>Sử dụng ~y~{1}~s~ để nói chuyện với ~p~Laborant~s~ về ~y~evidence~s~.</Dialogue>
+    </AgainTalkToDetective>
+
+
+    <TalkToLaborant>
+        <Dialogue>Xin chào ngài, cảm ơn ngài đã đến. Tôi đã tìm thấy rất nhiều bằng chứng, ngài có thể kiểm tra không?</Dialogue>
+		<Dialogue>Xin chào ngài nữa. Vâng, đó là công việc của tôi c; Vui lòng giao nộp bằng chứng.</Dialogue>
+		<Dialogue>Cảm ơn, tôi sẽ kiểm tra nhanh.</Dialogue>
+		<Dialogue>Nhấn ~y~{3}~s~ lần nữa để nói chuyện</Dialogue>
+		<Dialogue>Được rồi, tôi đã kiểm tra bằng chứng.</Dialogue>
+
+        <Dialogue>Chủ sở hữu của ~o~{3}~s~ là ~o~{4}~s~!</Dialogue>
+		<Dialogue>Trong ~o~{3}~s~ tôi tìm thấy giấy phép lái xe của ~o~{4}~s~.</Dialogue>
+		<Dialogue>Trên ~o~{3}~s~ tôi tìm thấy tên chủ sở hữu: ~o~{4}~s~!</Dialogue>
+		<Dialogue>~o~{3}~s~ hầu như không thể đọc được, nhưng tên là ~o~{4}~s~.</Dialogue>
+		<Dialogue>Trên ~o~{3}~s~ tôi tìm thấy các tệp của ~o~{4}~s~.</Dialogue>
+		<Dialogue>Số sê-ri trên ~o~{3}~s~ quay trở lại ~o~{4}~s~.</Dialogue>
+		<Dialogue>~o~{3}~s~ quay trở lại ~o~{4}~s~.</Dialogue>
+
+		<Dialogue>Điều này có thể chính là tội phạm của chúng ta!</Dialogue>
+		<Dialogue>Đây có thể là hành vi phạm tội của chúng ta!</Dialogue>
+
+		<Dialogue>Chuyên viên điều tra muốn nói chuyện với bạn một lần nữa, làm ơn hãy đến gặp anh ấy lần nữa.</Dialogue>
+		<Dialogue>Nói chuyện với ~HC_43~Chuyên viên điều tra~s~ lần nữa.</Dialogue>		
+    </TalkToLaborant>
+
+
+    <TalkToDetectiveAnalyzedEvidence>
+        <Dialogue>Này, chúng ta có thông tin mới nào không?</Dialogue>
+		<Dialogue>Vâng! ~o~{4}~s~ dẫn chúng ta đi đúng hướng!</Dialogue>
+		<Dialogue>Hoàn hảo! Ngoài ra, chúng ta có một ~g~nhân chứng~s~ ở đó, hy vọng cô ấy có thể cung cấp cho chúng ta thêm thông tin chi tiết.</Dialogue>
+		<Dialogue>Đi đến ~g~nhân chứng~s~ và nói chuyện với cô ấy bằng cách sử dụng ~y~{0}~s~</Dialogue>		
+    </TalkToDetectiveAnalyzedEvidence>
+
+
+    <TalkToWitness>
+
+        <Vehicle>
+            <Dialogue>Xin chào bà, tôi là ~y~Chuyên viên điều tra~s~ trong vụ án này, bà có chứng kiến ​​điều gì không?</Dialogue>
+			<Dialogue>Xin chào ~y~Chuyên viên điều tra~s~, tên tôi là {5} và vâng, tôi có một số thông tin.</Dialogue>
+			<Dialogue>Ban đầu tôi muốn đi mua sắm ở siêu thị.</Dialogue>
+			<Dialogue>Tất nhiên là tôi để ý thấy vụ dừng xe này với đèn xanh nhấp nháy, nhưng đột nhiên tôi thấy một chiếc xe đang phóng đi rất nhanh.</Dialogue>
+			<Dialogue>Tôi không nhìn thấy tài xế hay biển số xe, nhưng người mẫu là một ~o~{0}~s~.</Dialogue>
+			<Dialogue>Tuyệt, cảm ơn bà đã cung cấp thông tin, chúng ta hãy xem đội điều phối có thể tìm ra được điều gì.</Dialogue>			
+        </Vehicle>
+
+        <House>
+            <Dialogue>Xin chào bà, tôi là ~y~Chuyên viên điều tra~s~ trong vụ án này, bà có chứng kiến ​​điều gì không?</Dialogue>
+			<Dialogue>Xin chào ~y~Chuyên viên điều tra~s~, tên tôi là {5} và vâng, tôi có một số thông tin.</Dialogue>
+			<Dialogue>Ban đầu tôi muốn đi mua sắm ở siêu thị, tôi là người địa phương.</Dialogue>
+			<Dialogue>Tất nhiên là tôi để ý thấy vụ dừng xe này với đèn xanh nhấp nháy, nhưng đột nhiên tôi thấy một người đang chạy trốn.</Dialogue>
+			<Dialogue>Tôi nghĩ là tôi nhận ra người đó, nghi phạm phải là ~o~{4}~s~.</Dialogue>
+			<Dialogue>Tuyệt, cảm ơn bà đã cung cấp thông tin, chúng ta hãy xem đội điều phối có thể tìm ra điều gì.</Dialogue>			
+        </House>
+        
+    </TalkToWitness>
+
+
+    <SearchForSuspect>
+
+        <Vehicle>
+            <Dialogue>Dispatch, anh có thể kiểm tra camera giao thông để tìm xe của nghi phạm giết người không, mẫu xe là ~o~{0}~s~.</Dialogue>
+			<Dialogue>Đang kiểm tra...</Dialogue>
+			<Dialogue>Đã bắn trúng một chiếc xe, được đánh dấu trên GPS của anh</Dialogue>
+
+			<Dialogue>Vụ bắn ~r~ALPR mới ~s~trên ~y~Xe {1}!~s~</Dialogue>			
+        </Vehicle>
+
+        <House>
+            <Dialogue>Gửi đi, bạn có thể thiết lập tuyến đường đến nhà nghi phạm không?</Dialogue>
+		<Dialogue>Đang kiểm tra...</Dialogue>
+		<Dialogue>Đã tìm thấy nhà, được đánh dấu trên GPS của bạn</Dialogue>		
+        </House>
+
+    </SearchForSuspect>
+
+
+    <InPursuit>
+        <Dialogue>Ôi trời, cảnh sát!</Dialogue>
+    </InPursuit>
+
+
+    <QuestioningSuspect>
+        <Dialogue>Khi bạn đã sẵn sàng, ~r~đối mặt với nghi phạm~s~ về hành động của anh ta, sử dụng ~y~{0}~s~ để nói chuyện.</Dialogue>
+		<Dialogue>Nhân danh luật pháp, bạn bị bắt vì tội ~r~giết~một~cảnh~s~!</Dialogue>
+		<Dialogue>Tôi sẽ đọc cho bạn nghe quyền Miranda của bạn... *đọc quyền Miranda *</Dialogue>
+		<Dialogue>Tại sao bạn lại chạy?</Dialogue>
+		<Dialogue>Thưa ngài, tôi rất xin lỗi vì những gì tôi đã làm, tôi đã phạm sai lầm.</Dialogue>
+		<Dialogue>Tôi chạy vì tôi sợ, thế thôi.</Dialogue>
+		<Dialogue>Bạn đã giết một cảnh sát!</Dialogue>
+		<Dialogue>Cái gì? Anh ta đã chết sao? Tôi chỉ... Tôi chỉ không muốn vào tù, nhưng tôi không muốn giết anh ta...</Dialogue>
+		<Dialogue>Anh đã bắn anh ta... </Dialogue>
+		<Dialogue>Tôi chỉ muốn dọa anh ta bỏ chạy, để tôi có thể trốn thoát và được tự do.</Dialogue>
+		<Dialogue>Anh sẽ bị giam trong tù và có lẽ sẽ không sớm được ra ngoài...</Dialogue>
+		<Dialogue>Đưa ~r~nghi phạm~s~ đến ~o~nhà tù~s~.</Dialogue>
+    </QuestioningSuspect>
+
+
+    <End>
+        <Text>Nhấn ~y~End~s~ bất cứ lúc nào để kết thúc cuộc gọi.</Text>
+		<Text>Chúng tôi là ~g~Code 4.~s~</Text>
+    </End>
+
+
+</SolveMurder3>

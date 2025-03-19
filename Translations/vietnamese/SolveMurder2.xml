@@ -1,0 +1,170 @@
+<SolveMurder2>
+
+    <General>
+        <Text>~p~Chuyên viên điều tra~s~ cần điều tra vụ án mạng</Text>
+		<Text>~g~Phái đoàn~s~: Lái xe đến Công viên Mirror ở Los Santos, cần ~p~Chuyên viên điều tra~w~ dến điều tra.</Text>
+    </General>
+
+    <Officer>
+        <Dialogue>Đi đến ~b~Sĩ quan~w~ và nói chuyện với anh ta bằng </Dialogue>
+		<Dialogue>~b~Sĩ quan~s~: Xin chào Chuyên viên điều tra! Tôi tên là ~g~Jack Walter~s~, cứ gọi tôi là Jack. Tôi hy vọng giao thông không quá tệ.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Chào anh! Không, ổn mà. Chúng ta có gì ở đây?</Dialogue>
+		<Dialogue>~b~Jack~s~: Chúng ta có một ~g~người~chết~, có thể đã bị giết, Sĩ quan Dawson ~g~ở đằng kia~ có nhiều thông tin hơn.</Dialogue>
+		<Dialogue>~b~Jack~s~: Ở phía bên kia, chúng ta có 3 nghi phạm có thể, một trong số họ là người gọi điện.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Cảm ơn, tôi sẽ nói chuyện với ~b~Sĩ quan Dawson~s~ sau.</Dialogue>
+		<Dialogue>Đi và nói chuyện với ~b~Sĩ quan Dawson~s~.</Dialogue>		
+    </Officer>
+
+    <Officer2>
+        <Dialogue>Nói chuyện với ~b~Sĩ quan Dawson~s~ bằng </Dialogue>
+		<Dialogue>~y~Bạn~s~: Này, Sĩ quan Dawson! Sĩ quan Walter nói anh có thông tin gì không?</Dialogue>
+		<Dialogue>~b~Sĩ quan~s~: Chào ngày mới, Chuyên viên điều tra! Bạn có thể gọi tôi là Erika!</Dialogue>
+		<Dialogue>~b~Erika~s~: Nạn nhân là Lilliana Wyatt, 33 tuổi, sống ở Nikola Avenue gần đó.</Dialogue>
+		<Dialogue>~b~Erika~s~: Vâng, chúng tôi có 3 nghi phạm có thể là một vụ giết người tiềm tàng.</Dialogue>
+		<Dialogue>~b~Erika~s~: Một trong số họ, Belle Hamilton, là người gọi điện, nhưng cô ấy cũng có thể là kẻ giết người tiềm tàng.</Dialogue>
+		<Dialogue>~b~Erika~s~: Tôi khuyên bạn nên đến hiện trường vụ án và điều tra, xem bạn có thể tìm thấy thứ gì không.</Dialogue>
+		<Dialogue>Đến hiện trường vụ án và tìm kiếm ~b~bằng chứng~s~.</Dialogue>		
+    </Officer2>
+
+    <Evidence>
+        <Text>~y~Bạn~s~: Cô ấy bị thương ở đầu, cô ấy bị đập bằng cái chai vỡ ở đằng kia...</Text>
+		<Text>Một chiếc điện thoại di động... Nền hiển thị một chiếc ~p~xe black Obey Tailgater~s~...</Text>
+		<Text>Hmmm... một chiếc burger ăn dở... không thú vị.</Text>
+		<Text>Máu trông vẫn còn tươi, chắc là mới xảy ra cách đây không quá 2 giờ...</Text>
+		<Text>Kết thúc điều tra! Đến chỗ ~o~người gọi điện thoại~w~ và nói chuyện với cô ấy bằng </Text>
+    </Evidence>
+
+    <Suspect1>
+        <Dialogue>Nói chuyện với ~o~Nghi phạm~w~ bằng </Dialogue>
+		<Dialogue>~y~Bạn~s~: Xin chào! Tôi là Chuyên viên điều tra trong vụ án này. Tên anh là gì?</Dialogue>
+		<Dialogue>~o~Caller~s~: Chào buổi tối, tên tôi là Belle Hamilton. Tôi đang đi bộ trên phố thì nhìn thấy cô ấy...</Dialogue>
+		<Dialogue>~y~Bạn~s~: Anh đã làm đúng khi gọi cho chúng tôi. Tôi đang nhanh chóng kiểm tra thông tin chi tiết của bạn.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Tổng đài, tôi có thể cử một người kiểm tra 'Belle Hamilton' không?</Dialogue>
+		<Dialogue>Chờ, tôi đang kiểm tra.</Dialogue>
+		<Dialogue>~b~Belle Hamilton~s~</Dialogue>
+		<Dialogue>~g~Không có lệnh bắt giữ</Dialogue>
+		<Dialogue>~g~Không có vụ bắt giữ nào</Dialogue>
+		<Dialogue>~y~1 trích dẫn: Quá tốc độ~s~</Dialogue>
+		<Dialogue>~y~Bạn~s~: Hồ sơ của bạn trong sạch. Tôi vẫn còn một số câu hỏi cho bạn.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Bạn có biết nạn nhân không?</Dialogue>
+		<Dialogue>~o~Cô Hamilton~s~: Không, tôi không biết. Hãy tưởng tượng các thành viên trong gia đình, họ sẽ cảm thấy thế nào...</Dialogue>
+		<Dialogue>~y~Bạn~s~: Chúng tôi sẽ chăm sóc họ. Tôi có thể xem điện thoại di động của bạn được không?</Dialogue>
+		<Dialogue>*cho xem điện thoại di động*</Dialogue>
+		<Dialogue>~o~Cô Hamilton~s~: Đây, nhưng... aaah... có những bức ảnh riêng tư của tôi, tôi không thể cho đi được.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Bạn có thể giữ nó. À, bạn lái xe gì và biển số xe là gì?</Dialogue>
+		<Dialogue>~o~Cô Hamilton~s~: Tôi lái xe Lampadati Pigalle, biển số 86LUN445.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Điều phối viên, tôi cần kiểm tra xe trên 86LUN445.</Dialogue>
+		<Dialogue>Bản sao, cho tôi một phút.</Dialogue>
+		<Dialogue>~b~86LUN445~s~</Dialogue>
+		<Dialogue>~g~Mẫu~s~: Lampadati Pigalle</Dialogue>
+		<Dialogue>~b~Chủ~s~: Belle Hamilton</Dialogue>
+		<Dialogue>~r~Bảo hiểm đã hết hạn~s~</Dialogue>
+		<Dialogue>~y~Bạn~s~: Được rồi, nhưng xe của bạn đã hết hạn bảo hiểm, bạn nên gia hạn.</Dialogue>
+		<Dialogue>~o~Cô Hamilton~s~: Ồ, cảm ơn bạn. Tôi không biết điều đó, tôi sẽ làm điều đó.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Vậy là hết, vui lòng đợi hướng dẫn tiếp theo.</Dialogue>
+		<Dialogue>Bây giờ hãy đến ~o~Nghi phạm~s~ tiếp theo và nói chuyện với anh ta.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Vậy là hết, cảm ơn bạn đã dành thời gian.</Dialogue>		
+    </Suspect1>
+
+    <Suspect2>
+        <Dialogue>Nói chuyện với ~o~anh ấy~s~ bằng </Dialogue>
+		<Dialogue>~y~Bạn~s~: Chào buổi tối, thưa ngài! Tôi là Chuyên viên điều tra địa phương. Xin cho tôi biết tên của anh được không?</Dialogue>
+		<Dialogue>~o~Nghi phạm~s~: Xin chào Chuyên viên điều tra, tôi tên là Talon Knight, sinh ngày 12 tháng 12 năm 1992. Tại sao tôi bị giam giữ ở đây?</Dialogue>
+		<Dialogue>~y~Bạn~s~: Anh đã ở khu vực đó khi sự việc xảy ra.</Dialogue>
+		<Dialogue>~o~Talon~s~: Điều đó trái với ý muốn của tôi! Hãy thả tôi ra, tôi chưa làm gì cả!</Dialogue>
+		<Dialogue>~y~Bạn~s~: Sau khi trả lời các câu hỏi của tôi, anh có thể. Bạn sống ở đâu?</Dialogue>
+		<Dialogue>~o~Talon~s~: Tôi sống gần đây, cách đây 2 dãy nhà.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Và bạn có biết nạn nhân không?</Dialogue>
+		<Dialogue>~o~Talon~s~: Không?</Dialogue>
+		<Dialogue>~y~Bạn~s~: Bạn sống gần nạn nhân và bạn nói với tôi rằng bạn không biết Lilliana Wyatt?</Dialogue>
+		<Dialogue>~o~Talon~s~: Được rồi, tôi biết cô ấy, tôi chỉ không thích cô ấy, cô ấy không thân thiện, không năng động hay được mọi người trong khu phố yêu mến...</Dialogue>
+		<Dialogue>~o~Talon~s~: Cô ấy đã từng gọi cảnh sát đến bắt tôi, vì con chó của tôi sủa vài lần, ngay sau 10 giờ tối...</Dialogue>
+		<Dialogue>~y~Bạn~s~: Hmmm... Được rồi, bạn có thể cho tôi xem cho tôi xin điện thoại di động của bạn, làm ơn?</Dialogue>
+		<Dialogue>~o~Talon~s~: Tôi muốn, nhưng tôi đã làm rơi nó tuần trước và đưa nó cho một cửa hàng sửa chữa. Nó sẽ tốn khoảng 100$...</Dialogue>
+		<Dialogue>~y~Bạn~s~: Đã hiểu. Bạn lái xe gì và biển số xe là gì?</Dialogue>
+		<Dialogue>~o~Talon~s~: Tôi có một chiếc Vapid Minivan, biển số xe của tôi là... aaaah... 47LIF... 341.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Điều phối, tôi cần kiểm tra biển số xe trên 47LIF341.</Dialogue>
+		<Dialogue>Sao chép, vui lòng chờ.</Dialogue>
+		<Dialogue>~b~47LIF341~s~</Dialogue>
+		<Dialogue>~g~Mẫu~s~: Vapid Minivan</Dialogue>
+		<Dialogue>~b~Chủ~s~: Talon Knight</Dialogue>
+		<Dialogue>~y~Lưu ý: Xe được đăng ký cách đây 4 tháng~s~</Dialogue>
+		<Dialogue>~y~Bạn~s~: Điều phối, kiểm tra tên 'Talon Knight', làm ơn.</Dialogue>
+		<Dialogue>Chờ đã, tôi đang kiểm tra.</Dialogue>
+		<Dialogue>~b~Talon Knight~s~</Dialogue>
+		<Dialogue>~g~Không bắt giữ</Dialogue>
+		<Dialogue>~y~1 trích dẫn: Đỗ xe sai làn đường~s~</Dialogue>
+		<Dialogue>~y~Bạn~s~: Hồ sơ của anh có vẻ sạch sẽ, khi nào xong việc, tôi sẽ quay lại với anh.</Dialogue>
+		<Dialogue>~o~Talon~s~: Được rồi!</Dialogue>
+		<Dialogue>Nói chuyện với ~o~Nghi phạm~s~ cuối cùng.</Dialogue>		
+    </Suspect2>
+
+    <Suspect3>
+        <Dialogue>Nói chuyện với ~o~her~s~ bằng </Dialogue>
+		<Dialogue>~y~Bạn~s~: Xin chào cô! Tôi là Chuyên viên điều tra trong vụ án này, cô có thể cho tôi biết tên của cô được không?</Dialogue>
+		<Dialogue>~o~Nghi phạm~s~: Xin chào, tôi tên là Nylah Lane.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Đã hiểu. Dispatch, tôi có thể kiểm tra tên ở Nylah Lane không?</Dialogue>
+		<Dialogue>Sao chép, đang tìm kiếm.</Dialogue>
+		<Dialogue>~b~Nylah Lane~s~</Dialogue>
+		<Dialogue>~g~Không có lệnh~s~</Dialogue>
+		<Dialogue>~g~Không có lệnh bắt giữ</Dialogue>
+		<Dialogue>~y~1 trích dẫn: Đỗ xe ở chỗ đỗ xe dành cho người khuyết tật~s~</Dialogue>
+		<Dialogue>~y~Bạn~s~: Được rồi, nghe có vẻ ổn. Bạn sống ở đâu?</Dialogue>
+		<Dialogue>~o~Nylah~s~: Tôi sống ở Vinewood Hills, tôi có một căn hộ ở đó.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Wow, đó là một nơi tuyệt vời để sống! Tôi có thể xem điện thoại di động của anh được không?</Dialogue>
+		<Dialogue>~o~Nylah~s~: Vâng, chắc chắn rồi, nó ở trong... Ôi, chết tiệt, nó ở đâu vậy?... Có lẽ tôi để quên nó trong xe rồi.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Ồ, tôi hy vọng vậy. Vậy bạn lái xe gì?</Dialogue>
+		<Dialogue>~o~Nylah~s~: Tôi lái một chiếc... aaaaah... Grotti ... Stinger, đúng rồi.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Được rồi, biển số xe là gì?</Dialogue>
+		<Dialogue>~o~Nylah~s~: ... Aaah, tôi không biết.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Bạn không biết biển số xe của chính mình sao?</Dialogue>
+		<Dialogue>~o~Nylah~s~: Đúng rồi, ý tôi là... phức tạp lắm...</Dialogue>
+		<Dialogue>~y~Bạn~s~: Được rồi, tùy bạn. Dispatch, tôi cần kiểm tra biển số xe a ~b~Grotti Stinger~s~, chủ sở hữu là ~b~Nylah Lane~s~.</Dialogue>
+		<Dialogue>10-4, đang tìm kiếm.</Dialogue>
+		<Dialogue>Không có kết quả nào cho tổ hợp này, để tôi kiểm tra chủ sở hữu.</Dialogue>
+		<Dialogue>Tôi tìm thấy một chiếc xe khác trên chủ sở hữu:</Dialogue>
+		<Dialogue>~b~58RLD582~s~</Dialogue>
+		<Dialogue>~y~Model~s~: Obey Tailgater</Dialogue>
+		<Dialogue>~b~Owner~s~: Nylah Lane</Dialogue>
+		<Dialogue>~y~Bạn~s~: Thú vị đấy. Cô ơi, tại sao cô lại nói dối về chiếc xe của mình?</Dialogue>
+		<Dialogue>~o~Nylah~s~: Ý cô là sao? Ý tôi là.. Tôi có 2 chiếc xe... hay là tôi không?</Dialogue>
+		<Dialogue>~y~Bạn~s~: Thật buồn cười, bạn cũng nói dối về điện thoại của mình à?</Dialogue>
+		<Dialogue>~o~Nylah~s~: Bạn có tìm thấy nó gần đây không? Đó là lý do tại sao anh hỏi à?</Dialogue>
+		<Dialogue>~y~Bạn~s~: ... Anh có quan hệ gì với nạn nhân?</Dialogue>
+		<Dialogue>~o~Nylah~s~: Cô ấy là em họ tôi và cô ấy nợ tôi rất nhiều tiền.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Đó là lý do tại sao anh giết cô ấy à?</Dialogue>
+		<Dialogue>~o~Nylah~s~: Tôi chỉ lái xe đến nhà cô ấy để đối chất với cô ấy về khoản nợ.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Cảm ơn sự hợp tác của anh, tôi sẽ quay lại với anh.</Dialogue>
+		<Dialogue>Nói chuyện với ~b~Sĩ quan Erika~s~ lần nữa.</Dialogue>		
+    </Suspect3>
+
+    <Officer3>
+        <Dialogue>Hãy nói chuyện với ~b~Sĩ quan~w~ một lần nữa bằng cách sử dụng </Dialogue>
+		<Dialogue>~y~Bạn~s~: Được rồi, tôi đã tìm kiếm hiện trường vụ án và nói chuyện với những nghi phạm.</Dialogue>
+		<Dialogue>~b~Erika~s~: Và bạn có thể tìm ra kẻ giết người là ai không?</Dialogue>
+		<Dialogue>Nhấn {1} ~r~để gọi Belle Hamilton~s~, {2} ~o~để gọi Talon Knight~s~ hoặc {3} ~y~để gọi Nylah Lane~s~!</Dialogue>
+
+		<Dialogue>~y~Bạn~s~: ... ~r~Belle Hamilton~s~!</Dialogue>
+		<Dialogue>~y~Bạn~s~: Cô Hamilton không muốn cho tôi xem nội dung điện thoại của họ và nói rằng cô ấy đang ở khu vực đó khi sự việc xảy ra!</Dialogue>
+		<Dialogue>~y~Bạn~s~: Cô ấy là kẻ giết người!</Dialogue>
+
+		<Dialogue>~y~Bạn~s~: ... ~o~Talon Knight~s~!</Dialogue>
+		<Dialogue>~y~Bạn~s~: Ông Knight không thích nạn nhân và sống gần đó!</Dialogue>
+		<Dialogue>~y~Bạn~s~: Ông ta cũng không thể cho tôi xem điện thoại di động của ông ta! Ông ta là kẻ giết người!</Dialogue>
+
+		<Dialogue>~y~Bạn~s~: ... ~y~Nylah Lane~s~!</Dialogue>
+		<Dialogue>~y~Bạn~s~: Cô Lane đã ở đó khi sự việc xảy ra và có quan hệ họ hàng với nạn nhân!</Dialogue>
+		<Dialogue>~y~Bạn~s~: Cô ta đã nói dối về chiếc xe và chiếc điện thoại di động của mình!</Dialogue>
+		<Dialogue>~y~Bạn~s~: Chiếc điện thoại di động của cô ta cho thấy chiếc xe của cô ta. Cô ta đã làm mất nó tại hiện trường. Cô ta là kẻ giết người!</Dialogue>
+
+       <Dialogue>~b~Erika~s~: Ồ, tôi hiểu rồi! Tiến lên và bắt giữ ~r~Nghi phạm~s~!</Dialogue>
+    </Officer3>
+
+    <Arrest>
+        <Text>Bạn đã bắt thành công ~r~kẻ giết người~! ~g~Dọn dẹp hiện trường~s~!</Text>
+		<Text>Ôi không, bạn đã bắt nhầm người rồi! ~g~Dọn dẹp hiện trường~s~!</Text>
+		<Text>Một ~o~nghi phạm~s~ đã ~r~chết~s~.{0}Tình huống ~g~Code 4~s~, ~g~dọn dẹp hiện trường~s~!</Text>
+		<Text>Một ~b~s~ cảnh sát~ đã ~r~chết~s~.{0}Tình huống ~g~Code 4~s~.</Text>		
+    </Arrest>
+
+</SolveMurder2>

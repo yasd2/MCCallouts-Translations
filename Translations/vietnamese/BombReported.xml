@@ -1,0 +1,65 @@
+<BombReported>
+
+    <General>
+        <Text>Có khả năng có bom</Text>
+        <Text>Tìm kiếm chủ đề về bom tiềm ẩn, ~r~Code 3~s~.</Text>
+        <Text>Nhấn {Y} để sơ tán người dân!</Text>
+        <Text>Tìm kiếm quả bom ở ~y~khu vực~s~.</Text>
+        <Text>GỢI Ý: Nhấn {Y} để gọi chuyên gia bom.</Text>
+        <Text>Không tìm thấy bom, khu vực đã an toàn.</Text>
+        <Text>Đã gỡ bom! Làm tốt lắm!</Text>
+        <Text>~g~Xanh~s~ dây đã cắt!</Text>
+        <Text>~y~Vàng~s~ dây đã cắt!</Text>
+        <Text>~b~Xanh~s~ dây đã cắt!</Text>
+        <Text>Chết tiệt, mày cắt nhầm dây rồi! Chạy đi, bom sẽ nổ mất!</Text>
+    </General>
+
+    <Persons>
+        <Text>Bạn</Text>
+        <Text>Chuyên gia</Text>
+        <Text>Sĩ quan</Text>
+    </Persons>
+
+    <Officer>
+        <Dialogue>Xin chào! Cảm ơn vì đã đến!</Dialogue>
+        <Dialogue>Chúng tôi đang có một cảnh quay lớn! Có báo cáo về một quả bom có ​​thể xảy ra!</Dialogue>
+        <Dialogue>Chúng tôi rất nghiêm túc và đã phong tỏa hiện trường.</Dialogue>
+        <Dialogue>Khi chúng ta nói chuyện xong, hãy sơ tán mọi người tại hiện trường, sau đó tìm kiếm một quả bom! Chúc may mắn!</Dialogue>
+    </Officer>
+
+    <Evacuate>
+        <Dialogue>Này, hãy rời khỏi hiện trường ngay lập tức! Chúng ta có thể có một quả bom ở đây!</Dialogue>
+        <Dialogue>Này bạn, chúng ta có một chủ đề về bom, hãy giữ khoảng cách an toàn!</Dialogue>
+        <Dialogue>Khu vực này cần được sơ tán ngay lập tức! Nhanh lên!</Dialogue>
+        <Dialogue></Dialogue>
+    </Evacuate>
+
+    <SpecialistGeneral>
+        <Dialogue>Xin chào? Bạn đã tìm thấy quả bom chưa?</Dialogue>
+        <Dialogue>Vâng, tôi nghĩ vậy. Nó ở ngay trước mặt tôi.</Dialogue>
+        <Dialogue>Được rồi, để tôi nghĩ xem. Nó có một loại điều khiển lạ mắt nào đó.</Dialogue>
+        <Dialogue>Hmm... được rồi... chết tiệt... cái gì thế... ? À, tôi hiểu rồi.</Dialogue>
+        <Dialogue>Vậy thì... hm... ôi không... à, được rồi...</Dialogue>
+        <Dialogue>Tuyệt, tôi vẫn còn sống! Quả bom có ​​vẻ đã được tháo ngòi. Làm tốt lắm và cảm ơn bạn!</Dialogue>
+        <Dialogue>Không có gì, tạm biệt.</Dialogue>
+    </SpecialistGeneral>
+
+    <SpecialistGYB>
+        <Dialogue>Đầu tiên hãy cắt dây màu xanh lá cây.</Dialogue>
+        <Dialogue>Bây giờ hãy cắt dây màu vàng.</Dialogue>
+        <Dialogue>Được rồi, nếu nó chưa nổ, hãy cắt phần dây màu xanh còn lại.</Dialogue>
+    </SpecialistGYB>
+
+    <SpecialistBYG>
+        <Dialogue>Đầu tiên hãy cắt dây màu xanh.</Dialogue>
+        <Dialogue>Bây giờ hãy cắt dây màu vàng.</Dialogue>
+        <Dialogue>Được rồi, nếu nó chưa nổ, hãy cắt phần dây màu xanh lá cây còn lại.</Dialogue>
+    </SpecialistBYG>
+
+    <SpecialistGBY>
+        <Dialogue>Đầu tiên hãy cắt dây màu xanh lá cây.</Dialogue>
+        <Dialogue>Bây giờ hãy cắt dây màu xanh.</Dialogue>
+        <Dialogue>Được thôi, nếu nó chưa phát nổ, hãy cắt phần dây màu vàng còn lại.</Dialogue>
+    </SpecialistGBY>
+
+</BombReported>

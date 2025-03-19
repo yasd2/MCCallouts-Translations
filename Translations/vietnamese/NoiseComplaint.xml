@@ -1,0 +1,61 @@
+<NoiseComplaint>
+    <General>
+        <Text>Khiếu nại về tiếng ồn</Text>
+		<Text>Báo cáo về một bữa tiệc ồn ào tại nhà</Text>
+		<Text>Hàng xóm đã gọi đến khiếu nại về tiếng ồn. Đảm bảo người tổ chức ~o~event~s~ giảm âm lượng nhạc.</Text>
+		<Text>Nhấn {Key} để tự điều chỉnh âm lượng.</Text>
+    </General>
+
+    <Persons>
+        <Text>Bạn</Text>
+		<Text>Chủ sở hữu</Text>
+		<Text>DJ</Text>
+    </Persons>
+
+    <Tasks>
+        <Text>Rời khỏi bữa tiệc bằng cách lái xe về phía ~y~điểm đánh dấu màu vàng~s~.</Text>
+		<Text>Hành động như thể bạn nghĩ là đúng ở đây, sau đó nói chuyện với ~g~~h~DJ~h~~s~.</Text>
+		<Text>Một người gọi đã báo cáo khiếu nại về tiếng ồn tại cùng địa chỉ như trước. Trả lời Mã 2.</Text>		
+    </Tasks>
+
+    <OwnerCooperative>
+        <Dialogue>Xin chào cảnh sát, tôi có thể giúp gì cho anh?</Dialogue>
+		<Dialogue>Chúng tôi nhận được cuộc gọi về tiếng nhạc lớn. Vui lòng giảm âm lượng.</Dialogue>
+		<Dialogue>Nếu tôi cần đến đây lần nữa, anh sẽ bị phạt vì tiếng nhạc lớn.</Dialogue>
+		<Dialogue>Được rồi, được rồi, chúng tôi sẽ giảm âm lượng.</Dialogue>
+		<Dialogue>Cảm ơn sự hợp tác của anh, chúc anh buổi tối vui vẻ.</Dialogue>		
+    </OwnerCooperative>
+
+    <OwnerUncooperative>
+        <Dialogue>Yoo, cảnh sát, mày làm cái đéo gì ở đây thế?</Dialogue>
+		<Dialogue>Chúng ta được điều đến địa chỉ này vì tiếng nhạc quá lớn.</Dialogue>
+		<Dialogue>Mẹ kiếp, trông giống trường mẫu giáo thế? Chúng ta đang tiệc tùng!!</Dialogue>
+		<Dialogue>Thưa ngài, hãy tắt nhạc ngay lập tức.</Dialogue>
+		<Dialogue>Tôi đang làm trò, anh phải bắt tôi hoặc rời đi, đồ lợn.</Dialogue>		
+    </OwnerUncooperative>
+
+    <OwnerSecond>
+        <Dialogue>Xin chào lần nữa, chúng tôi lại nhận được một cuộc gọi khác về việc nhạc của anh quá to.</Dialogue>
+		<Dialogue>Và như tôi nghe thấy, anh lại tăng âm lượng lên thay vì giữ ở mức nhỏ hơn...</Dialogue>
+		<Dialogue>Ồ, cảnh sát, chúng tôi chỉ đang vui vẻ, chúng tôi đang có một bữa tiệc lớn.</Dialogue>
+		<Dialogue>Không sao đâu, miễn là nhạc ở mức âm lượng chấp nhận được.</Dialogue>
+		<Dialogue>Nếu tôi phải đến lần nữa, anh sẽ bị bắt!</Dialogue>
+		<Dialogue>Tôi sẽ phạt anh vì đây là lần thứ hai tôi đến đây.</Dialogue>
+        <Dialogue>Chúc bạn có một đêm vui vẻ nhưng yên tĩnh.</Dialogue>		
+    </OwnerSecond>
+
+    <DJ>
+        <Dialogue>Xin chào ông, ông là DJ ở đây, phải không?</Dialogue>
+		<Dialogue>Vâng thưa ông, tôi xin lỗi vì ~o~owner~s~, tên tôi là ~g~DJ Moodyman~s~.</Dialogue>
+		<Dialogue>Ồ, ông đã chơi trên du thuyền một thời gian trước, phải không?</Dialogue>
+		<Dialogue>Vâng, tôi nhớ ông đã ở đó. Dù sao, tôi có thể giúp gì cho ông?</Dialogue>
+		<Dialogue>Làm ơn giảm âm lượng xuống, chúng tôi có những người hàng xóm cảm thấy khó chịu.</Dialogue>
+		<Dialogue>Ồ vâng, không vấn đề gì, tôi sẽ làm. Tôi xin lỗi vì chủ nhà không hợp tác như vậy.</Dialogue>
+		<Dialogue>Tôi sẽ xem mình sẽ làm gì với anh ta. Chúc ông một ngày tốt lành!</Dialogue>		
+    </DJ>
+
+    <End>
+        <Text>~g~Lời kêu gọi là code 4.</Text>
+		<Text>Nhấn ~y~End~s~ bất cứ lúc nào để kết thúc callout.</Text>
+    </End>
+</NoiseComplaint>

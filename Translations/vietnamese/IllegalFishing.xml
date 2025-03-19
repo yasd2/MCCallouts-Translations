@@ -1,0 +1,67 @@
+<IllegalFishing>
+
+    <General>
+        <Text>Báo cáo về khả năng đánh bắt cá bất hợp pháp</Text>
+    </General>
+
+    <Setup>
+        <Dialogue>Nhấn {0} để nói chuyện</Dialogue>
+        <Dialogue>~y~Bạn~s~: Xin chào, tôi là một sĩ quan của sở cảnh sát địa phương.</Dialogue>
+        <Dialogue>~y~Bạn~s~: Chúng tôi có báo cáo về hoạt động đánh bắt cá bất hợp pháp.</Dialogue>
+        <Dialogue>~b~Nghi phạm~s~: Ồ, tôi ở đây một mình, không có gì bất hợp pháp, chỉ là đang câu cá thôi...</Dialogue>
+        <Dialogue>~y~Bạn~s~: Bạn đã bắt được con nào chưa?</Dialogue>
+        <Dialogue>~b~Nghi phạm~s~: Có, tôi đã bắt được một vài con rồi.</Dialogue>
+        <Dialogue>~y~Bạn~s~: Được rồi, tôi cần xem giấy phép đánh bắt cá của bạn.</Dialogue>
+        <Dialogue>Nhấn {0} để mở menu tương tác, sử dụng STP để kiểm tra ID.</Dialogue>
+        <Dialogue>Nhấn {0} và {1} để mở menu tương tác, hãy sử dụng STP để kiểm tra ID.</Dialogue>
+        <Dialogue>Nhấn {0} để mở menu tương tác.</Dialogue>
+        <Dialogue>Nhấn {0} và {1} để mở menu tương tác.</Dialogue>
+    </Setup>
+    
+    <ConversationAfterCheckingLicense>
+        <Dialogue>~y~Bạn~s~: Được rồi, tôi đã xác minh thông tin của anh.</Dialogue>
+        <Dialogue>~y~Bạn~s~: Giấy phép câu cá của anh vẫn còn hiệu lực, cho đến giờ thì mọi thứ vẫn ổn!</Dialogue>
+        <Dialogue>~y~Bạn~s~: Giấy phép câu cá của anh đã bị đình chỉ, anh không được phép câu cá!</Dialogue>
+        <Dialogue>~y~Bạn~s~: Ngoài ra, ID của anh cũng sạch sẽ, không có gì phải lo lắng.</Dialogue>
+        <Dialogue>~y~Bạn~s~: Ngoài ra, anh không có lệnh bắt nào cả.</Dialogue>
+        <Dialogue>~y~Bạn~s~: Tuy nhiên, cơ sở dữ liệu của tôi cho thấy anh có lệnh bắt. Anh cần phải đi cùng chúng tôi.</Dialogue>
+        <Dialogue>~y~Bạn~s~: Anh vẫn chưa nói với tôi về lệnh bắt của anh. Bạn đang bị bắt giữ.</Dialogue>
+        <Dialogue>Bắt giữ nghi phạm.</Dialogue>
+        <Dialogue>Sau khi hoàn tất, hãy thả nghi phạm và quay lại tuần tra.</Dialogue>
+        <Dialogue>~y~Bạn~s~: Bạn sẽ nhận được trát hầu tòa vì tội đánh bắt cá bất hợp pháp.</Dialogue>
+        <Dialogue>~y~Bạn~s~: Đừng quay lại, nếu không tôi sẽ đưa bạn vào tù và cả hai chúng ta đều không muốn điều đó.</Dialogue>
+        <Dialogue>Báo cáo nghi phạm và thả anh ta.</Dialogue>
+        <Dialogue>Nhấn {0} lần nữa để nói chuyện</Dialogue>
+    </ConversationAfterCheckingLicense>Bạn
+
+    <ConversationAfterPursuitArrest>
+        <Dialogue>~y~Bạn~s~: Thật ngu ngốc, chạy vì thứ đơn giản này...</Dialogue>
+        <Dialogue>~b~Nghi phạm~s~: Dù sao thì bây giờ cũng quá muộn rồi...</Dialogue>
+    </ConversationAfterPursuitArrest>
+
+    <ConversationAndSearch>
+        <Dialogue>~y~Bạn~s~: Bạn có thứ gì trên người có thể chọc hoặc đâm tôi không?</Dialogue>
+        <Dialogue>~b~Nghi phạm~s~: Không...</Dialogue>
+        <Dialogue>Lục soát nghi phạm, lập biên bản và đưa anh ta vào tù.</Dialogue>
+    </ConversationAndSearch>
+
+    <End>
+        <Text>Nghi phạm đã chết.</Text>
+        <Text>Nhấn {0} bất kỳ lúc nào để kết thúc cuộc gọi.</Text>
+        <Text>~r~Lỗi GTA: Một nhân vật trở nên không hợp lệ.~s~</Text>
+        <Text>~g~Code 4.~s~</Text>
+    </End>
+
+    <Menu>
+        <Text>Menu tương tác</Text>
+        <Text>Tùy chọn:</Text>
+        <Text>Hiển thị giấy phép câu cá</Text>
+        <Text>Tên:</Text>
+        <Text>Ngày sinh:</Text>
+        <Text>Giấy phép câu cá</Text>
+        <Text>Hiển thị ID</Text>
+        <Text>~g~Giấy phép hợp lệ~s~</Text>
+        <Text>~r~Giấy phép bị đình chỉ~s~</Text>
+    </Menu>
+
+</IllegalFishing>

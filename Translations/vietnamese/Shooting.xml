@@ -1,0 +1,50 @@
+<Shooting>
+
+    <General>
+        <Text>Bắn súng</Text>
+		<Text>2 người bắn nhau bằng súng lục</Text>
+		<Text>Lái xe đến hiện trường ~b~Code 3~s~, 2 tay súng, ~r~thận trọng~s~, ~r~bằn bằn~s~ đã có tiếng ~r~nổ súng~s~!</Text>
+		<Text>~y~Bạn~s~: ~p~Bỏ ~r~vũ khí~s~ của các người xuống, ~b~Cảnh sát đây~s~!!!</Text>
+		<Text>Gọi hỗ trợ!</Text>
+        <Text></Text>
+        <Text></Text>
+    </General>
+
+
+    <Outcomes>
+
+        <StillShooting>
+            <Text>~y~You~s~: Họ có vẻ không lắng nghe, sử dụng ~s~áp~lực~hoặc ~o~hành động~ với những gì bạn ~o~tin là đúng đắn~!</Text>
+        </StillShooting>
+
+        <Surrender>
+            <Text>~r~Nghi phạm thứ nhất~s~: Đừng bắn, tôi ~g~đầu hàng~s~!</Text>
+			<Text>~p~Nghi phạm thứ hai~s~: Tôi ~g~đầu hàng~s~ nữa!</Text>
+        </Surrender>
+
+        <ShootAtPlayer>
+            <Text>Bắn vào cảnh sát!</Text>
+			<Text>~p~Những kẻ tình nghi~: Tôi đầu hàng, hãy bỏ tù tôi, tôi xong rồi.</Text>
+        </ShootAtPlayer>
+
+    </Outcomes>
+
+    <Arrest>
+        <Text>Gửi đi, một nghi phạm ~y~bị bắt~w~!</Text>
+		<Text>Gửi đi, một nghi phạm ~o~bị bắt~w~!</Text>
+    </Arrest>
+
+    <OnScene>
+        <Text>Gọi ~b~đội vận chuyển tội phạm~s~ cho cả hai ~r~Nghi phạm~s~.</Text>
+		<Text>Gọi ~b~đội vận chuyển tội phạm~s~ và ~p~đội giám định tử thi~s~ cho mỗi ~r~Nghi phạm~s~.</Text>
+		<Text>Gọi ~p~đội giám định tử thi~s~ cho cả hai ~r~Nghi phạm~s~.</Text>
+    </OnScene>
+
+    <End>
+        <Text>Đã xảy ra lỗi ~r~nhân vật GTA~s~, Cuộc gọi ~g~đã kết thúc~s~</Text>
+		<Text>~y~Bạn~s~ đã chết, Cuộc gọi ~g~đã kết thúc~s~</Text>
+		<Text>Callout đã kết thúc</Text>
+		<Text>~g~Code 4~s~, ~b~dọn sạch~s~ ~b~hiện trường~s~ và quay lại ~g~tuần tra~s~.</Text>
+    </End>
+
+</Shooting>

@@ -1,0 +1,22 @@
+<IntoxicatedIndividual>
+
+    <General>
+        <Text>Người say rượu nơi công cộng</Text>
+        <Text>thưa ngài</Text>
+        <Text>quý bà</Text>
+        <Text>Nhấn {0} để nói chuyện với nghi phạm.</Text>
+        <Text>~y~Bạn~s~: Xin lỗi {0}, anh có cần trợ giúp gì không?</Text>
+        <Text>~p~Nghi phạm~s~: Không *hic* xong rồi *hic* thôi.</Text>
+        <Text>~y~Bạn~s~: Say rượu nơi công cộng là vi phạm pháp luật. Tôi sẽ phải viết giấy phạt cho anh.</Text>
+        <Text>~p~Nghi phạm~s~: Áhhhh! gì cơ? Cút khỏi mặt tao.</Text>
+        <Text>Không nói thêm gì nữa.</Text>
+    </General>
+
+    <End>
+        <Text>Một nghi phạm đã bị bắt! ~g~Code 4~s~</Text>
+        <Text>Một nghi phạm đã bị hạ, ~g~Code 4~w~</Text>
+        <Text>~g~Code 4~w~</Text>
+        <Text>~r~Lỗi của nhân vật GTA,~s~ Cuộc gọi đã kết thúc</Text>
+    </End>
+
+</IntoxicatedIndividual>

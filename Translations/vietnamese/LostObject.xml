@@ -1,0 +1,83 @@
+<LostObject>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+
+    <General>
+        <Text>Mất đồ</Text>
+        <Text>Người gọi làm mất đồ, cần cảnh sát</Text>
+        <Text><![CDATA[Lái xe đến ~g~người gọi~s~ và tìm hiểu vấn đề là gì.]]></Text>
+    </General>
+
+
+    <DisplayHelp>
+        <Text>Nói chuyện với người gọi bằng cách nhấn </Text>
+        <Text>Tìm kiếm ~o~điện thoại di động~s~. Nhấn </Text> <!--Tìm kiếm ~o~điện thoại di động~s~. Nhấn __phím-Y__ để nhặt đồ vật.-->
+        <Text>Tìm kiếm ~o~cái ví~s~. Nhấn </Text> <!--Tìm kiếm ~o~cái ví~s~. Nhấn __phím-Y__ để nhặt đồ vật.-->
+        <Text>Tìm kiếm ~o~giày~s~. Nhấn </Text> <!--Tìm kiếm ~o~giày~s~. Nhấn __phím-Y__ để nhặt đồ vật.-->
+        <Text> để nhặt đồ vật.</Text>
+        <Text>Nhấn </Text> <!--Nhấn __phím-Y__ để hét to với người gọi!-->
+        <Text> để hét to với người gọi!</Text> <!--Nhấn __phím-Y__ để hét to với người gọi!-->
+        <Text>Đây là ~r~gợi ý~s~ để trợ giúp.</Text>
+        <Text>Nhấn ~g~1 ~s~ để chấp nhận hoặc ~r~2~s~ để hủy bỏ.</Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+        <Text>~r~Điện thoại~đã tìm thấy!</Text>
+        <Text>~r~Ví~đã tìm thấy!</Text>
+        <Text>~r~Giày~đã tìm thấy!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>~y~Bạn~s~: Xin chào, bạn là người gọi à?</Dialogue>
+        <Dialogue>~b~Người gọi~s~: Đợi đã, tôi đang đến!</Dialogue>
+        <Dialogue>~b~Người gọi~s~: Cảm ơn bạn rất nhiều! Tôi ước mình có đôi mắt như bạn!</Dialogue>
+        <Dialogue>~y~Bạn~s~: Không sao đâu, tạm biệt!</Dialogue>
+    </Conversation>
+
+
+    <OutcomeCellphone>
+        <Dialogue>~b~Người gọi~s~: Vâng, tôi đã gọi. Tôi không tìm thấy điện thoại di động của mình.</Dialogue>
+        <Dialogue>~y~Bạn~s~: Tôi hiểu rồi. Tôi sẽ giúp bạn tìm nó.</Dialogue>
+        <Dialogue>~y~Bạn~s~: Lần cuối cùng bạn sử dụng nó là khi nào?</Dialogue>
+        <Dialogue><![CDATA[~b~Người gọi~s~: Tôi đang đi bộ ngay đây và tôi nghĩ mình đã bỏ nó vào túi.]]></Dialogue>
+        <Dialogue>~y~Bạn~s~: Vậy thì nó phải ở đâu đó gần đây. Chúng ta hãy xem thử.</Dialogue>
+        <Dialogue>~y~Bạn~s~: Heyey, tôi tìm thấy điện thoại di động của bạn rồi!</Dialogue>
+    </OutcomeCellphone>
+
+
+    <OutcomeWallet>
+        <Dialogue><![CDATA[~b~Người gọi~s~: Đúng rồi, là tôi. Tôi làm mất ví rồi và không tìm thấy nó.]]></Dialogue>
+        <Dialogue>~y~Bạn~s~: Ôi trời. Tôi chắc chắn chúng ta sẽ tìm thấy nó.</Dialogue>
+        <Dialogue>~y~Bạn~s~: Bạn có nhớ lần cuối bạn có nó là khi nào không?</Dialogue>
+        <Dialogue>~b~Người gọi~s~: Ừ, mới một phút trước thôi. Chắc là nó ở quanh đây.</Dialogue>
+        <Dialogue>~y~Bạn~s~: Được rồi, chúng ta hãy tìm trong ví của bạn.</Dialogue>
+        <Dialogue>~y~Bạn~s~: Heyey, tôi tìm thấy ví của bạn rồi!</Dialogue>
+    </OutcomeWallet>
+
+
+    <OutcomeShoe>
+        <Dialogue>~b~Người gọi~s~: Vâng, tôi cần anh giúp. Tôi có một vấn đề lớn.</Dialogue>
+        <Dialogue>~b~Người gọi~s~: Tôi làm mất giày rồi... đôi giày tội nghiệp của tôi, tôi thích nó quá!</Dialogue>
+        <Dialogue>~y~Bạn~s~: À... xin lỗi, đây không phải là lý do để gọi cảnh sát.</Dialogue>
+        <Dialogue>~b~Người gọi~s~: Nhưng đó là đôi giày 100$! Tôi xin lỗi, nhưng anh có thể giúp tôi tìm kiếm nó được không?</Dialogue>
+        <Dialogue>~y~Bạn~s~: Được rồi, tôi sẽ giúp anh tìm kiếm đôi giày của anh. Hãy tìm kiếm khu vực này.</Dialogue>
+        <Dialogue>~y~Bạn~s~: Không, như tôi đã nói. Vui lòng chỉ gọi cảnh sát trong trường hợp khẩn cấp. Chúc bạn có một ngày nghỉ ngơi vui vẻ!</Dialogue>
+        <Dialogue>~y~Bạn~s~: Heeey, tôi tìm thấy giày của bạn rồi!</Dialogue>
+        <Dialogue>~y~Bạn~s~: Được rồi, nhưng lần sau chỉ gọi khi có trường hợp khẩn cấp thôi nhé! Tạm biệt!</Dialogue>
+    </OutcomeShoe>
+
+
+    <End>
+        <Text>Chúng tôi là ~g~Code 4~s~, ~b~mục mất tích đã được ~g~tìm thấy~s~.</Text>
+        <Text>Code ~g~4~s~, Vụ án đã kết thúc.</Text>
+    </End>
+
+
+
+</LostObject>

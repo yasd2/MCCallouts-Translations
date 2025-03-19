@@ -1,0 +1,21 @@
+<VehicleSpotted>
+
+    <General>
+    <CalloutMessage>Phát hiện xe đã bỏ trốn trước đó</CalloutMessage>
+		<Text>Tìm kiếm ~o~nghi phạm~s~.</Text>
+		<Text>Một cảnh sát đã phát hiện ra một chiếc xe đã bỏ trốn khỏi một trạm dừng xe trước đó. Hãy nói chuyện với anh ta trước.</Text>
+		<Text>~g~Nghi phạm bên phải đã bị bắt giữ~s~</Text>
+    </General>
+
+    <Persons>
+        <Text>Sĩ quan</Text>
+    </Persons>
+
+    <D_Officer>
+        <Dialogue>Này bạn, vui quá gặp lại bạn! Có vẻ như bạn đã có một cái bụng khá đẹp rồi nhỉ?</Dialogue>
+		<Dialogue>Dù sao thì, tôi đã phát hiện ra chiếc xe này ngay đây, nó đã chạy trốn khỏi chúng ta trước đó.</Dialogue>
+		<Dialogue>Kẻ tình nghi phải ở đây, chúng ta chỉ biết anh ta là một người đàn ông da trắng.</Dialogue>
+		<Dialogue>Tôi cho rằng anh ta đang đi vào trung tâm mua sắm, có lẽ anh ta đang đói.</Dialogue>		
+    </D_Officer>
+
+</VehicleSpotted>

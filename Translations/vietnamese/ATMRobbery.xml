@@ -1,0 +1,43 @@
+<ATMRobbery>
+
+    <CamText>
+        <Text>CAM1</Text> <!--use a short text!-->
+    </CamText>
+
+    <D_Victim>
+        <Dialogue>Xin chào sếp! Tôi vừa bị cướp!</Dialogue>
+        <Dialogue>Tôi vừa rút tiền xong từ máy ATM, thì có người đến lấy ví của tôi!</Dialogue>
+        <Dialogue>Chúng tôi đã đánh nhau, và anh ta đánh vào đầu tôi!</Dialogue >
+        <Dialogue>Thật không may, tôi không nhớ người đó trông như thế nào...</Dialogue>
+        <Dialogue>Không vấn đề gì, tôi thấy chúng tôi có camera giám sát ở đó. Tôi sẽ xem mình có thể làm gì.</Dialogue>
+        <Dialogue>Gửi đi, anh có thể cho tôi quyền truy cập vào Camera giám sát tại vị trí hiện tại của tôi không?</Dialogue>
+    </D_Victim>
+
+    <D_Suspect>
+        <Dialogue>Anh có vấn đề gì vậy? Tại sao anh lại theo dõi tôi?</Dialogue>
+        <Dialogue>Anh trùng khớp với mô tả về một vụ cướp gần đây đã xảy ra.</Dialogue>
+        <Dialogue>Tôi có giống tội phạm không? Thật nực cười.</Dialogue>
+        <Dialogue>Bạn nhầm người rồi, tôi chẳng làm gì cả!</Dialogue>
+    </D_Suspect>
+
+    <Persons>
+        <Text>Nạn nhân</Text>
+        <Text>Bạn</Text>
+        <Text>Nghi phạm</Text>
+    </Persons>
+
+    <General>
+       <CalloutMessage>Cướp ATM</CalloutMessage>
+       <CalloutAdvisory>Một người đã báo cáo bị cướp ngay sau khi rút tiền</CalloutAdvisory>
+       <Text>Nhấn {0} để nói chuyện với ~g~caller~s~.</Text>
+       <Text>Chờ.</Text>
+       <Text>Bây giờ bạn có thể truy cập vào camera.</Text>
+       <Text>Nhấn {0} để xem nguồn cấp dữ liệu camera!</Text>
+       <Text>Chúng tôi có báo cáo về một vụ cướp khác; ~y~khu vực được đánh dấu~s~ trên GPS của bạn.</Text>
+       <Text>Nhấn {0} để nói chuyện với ~r~suspect~s~.</Text>
+       <Text>Nghi phạm có vẻ không quan tâm.</Text>
+       <Text>Kiểm tra họ.</Text>
+       <Text>Dừng xe lại.</Text>
+    </General>
+
+</ATMRobbery>

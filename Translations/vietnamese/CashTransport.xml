@@ -1,0 +1,36 @@
+<CashTransport>
+
+    <General>
+        <Text>Vận chuyển tiền mạo hiểm</Text>
+        <Text>Lái xe đến địa điểm gọi ~g~~h~h~~s~.</Text>
+        <Text>Nhấn {Y} để nói chuyện</Text>
+        <Text>Lái xe đến địa điểm ~b~~h~h~~s~.</Text>
+        <Text>Nhấn {Y} bất cứ lúc nào nếu RIOT bị kẹt.</Text>
+        <Text>Lấy vali đựng tiền ~HC_3~~h~h~~s~ từ phía sau xe chở tiền ~r~~h~h~~s~.</Text>
+        <Text>Mang vali vào ngân hàng.</Text>
+        <Text>Nhấn ~y~~h~End~h~~s~ bất cứ lúc nào để kết thúc cuộc gọi.</Text>
+    </General>
+
+    <Persons>
+        <Text>Bảo vệ</Text>
+        <Text>Bạn</Text>
+        <Text>Người quản lý ngân hàng</Text>
+    </Persons>
+
+    <Guard>
+        <Dialogue>Xin chào cảnh sát! Cảm ơn vì đã đến! Chúng ta có một chuyến giao hàng rất quan trọng!</Dialogue>
+        <Dialogue>Xe tải ngân hàng bọc thép sẽ giao một lượng tiền lớn đến đích của chúng ta.</Dialogue>
+        <Dialogue>Xe tải sẽ do anh lái, một xe bọc thép của lực lượng SWAT sẽ đi theo.</Dialogue>
+        <Dialogue>Chúng tôi nhận được báo cáo rằng có thể có một cuộc tấn công đang xảy ra, đó là lý do tại sao chúng tôi có anh và đội SWAT. Đi thôi!</Dialogue>
+    </Guard>
+
+    <Bankman>
+        <Dialogue>Xin chào! Tôi thấy anh đã thoát ra an toàn! Bây giờ anh biết tại sao chúng tôi thuê những người chuyên nghiệp như anh, chứ không phải như... đồng nghiệp của tôi.</Dialogue>
+        <Dialogue>... chắc chắn rồi. Ít nhất thì xe SWAT cũng chống đạn.</Dialogue>
+        <Dialogue>Xe tải tiền cũng được bọc thép. Chỉ có cửa sổ là không.</Dialogue>
+        <Dialogue>Đây là trường hợp.</Dialogue>
+        <Dialogue>Hoàn hảo, cảm ơn bạn, tôi đã nói tốt về bạn!</Dialogue>
+        <Dialogue>Tôi hy vọng rủi ro là xứng đáng, chúc bạn một ngày tốt lành!</Dialogue>
+    </Bankman>
+
+</CashTransport>

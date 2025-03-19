@@ -1,0 +1,216 @@
+<BicycleAccident>
+
+    <General>
+        <Text>Tai nạn giao thông xe đạp</Text>
+        <Text>Phân tích hiện trường</Text>
+        <Text>Và bạn đã tìm ra nguyên nhân gây ra vụ tai nạn này chưa?</Text>
+        <Text>Tai nạn xe đạp cuộc gọi đã kết thúc.</Text>
+    </General>
+
+    <D_Witness1_0>
+        <Dialogue>Xin chào, tôi tên là Greg. Tôi sẽ cho bạn biết lý do tại sao điều này xảy ra.</Dialogue>
+        <Dialogue>Bạn có thấy nghi phạm ở đằng kia không? Anh ta nên bị trích dẫn.</Dialogue>
+        <Dialogue>Anh ta đã lái xe quá nhanh so với tốc độ cho phép.</Dialogue>
+        <Dialogue>Mọi người ngày nay không quan tâm đến tốc độ giới hạn.</Dialogue>
+    </D_Witness1_0>
+
+    <D_Witness2_0>
+        <Dialogue>Xin chào. Tôi đã nhìn thấy một phần của vụ tai nạn.</Dialogue>
+        <Dialogue>Anh ta đang đợi trên vỉa hè và nhìn lại về phía những chiếc xe đang lao tới.</Dialogue>
+        <Dialogue>Anh ta cũng cầm thứ gì đó trên tay. Tôi không thể nhìn thấy nó.</Dialogue>
+        <Dialogue>Tôi không chắc chắn 100% và không muốn đổ lỗi cho người đi xe đạp, nhưng anh ta có vẻ lo lắng.</Dialogue>
+        <Dialogue>Sau đó, tôi đang bận tâm đến việc của mình thì nghe thấy tiếng nổ lớn, đó là lúc nó xảy ra.</Dialogue>
+    </D_Witness2_0>
+
+    <D_Witness3_0>
+        <Dialogue>Tôi tên là Paul, tôi nói cho bạn biết, chúng ta cần bảo vệ nhiều hơn cho người đi xe đạp.</Dialogue>
+        <Dialogue>Không có đường dành cho xe đạp, vậy thì người đi xe đạp nên lái xe an toàn ở đâu?</Dialogue>
+        <Dialogue>Nhưng bạn không thể đổ lỗi cho người lái xe ô tô, người đi xe đạp này chỉ là ngu ngốc.</Dialogue>
+        <Dialogue>Anh ta nhìn sang bên phải, ngay vào chiếc xe đang lao tới. Đó là lúc anh ấy bắt đầu cưỡi ngựa.</Dialogue>
+        <Dialogue>Thật ngớ ngẩn, phải không?</Dialogue>
+    </D_Witness3_0>
+
+    <D_Witness4_Driver_0>
+        <Dialogue>Xin chào, tôi là Sarah. Tôi đã thấy những gì xảy ra khi đang lái xe.</Dialogue>
+        <Dialogue>Rõ ràng là nghi phạm đang có ý định gì đó.</Dialogue>
+        <Dialogue>Ồ xin lỗi, tôi nên nhắc lại là tôi đang nói về người đi xe đạp.</Dialogue>
+        <Dialogue>Anh ta cầm một chiếc máy ảnh trên tay, có vẻ như anh ta muốn quay phim lại.</Dialogue>
+        <Dialogue>Có vẻ như người đi xe đạp muốn nhảy ngay trước đầu xe.</Dialogue>
+    </D_Witness4_Driver_0>
+
+    <D_Suspect_0>
+        <Dialogue>Xin chào cảnh sát, tôi xin lỗi vì tất cả những điều đó.</Dialogue>
+        <Dialogue>Đó có phải là lỗi của người đi xe đạp không? Hay của tôi? Tôi chưa nhìn thấy người đi xe đạp nào cả.</Dialogue>
+        <Dialogue>Tôi đang lái xe thì đột nhiên người đi xe đạp ở ngay trước mặt tôi.</Dialogue>
+        <Dialogue>Tôi đạp phanh gấp, nhưng vẫn chưa đủ. Tôi hy vọng anh ấy sẽ ổn.</Dialogue>
+        <Dialogue>Xe của tôi bị hư hỏng nặng, nhưng công ty bảo hiểm sẽ lo liệu.</Dialogue>
+    </D_Suspect_0>
+
+
+    <D_Witness1_1>
+       <Dialogue>Này, sao lâu thế?! Tôi đang vội.</Dialogue>
+       <Dialogue>Tôi đang trên đường đi làm, tôi đã muộn 5 phút rồi!</Dialogue>
+       <Dialogue>Tôi chỉ thấy người đi xe đạp lái xe như điên, quá nhanh.</Dialogue>
+       <Dialogue>Anh ta lái xe rất nhanh trên vỉa hè, đó là những gì tôi thấy.</Dialogue>
+       <Dialogue>Tôi thực sự cần phải đi ngay bây giờ, tạm biệt!</Dialogue>
+    </D_Witness1_1>
+
+    <D_Witness2_1>
+       <Dialogue>Xin chào, tên tôi là Linda. Những người đi xe đạp này, lúc nào cũng chặn đường!</Dialogue>
+       <Dialogue>Chẳng trách những vụ tai nạn như thế này lại xảy ra. Người lái xe cần phải nhanh chóng đến đích và không thể đợi người đi xe đạp.</Dialogue>
+       <Dialogue>Người đi xe đạp này thậm chí còn không đội mũ bảo hiểm! Thật là bất cẩn!</Dialogue>
+       <Dialogue>Người đi xe đạp này lái xe như địa ngục. Và tất cả những chiếc xe khác cần phải tiếp quản một cách nguy hiểm, gây nguy hiểm đến tính mạng của những người đi ngược chiều!</Dialogue>
+       <Dialogue>Tôi sẽ nói cho bạn biết, bạn cần phải để mắt đến người đi xe đạp này.</Dialogue>
+    </D_Witness2_1>
+
+    <D_Witness3_1>
+       <Dialogue>Xin chào, tôi là Paul. Tôi muốn báo cáo. Wow, tôi thực sự thích bộ đồng phục của bạn.</Dialogue>
+       <Dialogue>Bạn đang mang loại súng lục nào? Có phải là SFP9 không? Súng đẹp quá.</Dialogue>
+       <Dialogue>Ồ vâng, xin lỗi, trước hết tôi thấy người đi xe đạp không đội mũ bảo hiểm.</Dialogue>
+       <Dialogue>Viết ra: Người đi xe đạp đeo tai nghe và không đội mũ bảo hiểm khi lái xe.</Dialogue>
+       <Dialogue>Nói cho tôi biết, tôi có đủ khả năng để trở thành cảnh sát không?</Dialogue>
+    </D_Witness3_1>
+
+    <D_Witness4_Driver_1>
+       <Dialogue>Xin chào, tôi là Sarah. Tôi lái xe về phía vụ tai nạn ở làn đường ngược chiều. Tôi đã nhìn thấy mọi thứ.</Dialogue>
+       <Dialogue>Chiếc xe đã đỗ, sau đó tài xế chuẩn bị lái xe đi.</Dialogue>
+       <Dialogue>Đó là lúc người đi xe đạp chuyển từ vỉa hè sang đường, anh ta thậm chí không nhìn.</Dialogue>
+       <Dialogue>Người đi xe đạp đang lái xe nhanh. Đó là tất cả những gì tôi thấy.</Dialogue>
+    </D_Witness4_Driver_1>
+
+    <D_Suspect_1_2>
+       <Dialogue>Xin chào, chúng ta có một cảnh tượng như thế này. Tất cả là do anh chàng đi xe đạp này đã cắt ngang tôi.</Dialogue>
+       <Dialogue>Những anh chàng đi xe đạp ngu ngốc, giờ hãy nhìn xe của tôi này! Phần đầu xe bị hỏng rồi!</Dialogue>
+       <Dialogue>Tôi vừa mới mua chiếc xe này, nó thậm chí còn chưa được một tháng tuổi!</Dialogue>
+       <Dialogue>Anh chàng đi xe đạp kia lái xe trên vỉa hè, rồi đột nhiên đâm vào tôi. Tôi không kịp phản ứng.</Dialogue>
+       <Dialogue>Tôi hy vọng anh ấy sớm khỏe lại, đừng hiểu lầm tôi. Nhưng tôi không có lỗi.</Dialogue>
+    </D_Suspect_1_2>
+
+    <D_Witness1_2>
+       <Dialogue>Này, tôi đang vội, nhanh lên nào. Nghe này.</Dialogue>
+       <Dialogue>Tên tôi à? Greg. Tôi cần đi làm ngay.</Dialogue>
+       <Dialogue>Tôi chỉ thấy chiếc xe đang phóng nhanh, quá nhanh.</Dialogue>
+       <Dialogue>Tôi không biết gì về chiếc xe đạp, tôi không nhìn thấy nó.</Dialogue>
+       <Dialogue>Tôi có thể đi được chưa? Đó là tất cả những gì tôi biết.</Dialogue>
+    </D_Witness1_2>
+
+    <D_Witness2_2>
+       <Dialogue>Này, tên tôi là Linda. Nhìn chiếc xe đạp kia kìa, hỏng bét luôn.</Dialogue>
+       <Dialogue>Tôi đang để ý người đi xe đạp, vì chiếc xe đạp. Đó là hoặc đã từng là... chiếc xe yêu thích của tôi.</Dialogue>
+       <Dialogue>Ồ xin lỗi, anh ta đang lái xe bên lề đường. Đột nhiên anh ta bị đâm từ phía sau.</Dialogue>
+       <Dialogue>Tôi nghe thấy tiếng phanh gấp và sau đó... chiếc xe đạp bay đi mất...</Dialogue>
+    </D_Witness2_2>
+
+    <D_Witness3_2>
+       <Dialogue>Ồ chào cảnh sát, tôi là Paul, rất vui được gặp anh!</Dialogue>
+       <Dialogue>Anh biết là tôi đang nghĩ đến việc làm trong lực lượng cảnh sát, tôi sinh ra để làm việc đó.</Dialogue>
+       <Dialogue>Tôi đang đi bộ thì nhìn thấy người đi xe đạp này. Anh ta không đội mũ bảo hiểm và không có đèn xe đạp phía trước.</Dialogue>
+       <Dialogue>Đôi khi rất khó để nhìn thấy những người mặc quần áo tối màu, đặc biệt là trong điều kiện thời tiết xấu.</Dialogue>
+    </D_Witness3_2>
+
+    <D_Witness4_Driver_2>
+       <Dialogue>Xin chào! Tôi tên là Sarah. Tôi làm việc ở tiệm bánh gần đó.</Dialogue>
+       <Dialogue>Tôi đang nhìn ra ngoài cửa sổ thì thấy một chiếc xe chạy qua.</Dialogue>
+       <Dialogue>Có thể là do chạy quá tốc độ, nhưng tôi thấy anh ta đang nói chuyện điện thoại. Tôi khá chắc chắn đó là chiếc xe này.</Dialogue>
+       <Dialogue>Tôi chạy ra ngoài khi nghe thấy tiếng nổ lớn. Đó là lúc tôi chứng kiến ​​vụ việc.</Dialogue>
+    </D_Witness4_Driver_2>  
+
+
+    <Persons>
+        <Text>Bạn</Text>
+        <Text>Greg</Text>
+        <Text>Linda</Text>
+        <Text>Paul</Text>
+        <Text>Sarah</Text>
+        <Text>Bác sĩ</Text>
+        <Text>Nạn nhân</Text>
+        <Text>Peter</Text>
+        <Text>Isabella</Text>
+        <Text>Sĩ quan Thompson</Text>
+        <Text>Sĩ quan Reynolds</Text>
+        <Text>Sĩ quan Harrison</Text>
+        <Text>Sĩ quan Clinton</Text>
+        <Text>Lính cứu hỏa</Text>
+    </Persons>
+
+
+    <D_Paramedic1>
+        <Dialogue>Này, mọi chuyện thế nào rồi? Đừng để mất tập trung vào chiếc đồng hồ Crowex to đùng của tôi với giá 10.000.</Dialogue>
+        <Dialogue>Ồ, bệnh nhân thế nào rồi? Người đi xe đạp trông không ổn lắm. Anh ta bị thương rất nặng.</Dialogue>
+        <Dialogue>Anh ta không phản ứng, vì vậy chúng ta cần đưa anh ta đến bệnh viện ngay lập tức.</Dialogue>
+    </D_Paramedic1>
+
+    <D_Paramedic2>
+        <Dialogue>Tôi không có thời gian để trò chuyện. Người đi xe đạp bị thương rất nặng, vì vậy đừng ngắt lời.</Dialogue>
+        <Dialogue>* rên rỉ * ...</Dialogue>
+    </D_Paramedic2>
+
+    <D_Officer1>
+        <Dialogue>Này cảnh sát! Cảm ơn anh đã đến! Chúng ta có một vụ tai nạn giao thông ở đây.</Dialogue>
+        <Dialogue>Cứ thoải mái phỏng vấn các nhân chứng, tôi sẽ quanh quẩn ở đây trong lúc đó.</Dialogue>
+        <Dialogue>Tìm ra ai là người có lỗi và chuyện gì đang xảy ra ở đây. Nếu bạn đã điều tra xong, hãy nói chuyện lại với tôi! Chúc may mắn!</Dialogue>
+    </D_Officer1>
+ 
+ 
+    <D_Officer1_InsuranceFraud>
+        <Dialogue>Người đi xe đạp đã cố gắng gian lận bảo hiểm đối với người lái xe.</Dialogue>
+        <Dialogue>Ngay khi anh ta được bác sĩ xác nhận là không phạm tội, chúng tôi sẽ bắt anh ta! Cảm ơn anh ta rất nhiều!</Dialogue>
+    </D_Officer1_InsuranceFraud>
+
+    <D_Officer1_BikersFault>
+        <Dialogue>Rõ ràng là người đi xe đạp đã không tập trung vào đường. Đó là lỗi của anh ta.</Dialogue>
+        <Dialogue>Được rồi, ngay khi anh ta được bác sĩ xác nhận là không phạm tội, anh ta sẽ bị phạt! Cảm ơn bạn!</Dialogue>
+    </D_Officer1_BikersFault>
+
+    <D_Officer1_DriversFault>
+        <Dialogue>Rõ ràng là tài xế đã không tuân thủ luật giao thông. Anh ta đáng bị khiển trách!</Dialogue>
+        <Dialogue>Hiểu rồi, bắt giữ tài xế đi!</Dialogue>
+    </D_Officer1_DriversFault>
+
+
+    <D_Officer2>
+        <Dialogue>Tôi chưa uống cà phê buổi sáng, máy của chúng tôi bị hỏng...</Dialogue>
+    </D_Officer2>
+
+    <D_Officer3>
+        <Dialogue>Này, người này đã nhìn thấy điều gì đó, bạn có thể nói chuyện với họ.</Dialogue>
+    </D_Officer3>
+
+    <D_Officer4>
+        <Dialogue>Chào bạn, tai nạn thật tệ. Hãy chắc chắn rằng bạn đã phỏng vấn tất cả các nhân chứng.</Dialogue>
+    </D_Officer4>
+
+    <D_Fireman1>
+        <Dialogue>Chiếc xe này bị hư hỏng nặng ở phía trước.</Dialogue>
+        <Dialogue>Chúng tôi chỉ ở đây trong trường hợp xe bị cháy hoặc mất dầu.</Dialogue>
+    </D_Fireman1>
+
+    <D_Fireman3>
+        <Dialogue>Trời ạ, tôi thích cà phê của Bean Machine, đặc biệt là vào ca đêm. Bạn nên thử nhé!</Dialogue>
+    </D_Fireman3>
+
+
+    <Menu>
+        <Text>Kịch bản</Text>
+        <Text>Tai nạn giao thông</Text>
+        <Text>Chọn đúng!</Text>
+
+        <Text>Gian lận bảo hiểm</Text>
+        <Text>Người đi xe đạp cố tình làm vậy!</Text>
+        <Text>Người đi xe đạp cố tình gian lận bảo hiểm!</Text>
+
+        <Text>Lỗi của người đi xe đạp</Text>
+        <Text>Người đi xe đạp không chú ý!</Text>
+        <Text>Là lỗi của người đi xe đạp!</Text>
+
+        <Text>Lỗi của người lái xe</Text>
+        <Text>Người lái xe có lỗi!</Text>
+        <Text>Người lái xe gây ra tai nạn!</Text>
+
+        <Text>~g~Điều tra đúng</Text>
+        <Text>~r~Điều tra không thành công</Text>
+
+        <Text>Nhấn ~y~End~s~ bất kỳ lúc nào để kết thúc cuộc gọi.</Text>
+    </Menu>
+
+</BicycleAccident>

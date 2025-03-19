@@ -1,0 +1,35 @@
+<PersonWithFirearm>
+
+    <General>
+        <Text>Người có vũ khí</Text>
+		<Text>Một cá nhân bị nghi ngờ mang theo vũ khí. Hãy liên lạc với họ.</Text>
+		<Text>Tiến đến ~r~nghi phạm~w~ và tiến hành ~y~nói chuyện~w~.</Text>
+		<Text>Nhấn {0} để dừng lại và nói chuyện với nghi phạm.</Text>
+		<Text>Không còn cuộc đối thoại nào với ~r~nghi phạm~w~ nữa.</Text>
+    </General> 
+
+    <Conversation>
+        <Dialogue>~b~Bạn:~w~ Xin chào, chúng ta nói chuyện một lát được không?</Dialogue>
+		<Dialogue>~r~Nghi phạm:~w~ Không, anh là ai?! Anh muốn gì!</Dialogue>
+		<Dialogue>~b~Bạn:~w~ Tôi chỉ muốn nói chuyện thôi. Tôi nghĩ anh có thể có vũ khí.</Dialogue>
+		<Dialogue>~r~Nghi phạm:~w~ Không đúng đâu! Anh nhầm người rồi.</Dialogue>
+		<Dialogue>~b~Bạn:~w~ Vui lòng hợp tác với chúng tôi để chúng tôi có thể giải quyết mọi chuyện.</Dialogue>
+    </Conversation>
+
+    <Shooting>
+      <Dialogue>~r~Nghi phạm:~w~ KHÔNG! KHÔNG BAO GIỜ!</Dialogue>
+    </Shooting>
+
+    <Surrender>  
+        <Dialogue>~r~ Nghi phạm:~w~ Được rồi, tôi xin lỗi...tôi cần phải làm gì?</Dialogue>
+		<Dialogue>~b~Bạn:~w~ Làm ơn giơ tay lên để tôi còng bạn lại.</Dialogue>
+		<Dialogue>~r~ Nghi phạm:~w~ Vâng, cảnh sát...xin lỗi...</Dialogue>
+    </Surrender>
+
+    <End>
+        <Text>Nghi phạm bị giam giữ, ~g~Code 4~w~</Text>
+		<Text>~g~Code 4~w~</Text>
+		<Text>Nghi phạm ~r~đã chết.~g~Code 4</Text>
+    </End>
+
+</PersonWithFirearm>

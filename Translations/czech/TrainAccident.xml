@@ -1,139 +1,139 @@
 <TrainAccident>
 
-    <CalloutMessage>Train Accident</CalloutMessage>
-    <CalloutAdvisory><![CDATA[Investigate the incident & apprehend the suspect!]]></CalloutAdvisory>
+    <CalloutMessage>Vlaková nehoda</CalloutMessage>
+    <CalloutAdvisory><![CDATA[Vysetrete incident a zadrzte podezrelého!]]></CalloutAdvisory>
 
-    <Mugshot>Suspect's Mugshot</Mugshot>
+    <Mugshot>Fotografie podezrelého</Mugshot>
 
      <DisplayHelp>
-        <Text>Drive to the reported ~b~train accident.</Text>
-        <Text><![CDATA[Talk to the ~o~victims~s~ & the ~r~train driver.]]></Text>
-        <Text>Talk to the ~o~victims.</Text>
-        <Text>Now talk to the ~g~witnesses.</Text>
-        <Text>Search the area around the ~y~trains for evidence.</Text>
-        <Text>We have received information about the whereabouts of the ~r~possible suspect.</Text>
-        <Text>~g~Code 4,~s~ resume patrol duty.</Text>
+        <Text>Jedte k nahlásené nehode ~b~vlaku.</Text>
+        <Text><![CDATA[Promluvte si s ~o~obetmi~s~ a se ~r~strojvedoucím vlaku.]]></Text>
+        <Text>Promluvte si s ~o~obetmi.</Text>
+        <Text>Nyní si promluvte se ~g~svedky.</Text>
+        <Text>Prohledejte okolí ~y~vlaku a hledejte dukazy.</Text>
+        <Text>Obdrzeli jsme informace o tom, kde se nachází ~r~mozný podezrelý.</Text>
+        <Text>~g~pod Kodem 4,~s~ pokracujte v hlídkovací cinnosti.</Text>
     </DisplayHelp>
 
     <Detective_NotDUI>
-        <Dialogue>~HC_43~Detective~s~: Hello Officer, thanks for coming to this mess!</Dialogue>
-        <Dialogue>~HC_43~Detective~s~: Let's get straight to the point: We have a train accident with multiple injuries.</Dialogue>
-        <Dialogue>~HC_43~Detective~s~: It looks like the train derailed and broke apart in the middle.</Dialogue>
-        <Dialogue><![CDATA[~HC_43~Detective~s~: First, I'd like you to talk to the ~o~victims~s~ & the ~r~train driver~s~, then search the scene for ~y~evidence~s~!]]></Dialogue>
-        <Dialogue>~HC_43~Detective~s~: Over there are ~g~two witnesses~s~. Good luck!</Dialogue>
+        <Dialogue>~HC_43~Detektiv~s~: Dobrý den, dustojníku, dekuji, ze jste prisel do tohoto neporádku!</Dialogue>
+        <Dialogue>~HC_43~Detektiv~s~: Prejdeme rovnou k veci: Máme tu vlakovou nehodu s mnoha zraneními.</Dialogue>
+        <Dialogue>~HC_43~Detektiv~s~: Vypadá to, ze vlak vykolejil a rozpadl se uprostred.</Dialogue>
+        <Dialogue><![CDATA[~HC_43~Detektiv~s~: Nejdrív bych chtel, abyste si promluvil s ~o~obetmi~s~ a se ~r~strojvedoucím~s~, a pak prohledal místo cinu a zkusil najít nejaký ~y~dukazy~s~!]]></Dialogue>
+        <Dialogue>~HC_43~Detektiv~s~: Tamhle jsou ~g~dva svedci~s~. Hodne stestí!</Dialogue>
     </Detective_NotDUI>
 
     <Detective_DUI2>
-        <Dialogue>~HC_43~Detective~s~: First, I'd like you to talk to the ~o~victims~s~, then search the scene for ~y~evidence~s~!</Dialogue>
+        <Dialogue>~HC_43~Detektiv~s~: Nejdrív bych chtel, abyste si promluvil s ~o~obetmi~s~, a pak prohledal místo cinu a zkusil najít nejaký ~y~dukazy~s~!</Dialogue>
     </Detective_DUI2>
 
     <Detective_DUI>
-        <Dialogue>~HC_43~Detective~s~: Hello Officer, thanks for coming to this mess!</Dialogue>
-        <Dialogue>~HC_43~Detective~s~: Let's get straight to the point: We have a train accident with multiple injuries.</Dialogue>
-        <Dialogue>~HC_43~Detective~s~: It looks like the train derailed and broke apart in the middle.</Dialogue>
-        <Dialogue>~HC_43~Detective~s~: First, I'd like you to talk to the ~o~victims~s~, then search the scene for ~y~evidence~s~!</Dialogue>
-        <Dialogue>~HC_43~Detective~s~: Over there are ~g~two witnesses~s~. Good luck!</Dialogue>
+        <Dialogue>~HC_43~Detektiv~s~: Dobrý den, dustojníku, dekuji, ze jste prisel do tohoto neporádku!</Dialogue>
+        <Dialogue>~HC_43~Detektiv~s~: Prejdeme rovnou k veci: Máme tu vlakovou nehodu s mnoha zraneními.</Dialogue>
+        <Dialogue>~HC_43~Detektiv~s~: Vypadá to, ze vlak vykolejil a rozpadl se uprostred.</Dialogue>
+        <Dialogue>~HC_43~Detektiv~s~: Nejdrív bych chtel, abyste si promluvil s ~o~obetmi~s~, a pak prohledal místo cinu a zkusil najít nejaký ~y~dukazy~s~!</Dialogue>
+        <Dialogue>~HC_43~Detektiv~s~: Tamhle jsou ~g~dva svedci~s~. Hodne stestí!</Dialogue>
     </Detective_DUI>
 
     <Victim1_>
-        <Dialogue>~o~Victim~s~: I... I was asleep, then suddenly... a loud bang! Everything shook, people were screaming... I saw sparks outside the windows.</Dialogue>
+        <Dialogue>~o~Obet~s~: Já... jsem spala a najednou... jsem slysela hlasitou ránu! Vsechno se otráslo, lidé kriceli... Za okny jsem videl jiskry.</Dialogue>
     </Victim1_>
 
     <Victim2_NotDUI>
-        <Dialogue>~o~Victim~s~: Officer, how could this happen? Look at all the injured people. And so many emergency responders!</Dialogue>
-        <Dialogue>~o~Victim~s~: Please get to the bottom of this, we need answers.</Dialogue>
+        <Dialogue>~o~Obet~s~: Strázníku, jak se to mohlo stát? Podívejte se na vsechny ty zranené. A tolik záchranáru!</Dialogue>
+        <Dialogue>~o~Obet~s~: Prosím, prijdte tomu na kloub, potrebujeme odpovedi.</Dialogue>
     </Victim2_NotDUI>
 
     <Victim2_DUI>
-        <Dialogue>~o~Victim~s~: I still have a headache from the strong impact.</Dialogue>
-        <Dialogue>~o~Victim~s~: I just can't understand why the train was going so fast.</Dialogue>
-        <Dialogue>~o~Victim~s~: It's no wonder the accident happened with that speed!</Dialogue>
-        <Dialogue>~o~Victim~s~: I need to go to the hospital now, I hope the driver is held accountable!</Dialogue>
+        <Dialogue>~o~Obet~s~: Z toho silného nárazu me stále bolí hlava.</Dialogue>
+        <Dialogue>~o~Obet~s~: Jen nechápu, proc jel vlak tak rychle.</Dialogue>
+        <Dialogue>~o~Obet~s~: Není divu, ze pri takové rychlosti doslo k nehode!</Dialogue>
+        <Dialogue>~o~Obet~s~: Musím jít do nemocnice, doufám, ze ridic bude dohnán k odpovednosti!</Dialogue>
     </Victim2_DUI>
 
     <Driver_NotDUI>
-        <Dialogue>~HC_8~Driver~s~: I had no warning. Suddenly, the train jumped off the tracks! I couldn't brake in time.</Dialogue>
+        <Dialogue>~HC_8~Ridic~s~: Nebyl jsem varován. Najednou vlak vyskocil z kolejí! Nestihl jsem vcas zabrzdit.</Dialogue>
     </Driver_NotDUI>
 
     <Driver_DUI>
-        <Dialogue>~y~You~s~: Police, stop right there, hands where I can see them!</Dialogue>
-        <Dialogue>~HC_8~Driver~s~: What's going on? *hic* I don’t knooooow youuuu.</Dialogue>
-        <Dialogue>~y~You~s~: Were you the driver of the train at {StreetName} today?</Dialogue>
-        <Dialogue>~HC_8~Driver~s~: Uh, nope. I *hic* can’t even ride a bike...</Dialogue>
-        <Dialogue>~y~You~s~: I need your ID.</Dialogue>
+        <Dialogue>~y~Ty~s~: Policie, stujte, ruce tak, abych na ne videl!</Dialogue>
+        <Dialogue>~HC_8~Ridic~s~: Co se deje? *au* Já te neznám.</Dialogue>
+        <Dialogue>~y~Ty~s~: Byl jste dnes strojvedoucím vlaku na {StreetName}?</Dialogue>
+        <Dialogue>~HC_8~Ridic~s~: Ne. ehm.. Neumím ani jezdit na kole...</Dialogue>
+        <Dialogue>~y~Ty~s~: Potrebuji vás prukaz totoznosti.</Dialogue>
     </Driver_DUI>
 
     <Witness1_Dismantled>
-        <Dialogue>~g~Witness~s~: I’m the head of the train workshop. We had a break-in yesterday, but nothing seemed to be stolen.</Dialogue>
-        <Dialogue>~g~Witness~s~: The two suspects yesterday, {Suspect1.GetGender()} and {Suspect2.GetGender()}, were driving a {SuspectVehicle.Model.Name}.</Dialogue>
-        <Dialogue>~g~Witness~s~: Also, we fired an employee last week named {Suspect2.GetFullName()}.</Dialogue>
-        <Dialogue>~g~Witness~s~: I suspect this might be related to the accident...</Dialogue>
+        <Dialogue>~g~Svedek~s~: Jsem vedoucím vlakové dílny. Vcera jsme meli vloupání, ale zdá se, ze nic nebylo ukradeno.</Dialogue>
+        <Dialogue>~g~Svedek~s~: Dva podezrelí vcera, {Suspect1.GetGender()} a {Suspect2.GetGender()}, rídili {SuspectVehicle.Model.Name}.</Dialogue>
+        <Dialogue>~g~Svedek~s~: Minulý týden jsme také propustili zamestnance s jménem {Suspect2.GetFullName()}.</Dialogue>
+        <Dialogue>~g~Svedek~s~: Mám podezrení, ze by to mohlo souviset s nehodou....</Dialogue>
     </Witness1_Dismantled>
 
     <Witness1_ObjectOnTracks>
-        <Dialogue>~g~Witness~s~: Hello, I was out for a walk when I noticed these two people on the tracks.</Dialogue>
-        <Dialogue>~g~Witness~s~: I wasn’t sure if they were repairing something or causing trouble.</Dialogue>
-        <Dialogue>~g~Witness~s~: The two suspects were {Suspect1.GetGender()} and {Suspect2.GetGender()}.</Dialogue>
+        <Dialogue>~g~Svedek~s~: Dobrý den, byl(a) jsem na procházce, kdyz jsem si vsiml(a) techto dvou lidí na kolejích.</Dialogue>
+        <Dialogue>~g~Svedek~s~: Nebyl(a) jsem si jistý(a), jestli neco opravují, nebo delají nejaký problém.</Dialogue>
+        <Dialogue>~g~Svedek~s~: Byli to dva podezrelí {Suspect1.GetGender()} a {Suspect2.GetGender()}.</Dialogue>
     </Witness1_ObjectOnTracks>
 
     <Witness1_DUI>
-        <Dialogue>~g~Witness~s~: Hello, I was walking two blocks from here when I noticed something.</Dialogue>
-        <Dialogue>~g~Witness~s~: I’m not familiar with train signals, but the light was definitely red.</Dialogue>
-        <Dialogue>~g~Witness~s~: I just thought I’d report it.</Dialogue>
+        <Dialogue>~g~Svedek~s~: Dobrý den, sel(a) jsem dva bloky odsud, kdyz jsem si neceho vsiml(a).</Dialogue>
+        <Dialogue>~g~Svedek~s~: Nejsem obeznámen(a) s vlakovými návestidly, ale na semaforu urcite svítila cervená.</Dialogue>
+        <Dialogue>~g~Svedek~s~: Jen me napadlo, ze to nahlásím.</Dialogue>
     </Witness1_DUI>
 
     <Witness2_NotDUI_WithVehicle>
-        <Dialogue>~g~Witness~s~: I saw two guys running away right after the crash! Towards the street!</Dialogue>
-        <Dialogue>~g~Witness~s~: The vehicle was a ~h~{SuspectVehicle.Model.Name}~h~, license plate ~h~{SuspectVehicle.LicensePlate}~h~.</Dialogue>
-        <Dialogue>~g~Witness~s~: Here, I caught one on camera!</Dialogue>
+        <Dialogue>~g~Svedek~s~: Hned po nehode jsem videl(a) utíkat dva chlapy! Smerem k ulici!</Dialogue>
+        <Dialogue>~g~Svedek~s~: Vozidlo bylo ~h~{SuspectVehicle.Model.Name}~h~, s poznávací znackou ~h~{SuspectVehicle.LicensePlate}~h~.</Dialogue>
+        <Dialogue>~g~Svedek~s~: Tady jsem jednoho zachytil(a) na kameru!</Dialogue>
     </Witness2_NotDUI_WithVehicle>
 
     <Witness2_NotDUI_OnFoot>
-        <Dialogue>~g~Witness~s~: I saw two guys running away right after the crash! Towards the street!</Dialogue>
-        <Dialogue>~g~Witness~s~: One was {Suspect1.GetGender()}, the other {Suspect2.GetGender()}.</Dialogue>
-        <Dialogue>~g~Witness~s~: Here, I caught one on camera!</Dialogue>
+        <Dialogue>~g~Svedek~s~: Hned po nehode jsem videl(a) utíkat dva chlapy! Smerem k ulici!</Dialogue>
+        <Dialogue>~g~Svedek~s~: Jeden z nich byl {Suspect1.GetGender()}, a druhý byl {Suspect2.GetGender()}.</Dialogue>
+        <Dialogue>~g~Svedek~s~: Tady jsem jednoho zachytil(a) na kameru!</Dialogue>
     </Witness2_NotDUI_OnFoot>
 
     <Witness2_DUI_WithVehicle>
-        <Dialogue>~g~Witness~s~: I saw someone staggering away from the crash site.</Dialogue>
-        <Dialogue>~g~Witness~s~: They ran to a ~h~{SuspectVehicle.Model.Name}~h~.</Dialogue>
-        <Dialogue>~g~Witness~s~: The license plate was ~h~{SuspectVehicle.LicensePlate}~h~.</Dialogue>
+        <Dialogue>~g~Svedek~s~: Videl(a) jsem, jak se nekdo potácí od místa nehody.</Dialogue>
+        <Dialogue>~g~Svedek~s~: Bezeli do ~h~{SuspectVehicle.Model.Name}~h~.</Dialogue>
+        <Dialogue>~g~Svedek~s~: Poznávací znacka byla ~h~{SuspectVehicle.LicensePlate}~h~.</Dialogue>
     </Witness2_DUI_WithVehicle>
 
     <Witness2_DUI_OnFoot>
-        <Dialogue>~g~Witness~s~: I saw someone staggering away from the crash site.</Dialogue>
-        <Dialogue>~g~Witness~s~: They ran away, if you can even call that running.</Dialogue>
-        <Dialogue>~g~Witness~s~: I hope you find them!</Dialogue>
+        <Dialogue>~g~Svedek~s~: Videl(a) jsem, jak se nekdo potácí od místa nehody.</Dialogue>
+        <Dialogue>~g~Svedek~s~: Utekli, pokud se tomu vubec dá ríkat útek.</Dialogue>
+        <Dialogue>~g~Svedek~s~: Doufám, ze je najdete!</Dialogue>
     </Witness2_DUI_OnFoot>
 
     <Suspect1_>
-        <Dialogue>~y~You~s~: Stop, police! Hands where I can see them!</Dialogue>
-        <Dialogue>~r~Suspect~s~: Listen, you've got the wrong people.</Dialogue>
-        <Dialogue>~r~Suspect~s~: We have nothing to do with the train accident.</Dialogue>
-        <Dialogue>~y~You~s~: How do you know about the train accident?</Dialogue>
-        <Dialogue>~r~Suspect~s~: Uh...</Dialogue>
+        <Dialogue>~y~Ty~s~: Stujte, policie! Ruce tak, abych na ne videl!</Dialogue>
+        <Dialogue>~r~Podezrelý~s~: Poslouchejte me, máte spatného cloveka.</Dialogue>
+        <Dialogue>~r~Podezrelý~s~: S vlakovou nehodou nemáme nic spolecného.</Dialogue>
+        <Dialogue>~y~Ty~s~: Jak víte o vlakové nehode?</Dialogue>
+        <Dialogue>~r~Podezrelý~s~: Ehm...</Dialogue>
     </Suspect1_>
 
     <Evidence>
         <Dismantled>
-            <Dialogue>An oil hose is loose, suggesting someone tampered with it.</Dialogue>
-            <Dialogue>This brake is missing.</Dialogue>
-            <Dialogue>Someone disconnected the cables in the electrical system.</Dialogue>
-            <Dialogue>Hmm... a burger, now I’m hungry.</Dialogue>
+            <Dialogue>Olejová hadice je uvolnená, coz naznacuje, ze s ní nekdo manipuloval.</Dialogue>
+            <Dialogue>Chybí tady brzda.</Dialogue>
+            <Dialogue>Nekdo odpojil kabely v elektrickém systému..</Dialogue>
+            <Dialogue>Hmm... hamburger, ted mám hlad..</Dialogue>
         </Dismantled>
 
         <ObjectOnTracks>
-            <Dialogue>A large rock near the tracks isn’t good...</Dialogue>
-            <Dialogue>The train’s wheels are broken, they must have hit something...</Dialogue>
-            <Dialogue>The tracks are loose and there’s a crowbar here... hmm...</Dialogue>
-            <Dialogue>Why are there stones here?</Dialogue>
+            <Dialogue>Velký kámen v blízkosti kolejí není dobrý...</Dialogue>
+            <Dialogue>Kola vlaku jsou zlomená, musela do neceho narazit....</Dialogue>
+            <Dialogue>Koleje jsou uvolnené a je tu pácidlo... hmm....</Dialogue>
+            <Dialogue>Proc jsou zde kameny?</Dialogue>
         </ObjectOnTracks>
 
         <DUI>
-            <Dialogue>The speedometer is stuck at 100 km/h... way too fast.</Dialogue>
-            <Dialogue>The brakes look brand new, no emergency braking was done.</Dialogue>
-            <Dialogue>A pizza, hmm, delicious...</Dialogue>
-            <Dialogue>A list of train drivers with photos, today it was ~h~{Driver.GetFullName()}~h~...</Dialogue>
+            <Dialogue>Tachometr se zasekl na 100 km/h... prílis rychle.</Dialogue>
+            <Dialogue>Brzdy vypadají jako nové, zádné nouzové brzdení nebylo provádeno.</Dialogue>
+            <Dialogue>Pizzu, hmm, vynikající...</Dialogue>
+            <Dialogue>Hele seznam strojvedoucích s fotografiemi, a dneska to bylo ~h~{Driver.GetFullName()}~h~...</Dialogue>
         </DUI>
     </Evidence>
 

@@ -1,0 +1,64 @@
+<Kidnapping>
+
+    <General>
+        <Message>Người gọi thông báo về một vụ bắt cóc xe có thể xảy ra</Message>
+        <Message>Yêu cầu dừng xe</Message>
+        <Message>Dừng xe ~g~w~ trên ~o~phương tiện bị nghi ngờ~w~, trả lời Code 3.</Message>
+        <Message>Phía cảnh sát, một nghi phạm ~y~đã~bắt~bắt~!</Message>
+        <Message>Người lái xe ~r~đã~chết, ~g~Code 4</Message>
+        <Message>Hành khách ~r~đã~chết, ~g~Code 4</Message>
+        <Message>Ôi không, Nạn nhân ~r~đã~chết! ~g~Code 4</Message>
+    </General>
+
+    <Infos>
+        <Info>Xe được báo cáo là ~y~chạy quá tốc độ~w~.</Info>
+        <Info>Mẫu xe là ~b~xe SUV Granger màu đen~w~.</Info>
+    </Infos>
+
+    <Conversation1>
+        <Dialogue>Nói chuyện với tài xế bằng </Dialogue>
+        <Dialogue>~y~Bạn~w~: Xin chào, tôi là cảnh sát của sở cảnh sát địa phương.</Dialogue>
+        <Dialogue>~o~Tài xế~w~: Tôi hiểu rồi. Lý do dừng xe là gì?</Dialogue>
+        <Dialogue>~y~Bạn~w~: Chúng tôi có cuộc gọi về xe của anh. Còn ai đi cùng anh nữa không?</Dialogue>
+        <Dialogue>~o~Tài xế~w~: Chỉ có sếp tôi ngồi phía sau bên trái. Bạn không cần biết thêm nữa.</Dialogue>
+        <Dialogue>~y~Bạn~w~: Vâng, tùy tôi muốn nói chuyện với ai.</Dialogue>
+        <Dialogue>~o~Hành khách phía sau bên trái~w~: Anh bạn, đừng có mà làm phiền chúng tôi, chúng tôi chẳng làm gì cả!</Dialogue>
+        <Dialogue>~y~Bạn~w~: Thưa ông, tôi không nói chuyện với ông, để tôi nói chuyện với cô gái kia đã.</Dialogue>
+        <Dialogue>~y~Bạn~w~: Thưa bà, bà khỏe không? Bạn có biết những quý ông đó không?</Dialogue>
+        <Dialogue>~p~Người phụ nữ~w~: Vâng...</Dialogue>
+        <Dialogue>Người phụ nữ dường như ~r~run~w~ và cảm thấy ~r~không thoải mái~w~.</Dialogue>
+        <Dialogue>~o~Hành khách phía sau bên trái~w~: Thấy không, không có gì sai ở đây cả, đừng lãng phí thời gian của bạn nữa!</Dialogue>
+        <Dialogue>Có vẻ như có điều gì đó không ổn, hãy gọi một đơn vị dự phòng.</Dialogue>
+        <Dialogue>~y~Bạn~w~: Được rồi, tôi muốn mọi người bước ra từng người một...</Dialogue>
+    </Conversation1>
+
+    <OutcomeVehiclePursuit>
+        <Dialogue>~o~Hành khách phía sau bên trái~w~: ~r~Tiến lên tiến lên~w~!</Dialogue>
+        <Dialogue>~y~Bạn~w~: Điều phối, sẽ có một ~r~truy đuổi~w~!</Dialogue>
+        <Dialogue>~g~Đuổi theo~w~ cả hai nghi phạm, gọi ~b~hỗ trợ~w~ cuối cùng!</Dialogue>
+    </OutcomeVehiclePursuit>
+
+    <OutcomeSurrender>
+        <Dialogue>~o~Tài xế~w~: ~r~Chúng ta đầu hàng~w~!</Dialogue>
+        <Dialogue>~g~Bắt giữ~w~ cả hai nghi phạm!</Dialogue>
+    </OutcomeSurrender>
+
+    <OutcomeFootPursuit>
+        <Dialogue>~o~Hành khách phía sau bên trái~w~: ~r~Chạy đi!</Dialogue>
+        <Dialogue>~y~Bạn~w~: Điều phối, hai nghi phạm đang ~r~truy đuổi~w~!</Dialogue>
+        <Dialogue>~g~Đuổi theo~w~ cả hai nghi phạm, gọi ~b~hỗ trợ~w~ cuối cùng!</Dialogue>
+    </OutcomeFootPursuit>
+
+    <VictimTalk>
+        <Dialogue>Đến chỗ ~g~Nạn nhân~w~ và đảm bảo cô ấy ~g~ổn~w~.</Dialogue>
+        <Dialogue>~y~Bạn~w~: Xin chào cô, giờ cô đã an toàn rồi.</Dialogue>
+        <Dialogue>~g~Nạn nhân~w~: Ôi trời, cảm ơn cô rất nhiều! Tôi sợ lắm!</Dialogue>
+        <Dialogue>~y~Bạn~w~: Cô có biết những gã đã bắt cóc cô không?</Dialogue>
+        <Dialogue>~g~Nạn nhân~w~: Không, tôi chưa từng thấy họ! Họ bảo tôi là họ sẽ bán tôi!</Dialogue>
+        <Dialogue>~y~Bạn~w~: Giờ họ đang ở sau song sắt rồi. Cô có cần trợ giúp y tế không?</Dialogue>
+        <Dialogue>~g~Nạn nhân~w~: Không, tôi ổn, chỉ hơi run thôi. Cảm ơn bạn rất nhiều vì đã giúp đỡ!</Dialogue>
+        <Dialogue>~y~Bạn~w~: Thật mừng là bạn ổn, hãy đảm bảo về nhà an toàn nhé!</Dialogue>
+        <Dialogue>Chọn, nếu bạn muốn một chiếc ~y~taxi~w~, ~g~Uber~w~ để đón cô ấy hoặc đưa cô ấy ~b~trên đường đi~w~.</Dialogue>
+    </VictimTalk>
+    
+</Kidnapping>

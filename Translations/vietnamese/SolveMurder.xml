@@ -1,0 +1,65 @@
+<SolveMurder>
+
+    <General>
+        <Text>~r~Chuyên viên điều tra~s~ đang điều tra vụ án mạng</Text>
+        <Text>~g~Gửi đi~s~: Lái xe đến ~y~Trạm xăng Mount Chiliad~w~ trên đường cao tốc, yêu cầu ~r~Chuyên viên điều tra~w~.</Text>
+    </General>
+
+    <Officer>
+		<Dialogue>Đi đến ~b~Sĩ quan~w~ và nói chuyện với cô ấy bằng </Dialogue>
+		<Dialogue>~b~Sĩ quan~s~: Xin chào Chuyên viên điều tra! Thật mừng là anh ở đây!</Dialogue>
+		<Dialogue>~b~Sĩ quan~s~: Chúng tôi có một người chết bên phải tôi và hai nghi phạm có thể.</Dialogue>
+		<Dialogue>~b~Sĩ quan~s~: Vui lòng đến ~r~hiện trường vụ án~w~ bên phải tôi và ~r~điều tra~s~, xem, anh có thể tìm thấy thứ gì không.</Dialogue>
+    </Officer>
+
+    <Evidence>
+        <Text>~y~Bạn~s~: ~r~Một chai rượu mới~r~, tôi tự hỏi liệu nó có phải của nạn nhân không...</Text>
+		<Text>~y~Bạn~s~: Các vết thương có vẻ là ~o~nhiều vết đâm~s~, ở cổ, bụng và lưng.</Text>
+		<Text>~y~Bạn~s~: Một số ~g~khoai tây chiên~w~? Có người ~g~vừa mới~w~~g~ăn~những~thứ đó...</Text>
+		<Text>Kết thúc điều tra! Đến gặp ~r~nghi phạm~w~ và nói chuyện với anh ta bằng </Text>		
+    </Evidence>
+
+    <Suspect1>
+        <Dialogue>Nói chuyện với ~o~nghi phạm~w~ bằng </Dialogue>
+		<Dialogue>~y~Bạn~s~: Xin chào, tôi là Chuyên viên điều tra trong vụ án này, tôi có một vài câu hỏi cho anh.</Dialogue>
+		<Dialogue>~o~Ayla May~s~: Tôi ~r~lo~lắm~w~. Tôi không liên quan gì đến chuyện này.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Đừng lo, anh ổn mà. Bạn uống loại rượu nào?</Dialogue>
+		<Dialogue>~o~Ayla May~s~: Tôi uống rượu ngon như ~g~chưa bao giờ được uống~w~... và nếu có thì tôi sẽ uống một ly rượu vang đỏ.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Thỉnh thoảng bạn có ăn ~r~khoai tây chiên~w~ không?</Dialogue>
+		<Dialogue>~o~Ayla May~s~: ~g~Không~w~, tôi sống một lối sống lành mạnh, tôi cũng chơi thể thao rất nhiều.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Vậy là hết, cảm ơn bạn đã dành thời gian.</Dialogue>
+    </Suspect1>
+
+    <Suspect2>
+        <Dialogue>Nói chuyện với ~o~nghi phạm~w~ bằng </Dialogue>
+		<Dialogue>~y~Bạn~s~: Xin chào, tôi là ~r~Chuyên viên điều tra~ trong trường hợp này, tôi có thể hỏi anh một số câu hỏi không?</Dialogue>
+		<Dialogue>~r~Thợ săn Jameson~s~: Xin chào! Yeeeaaaaahh, đừng ngại ngùng thế *cười*</Dialogue>
+		<Dialogue>~y~Bạn~s~: Anh có vẻ ~r~say~w~, anh đã uống bao nhiêu vậy?!</Dialogue>
+		<Dialogue>~r~Thợ săn Jameson~s~: Tôi chưa uống gì cả, thậm chí không một giọt...</Dialogue>
+		<Dialogue>~y~Bạn~s~: Xin hãy nghiêm túc với điều này. Bạn đang làm nghề gì?</Dialogue>
+		<Dialogue>~r~Thợ săn Jameson~s~: Chắc chắn rồi, tôi là ~o~thợ săn~w~, tôi có một khu rừng không quá xa đây.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Được rồi, bạn có ăn ~r~khoai tây chiên~w~ thường xuyên như tôi không?</Dialogue>
+		<Dialogue>~r~Thợ săn Jameson~s~: Vâng, ~r~TÔI THÍCH KHOAI TÂY CHIÊN~w~, tôi luôn ăn chúng, ~y~Tôi vừa ăn một gói...</Dialogue>
+		<Dialogue>~y~Bạn~s~: Chúng ta đã xong phần hỏi đáp, tôi sẽ cho bạn biết cách tiếp tục.</Dialogue>
+    </Suspect2>
+
+    <Officer2>
+        <Dialogue>Hãy nói chuyện với ~b~Sĩ quan~w~ lần nữa bằng cách sử dụng </Dialogue>
+		<Dialogue>~b~Sĩ quan~w~: Và bạn có thể tìm ra dựa trên bằng chứng và nói chuyện xem ~r~kẻ giết người~w~ là ai không?</Dialogue>
+		<Dialogue>~y~Bạn~s~: Vâng, tôi nghĩ kẻ giết người là... ~o~[1] Ayla May ~r~[2] Thợ săn Jameson</Dialogue>
+		<Dialogue>Nhấn ~o~'1' ~w~ hoặc ~r~'2' ~w~ để chọn ~r~kẻ giết người.</Dialogue>
+		<Dialogue>~y~Bạn~s~: ...~o~Ayla May~w~!</Dialogue>
+		<Dialogue>~y~Bạn~s~: ...~r~Thợ săn Jameson~w~!</Dialogue>
+		<Dialogue>~b~Sĩ quan~w~: Được rồi, hãy bắt giữ nghi ngờ!</Dialogue>		
+    </Officer2>
+
+    <Arrest>
+        <Text>Ôi không, thật không may là anh đã bắt giữ một người ~r~vô tội~w~! ~o~Code 4~w~</Text>
+		<Text>Cuộc điều tra đã ~g~Code 4~w~, Vụ án ~g~đã giải quyết~w~, ~g~nghi phạm chính đã bị bắt!</Text>
+		<Text>Gọi ~b~Cảnh sát~w~ đến đón ~y~nạn nhân~w~ rồi đưa ~r~nghi phạm~w~ đến ~o~nhà tù~w~.</Text>
+		<Text>~g~Ayla May ~r~chết.~s~ Anh có chắc là cần thiết không? ~g~Code 4~s~</Text>
+		<Text>~b~Thợ săn Jameson ~r~chết,~s~ Tôi hy vọng anh có một luật sư giỏi!? ~g~Code 4~s~</Text>
+		<Text>~b~Sĩ quan~s~ ~r~chết~s~, đó không phải là một kết thúc tốt đẹp sao!? ~g~Code 4~s~</Text>
+    </Arrest>
+
+</SolveMurder>

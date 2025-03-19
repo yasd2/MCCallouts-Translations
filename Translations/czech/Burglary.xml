@@ -4,7 +4,7 @@
         <CalloutMessage>Obcan nahlásil vloupání</CalloutMessage>
         <Text>Jedte na místo vloupání, postupujte opatrne.</Text>
         <Text>Hledejte dukazy, stisknutím {0} pro vyzvednutí predmetu.</Text>
-        <Text>Prozkoumejte oblast kolem domu.</Text>
+		<Text>Zkontrolujte okolí domu.</Text>
     </General>
 
     <FalseAlarm>

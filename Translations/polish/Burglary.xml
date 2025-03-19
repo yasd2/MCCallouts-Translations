@@ -1,31 +1,31 @@
 <Burglary>
 
     <General>
-        <CalloutMessage>Citizen reports a Burglary</CalloutMessage>
-        <Text>Drive to the Burglary, proceed with caution.</Text>
-        <Text>Search for evidence, press {0} to pick up.</Text>
-        <Text>Inspect the area around the house.</Text>
+        <CalloutMessage>Obywatel zgłasza włamanie</CalloutMessage>
+        <Text>Udaj się na miejsce włamania, zachowaj czujność.</Text>
+        <Text>Poszukaj wskazówek, naciśnij {0}, aby je podnieść.</Text>
+        <Text>Sprawdź teren wokół domu.</Text>
     </General>
 
     <FalseAlarm>
-        <Dialogue>Dispatch, nothing going on here.</Dialogue>
-        <Dialogue>Copy that, go back to patrol.</Dialogue>
+        <Dialogue>Centrala, nie ma tu nic podejrzanego.</Dialogue>
+        <Dialogue>Zrozumiano, wracaj na patrol.</Dialogue>
     </FalseAlarm>
 
     <AnimalOnScene>
-        <Dialogue>Dispatch, false alarm, just an animal causing chaos.</Dialogue>
-        <Dialogue>Copy that, go back to patrol.</Dialogue>
+        <Dialogue>Centrala, fałszywy alarm, zwierzak wywołał alarm.</Dialogue>
+        <Dialogue>Zrozumiano, wracaj patrol.</Dialogue>
     </AnimalOnScene>
 
     <BurglarLeft>
-        <Dialogue>Dispatch, we have signs of an intruder here, searching the scene.</Dialogue>
-        <Dialogue>Hmmm, that doesn't help.</Dialogue>
-        <Dialogue>Dispatch, I found a document of {DriversName}.</Dialogue>
-        <Dialogue>I got an ALPR hit on a speeding vehicle, owner is {DriversName}.</Dialogue>
+        <Dialogue>Centrala, są tu ślady włamania, sprawdzam teren.</Dialogue>
+        <Dialogue>Hmmm, nic szczególnego.</Dialogue>
+        <Dialogue>Centrala, znalazłem dokumenty na {DriversName}.</Dialogue>
+        <Dialogue>Mam zgłoszenie ALPR za przekroczenie prędkości, właściciel to {DriversName}.</Dialogue>
     </BurglarLeft>
 
     <BurglarIsLeaving>
-        <Dialogue>Dispatch, one Vehicle ~r~fleeing~s~, two occupants!</Dialogue>
+        <Dialogue>Centrala, pojazd ~r~ucieka~s~, w środku dwie osoby!</Dialogue>
     </BurglarIsLeaving>
 
 </Burglary>

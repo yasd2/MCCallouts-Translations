@@ -1,0 +1,135 @@
+<HostageSituation>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+<!-- 
+<![CDATA[
+-->
+<!--
+]]>
+-->
+
+
+    <General>
+        <Text>Tình hình con tin</Text>
+        <Text>Một người đang giữ con tin dưới họng súng</Text>
+        <Text>Lái xe đến nơi có con tin cấp độ ba 3, ưu tiên!</Text>
+        <Text><![CDATA[Đỗ xe tại điểm đánh dấu màu vàng và tìm chỗ ẩn nấp trong khi nói chuyện với nghi phạm.]]></Text>
+        <Text>Nói chuyện với ~g~con tin.</Text>
+        <Text>Được rồi, được rồi, tôi đầu hàng!</Text>
+        <Text>Đỗ xe ở đó và ẩn nấp sau xe của bạn.</Text>
+    </General>
+
+    <PedStatus>
+        <Text>~r~Nghi phạm ~s~bị bắt!</Text>
+        <Text>~g~Con tin ~y~bị bắt?!</Text>
+        <Text>~o~nghi phạm~s~ đã ~r~chết.~s~</Text>
+        <Text>~g~con tin~s~ đã ~r~chết...~s~</Text>
+    </PedStatus>
+
+    <DisplayHelp>
+        <Text>Nhấn</Text>                                                          <!-- Nhấn _phím_Y__ để kết thúc ... -->
+        <Text>để kết thúc cuộc gọi sau khi bạn hoàn tất ~b~điều tra~s~.</Text>  <!-- Nhấn _phím_Y__ để kết thúc ... -->
+        <Text>Nói chuyện với nghi phạm bằng</Text>                                      <!-- Nói chuyện với nghi phạm bằng cách sử dụng _phím_Y_ -->
+    </DisplayHelp>
+
+    <DistanceToSuspect> <!-- Nếu bạn ở quá gần nghi phạm với con tin, trước tiên bạn sẽ nhận được cảnh báo, nếu bạn vẫn ở trong khu vực sau vài giây, anh ta sẽ bắn. -->
+        <Dialogue>~o~Cút đi không tao bắn!</Dialogue>
+        <Dialogue>~g~Vừa kịp giờ!</Dialogue>
+        <Dialogue>~r~Bây giờ sẽ có mưa đạn!</Dialogue>
+    </DistanceToSuspect>
+
+    <DistanceWarner> <!-- Nếu bạn ở quá gần xe của nghi phạm có con tin, trước tiên bạn sẽ nhận được cảnh báo, nếu bạn vẫn ở trong khu vực sau vài giây, anh ta sẽ bắn. -->
+        <Dialogue>~o~Giữ khoảng cách hoặc nghi phạm sẽ nổi giận!~s~</Dialogue>
+        <Dialogue>~g~Làm tốt lắm, giữ khoảng cách an toàn.~s~</Dialogue>
+        <Dialogue>~r~Bạn đã quá gần! Cẩn thận!~s~</Dialogue>
+    </DistanceWarner>
+
+    <Menu>
+        <MenuName>Quyết định:</MenuName>
+
+        <Menu1>
+                <Conversation>Đứng yên</Conversation>
+                <Conversation>~y~Bạn~s~: Đừng lo, tôi sẽ ở ngay đây.</Conversation>
+                <Conversation>Tạo áp lực</Conversation>
+                <Conversation>~y~Bạn~s~: Tôi sẽ bắn bay đầu anh, đồ khốn nạn!</Conversation>
+        </Menu1>
+
+        <Menu2>
+                <Conversation>20.000 đô la tiền mặt</Conversation> <!-- Bạn có thể thoải mái đổi tiền (€) sang quốc gia của bạn. -->
+                <Conversation>~y~Bạn~s~: Chúng tôi sẽ đưa cho bạn 20.000 đô la tiền mặt, nghe có ổn không?</Conversation> <!-- Bạn có thể thoải mái đổi tiền (€) sang quốc gia của bạn. -->
+                <Conversation>Cải thiện điều kiện giam giữ</Conversation>
+                <Conversation>~y~Bạn~s~: Chúng tôi có thể kiếm cho sếp của bạn một phòng giam lớn hơn có TV, thế nào?</Conversation>
+                <Conversation><![CDATA[Gợi ý một khởi đầu mới & nhà tâm lý học]]></Conversation>
+                <Conversation>~y~Bạn~s~: Tôi hiểu rồi. Một người bạn của tôi là một nhà tâm lý học tuyệt vời, cô ấy có thể giúp bạn quay lại đúng hướng, bạn thấy thế nào?</Conversation>
+        </Menu2>
+
+        <Menu3>
+                <Conversation>Xe chạy trốn với lượng nhiên liệu hạn chế</Conversation>
+                <Conversation>~y~Bạn~s~: Bạn sẽ được một chiếc xe chạy trốn với lượng nhiên liệu hạn chế, nhưng bạn sẽ đi đâu?</Conversation>
+                <Conversation>Gợi ý pizza</Conversation>
+                <Conversation>~y~Bạn~s~: Thế còn pizza thì sao?</Conversation>
+        </Menu3>
+    </Menu>
+
+    <SuspectTalk>
+                <Dialogue>~r~Nghi phạm~s~: Cút đi! Anh muốn gì ở đây?! Đừng đến gần hơn!</Dialogue>
+                <Dialogue>~r~Nghi phạm~s~: Tốt hơn là anh nên hy vọng như vậy! Bây giờ, mọi người hãy rời đi, tôi không muốn thấy bất kỳ cảnh sát nào nữa!</Dialogue>
+                <Dialogue>~r~Nghi phạm~s~: Anh không thể làm gì tôi được! Tôi không muốn thấy bất kỳ cảnh sát nào nữa, nếu không sẽ có mưa đạn!</Dialogue>
+                <Dialogue>~y~Bạn~s~: Tôi hiểu, nhưng tòa nhà đã bị bao vây.</Dialogue>
+                <Dialogue>~y~Bạn~s~: Tôi muốn chuyện này kết thúc trong hòa bình, vì anh, vì con tin và vì các cảnh sát.</Dialogue>
+                <Dialogue>~y~Bạn~s~: Tại sao anh lại cướp cửa hàng?</Dialogue>
+        <Reasons>
+            <Dialogue>~r~Nghi phạm~s~: Tôi cần ~b~tiền~s~, tôi ~b~nghèo~s~ và không thể trả tiền thuê nhà nữa!</Dialogue>
+            <Dialogue>~r~Nghi phạm~s~: Là lỗi của cô ấy! ~b~Cô ấy bỏ rơi tôi!~s~ Và giờ cô ấy là con tin của tôi!</Dialogue>
+            <Dialogue>~r~Nghi phạm~s~: ~b~s~ ông chủ~ của tôi đang ở trong ~b~nhà tù~s~, tôi sẽ không rời đi cho đến khi ông ấy được tự do!</Dialogue>
+        </Reasons>
+                <Dialogue>~y~Bạn~s~: Nghe cho kỹ đây, tôi đề nghị với anh thỏa thuận sau:</Dialogue>
+                <Dialogue>~r~Nghi phạm~s~: Chúng tôi sẽ thỏa thuận, nhưng anh muốn đổi lại điều gì?</Dialogue>
+                <Dialogue>~y~Bạn~s~: Một lần nữa, mọi người nên về nhà an toàn và anh cần thả con tin!</Dialogue>
+                <Dialogue>~r~Nghi phạm~s~: Anh đưa cho tôi một chiếc xe tẩu thoát, tôi sẽ thả con tin sau!</Dialogue>
+                <Dialogue>~r~Nghi phạm~s~: Điều đó không hợp lý, lời đề nghị cuối cùng...</Dialogue>
+        <Fail>
+            <Dialogue>~r~Nghi phạm~s~: Đụ mẹ mày và mấy cái giao dịch của mày! Và cảnh sát vẫn còn ở đây!</Dialogue>
+            <Dialogue>~r~Nghi phạm~s~: Bây giờ mày sẽ thấy những gì mày nhận được!</Dialogue>
+            <Dialogue>~r~Nghi phạm~s~: Mày điên rồi! Bây giờ mày sẽ thấy những gì mày nhận được!</Dialogue>
+        </Fail>
+                <Dialogue>~r~Nghi phạm~s~: Tôi không nói cho anh biết, nhưng tôi sẽ thả con tin ngay khi tôi không còn thấy cảnh sát nào nữa.</Dialogue>
+                <Dialogue>~y~Bạn~s~: Chiếc xe sẽ đến đó bất cứ lúc nào...</Dialogue>
+        
+        
+    </SuspectTalk>
+
+    <SuspectDrives>
+        <Text>Đi theo xe của nghi phạm, nhưng hãy đảm bảo giữ khoảng cách để anh ta không thể nhìn thấy bạn!</Text>
+        <Text><![CDATA[Nghi phạm ~g~nên cảm thấy an toàn,~s~ đã đến lúc nhốt anh ta lại & ~r~bắt giữ anh ta!~s~]]></Text>
+        <Text>Một thiết bị theo dõi đã được lắp đặt và đang hoạt động trên xe.</Text>
+        <Text>FBI báo cáo: Bạn có thể ~y~vô hiệu hóa động cơ của xe~s~ bằng cách nhấn ~y~O~s~!</Text>
+        <Text><![CDATA[Bắt giữ ~y~nghi phạm~! Chặn xe của anh ta & bắt giữ anh ta!]]></Text>
+        <Text>Xe đã bị vô hiệu hóa, bắt giữ nghi phạm!</Text>
+    </SuspectDrives>
+
+    <HostageTalk>
+                <Dialogue>~g~Con tin~s~: Cảm ơn rất nhiều, gã đó hoàn toàn điên rồi! Tôi không thể tin được!</Dialogue>
+                <Dialogue>~y~Bạn~s~: Bình tĩnh nào. Kẻ bắt cóc không còn là vấn đề với anh nữa.</Dialogue>
+                <Dialogue>~y~Bạn~s~: Anh ổn chứ? Anh có cần hỗ trợ y tế hoặc tâm lý không?</Dialogue>
+                <Dialogue>~g~Con tin~s~: Tôi ổn, tôi chỉ muốn về nhà.</Dialogue>
+                <Dialogue>~y~Bạn~s~: Tình hình bắt cóc xảy ra như thế nào?</Dialogue>
+        <ExGirlfriend>
+            <Dialogue>~g~Con tin~s~: Bạn trai cũ của tôi phát điên, tôi đã chia tay anh ấy hai tuần trước.</Dialogue>
+            <Dialogue><![CDATA[~g~Con tin~s~: Anh ấy không thể chịu đựng được và theo tôi đến đây.]]></Dialogue>
+        </ExGirlfriend>
+                <Dialogue>~g~Con tin~s~: Tôi chỉ muốn đi mua sắm, rồi gã đó đến và chĩa súng vào đầu tôi!</Dialogue>
+                <Dialogue>~g~Con tin~s~: Hắn ta quyết tâm thực hiện yêu cầu của mình bằng mọi cách...</Dialogue>
+                <Dialogue><![CDATA[~y~Bạn~s~: Được rồi, nếu Bạn không có mối lo ngại nào khác, hãy về nhà an toàn và giữ gìn sức khỏe nhé!]]></Dialogue>
+                <Dialogue>~g~Con tin~s~: Cảm ơn bạn lần nữa, tạm biệt!</Dialogue>
+    </HostageTalk>
+
+    <End>
+        <Text>~g~Code 4.</Text>
+    </End>
+
+</HostageSituation>

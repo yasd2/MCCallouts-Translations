@@ -1,0 +1,35 @@
+<PrisonerFlight>
+
+    <General>
+        <Text>Chuyến bay vận chuyển tù nhân</Text>
+		<Text>Cần phi công cảnh sát để vận chuyển tù nhân</Text>
+		<Text>Lái xe đến ~g~sân bay~s~, máy bay đang chờ!</Text>
+    </General>
+
+    <Agent>
+        <Dialogue>Nói chuyện với ~b~Đặc vụ~s~ bằng</Dialogue>
+		<Dialogue>~y~Bạn~s~: Xin chào, tôi là phi công của sở cảnh sát, chúng ta có gì ở đây?</Dialogue>
+		<Dialogue>~b~Đặc vụ~s~: Chào, chúng tôi có một tù nhân nguy hiểm ở đây và sẽ được chuyển đến Bắc Yankton.</Dialogue>
+		<Dialogue>~b~Đặc vụ~s~: Chúng tôi có một máy bay phản lực riêng ở đây, tù nhân đã ở trong đó rồi.</Dialogue>
+		<Dialogue>~b~Đặc vụ~s~: Vui lòng bay đến đích, sẽ có trên hệ thống dẫn đường của bạn, bạn không thể bỏ lỡ.</Dialogue>
+		<Dialogue>~b~Đặc vụ~s~: Cảnh sát sẽ ở đó chờ bạn. Chúc bạn có chuyến bay tốt lành!</Dialogue>
+		<Dialogue><![CDATA[Lên máy bay và bay đến ~o~điểm đến~s~.]]></Dialogue>
+		<Dialogue>Không có thêm cuộc đối thoại nào nữa.</Dialogue>
+    </Agent>
+
+    <Officer>
+        <Dialogue>Bay đến điểm đánh dấu ~o~điểm đến~s~ trên bản đồ nhỏ của bạn.</Dialogue>
+		<Dialogue>Nói chuyện với ~b~Sĩ quan~s~ với</Dialogue>
+		<Dialogue><![CDATA[~b~Sĩ quan~s~: Xin chào & chào mừng đến với North Yankton!]]></Dialogue>
+		<Dialogue><![CDATA[~b~Sĩ quan~s~: Có thể hơi lạnh ở đây & đường phố trơn trượt...]]></Dialogue>
+		<Dialogue>~b~Sĩ quan~s~: Nghi phạm đã ngồi trong xe.</Dialogue>
+		<Dialogue>~b~Sĩ quan~s~: Vui lòng lái xe đến ~g~nhà tù~s~ được đánh dấu trên GPS của bạn bằng xe tuần tra cảnh sát của chúng tôi.</Dialogue>
+		<Dialogue><![CDATA[Lên xe & lái đến ~g~nhà tù~s~.]]></Dialogue>
+		<Dialogue>Không đi xa hơn dialog.</Dialogue>
+		<Dialogue>Lái xe đến ~g~nhà tù~s~ được đánh dấu trên gps của bạn.</Dialogue>
+		<Dialogue>Đã hoàn tất cuộc gọi</Dialogue>
+		<Dialogue>Làm tốt lắm!</Dialogue>
+		<Dialogue>Code 4.</Dialogue>		
+    </Officer>
+
+</PrisonerFlight>

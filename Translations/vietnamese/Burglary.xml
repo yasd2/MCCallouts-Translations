@@ -1,0 +1,31 @@
+<Burglary>
+
+    <General>
+        <CalloutMessage>Công dân báo cáo về vụ trộm cắp</CalloutMessage>
+        <Text>Lái xe đến hiện trường vụ trộm cắp, hãy cẩn thận.</Text>
+        <Text>Tìm kiếm bằng chứng, nhấn {0} để nhặt.</Text>
+        <Text>Kiểm tra khu vực xung quanh nhà.</Text>
+    </General>
+
+    <FalseAlarm>
+        <Dialogue>Gửi đi, không có gì xảy ra ở đây.</Dialogue>
+        <Dialogue>Sao chép thông tin đó, quay lại tuần tra.</Dialogue>
+    </FalseAlarm>
+
+    <AnimalOnScene>
+        <Dialogue>Gửi đi, báo động giả, chỉ là một con vật gây hỗn loạn.</Dialogue>
+        <Dialogue>Sao chép thông tin đó, quay lại tuần tra.</Dialogue>
+    </AnimalOnScene>
+
+    <BurglarLeft>
+        <Dialogue>Gửi đi, chúng tôi có dấu hiệu của một kẻ đột nhập ở đây, đang lục soát hiện trường.</Dialogue>
+        <Dialogue>Hmmm, điều đó không giúp ích gì.</Dialogue>
+        <Dialogue>Gửi đi, tôi tìm thấy một tài liệu của {DriversName}.</Dialogue>
+        <Dialogue>Tôi đã nhận được một cú đánh ALPR vào một chiếc xe đang chạy quá tốc độ, chủ sở hữu là {DriversName}.</Dialogue>
+    </BurglarLeft>
+
+    <BurglarIsLeaving>
+        <Dialogue>Gửi đi, một chiếc xe ~r~đang chạy chốn~, hai người ngồi trong xe!</Dialogue>
+    </BurglarIsLeaving>
+
+</Burglary>

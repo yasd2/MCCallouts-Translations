@@ -1,0 +1,25 @@
+<WantedSuspectLocated>
+
+    <General>
+        <Text>Vị trí có thể có của nghi phạm bị truy nã</Text>
+		<Text>Kiểm tra 2 vị trí có thể có</Text>
+		<Text>Nghi phạm đang bị giam giữ, ~g~Code 4~w~</Text>		
+    </General>
+
+    <Scenes>
+        <Text>Tìm kiếm khu vực đầu tiên cho ~r~Nghi phạm~w~.</Text>
+		<Text>Tìm kiếm ~r~Nghi phạm~w~ trong ~g~khu vực~w~.</Text>
+		<Text>Không tìm thấy nghi phạm, di chuyển đến vị trí ~g~thứ hai~w~.</Text>
+		<Text>Bây giờ hãy tìm kiếm ~r~Nghi phạm~w~ trong ~g~khu vực~w~ thứ hai. Anh ấy ~r~phải~ở~đó!</Text>
+		<Text>~r~Mô tả~nghi phạm~:{0}~y~Nam~châu Á~, gầy,{0}tóc đen, 30{0}mặc áo phông ~b~xanh~s~</Text>
+		<Text>~r~Mô tả nghi phạm:{0}~y~Nữ~da đen~, gầy,{0}tóc đen, 30,{0}mặc áo sơ mi ~r~đỏ</Text> <!--{0} là một tuyến mới-->
+		<Text>~r~Nghi phạm là ~y~nam~châu Á~,{0}ở độ tuổi giữa 30, gầy, tóc đen{0}và mặc áo phông ~b~xanh.</Text>		
+    </Scenes>
+    
+    <Outcomes>
+        <Dialogue>~r~Nghi phạm~w~: Ôi trời, cảnh sát! Đừng bắn! Tôi đầu hàng!</Dialogue>
+		<Dialogue>~r~Nghi phạm~w~: Ôi chết tiệt, cảnh sát! Đ*t mẹ mày, tao sẽ ~o~đá~w~ cái ~o~đầu~của mày~w~, lũ lợn ngu ngốc!</Dialogue>
+		<Dialogue>~y~Bạn~w~: Gửi đi, Nghi phạm bị phát hiện, sắp bị ~o~truy đuổi~w~!</Dialogue>		
+    </Outcomes>
+
+</WantedSuspectLocated>

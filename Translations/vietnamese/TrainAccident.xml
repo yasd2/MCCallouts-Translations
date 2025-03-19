@@ -1,0 +1,140 @@
+<TrainAccident>
+
+    <CalloutMessage>Tai nạn tàu hỏa</CalloutMessage>
+   <CalloutAdvisory><![CDATA[Điều tra vụ việc và bắt giữ nghi phạm!]]></CalloutAdvisory>
+
+    <Mugshot>Ảnh chụp nghi phạm</Mugshot>
+
+     <DisplayHelp>
+        <Text>Lái xe đến nơi báo cáo vụ tai nạn tàu hỏa ~b~.</Text>
+		<Text><![CDATA[Nói chuyện với ~o~nạn~cư~ & tài xế tàu hỏa ~r~.]]></Text>
+		<Text>Nói chuyện với ~o~nạn~cư.</Text>
+		<Text>Bây giờ hãy nói chuyện với ~g~nhân chứng.</Text>
+		<Text>Tìm kiếm khu vực xung quanh tàu hỏa ~y~để tìm bằng chứng.</Text>
+		<Text>Chúng tôi đã nhận được thông tin về nơi ở của ~r~nghi phạm có thể xảy ra.</Text>
+		<Text>~g~Code 4,~s~ tiếp tục nhiệm vụ tuần tra.</Text>		
+    </DisplayHelp>
+
+    <Detective_NotDUI>
+        <Dialogue>~HC_43~Thám tử~s~: Xin chào cảnh sát, cảm ơn anh đã đến đây!</Dialogue>
+		<Dialogue>~HC_43~Thám tử~s~: Chúng ta hãy đi thẳng vào vấn đề: Chúng ta có một vụ tai nạn tàu hỏa với nhiều người bị thương.</Dialogue>
+		<Dialogue>~HC_43~Thám tử~s~: Có vẻ như tàu đã trật bánh và vỡ ra ở giữa.</Dialogue>
+		<Dialogue><![CDATA[~HC_43~Thám tử~s~: Trước tiên, tôi muốn anh nói chuyện với ~o~nạn~s~ và ~r~lái tàu~, sau đó tìm kiếm tại hiện trường để tìm ~y~bằng chứng~!]]></Dialogue>
+		<Dialogue>~HC_43~Thám tử~s~: Đằng kia có ~g~hai~nhân chứng~. Chúc may mắn!</Dialogue>		
+    </Detective_NotDUI>
+
+    <Detective_DUI2>
+        <Dialogue>~HC_43~Thám tử~: Đầu tiên, tôi muốn anh nói chuyện với ~nạn~nhân~, sau đó tìm kiếm tại hiện trường để tìm ~bằng~chứng~!</Dialogue>
+    </Detective_DUI2>
+
+    <Detective_DUI>
+        <Dialogue>~HC_43~Thám tử~s~: Xin chào cảnh sát, cảm ơn anh đã đến đây!</Dialogue>
+		<Dialogue>~HC_43~Thám tử~s~: Chúng ta hãy đi thẳng vào vấn đề: Chúng ta có một vụ tai nạn tàu hỏa với nhiều người bị thương.</Dialogue>
+		<Dialogue>~HC_43~Thám tử~s~: Có vẻ như tàu đã trật bánh và vỡ ra ở giữa.</Dialogue>
+		<Dialogue>~HC_43~Thám tử~s~: Trước tiên, tôi muốn anh nói chuyện với ~o~nạn~s~, sau đó tìm kiếm tại hiện trường để tìm ~y~bằng chứng~!</Dialogue>
+		<Dialogue>~HC_43~Thám tử~s~: Đằng kia có ~g~hai~nhân~chứng~. Chúc may mắn!</Dialogue>		
+    </Detective_DUI>
+
+    <Victim1_>
+        <Dialogue>~o~Nạn~nhân~: Tôi... Tôi đang ngủ, rồi đột nhiên... một tiếng nổ lớn! Mọi thứ rung chuyển, mọi người la hét... Tôi thấy những tia lửa bên ngoài cửa sổ.</Dialogue>
+    </Victim1_>
+
+    <Victim2_NotDUI>
+        <Dialogue>~o~Nạn nhân~: Cảnh sát, sao chuyện này lại xảy ra được? Nhìn tất cả những người bị thương kìa. Và rất nhiều người ứng cứu khẩn cấp!</Dialogue>
+		<Dialogue>~o~Nạn nhân~: Làm ơn hãy đi đến tận cùng của vấn đề này, chúng tôi cần câu trả lời.</Dialogue>
+    </Victim2_NotDUI>
+
+    <Victim2_DUI>
+        <Dialogue>~o~Nạn nhân~s~: Tôi vẫn còn đau đầu vì cú va chạm mạnh.</Dialogue>
+		<Dialogue>~o~Nạn nhân~s~: Tôi không hiểu tại sao tàu lại chạy nhanh như vậy.</Dialogue>
+		<Dialogue>~o~Nạn nhân~s~: Chẳng trách tai nạn lại xảy ra với tốc độ đó!</Dialogue>
+		<Dialogue>~o~Nạn nhân~s~: Tôi cần phải đến bệnh viện ngay, tôi hy vọng tài xế phải chịu trách nhiệm!</Dialogue>
+    </Victim2_DUI>
+
+    <Driver_NotDUI>
+        <Dialogue>~HC_8~Driver~s~: Tôi không được cảnh báo. Đột nhiên, đoàn tàu nhảy khỏi đường ray! Tôi không thể phanh kịp.</Dialogue>
+    </Driver_NotDUI>
+
+    <Driver_DUI>
+        <Dialogue>~y~Bạn~s~: Cảnh sát, dừng lại ngay đó, giơ tay ra chỗ tôi có thể nhìn thấy!</Dialogue>
+		<Dialogue>~HC_8~Driver~s~: Có chuyện gì vậy? *hic* Tôi không biết anhuuuu.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Anh có phải là tài xế của chuyến tàu ở {StreetName} hôm nay không?</Dialogue>
+		<Dialogue>~HC_8~Driver~s~: Ờ, không. Tôi *hic* thậm chí còn không biết đi xe đạp...</Dialogue>
+		<Dialogue>~y~Bạn~s~: Tôi cần CCCD của anh.</Dialogue>		
+    </Driver_DUI>
+
+    <Witness1_Dismantled>
+        <Dialogue>~g~Nhân chứng~s~: Tôi là người đứng đầu xưởng tàu hỏa. Hôm qua chúng tôi đã bị đột nhập, nhưng có vẻ như không có gì bị đánh cắp.</Dialogue>
+		<Dialogue>~g~Nhân chứng~s~: Hai nghi phạm hôm qua, {Suspect1.GetGender()} và {Suspect2.GetGender()}, đã lái một chiếc {SuspectVehicle.Model.Name}.</Dialogue>
+		<Dialogue>~g~Nhân chứng~s~: Ngoài ra, tuần trước chúng tôi đã sa thải một nhân viên tên là {Suspect2.GetFullName()}.</Dialogue>
+		<Dialogue>~g~Nhân chứng~s~: Tôi nghi ngờ điều này có thể liên quan đến vụ tai nạn...</Dialogue>		
+    </Witness1_Dismantled>
+
+    <Witness1_ObjectOnTracks>
+        <Dialogue>~g~Nhân chứng~s~: Xin chào, tôi đang đi dạo thì thấy hai người này trên đường ray.</Dialogue>
+		<Dialogue>~g~Nhân chứng~s~: Tôi không chắc họ đang sửa chữa thứ gì đó hay đang gây rắc rối.</Dialogue>
+		<Dialogue>~g~Nhân chứng~s~: Hai nghi phạm là {Suspect1.GetGender()} và {Suspect2.GetGender()}.</Dialogue>		
+    </Witness1_ObjectOnTracks>
+
+    <Witness1_DUI>
+        <Dialogue>~g~Nhân chứng~s~: Xin chào, tôi đang đi bộ cách đây hai dãy nhà thì nhận thấy một điều.</Dialogue>
+		<Dialogue>~g~Nhân chứng~s~: Tôi không quen với tín hiệu tàu hỏa, nhưng đèn chắc chắn là màu đỏ.</Dialogue>
+		<Dialogue>~g~Nhân chứng~s~: Tôi chỉ nghĩ là tôi nên báo cáo thôi.</Dialogue>		
+    </Witness1_DUI>
+
+    <Witness2_NotDUI_WithVehicle>
+        <Dialogue>~g~Nhân chứng~s~: Tôi thấy hai gã chạy trốn ngay sau vụ tai nạn! Về phía đường phố!</Dialogue>
+		<Dialogue>~g~Nhân chứng~s~: Chiếc xe là một chiếc ~h~{SuspectVehicle.Model.Name}~h~, biển số ~h~{SuspectVehicle.LicensePlate}~h~.</Dialogue>
+		<Dialogue>~g~Nhân chứng~s~: Đây, tôi đã bắt được một chiếc bằng camera!</Dialogue>		
+    </Witness2_NotDUI_WithVehicle>
+
+    <Witness2_NotDUI_OnFoot>
+        <Dialogue>~g~Nhân chứng~s~: Tôi thấy hai gã chạy trốn ngay sau vụ tai nạn! Về phía đường phố!</Dialogue>
+		<Dialogue>~g~Nhân chứng~s~: Một gã là {Suspect1.GetGender()}, gã kia là {Suspect2.GetGender()}.</Dialogue>
+		<Dialogue>~g~Nhân chứng~s~: Đây, tôi đã bắt được một gã bằng camera!</Dialogue>		
+    </Witness2_NotDUI_OnFoot>
+
+    <Witness2_DUI_WithVehicle>
+        <Dialogue>~g~Nhân chứng~s~: Tôi thấy ai đó loạng choạng rời khỏi hiện trường vụ tai nạn.</Dialogue>
+		<Dialogue>~g~Nhân chứng~s~: Họ chạy đến một ~h~{SuspectVehicle.Model.Name}~h~.</Dialogue>
+		<Dialogue>~g~Nhân chứng~s~: Biển số xe là ~h~{SuspectVehicle.LicensePlate}~h~.</Dialogue>		
+    </Witness2_DUI_WithVehicle>
+
+    <Witness2_DUI_OnFoot>
+        <Dialogue>~g~Nhân chứng~s~: Tôi thấy ai đó loạng choạng rời khỏi hiện trường vụ tai nạn.</Dialogue>
+		<Dialogue>~g~Nhân chứng~s~: Họ bỏ chạy, nếu bạn có thể gọi đó là chạy.</Dialogue>
+		<Dialogue>~g~Nhân chứng~s~: Tôi hy vọng bạn tìm thấy họ!</Dialogue>		
+    </Witness2_DUI_OnFoot>
+
+    <Suspect1_>
+        <Dialogue>~y~Bạn~s~: Dừng lại, cảnh sát! Giơ tay lên nào tôi có thể nhìn thấy!</Dialogue>
+		<Dialogue>~r~Nghi phạm~s~: Nghe này, các người bắt nhầm người rồi.</Dialogue>
+		<Dialogue>~r~Nghi phạm~s~: Chúng tôi không liên quan gì đến vụ tai nạn tàu hỏa.</Dialogue>
+		<Dialogue>~y~Bạn~s~: Làm sao anh biết về vụ tai nạn tàu hỏa?</Dialogue>
+		<Dialogue>~r~Nghi phạm~s~: Ờ...</Dialogue>		
+    </Suspect1_>
+
+    <Evidence>
+        <Dismantled>
+            <Dialogue>Một ống dẫn dầu bị lỏng, cho thấy có người đã can thiệp vào.</Dialogue>
+			<Dialogue>Phanh này bị mất.</Dialogue>
+			<Dialogue>Có người đã ngắt kết nối các dây cáp trong hệ thống điện.</Dialogue>
+			<Dialogue>Hmm... một chiếc bánh mì kẹp thịt, giờ tôi đói rồi.</Dialogue>
+        </Dismantled>
+
+        <ObjectOnTracks>
+            <Dialogue>Một tảng đá lớn gần đường ray không tốt...</Dialogue>
+			<Dialogue>Bánh xe của tàu bị hỏng, chúng hẳn đã đâm vào thứ gì đó...</Dialogue>
+			<Dialogue>Đường ray bị lỏng và có một cái xà beng ở đây... hmm...</Dialogue>
+			<Dialogue>Tại sao lại có đá ở đây?</Dialogue>
+        </ObjectOnTracks>
+
+        <DUI>
+            <Dialogue>Đồng hồ đo tốc độ bị kẹt ở mức 100 km/h... quá nhanh.</Dialogue>
+			<Dialogue>Phanh trông như mới, không hề có phanh khẩn cấp nào được thực hiện.</Dialogue>
+			<Dialogue>Một chiếc pizza, hmm, ngon tuyệt...</Dialogue>
+			<Dialogue>Danh sách tài xế tàu hỏa có ảnh, hôm nay là ~h~{Driver.GetFullName()}~h~...</Dialogue>			
+        </DUI>
+    </Evidence>
+
+</TrainAccident>

@@ -42,15 +42,15 @@
             <Text>Nyní pockejte na ~r~uskutecnení predání.</Text>
         </IsAtÜbergabeort>
     </EState>
-
-    <Scenarios>
-        <Text>Jakmile je ~g~předání~s~ dokončeno, jděte dovnitř a zatkněte ~r~podezřelé!</Text>
-        <Text>Máme ~r~vystřelené rány!</Text>
-        <Text>~r~Podezřelí~s~ odcházejí, zajistěte ~g~pouzdro!</Text>
-        <Text>~r~Podezřelí~s~ prchají, pronásledujeme je!</Text>
-        <Text>~r~Podezřelí~s~ se vzdávají!</Text>
-        <Text>Můžete sebrat ~g~pouzdro~s~ pomocí {0}.</Text>
-        <Text>~g~Pouzdro~s~ zajištěno!</Text>
+	
+	<Scenarios>
+        <Text>Jakmile je ~g~predání hotové~s~, jdete dovnitr a zatknete ~r~podezrelé!</Text>
+        <Text>Máme tu ~r~strelbu!</Text>
+        <Text>~r~Podezrelí~s~ odcházejí, zajistete ~g~dukazy!</Text>
+        <Text>Podezrelí ~r~prchají~s~, my je pronásledujeme!</Text>
+        <Text>Podezrelí se vzdávají!</Text>
+        <Text>Pomocí {0} muzete vyzvednout ~g~dukaz~s~.</Text>
+        <Text>~g~Dukaz~s~ zajisten!</Text>
     </Scenarios>
 
 </DrugHandover>

@@ -1,0 +1,45 @@
+<SearchWarrant>
+
+    <General>
+        <Text>Lệnh khám xét đã được ban hành</Text>
+		<Text>Khám xét ngôi nhà để tìm ma túy, vũ khí, tiền, xương và người</Text>
+		<Text>Tìm kiếm {ChosenEvidenceTranslation} trong tòa nhà!</Text>
+		<Text>Chúng tôi đã nhận được ~r~thông tin~ về nơi bằng chứng ~r~ được tìm thấy~r~.</Text>
+		<Text>Chúng tôi đã nhận được thông tin rằng nghi phạm hiện đang làm việc. Tên của anh ta là {SuspectName}.</Text>
+		<Text>Đã tìm thấy bằng chứng:</Text>
+    </General>
+
+    <Persons>
+        <Text>Người làm vườn</Text>
+		<Text>Bạn</Text>
+    </Persons>
+
+    <EvidTranslation>
+        <Text>Đồ trang sức</Text>
+		<Text>Vàng</Text>
+		<Text>Tiền</Text>
+		<Text>Vũ khí</Text>
+		<Text>Ma túy</Text>
+    </EvidTranslation>
+
+    <D_Gardener>
+        <Dialogue>Xin chào ngài, chúng tôi có lệnh khám xét bất động sản này và toàn bộ ngôi nhà.</Dialogue>
+		<Dialogue>Ồ xin chào, tôi chỉ là người làm vườn ở đây, hiện tại không có ai ở nhà, nhưng cửa vẫn mở.</Dialogue>
+    </D_Gardener>
+
+    <EvidenceChecker>
+        <Text>Đã tìm thấy bằng chứng!</Text>
+		<Text>~g~Đã tìm thấy tất cả bằng chứng! Làm tốt lắm!~s~</Text>
+    </EvidenceChecker>
+
+    <SuspectAction>
+        <Dialogue>Nghi phạm đang chạy trốn bằng chân, Dispatch!</Dialogue>
+		<Dialogue>Ôi trời, anh bắt được tôi rồi...</Dialogue>
+		<Dialogue>~r~Nghi phạm:~s~ Mẹ kiếp bọn cảnh sát, tôi sẽ bắn chết chúng!</Dialogue>
+    </SuspectAction>
+
+    <End>
+        <Text>Cuộc gọi là Code 4.</Text>
+    </End>
+
+</SearchWarrant>

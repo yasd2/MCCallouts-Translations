@@ -1,0 +1,62 @@
+<BurningDumpster>
+
+    <General>
+        <Text>~r~B~ Báo cáo có thùng rác đang cháy~b~</Text>
+        <Text>Đơn vị có bình chữa cháy phản hồi Code 2</Text>
+        <Text>Lái xe đến địa điểm và dập tắt ~r~lửa~ hoặc gọi cho sở cứu hỏa!</Text>
+    </General>
+
+    <Persons>
+        <Text>Người gọi</Text>
+        <Text>Bạn</Text>
+    </Persons>
+
+    <Extingiush>
+        <Text>Để lấy ~r~bình chữa cháy~s~, hãy đến cốp xe và nhấn</Text>
+        <Text>~r~bình chữa cháy~s~ đã được trang bị!</Text>
+        <Text>Bây giờ hãy tìm kiếm ~y~bằng chứng~s~ bằng cách nhấn {Key} khi ở trong ~y~các điểm đánh dấu~s~.</Text>
+    </Extingiush>
+
+    <Tasks>
+        <Text>Nói chuyện với ~b~người gọi~s~ 911 bằng</Text>
+        <Text>Nhấn {MusicMenuKey} bất kỳ lúc nào để xem hình ảnh một lần nữa!</Text>
+        <Text>Gửi đi, nghi phạm đang ~r~chạy trốn!</Text>
+    </Tasks>
+
+    <Caller>
+        <Dialogue>Xin chào, anh có phải là người gọi đến thùng rác đang cháy không?</Dialogue>
+        <Dialogue>Vâng, là tôi. Tôi muốn báo cáo một người đáng ngờ mà tôi nhìn thấy.</Dialogue>
+        <Dialogue>Tôi đang đi ngang qua thùng rác thì thấy một người đang đi ra xa.</Dialogue>
+        <Dialogue>Ngay sau đó, ngọn lửa bắt đầu bùng cháy!</Dialogue>
+        <Dialogue>Nghe có vẻ đáng ngờ, anh có thông tin chi tiết về nghi phạm không?</Dialogue>
+        <Dialogue>Chắc chắn rồi, đó là {giới tính} và khoảng {tuổi}.</Dialogue>
+        <Dialogue>Tôi đã chụp được ảnh, đây rồi!</Dialogue>
+        <Dialogue>Cảm ơn, chúng tôi đang tìm nghi phạm. Tạm biệt!</Dialogue>
+    </Caller>
+
+    <Genders>
+        <Text>nữ</Text>
+        <Text>nam</Text>
+        <Text>phi nhị giới</Text>
+    </Genders>
+
+    <Evidence>
+        <Dialogue>Một quả bom xăng, đây không phải là tai nạn... có người muốn đốt lửa.</Dialogue>
+        <Dialogue>Một can xăng, trông giống như có người đang chuẩn bị đốt thứ gì đó.</Dialogue>
+        <Dialogue>Một chiếc bongs? Lạ nhỉ... có lẽ ai đó đã quá phê nên không nhận ra ngọn lửa mà họ đã đốt.</Dialogue>
+        <Dialogue>Một quả lựu đạn. Đây không phải là một đám cháy đơn giản, chúng ta đang đối phó với thứ gì đó nguy hiểm hơn nhiều.</Dialogue>
+        <Dialogue>Một quả lựu đạn khói. Có thể đã được sử dụng để che giấu dấu vết trước khi đốt lửa.</Dialogue>
+        <Dialogue>Một chiếc chai vỡ. Có vẻ như nó được chế tạo ngẫu hứng, nhưng nó có thể đã được sử dụng để đốt lửa.</Dialogue>
+        <Dialogue>Một bình gas. Nếu thứ này phát nổ, toàn bộ khu vực có thể đã bốc cháy.</Dialogue>
+        <Dialogue>Một thùng dầu. Nó bị rò rỉ... và rất dễ cháy. Có vẻ như có người muốn đốt lửa.</Dialogue>
+        <Dialogue>Một can xăng. Có mùi như xăng... có người thực sự muốn đốt cháy nơi này.</Dialogue>
+        <Dialogue>Một chiếc tất? Chà, có vẻ không đáng kể, nhưng mùi của nó đủ tệ để trở thành mối nguy hiểm hỏa hoạn.</Dialogue>
+        <Dialogue>Điển hình. Có người đã vứt một điếu thuốc đang cháy vào thùng rác, sau đó nó bắt đầu bốc cháy.</Dialogue>
+        <Dialogue>Một chiếc tất? Chà, có vẻ không đáng kể, nhưng mùi của nó đủ tệ để trở thành mối nguy hiểm hỏa hoạn.</Dialogue>
+    </Evidence>
+
+    <End>
+        <Text>~g~Tình hình là Code 4.</Text>
+    </End>
+    
+</BurningDumpster>

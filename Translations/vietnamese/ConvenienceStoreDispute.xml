@@ -1,0 +1,98 @@
+<ConvenienceStoreDispute>
+
+    <General>
+        <Text>Tranh chấp tại cửa hàng tiện lợi</Text>
+        <Text>Giải quyết sự khác biệt</Text>
+    </General>
+
+    <Persons>
+        <Text>~y~Bạn:~s~ </Text>
+        <Text>~HC_7~Lady:~s~ </Text>
+        <Text>~b~Clerk:~s~ </Text>
+    </Persons>
+
+    <D_Argue>
+        <Dialogue>Sĩ quan! Nhân viên không muốn lấy phiếu giảm giá của tôi!</Dialogue>
+        <Dialogue>Thưa bà, tôi đã nói rồi, phiếu giảm giá này không hợp lệ. Tôi không thể chấp nhận nó.</Dialogue>
+        <Dialogue>Thật nực cười, nó hợp lệ! Tôi có quyền mà! Bạn không thể từ chối nhận nó!</Dialogue>
+        <Dialogue>Sĩ quan, xin hãy xem xét và làm rõ nhé?</Dialogue>
+        <Dialogue>Được thôi, để tôi xem...</Dialogue>
+        <Dialogue>* Nhìn vào phiếu giảm giá... *</Dialogue>
+    </D_Argue>
+
+    <D_Expired>
+        <Dialogue>* Phiếu giảm giá 30 đô la tại chợ 24/7, hết hạn vào ngày 06/01/2024 *</Dialogue>
+        <Dialogue>Phiếu giảm giá chắc chắn đã hết hạn.</Dialogue>
+    </D_Expired>
+
+    <D_Manipulated>
+        <Dialogue>* Bạn có thể thấy phiếu giảm giá 30 đô la của chợ 24/7 đã bị thao túng thành 60 đô la *</Dialogue>
+        <Dialogue>Phiếu giảm giá này đã bị thao túng. Nhìn này, các con số đã bị thay đổi.</Dialogue>
+    </D_Manipulated>
+
+    <D_RefuseLeave>
+        <Dialogue>Điều này không thể là sự thật! Anh đang nói dối!</Dialogue>
+        <Dialogue>Anh cảnh sát, anh phân biệt chủng tộc đấy! Tôi sẽ không đi trước khi nhận được quyền của mình!</Dialogue>
+    </D_RefuseLeave>
+
+    <D_Run>
+        <Dialogue>Mọi người đều chống lại tôi! Quên đi, tôi sẽ không trả tiền này!</Dialogue>
+    </D_Run>
+
+    <D_Fight>
+        <Dialogue>Tôi đã chịu đủ những lời nhảm nhí của anh rồi!</Dialogue>
+        <Dialogue>Và anh cảnh sát, là một phần của vấn đề!!! Aaaaaargh!</Dialogue>
+    </D_Fight>
+
+    <D_Taser>
+        <Dialogue>Sao anh dám đe dọa tôi!</Dialogue>
+        <Dialogue>TẤN CÔNG! Bạn đã tấn công tôi!</Dialogue>
+        <Dialogue>Đây là tự vệ!</Dialogue>
+    </D_Taser>
+
+    <D_Eco_Argue>
+        <Dialogue>Điều này thật vô lý! Hãy nhìn vào bao bì này! Nhựa ở khắp mọi nơi! Bạn đang cố giết chết hành tinh này sao?</Dialogue>
+        <Dialogue>Thưa bà, tôi hiểu mối quan tâm của bà, nhưng chúng tôi không sản xuất các sản phẩm. Chúng tôi chỉ bán chúng.</Dialogue>
+        <Dialogue>Chỉ bán chúng thôi sao? Vậy là bà đồng lõa! Về cơ bản, bán các sản phẩm không thân thiện với môi trường là bất hợp pháp!</Dialogue>
+        <Dialogue>Thưa bà, điều đó không đúng. Không có luật nào cấm bao bì này—</Dialogue>
+        <Dialogue>Đừng nói dối tôi! Tôi sẽ đóng cửa cửa hàng này vì tham gia vào các hoạt động bất hợp pháp! Bà là một phần của vấn đề! Bà là—bà là một kẻ giết người!</Dialogue>
+        <Dialogue>Xin lỗi? Được rồi, cảnh sát, hãy đưa cô ta ra khỏi cửa hàng và thưa bà, từ giờ bà sẽ bị cấm vào cửa hàng này.</Dialogue>
+    </D_Eco_Argue>
+
+    <D_Eco_RefuseLeave>
+        <Dialogue>Tôi sẽ không rời khỏi cửa hàng này cho đến khi tên tội phạm này bị bắt!</Dialogue>
+        <Dialogue>Thưa bà, tôi hiểu bà đang tức giận, nhưng đây không phải là vấn đề hình sự. Bà cần phải rời khỏi cửa hàng, nếu không tôi sẽ phải tự mình đưa bà đi.</Dialogue>
+        <Dialogue>Tôi từ chối! Nếu bà không bắt tên sát nhân này, thì BẠN cũng là đồng lõa! Tôi sẽ ở đây cả ngày nếu tôi phải làm vậy!</Dialogue>
+    </D_Eco_RefuseLeave>
+
+    <D_Eco_FleeWPackage>
+        <Dialogue>Bà biết không? Nếu bà không sửa, tôi sẽ tự sửa! Chuyện này sẽ kết thúc ngay bây giờ!</Dialogue>
+        <Dialogue>Tôi đang cứu hành tinh này! Thứ này cần phải được xử lý đúng cách, không phải trên những chiếc kệ bẩn thỉu của các người!</Dialogue>
+        <Dialogue>Thưa bà, đó là trộm cắp. Đặt món đồ xuống và tránh xa ra.</Dialogue>
+        <Dialogue>Nếu tôi cứu nhân loại thì đó không phải là trộm cắp! Bắt HỌ vì đã chất đống thứ rác rưởi này!</Dialogue>
+        <Dialogue>Thưa bà, đây là cảnh cáo cuối cùng của bà. Bỏ món đồ xuống và hợp tác, nếu không bà sẽ bị bắt.</Dialogue>
+    </D_Eco_FleeWPackage>
+
+    <D_Eco_Argumentative>
+        <Dialogue>Cảnh sát ơi! Ông cần phải bắt giữ người đàn ông này ngay lập tức! Hắn là kẻ giết người! Bán tất cả số nhựa này — hắn thực tế đang bóp nghẹt Trái Đất!</Dialogue>
+        <Dialogue>Thưa bà, đây không phải là vấn đề hình sự. Bây giờ, nếu bà—</Dialogue>
+        <Dialogue>Đừng bắt đầu với tôi! Giám sát viên của bà đâu? Tôi muốn biết tên của họ. Còn BẠN— *chỉ vào viên cảnh sát* —Tôi muốn biết tên và số hiệu của cô! NGAY BÂY GIỜ!</Dialogue>
+        <Dialogue>Thưa bà, chúng tôi sẽ không làm thế. Hoặc là rời khỏi cửa hàng, hoặc tôi sẽ phải hộ tống cô ra ngoài.</Dialogue>
+        <Dialogue>Ồ, tôi rất muốn thấy cô thử! Tôi sẽ báo cáo TẤT CẢ các người! Công ty, thị trưởng, phương tiện truyền thông—mọi người sẽ nghe về chuyện này!</Dialogue>
+    </D_Eco_Argumentative>
+
+    <D_Eco_Taser>
+        <Dialogue>Ồ, vậy là giờ cô đe dọa tôi à? Tôi cảm thấy bất an quá! Đây là hành hung!</Dialogue>
+        <Dialogue>Thưa bà, không ai đe dọa bà đâu. Xin hãy bình tĩnh—</Dialogue>
+        <Dialogue>HÀNH HÀNH! CÔ ĐÃ HÀNH HÀNH TÔI! Mọi người đều thấy!</Dialogue>
+        <Dialogue>Thưa bà, không ai chạm vào bà cả. Chúng ta hãy—</Dialogue>
+        <Dialogue>Đừng nói chuyện với tôi, đồ giết người!</Dialogue>
+    </D_Eco_Taser>
+
+
+
+    <End>
+        <Text>Cuộc gọi đang ở Code 4.</Text>
+    </End>
+
+</ConvenienceStoreDispute>

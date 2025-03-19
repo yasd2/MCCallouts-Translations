@@ -5,39 +5,39 @@
     </CamText>
 
     <D_Victim>
-        <Dialogue>Hello Officer! I have just been robbed!</Dialogue>
-        <Dialogue>I had just finished withdrawing money from the ATM, and then a person came and took my wallet!</Dialogue>
-        <Dialogue>We fought, and he hit me in the head!</Dialogue>
-        <Dialogue>Unfortunately, I can't remember what the person looked like...</Dialogue>
-        <Dialogue>No problem, I see we have a surveillance camera there. I will see what I can do.</Dialogue>
-        <Dialogue>Dispatch, can you give me access to the CCTV at my current location?</Dialogue>
+        <Dialogue>Witaj oficerze! Okradziono mnie!</Dialogue>
+        <Dialogue>Właśnie skończyłem wypłacać pieniądze z bankomatu, wtedy nagle ta osoba przyszła i zabrała mój portfel!</Dialogue>
+        <Dialogue>Próbowałem się przeciwstawić, uderzył mnie w głowę!</Dialogue>
+        <Dialogue>Niestety, Nie pamiętam, jak ta osoba wyglądała...</Dialogue>
+        <Dialogue>Nie szkodzi, widzę, że mamy tam monitoring. Zobaczę, co udało się tam uchwycić.</Dialogue>
+        <Dialogue>Centrala, możesz dać mi dostęp do monitoringu w mojej obecnej lokalizacji?</Dialogue>
     </D_Victim>
 
     <D_Suspect>
-        <Dialogue>What's your problem? Why are you following me?</Dialogue>
-        <Dialogue>You match the description of a recent robbery that has taken place.</Dialogue>
-        <Dialogue>Do I look like a criminal? That's ridiculous.</Dialogue>
-        <Dialogue>You have the wrong person, I didn't do anything!</Dialogue>
+        <Dialogue>Jakiś problem? Po co mnie śledzisz?</Dialogue>
+        <Dialogue>Pasujesz do opisu osoby, która niedawno brała udział w napadzie.</Dialogue>
+        <Dialogue>Wyglądam na przestępce? To śmieszne.</Dialogue>
+        <Dialogue>Masz złą osobę, ja nic nie zrobiłem!</Dialogue>
     </D_Suspect>
 
     <Persons>
-        <Text>Victim</Text>
-        <Text>You</Text>
-        <Text>Suspect</Text>
+        <Text>Ofiara</Text>
+        <Text>Ty</Text>
+        <Text>Podejrzany</Text>
     </Persons>
 
     <General>
-        <CalloutMessage>ATM Robbery</CalloutMessage>
-        <CalloutAdvisory>A person has reported being robbed right after withdrawing money</CalloutAdvisory>
-        <Text>Press {0} to talk to the ~g~caller~s~.</Text>
-        <Text>Standby.</Text>
-        <Text>You should now have access to the camera.</Text>
-        <Text>Press {0} to view the camera feed!</Text>
-        <Text>We have reports of another robbery; the ~y~area is marked~s~ on your GPS.</Text>
-        <Text>Press {0} to talk to the ~r~suspect~s~.</Text>
-        <Text>The suspect doesn't seem to care.</Text>
-        <Text>Check on them.</Text>
-        <Text>Do a traffic stop.</Text>
+        <CalloutMessage>Kradzież z bankomatu</CalloutMessage>
+        <CalloutAdvisory>Osoba zgłosiła, że została okradziona zaraz po wypłaceniu pieniędzy</CalloutAdvisory>
+        <Text>Naciśnij {0}, aby porozmawiać z ~g~osobą zawiadamiającą~s~.</Text>
+        <Text>Oczekuj.</Text>
+        <Text>Powinieneś teraz mieć dostęp do kamery.</Text>
+        <Text>Naciśnij {0}, aby wyświetlić obraz z kamery!</Text>
+        <Text>Otrzymaliśmy zgłoszenie o kolejnym rabunku, ~y~miejsce zdarzenia jest zaznaczone~s~ na Twoim GPS.</Text>
+        <Text>Naciśnij {0}, aby porozmawiać z ~r~podejrzanym~s~.</Text>
+        <Text>Podejrzany widocznie się nie przejmuje.</Text>
+        <Text>Przeszukaj podejrzanego.</Text>
+        <Text>Zatrzymaj pojazd do kontroli.</Text>
     </General>
 
 </ATMRobbery>

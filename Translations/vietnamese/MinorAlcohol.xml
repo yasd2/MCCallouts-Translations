@@ -1,0 +1,75 @@
+<MinorAlcohol>
+
+    <General>
+        <Text>Báo cáo về việc uống rượu khi chưa đủ tuổi</Text>
+        <Text>Kết thúc cuộc gọi</Text>
+        <Text>Đi đến Địa điểm.</Text>
+        <Text>Không có cuộc đối thoại nào nữa.</Text>
+        <Text>Kiểm tra ID và thực hiện bài kiểm tra độ tỉnh táo tại hiện trường.</Text>
+        <Text>Nói chuyện với {0}</Text>
+        <Text>Lái xe đến ~q~Yacht~s~ và nói chuyện với ~q~Đội trưởng~s~.</Text>
+    </General>
+
+    <Music>
+        <Text>Nhấn {0} để ~b~điều chỉnh~s~ âm lượng của bản nhạc.</Text>
+		<Text>Nhấn {0} và {1} để ~b~điều chỉnh~s~ âm lượng của bản nhạc.</Text>
+		<Text>Cài đặt</Text>
+		<Text>Âm lượng</Text>
+		<Text><![CDATA[<- Hạ xuống; Tăng lên ->]]></Text>
+		<Text>Bắt đầu bản nhạc ngẫu nhiên</Text>
+		<Text>Bắt đầu một bản nhạc ngẫu nhiên từ thư mục nhạc</Text>
+    </Music>
+
+    <Characters>
+        <Text>~b~Bạn: ~s~</Text>
+		<Text>~y~Người bị nghi ngờ: ~s~</Text>
+		<Text>~q~Thuyền trưởng: ~s~</Text>
+		<Text>~r~Trợ lý Caty: ~s~</Text>
+		<Text>~r~Trợ lý Nicole: ~s~</Text>
+    </Characters>
+
+    <TalkToCaptain>
+        <Dialogue>Xin chào, cảm ơn vì đã đến!</Dialogue>
+		<Dialogue>Chúng tôi có một bữa tiệc lớn tối nay, DJ Moodyman nổi tiếng đang mix nhạc!</Dialogue>
+		<Dialogue>Thật không may, có vẻ như chúng tôi có một vài trẻ vị thành niên.</Dialogue>
+		<Dialogue>Vui lòng kiểm tra họ, chúng tôi không thể có họ ở đây.</Dialogue>
+		<Dialogue>Kiểm tra những người phù hợp có thể.</Dialogue>		
+    </TalkToCaptain>
+
+    <Caty>
+        <Dialogue>Xin chào, tôi hy vọng bạn có thể tìm thấy những thanh niên trên tàu, hãy kiểm tra phía sau tàu!</Dialogue>
+		<Dialogue>~g~DJ Moodyman~s~ đang chơi trên bục cao nhất, hãy đảm bảo không lên sân khấu để phá hỏng bữa tiệc c;</Dialogue>
+    </Caty>
+
+    <Nicole>
+        <Dialogue>Ồ chào anh, Sĩ quan..</Dialogue>
+        <Dialogue>Nếu anh cần bất cứ điều gì, cứ liên hệ với tôi, chúng tôi sẽ giúp đỡ bất cứ khi nào có thể!</Dialogue>
+    </Nicole>
+
+    <PedToCheck0>
+        <Dialogue>Xin chào, tôi là một sĩ quan của sở cảnh sát địa phương!</Dialogue>
+		<Dialogue>Chúng tôi có khiếu nại về việc trẻ vị thành niên ăn mừng và uống rượu.</Dialogue>
+		<Dialogue>Tôi cần xem CCCD của bạn, vui lòng cho tôi xem và tôi có thể sẽ thực hiện một số bài kiểm tra độ tỉnh táo tại hiện trường.</Dialogue>
+    </PedToCheck0>
+
+    <PedToCheck1>
+        <Dialogue>Xin chào, tôi là một sĩ quan của sở cảnh sát địa phương!</Dialogue>
+		<Dialogue>Chúng tôi nhận được cuộc gọi về tiệc tùng và uống rượu của trẻ vị thành niên.</Dialogue>
+		<Dialogue>Vui lòng cho tôi biết CCCD của bạn, ngoài ra chúng tôi có thể đo nồng độ cồn.</Dialogue>		
+    </PedToCheck1>
+
+    <PedToCheck2>
+        <Dialogue>Xin chào, tôi là cảnh sát.</Dialogue>
+		<Dialogue>Có người gọi cho chúng tôi về việc tiệc tùng và uống rượu khi chưa đủ tuổi.</Dialogue>
+		<Dialogue>Tôi cần xem CCCD của bạn và chúng ta có thể tiến hành kiểm tra độ tỉnh táo tại hiện trường.</Dialogue>		
+    </PedToCheck2>
+
+    <Transport>
+        <Text>Nhấn ~y~1~s~ khi bạn hoàn tất để ~y~dịch chuyển~s~ bạn và những nghi phạm đến ~b~xe vận chuyển cảnh sát~s~.</Text>
+		<Text>Đưa nghi phạm đến ~b~điểm đánh dấu màu xanh~s~ để bắt họ ngồi trên thuyền cảnh sát.</Text>
+		<Text>Đưa nghi phạm đến nhà tù, nhấn ~y~Kết thúc~s~ bất cứ lúc nào để kết thúc cuộc gọi.</Text>
+		<Text>Vui lòng ~b~thả~s~ nghi phạm ra và ~b~lùi lại~s~ một chút.</Text>
+		<Text>Hiện tại ~b~Nghi phạm~s~ đang chờ trên thuyền cảnh sát.</Text>
+    </Transport>
+
+</MinorAlcohol>

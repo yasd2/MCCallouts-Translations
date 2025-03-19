@@ -1,0 +1,36 @@
+<ZombiesReported>
+
+    <General>
+       <Text>Một thường dân báo cáo đã nhìn thấy thây ma</Text>
+		<Text>Lái xe đến chỗ thường dân có liên quan, ~r~Code 3~s~.</Text>
+    </General>
+
+        <Persons>
+        <Text>Bạn</Text>
+        <Text>Người dân</Text>   
+    </Persons>
+
+    <Civilian>
+        <Dialogue>Xin chào, bạn ổn chứ?</Dialogue>
+		<Dialogue>Bạn sẽ không tin tôi đâu... Tôi đã nhìn thấy thây ma!!!</Dialogue>
+		<Dialogue>Được rồi, mọi chuyện sẽ ổn thôi...</Dialogue>
+		<Dialogue>Họ kia rồi, aaaaaah!...</Dialogue>		
+    </Civilian>
+
+    <Civilian2>
+        <Dialogue>Xin chào, có chuyện gì thế?</Dialogue>
+		<Dialogue>Tôi nghĩ mình bị điên rồi... Tôi thấy lũ thây ma lang thang xung quanh...</Dialogue>
+		<Dialogue>Chết tiệt, bạn có chắc không?</Dialogue>
+		<Dialogue>Ôi trời, chúng ở đó kìa... chạy đi!!!</Dialogue>		
+    </Civilian2>
+
+    <Wave>
+        <Text>Sóng {WaveNumber} đang bắt đầu!</Text>
+		<Text>~g~Sóng {WaveNumber} đã hoàn thành</Text>
+		<Text>~o~Sóng {WaveNumber} sẽ bắt đầu sau {time}s~s~</Text>
+		<Text>Xin chúc mừng, bạn đã thành thạo 10 sóng.</Text>
+		<Text>Nhấn ~y~End~s~ để kết thúc cuộc gọi bất cứ lúc nào.</Text>
+		<Text>Sóng {WaveNumber}</Text>
+    </Wave>
+
+</ZombiesReported>

@@ -1,0 +1,9 @@
+<General>
+    <UpdateChecker>
+        <Text>Phiên bản mới nhất của MCCallouts c; </Text>
+        <Text>Phiên bản beta/ tương lai của MCCallouts c: </Text>
+        <Text>~r~Phát hiện phiên bản cũ.~w~~n~Cập nhật khi có thể!</Text>
+        <Text>~y~MCCallouts đã tải~w~ nhưng chúng tôi ~r~không thể kiểm tra~w~ để cập nhật.</Text>
+        <Text>~y~MCCallouts ~g~đã tải~w~!~n~Chúc tuần tra vui vẻ!</Text>
+    </UpdateChecker>
+</General>
