@@ -2,124 +2,124 @@
 
 
     <General>
-        <Text>~b~Detective~s~ at murder case required</Text>
-        <Text>Officer dead after a traffic stop</Text>
+        <Text>~b~Détective~s~ à l'affaire du meurtre requis</Text>
+        <Text>Décès d'un agent après un contrôle routier</Text>
     </General>
 
 
     <Approach>
-        <Text>Talk to the ~HC_43~Detective~s~ to get an update on the scene.</Text>
+        <Text>Parlez aux ~HC_43~Detective~s~ pour obtenir des informations sur la scène.</Text>
     </Approach>
 
 
     <Characters>
         <Text>~HC_43~Detective~s~: </Text>
-        <Text>~y~You~s~: </Text>
-        <Text>~p~Laborant~s~: </Text>
-        <Text>~g~Witness~s~: </Text>
+        <Text>~y~Vous~s~: </Text>
+        <Text>~p~Laboureur~s~: </Text>
+        <Text>~g~Témoin~s~: </Text>
         <Text>~r~Suspect~s~: </Text>
     </Characters>
 
 
     <TalkToDetective>
-        <Dialogue>Hello ~HC_43~Detective~s~! What a big scene we have here! What's going on?</Dialogue>
-        <Dialogue>Hello, yeah definitely! We unfortunately have one of our ~b~officers ~r~murdered~s~ at a traffic stop...</Dialogue>
-        <Dialogue>Right now we do not have any idea who it was, that's why we called you, somebody who has quite some experience.</Dialogue>
-        <Dialogue>I've heard about the case at ~g~Mount Chiliad~s~ at the gas station, you solved it well!</Dialogue>
-        <Dialogue>Thank you, sir, let's see what I can find on this case.</Dialogue>
-        <Dialogue>Oh sorry, yeah sure, please search for ~y~evidence~s~ at the scene, anything can help.</Dialogue>
-        <Dialogue>You can press ~y~{0}~s~ to ~y~pick up~s~ the ~y~evidence~s~ when standing next to it. ~g~Good luck~s~!</Dialogue>
-        <Dialogue>Go to the closed area and search for evidence, press ~y~{1}~s~ to pick up ~y~evidence~s~.</Dialogue>
-        <Dialogue>Check the scene again, you're still ~o~missing some~s~!</Dialogue>
+        <Dialogue>Bonjour ~HC_43~Detective~s~ ! Quelle grande scène nous avons là ! Qu'est-ce qui se passe ?</Dialogue>
+        <Dialogue>Bonjour, oui tout à fait ! Nous avons malheureusement un de nos ~b~officiers ~r~assassiné~s~ lors d'un contrôle routier...</Dialogue>
+        <Dialogue>Pour l'instant, nous n'avons aucune idée de qui il s'agit, c'est pourquoi nous avons fait appel à vous, quelqu'un qui a une certaine expérience.</Dialogue>
+        <Dialogue>J'ai entendu parler de l'affaire du ~g~Mount Chiliad~s~ à la station service, vous l'avez bien résolue!</Dialogue>
+        <Dialogue>Merci, monsieur, voyons ce que je peux trouver sur cette affaire.</Dialogue>
+        <Dialogue>Oh pardon, oui bien sûr, cherchez des ~y~preuve~s~ sur les lieux, tout peut aider.</Dialogue>
+        <Dialogue>Vous pouvez appuyer sur ~y~{0}~s~ pour ~y~ramasser~s~ la ~y~preuve~s~ quand vous êtes à côté. ~g~Bonne chance~s~!</Dialogue>
+        <Dialogue>Aller dans la zone fermée et chercher des preuves, appuyer sur ~y~{1}~s~ pour ramasser les ~y~preuves~s~.</Dialogue>
+        <Dialogue>Vérifiez la scène à nouveau, il en manque encore ~o~s~!</Dialogue>
     </TalkToDetective>
 
 
     <SearchForEvidence>
-        <Dialogue>Here is a little ~HC_211~help~s~.</Dialogue>
-        <Dialogue>~r~No evidence~s~ nearby.</Dialogue>
+        <Dialogue>Voici un peu ~HC_211~d'aide~s~.</Dialogue>
+        <Dialogue>~r~Pas de preuves~s~ à proximité.</Dialogue>
 
-        <Dialogue>A ~o~rifle~s~, this can only be the suspects or the officers.</Dialogue>
-        <Dialogue>This has to be the ~o~wallet~s~ of the suspect...</Dialogue>
-        <Dialogue>A ~o~mobile phone~s~, if I would only have the password.</Dialogue>
-        <Dialogue>A ~o~beer~s~? Somebody has thrown it out of the window.</Dialogue>
+        <Dialogue>Un ~o~fusil~s~, cela ne peut être que les suspects ou les officiers.</Dialogue>
+        <Dialogue>Ce doit être le ~o~portefeuille~s~ du suspect...</Dialogue>
+        <Dialogue>Un ~o~téléphone portable~s~, si seulement j'avais le mot de passe.</Dialogue>
+        <Dialogue>Une ~o~bière~s~ à Quelqu'un l'a jetée par la fenêtre.</Dialogue>
 
-        <Dialogue>A ~o~knife~s~... it has blood on it.</Dialogue>
-        <Dialogue>An ~o~ID-card~s~, I better give it to the Laborant.</Dialogue>
-        <Dialogue>A ~o~USB-stick~s~, I wonder what's on it.</Dialogue>
-        <Dialogue>A ~o~bag~s~... I shouldn't put any more fingerprints on it.</Dialogue>
+        <Dialogue>Un ~o~couteau~s~... il y a du sang dessus.</Dialogue>
+        <Dialogue>Une ~o~carte d'identité~s~, je ferais mieux de la donner au Laborant.</Dialogue>
+        <Dialogue>Un ~o~USB-stick~s~, je me demande ce qu'il y a dessus.</Dialogue>
+        <Dialogue>Un ~o~sac~s~... Je ne devrais plus mettre mes empreintes dessus.</Dialogue>
 
-        <Dialogue>A ~o~pistol~s~... doesn't look like a police one.</Dialogue>
-        <Dialogue>A ~o~license plate~s~... it could be the one from the suspect?</Dialogue>
-        <Dialogue>A ~o~shoe~s~, not issued by any police department.</Dialogue>
-        <Dialogue>A ~o~whiskey~s~... I wish I could take a shot :p</Dialogue>
+        <Dialogue>Un ~o~pistolet~s~... ne ressemble pas à celui de la police.</Dialogue>
+        <Dialogue>Une ~o~plaque d'immatriculation~s~... ça pourrait être celle du suspect...</Dialogue>
+        <Dialogue>Une ~o~chaussure~s~, non délivrée par un service de police.</Dialogue>
+        <Dialogue>Un ~o~whiskey~s~... J'aimerais pouvoir prendre une photo :p</Dialogue>
 
-        <Dialogue>Talk to the ~HC_43~Detective~s~ about the ~g~found evidence~s~.</Dialogue>
+        <Dialogue>Parlez au ~HC_43~Détective~s~ des ~g~preuves~s~ trouvées.</Dialogue>
     </SearchForEvidence>
 
 
     <AgainTalkToDetective>
-        <Dialogue>Hey, I found some interesting evidence, which will help us.</Dialogue>
-        <Dialogue>Alright, tell me!</Dialogue>
-        <Dialogue>I found {0}.</Dialogue>
-        <Dialogue>a rifle, a wallet, a phone and a beer</Dialogue>
-        <Dialogue>a knife, an ID, an USB-stick and a bag</Dialogue>
-        <Dialogue>a pistol, a license plate, a shoe and a whiskey bottle</Dialogue>
-        <Dialogue>I'm pretty sure this is the murder weapon.</Dialogue>
-        <Dialogue>Also we should be able to find out infos on the suspect.</Dialogue>
-        <Dialogue>Sure! Go to the ~p~Laborant~s~, he will analyze evidence and find out more!</Dialogue>
-        <Dialogue>Use ~y~{1}~s~ to talk to the ~p~Laborant~s~ about the ~y~evidence~s~.</Dialogue>
+        <Dialogue>J'ai trouvé une preuve intéressante qui va nous aider.</Dialogue>
+        <Dialogue>D'accord, dites-moi!</Dialogue>
+        <Dialogue>J'ai trouvé {0}.</Dialogue>
+        <Dialogue>un fusil, un portefeuille, un téléphone et une bière</Dialogue>
+        <Dialogue>un couteau, une pièce d'identité, une clé USB et un sac</Dialogue>
+        <Dialogue>un pistolet, une plaque d'immatriculation, une chaussure et une bouteille de whisky</Dialogue>
+        <Dialogue>Je suis presque sûr que c'est l'arme du crime.</Dialogue>
+        <Dialogue>On devrait aussi pouvoir trouver des infos sur le suspect.</Dialogue>
+        <Dialogue>Sûr ! Allez voir le ~p~Laborant~s~, il analysera les preuves et on en saura plus!</Dialogue>
+        <Dialogue>Utilisez ~y~{1}~s~ pour parler au ~p~Laborant~s~ des ~y~preuves~s~.</Dialogue>
     </AgainTalkToDetective>
 
 
     <TalkToLaborant>
-        <Dialogue>Hello sir, thanks for coming. I found a lot of evidence, do you mind checking?</Dialogue>
-        <Dialogue>Hello to you, too. Yeah sure, that's my job c; Please hand over the evidence.</Dialogue>
-        <Dialogue>Thanks, I'm gonna check it quickly.</Dialogue>
-        <Dialogue>Press ~y~{3}~s~ again to talk</Dialogue>
-        <Dialogue>Alright, I've checked the evidence.</Dialogue>
+        <Dialogue>Bonjour monsieur, merci d'être venu. J'ai trouvé beaucoup de preuves, pourriez-vous les vérifier ? </Dialogue>
+        <Dialogue>Bonjour à vous aussi. Oui bien sûr, c'est mon travail c ; Veuillez me remettre les preuves.</Dialogue>
+        <Dialogue>Merci, je vais vérifier rapidement.</Dialogue>
+        <Dialogue>Appuyez à nouveau sur ~y~{3}~s~ pour parler</Dialogue>
+        <Dialogue>Très bien, j'ai vérifié les preuves.</Dialogue>
 
-        <Dialogue>The owner of the ~o~{3}~s~ is ~o~{4}~s~!</Dialogue> 
-        <Dialogue>In the ~o~{3}~s~ I found a drivers license of ~o~{4}~s~.</Dialogue>
-        <Dialogue>On the ~o~{3}~s~ I found the owners name: ~o~{4}~s~!</Dialogue>
-        <Dialogue>The ~o~{3}~s~ was hardly readable, but the name is ~o~{4}~s~.</Dialogue>
-        <Dialogue>On the ~o~{3}~s~ I found files of ~o~{4}~s~.</Dialogue>
-        <Dialogue>The serial number on ~o~{3}~s~ comes back to ~o~{4}~s~.</Dialogue>
-        <Dialogue>The ~o~{3}~s~ comes back to ~o~{4}~s~.</Dialogue>
+        <Dialogue>Le propriétaire du ~o~{3}~s~ est ~o~{4}~s~!</Dialogue> 
+        <Dialogue>Dans le ~o~{3}~s~ j'ai trouvé le permis de conduire de ~o~{4}~s~.</Dialogue>
+        <Dialogue>Sur le ~o~{3}~s~ j'ai trouvé le nom du propriétaire : ~o~{4}~s~!</Dialogue>
+        <Dialogue>Le ~o~{3}~s~ était à peine lisible, mais le nom est ~o~{4}~s~.</Dialogue>
+        <Dialogue>Sur le ~o~{3}~s~ j'ai trouvé des fichiers de ~o~{4}~s~.</Dialogue>
+        <Dialogue>Le numéro de série de ~o~{3}~s~ correspond à ~o~{4}~s~.</Dialogue>
+        <Dialogue>Le ~o~{3}~s~ revient à ~o~{4}~s~.</Dialogue>
 
-        <Dialogue>This is probably our suspect!</Dialogue>
-        <Dialogue>This could be our suspect!</Dialogue>
+        <Dialogue>C'est probablement notre suspect !</Dialogue>
+        <Dialogue>Ce pourrait être notre suspect !</Dialogue>
 
-        <Dialogue>The Detective wanted to talk to you again, go to him again, please.</Dialogue>
-        <Dialogue>Talk to the ~HC_43~Detective~s~ again.</Dialogue>
+        <Dialogue>L'inspecteur voulait vous parler à nouveau, allez le voir à nouveau, s'il vous plaît.</Dialogue>
+        <Dialogue>Reparlez au ~HC_43~Détective~s~ encore une fois.</Dialogue>
     </TalkToLaborant>
 
 
     <TalkToDetectiveAnalyzedEvidence>
-        <Dialogue>Hey, do we have any new information?</Dialogue>
-        <Dialogue>Yes! The ~o~{4}~s~ leads us in the right direction!</Dialogue>
-        <Dialogue>Perfect! Additionally we have a ~g~witness~s~ over there, hopefully she can give us more details.</Dialogue>
-        <Dialogue>Go to the ~g~witness~s~ and talk to her using ~y~{0}~s~</Dialogue>
+        <Dialogue>Hey, avons-nous de nouvelles informations ? </Dialogue>
+        <Dialogue>Oui ! Le ~o~{4}~s~ nous mène dans la bonne direction!</Dialogue>
+        <Dialogue>Parfait ! De plus nous avons un ~g~témoin~s~ là-bas, espérons qu'elle pourra nous donner plus de détails.</Dialogue>
+        <Dialogue>Allez voir le ~g~témoin~s~ et parlez-lui en utilisant ~y~{0}~s~</Dialogue>
     </TalkToDetectiveAnalyzedEvidence>
 
 
     <TalkToWitness>
 
         <Vehicle>
-            <Dialogue>Hello mam, I'm the ~y~Detective~s~ in this case, have you witnessed anything?</Dialogue>
-            <Dialogue>Hello ~y~Detective~s~, my Name is {5} and yeah, I have some infos.</Dialogue>
-            <Dialogue>Initially I wanted to go shopping there in the super markets.</Dialogue>
-            <Dialogue>Of course I noticed this traffic stop with the flashing blue lights, when suddenly I saw a vehicle driving off hectically.</Dialogue>
-            <Dialogue>I couldn't see the driver nor the license plate, but the model was a ~o~{0}~s~.</Dialogue>
-            <Dialogue>Awesome, thank you for the info, lets see what dispatch can find out.</Dialogue>
+            <Dialogue>Bonjour madame, je suis le ~y~Detective~s~ dans cette affaire, avez-vous été témoin de quoi que ce soit ? </Dialogue>
+            <Dialogue>Bonjour ~y~Detective~s~, je m'appelle {5} et oui, j'ai quelques infos.</Dialogue>
+            <Dialogue>Au départ, je voulais aller faire du shopping dans les supermarchés.</Dialogue>
+            <Dialogue>Bien sûr, j'ai remarqué ce contrôle routier avec les feux bleus clignotants, quand tout à coup j'ai vu un véhicule qui démarrait de façon hectique.</Dialogue>
+            <Dialogue>Je n'ai pas pu voir le conducteur ni la plaque d'immatriculation, mais le modèle était un ~o~{0}~s~.</Dialogue>
+            <Dialogue>Génial, merci pour l'info, voyons ce que le centre de commandement peut trouver.</Dialogue>
         </Vehicle>
 
         <House>
-            <Dialogue>Hello mam, I'm the ~y~Detective~s~ in this case, have you witnessed anything?</Dialogue>
-            <Dialogue>Hello ~y~Detective~s~, my Name is {5} and yeah, I have some infos.</Dialogue>
-            <Dialogue>Initially I wanted to go shopping there in the super markets, I'm a local.</Dialogue>
-            <Dialogue>Of course I noticed this traffic stop with the flashing blue lights, when suddenly I saw a person running away.</Dialogue>
-            <Dialogue>I think I recognized the person, the suspect has to be ~o~{4}~s~.</Dialogue>
-            <Dialogue>Awesome, thank you for the info, lets see what dispatch can find out.</Dialogue>
+            <Dialogue>Bonjour madame, je suis le ~y~Detective~s~ dans cette affaire, avez-vous été témoin de quoi que ce soit ? </Dialogue>
+            <Dialogue>Bonjour ~y~Detective~s~, je m'appelle {5} et oui, j'ai quelques infos.</Dialogue>
+            <Dialogue>Au départ, je voulais aller faire des courses dans au supermarché, je suis du coin.</Dialogue>
+            <Dialogue>Bien sûr j'ai remarqué ce contrôle routier avec les feux bleus clignotants, quand tout à coup j'ai vu une personne qui s'enfuyait.</Dialogue>
+            <Dialogue>Je pense avoir reconnu la personne, le suspect doit être ~o~{4}~s~.</Dialogue>
+            <Dialogue>Génial, merci pour l'info, voyons ce que le centre de commandement peut trouver.</Dialogue>
         </House>
         
     </TalkToWitness>
@@ -128,46 +128,46 @@
     <SearchForSuspect>
 
         <Vehicle>
-            <Dialogue>Dispatch, can you check traffic cameras for a murder suspect vehicle, model is ~o~{0}~s~.</Dialogue>
-            <Dialogue>Checking...</Dialogue>
-            <Dialogue>Got a hit on a vehicle, is marked on your GPS</Dialogue>
+            <Dialogue>Dispatch, pouvez-vous vérifier les caméras de circulation pour un véhicule suspecté de meurtre, le modèle est ~o~{0}~s~.</Dialogue>
+            <Dialogue>Vérification...</Dialogue>
+            <Dialogue>On a trouvé un véhicule, il est marqué sur votre GPS</Dialogue>
             
-            <Dialogue>New ~r~ALPR Hit ~s~on ~y~Vehicle {1}!~s~</Dialogue>
+            <Dialogue>Nouveau ~r~ALPR Hit ~s~on ~y~Vehicule {1}!~s~</Dialogue>
         </Vehicle>
 
         <House>
-            <Dialogue>Dispatch, can you set the route to the suspects home?</Dialogue>
-            <Dialogue>Checking...</Dialogue>
-            <Dialogue>Got the home, is marked on your GPS</Dialogue>
+            <Dialogue>Dispatch, pouvez-vous établir l'itinéraire vers le domicile des suspects ? </Dialogue>
+            <Dialogue>Vérification...</Dialogue>
+            <Dialogue>J'ai trouvé la maison, elle est indiquée sur votre GPS</Dialogue>
         </House>
 
     </SearchForSuspect>
 
 
     <InPursuit>
-        <Dialogue>Oh shit, the cops!</Dialogue>
+        <Dialogue>Oh merde, les flics !</Dialogue>
     </InPursuit>
 
 
     <QuestioningSuspect>
-        <Dialogue>Once you're ready, ~r~confront the suspect~s~ about his actions, use ~y~{0}~s~ to talk.</Dialogue>
-        <Dialogue>In the name of the law, you're under arrest for the ~r~murder~s~ of a ~b~police officer~s~!</Dialogue>
-        <Dialogue>I'm gonna read you your miranda rights...  * reads miranda rights *</Dialogue>
-        <Dialogue>Why did you run?</Dialogue>
-        <Dialogue>Sir, I am so sorry for what I've done, I fucked up.</Dialogue>
-        <Dialogue>I ran cause I was afraid, that's all.</Dialogue>
-        <Dialogue>You've murdered a police officer!</Dialogue>
-        <Dialogue>What? He's dead? I just... I just didn't wanna go to jail, but I didn't wanted to kill him...</Dialogue>
-        <Dialogue>You shot at him... </Dialogue>
-        <Dialogue>I just wanted to scare him off, so I can get away to be free.</Dialogue>
-        <Dialogue>You will be booked in jail and probably not get out very soon...</Dialogue>
-        <Dialogue>Take the ~r~suspect~s~ to ~o~jail~s~.</Dialogue>
+        <Dialogue>Une fois que vous êtes prêt, ~r~confrontez le suspect~s~ sur ses actions, utilisez ~y~{0}~s~ pour parler.</Dialogue>
+        <Dialogue>Au nom de la loi, vous êtes en état d'arrestation pour le ~r~meurtre~s~ d'un ~b~agent de police~s~ !</Dialogue>
+        <Dialogue>Je vais vous lire vos droits Miranda... * lit les droits de miranda *</Dialogue>
+        <Dialogue>Pourquoi avez-vous couru ?</Dialogue>
+        <Dialogue>Monsieur, je suis vraiment désolé pour ce que j'ai fait, j'ai merdé.</Dialogue>
+        <Dialogue>J'ai couru parce que j'avais peur, c'est tout.</Dialogue>
+        <Dialogue>Vous avez assassiné un officier de police !</Dialogue>
+        <Dialogue>Quoi ? Il est mort ? J'ai juste... Je ne voulais pas aller en prison, mais je ne voulais pas le tuer...</Dialogue>
+        <Dialogue>Vous lui avez tiré dessus... </Dialogue>
+        <Dialogue>Je voulais juste l'effrayer pour pouvoir m'enfuir et être libre.</Dialogue>
+        <Dialogue>Vous serez mis en prison et n'en sortirez probablement pas de sitôt...</Dialogue>
+        <Dialogue>Emmenez le ~r~suspect~s~ en ~o~prison~s~.</Dialogue>
     </QuestioningSuspect>
 
 
     <End>
-        <Text>Press ~y~End~s~ anytime to end the callout.</Text>
-        <Text>We're ~g~Code 4.~s~</Text>
+        <Text>Appuyez sur ~y~Fin~s~ à tout moment pour mettre fin à l'appel.</Text>
+        <Text>Nous sommes en ~g~Code 4.~s~</Text>
     </End>
 
 

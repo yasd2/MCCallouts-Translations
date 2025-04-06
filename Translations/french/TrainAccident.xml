@@ -1,139 +1,139 @@
 <TrainAccident>
 
-    <CalloutMessage>Train Accident</CalloutMessage>
-    <CalloutAdvisory><![CDATA[Investigate the incident & apprehend the suspect!]]></CalloutAdvisory>
+    <CalloutMessage>Accident de train</CalloutMessage>
+    <CalloutAdvisory><![CDATA[Enquête sur l'incident et arrestation du suspect !]]></CalloutAdvisory>
 
-    <Mugshot>Suspect's Mugshot</Mugshot>
+    <Mugshot>Photo d'identité du suspect</Mugshot>
 
      <DisplayHelp>
-        <Text>Drive to the reported ~b~train accident.</Text>
-        <Text><![CDATA[Talk to the ~o~victims~s~ & the ~r~train driver.]]></Text>
-        <Text>Talk to the ~o~victims.</Text>
-        <Text>Now talk to the ~g~witnesses.</Text>
-        <Text>Search the area around the ~y~trains for evidence.</Text>
-        <Text>We have received information about the whereabouts of the ~r~possible suspect.</Text>
-        <Text>~g~Code 4,~s~ resume patrol duty.</Text>
+        <Text>Conduire jusqu'au lieu de l'accident de ~b~train signalé.</Text>
+        <Text><![CDATA[Parler aux ~o~victimes~s~ et au ~r~conducteur du train.]]></Text>
+        <Text>Parlez aux ~o~victimes.</Text>
+        <Text>Parlez maintenant aux ~g~témoins.</Text>
+        <Text>Recherchez des indices dans la zone autour des ~y~trains.</Text>
+        <Text>Nous avons reçu des informations sur l'endroit où se trouve le ~r~possible suspect.</Text>
+        <Text>~g~Code 4,~s~ reprendre le service de patrouille.</Text>
     </DisplayHelp>
 
     <Detective_NotDUI>
-        <Dialogue>~HC_43~Detective~s~: Hello Officer, thanks for coming to this mess!</Dialogue>
-        <Dialogue>~HC_43~Detective~s~: Let's get straight to the point: We have a train accident with multiple injuries.</Dialogue>
-        <Dialogue>~HC_43~Detective~s~: It looks like the train derailed and broke apart in the middle.</Dialogue>
-        <Dialogue><![CDATA[~HC_43~Detective~s~: First, I'd like you to talk to the ~o~victims~s~ & the ~r~train driver~s~, then search the scene for ~y~evidence~s~!]]></Dialogue>
-        <Dialogue>~HC_43~Detective~s~: Over there are ~g~two witnesses~s~. Good luck!</Dialogue>
+        <Dialogue>~HC_43~Detective~s~ : Bonjour Monsieur l'agent, merci d'être venu dans cette galère!</Dialogue>
+        <Dialogue>~HC_43~Détective~s~ : Allons droit au but : Nous avons un accident de train avec plusieurs blessés.</Dialogue>
+        <Dialogue>~HC_43~Détective~s~ : On dirait que le train a déraillé et s'est brisé au milieu.</Dialogue>
+        <Dialogue><![CDATA[~HC_43~Detective~s~ : D'abord, j'aimerais que vous parliez aux ~o~victimes~s~ et au ~r~conducteur du train~s~, puis que vous fouilliez les lieux à la recherche de ~y~preuves~s~ !]]></Dialogue>
+        <Dialogue>~HC_43~Détective~s~ : Là-bas, il y a ~g~deux témoins~s~. Bonne chance !</Dialogue>
     </Detective_NotDUI>
 
     <Detective_DUI2>
-        <Dialogue>~HC_43~Detective~s~: First, I'd like you to talk to the ~o~victims~s~, then search the scene for ~y~evidence~s~!</Dialogue>
+        <Dialogue>~HC_43~Détective~s~ : D'abord, j'aimerais que vous parliez aux ~o~victimes~s~, puis que vous fouilliez les lieux à la recherche de ~y~preuves~s~!</Dialogue>
     </Detective_DUI2>
 
     <Detective_DUI>
-        <Dialogue>~HC_43~Detective~s~: Hello Officer, thanks for coming to this mess!</Dialogue>
-        <Dialogue>~HC_43~Detective~s~: Let's get straight to the point: We have a train accident with multiple injuries.</Dialogue>
-        <Dialogue>~HC_43~Detective~s~: It looks like the train derailed and broke apart in the middle.</Dialogue>
-        <Dialogue>~HC_43~Detective~s~: First, I'd like you to talk to the ~o~victims~s~, then search the scene for ~y~evidence~s~!</Dialogue>
-        <Dialogue>~HC_43~Detective~s~: Over there are ~g~two witnesses~s~. Good luck!</Dialogue>
+        <Dialogue>~HC_43~Detective~s~ : Bonjour Monsieur l'agent, merci d'être venu dans cette galère!</Dialogue>
+        <Dialogue>~HC_43~Détective~s~ : Allons droit au but : Nous avons un accident de train avec plusieurs blessés.</Dialogue>
+        <Dialogue>~HC_43~Détective~s~ : On dirait que le train a déraillé et s'est brisé au milieu.</Dialogue>
+        <Dialogue>~HC_43~Detective~s~ : D'abord, j'aimerais que vous parliez aux ~o~victimes~s~, puis que vous fouilliez les lieux à la recherche de ~y~preuves~s~!</Dialogue>
+        <Dialogue>~HC_43~Détective~s~ : Là-bas, il y a ~g~deux témoins~s~. Bonne chance !</Dialogue>
     </Detective_DUI>
 
     <Victim1_>
-        <Dialogue>~o~Victim~s~: I... I was asleep, then suddenly... a loud bang! Everything shook, people were screaming... I saw sparks outside the windows.</Dialogue>
+        <Dialogue>~o~Victim~s~ : I... Je dormais, et soudain... un grand coup ! Tout a tremblé, les gens criaient... J'ai vu des étincelles à l'extérieur des fenêtres.</Dialogue>
     </Victim1_>
 
     <Victim2_NotDUI>
-        <Dialogue>~o~Victim~s~: Officer, how could this happen? Look at all the injured people. And so many emergency responders!</Dialogue>
-        <Dialogue>~o~Victim~s~: Please get to the bottom of this, we need answers.</Dialogue>
+        <Dialogue>~o~Victime~s~ : Monsieur l'agent, comment cela a-t-il pu arriver ? Regardez tous les blessés. Et tant de secouristes !</Dialogue>
+        <Dialogue>~o~Victime~s~ : S'il vous plaît, faites toute la lumière sur cette affaire, nous avons besoin de réponses.</Dialogue>
     </Victim2_NotDUI>
 
     <Victim2_DUI>
-        <Dialogue>~o~Victim~s~: I still have a headache from the strong impact.</Dialogue>
-        <Dialogue>~o~Victim~s~: I just can't understand why the train was going so fast.</Dialogue>
-        <Dialogue>~o~Victim~s~: It's no wonder the accident happened with that speed!</Dialogue>
-        <Dialogue>~o~Victim~s~: I need to go to the hospital now, I hope the driver is held accountable!</Dialogue>
+        <Dialogue>~o~Victime~s~ : J'ai encore mal à la tête à cause de l'impact violent.</Dialogue>
+        <Dialogue>~o~Victime~s~ : Je n'arrive pas à comprendre pourquoi le train allait si vite.</Dialogue>
+        <Dialogue>~o~Victime~s~ : Ce n'est pas étonnant que l'accident se soit produit à cette vitesse !</Dialogue>
+        <Dialogue>~o~Victime~s~ : Je dois aller à l'hôpital maintenant, j'espère que le conducteur sera tenu pour responsable !</Dialogue>
     </Victim2_DUI>
 
     <Driver_NotDUI>
-        <Dialogue>~HC_8~Driver~s~: I had no warning. Suddenly, the train jumped off the tracks! I couldn't brake in time.</Dialogue>
+        <Dialogue>~HC_8~Driver~s~ : Je n'ai pas été prévenu. Soudain, le train est sorti des rails ! Je n'ai pas pu freiner à temps.</Dialogue>
     </Driver_NotDUI>
 
     <Driver_DUI>
-        <Dialogue>~y~You~s~: Police, stop right there, hands where I can see them!</Dialogue>
-        <Dialogue>~HC_8~Driver~s~: What's going on? *hic* I don’t knooooow youuuu.</Dialogue>
-        <Dialogue>~y~You~s~: Were you the driver of the train at {StreetName} today?</Dialogue>
-        <Dialogue>~HC_8~Driver~s~: Uh, nope. I *hic* can’t even ride a bike...</Dialogue>
-        <Dialogue>~y~You~s~: I need your ID.</Dialogue>
+        <Dialogue>~y~Vous~s~ : Police, arrêtez-vous là, les mains en évidence !</Dialogue>
+        <Dialogue>~HC_8~Driver~s~ : Qu'est-ce qui se passe ? *hic* Je ne vous connais pas.</Dialogue>
+        <Dialogue>~y~Vous~s~ : C'est vous qui avez conduit le train à {StreetName} aujourd'hui ?</Dialogue>
+        <Dialogue>~HC_8~Conducteur~s~ : Euh, non. Je ne sais même pas faire du vélo...</Dialogue>
+        <Dialogue>~y~Vous~s~ : J'ai besoin de votre carte d'identité.</Dialogue>
     </Driver_DUI>
 
     <Witness1_Dismantled>
-        <Dialogue>~g~Witness~s~: I’m the head of the train workshop. We had a break-in yesterday, but nothing seemed to be stolen.</Dialogue>
-        <Dialogue>~g~Witness~s~: The two suspects yesterday, {Suspect1.GetGender()} and {Suspect2.GetGender()}, were driving a {SuspectVehicle.Model.Name}.</Dialogue>
-        <Dialogue>~g~Witness~s~: Also, we fired an employee last week named {Suspect2.GetFullName()}.</Dialogue>
-        <Dialogue>~g~Witness~s~: I suspect this might be related to the accident...</Dialogue>
+        <Dialogue>~g~Témoin~s~ : Je suis le chef de l'atelier des trains. Nous avons eu un cambriolage hier, mais rien ne semble avoir été volé.</Dialogue>
+        <Dialogue>~g~Témoins~s~ : Les deux suspects d'hier, {Suspect1.GetGender()} et {Suspect2.GetGender()}, conduisaient un {SuspectVehicle.Model.Name}.</Dialogue>
+        <Dialogue>~g~Témoins~s~ : Nous avons également licencié la semaine dernière un employé nommé {Suspect2.GetFullName()}.</Dialogue>
+        <Dialogue>~g~Témoin~s~ : Je pense que cela pourrait être lié à l'accident...</Dialogue>
     </Witness1_Dismantled>
 
     <Witness1_ObjectOnTracks>
-        <Dialogue>~g~Witness~s~: Hello, I was out for a walk when I noticed these two people on the tracks.</Dialogue>
-        <Dialogue>~g~Witness~s~: I wasn’t sure if they were repairing something or causing trouble.</Dialogue>
-        <Dialogue>~g~Witness~s~: The two suspects were {Suspect1.GetGender()} and {Suspect2.GetGender()}.</Dialogue>
+        <Dialogue>~g~Témoin~s~ : Bonjour, je me promenais quand j'ai remarqué ces deux personnes sur les rails.</Dialogue>
+        <Dialogue>~g~Témoin~s~ : Je ne savais pas s'ils réparaient quelque chose ou s'ils causaient des problèmes.</Dialogue>
+        <Dialogue>~g~Témoin~s~ : Les deux suspects étaient {Suspect1.GetGender()} et {Suspect2.GetGender()}.</Dialogue>
     </Witness1_ObjectOnTracks>
 
     <Witness1_DUI>
-        <Dialogue>~g~Witness~s~: Hello, I was walking two blocks from here when I noticed something.</Dialogue>
-        <Dialogue>~g~Witness~s~: I’m not familiar with train signals, but the light was definitely red.</Dialogue>
-        <Dialogue>~g~Witness~s~: I just thought I’d report it.</Dialogue>
+        <Dialogue>~g~Témoin~s~ : Bonjour, je marchais à deux rues d'ici quand j'ai remarqué quelque chose.</Dialogue>
+        <Dialogue>~g~Témoin~s~ : Je ne connais pas bien les signaux des trains, mais le feu était bien rouge.</Dialogue>
+        <Dialogue>~g~Témoin~s~ : J'ai juste pensé à le signaler.</Dialogue>
     </Witness1_DUI>
 
     <Witness2_NotDUI_WithVehicle>
-        <Dialogue>~g~Witness~s~: I saw two guys running away right after the crash! Towards the street!</Dialogue>
-        <Dialogue>~g~Witness~s~: The vehicle was a ~h~{SuspectVehicle.Model.Name}~h~, license plate ~h~{SuspectVehicle.LicensePlate}~h~.</Dialogue>
-        <Dialogue>~g~Witness~s~: Here, I caught one on camera!</Dialogue>
+        <Dialogue>~g~Témoins~s~ : J'ai vu deux types s'enfuir juste après le crash ! Vers la rue!</Dialogue>
+        <Dialogue>~g~Témoin~s~ : Le véhicule était un ~h~{VéhiculeSuspect.Nom.Modèle}~h~, plaque d'immatriculation ~h~{SuspectVehicle.LicensePlate}~h~.</Dialogue>
+        <Dialogue>~g~Témoin~s~ : Tiens, j'en ai filmé un!</Dialogue>
     </Witness2_NotDUI_WithVehicle>
 
     <Witness2_NotDUI_OnFoot>
-        <Dialogue>~g~Witness~s~: I saw two guys running away right after the crash! Towards the street!</Dialogue>
-        <Dialogue>~g~Witness~s~: One was {Suspect1.GetGender()}, the other {Suspect2.GetGender()}.</Dialogue>
-        <Dialogue>~g~Witness~s~: Here, I caught one on camera!</Dialogue>
+        <Dialogue>~g~Témoins~s~ : J'ai vu deux types s'enfuir juste après le crash ! Vers la rue!</Dialogue>
+        <Dialogue>~g~Témoin~s~ : L'un était {Suspect1.GetGender()}, l'autre {Suspect2.GetGender()}.</Dialogue>
+        <Dialogue>~g~Témoin~s~ : Ici, j'en ai filmé un!</Dialogue>
     </Witness2_NotDUI_OnFoot>
 
     <Witness2_DUI_WithVehicle>
-        <Dialogue>~g~Witness~s~: I saw someone staggering away from the crash site.</Dialogue>
-        <Dialogue>~g~Witness~s~: They ran to a ~h~{SuspectVehicle.Model.Name}~h~.</Dialogue>
-        <Dialogue>~g~Witness~s~: The license plate was ~h~{SuspectVehicle.LicensePlate}~h~.</Dialogue>
+        <Dialogue>~g~Témoins~s~ : J'ai vu quelqu'un s'éloigner en titubant du site du crash.</Dialogue>
+        <Dialogue>~g~Témoins~s~ : Ils ont couru vers un ~h~{VéhiculeSuspect.Modèle.Nom}~h~.</Dialogue>
+        <Dialogue>~g~Témoin~s~ : La plaque d'immatriculation était ~h~{SuspectVehicle.LicensePlate}~h~.</Dialogue>
     </Witness2_DUI_WithVehicle>
 
     <Witness2_DUI_OnFoot>
-        <Dialogue>~g~Witness~s~: I saw someone staggering away from the crash site.</Dialogue>
-        <Dialogue>~g~Witness~s~: They ran away, if you can even call that running.</Dialogue>
-        <Dialogue>~g~Witness~s~: I hope you find them!</Dialogue>
+        <Dialogue>~g~Témoins~s~ : J'ai vu quelqu'un s'éloigner en titubant du site du crash.</Dialogue>
+        <Dialogue>~g~Témoin~s~ : Ils se sont enfuis en courant, si on peut appeler ça courir.</Dialogue>
+        <Dialogue>~g~Témoin~s~ : J'espère que vous les retrouverez !</Dialogue>
     </Witness2_DUI_OnFoot>
 
     <Suspect1_>
-        <Dialogue>~y~You~s~: Stop, police! Hands where I can see them!</Dialogue>
-        <Dialogue>~r~Suspect~s~: Listen, you've got the wrong people.</Dialogue>
-        <Dialogue>~r~Suspect~s~: We have nothing to do with the train accident.</Dialogue>
-        <Dialogue>~y~You~s~: How do you know about the train accident?</Dialogue>
-        <Dialogue>~r~Suspect~s~: Uh...</Dialogue>
+        <Dialogue>~y~Vous~s~ : Arrêtez, police ! Mains en l'air!</Dialogue>
+        <Dialogue>~r~Suspect~s~ : Ecoutez, vous vous trompez de personne.</Dialogue>
+        <Dialogue>~r~Suspect~s~ : Nous n'avons rien à voir avec l'accident de train.</Dialogue>
+        <Dialogue>~y~Vous~s~ : Comment savez-vous pour l'accident de train ?</Dialogue>
+        <Dialogue>~r~Suspect~s~ : Euh...</Dialogue>
     </Suspect1_>
 
     <Evidence>
         <Dismantled>
-            <Dialogue>An oil hose is loose, suggesting someone tampered with it.</Dialogue>
-            <Dialogue>This brake is missing.</Dialogue>
-            <Dialogue>Someone disconnected the cables in the electrical system.</Dialogue>
-            <Dialogue>Hmm... a burger, now I’m hungry.</Dialogue>
+            <Dialogue>Une durite d'huile est desserrée, ce qui suggère que quelqu'un l'a altérée.</Dialogue>
+            <Dialogue>Ce frein est manquant.</Dialogue>
+            <Dialogue>Quelqu'un a débranché les câbles du système électrique.</Dialogue>
+            <Dialogue>Hmm... un hamburger, maintenant j'ai faim.</Dialogue>
         </Dismantled>
 
         <ObjectOnTracks>
-            <Dialogue>A large rock near the tracks isn’t good...</Dialogue>
-            <Dialogue>The train’s wheels are broken, they must have hit something...</Dialogue>
-            <Dialogue>The tracks are loose and there’s a crowbar here... hmm...</Dialogue>
-            <Dialogue>Why are there stones here?</Dialogue>
+            <Dialogue>Un gros rocher près des voies n'est pas bon...</Dialogue>
+            <Dialogue>Les roues du train sont cassées, elles ont dû heurter quelque chose...</Dialogue>
+            <Dialogue>Les rails sont détachés et il y a un pied de biche ici... hmm...</Dialogue>
+            <Dialogue>Pourquoi y a-t-il des pierres ici ?</Dialogue>
         </ObjectOnTracks>
 
         <DUI>
-            <Dialogue>The speedometer is stuck at 100 km/h... way too fast.</Dialogue>
-            <Dialogue>The brakes look brand new, no emergency braking was done.</Dialogue>
-            <Dialogue>A pizza, hmm, delicious...</Dialogue>
-            <Dialogue>A list of train drivers with photos, today it was ~h~{Driver.GetFullName()}~h~...</Dialogue>
+            <Dialogue>Le compteur de vitesse est bloqué à 100 km/h... beaucoup trop vite.</Dialogue>
+            <Dialogue>Les freins semblent neufs, aucun freinage d'urgence n'a été effectué.</Dialogue>
+            <Dialogue>Une pizza, hmm, délicieuse...</Dialogue>
+            <Dialogue>Une liste de conducteurs de train avec des photos, aujourd'hui c'était ~h~{Driver.GetFullName()}~h~...</Dialogue>
         </DUI>
     </Evidence>
 

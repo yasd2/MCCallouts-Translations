@@ -1,34 +1,34 @@
 <PrisonerFlight>
 
     <General>
-        <Text>Prisoner Flight Transport</Text>
-        <Text>Police Pilot required for a prisoner transport</Text>
-        <Text>Drive to the ~g~airport~s~, the plane is already waiting!</Text>
+        <Text>Transport de prisonniers par avion</Text>
+        <Text>Pilote de police requis pour un transport de prisonniers</Text>
+        <Text>Conduisez jusqu'à l'~g~aéroport~s~, l'avion vous attend déjà!</Text>
     </General>
 
     <Agent>
-        <Dialogue>Talk to the ~b~Agent~s~ with</Dialogue>
-        <Dialogue>~y~You~s~: Hello, I'm a pilot from the police department, what do we have here?</Dialogue>
-        <Dialogue>~b~Agent~s~: Good day, we have a high risk prisoner here, and will be transported to North Yankton.</Dialogue>
-        <Dialogue>~b~Agent~s~: We have this private jet here, the prisoner is already in there.</Dialogue>
-        <Dialogue>~b~Agent~s~: Please fly to the destination, which will be on your navigation system, you can't miss it.</Dialogue>
-        <Dialogue>~b~Agent~s~: Police will be there waiting for you. Have a good flight!</Dialogue>
-        <Dialogue><![CDATA[Get in the plane & fly to the ~o~destination~s~.]]></Dialogue>
-        <Dialogue>No further dialogue.</Dialogue>
+        <Dialogue>Parler à ~b~l'gent~s~ avec</Dialogue>
+        <Dialogue>~y~Vous~s~ : Bonjour, je suis un pilote de la police, qu'est-ce que nous avons ici ?</Dialogue>
+        <Dialogue>~b~Agent~s~ : Bonjour, nous avons ici un prisonnier à haut risque, qui sera transporté à North Yankton.</Dialogue>
+        <Dialogue>~b~Agent~s~ : Nous avons ce jet privé ici, le prisonnier est déjà à l'intérieur.</Dialogue>
+        <Dialogue>~b~Agent~s~ : Veuillez voler jusqu'à la destination, qui sera sur votre système de navigation, vous ne pouvez pas la manquer.</Dialogue>
+        <Dialogue>~b~Agent~s~ : La police vous y attendra. Bon vol !</Dialogue>
+        <Dialogue><![CDATA[Montez dans l'avion et volez vers la ~o~destination~s~.]]></Dialogue>
+        <Dialogue>Pas d'autre dialogue.</Dialogue>
     </Agent>
 
     <Officer>
-        <Dialogue>Fly to the ~o~destination marker~s~ on your minimap.</Dialogue>
-        <Dialogue>Talk to the ~b~Officer~s~ with</Dialogue>
-        <Dialogue><![CDATA[~b~Officer~s~: Hello & welcome to North Yankton!]]></Dialogue>
-        <Dialogue><![CDATA[~b~Officer~s~: It might be a little cold out here & the streets are slippery...]]></Dialogue>
-        <Dialogue>~b~Officer~s~: The suspect is already sitting in the vehicle.</Dialogue>
-        <Dialogue>~b~Officer~s~: Please drive to the ~g~prison~s~ marked on your GPS with our police cruiser.</Dialogue>
-        <Dialogue><![CDATA[Get in the vehicle & drive to the ~g~prison~s~.]]></Dialogue>
-        <Dialogue>No further dialogue.</Dialogue>
-        <Dialogue>Drive to the ~g~prison~s~ marked on your gps.</Dialogue>
-        <Dialogue>Callout completed</Dialogue>
-        <Dialogue>Good job!</Dialogue>
+        <Dialogue>Volez vers le ~o~marqueur de destination~s~ sur votre minimap.</Dialogue>
+        <Dialogue>Parlez à ~b~l'Officier~s~ avec</Dialogue>
+        <Dialogue><![CDATA[~b~Officer~s~ : Bonjour et bienvenue à North Yankton !]]></Dialogue>
+        <Dialogue><![CDATA[~b~Officer~s~ : Il fait peut-être un peu froid ici et les rues sont glissantes...]]></Dialogue>
+        <Dialogue>~b~Officer~s~ : Le suspect est déjà assis dans le véhicule.</Dialogue>
+        <Dialogue>~b~Officer~s~ : Veuillez vous rendre à la ~g~prison~s~ indiquée sur votre GPS avec notre voiture de police.</Dialogue>
+        <Dialogue><![CDATA[Montez dans le véhicule et conduisez jusqu'à la ~g~prison~s~.]]></Dialogue>
+        <Dialogue>Pas d'autre dialogue.</Dialogue>
+        <Dialogue>Conduisez jusqu'à la ~g~prison~s~ indiqué sur votre gps.</Dialogue>
+        <Dialogue>Appel terminé</Dialogue>
+        <Dialogue>Bon travail!</Dialogue>
         <Dialogue>Code 4.</Dialogue>
     </Officer>
 

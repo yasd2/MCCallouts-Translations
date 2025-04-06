@@ -1,62 +1,62 @@
 <BurningDumpster>
 
     <General>
-        <Text>~r~Burning dumpster~b~ reported</Text>
-        <Text>Unit with fire extinguisher respond Code 2</Text>
-        <Text>Drive to the location and extinguish the ~r~fire~s~ or call the ~r~fire department!</Text>
+        <Text>~r~Benne à ordures en feu~b~ signalé</Text>
+        <Text>Unité dotée d'un extincteur, répondre au code 2</Text>
+        <Text>Se rendre sur place et éteindre le ~r~feu~s~ ou appeler ~r~les pompiers !</Text>
     </General>
 
     <Persons>
-        <Text>Caller</Text>
-        <Text>You</Text>
+        <Text>Appelant</Text>
+        <Text>Vous</Text>
     </Persons>
 
     <Extingiush>
-        <Text>To get a ~r~fire extinguisher~s~, go to your trunk and press</Text>
-        <Text>~r~Fire extinguisher~s~ equipped!</Text>
-        <Text>Now search for ~y~evidence~s~ by pressing {Key} while in the ~y~markers~s~.</Text>
+        <Text>Pour obtenir un ~r~extincteur~s~, accedez à votre coffre et appuyez sur</Text>
+        <Text>~r~extincteur~s~ équipé !</Text>
+        <Text>Recherchez maintenant la~y~preuve~s~ en appuyant sur {Key} lorsque vous etes en mode ~y~marqueurs~s~.</Text>
     </Extingiush>
 
     <Tasks>
-        <Text>Talk to the 911 ~b~caller~s~ with</Text>
-        <Text>Press {MusicMenuKey} anytime to view the picture again!</Text>
-        <Text>Dispatch, Suspect is ~r~fleeing!</Text>
+        <Text>Parler au 17 ~b~l'appelant~s~ avec</Text>
+        <Text>Appuyer {MusicMenuKey} à tout moment pour revoir l'image !</Text>
+        <Text>Dispatch, le suspect ~r~fuit!</Text>
     </Tasks>
 
     <Caller>
-        <Dialogue>Hello, are you the one who called in the burning trash?</Dialogue>
-        <Dialogue>Yes, that's me. I wanted to report a suspicious person I saw.</Dialogue>
-        <Dialogue>I was walking past the trash can when I saw a person walking away.</Dialogue>
-        <Dialogue>Right after that the fire started to burn!</Dialogue>
-        <Dialogue>This sounds suspicious, do you have details on the suspect?</Dialogue>
-        <Dialogue>Sure, it was a {gender} and around {age} years old.</Dialogue>
-        <Dialogue>I was able to take a photo, here it is!</Dialogue>
-        <Dialogue>Thanks, we're looking for the suspect now. Bye!</Dialogue>
+        <Dialogue>Bonjour, c'est vous qui avez appelé pour la poubelle en feu ?</Dialogue>
+        <Dialogue>Oui, c'est moi. Je voulais signaler une personne suspecte que j'ai vue.</Dialogue>
+        <Dialogue>Je passais devant la poubelle quand j'ai vu une personne s'éloigner.</Dialogue>
+        <Dialogue>Tout de suite après, le feu à commencé à bruler !</Dialogue>
+        <Dialogue>Cela semble suspect, avez-vous des détails sur le suspect ?</Dialogue>
+        <Dialogue>Bien sur, c'était un {gender} et autour {age} ans.</Dialogue>
+        <Dialogue>J'ai pu prendre une photo, la voici !</Dialogue>
+        <Dialogue>Merci, nous sommes à la recherche du suspect. Au revoir !</Dialogue>
     </Caller>
 
     <Genders>
-        <Text>female</Text>
-        <Text>male</Text>
-        <Text>non-binary</Text>
+        <Text>femme</Text>
+        <Text>homme</Text>
+        <Text>non-binaire</Text>
     </Genders>
 
     <Evidence>
-        <Dialogue>A Molotov cocktail, this was no accident... someone wanted to start a fire.</Dialogue>
-        <Dialogue>A jerrycan full of gasoline, looks like someone was preparing to ignite something.</Dialogue>
-        <Dialogue>A bong? Strange... maybe someone was too high to notice the fire they started.</Dialogue>
-        <Dialogue>A frag grenade. This is no simple fire, we're dealing with something far more dangerous.</Dialogue>
-        <Dialogue>A smoke grenade. Could have been used to cover up their tracks before setting the fire.</Dialogue>
-        <Dialogue>A broken bottle. It seems improvised, but it could have been used to start the fire.</Dialogue>
-        <Dialogue>A gas cylinder. If this went off, the whole area could've gone up in flames.</Dialogue>
-        <Dialogue>An oil drum. It's leaking... and highly flammable. Looks like someone wanted to spread the fire.</Dialogue>
-        <Dialogue>A petrol can. Smells like gasoline... someone really wanted to burn this place down.</Dialogue>
-        <Dialogue>A sock? Well, it might not seem like much, but it smells bad enough to be a fire hazard.</Dialogue>
-        <Dialogue>Typical. Somebody threw a burning cigarette in the trash, then it started igniting.</Dialogue>
-        <Dialogue>A sock? Well, it might not seem like much, but it smells bad enough to be a fire hazard.</Dialogue>
+        <Dialogue>Un cocktail Molotov, ce n'était pas un accident... quelqu'un voulait allumer un feu.</Dialogue>
+        <Dialogue>Un jerrican rempli d'essence, on dirait que quelqu'un se préparait à enflammer quelque chose.</Dialogue>
+        <Dialogue>Un bong ? Etrange... peut-etre que quelqu'un etait trop defoncé pour remarquer le feu qu'il a allumé.</Dialogue>
+        <Dialogue>Une grenade à fragmentation. Ce n'est pas un simple incendie, nous avons affaire à quelque chose de bien plus dangereux.</Dialogue>
+        <Dialogue>Une grenade fumigène. Elle a pu être utilisée pour brouiller les pistes avant de mettre le feu.</Dialogue>
+        <Dialogue>Une bouteille cassée. Elle semble improvisée, mais elle aurait pu etre utilisée pour déclencher l'incendie.</Dialogue>
+        <Dialogue>Une bouteille de gaz. Si elle avait explosée, tout le secteur aurait pu s'enflammer.</Dialogue>
+        <Dialogue>Un baril de petrole. Il fuit... et est hautement inflammable. On dirait que quelqu'un a voulu propager le feu.</Dialogue>
+        <Dialogue>Un bidon d'essence. ça sent l'essence... quelqu'un voulait vraiment mettre le feu à cet endroit.</Dialogue>
+        <Dialogue>Une chaussette à Bon, ça n'a l'air de rien, mais ça sent suffisamment mauvais pour etre un risque d'incendie.</Dialogue>
+        <Dialogue>Typique. Quelqu'un a jeté une cigarette allumée dans la poubelle, puis elle a commencé à s'enflammer.</Dialogue>
+        <Dialogue>Une chaussette ? ça n'a l'air de rien, mais ça sent assez mauvais pour être un risque d'incendie.</Dialogue>
     </Evidence>
 
     <End>
-        <Text>~g~Situation is Code 4.</Text>
+        <Text>~g~Situation est en code 4.</Text>
     </End>
     
 </BurningDumpster>

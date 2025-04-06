@@ -1,61 +1,61 @@
 <NoiseComplaint>
     <General>
-        <Text>Noise Complaint</Text>
-        <Text>Report of a loud house party</Text>
-        <Text>Neighbours called in a noise complaint. Make sure the ~o~event~s~ organizer lowers the music volume.</Text>
-        <Text>Press {Key} to adjust the volume for yourself.</Text>
+        <Text>Plainte pour bruit</Text>
+        <Text>Rapport d'une fête bruyante dans une maison</Text>
+        <Text>Des voisins ont déposé une plainte pour bruit. Assurez-vous que l'organisateur de la ~o~soirée~s~ baisse le volume de la musique.</Text>
+        <Text>Appuyez sur {Key} pour régler le volume vous-même.</Text>
     </General>
 
     <Persons>
-        <Text>You</Text>
-        <Text>Owner</Text>
+        <Text>Vous</Text>
+        <Text>Propriétaire</Text>
         <Text>DJ</Text>
     </Persons>
 
     <Tasks>
-        <Text>Leave the party by driving towards the ~y~yellow marker~s~.</Text>
-        <Text>Act like you think is right here, then talk to the ~g~~h~DJ~h~~s~.</Text>
-        <Text>A caller reported a noise complaint at the same adress as before. Respond Code 2.</Text>
+        <Text>Quittez le groupe en conduisant vers le ~y~marqueur jaune~s~.</Text>
+        <Text>Agissez comme vous le pensez ici, puis parlez au ~g~h~DJ~h~s~.</Text>
+        <Text>Un appelant a signalé une plainte pour bruit à la même adresse que précédemment. Répondre Code 2.</Text>
     </Tasks>
 
     <OwnerCooperative>
-        <Dialogue>Hello Officer, how can I help?</Dialogue>
-        <Dialogue>We got a call about the loud music. Please lower the volume.</Dialogue>
-        <Dialogue>If I need to come here again, you'll get a citation for the loud music.</Dialogue>
-        <Dialogue>Alright, alright, we will lower it.</Dialogue>
-        <Dialogue>Thanks for the cooperation, enjoy the night.</Dialogue>
+        <Dialogue>Bonjour Monsieur l'agent, comment puis-je vous aider ?</Dialogue>
+        <Dialogue>Nous avons reçu un appel au sujet de la musique forte. Veuillez baisser le volume.</Dialogue>
+        <Dialogue>Si je dois revenir ici, vous recevrez une contravention pour la musique bruyante.</Dialogue>
+        <Dialogue>D'accord, d'accord, nous allons baisser le volume.</Dialogue>
+        <Dialogue>Merci pour votre coopération, bonne soirée.</Dialogue>
     </OwnerCooperative>
 
     <OwnerUncooperative>
-        <Dialogue>Yoo, the po-po, what the fuck are you doing here?</Dialogue>
-        <Dialogue>We were disptached to this address about the loud music.</Dialogue>
-        <Dialogue>The fuck, does this look like a kindergarten? We're fucking partying!!</Dialogue>
-        <Dialogue>Sir, turn the music down immediately.</Dialogue>
-        <Dialogue>I'm doing shit, you gonna have to arrest me or leave, pig.</Dialogue>
+        <Dialogue>Yoo, le po-po, qu'est-ce que vous faites ici ?</Dialogue>
+        <Dialogue>Cette adresse nous a été signalée à cause de la musique trop forte.</Dialogue>
+        <Dialogue> Putain, ça ressemble à un jardin d'enfants ? On fait une putain de fête !</Dialogue>
+        <Dialogue>Monsieur, baissez la musique imédiatement.</Dialogue>
+        <Dialogue>Je mets le bazar, il va falloir m'arrêter ou partir, cochon.</Dialogue>
     </OwnerUncooperative>
 
     <OwnerSecond>
-        <Dialogue>Hello again, we got another call about your music being to loud.</Dialogue>
-        <Dialogue>And as I can hear you turned the volume up again instead of keeping it lower...</Dialogue>
-        <Dialogue>Oh common Officer, we just having fun, we have a big party going on.</Dialogue>
-        <Dialogue>That's fine, as long as the music is at an acceptable volume.</Dialogue>
-        <Dialogue>If I have to come again, you will be arrested!</Dialogue>
-        <Dialogue>I will give you a citation since it's the second time I'm here.</Dialogue>
-        <Dialogue>Have a nice, but quieter night.</Dialogue>
+        <Dialogue>Bonjour encore, nous avons reçu un autre appel concernant votre musique trop forte.</Dialogue>
+        <Dialogue>Et comme je peux l'entendre, vous avez encore augmenté le volume au lieu de le baisser...</Dialogue>
+        <Dialogue>Oh officier commun, nous nous amusons, nous avons une grande fête en cours.</Dialogue>
+        <Dialogue>C'est très bien, tant que la musique est à un volume acceptable.</Dialogue>
+        <Dialogue>Si je dois revenir, vous serez arrété!</Dialogue>
+        <Dialogue>Je vais vous adresser une contravention puisque c'est la deuxième fois que je viens ici.</Dialogue>
+        <Dialogue>Je vous souhaite une bonne nuit, mais plus calme.</Dialogue>
     </OwnerSecond>
 
     <DJ>
-        <Dialogue>Hello sir, you are the DJ here, right?</Dialogue>
-        <Dialogue>Yes sir, I'm sorry for the ~o~owner~s~, my name is ~g~DJ Moodyman~s~.</Dialogue>
-        <Dialogue>Oh, you have played on the yacht some time ago, right?</Dialogue>
-        <Dialogue>Yeah, I remember you were there. Anyways, what can I do for you?</Dialogue>
-        <Dialogue>Please turn down the volume, we have neighbours who feel bothered.</Dialogue>
-        <Dialogue>Oh yeah, no problem, I will. I'm sorry the owner is that uncooperative.</Dialogue>
-        <Dialogue>I'll see what I'll do with him. Have a nice day!</Dialogue>
+        <Dialogue>Bonjour monsieur, vous êtes le DJ ici, n'est-ce pas ?</Dialogue>
+        <Dialogue>Oui monsieur, je suis désolé pour le ~o~propriétaire~s~, mon nom est ~g~DJ Moodyman~s~.</Dialogue>
+        <Dialogue>Oh, vous avez déjà joué sur le yacht il y a quelque temps, n'est-ce pas ?</Dialogue>
+        <Dialogue>Ouais, je me souviens que vous ?éiez là. Quoi qu'il en soit, que puis-je faire pour vous ?</Dialogue>
+        <Dialogue>Veuillez baisser le volume, nous avons des voisins qui se sentent dérangés.</Dialogue>
+        <Dialogue>Oh oui, pas de problème, je le ferai. Je suis désolé que le propriétaire soit si peu coopératif.</Dialogue>
+        <Dialogue>Je vais voir ce que je peux faire avec lui. Bonne journ?e !</Dialogue>
     </DJ>
 
     <End>
-        <Text>~g~Callout is Code 4.</Text>
-        <Text>Press ~y~End~s~ anytime to end the callout.</Text>
+        <Text>~g~L'appel est en code 4.</Text>
+        <Text>Appuyez sur ~y~Fin~s~ à tout moment pour mettre fin à l'appel.</Text>
     </End>
 </NoiseComplaint>

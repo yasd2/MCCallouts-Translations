@@ -1,31 +1,31 @@
 <Burglary>
 
     <General>
-        <CalloutMessage>Citizen reports a Burglary</CalloutMessage>
-        <Text>Drive to the Burglary, proceed with caution.</Text>
-        <Text>Search for evidence, press {0} to pick up.</Text>
-        <Text>Inspect the area around the house.</Text>
+        <CalloutMessage>Un citoyen signale un cambriolage</CalloutMessage>
+        <Text>Conduisez jusqu'au cambriolage, soyez prudent.</Text>
+        <Text>Recherche de preuves, appuyez sur {0} pour décrocher.</Text>
+        <Text>Inspecter les alentours de la maison.</Text>
     </General>
 
     <FalseAlarm>
-        <Dialogue>Dispatch, nothing going on here.</Dialogue>
-        <Dialogue>Copy that, go back to patrol.</Dialogue>
+        <Dialogue>Dispatch, il ne se passe rien ici.</Dialogue>
+        <Dialogue>Copiez-le et retournez à la patrouille.</Dialogue>
     </FalseAlarm>
 
     <AnimalOnScene>
-        <Dialogue>Dispatch, false alarm, just an animal causing chaos.</Dialogue>
-        <Dialogue>Copy that, go back to patrol.</Dialogue>
+        <Dialogue>Dispatch, fausse alerte, juste un animal qui sème le chaos.</Dialogue>
+        <Dialogue>Copiez-le et retournez à la patrouille.</Dialogue>
     </AnimalOnScene>
 
     <BurglarLeft>
-        <Dialogue>Dispatch, we have signs of an intruder here, searching the scene.</Dialogue>
-        <Dialogue>Hmmm, that doesn't help.</Dialogue>
-        <Dialogue>Dispatch, I found a document of {DriversName}.</Dialogue>
-        <Dialogue>I got an ALPR hit on a speeding vehicle, owner is {DriversName}.</Dialogue>
+        <Dialogue>Dispatch, nous avons des signes d'intrusion ici, fouillez les lieux.</Dialogue>
+        <Dialogue>Hmmm, cela n'aide pas.</Dialogue>
+        <Dialogue>Dêpeche, j'ai trouvé un document de {DriversName}.</Dialogue>
+        <Dialogue>J'ai reçu une response positive de la BRI pour un vehicule en exces de vitesse. {DriversName}.</Dialogue>
     </BurglarLeft>
 
     <BurglarIsLeaving>
-        <Dialogue>Dispatch, one Vehicle ~r~fleeing~s~, two occupants!</Dialogue>
+        <Dialogue>Dispatch, un vehicule ~r~fleeing~s~, deux occupants !</Dialogue>
     </BurglarIsLeaving>
 
 </Burglary>

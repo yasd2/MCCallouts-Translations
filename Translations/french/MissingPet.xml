@@ -1,118 +1,118 @@
 <MissingPet>
 
     <General>
-        <Text>Missing Pet</Text>
-        <Text>Caller is worried about the pet</Text>
-        <Text>Drive to the ~b~~h~Caller~h~~s~ to learn more about the missing pet.</Text>
+        <Text>Animal disparu</Text>
+        <Text>L'interlocuteur s'inquiète pour l'animal</Text>
+        <Text>Aller voir ~b~h~l'interlocuteur~h~~s~ pour en savoir plus sur l'animal disparu.</Text>
     </General>
 
     <Persons>
-        <Dialogue>Caller</Dialogue>
-        <Dialogue>Driver</Dialogue>
-        <Dialogue>You</Dialogue>
-        <Dialogue>Victim</Dialogue>
+        <Dialogue>Interlocuteur</Dialogue>
+        <Dialogue>Conducteur</Dialogue>
+        <Dialogue>Vous</Dialogue>
+        <Dialogue>Victime</Dialogue>
     </Persons>
 
     <Tasks>
-        <Text>Press {Key} to speak to the person.</Text>
-        <Text>A report of a person being attacked by an animal came in!</Text>
-        <Text>Attempt to ~y~tase~s~ the pet to ~o~stop~s~ the attack!</Text>
-        <Text>The ~r~pet~s~ has ~g~stopped attacking~s~!</Text>
-        <Text>Call ~g~animal control~s~ for the pet.</Text>
-        <Text>Call an ~r~ambulance~s~ for the victim.</Text>
-        <Text>Talk to the victim with</Text>
-        <Text>Drive to the caller and give him/her an update.</Text>
-        <Text>Press ~y~J~s~ to ~r~teleport~s~ the pet in your vehicle!</Text>
-        <Text>~r~First get into a vehicle,~s~ then try again.</Text>
+        <Text>Appuyez sur {Key} pour parler à la personne.</Text>
+        <Text>On nous a signalé qu'une personne avait été attaquée par un animal!</Text>
+        <Text>Tentative de ~y~tasé~s~ l'animal pour ~o~stoper~s~ l'attaque!</Text>
+        <Text>~r~L'animal~s~ a ~g~arrété d'attaquer~s~!</Text>
+        <Text>Appeler le ~g~controle des animaux~s~ pour l'animal.</Text>
+        <Text>Appellez une ~r~ambulance~s~ pour la victime.</Text>
+        <Text>Parler à la victime avec</Text>
+        <Text>Conduire jusqu'à l'appelant et lui donner des nouvelles.</Text>
+        <Text>Appuyez sur ~y~J~s~ pour ~r~téléporter~s~ l'animal dans votre véhicule!</Text>
+        <Text>~r~Partez d'abord d'un véhicule,~s~ puis réessayez.</Text>
     </Tasks>
 
     <TasksAccident>
-        <Text>A person found a {PetTypeAsNormalWord} and reported it.</Text>
-        <Text>Drive to the location where the pet was found.</Text>
-        <Text>Call a ~b~~h~coroner~h~~s~ for the animal, then drive to the ~b~~h~caller~h~~s~ again.</Text>
+        <Text>Une personne a trouvé un {PetTypeAsNormalWord} et l'a signalé.</Text>
+        <Text>Conduire jusqu'à l'endroit ou l'animal a été trouvé.</Text>
+        <Text>Appeler un ~b~h~coroner~h~s~ pour l'animal, puis se rendre à nouveau à ~b~h~l'appelant~h~s~.</Text>
     </TasksAccident>
 
     <Animals>
-        <Text>Aggressive Dog</Text>
-        <Text>Mountain Lion</Text>
-        <Text>Dog</Text>
-        <Text>Cat</Text>
+        <Text>Chien agressif</Text>
+        <Text>Lion de montagne</Text>
+        <Text>Chien</Text>
+        <Text>Chat</Text>
         <Text>Coyote</Text>
-        <Text>Deer</Text>
-        <Text>Rabbit</Text>
-        <Text>Hen</Text>
-        <Text>Wild Boar</Text>
-        <Text>Monkey</Text>
-        <Text>Rhesus Monkey</Text>
+        <Text>Cerf</Text>
+        <Text>Lapin</Text>
+        <Text>Poule</Text>
+        <Text>Sanglier</Text>
+        <Text>Singe</Text>
+        <Text>Singe rhésus</Text>
     </Animals>
 
     <CallerGeneral>
-        <Dialogue>Hello! I can't find my pet!</Dialogue>
-        <Dialogue>It has been missing for {min} minutes, but it must be nearby!</Dialogue>
-        <Dialogue>Oh, sorry, it's a {PetTypeAsNormalWord}, and its name is {PetName}.</Dialogue>
-        <Dialogue>It just slipped away! Please find it!</Dialogue>
+        <Dialogue>Bonjour ! Je ne trouve pas mon animal!</Dialogue>
+        <Dialogue>Il a disparu depuis {min} minutes, mais il ne doit pas être loin !</Dialogue>
+        <Dialogue>Oh, désolé, c'est un {PetTypeAsNormalWord}, et son nom est {PetName}.</Dialogue>
+        <Dialogue>Il s'est échappé ! Veuillez le retrouver !</Dialogue>
     </CallerGeneral>
 
     <DriverAccident1>
-        <Dialogue>Hello Officer! Look what happened!</Dialogue>
-        <Dialogue>The animal ran in front of my car! I had no chance to avoid it!</Dialogue>
-        <Dialogue>My car is damaged too! Can you call me a taxi and tow truck?</Dialogue>
+        <Dialogue>Bonjour Officier ! Regardez ce qui c'est passé !</Dialogue>
+        <Dialogue>L'animal a couru devant ma voiture ! Je n'ai pas pu l'éviter !</Dialogue>
+        <Dialogue>Ma voiture est également endommagée ! Pouvez-vous m'appeler un taxi et une dépanneuse ? </Dialogue>
     </DriverAccident1>
 
     <DriverAccident2>
-        <Dialogue>Hello Officer, I'm so sorry, I was only driving when this animal ran across the street.</Dialogue>
-        <Dialogue>I wasn't able to react on time. Damn it.</Dialogue>
-        <Dialogue>As long as you are fine, everything is ok. Your vehicle is ok, too.</Dialogue>
-        <Dialogue>Thanks for the report, I will notify the owner then. Drive safe.</Dialogue>
+        <Dialogue>Bonjour Monsieur l'agent, je suis désolé, j'?tais en train de conduire quand cet animal a traversé la rue en courant.</Dialogue>
+        <Dialogue>Je n'ai pas pu réagir à temps. Merde !</Dialogue>
+        <Dialogue>Tant que vous allez bien, tout va bien. Votre véhicule va bien aussi.</Dialogue>
+        <Dialogue>Merci pour le rapport, je vais prévenir le propriétaire. Conduisez prudemment.</Dialogue>
     </DriverAccident2>
 
     <CallerReturnAccident1>
-        <Dialogue>Hello, I'm back with bad news.</Dialogue>
-        <Dialogue>Oh no, what happened?</Dialogue>
-        <Dialogue>The animal was hit by a car and didn't survive.</Dialogue>
-        <Dialogue>Oh, that's sad, but the pet wasn't mine; it belonged to my neighbors.</Dialogue>
-        <Dialogue>My neighbors will hate me forever, oh no...</Dialogue>
-        <Dialogue>Still, thanks for letting me know!</Dialogue>
-        <Dialogue>Oh no, have a good day anyway!</Dialogue>
+        <Dialogue>Bonjour, je suis de retour avec de mauvaises nouvelles.</Dialogue>
+        <Dialogue>Oh non, qu'est-ce qui c'est passé</Dialogue>
+        <Dialogue>L'animal a été renversé par une voiture et n'a pas survécu.</Dialogue>
+        <Dialogue>Oh, c'est triste, mais l'animal n'était pas à moi, il appartenait à mes voisins.</Dialogue>
+        <Dialogue>Mes voisins vont me détester pour toujours, oh non...</Dialogue>
+        <Dialogue>Néanmoins, merci de me l'avoir fait savoir !</Dialogue>
+        <Dialogue>Oh non, bonne journée quand même !</Dialogue>
     </CallerReturnAccident1>
 
     <CallerReturnAccident2>
-        <Dialogue>Hi...</Dialogue>
-        <Dialogue>And... have you found the pet?</Dialogue>
-        <Dialogue>I'm sorry, but your pet was overdriven by accident. Somebody just reported that.</Dialogue>
-        <Dialogue>Oh damn it... It wasn't my pet, my neighbors are on holidays and I took over...</Dialogue>
-        <Dialogue>Is there anything else I can do for you?</Dialogue>
-        <Dialogue>No thank you... damn... how should I explain this...</Dialogue>
+        <Dialogue>Salut...</Dialogue>
+        <Dialogue>Et... avez-vous trouvé l'animal ?</Dialogue>
+        <Dialogue>Je suis désolé, mais votre animal a été surmultiplié par accident. Quelqu'un vient de le signaler.</Dialogue>
+        <Dialogue>Oh bon sang... Ce n'était pas mon animal, mes voisins sont en vacances et j'ai pris le relais...</Dialogue>
+        <Dialogue>Est-ce que je peux faire autre chose pour vous ?</Dialogue>
+        <Dialogue>Non merci... bon sang... comment expliquer cela...</Dialogue>
     </CallerReturnAccident2>
 
     <DriverAttackSafed1>
-        <Dialogue>Omg, thank you for saving me!</Dialogue>
-        <Dialogue>I was minding my own business when suddenly this animal came straight at me!</Dialogue>
-        <Dialogue>No problem, I'm glad you're safe.</Dialogue>
-        <Dialogue>Thank you, have a nice day!</Dialogue>
+        <Dialogue>Omg, merci de m'avoir sauvé!</Dialogue>
+        <Dialogue>Je m'occupais de mes affaires quand soudain cet animal m'a foncé dessus !</Dialogue>
+        <Dialogue>Pas de problème, je suis content que vous soyez en sécurité.</Dialogue>
+        <Dialogue>Merci, bonne journée !</Dialogue>
     </DriverAttackSafed1>
 
     <CallerAttackReturnPetAlive2>
-        <Dialogue>Hey, I've brought your pet back!</Dialogue>
-        <Dialogue>Awesome, thank you! Where have you been, {PetName}?</Dialogue>
-        <Dialogue>I can tell you, your pet attacked an innocent civilian!</Dialogue>
-        <Dialogue>Oh, I'm so sorry, I hope he's not badly hurt.</Dialogue>
-        <Dialogue>I need your details such as I.D and I will file a report.</Dialogue>
-        <Dialogue>As soon as it's finished, you're free to go.</Dialogue>
+        <Dialogue>Hey, j'ai ramené votre animal!</Dialogue>
+        <Dialogue>Merveilleux, merci ! Ou étais-tu, {PetName} ?</Dialogue>
+        <Dialogue>Je peux vous dire que votre animal a attaqué un civil innocent !</Dialogue>
+        <Dialogue>Oh, je suis vraiment désolé, j'espère qu'il n'est pas gravement blessé.</Dialogue>
+        <Dialogue>J'ai besoin de vos coordonnées comme une pièce d'identité et je vais faire un rapport.</Dialogue>
+        <Dialogue>Dès que c'est terminé, vous êtes libre de partir.</Dialogue>
     </CallerAttackReturnPetAlive2>
 
     <CallerAttackReturnPetDead2>
-        <Dialogue>Hello, I have bad news for you. Unfortunately your pet attacked a civilian.</Dialogue>
-        <Dialogue>I was forced to use lethal force, the pet is deceased.</Dialogue>
-        <Dialogue>Oh okay, I am so sorry, I hope the person is not hurt?</Dialogue>
-        <Dialogue>The person is fine.</Dialogue>
-        <Dialogue>For the future I will be more careful with my pets.</Dialogue>
-        <Dialogue>Most important is that everyone is safe. Have a good day.</Dialogue>
+        <Dialogue>Bonjour, j'ai de mauvaises nouvelles pour vous. Malheureusement, votre animal a attaqué un civil.</Dialogue>
+        <Dialogue>J'ai été obligé d'utiliser la force létale, l'animal est décédé.</Dialogue>
+        <Dialogue>Oh ok, je suis vraiment désolé, j'espère que la personne n'est pas blessée?</Dialogue>
+        <Dialogue>La personne va bien.</Dialogue>
+        <Dialogue>A l'avenir, je serai plus prudent avec mes animaux de compagnie.</Dialogue>
+        <Dialogue>Le plus important, c'est que tout le monde soit en sécurité. Passez une bonne journée.</Dialogue>
     </CallerAttackReturnPetDead2>
 
     <End>
-        <Text>Press ~y~End~s~ anytime to end the callout.</Text>
-        <Text>~g~Callout is Code 4.</Text>
+        <Text>Appuyez sur ~y~Fin~s~ à tout moment pour mettre fin à l'appel.</Text>
+        <Text>~g~L'appel est en code 4.</Text>
     </End>
 
 </MissingPet>

@@ -1,75 +1,75 @@
 <MinorAlcohol>
 
     <General>
-        <Text>Reports of underage drinking</Text>
-        <Text>Callout ended</Text>
-        <Text>Head to the Location.</Text>
-        <Text>No further dialogue.</Text>
-        <Text>Check the ID and do a field sobriety test.</Text>
-        <Text>Talk with {0}</Text>
-        <Text>Drive to the ~q~Yacht~s~ and speak with the ~q~Captain~s~.</Text>
+        <Text>Rapports sur la consommation d'alcool par des mineurs</Text>
+        <Text>Appel terminé</Text>
+        <Text>En route vers le lieu de tournage</Text>
+        <Text>Pas d'autre dialogue</Text>
+        <Text>Vérifier l'identité et faire un test de sobriété sur le terrain.</Text>
+        <Text>Parler avec {0}</Text>
+        <Text>Conduire jusqu'au ~q~Yacht~s~ et parler avec le ~q~Capitaine~s~.</Text>
     </General>
 
     <Music>
-        <Text>Press {0} to ~b~adjust~s~ the volume of the music.</Text>
-        <Text>Press {0} and {1} to ~b~adjust~s~ the volume of the music.</Text>
-        <Text>Settings</Text>
+        <Text>Appuyez sur {0} pour ~b~ajuster~s~ le volume de la musique.</Text>
+        <Text>Appuyez sur {0} et {1} pour ~b~ajuster~s~ le volume de la musique.</Text>
+        <Text>Réglages</Text>
         <Text>Volume</Text>
-        <Text><![CDATA[<- Lower; Rise ->]]></Text>
-        <Text>Start random track</Text>
-        <Text>Starts a random track from the music folder</Text>
+        <Text><![CDATA[<- Plus bas; S'élever ->]]></Text>
+        <Text>Démarrer une piste aléatoire</Text>
+        <Text>Démarre une piste aléatoire à partir du dossier musical</Text>
     </Music>
 
     <Characters>
-        <Text>~b~You: ~s~</Text>
+        <Text>~b~Vous: ~s~</Text>
         <Text>~y~Person: ~s~</Text>
-        <Text>~q~Captain: ~s~</Text>
+        <Text>~q~Capitaine: ~s~</Text>
         <Text>~r~Assistant Caty: ~s~</Text>
         <Text>~r~Assistant Nicole: ~s~</Text>
     </Characters>
 
     <TalkToCaptain>
-        <Dialogue>Hello there, thanks for coming out!</Dialogue>
-        <Dialogue>We have a big party tonight, the famous ~g~DJ Moodyman~s~ is mixing!</Dialogue>
-        <Dialogue>Unfortunately it seems like we have a few minors with us.</Dialogue>
-        <Dialogue>Please check on them, we can't have them here.</Dialogue>
-        <Dialogue>Check the possible fitting persons.</Dialogue>
+        <Dialogue>Bonjour à tous, merci d'être venus!</Dialogue>
+        <Dialogue>Nous avons une grande fête ce soir, le célèbre ~g~DJ Moodyman~s~ mixe!</Dialogue>
+        <Dialogue>Malheureusement, il semble que nous ayons quelques mineurs avec nous.</Dialogue>
+        <Dialogue>Vérifiez s'il vous plait, nous ne pouvons pas les avoir ici.</Dialogue>
+        <Dialogue>Vérifiez les personnes susceptibles de s'adapter.</Dialogue>
     </TalkToCaptain>
 
     <Caty>
-        <Dialogue>Hi, I hope you can find the youngsters on board, check the back of the ship!</Dialogue>
-        <Dialogue>~g~DJ Moodyman~s~ is playing on the top platform, make sure not to go on stage to ruin the party c;</Dialogue>
+        <Dialogue>Hi, j'espère que vous trouverez les jeunes à bord, vérifiez l'arrière du navire!</Dialogue>
+        <Dialogue>~g~DJ Moodyman~s~ joue sur la plateforme supérieure, veillez à ne pas monter sur scène pour gacher la fête c;</Dialogue>
     </Caty>
 
     <Nicole>
-        <Dialogue>Oh hey there, Officer..</Dialogue>
-        <Dialogue>If you need anything, just contact me, we'll help whenever we can!</Dialogue>
+        <Dialogue>Oh salut, Officier...</Dialogue>
+        <Dialogue>Si vous avez besoin de quoi que ce soit, contactez-moi, nous vous aiderons autant que possible!</Dialogue>
     </Nicole>
 
     <PedToCheck0>
-        <Dialogue>Hello, I'm an officer from the local police department!</Dialogue>
-        <Dialogue>We've got a complaint about minors celebrating and drinking.</Dialogue>
-        <Dialogue>I need to see your ID, please and I might do some field sobriety tests.</Dialogue>
+        <Dialogue>Bonjour, je suis un officier de la police!</Dialogue>
+        <Dialogue>Nous avons une plainte concernant des mineurs qui font la fête et boivent.</Dialogue>
+        <Dialogue>J'ai besoin de voir votre pièce d'identité, s'il vous plait, et je pourrais faire quelques tests de sobriété sur le terrain.</Dialogue>
     </PedToCheck0>
 
     <PedToCheck1>
-        <Dialogue>Hello, I'm an officer from the local police department!</Dialogue>
-        <Dialogue>We've got a call about underage partying and drinking.</Dialogue>
-        <Dialogue>Please give me your ID, additionally we might do a breathalizer.</Dialogue>
+        <Dialogue>Bonjour, je suis un officier de la police!</Dialogue>
+        <Dialogue>Nous avons reçu un appel concernant des mineurs qui font la fête et boivent.</Dialogue>
+        <Dialogue>Veuillez me donner votre carte d'identité, de plus nous pourrions faire un alcootest.</Dialogue>
     </PedToCheck1>
 
     <PedToCheck2>
-        <Dialogue>Hi, I'm an police officer.</Dialogue>
-        <Dialogue>Someone called us about underage partying and drinking.</Dialogue>
-        <Dialogue>I need to see your ID and we might do a field sobriety tests.</Dialogue>
+        <Dialogue>Bonjour, je suis un agent de police.</Dialogue>
+        <Dialogue>Quelqu'un nous a appelé à propos d'une fête et d'une consommation d'alcool par des mineurs.</Dialogue>
+        <Dialogue>J'ai besoin de voir votre carte d'identité et nous pourrions faire un test de sobriété sur le terrain.</Dialogue>
     </PedToCheck2>
 
     <Transport>
-        <Text>Press ~y~1~s~ when you're finished to ~y~teleport~s~ you and the suspects to the ~b~police transporter~s~.</Text>
-        <Text>Take the suspect(s) to the ~b~blue marker~s~ to make them sit in the police boat.</Text>
-        <Text>Drive the suspects to the jail, press ~y~End~s~ anytime to end the callout.</Text>
-        <Text>Please ~b~let go~s~ of the suspect and ~b~move back~s~ a bit.</Text>
-        <Text>The ~b~Suspect~s~ is now waiting in the police boat.</Text>
+        <Text>Appuyez sur ~y~1~s~ lorsque vous avez terminé, ~y~téléporter~s~ vous avec les suspects vers le ~b~transporteur de la police~s~.</Text>
+        <Text>Amenez le(s) suspect(s) au ~b~marqueur bleu~s~ pour les faire asseoir dans le bateau de la police.</Text>
+        <Text>Conduisez les suspects à la prison, appuyez sur ~y~Fin~s~ à tout moment pour mettre fin à l'appel.</Text>
+        <Text>Veuillez ~b~lacher~s~ le suspect et ~b~reculer~s~ un peu.</Text>
+        <Text>Le ~b~Suspect~s~ attend maintenant dans le bateau de la police.</Text>
     </Transport>
 
 </MinorAlcohol>
