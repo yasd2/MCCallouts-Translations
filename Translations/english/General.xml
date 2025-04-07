@@ -2,7 +2,7 @@
     <UpdateChecker>
         <Text>MCCallouts 的最新版本 c; </Text>
         <Text>MCCallouts 的 Beta/未来版本 c: </Text>
-        <Text>~r~检测到旧版本.~w~~n~尽可能更新!</Text>
+        <Text>~r~检测到旧版本.~w~~n~请尽可能更新!</Text>
         <Text>~y~MCCallouts 已加载~w~ 但我们 ~r~无法检查~w~ 是否有更新.</Text>
         <Text>~y~MCCallouts ~g~已加载~w~!~n~巡逻愉快!</Text>
     </UpdateChecker>
