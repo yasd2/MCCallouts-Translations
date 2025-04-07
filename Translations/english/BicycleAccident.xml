@@ -1,218 +1,218 @@
 <BicycleAccident>
 
     <General>
-        <Text>Bicycle traffic accident</Text>
-        <Text>Analyse the scene</Text>
-        <Text>And have you found out what caused this accident?</Text>
-        <Text>Callout Bicycle Accident ended.</Text>
+        <Text>自行车交通事故</Text>
+        <Text>调查现场</Text>
+        <Text>您查明造成这次事故的原因了吗?</Text>
+        <Text>自行车事故已结束.</Text>
     </General>
 
 
     <D_Witness1_0>
-        <Dialogue>Hi, my name is Greg. I tell you why this happened.</Dialogue>
-        <Dialogue>See this suspect over there? He should be citated.</Dialogue>
-        <Dialogue>He was driving too fast over the speed limit.</Dialogue>
-        <Dialogue>People don't care about the speed limit these days.</Dialogue>
+        <Dialogue>嗨，我叫格雷格。我来告诉你为什么会发生这种事.</Dialogue>
+        <Dialogue>看到那边的嫌疑犯了吗？他应该被传唤.</Dialogue>
+        <Dialogue>他开车的速度太快，超出了限速.</Dialogue>
+        <Dialogue现在人们不再关心速度限制.</Dialogue>
     </D_Witness1_0>
 
     <D_Witness2_0>
-        <Dialogue>Hello. I saw a part of the accident.</Dialogue>
-        <Dialogue>He was waiting on the sidewalk and looking back towards the oncoming vehicles.</Dialogue>
-        <Dialogue>He had something in his hands, too. I couldn't see it.</Dialogue>
-        <Dialogue>I'm not 100% sure and don't wanna blame the cyclist, but he looked nervous.</Dialogue>
-        <Dialogue>Then I was minding my own business when I heard a loud boom, that was when it happened.</Dialogue>
+        <Dialogue>你好。我看到了事故的一部分.</Dialogue>
+        <Dialogue>他在人行道上等候，并回头望向迎面驶来的车辆.</Dialogue>
+        <Dialogue>他手里好像还拿着什么东西.</Dialogue>
+        <Dialogue>我不是 100% 确定，也不想责怪骑自行车的人，但他看起来很紧张.</Dialogue>
+        <Dialogue>然后我正在忙自己的事情，突然听到一声巨响，事情就在那时发生了.</Dialogue>
     </D_Witness2_0>
 
     <D_Witness3_0>
-        <Dialogue>My name is Paul, I am telling you, we need more protection for bicyclists.</Dialogue>
-        <Dialogue>There is no bikeway, where should a bike rider safely drive then?</Dialogue>
-        <Dialogue>But you can't blame the car driver, this bicyclist was just stupid.</Dialogue>
-        <Dialogue>He looked to the right, right at the oncoming vehicle. That's when he started to ride.</Dialogue>
-        <Dialogue>That's stupid, isn't it?</Dialogue>
+        <Dialogue>我的名字是保罗，我告诉你，我们需要为骑自行车的人提供更多的保护.</Dialogue>
+        <Dialogue>没有自行车道，骑自行车的人该去哪里安全行驶？</Dialogue>
+        <Dialogue>但你不能责怪汽车司机，这个骑自行车的人只是太愚蠢了.</Dialogue>
+        <Dialogue>他向右看去，正好看到迎面驶来的车辆。但这时候他开始骑行.</Dialogue>
+        <Dialogue>这很愚蠢，不是吗?</Dialogue>
     </D_Witness3_0>
 
     <D_Witness4_Driver_0>
-        <Dialogue>Hello, I'm Sarah. I saw what happened while driving.</Dialogue>
-        <Dialogue>The suspect was clearly up to something.</Dialogue>
-        <Dialogue>Oh sorry, I should mention I'm talking about the bike rider.</Dialogue>
-        <Dialogue>He had a camera in his hand, it looked like he wanted to film it.</Dialogue>
-        <Dialogue>It looked like the cyclist wanted to jump right in front of the vehicle.</Dialogue>
+        <Dialogue>你好，我是 Sarah。我在开车时看到了发生的事情.</Dialogue>
+        <Dialogue>嫌疑人显然在策划什么阴谋.</Dialogue>
+        <Dialogue>哦，抱歉，我应该说一下，我在谈论骑自行车的人.</Dialogue>
+        <Dialogue>他手里拿着一部手机，看上去他想拍摄它.</Dialogue>
+        <Dialogue>看起来骑车的人想要直接跳到车辆前面.</Dialogue>
     </D_Witness4_Driver_0>
 
     <D_Suspect_0>
-        <Dialogue>Hello Officer, I'm sorry for all that.</Dialogue>
-        <Dialogue>Was it the fault of the cyclist? Or mine? I haven't seen the biker at all.</Dialogue>
-        <Dialogue>I was driving when suddenly the cyclist was right in front of me.</Dialogue>
-        <Dialogue>I hit the brakes hard, but it wasn't enough. I hope he will be fine.</Dialogue>
-        <Dialogue>My car is badly damaged, but the insurance will take care of that.</Dialogue>
+        <Dialogue>警官您好，我对发生的一切深感抱歉.</Dialogue>
+        <Dialogue>是骑车人的错吗？还是我的错？我根本没看到骑车人.</Dialogue>
+        <Dialogue>我正在开车，突然一个骑自行车的人出现在我面前.</Dialogue>
+        <Dialogue>我已经用力踩刹车了,但还是发生了这种事。希望他没事.</Dialogue>
+        <Dialogue>虽然我的车受损严重，但保险公司会处理.</Dialogue>
     </D_Suspect_0>
 
 
     <D_Witness1_1>
-        <Dialogue>Yo, why does this take so long?! I'm in a hurry.</Dialogue>
-        <Dialogue>I'm on the way to work, I am already 5 minutes late!</Dialogue>
-        <Dialogue>I only saw the biker drive like hell, way too fast.</Dialogue>
-        <Dialogue>He was driving very fast on the sidewalk, that's what I saw.</Dialogue>
-        <Dialogue>I really need to go now, bye!</Dialogue>
+        <Dialogue>哟，为什么这花了这么长时间？！我很着急.</Dialogue>
+        <Dialogue>我要去上班，已经迟到了5分钟啦!</Dialogue>
+        <Dialogue>我只看到骑车人开车飞驰，速度太快了.</Dialogue>
+        <Dialogue>我看到他在人行道上骑得非常快.</Dialogue>
+        <Dialogue>我现在真的需要走了，再见!</Dialogue>
     </D_Witness1_1>
 
     <D_Witness2_1>
-        <Dialogue>Hi, my name is Linda. These cyclists, always blocking the road!</Dialogue>
-        <Dialogue>No wonder accidents like these happen. Drivers need to be fast at their destination and can't wait for riders.</Dialogue>
-        <Dialogue>This bike rider wasn't even wearing a helmet! How negligent!</Dialogue>
-        <Dialogue>This biker drove like hell. And all the other cars need to dangerously take over, risking the lives of the oncoming traffic!</Dialogue>
-        <Dialogue>I'll tell you, you need to keep an eye on this cyclist.</Dialogue>
+        <Dialogue>嗨，我叫琳达。这些骑自行车的人总是堵住路!</Dialogue>
+        <Dialogue>难怪会发生这样的事故。司机需要快速到达目的地，不能等待乘客.</Dialogue>
+        <Dialogue>骑自行车的人甚至没有戴头盔！太疏忽大意了!</Dialogue>
+        <Dialogue>这个骑车人开车太疯狂了!这是在危及其它车辆人员的安全</Dialogue>
+        <Dialogue>我告诉你，你需要留意这个骑自行车的人.</Dialogue>
     </D_Witness2_1>
 
     <D_Witness3_1>
-        <Dialogue>Hi, I am Paul. I would like to report. Wow, I really like your uniform.</Dialogue>
-        <Dialogue>What kind of pistol are you carrying? Is it the SFP9? What a nice gun.</Dialogue>
-        <Dialogue>Oh yeah, sorry, first of all I saw the biker wasn't carrying a helmet.</Dialogue>
-        <Dialogue>Write down: The cyclist wore headphones and wasn't carrying a helmet while riding.</Dialogue>
-        <Dialogue>Tell me, Do I have what it takes to be a police officer?</Dialogue>
+        <Dialogue>嗨，我是保罗.我想报告/哇,我真的很喜欢你的制服.</Dialogue>
+        <Dialogue>你带的是什么手枪？是glock吗？多好的枪啊.</Dialogue>
+        <Dialogue>哦，是的，抱歉，首先我看到骑车人没有戴头盔.</Dialogue>
+        <Dialogue>记下来：骑车人骑车时戴着耳机，没有戴头盔.</Dialogue>
+        <Dialogue>告诉我，我有具备成为一名警察的素质吗?</Dialogue>
     </D_Witness3_1>
 
     <D_Witness4_Driver_1>
-        <Dialogue>Hello, I am Sarah. I drove towards the accident in the oncoming lane. I saw everything.</Dialogue>
-        <Dialogue>The car was parked, then the driver was about to drive off.</Dialogue>
-        <Dialogue>That's when the cyclist switched from sidewalk to the street, he wasn't even looking.</Dialogue>
-        <Dialogue>The cyclist was driving fast. That's all what I saw.</Dialogue>
+        <Dialogue>你好，我是莎拉。我开车沿着对面车道驶向事故现场。我看到了一切.</Dialogue>
+        <Dialogue>汽车停了下来，然后司机正要开走.</Dialogue>
+        <Dialogue>就在那时，骑车人从人行道转向街道，他甚至没有看.</Dialogue>
+        <Dialogue>骑自行车的人骑得很快。这就是我看到的一切.</Dialogue>
     </D_Witness4_Driver_1>
 
 
     <D_Suspect_1_2>
-        <Dialogue>Hello, what a scene we have here. All because this biker cut me off.</Dialogue>
-        <Dialogue>Stupid bikers, now look at my car! The front is screwed!</Dialogue>
-        <Dialogue>I just bought this vehicle, it's not even a month old!</Dialogue>
-        <Dialogue>The biker drove on the sidewalk, then suddenly drove into me. I had no chance to react.</Dialogue>
-        <Dialogue>I hope he gets well soon, don't get me wrong. But I wasn't at fault.</Dialogue>
+        <Dialogue>你好，我们这里真是一片混乱。都是因为这个骑车人.</Dialogue>
+        <Dialogue>愚蠢的骑车人，现在看看我的车！车头都坏了!</Dialogue>
+        <Dialogue>我刚买了这辆车还不到一个月!</Dialogue>
+        <Dialogue>骑车人沿着人行道行驶，然后突然撞向我。我根本没时间做出反应.</Dialogue>
+        <Dialogue>希望他早日康复，别误会我的意思.</Dialogue>
     </D_Suspect_1_2>
 
     <D_Witness1_2>
-        <Dialogue>Yo, I'm in a hurry, make it quick. Listen.</Dialogue>
-        <Dialogue>My name? It's Greg. I need to get to work fast.</Dialogue>
-        <Dialogue>I only saw the car speeding, way too fast.</Dialogue>
-        <Dialogue>I don't know anything about the bicycle, I didn't see it.</Dialogue>
-        <Dialogue>Can I go now? That's all I know.</Dialogue>
+        <Dialogue>哟，我很着急，快点。听着.</Dialogue>
+        <Dialogue>我的名字？我叫 Greg。我得赶紧去上班了.</Dialogue>
+        <Dialogue>我只看到车子在飞驰，速度太快了.</Dialogue>
+        <Dialogue>我对这辆自行车一无所知，我没有看到它.</Dialogue>
+        <Dialogue>我现在可以走了吗？我只知道这么多.</Dialogue>
     </D_Witness1_2>
 
     <D_Witness2_2>
-        <Dialogue>Hey, my name is Linda. Man, look at that bicycle, completely screwed.</Dialogue>
-        <Dialogue>I was watching the biker, because of the bicycle. That is or was... my favorite one.</Dialogue>
-        <Dialogue>Oh sorry, he was driving on the side of the road. Suddenly he was hit from behind.</Dialogue>
-        <Dialogue>I heard loud braking and then... the bicycle flew away...</Dialogue>
+        <Dialogue>嘿，我叫琳达。天哪，看看那辆自行车，完全坏了.</Dialogue>
+        <Dialogue>我因为那辆自行车而注视着那位骑车人。那是……我最喜欢的一辆.</Dialogue>
+        <Dialogue>哦，对不起，他当时正在路边骑车。突然被人从后面撞了.</Dialogue>
+        <Dialogue>我听到很大的刹车声然后...自行车飞出去了...</Dialogue>
     </D_Witness2_2>
 
     <D_Witness3_2>
-        <Dialogue>Oh hey Officer, I am Paul, nice to meet you!</Dialogue>
-        <Dialogue>You know I was thinking about working on the force, I am made for it.</Dialogue>
-        <Dialogue>I was walking when I saw this bike rider. He wasn't wearing a helmet and had no front bike light.</Dialogue>
-        <Dialogue>Sometimes it's hard to see people with dark clothes, especially in bad weather conditions.</Dialogue>
+        <Dialogue>哦嘿警官，我是保罗，很高兴见到你!</Dialogue>
+        <Dialogue>你知道我曾考虑在警队工作，我天生就适合做这件事.</Dialogue>
+        <Dialogue>我走路的时候看到了这个骑自行车的人。他没戴头盔.</Dialogue>
+        <Dialogue>有时很难看到穿深色衣服的人，尤其是在恶劣的天气条件下.</Dialogue>
     </D_Witness3_2>
 
     <D_Witness4_Driver_2>
-        <Dialogue>Hi! My name is Sarah. I work in the bakery nearby.</Dialogue>
-        <Dialogue>I was looking out the window when I saw a car driving by.</Dialogue>
-        <Dialogue>It could have been speeding, but I saw him on his phone. I'm pretty sure it was this car.</Dialogue>
-        <Dialogue>I ran outside when I heard the loud bang. That's when I saw the incident.</Dialogue>
+        <Dialogue>嗨！我叫莎拉。我在附近的面包店工作.</Dialogue>
+        <Dialogue>当我正看着窗外时，看到一辆车驶过.</Dialogue>
+        <Dialogue>可能是超速了，但我看到他正在打电话。我很确定是这辆车.</Dialogue>
+        <Dialogue>听到巨响后我跑了出去。那时我才看到事发经过.</Dialogue>
     </D_Witness4_Driver_2>  
 
 
     <Persons>
-        <Text>You</Text>
-        <Text>Greg</Text>
-        <Text>Linda</Text>
-        <Text>Paul</Text>
-        <Text>Sarah</Text>
-        <Text>Paramedic</Text>
-        <Text>Victim</Text>
-        <Text>Peter</Text>
-        <Text>Isabella</Text>
-        <Text>Officer Thompson</Text>
-        <Text>Officer Reynolds</Text>
-        <Text>Officer Harrison</Text>
-        <Text>Officer Clinton</Text>
-        <Text>Firefighter</Text>
+        <Text>警员</Text>
+        <Text>格雷格</Text>
+        <Text>琳达</Text>
+        <Text>保罗</Text>
+        <Text>莎拉</Text>
+        <Text>护理人员</Text>
+        <Text>受害者</Text>
+        <Text>彼得</Text>
+        <Text>伊莎貝拉</Text>
+        <Text>汤普森警官</Text>
+        <Text>雷诺兹警官</Text>
+        <Text>哈里森警官</Text>
+        <Text>克林顿警官</Text>
+        <Text>消防员</Text>
     </Persons>
 
 
     <D_Paramedic1>
-        <Dialogue>Hey, how is it going? Don't get distracted from my big ass crowex watch for 10.000.</Dialogue>
-        <Dialogue>Oh, how's the patient doing? The cyclist doesn't look good. He is badly injured.</Dialogue>
-        <Dialogue>He is not responsive, so we need to take him to the hospital immediately.</Dialogue>
+        <Dialogue>嘿，最近怎么样？别被我那辆价值 10,000 美元的crowex手表分散了注意力.</Dialogue>
+        <Dialogue>哦，伤者怎么样了？骑自行车的人看起来不太好。他受了重伤.</Dialogue>
+        <Dialogue>他没有反应，所以我们需要立即带他去医院.</Dialogue>
     </D_Paramedic1>
 
     <D_Paramedic2>
-        <Dialogue>I don't have time to chat. The biker has some bad wounds, so please don't interrupt.</Dialogue>
-        <Dialogue>* groans * ...</Dialogue>
+        <Dialogue>我没时间聊天。骑车人受了重伤，请不要打扰.</Dialogue>
+        <Dialogue>*呻吟* ...</Dialogue>
     </D_Paramedic2>
 
     <D_Officer1>
-        <Dialogue>Hey Officer! Thanks for showing up! We have some kind of traffic accident here.</Dialogue>
-        <Dialogue>Feel free to interview the witnesses, I'll hang around here in the meantime.</Dialogue>
-        <Dialogue>Find out who's at fault and what's even going on here. If you finished investigating, talk to me again! Good luck!</Dialogue>
+        <Dialogue>嘿，警官！感谢您前来！我们这里发生了交通事故.</Dialogue>
+        <Dialogue>请随意采访目击者，我会在这里逗留一段时间.</Dialogue>
+        <Dialogue>找出谁是罪魁祸首，以及这里到底发生了什么。如果你调查完毕，再跟我谈谈！祝你好运!</Dialogue>
     </D_Officer1>
 
 
     <D_Officer1_InsuranceFraud>
-        <Dialogue>The cyclist attempted to commit insurance fraud against the driver.</Dialogue>
-        <Dialogue>As soon as he is cleared by medical we will arrest him! Thanks so far!</Dialogue>
+        <Dialogue>骑自行车的人试图对司机实施保险欺诈.</Dialogue>
+        <Dialogue>一旦医生确认他没事，我们就会逮捕他！到目前为止，谢谢!</Dialogue>
     </D_Officer1_InsuranceFraud>
 
     <D_Officer1_BikersFault>
-        <Dialogue>The cyclist clearly didn't focus on the road. It's his fault.</Dialogue>
-        <Dialogue>Alright, as soon as he is cleared by medical he will get a fine! Thank you!</Dialogue>
+        <Dialogue>骑车人显然没有专心看路。这是他的错.</Dialogue>
+        <Dialogue>好的，只要医生确认无误，他就会被罚款！谢谢!</Dialogue>
     </D_Officer1_BikersFault>
 
     <D_Officer1_DriversFault>
-        <Dialogue>The driver clearly didn't follow traffic laws. He is to blame!</Dialogue>
-        <Dialogue>Understood, arrest the driver!</Dialogue>
+        <Dialogue>司机显然没有遵守交通法规。他应该受到指责!</Dialogue>
+        <Dialogue>明白，逮捕司机!</Dialogue>
     </D_Officer1_DriversFault>
 
 
     <D_Officer2>
-        <Dialogue>I haven't had my morning coffee, our machine is broken...</Dialogue>
+        <Dialogue>我还没喝早晨的咖啡，我们的机器坏了...</Dialogue>
     </D_Officer2>
 
     <D_Officer3>
-        <Dialogue>Hey, this person saw something, you might talk to them.</Dialogue>
+        <Dialogue>嘿，这个人看到了一些东西，你可以和他们谈谈.</Dialogue>
     </D_Officer3>
 
     <D_Officer4>
-        <Dialogue>Hi partner, what a bad accident. Make sure to interview all witnesses.</Dialogue>
+        <Dialogue>嗨 伙计，这是一场严重的事故。一定要采访所有目击者.</Dialogue>
     </D_Officer4>
 
     <D_Fireman1>
-        <Dialogue>This vehicle has bad front damage.</Dialogue>
-        <Dialogue>We're just here in case the vehicle burns or looses oil.</Dialogue>
+        <Dialogue>这辆车前部损坏严重.</Dialogue>
+        <Dialogue>我们来这里只是为了以防车辆烧毁或漏油.</Dialogue>
     </D_Fireman1>
 
     <D_Fireman3>
-        <Dialogue>Man, I love coffee from Bean Machine, especially in the night shifts. You should try it!</Dialogue>
+        <Dialogue>伙计，我喜欢 Bean Machine 的咖啡，尤其是在夜班。你应该试试!</Dialogue>
     </D_Fireman3>
 
 
     <Menu>
-        <Text>Scenario</Text>
-        <Text>Traffic Accident</Text>
-        <Text>Choose the right one!</Text>
+        <Text>场景</Text>
+        <Text>交通事故</Text>
+        <Text>选择正确的一个!</Text>
 
-        <Text>Insurance Fraud</Text>
-        <Text>The cyclist did it on purpose!</Text>
-        <Text>The cyclist attempted Insurance Fraud!</Text>
+        <Text>保险欺诈</Text>
+        <Text>骑自行车的人是故意这样做的!</Text>
+        <Text>该骑车人企图进行保险欺诈!</Text>
 
-        <Text>Bikers Fault</Text>
-        <Text>The biker didn't pay attention!</Text>
-        <Text>It's the cyclists fault!</Text>
+        <Text>骑车人的错</Text>
+        <Text>骑车人没注意!</Text>
+        <Text>这都是骑自行车的人的错!</Text>
 
-        <Text>Drivers Fault</Text>
-        <Text>The driver is at fault!</Text>
-        <Text>The car driver caused the accident!</Text>
+        <Text>车辆故障</Text>
+        <Text>司机有错!</Text>
+        <Text>汽车司机造成了事故!</Text>
 
-        <Text>~g~Investigation correct</Text>
-        <Text>~r~Investigation failed</Text>
+        <Text>~g~调查正确</Text>
+        <Text>~r~调查失败</Text>
 
-        <Text>Press ~y~End~s~ anytime to end the callout.</Text>
+        <Text>随时按 ~y~End~s~ 即可结束标注.</Text>
     </Menu>
 
 </BicycleAccident>
