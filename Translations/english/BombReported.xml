@@ -1,65 +1,65 @@
 <BombReported>
 
     <General>
-        <Text>Possible bomb reported</Text>
-        <Text>Search for a potential bomb thread, ~r~Code 3~s~.</Text>
-        <Text>Press {Y} to evacuate the citizens!</Text>
-        <Text>Search for the bomb in the ~y~area~s~.</Text>
-        <Text>HINT: Press {Y} to call the bomb specialist.</Text>
-        <Text>No bomb found, the area is clear.</Text>
-        <Text>Bomb disarmed! Good job!</Text>
-        <Text>~g~Green~s~ wire cut!</Text>
-        <Text>~y~Yellow~s~ wire cut!</Text>
-        <Text>~b~Blue~s~ wire cut!</Text>
-        <Text>Shit, you have cut the wrong wire! Run, the bomb will explode!</Text>
+        <Text>报告称可能有炸弹</Text>
+        <Text>搜寻潜在炸弹威胁, ~r~Code 3~s~.</Text>
+        <Text>按 {Y} 疏散周围市民!</Text>
+        <Text>在~y~区域~s~中搜寻炸弹.</Text>
+        <Text>提示: 按 {Y} 呼叫炸弹专家.</Text>
+        <Text>未发现炸弹，该区域安全.</Text>
+        <Text>炸弹拆除！干得好!</Text>
+        <Text>~g~绿色~s~ 电线断了!</Text>
+        <Text>~y~黄色~s~ 电线断了!</Text>
+        <Text>~b~蓝色~s~ 电线断了!</Text>
+        <Text>Shit, 你剪错线了！快跑，炸弹马上要爆炸了!</Text>
     </General>
 
     <Persons>
-        <Text>You</Text>
-        <Text>Specialist</Text>
-        <Text>Officer</Text>
+        <Text>警员</Text>
+        <Text>专家</Text>
+        <Text>官员</Text>
     </Persons>
 
     <Officer>
-        <Dialogue>Hi! Thanks for coming out!</Dialogue>
-        <Dialogue>We have a big scene going on! A report about a possible bomb came in!</Dialogue>
-        <Dialogue>We took it very seriously and blocked off the scene.</Dialogue>
-        <Dialogue>When we're done talking, evacuate everybody on the scene, then search for a bomb! Good luck!</Dialogue>
+        <Dialogue>嗨！感谢您前来!</Dialogue>
+        <Dialogue>有一份关于潜在炸弹的报告!</Dialogue>
+        <Dialogue>我们非常重视此事并封锁了现场.</Dialogue>
+        <Dialogue>谈完后，疏散现场所有人，然后寻找炸弹！祝你好运!</Dialogue>
     </Officer>
 
     <Evacuate>
-        <Dialogue>Hey, please leave the scene immediately! We might have a bomb here!</Dialogue>
-        <Dialogue>Hey you, we have a bomb thread, get a safe distance!</Dialogue>
-        <Dialogue>This area need to be evacuated immediately! Hurry up!</Dialogue>
+        <Dialogue>嘿，请立即离开现场！这里可能有炸弹!</Dialogue>
+        <Dialogue>嘿，我们这有一个炸弹，请保持安全距离!</Dialogue>
+        <Dialogue>此区域需要立即撤离！快点!</Dialogue>
         <Dialogue></Dialogue>
     </Evacuate>
 
     <SpecialistGeneral>
-        <Dialogue>Hello? Have you found the bomb?</Dialogue>
-        <Dialogue>Yes, I think so. It's right in front of me.</Dialogue>
-        <Dialogue>Alright, let me think. It has some kind of fancy control.</Dialogue>
-        <Dialogue>Hmm... okay... damn... what the... ? Ah, I got it.</Dialogue>
-        <Dialogue>Then... hm... oh no... ah, ok...</Dialogue>
-        <Dialogue>Awesome, I'm still alive! The bomb seems to be disarmed. Good job and thank you!</Dialogue>
-        <Dialogue>You're welcome, bye.</Dialogue>
+        <Dialogue>你好？你找到炸弹了吗?</Dialogue>
+        <Dialogue>是的，我想是的。它就在我面前.</Dialogue>
+        <Dialogue>好吧，让我想想。它有某种控制功能.</Dialogue>
+        <Dialogue>嗯... 好吧... 该死... 什么...？啊，我明白了.</Dialogue>
+        <Dialogue>那么...嗯...哦不...啊，好的...</Dialogue>
+        <Dialogue>太棒了，我还活着！炸弹似乎被拆除了。干得好，谢谢你！</Dialogue>
+        <Dialogue>别客气，再见.</Dialogue>
     </SpecialistGeneral>
 
     <SpecialistGYB>
-        <Dialogue>First cut the green wire.</Dialogue>
-        <Dialogue>Now cut the yellow wire.</Dialogue>
-        <Dialogue>Ok, if it hasn't exploded yet, cut the remaining blue wire.</Dialogue>
+        <Dialogue>首先剪断绿线.</Dialogue>
+        <Dialogue>现在剪断黄色电线.</Dialogue>
+        <Dialogue>好的，如果它还没有爆炸，就剪断剩下的蓝线.</Dialogue>
     </SpecialistGYB>
 
     <SpecialistBYG>
-        <Dialogue>First cut the blue wire.</Dialogue>
-        <Dialogue>Now cut the yellow wire.</Dialogue>
-        <Dialogue>Ok, if it hasn't exploded yet, cut the remaining green wire.</Dialogue>
+        <Dialogue>首先剪断蓝线.</Dialogue>
+        <Dialogue>现在剪断黄色电线.</Dialogue>
+        <Dialogue>好的，如果它还没有爆炸，就剪断剩下的绿线.</Dialogue>
     </SpecialistBYG>
 
     <SpecialistGBY>
-        <Dialogue>First cut the green wire.</Dialogue>
-        <Dialogue>Now cut the blue wire.</Dialogue>
-        <Dialogue>Ok, if it hasn't exploded yet, cut the remaining yellow wire.</Dialogue>
+        <Dialogue>首先剪断绿线.</Dialogue>
+        <Dialogue>现在剪断蓝线.</Dialogue>
+        <Dialogue>好的，如果它还没有爆炸，就剪断剩下的黄线.</Dialogue>
     </SpecialistGBY>
 
 </BombReported>
