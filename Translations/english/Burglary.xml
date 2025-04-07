@@ -19,7 +19,6 @@
 
     <BurglarLeft>
         <Dialogue>Dispatch, 我们发现有入侵者，正在搜寻现场.</Dialogue>
-        <Dialogue>Hmmm, that doesn't help.</Dialogue>
         <Dialogue>Dispatch, 我找到了 {DriversName}驾驶证.</Dialogue>
         <Dialogue>ALPR 检测到有一辆超速行驶的车辆，车主是 {DriversName}.</Dialogue>
     </BurglarLeft>
