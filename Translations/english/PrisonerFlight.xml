@@ -1,34 +1,34 @@
 <PrisonerFlight>
 
     <General>
-        <Text>Prisoner Flight Transport</Text>
-        <Text>Police Pilot required for a prisoner transport</Text>
-        <Text>Drive to the ~g~airport~s~, the plane is already waiting!</Text>
+        <Text>空运运送囚犯</Text>
+        <Text>运送囚犯需要警用飞行员</Text>
+        <Text>开车去~g~机场~s~, 飞机已经在等候了!</Text>
     </General>
 
     <Agent>
-        <Dialogue>Talk to the ~b~Agent~s~ with</Dialogue>
-        <Dialogue>~y~You~s~: Hello, I'm a pilot from the police department, what do we have here?</Dialogue>
-        <Dialogue>~b~Agent~s~: Good day, we have a high risk prisoner here, and will be transported to North Yankton.</Dialogue>
-        <Dialogue>~b~Agent~s~: We have this private jet here, the prisoner is already in there.</Dialogue>
-        <Dialogue>~b~Agent~s~: Please fly to the destination, which will be on your navigation system, you can't miss it.</Dialogue>
-        <Dialogue>~b~Agent~s~: Police will be there waiting for you. Have a good flight!</Dialogue>
-        <Dialogue><![CDATA[Get in the plane & fly to the ~o~destination~s~.]]></Dialogue>
-        <Dialogue>No further dialogue.</Dialogue>
+        <Dialogue>与 ~b~代理人~s~ 交谈</Dialogue>
+        <Dialogue>~y~警员~s~: 你好，我是警察局的飞行员，这里有什么情况?</Dialogue>
+        <Dialogue>~b~代理人~s~: 您好，我们这里有一名高风险囚犯，将被送往北扬克顿.</Dialogue>
+        <Dialogue>~b~代理人~s~: 我们这里有一架私人飞机，囚犯已经在里面了.</Dialogue>
+        <Dialogue>~b~代理人~s~: 请飞往目的地，该目的地会显示在您的导航系统上，您不会错过的.</Dialogue>
+        <Dialogue>~b~代理人~s~: 警察会在那里等你。祝你旅途愉快!</Dialogue>
+        <Dialogue><![CDATA[登上飞机 & 飞往 ~o~目的地~s~.]]></Dialogue>
+        <Dialogue>没有进一步对话.</Dialogue>
     </Agent>
 
     <Officer>
-        <Dialogue>Fly to the ~o~destination marker~s~ on your minimap.</Dialogue>
-        <Dialogue>Talk to the ~b~Officer~s~ with</Dialogue>
-        <Dialogue><![CDATA[~b~Officer~s~: Hello & welcome to North Yankton!]]></Dialogue>
-        <Dialogue><![CDATA[~b~Officer~s~: It might be a little cold out here & the streets are slippery...]]></Dialogue>
-        <Dialogue>~b~Officer~s~: The suspect is already sitting in the vehicle.</Dialogue>
-        <Dialogue>~b~Officer~s~: Please drive to the ~g~prison~s~ marked on your GPS with our police cruiser.</Dialogue>
-        <Dialogue><![CDATA[Get in the vehicle & drive to the ~g~prison~s~.]]></Dialogue>
-        <Dialogue>No further dialogue.</Dialogue>
-        <Dialogue>Drive to the ~g~prison~s~ marked on your gps.</Dialogue>
-        <Dialogue>Callout completed</Dialogue>
-        <Dialogue>Good job!</Dialogue>
+        <Dialogue>飞到小地图上的~o~目的地标记~s~.</Dialogue>
+        <Dialogue>与~b~警官~s~ 交谈</Dialogue>
+        <Dialogue><![CDATA[~b~警官~s~: 您好&欢迎来到北扬克顿!]]></Dialogue>
+        <Dialogue><![CDATA[~b~警官~s~: 这里可能有点冷& 街道很滑...]]></Dialogue>
+        <Dialogue>~b~警官~s~: 嫌疑人已经坐在车里了.</Dialogue>
+        <Dialogue>~b~警官~s~: 请乘坐我们的警车~g~前往~s~ GPS 上标记的监狱.</Dialogue>
+        <Dialogue><![CDATA[上车&并开车前往~g~监狱~s~.]]></Dialogue>
+        <Dialogue>没有进一步对话.</Dialogue>
+        <Dialogue>开车前往 GPS 上标记的~g~监狱~s~.</Dialogue>
+        <Dialogue>标注已完成</Dialogue>
+        <Dialogue>干得好!</Dialogue>
         <Dialogue>Code 4.</Dialogue>
     </Officer>
 
