@@ -1,56 +1,56 @@
 <DrugHandover>
 
     <General>
-        <CalloutMessage>Drug Handover</CalloutMessage>
-        <CalloutAdvisory>~o~Intercept the meeting as a special force sniper~s~</CalloutAdvisory>
+        <CalloutMessage>药品交接</CalloutMessage>
+        <CalloutAdvisory>~o~作为特战狙击手突袭并拦截会面~s~</CalloutAdvisory>
     </General>
 
     <Persons>
-        <Text>You</Text>
-        <Text>Officer</Text>
+        <Text>警员</Text>
+        <Text>官员</Text>
     </Persons>
 
     <EState>
         <Meeting>
             <D_Briefing>
-                <Dialogue>Hello, thanks for joining us.</Dialogue>
-                <Dialogue>This briefing is intended to give you an overview of what's going on.</Dialogue>
-                <Dialogue>We have reports of a illegal drug handover taking place today at the Grapeseed Airfield.</Dialogue>
-                <Dialogue>Since you're one of the best trained sniper elites, your job is to scout and call us once a drug deal is made.</Dialogue>
-                <Dialogue>We will then come in hot with 2 unmarked units and 1 swat bearcat. If we're taking fire, your job is to take them out.</Dialogue>
-                <Dialogue>We have spotted a good sniper position for you on one of the buildings next to the airfield.</Dialogue>
-                <Dialogue>But for now, first choose a sniper, for that in the police station right there on the table.</Dialogue>
+                <Dialogue>您好，感谢您加入我们.</Dialogue>
+                <Dialogue>本次简报旨在让您大致了解当前的情况.</Dialogue>
+                <Dialogue>我们收到报告称，今天在桑迪海岸机场发生了非法毒品交接事件.</Dialogue>
+                <Dialogue>由于你是训练有素的狙击精英之一，你的工作就是进行侦察，一旦发生毒品交易就打电话给我们.</Dialogue>
+                <Dialogue>然后我们将派出2辆无标记单位警车和1辆特警车进行攻击。如果我们遭到攻击，你的任务就是击毙它们.</Dialogue>
+                <Dialogue>我们在机场旁边的一栋建筑物上发现了一个很好的狙击位置.</Dialogue>
+                <Dialogue>不过现在，首先选一名狙击手，枪就在那边警察局里的桌子上.</Dialogue>
             </D_Briefing>
-            <Text>Get yourself a sniper in the police station.</Text>
+            <Text>在警察局找一个狙击手.</Text>
         </Meeting>
 
         <Weapon>
             <WeaponSelector>
-                <Text>Weapon Chooser</Text>
-                <Text>Weapons</Text>
-                <Text>Select a Weapon</Text>
-                <Text>You have equipped the </Text> <!--WeaponType is harcoded in english-->
+                <Text>武器选择器</Text>
+                <Text>武器</Text>
+                <Text>选择武器</Text>
+                <Text>您已装备 </Text> <!--WeaponType is harcoded in english-->
             </WeaponSelector>
-            <Text>Now drive to the scene and prepare.</Text>
+            <Text>现在开车去现场做好准备.</Text>
         </Weapon>
 
         <DriveToScene>
-            <Text>This is the reported ~o~drug handover meeting point~s~. You'll now see on the minimap where ~g~your sniper position~s~ will be, go on the roof there.</Text>
+            <Text>这是报告的 ~o~毒品交接会合点~s~. 现在您将在小地图上看到 ~g~您的狙击手位置~s~在哪里，前往那里的屋顶.</Text>
         </DriveToScene>
 
         <IsAtÜbergabeort>
-            <Text>Now wait for the ~r~actual handover.</Text>
+            <Text>现在等待 ~r~毒品交接.</Text>
         </IsAtÜbergabeort>
     </EState>
 
     <Scenarios>
-        <Text>Once the ~g~handover~s~ is done, go in and arrest the ~r~suspects!</Text>
-        <Text>We have ~r~shots fired!</Text>
-        <Text>The ~r~suspects~s~ are leaving, secure the ~g~case!</Text>
-        <Text>The suspects are ~r~fleeing~s~, we are pursuing!</Text>
-        <Text>The suspects are surrendering!</Text>
-        <Text>You can pick up the ~g~case~s~ with {0}.</Text>
-        <Text>~g~Case~s~ secured!</Text>
+        <Text>一旦 ~g~交接~s~ 完成, 就进去逮捕~r~嫌疑人!</Text>
+        <Text>~r~shots fired!</Text>
+        <Text>~r~嫌疑人~s~ 正在离开,保护好~g~箱子!</Text>
+        <Text>犯罪嫌疑人正在~r~逃跑~s~, 我们正在追捕!</Text>
+        <Text>犯罪嫌疑人投降!</Text>
+        <Text>您可以使用 ~g~拾取~s~ 箱子 {0}.</Text>
+        <Text>~g~箱子~s~ 已安全!</Text>
     </Scenarios>
 
 </DrugHandover>
