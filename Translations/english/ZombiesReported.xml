@@ -1,36 +1,36 @@
 <ZombiesReported>
 
     <General>
-        <Text>A civilian reported to have seen zombies</Text>
-        <Text>Drive to the concerned civilian, ~r~Code 3~s~.</Text>
+        <Text>一名平民报告称看到了僵尸</Text>
+        <Text>驾车前往相关平民处, ~r~Code 3~s~.</Text>
     </General>
 
         <Persons>
-        <Text>You</Text>
-        <Text>Civilian</Text>   
+        <Text>警员</Text>
+        <Text>平民</Text>   
     </Persons>
 
     <Civilian>
-        <Dialogue>Hello, are you alright?</Dialogue>
-        <Dialogue>You won't believe me... I saw zombies!!!</Dialogue>
-        <Dialogue>Okay, everything will be alright...</Dialogue>
-        <Dialogue>There they are, aaaaaah!...</Dialogue>
+        <Dialogue>你还好吗?</Dialogue>
+        <Dialogue>你不会相信我...我看到了僵尸!!!</Dialogue>
+        <Dialogue>好的，一切都会好起来的...</Dialogue>
+        <Dialogue>他们在那里，啊啊啊!...</Dialogue>
     </Civilian>
 
     <Civilian2>
-        <Dialogue>Hi, what's going on?</Dialogue>
-        <Dialogue>I think I'm crazy... I saw zombies wandering around...</Dialogue>
-        <Dialogue>Damn, are you sure?</Dialogue>
-        <Dialogue>Omg, there they are... run!!!</Dialogue>
+        <Dialogue>发生什么事了?</Dialogue>
+        <Dialogue>我想我疯了……我看到僵尸在四处游荡...</Dialogue>
+        <Dialogue>该死，你确定吗?</Dialogue>
+        <Dialogue>天哪，他们在那里......快跑!!!</Dialogue>
     </Civilian2>
 
     <Wave>
-        <Text>Wave {WaveNumber} is starting!</Text>
-        <Text>~g~Wave {WaveNumber} complete</Text>
-        <Text>~o~Wave {WaveNumber} starts in {time}s~s~</Text>
-        <Text>Congrats, 10 waves mastered.</Text>
-        <Text>Press ~y~End~s~ to end the callout anytime.</Text>
-        <Text>Wave {WaveNumber}</Text>
+        <Text>第 {WaveNumber} 波即将开始!</Text>
+        <Text>~g~第 {WaveNumber} 波已完成</Text>
+        <Text>~o~第 {WaveNumber} 波将在 {time}s~s~后开始</Text>
+        <Text>恭喜，已坚持 10 波.</Text>
+        <Text>可随时按 ~y~End~s~ 结束呼叫.</Text>
+        <Text>第 {WaveNumber}波</Text>
     </Wave>
 
 </ZombiesReported>
