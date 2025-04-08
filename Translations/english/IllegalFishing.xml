@@ -1,67 +1,67 @@
 <IllegalFishing>
 
     <General>
-        <Text>Reports of potential illegal fishing</Text>
+        <Text>有关潜在非法钓鱼的报告</Text>
     </General>
 
     <Setup>
-        <Dialogue>Press {0} to talk</Dialogue>
-        <Dialogue>~y~You~s~: Hi, I'm an officer from the local department.</Dialogue>
-        <Dialogue>~y~You~s~: We had a report about illegal fishing activity.</Dialogue>
-        <Dialogue>~b~Suspect~s~: Oh, I'm all by myself here, nothing illegal, just doing some fishing...</Dialogue>
-        <Dialogue>~y~You~s~: Did you catch anything yet?</Dialogue>
-        <Dialogue>~b~Suspect~s~: Yes, I catched a few so far.</Dialogue>
-        <Dialogue>~y~You~s~: Alright, I need to see your fishing license.</Dialogue>
-        <Dialogue>Press {0} to open the interaction menu, use STP to check the ID.</Dialogue>
-        <Dialogue>Press {0} and {1} to open the interaction menu, use STP to check the ID.</Dialogue>
-        <Dialogue>Press {0} to open the interaction menu.</Dialogue>
-        <Dialogue>Press {0} and {1} to open the interaction menu.</Dialogue>
+        <Dialogue>按 {0} 交谈</Dialogue>
+        <Dialogue>~y~警员~s~: 你好，我是当地部门的一名官员.</Dialogue>
+        <Dialogue>~y~警员~s~: 我们收到了有关非法钓鱼活动的报告.</Dialogue>
+        <Dialogue>~b~嫌疑人~s~: 哦，我一个人在这里，没什么违法行为，只是钓鱼而已……</Dialogue>
+        <Dialogue>~y~警员~s~: 你抓到什么东西了吗?</Dialogue>
+        <Dialogue>~b~嫌疑人~s~: 是的，到目前为止我已经抓到几个了.</Dialogue>
+        <Dialogue>~y~警员~s~: 好吧，我需要看你的钓鱼许可证.</Dialogue>
+        <Dialogue>按 {0} 打开交互菜单，使用STP检查ID.</Dialogue>
+        <Dialogue>按 {0} 和 {1}打开交互菜单，使用STP检查ID.</Dialogue>
+        <Dialogue>按 {0} 打开交互菜单.</Dialogue>
+        <Dialogue>按 {0} 和 {1} 打开交互菜单.</Dialogue>
     </Setup>
     
     <ConversationAfterCheckingLicense>
-        <Dialogue>~y~You~s~: Alright, I verified your information.</Dialogue>
-        <Dialogue>~y~You~s~: Your fishing license is valid, so far so good!</Dialogue>
-        <Dialogue>~y~You~s~: Your fishing license is suspended, you're not allowed to fish!</Dialogue>
-        <Dialogue>~y~You~s~: Additionally your ID comes back clean, nothing to worry about.</Dialogue>
-        <Dialogue>~y~You~s~: Also you don't have any warrants.</Dialogue>
-        <Dialogue>~y~You~s~: My database showed you have a warrant, though. You need to come with us.</Dialogue>
-        <Dialogue>~y~You~s~: You haven't told me about your warrant. You are under arrest.</Dialogue>
-        <Dialogue>Arrest the suspect.</Dialogue>
-        <Dialogue>Once you're finished, release the suspect and go back on patrol.</Dialogue>
-        <Dialogue>~y~You~s~: You'll receive a citation for illegal fishing.</Dialogue>
-        <Dialogue>~y~You~s~: Don't come back, otherwise I'll take you to jail and we both don't want that.</Dialogue>
-        <Dialogue>Give the suspect a citation and release him.</Dialogue>
-        <Dialogue>Press {0} again to talk</Dialogue>
+        <Dialogue>~y~警员~s~: 好的，我已核实您的信息.</Dialogue>
+        <Dialogue>~y~警员~s~: 您的钓鱼许可证有效，到目前为止一切顺利!</Dialogue>
+        <Dialogue>~y~警员~s~: 您的钓鱼许可证已被吊销，您不得钓鱼!</Dialogue>
+        <Dialogue>~y~警员~s~: 此外，您的身份信息核查无误，无需担心.</Dialogue>
+        <Dialogue>~y~警员~s~: 而且你没有任何搜查令.</Dialogue>
+        <Dialogue>~y~警员~s~: 不过我的数据库显示你有逮捕令。你需要跟我们走一趟.</Dialogue>
+        <Dialogue>~y~警员~s~: 你还没告诉我你的逮捕令。你已被逮捕.</Dialogue>
+        <Dialogue>逮捕嫌疑人.</Dialogue>
+        <Dialogue>完成后，释放嫌疑人并返回巡逻.</Dialogue>
+        <Dialogue>~y~警员~s~: 您将因非法捕鱼而收到罚单.</Dialogue>
+        <Dialogue>~y~警员~s~: 别回来，否则我会把你送进监狱，我们都不想这样.</Dialogue>
+        <Dialogue>给嫌疑人开具传票并将其释放.</Dialogue>
+        <Dialogue>再次按 {0} 即可交谈</Dialogue>
     </ConversationAfterCheckingLicense>
 
     <ConversationAfterPursuitArrest>
-        <Dialogue>~y~You~s~: That was stupid, running for this simple thing...</Dialogue>
-        <Dialogue>~b~Suspect~s~: It's too late now anyways...</Dialogue>
+        <Dialogue>~y~警员~s~: 为了这么简单的事情而奔波真是太愚蠢了...</Dialogue>
+        <Dialogue>~b~嫌疑人~s~: 现在无论如何都太晚了...</Dialogue>
     </ConversationAfterPursuitArrest>
 
     <ConversationAndSearch>
-        <Dialogue>~y~You~s~: Do you have anything on you that might poke or stick me?</Dialogue>
-        <Dialogue>~b~Suspect~s~: Nope...</Dialogue>
-        <Dialogue>Search the suspect, do the documentation and take him to jail.</Dialogue>
+        <Dialogue>~y~警员~s~: 你身上有什么东西可能会戳到我或者扎到我吗?</Dialogue>
+        <Dialogue>~b~嫌疑人~s~: 不...</Dialogue>
+        <Dialogue>做好相关记录，并将其关进监狱.</Dialogue>
     </ConversationAndSearch>
 
     <End>
-        <Text>The suspect died.</Text>
-        <Text>Press {0} anytime to end the callout.</Text>
-        <Text>~r~GTA-Error: A Ped became invalid.~s~</Text>
+        <Text>嫌疑人死亡.</Text>
+        <Text>随时按 {0} 即可结束呼出.</Text>
+        <Text>~r~GTA-Error: 行人无效.~s~</Text>
         <Text>~g~Code 4.~s~</Text>
     </End>
 
     <Menu>
-        <Text>Interaction Menu</Text>
-        <Text>Options:</Text>
-        <Text>Show fishing license</Text>
-        <Text>Name:</Text>
-        <Text>Born:</Text>
-        <Text>Fishing License</Text>
-        <Text>Show ID</Text>
-        <Text>~g~Valid license~s~</Text>
-        <Text>~r~Suspended license~s~</Text>
+        <Text>交互菜单</Text>
+        <Text>选项:</Text>
+        <Text>出示钓鱼证</Text>
+        <Text>姓名:</Text>
+        <Text>出生日期:</Text>
+        <Text>钓鱼许可证</Text>
+        <Text>显示 ID</Text>
+        <Text>~g~有效许可证~s~</Text>
+        <Text>~r~执照暂停~s~</Text>
     </Menu>
 
 </IllegalFishing>
