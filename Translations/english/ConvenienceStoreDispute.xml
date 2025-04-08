@@ -1,100 +1,100 @@
 <ConvenienceStoreDispute>
 
     <General>
-        <Text>Convenience Store Dispute</Text>
-        <Text>Solve the discrepancy</Text>
+        <Text>便利店纠纷</Text>
+        <Text>解决纠纷</Text>
     </General>
 
     <Persons>
-        <Text>~y~You:~s~ </Text>
-        <Text>~HC_7~Lady:~s~ </Text>
-        <Text>~b~Clerk:~s~ </Text>
+        <Text>~y~警员:~s~ </Text>
+        <Text>~HC_7~女士:~s~ </Text>
+        <Text>~b~店员:~s~ </Text>
     </Persons>
 
     <D_Argue>
-        <Dialogue>Officer! The clerk doesn't want to take my coupon!</Dialogue>
-        <Dialogue>M'am, I already told you, this coupon is invalid. I can't accept it.</Dialogue>
-        <Dialogue>That's ridicolous, it's valid! I do have rights! You can't refuse to take it!</Dialogue>
-        <Dialogue>Officer, may you please take a look at it and clarify?</Dialogue>
-        <Dialogue>Sure, let me see it...</Dialogue>
-        <Dialogue>* Looks at coupon... *</Dialogue>
+        <Dialogue>警官！店员不想收我的优惠券!</Dialogue>
+        <Dialogue>女士，我已经告诉过您了，这张优惠券无效。我不能接受.</Dialogue>
+        <Dialogue>这太荒谬了，这是有效的！我确实有权利！你不能拒绝接受它!</Dialogue>
+        <Dialogue>警官，您可以看一下优惠券并帮我澄清一下吗?</Dialogue>
+        <Dialogue>当然，让我看看……</Dialogue>
+        <Dialogue>* 查看优惠券... *</Dialogue>
     </D_Argue>
 
     <D_Expired>
-        <Dialogue>* Coupon for 30 $ at 24/7 market, expires on 06/01/2024 *</Dialogue>
-        <Dialogue>The coupon is definitely expired.</Dialogue>
+        <Dialogue>* 24/7 市场 30 美元优惠券，有效期至 2024 年 6 月 1 日 *</Dialogue>
+        <Dialogue>该优惠券已经过期.</Dialogue>
     </D_Expired>
 
     <D_Manipulated>
-        <Dialogue>* You can see the 24/7 market coupon for 30$ is manipulated to 60 $ *</Dialogue>
-        <Dialogue>This coupon has been manipulated. Look, the numbers were changed.</Dialogue>
+        <Dialogue>* 您可以看到 24/7 市场优惠券原价为 30美元，现在被篡改为 60 美元*</Dialogue>
+        <Dialogue>此优惠券已被篡改。您看，数字被更改了.</Dialogue>
     </D_Manipulated>
 
     <D_RefuseLeave>
-        <Dialogue>This can't be real! You're lying!</Dialogue>
-        <Dialogue>Officer, that's racist! I won't go before I receive my right!</Dialogue>
+        <Dialogue>这不可能是真的！你撒谎了！</Dialogue>
+        <Dialogue>警官，你这是种族歧视！在我获得权利之前我不会离开!</Dialogue>
     </D_RefuseLeave>
 
     <D_Run>
-        <Dialogue>Everybody is against me! Forget it, I won't pay this!</Dialogue>
+        <Dialogue>大家都反对我！算了，我不会付钱的!</Dialogue>
     </D_Run>
 
     <D_Fight>
-        <Dialogue>I have enough of your bullshit!</Dialogue>
-        <Dialogue>And you Officer, are part of the problem!!! Aaaaaargh!</Dialogue>
+        <Dialogue>我受够了你的废话!</Dialogue>
+        <Dialogue>而您，警官，就是问题的一部分！！！啊啊啊啊!</Dialogue>
     </D_Fight>
 
     <D_Taser>
-        <Dialogue>How dare you threaten me!</Dialogue>
-        <Dialogue>ASSAULT! You have attacked me!</Dialogue>
-        <Dialogue>This is self-defense!</Dialogue>
+        <Dialogue>你怎么敢威胁我!</Dialogue>
+        <Dialogue>你打了我!</Dialogue>
+        <Dialogue>这是自卫!</Dialogue>
     </D_Taser>
 
 
 
     <D_Eco_Argue>
-        <Dialogue>This is outrageous! Look at this packaging! Plastic everywhere! Are you trying to kill the planet?</Dialogue>
-        <Dialogue>Ma'am, I understand your concern, but we don't manufacture the products. We just sell them.</Dialogue>
-        <Dialogue>Just sell them? So you're complicit! Selling non-eco-friendly products is basically illegal!</Dialogue>
-        <Dialogue>Ma'am, that's not true. There are no laws against this packaging—</Dialogue>
-        <Dialogue>Don't lie to me! I'll have this store shut down for engaging in illegal activities! You're part of the problem! You're a—you're a murderer!</Dialogue>
-        <Dialogue>Excuse me? Alright Officer, please remove her from the store and M'am, you're banned from this store from now on.</Dialogue>
+        <Dialogue>这太离谱了！看看这个包装！到处都是塑料！你是想毁灭地球吗?</Dialogue>
+        <Dialogue>女士，我理解您的担忧，但我们不生产这些产品。我们只是销售它们.</Dialogue>
+        <Dialogue>销售它们？所以你是同谋！销售非环保产品基本上是违法的!</Dialogue>
+        <Dialogue>女士，事实并非如此。没有法律禁止这种包装</Dialogue>
+        <Dialogue>别骗我！我会因为从事非法活动而关闭这家商店！你就是问题的一部分！你是一个——你是一个杀人犯!</Dialogue>
+        <Dialogue>不好意思？好的警官，请将她带出商店，女士，从现在起你被禁止进入这家商店.</Dialogue>
     </D_Eco_Argue>
 
     <D_Eco_RefuseLeave>
-        <Dialogue>I will not leave this store until this criminal is arrested!</Dialogue>
-        <Dialogue>Ma'am, I understand you're upset, but this is not a criminal matter. You need to leave the store, or I'll have to remove you myself.</Dialogue>
-        <Dialogue>I refuse! If you don't arrest this murderer, then YOU'RE complicit too! I'll stay here all day if I have to!</Dialogue>
+        <Dialogue>I 如果这个罪犯没有被抓获，我就不会离开这家商店!</Dialogue>
+        <Dialogue>女士，我知道您很生气，但这不是刑事案件。您需要离开商店，否则我将亲自带您离开.</Dialogue>
+        <Dialogue>我拒绝离开！如果你不逮捕这个人，那你也是同谋！如果有必要，我会在这里呆一整天!</Dialogue>
     </D_Eco_RefuseLeave>
 
     <D_Eco_FleeWPackage>
-        <Dialogue>You know what? If you won't fix it, I'll do it myself! This ends now!</Dialogue>
-        <Dialogue>I'm saving the planet! This belongs in proper disposal, not on your filthy shelves!</Dialogue>
-        <Dialogue>Ma'am, that's theft. Put the item down and step away.</Dialogue>
-        <Dialogue>It's not theft if I'm saving humanity! Arrest THEM for stocking this garbage!</Dialogue>
-        <Dialogue>Ma'am, this is your last warning. Drop the item and cooperate, or you'll be placed under arrest.</Dialogue>
+        <Dialogue>你知道吗？如果你不解决，那我自己来！这事到此为止。!</Dialogue>
+        <Dialogue>我正在拯救地球！这东西应该妥善处理，而不是放在你肮脏的架子上!</Dialogue>
+        <Dialogue>女士，这是盗窃。放下物品并离开.</Dialogue>
+        <Dialogue>如果我拯救人类，那就不是偷窃！逮捕他们，因为他们储存了这些垃圾!</Dialogue>
+        <Dialogue>女士，这是对您的最后一次警告。放下物品并配合，否则您将被逮捕。.</Dialogue>
     </D_Eco_FleeWPackage>
 
     <D_Eco_Argumentative>
-        <Dialogue>Officer! You need to arrest this man immediately! He's a murderer! Selling all this plastic — he's practically choking the Earth himself!</Dialogue>
-        <Dialogue>Ma'am, this isn't a criminal matter. Now, if you—</Dialogue>
-        <Dialogue>Don't even start with me! Where's your supervisor? I want their name. And YOU— * pointing at the officer * —I want your name and badge number! RIGHT NOW!</Dialogue>
-        <Dialogue>Ma'am, we're not doing this. Either leave the store, or I'll have to escort you out.</Dialogue>
-        <Dialogue>Oh, I'd love to see you try! I'm going to report ALL of you! Corporate, the mayor, the media—everyone will hear about this!</Dialogue>
+        <Dialogue>警官！你必须立即逮捕这个人！他是个杀人犯！卖这些塑料——他实际上是在扼杀地球!</Dialogue>
+        <Dialogue>女士，这不是刑事案件。现在，如果您—</Dialogue>
+        <Dialogue>别跟我争！你的上司在哪？我要他们的名字。而你— * 指着警官 * —我要你的名字和警徽号码！马上!</Dialogue>
+        <Dialogue>女士，我们不会容忍这样。要么您离开商店，要么我不得不请您出去.</Dialogue>
+        <Dialogue>哦，我倒要看看你们能怎样！我要把你们全给告发了！公司高层、市长、媒体——所有人都会知道这事!</Dialogue>
     </D_Eco_Argumentative>
 
     <D_Eco_Taser>
-        <Dialogue>Oh, so now you're threatening me? I feel so unsafe right now! This is assault!</Dialogue>
-        <Dialogue>Ma'am, no one is threatening you. Please calm—</Dialogue>
-        <Dialogue>ASSAULT! YOU ASSAULTED ME! Everyone saw it!</Dialogue>
-        <Dialogue>Ma'am, no one has touched you. Let's just—</Dialogue>
-        <Dialogue>Don't you talk to me, murderer!</Dialogue>
+        <Dialogue>哦，所以现在你威胁我？我现在觉得很不安全!</Dialogue>
+        <Dialogue>女士，没有人威胁你。请冷静——</Dialogue>
+        <Dialogue>袭击！你袭击了我！大家都看见了!</Dialogue>
+        <Dialogue>女士，没人碰过你。我们只是—</Dialogue>
+        <Dialogue>别跟我说话，凶手!</Dialogue>
     </D_Eco_Taser>
 
 
 
     <End>
-        <Text>Callout is Code 4.</Text>
+        <Text>现场 Code 4.</Text>
     </End>
 
 </ConvenienceStoreDispute>
