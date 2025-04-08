@@ -1,56 +1,56 @@
 <DrugsOnBoat>
 
     <General>
-        <Text>Known drug transport ship spotted</Text>
-        <Text>Check for possible drugs on board</Text>
-        <Text>HINT: Search the boat for drugs</Text>
-        <Text>Dispatch, I couldn't find any drugs, I will talk to the ship owner again.</Text>
-        <Text>Copy that.</Text>
-        <Text>We've received ~o~anonymous tips~s~ on locations.</Text>
-        <Text>Dispatch, got one foot pursuit!</Text>
+        <Text>已知毒品运输船被发现</Text>
+        <Text>检查飞机上是否含有毒品</Text>
+        <Text>提示：搜查船上是否有毒品</Text>
+        <Text>Dispatch, 我没有找到任何毒品，我会再和船主谈谈.</Text>
+        <Text>收到</Text>
+        <Text>我们收到了 ~o~一条关于地点的匿名提示.</Text>
+        <Text>Dispatch, 正在徒步追捕!</Text>
         <Text>Dispatch, shots fired!</Text>
-        <Text>You are on the way to a ship to search for illegal drugs.</Text>
-        <Text>Press {Y} to pick up evidence.</Text>
-        <Text>Confront the ship owner or keep searching.</Text>
-        <Text>~g~All evidence found</Text>
-        <Text>Drugs found:</Text>
+        <Text>您正在前往一艘船去搜查非法毒品.</Text>
+        <Text>按 {Y}收集证据.</Text>
+        <Text>与船主对峙或继续搜寻.</Text>
+        <Text>~g~找到所有证据</Text>
+        <Text>发现毒品:</Text>
     </General>
 
 
     <Persons>
-        <Text>Owner</Text>
-        <Text>You</Text>
+        <Text>所有者</Text>
+        <Text>警员</Text>
     </Persons>
 
 
     <D_Owner_Arrive>
-        <Dialogue>Hello sir, we have a search warrant for this boat.</Dialogue>
-        <Dialogue>Go to hell, you're not searching my boat!</Dialogue>
-        <Dialogue>Move aside, you can ask my deputies down there for the written warrant.</Dialogue>
+        <Dialogue>您好，先生，我们有这艘船的搜查令.</Dialogue>
+        <Dialogue>去你的，你没有权利搜查我的船!</Dialogue>
+        <Dialogue>让开，你可以向那里的我的副手索要书面逮捕令.</Dialogue>
     </D_Owner_Arrive>
 
 
     <D_Owner_NoDrugs>
-        <Dialogue>Alright, I am finished searching your ship, you are good to go!</Dialogue>
-        <Dialogue>This took some time, but time is money! I need to hurry up now.</Dialogue>
-        <Dialogue>I'm just doing my job, anyways have a good trip!</Dialogue>
+        <Dialogue>好的，我已经搜查完了你的船，你可以走了!</Dialogue>
+        <Dialogue>这花了一些时间，但时间就是金钱！我现在需要快点.</Dialogue>
+        <Dialogue>我只是在做我的工作，无论如何祝你旅途愉快!</Dialogue>
     </D_Owner_NoDrugs>
 
 
     <D_Owner_Surrender>
-        <Dialogue>Sir, I found multiple drugs on this ship, can you explain this?</Dialogue>
-        <Dialogue>... I mean ... sh*t, you got me anyways. Yeah, they are mine.</Dialogue>
-        <Dialogue>I won't resist, I tried to sell those, you can arrest me.</Dialogue>
+        <Dialogue>先生，我在船上发现了多种毒品，您能解释一下吗?</Dialogue>
+        <Dialogue>... 我的意思是... 该死，反正你也抓到我了。是的，它们是我的.</Dialogue>
+        <Dialogue>我不会反抗，我试图卖掉那些，你可以逮捕我.</Dialogue>
     </D_Owner_Surrender>
 
 
     <D_Owner_Pursuit_Shooting>
-        <Dialogue>Sir, I found multiple drugs on this ship, can you explain this?</Dialogue>
+        <Dialogue>先生，我在船上发现了多种毒品，您能解释一下吗?</Dialogue>
     </D_Owner_Pursuit_Shooting>
 
 
     <End>
-        <Text>Callout is Code 4.</Text>
+        <Text>现场 Code 4.</Text>
     </End>
 
 </DrugsOnBoat>
