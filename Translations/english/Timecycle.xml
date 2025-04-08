@@ -1,9 +1,9 @@
 <Timecycle>
     <General>
-        <Text>Do you want to play at ~b~9 pm~w~ for a realistic experience?</Text>
-        <Text>Press '~g~Y~w~' for ~g~yes~w~, '~r~N~w~' for ~r~no~w~.</Text>
-        <Text>Press {0} for ~g~yes~w~,  {1} for ~r~no~w~.</Text>
-        <Text>Time stays, have fun!</Text>
-        <Text>Time was set to ~b~night~w~.</Text>
+        <Text>您想在晚上 ~b~9点~w~ 游玩以获得真实的体验吗?</Text>
+        <Text>按'~g~Y~w~'表示 ~g~yes~w~,'~r~N~w~'表示 ~r~no~w~.</Text>
+        <Text>按 {0} 表示 ~g~yes~w~,  {1} 表示 ~r~no~w~.</Text>
+        <Text>时间停留,玩得开心!</Text>
+        <Text>时间设置为~b~夜晚~w~.</Text>
     </General>
 </Timecycle>
