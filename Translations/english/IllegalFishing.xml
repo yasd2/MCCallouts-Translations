@@ -10,7 +10,7 @@
         <Dialogue>~y~警员~s~: 我们收到了有关非法钓鱼活动的报告.</Dialogue>
         <Dialogue>~b~嫌疑人~s~: 哦，我一个人在这里，没什么违法行为，只是钓鱼而已……</Dialogue>
         <Dialogue>~y~警员~s~: 你抓到什么东西了吗?</Dialogue>
-        <Dialogue>~b~嫌疑人~s~: 是的，到目前为止我已经抓到几个了.</Dialogue>
+        <Dialogue>~b~嫌疑人~s~: 是的，到目前为止我已经抓到几条了.</Dialogue>
         <Dialogue>~y~警员~s~: 好吧，我需要看你的钓鱼许可证.</Dialogue>
         <Dialogue>按 {0} 打开交互菜单，使用STP检查ID.</Dialogue>
         <Dialogue>按 {0} 和 {1}打开交互菜单，使用STP检查ID.</Dialogue>
