@@ -9,12 +9,12 @@
 
     <FalseAlarm>
         <Dialogue>Dispatch, 这里没有任何异常.</Dialogue>
-        <Dialogue>Copy that, 回去巡逻.</Dialogue>
+        <Dialogue>收到, 恢复巡逻.</Dialogue>
     </FalseAlarm>
 
     <AnimalOnScene>
         <Dialogue>Dispatch, 虚惊一场，只是一只动物制造了混乱.</Dialogue>
-        <Dialogue>Copy that, 回去巡逻.</Dialogue>
+        <Dialogue>Copy that, 恢复巡逻.</Dialogue>
     </AnimalOnScene>
 
     <BurglarLeft>
@@ -24,7 +24,7 @@
     </BurglarLeft>
 
     <BurglarIsLeaving>
-        <Dialogue>Dispatch, 一辆车辆 ~r~逃跑~s~, 车上有两名人员!</Dialogue>
+        <Dialogue>Dispatch, 车辆 ~r~逃跑~s~, 车内有两名人员!</Dialogue>
     </BurglarIsLeaving>
 
 </Burglary>
