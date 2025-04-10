@@ -1,0 +1,22 @@
+<IntoxicatedIndividual>
+
+    <General>
+        <Text>Persona ebria en público</Text>
+        <Text>señor</Text>
+        <Text>señora</Text>
+        <Text>Presiona {0} para hablar con la persona.</Text>
+        <Text>~y~Usted~s~: Perdona {0}, ¿necesitas ayuda?</Text>
+        <Text>~p~Borracho~s~: Nahhh *hic* todo está *hic* mu' bieeeen. ¡Guapo! Enseñame esa  *hic* porra... </Text>
+        <Text>~y~Usted~s~: Estar en claro estado de ebriaguez en público es ilegal. Voy a tener que ponerte una multa.</Text>
+        <Text>~p~Borracho~s~: ¿Una multa? Sal de mi vista. ¡Feo!</Text>
+        <Text>No hay más diálogo.</Text>
+    </General>
+
+    <End>
+        <Text>¡Una persona detenida! ~g~Código 4~s~</Text>
+        <Text>Un sospechoso abatido, ~g~Código 4~w~</Text>
+        <Text>~g~Código 4~w~</Text>
+        <Text>~r~Error de GTA con el PED,~s~ La llamada ha finalizado.</Text>
+    </End>
+
+</IntoxicatedIndividual>

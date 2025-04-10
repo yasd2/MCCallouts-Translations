@@ -1,0 +1,35 @@
+<PrisonerFlight>
+
+    <General>
+        <Text>Transporte de prisioneros en avión</Text>
+        <Text>Se necesita a un piloto del cuerpo de la policía para el transporte de un preso.</Text>
+        <Text>Conduce al g~aeropuerto~s~, el avión ya esta preparado!</Text>
+    </General>
+
+    <Agent>
+        <Dialogue>Habla con el ~b~funcionario de prisiones~s~.</Dialogue>
+        <Dialogue>~y~Usted~: Hola, soy el piloto que manda el cuerpo. ¿Qué tenemos aquí?</Dialogue>
+        <Dialogue>~b~Funcionario de prisiones~s~: Buenos días señor, tenemos a un prisionero de alto riesgo que necesita un viaje al frío de North Yankton.</Dialogue>
+        <Dialogue>~b~Funcionario de prisiones~s~: Tenemos este avión privado, el prisionero ya está dentro.</Dialogue>
+        <Dialogue>~b~Funcionario de prisiones~s~: Vuele hasta el destino, está marcado en su GPS. No tiene perdida.</Dialogue>
+        <Dialogue>~b~Funcionario de prisiones~s~: La policía te estará esperando. ¡Buen vuelo!</Dialogue>
+        <Dialogue><![CDATA[Entra en el avión y vuela hasta el ~o~destino~s~.]]></Dialogue>
+        <Dialogue>No further dialogue.</Dialogue>
+    </Agent>
+
+    <Officer>
+        <Dialogue>Vuela hasta el ~o~marcador de ubicación~s~ del minimapa.</Dialogue>
+        <Dialogue>Habla con el ~b~policía~s~</Dialogue>
+        <Dialogue><![CDATA[~b~Agente~s~: ¡Hola y bienvenido a North Yankton!]]></Dialogue>
+        <Dialogue><![CDATA[~b~Agente~s~: Hoy hace un poco de frío y las calles están resbaladizas por el hielo...]]></Dialogue>
+        <Dialogue>~b~Agente~s~: El preso ya está sentado en el vehículo.</Dialogue>
+        <Dialogue>~b~Agente~s~: Conduce hasta la ~g~prisión~s~ marcada en el GPS del coche.</Dialogue>
+        <Dialogue><![CDATA[Subete al vehículo y conduce hasta la ~g~prisión~s~.]]></Dialogue>
+        <Dialogue>No hay más diálogo</Dialogue>
+        <Dialogue>Conduce a la ~g~prisión~s~ marcada en tu GPS.</Dialogue>
+        <Dialogue>Llamada finalizada</Dialogue>
+        <Dialogue>¡Buen trabajo!</Dialogue>
+        <Dialogue>Código 4.</Dialogue>
+    </Officer>
+
+</PrisonerFlight>

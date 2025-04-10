@@ -1,135 +1,132 @@
+<?xml version='1.0' encoding='utf-8'?>
 <HostageSituation>
 
-<!-- Hello translator, don't get confused by the CDATA!                    -->
-<!-- Just write in between the bracktes [ ]                                -->
-<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
-<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
 
-<!-- 
-<![CDATA[
--->
-<!--
-]]>
--->
+
+
+
+
+
+
 
 
     <General>
-        <Text>Hostage Situation</Text>
-        <Text>One person is holding a hostage at gunpoint</Text>
-        <Text>Drive to the hostage situation Code 3, priority!</Text>
-        <Text><![CDATA[Park your car at the yellow marker & take cover while talking to the suspect.]]></Text>
-        <Text>Talk to the ~g~hostage.</Text>
-        <Text>Okay okay, I surrender!</Text>
-        <Text>Park there and take cover behind your vehicle.</Text>
+        <Text>Situación de rehenes</Text>
+        <Text>Una persona retiene a un rehén a punta de pistola</Text>
+        <Text>¡Conduce a la situación de rehenes Código 3, prioridad!</Text>
+        <Text>Aparca tu coche en la marca amarilla y cúbrete mientras hablas con el sospechoso.</Text>
+        <Text>Habla con el rehén.</Text>
+        <Text>Vale, vale, ¡me rindo!</Text>
+        <Text>Aparca allí y cúbrete detrás de tu vehículo.</Text>
     </General>
 
     <PedStatus>
-        <Text>~r~Suspect ~s~arrested!</Text>
-        <Text>~g~Hostage ~y~arrested?!</Text>
-        <Text>The ~o~suspect~s~ has ~r~died.~s~</Text>
-        <Text>The ~g~hostage~s~ has ~r~died...~s~</Text>
+        <Text>¡~r~Sospechoso ~s~arrestado!</Text>
+        <Text>¡~g~¿Hostage ~y~arrested?!</Text>
+        <Text>El sospechoso ha muerto.</Text>
+        <Text>El rehén ha muerto...</Text>
     </PedStatus>
 
     <DisplayHelp>
-        <Text>Press</Text>                                                          <!-- Press _Key_Y__ to end ... -->
-        <Text>to end the callout after you've finished ~b~investigating~s~.</Text>  <!-- Press _Key_Y__ to end ... -->
-        <Text>Talk to the suspect using</Text>                                      <!-- Talk to the suspect using _Key_Y_ -->
+        <Text>Pulse</Text>                                                          
+        <Text>para finalizar la llamada cuando hayas terminado de ~b~investigar~s~.</Text>  
+        <Text>Habla con el sospechoso utilizando</Text>                                      
     </DisplayHelp>
 
-    <DistanceToSuspect> <!-- If you're too close to the suspect with the hostage, you first get a warning, if you still in the area after a few seconds, he shoots -->
-        <Dialogue>~o~Piss off or I shoot!</Dialogue>
-        <Dialogue>~g~Just made it on time!</Dialogue>
-        <Dialogue>~r~Now it will rain bullets!</Dialogue>
+    <DistanceToSuspect> 
+        <Dialogue>~o~¡Vete a la mierda o disparo!</Dialogue>
+        <Dialogue>~g~¡Acaba de llegar a tiempo!</Dialogue>
+        <Dialogue>~r~¡Ahora lloverán balas!</Dialogue>
     </DistanceToSuspect>
 
-    <DistanceWarner> <!-- If you're too close to the suspects vehicle with the hostage, you first get a warning, if you still in the area after a few seconds, he shoots -->
-        <Dialogue>~o~Keep your distance or the suspect gets angry!~s~</Dialogue>
-        <Dialogue>~g~Good job, stay at a safe distance.~s~</Dialogue>
-        <Dialogue>~r~You were too close! Watch out!~s~</Dialogue>
+    <DistanceWarner> 
+        <Dialogue>~o~¡Mantén la distancia o el sospechoso se enfadará!~s~</Dialogue>
+        <Dialogue>~g~Buen trabajo, mantente a una distancia segura.~s~</Dialogue>
+        <Dialogue>~r~ ¡Estabas demasiado cerca! ¡Cuidado!</Dialogue>
     </DistanceWarner>
 
     <Menu>
         <MenuName>Decide:</MenuName>
 
         <Menu1>
-                <Conversation>Stay still</Conversation>
-                <Conversation>~y~You~s~: Don't worry, I'll stay right here.</Conversation>
-                <Conversation>Apply pressure</Conversation>
-                <Conversation>~y~You~s~: I'll blow your head off, you bastard!</Conversation>
+                <Conversation>Quédate quieto</Conversation>
+                <Conversation>~y~You~s~: No te preocupes, me quedaré aquí.</Conversation>
+                <Conversation>Aplica presión</Conversation>
+                <Conversation>~y~Tú~s~: ¡Te volaré la cabeza, bastardo!</Conversation>
         </Menu1>
 
         <Menu2>
-                <Conversation>20,000 $ in cash</Conversation> <!-- Feel free to change currency (€) to your country. -->
-                <Conversation>~y~You~s~: We'll give you 20,000 $ in cash, does that sound good?</Conversation> <!-- Feel free to change currency (€) to your country. -->
-                <Conversation>Improve detention conditions</Conversation>
-                <Conversation>~y~You~s~: We can get your boss a bigger cell with a TV, how about that?</Conversation>
-                <Conversation><![CDATA[Suggest a fresh start & psychologist]]></Conversation>
-                <Conversation>~y~You~s~: I understand. A friend of mine is a great psychologist, she can help you get back on track, how does that sound?</Conversation>
+                <Conversation>20.000 $ en efectivo</Conversation> 
+                <Conversation>~y~You~s~: Te daremos 20.000 $ en efectivo, ¿suena bien?</Conversation> 
+                <Conversation>Mejorar las condiciones de detención</Conversation>
+                <Conversation>~y~You~s~: Podemos conseguirle a tu jefe una celda más grande con TV, ¿qué te parece?</Conversation>
+                <Conversation>Sugerir un nuevo comienzo y un psicólogo</Conversation>
+                <Conversation>~y~You~s~: Entiendo. Una amiga mía es una gran psicóloga, puede ayudarte a volver a la normalidad, ¿qué te parece?</Conversation>
         </Menu2>
 
         <Menu3>
-                <Conversation>Getaway car with limited fuel</Conversation>
-                <Conversation>~y~You~s~: You'll get a getaway car with limited fuel, but where are you going?</Conversation>
-                <Conversation>Suggest pizza</Conversation>
-                <Conversation>~y~You~s~: How about a pizza instead?</Conversation>
+                <Conversation>Coche de escape con combustible limitado</Conversation>
+                <Conversation>~y~You~s~: Usted recibirá un coche de huida con combustible limitado, pero ¿a dónde vas?</Conversation>
+                <Conversation>Sugerir pizza</Conversation>
+                <Conversation>~¿Qué tal una pizza en su lugar?</Conversation>
         </Menu3>
     </Menu>
 
     <SuspectTalk>
-                <Dialogue>~r~Suspect~s~: Get lost! What do you want here?! Don't come any closer!</Dialogue>
-                <Dialogue>~r~Suspect~s~: You better hope so! Now, everyone leave, I don't want to see any more police!</Dialogue>
-                <Dialogue>~r~Suspect~s~: You can't do anything to me! I don't want to see any more police, or it will rain bullets!</Dialogue>
-                <Dialogue>~y~You~s~: I understand, but the building is surrounded.</Dialogue>
-                <Dialogue>~y~You~s~: I want this to end peacefully, for you, for the hostage, and for the officers.</Dialogue>
-                <Dialogue>~y~You~s~: Why did you rob the store?</Dialogue>
+                <Dialogue>~r~Suspect~s~: ¡Piérdete! ¡¿Qué quieres aquí?! ¡No te acerques más!</Dialogue>
+                <Dialogue>~r~Suspect~s~: ¡Será mejor que así sea! Ahora, que se vaya todo el mundo, ¡no quiero ver a más policías!</Dialogue>
+                <Dialogue>~r~Suspect~s~: ¡No pueden hacerme nada! ¡No quiero ver más policías, o lloverán balas!</Dialogue>
+                <Dialogue>~y~You~s~: Entiendo, pero el edificio está rodeado.</Dialogue>
+                <Dialogue>~y~You~s~: Quiero que esto termine pacíficamente, para ti, para el rehén, y para los oficiales.</Dialogue>
+                <Dialogue>~y~You~s~: ¿Por qué robaste la tienda?</Dialogue>
         <Reasons>
-            <Dialogue>~r~Suspect~s~: I need ~b~money~s~, I'm ~b~broke~s~ and can't pay my rent anymore!</Dialogue>
-            <Dialogue>~r~Suspect~s~: It's her fault! ~b~She left me!~s~ And now she's my hostage!</Dialogue>
-            <Dialogue>~r~Suspect~s~: My ~b~boss~s~ is in ~b~prison~s~, I won't leave until he's free!</Dialogue>
+            <Dialogue>~r~Sospechoso~s~: ¡Necesito dinero, estoy quebrado y ya no puedo pagar la renta!</Dialogue>
+            <Dialogue>~r~Suspect~s~: ¡Es su culpa! ~b~¡Ella me dejó!~s~ ¡Y ahora ella es mi rehén!</Dialogue>
+            <Dialogue>~r~Sospechoso~s~: ¡Mi ~b~jefe~s~ está en ~b~prisión~s~, no me iré hasta que esté libre!</Dialogue>
         </Reasons>
-                <Dialogue>~y~You~s~: Listen closely, I'm offering you the following deal:</Dialogue>
-                <Dialogue>~r~Suspect~s~: We'll make the deal, but what do you want in return?</Dialogue>
-                <Dialogue>~y~You~s~: Once again, everyone should go home safely and you need to let go of the hostage!</Dialogue>
-                <Dialogue>~r~Suspect~s~: You give me a getaway car, I'll let the hostage go later!</Dialogue>
-                <Dialogue>~r~Suspect~s~: That doesn't make sense, final offer...</Dialogue>
+                <Dialogue>~y~You~s~: Escucha con atención, te estoy ofreciendo el siguiente trato:</Dialogue>
+                <Dialogue>~r~Suspect~s~: Haremos el trato, pero ¿qué quieres a cambio?</Dialogue>
+                <Dialogue>~y~You~s~: ¡Una vez más, todo el mundo debe ir a casa con seguridad y hay que dejar ir el rehén!</Dialogue>
+                <Dialogue>~r~Sospechoso~s~: ¡Dame un auto de escape, dejaré ir al rehén después!</Dialogue>
+                <Dialogue>~r~Suspect~s~: Eso no tiene sentido, oferta final...</Dialogue>
         <Fail>
-            <Dialogue>~r~Suspect~s~: Fuck you and your deals! And the police are still here!</Dialogue>
-            <Dialogue>~r~Suspect~s~: Now you'll see what you get!</Dialogue>
-            <Dialogue>~r~Suspect~s~: You're crazy! Now you'll see what you get!</Dialogue>
+            <Dialogue>~r~Suspect~s~: ¡Vete a la mierda tú y tus tratos! ¡Y la policía sigue aquí!</Dialogue>
+            <Dialogue>~r~Suspect~s~: ¡Ahora verás lo que obtienes!</Dialogue>
+            <Dialogue>~r~Suspect~s~: ¡Estás loco! ¡Ahora verás lo que te toca!</Dialogue>
         </Fail>
-                <Dialogue>~r~Suspect~s~: I'm not telling you, but I will release the hostage as soon as I don't see any more police.</Dialogue>
-                <Dialogue>~y~You~s~: The car should be there any moment...</Dialogue>
+                <Dialogue>~r~Sospechoso~s~: No se lo diré, pero liberaré al rehén en cuanto no vea más policías.</Dialogue>
+                <Dialogue>~y~You~s~: El coche debe estar allí en cualquier momento ...</Dialogue>
         
         
     </SuspectTalk>
 
     <SuspectDrives>
-        <Text>Follow the suspect's vehicle, but make sure to keep your distance, so he can't see you!</Text>
-        <Text><![CDATA[The ~g~suspect should feel safe,~s~ time to box him in & ~r~arrest him!~s~]]></Text>
-        <Text>A tracker was installed and is active on the vehicle.</Text>
-        <Text>The FBI reported: You can ~y~disable the vehicle's~s~ engine by pressing ~y~O~s~!</Text>
-        <Text><![CDATA[Take the ~y~suspect into custody~s~! Block his vehicle & arrest him!]]></Text>
-        <Text>The vehicle was deactivated, apprehend the suspect!</Text>
+        <Text>Sigue al vehículo del sospechoso, pero mantén la distancia para que no te vea.</Text>
+        <Text>El sospechoso debe sentirse seguro, es hora de acorralarlo y arrestarlo.</Text>
+        <Text>Se instaló un rastreador y está activo en el vehículo.</Text>
+        <Text>El FBI informó: ¡Usted puede ~y~desactivar el motor~s~ del vehículo pulsando ~y~O~s~!</Text>
+        <Text>¡Pongan al sospechoso bajo custodia! ¡Bloqueen su vehículo y arréstenlo!</Text>
+        <Text>¡El vehículo fue desactivado, detengan al sospechoso!</Text>
     </SuspectDrives>
 
     <HostageTalk>
-                <Dialogue>~g~Hostage~s~: Thank you so much, the guy is completely insane! I can't believe it!</Dialogue>
-                <Dialogue>~y~You~s~: Calm down. The hostage-taker is no longer a problem for you.</Dialogue>
-                <Dialogue>~y~You~s~: Are you alright? Do you need medical or psychological assistance?</Dialogue>
-                <Dialogue>~g~Hostage~s~: I'm fine, I just want to go home.</Dialogue>
-                <Dialogue>~y~You~s~: How did the hostage situation come about?</Dialogue>
+                <Dialogue>~g~Hostage~s~: ¡Muchas gracias, el tipo está completamente loco! ¡No me lo puedo creer!</Dialogue>
+                <Dialogue>~y~You~s~: Cálmate. El secuestrador ya no es un problema para ti.</Dialogue>
+                <Dialogue>~y~You~s~: ¿Estás bien? ¿Necesitas asistencia médica o psicológica?</Dialogue>
+                <Dialogue>~g~Hostage~s~: Estoy bien, sólo quiero ir a casa.</Dialogue>
+                <Dialogue>~y~You~s~: ¿Cómo se produjo la situación de los rehenes?</Dialogue>
         <ExGirlfriend>
-            <Dialogue>~g~Hostage~s~: My ex-boyfriend went crazy, I broke up with him two weeks ago.</Dialogue>
-            <Dialogue><![CDATA[~g~Hostage~s~: He couldn't handle it & followed me here.]]></Dialogue>
+            <Dialogue>~g~Hostage~s~: Mi ex novio se volvió loco, rompí con él hace dos semanas.</Dialogue>
+            <Dialogue>~No pudo soportarlo y me siguió hasta aquí.</Dialogue>
         </ExGirlfriend>
-                <Dialogue>~g~Hostage~s~: I just wanted to go shopping, then the guy came and pointed a gun at my head!</Dialogue>
-                <Dialogue>~g~Hostage~s~: He was determined to enforce his demands by all means...</Dialogue>
-                <Dialogue><![CDATA[~y~You~s~: Alright, if you have no other concerns, have a safe trip home & take care!]]></Dialogue>
-                <Dialogue>~g~Hostage~s~: Thank you again, goodbye!</Dialogue>
+                <Dialogue>~g~Hostage~s~: ¡Sólo quería ir de compras, entonces el tipo vino y me apuntó a la cabeza!</Dialogue>
+                <Dialogue>~g~Hostage~s~: Estaba decidido a hacer cumplir sus demandas por todos los medios...</Dialogue>
+                <Dialogue>~y~You~s~: Muy bien, si no tienes otras preocupaciones, ¡que tengas un buen viaje a casa y cuídate!</Dialogue>
+                <Dialogue>~g~Hostage~s~: ¡Gracias de nuevo, adiós!</Dialogue>
     </HostageTalk>
 
     <End>
-        <Text>~g~Code 4.</Text>
+        <Text>~g~Código 4.</Text>
     </End>
 
 </HostageSituation>

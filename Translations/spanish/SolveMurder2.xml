@@ -1,171 +1,172 @@
+<?xml version='1.0' encoding='utf-8'?>
 <SolveMurder2>
 
     <General>
-        <Text>~p~Detective~s~ at murder case required</Text>
-        <Text>~g~Dispatch~s~: Drive to the Mirror Park in Los Santos, ~p~Detective~w~ required.</Text>
+        <Text>~p~Detective~s~ en caso de asesinato requerido</Text>
+        <Text>~g~Dispatch~s~: Conduce al Parque Espejo en Los Santos, ~p~Detective~w~ requerido.</Text>
     </General>
 
     <Officer>
-        <Dialogue>Go to the ~b~officer~w~ and talk to him using </Dialogue>
-        <Dialogue>~b~Officer~s~: Hello Detective! My name is ~g~Jack Walter~s~, just call me Jack. I hope traffic wasn't too bad.</Dialogue>
-        <Dialogue>~y~You~s~: Good day! No, it was okay. What do we got here?</Dialogue>
-        <Dialogue>~b~Jack~s~: We have a ~g~dead person~s~, possibly murdered, Officer Dawson ~g~over there~s~ has more info.</Dialogue>
-        <Dialogue>~b~Jack~s~: On the other side we have 3 possible suspects, one of them is the caller.</Dialogue>
-        <Dialogue>~y~You~s~: Thanks, I will talk to ~b~Officer Dawson~s~ then.</Dialogue>
-        <Dialogue>Go and talk to ~b~Officer Dawson~s~.</Dialogue>
+        <Dialogue>Ve al ~b~oficial~w~ y habla con él usando</Dialogue>
+        <Dialogue>~¡Hola Detective! Mi nombre es Jack Walter, llámame Jack. Espero que el tráfico no era demasiado malo.</Dialogue>
+        <Dialogue>~y~You~s~: ¡Buenos días! No, estuvo bien. ¿Qué tenemos aquí?</Dialogue>
+        <Dialogue>~b~Jack~s~: Tenemos una persona muerta, posiblemente asesinada, el oficial Dawson tiene más información.</Dialogue>
+        <Dialogue>~b~Jack~s~: En el otro lado tenemos 3 posibles sospechosos, uno de ellos es el que llama.</Dialogue>
+        <Dialogue>~y~You~s~: Gracias, hablaré con el oficial Dawson entonces.</Dialogue>
+        <Dialogue>Ve y habla con el oficial Dawson.</Dialogue>
     </Officer>
 
     <Officer2>
-        <Dialogue>Talk to ~b~Officer Dawson~s~ using </Dialogue>
-        <Dialogue>~y~You~s~: Hey, Officer Dawson! Officer Walter said you have some infos?</Dialogue>
-        <Dialogue>~b~Officer~s~: Good day Detective! You can call me Erika!</Dialogue>
-        <Dialogue>~b~Erika~s~: The victim is Lilliana Wyatt, 33 years old, had lived on Nikola Avenue nearby.</Dialogue>
-        <Dialogue>~b~Erika~s~: Yeah, we have 3 possible suspects for a potential murder.</Dialogue>
-        <Dialogue>~b~Erika~s~:  One of them, Belle Hamilton, is the caller, but she also could be the potential murderer.</Dialogue>
-        <Dialogue>~b~Erika~s~: I suggest you to go to the crimescene and investigate, see if you can find something.</Dialogue>
-        <Dialogue>Go to the crime scene and search for ~b~evidence~s~.</Dialogue>
+        <Dialogue>Habla con ~b~Oficial Dawson~s~ usando</Dialogue>
+        <Dialogue>~¡Oiga, Oficial Dawson! ¿El oficial Walter dijo que tenías información?</Dialogue>
+        <Dialogue>~b~Oficial~s~: ¡Buenos días Detective! ¡Puede llamarme Erika!</Dialogue>
+        <Dialogue>~b~Erika~s~: La víctima es Lilliana Wyatt, 33 años, había vivido en la Avenida Nikola cerca.</Dialogue>
+        <Dialogue>~b~Erika~s~: Sí, tenemos 3 posibles sospechosos de un posible asesinato.</Dialogue>
+        <Dialogue>~b~Erika~s~:  Una de ellas, Belle Hamilton, es la que llama, pero también podría ser la asesina potencial.</Dialogue>
+        <Dialogue>~b~Erika~s~: Te sugiero que vayas a la escena del crimen e investigues, a ver si encuentras algo.</Dialogue>
+        <Dialogue>Ve a la escena del crimen y busca ~b~evidencias~s~.</Dialogue>
     </Officer2>
 
     <Evidence>
-        <Text>~y~You~s~: She has a wound to her head, she got hit with that broken bottle over there...</Text>
-        <Text>A mobile phone... The background shows a ~p~black Obey Tailgater~s~...</Text>
-        <Text>Hmmm... a half-eaten burger... not interesting.</Text>
-        <Text>The blood looks still fresh, it must have happened not longer than 2 hours ago...</Text>
-        <Text>Investigation finished! Go to the ~o~caller~w~ and talk to her using </Text>
+        <Text>~y~You~s~: Tiene una herida en la cabeza, la golpearon con esa botella rota de ahí...</Text>
+        <Text>Un teléfono móvil... El fondo muestra un ~p~negro Obey Tailgater~s~...</Text>
+        <Text>Hmmm... una hamburguesa a medio comer... no es interesante.</Text>
+        <Text>La sangre parece todavía fresca, debe haber ocurrido no hace más de 2 horas...</Text>
+        <Text>¡Investigación terminada! Ve al ~o~caller~w~ y habla con ella usando</Text>
     </Evidence>
 
     <Suspect1>
-        <Dialogue>Talk to the ~o~suspect~w~ using </Dialogue>
-        <Dialogue>~y~You~s~: Hello there! I'm the Detective in this case. What's your name?</Dialogue>
-        <Dialogue>~o~Caller~s~: Good evening, my name is Belle Hamilton. I was walking down the street when I saw her...</Dialogue>
-        <Dialogue>~y~You~s~: You did the right thing by calling us. I'm quickly checking your details.</Dialogue>
-        <Dialogue>~y~You~s~: Dispatch, can I have a person check on 'Belle Hamilton'?</Dialogue>
-        <Dialogue>Standby, I'm checking.</Dialogue>
+        <Dialogue>Habla con el ~o~sospechoso~w~ usando</Dialogue>
+        <Dialogue>~¡Hola! Soy el detective en este caso. ¿Cuál es su nombre?</Dialogue>
+        <Dialogue>~o~Caller~s~: Buenas noches, mi nombre es Belle Hamilton. Iba caminando por la calle cuando la vi...</Dialogue>
+        <Dialogue>~y~You~s~: Hiciste lo correcto al llamarnos. Estoy comprobando rápidamente tus datos.</Dialogue>
+        <Dialogue>~y~You~s~: Despacho, ¿puedo tener a una persona revisando a 'Belle Hamilton'?</Dialogue>
+        <Dialogue>En espera, lo estoy comprobando.</Dialogue>
         <Dialogue>~b~Belle Hamilton~s~</Dialogue>
         <Dialogue>~g~No warrants</Dialogue>
-        <Dialogue>~g~No arrests</Dialogue>
-        <Dialogue>~y~1 citation: Speeding~s~</Dialogue>
-        <Dialogue>~y~You~s~: Your record is clean. I still have some questions for you.</Dialogue>
-        <Dialogue>~y~You~s~: Do you know the victim?</Dialogue>
-        <Dialogue>~o~Ms. Hamilton~s~: No, I don't. Imagine the family members, how they must feel...</Dialogue>
-        <Dialogue>~y~You~s~: We'll take care of them. May I please see your mobile phone?</Dialogue>
-        <Dialogue>*shows mobile phone*</Dialogue>
-        <Dialogue>~o~Ms. Hamilton~s~: Here, but... aaah... there are private photos of me, I can't give it away.</Dialogue>
-        <Dialogue>~y~You~s~: You can keep it. Ah, what vehicle do you drive and what is the license plate?</Dialogue>
-        <Dialogue>~o~Ms. Hamilton~s~: I drive a Lampadati Pigalle, License Plate 86LUN445.</Dialogue>
-        <Dialogue>~y~You~s~: Dispatch, I need a vehicle check on 86LUN445.</Dialogue>
-        <Dialogue>Copy, give me a minute.</Dialogue>
+        <Dialogue>~g~No arrestos</Dialogue>
+        <Dialogue>~y~1 citación: Exceso de velocidad</Dialogue>
+        <Dialogue>~y~You~s~: Su registro está limpio. Todavía tengo algunas preguntas para usted.</Dialogue>
+        <Dialogue>~y~You~s~: ¿Conoces a la víctima?</Dialogue>
+        <Dialogue>~o~Ms. Hamilton~s~: No, no lo creo. Imagina a los miembros de la familia, cómo deben sentirse...</Dialogue>
+        <Dialogue>~y~You~s~: Nos encargaremos de ellos. ¿Puedo ver su teléfono móvil?</Dialogue>
+        <Dialogue>*muestra el teléfono móvil*</Dialogue>
+        <Dialogue>~o~Ms. Hamilton~s~: Aquí, pero... aaah... hay fotos privadas mías, no puedo darlas.</Dialogue>
+        <Dialogue>~y~You~s~: Puedes quedártelo. Ah, ¿qué vehículo conduces y cuál es la matrícula?</Dialogue>
+        <Dialogue>~Conduzco un Lampadati Pigalle, matrícula 86LUN445.</Dialogue>
+        <Dialogue>~y~You~s~: Despacho, necesito una revisión del vehículo 86LUN445.</Dialogue>
+        <Dialogue>Copiado, dame un minuto.</Dialogue>
         <Dialogue>~b~86LUN445~s~</Dialogue>
         <Dialogue>~g~Model~s~: Lampadati Pigalle</Dialogue>
         <Dialogue>~b~Owner~s~: Belle Hamilton</Dialogue>
-        <Dialogue>~r~Expired insurance~s~</Dialogue>
-        <Dialogue>~y~You~s~: Alright, but your vehicle has expired insurance, you should renew it.</Dialogue>
-        <Dialogue>~o~Ms. Hamilton~s~: Oh, thanks. I didn't know that, I will do that.</Dialogue>
-        <Dialogue>~y~You~s~: That would be all, please wait for further instructions.</Dialogue>
-        <Dialogue>Now go to the next ~o~suspect~s~ and talk to him.</Dialogue>
+        <Dialogue>~r~Seguro caducado~s~</Dialogue>
+        <Dialogue>~y~You~s~: Muy bien, pero su vehículo tiene el seguro caducado, debe renovarlo.</Dialogue>
+        <Dialogue>~o~Ms. Hamilton~s~: Oh, gracias. No lo sabía, lo haré.</Dialogue>
+        <Dialogue>~y~You~s~: Eso sería todo, por favor espere nuevas instrucciones.</Dialogue>
+        <Dialogue>Ahora ve al siguiente ~o~sospechoso~s~ y habla con él.</Dialogue>
 
-        <Dialogue>~y~You~s~: That would be all, thanks for your time.</Dialogue>
+        <Dialogue>~y~You~s~: Eso sería todo, gracias por su tiempo.</Dialogue>
     </Suspect1>
 
     <Suspect2>
-        <Dialogue>Talk to ~o~him~s~ using </Dialogue>
-        <Dialogue>~y~You~s~: Good evening, Sir! I'm the local Detective. May I have your name, please?</Dialogue>
-        <Dialogue>~o~Suspect~s~: Hello Detective, my name is Talon Knight, born 12th December 1992. Why am I being held here?</Dialogue>
-        <Dialogue>~y~You~s~: You were in the area as this happened.</Dialogue>
-        <Dialogue>~o~Talon~s~: That's against my will! Let me go, I haven't done anything!</Dialogue>
-        <Dialogue>~y~You~s~: Once you've answered my questions, you can. Where do you live?</Dialogue>
-        <Dialogue>~o~Talon~s~: I live nearby, 2 blocks away.</Dialogue>
-        <Dialogue>~y~You~s~: And do you know the victim?</Dialogue>
-        <Dialogue>~o~Talon~s~: No?</Dialogue>
-        <Dialogue>~y~You~s~: You live near the victim and you tell me you don't know Lilliana Wyatt?</Dialogue>
-        <Dialogue>~o~Talon~s~: Ok, I know her, I just don't like her, she wasn't very friendly nor active or liked in the neighbourhood...</Dialogue>
-        <Dialogue>~o~Talon~s~: She once called the cops on me, because my dog was barking a few times, shortly after 10 pm...</Dialogue>
-        <Dialogue>~y~You~s~: Hmmm... Ok, can you show me your cellphone, please?</Dialogue>
-        <Dialogue>~o~Talon~s~: I would like to, but I dropped it last week and gave it to a repair shop. It'll cost around 100$...</Dialogue>
-        <Dialogue>~y~You~s~: Understood. What vehicle do you drive and what is the license plate?</Dialogue>
-        <Dialogue>~o~Talon~s~: I have a Vapid Minivan, my license plate is... aaaah... 47LIF... 341.</Dialogue>
-        <Dialogue>~y~You~s~: Dispatch, I need a plate check on 47LIF341.</Dialogue>
-        <Dialogue>Copy, please standby.</Dialogue>
+        <Dialogue>Habla con ~o~him~s~ usando</Dialogue>
+        <Dialogue>~y~You~s~: ¡Buenas noches, señor! Soy el detective local. ¿Puedo saber su nombre, por favor?</Dialogue>
+        <Dialogue>~o~Sospechoso~s~: Hola Detective, mi nombre es Talon Knight, nacido el 12 de Diciembre de 1992. ¿Por qué me retienen aquí?</Dialogue>
+        <Dialogue>~y~You~s~: Estabas en la zona cuando esto sucedió.</Dialogue>
+        <Dialogue>~o~Talon~s~: ¡Eso es contra mi voluntad! ¡Suéltame, no he hecho nada!</Dialogue>
+        <Dialogue>~y~You~s~: Una vez que haya respondido a mis preguntas, usted puede. ¿Dónde vives?</Dialogue>
+        <Dialogue>~o~Talon~s~: Yo vivo cerca, a 2 cuadras de distancia.</Dialogue>
+        <Dialogue>~y~You~s~: ¿Y conoces a la víctima?</Dialogue>
+        <Dialogue>~¿No?</Dialogue>
+        <Dialogue>~y~You~s~: ¿Vives cerca de la víctima y me dices que no conoces a Lilliana Wyatt?</Dialogue>
+        <Dialogue>~o~Talon~s~: Ok, la conozco, solo que no me gusta, no era muy amigable ni activa ni querida en el barrio...</Dialogue>
+        <Dialogue>~o~Talon~s~: Una vez me llamó a la policía, porque mi perro ladraba varias veces, poco después de las 10 pm...</Dialogue>
+        <Dialogue>~Hmmm... Vale, ¿puedes enseñarme tu móvil, por favor?</Dialogue>
+        <Dialogue>~o~Talon~s~: Me gustaría, pero se me cayó la semana pasada y lo llevé a un taller. Costará unos 100 $...</Dialogue>
+        <Dialogue>~y~You~s~: Entendido. ¿Qué vehículo conduce y cuál es la matrícula?</Dialogue>
+        <Dialogue>~o~Talon~s~: Tengo un monovolumen Vapid, mi matrícula es... aaaah... 47LIF... 341.</Dialogue>
+        <Dialogue>~y~You~s~: Despacho, necesito un control de matrícula del 47LIF341.</Dialogue>
+        <Dialogue>Entendido, por favor espere.</Dialogue>
         <Dialogue>~b~47LIF341~s~</Dialogue>
         <Dialogue>~g~Model~s~: Vapid Minivan</Dialogue>
         <Dialogue>~b~Owner~s~: Talon Knight</Dialogue>
-        <Dialogue>~y~Note: Vehicle registered 4 months ago~s~</Dialogue>
-        <Dialogue>~y~You~s~: Dispatch, check the name 'Talon Knight', please.</Dialogue>
-        <Dialogue>Standby, I'm checking.</Dialogue>
+        <Dialogue>~y~Nota: Vehículo registrado hace 4 meses~s~</Dialogue>
+        <Dialogue>~y~You~s~: Despacho, compruebe el nombre 'Talon Knight', por favor.</Dialogue>
+        <Dialogue>En espera, lo estoy comprobando.</Dialogue>
         <Dialogue>~b~Talon Knight~s~</Dialogue>
-        <Dialogue>~g~No arrests</Dialogue>
-        <Dialogue>~y~1 citation: Parking on the wrong side of the street~s~</Dialogue>
-        <Dialogue>~y~You~s~: Your record looks clean, once I'm finished, I will come back to you.</Dialogue>
-        <Dialogue>~o~Talon~s~: Alright!</Dialogue>
-        <Dialogue>Talk to the last ~o~suspect~s~.</Dialogue>
+        <Dialogue>~g~No arrestos</Dialogue>
+        <Dialogue>~y~1 citación: Estacionamiento en el lado equivocado de la calle~s~</Dialogue>
+        <Dialogue>~y~You~s~: Tu historial parece limpio, una vez que termine, volveré contigo.</Dialogue>
+        <Dialogue>~o~Talon~s~: ¡Muy bien!</Dialogue>
+        <Dialogue>Habla con los últimos sospechosos.</Dialogue>
     </Suspect2>
 
     <Suspect3>
-        <Dialogue>Talk to ~o~her~s~ using </Dialogue>
-        <Dialogue>~y~You~s~: Hello Ms! I'm the detective in this case, can you give me your name, please?</Dialogue>
-        <Dialogue>~o~Suspect~s~: Hello there, my name is Nylah Lane.</Dialogue>
-        <Dialogue>~y~You~s~: Gotcha. Dispatch, can I have a name check on Nylah Lane?</Dialogue>
-        <Dialogue>Copy that, searching.</Dialogue>
+        <Dialogue>Hable con ~o~s~s~ usando</Dialogue>
+        <Dialogue>~y~You~s~: ¡Hola señora! Soy el detective de este caso, ¿puede darme su nombre, por favor?</Dialogue>
+        <Dialogue>~Hola, mi nombre es Nylah Lane.</Dialogue>
+        <Dialogue>~y~You~s~: Gotcha. Central, ¿puede comprobar el nombre de Nylah Lane?</Dialogue>
+        <Dialogue>Entendido, buscando.</Dialogue>
         <Dialogue>~b~Nylah Lane~s~</Dialogue>
         <Dialogue>~g~No warrants~s~</Dialogue>
-        <Dialogue>~g~No arrests</Dialogue>
-        <Dialogue>~y~1 citation: Parking in disabled parking space~s~</Dialogue>
-        <Dialogue>~y~You~s~: Alright, sounds good. Where do you live?</Dialogue>
-        <Dialogue>~o~Nylah~s~: I live in Vinewood Hills, I have a flat there.</Dialogue>
-        <Dialogue>~y~You~s~: Wow, thats a nice place to live! Can I see your cellphone, please?</Dialogue>
-        <Dialogue>~o~Nylah~s~: Yeah sure, it's in my ... Oh, sh*t, where is it?... Maybe I left it in my car, then.</Dialogue>
-        <Dialogue>~y~You~s~: Oh, I hope so. So what car do you drive?</Dialogue>
-        <Dialogue>~o~Nylah~s~: I drive a... aaaaah... Grotti ... Stinger, yeah.</Dialogue>
-        <Dialogue>~y~You~s~: Ok, what's the license plate?</Dialogue>
-        <Dialogue>~o~Nylah~s~: ... Aaah, I don't know.</Dialogue>
-        <Dialogue>~y~You~s~: You don't know the license plate of your own vehicle?</Dialogue>
-        <Dialogue>~o~Nylah~s~: Yeah, I mean... it's complicated...</Dialogue>
-        <Dialogue>~y~You~s~: Okay, whatever. Dispatch, I need a plate check a ~b~Grotti Stinger~s~, owner is ~b~Nylah Lane~s~.</Dialogue>
-        <Dialogue>10-4, searching.</Dialogue>
-        <Dialogue>No results on this combination, let me check the owner.</Dialogue>
-        <Dialogue>I found a different vehicle on the owner:</Dialogue>
+        <Dialogue>~g~No arrestos</Dialogue>
+        <Dialogue>~y~1 citación: Estacionamiento en plaza de aparcamiento para minusválidos~s~</Dialogue>
+        <Dialogue>~y~You~s~: Muy bien, suena bien. ¿Dónde vives?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Vivo en Vinewood Hills, tengo un piso allí.</Dialogue>
+        <Dialogue>~y~You~s~: ¡Wow, ese es un buen lugar para vivir! ¿Puedo ver tu móvil, por favor?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Sí, claro, está en mi ... Oh, mierda, ¿dónde está?... Tal vez lo dejé en mi coche, entonces.</Dialogue>
+        <Dialogue>~y~You~s~: Oh, eso espero. ¿Qué coche conduces?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Conduzco un... aaaaah... Grotti ... Stinger, sí.</Dialogue>
+        <Dialogue>~y~You~s~: Ok, ¿cuál es la matrícula?</Dialogue>
+        <Dialogue>~o~Nylah~s~: ... Aaah, no lo sé.</Dialogue>
+        <Dialogue>~y~You~s~: ¿No sabes la matrícula de tu propio vehículo?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Sí, quiero decir... es complicado...</Dialogue>
+        <Dialogue>~y~You~s~: Ok, como sea. Central, necesito la matrícula de un Grotti Stinger, la dueña es Nylah Lane.</Dialogue>
+        <Dialogue>10-4, buscando.</Dialogue>
+        <Dialogue>No hay resultados en esta combinación, déjame comprobar el propietario.</Dialogue>
+        <Dialogue>Encontré un vehículo diferente en el propietario:</Dialogue>
         <Dialogue>~b~58RLD582~s~</Dialogue>
         <Dialogue>~y~Model~s~: Obey Tailgater</Dialogue>
         <Dialogue>~b~Owner~s~: Nylah Lane</Dialogue>
-        <Dialogue>~y~You~s~: Interesting. Ms, why did you lie about your vehicle?</Dialogue>
-        <Dialogue>~o~Nylah~s~: What do you mean? I mean.. I have 2 vehicles... or do I?</Dialogue>
-        <Dialogue>~y~You~s~: Very funny, did you lie about your phone, too?</Dialogue>
-        <Dialogue>~o~Nylah~s~: Have you found it nearby? Is that why you asking?</Dialogue>
-        <Dialogue>~y~You~s~: ... What's your relation to the victim?</Dialogue>
-        <Dialogue>~o~Nylah~s~: She's my cousin and she owes me money, a lot.</Dialogue>
-        <Dialogue>~y~You~s~: Is that why you murdered her?</Dialogue>
-        <Dialogue>~o~Nylah~s~: I only drove to her house to confront her about the debts.</Dialogue>
-        <Dialogue>~y~You~s~: Thank you for your cooperation, I'll come back to you.</Dialogue>
-        <Dialogue>Talk to ~b~Officer Erika~s~ again.</Dialogue>
+        <Dialogue>~y~You~s~: Interesante. Señorita, ¿por qué mintió sobre su vehículo?</Dialogue>
+        <Dialogue>~o~Nylah~s~: ¿Qué quieres decir? Quiero decir.. Tengo 2 vehículos... ¿o no?</Dialogue>
+        <Dialogue>~y~You~s~: Muy gracioso, ¿también mentiste sobre tu teléfono?</Dialogue>
+        <Dialogue>~o~Nylah~s~: ¿Lo has encontrado cerca? ¿Por eso preguntas?</Dialogue>
+        <Dialogue>~... ¿Cuál es su relación con la víctima?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Ella es mi prima y ella me debe dinero, mucho.</Dialogue>
+        <Dialogue>~y~You~s~: ¿Es por eso que la asesinaste?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Sólo fui a su casa para confrontarla por las deudas.</Dialogue>
+        <Dialogue>~y~You~s~: Gracias por su cooperación, voy a volver a usted.</Dialogue>
+        <Dialogue>Habla con la oficial Erika de nuevo.</Dialogue>
     </Suspect3>
 
     <Officer3>
-        <Dialogue>Go talk to the ~b~Officer~w~ again using </Dialogue>
-        <Dialogue>~y~You~s~: Alright, I've searched the crime scene and talked to the suspects.</Dialogue>
-        <Dialogue>~b~Erika~s~: And could you find out who the murderer is?</Dialogue>
-        <Dialogue>Press {1} ~r~for Belle Hamilton~s~, {2} ~o~for Talon Knight~s~ or {3} ~y~for Nylah Lane~s~!</Dialogue>
+        <Dialogue>Ve a hablar con el ~b~Oficial~w~ de nuevo usando</Dialogue>
+        <Dialogue>~y~You~s~: Muy bien, he buscado en la escena del crimen y hablado con los sospechosos.</Dialogue>
+        <Dialogue>~b~Erika~s~: ¿Y podrías averiguar quién es el asesino?</Dialogue>
+        <Dialogue>Pulsa {1} ~r~para Belle Hamilton~s~, {2} ~o~para Talon Knight~s~ o {3} ~y~para Nylah Lane~s~.</Dialogue>
 
-        <Dialogue>~y~You~s~: ... ~r~Belle Hamilton~s~!</Dialogue>
-        <Dialogue>~y~You~s~: Ms. Hamilton didn't want to show me their phone content and said she was in the area when it happened!</Dialogue>
-        <Dialogue>~y~You~s~: She's the murderer!</Dialogue>
+        <Dialogue>~y~You~s~: ... ¡~r~Belle Hamilton~s~!</Dialogue>
+        <Dialogue>~y~You~s~: ¡La Sra. Hamilton no quiso mostrarme el contenido de su teléfono y dijo que estaba en el área cuando sucedió!</Dialogue>
+        <Dialogue>~y~You~s~: ¡Ella es la asesina!</Dialogue>
 
         <Dialogue>~y~You~s~: ... ~o~Talon Knight~s~!</Dialogue>
-        <Dialogue>~y~You~s~: Mr. Knight didn't like the victim and lives nearby!</Dialogue>
-        <Dialogue>~y~You~s~: He also couldn't show me his cellphone! He's the murderer!</Dialogue>
+        <Dialogue>~y~You~s~: ¡Al Sr. Caballero no le gustaba la víctima y vive cerca!</Dialogue>
+        <Dialogue>~¡Tampoco pudo enseñarme su móvil! ¡Él es el asesino!</Dialogue>
 
-        <Dialogue>~y~You~s~: ... ~y~Nylah Lane~s~!</Dialogue>
-        <Dialogue>~y~You~s~: Ms. Lane was around as it happened and is related to the victim!</Dialogue>
-        <Dialogue>~y~You~s~: She lied about her vehicle and her cellphone!</Dialogue>
-        <Dialogue>~y~You~s~: Her cellphone shows her vehicle. She lost it on the scene. She's the murderer!</Dialogue>
+        <Dialogue>~y~You~s~: ¡~y~Nylah Lane~s~!</Dialogue>
+        <Dialogue>~y~You~s~: ¡La Srta. Lane estaba cerca cuando sucedió y es pariente de la víctima!</Dialogue>
+        <Dialogue>~y~You~s~: ¡Ella mintió sobre su vehículo y su celular!</Dialogue>
+        <Dialogue>~Su móvil muestra su vehículo. Lo perdió en la escena. ¡Ella es la asesina!</Dialogue>
 
-        <Dialogue>~b~Erika~s~: Oh, I see! Go ahead and arrest the ~r~suspect~s~!</Dialogue>
+        <Dialogue>~b~Erika~s~: ¡Oh, ya veo! ¡Adelante y arresten a los sospechosos!</Dialogue>
     </Officer3>
 
     <Arrest>
-        <Text>You successfully arrested the ~r~murderer~s~! ~g~Clean the scene~s~!</Text>
-        <Text>Oh no, you've arrested the ~y~wrong~s~ person! ~g~Clean the scene~s~!</Text>
-        <Text>A ~o~suspect~s~ has ~r~died~s~.{0}Situation ~g~Code 4~s~, ~g~clean the scene~s~!</Text>
-        <Text>An ~b~Officer~s~ has ~r~died~s~.{0}Situation ~g~Code 4~s~.</Text>
+        <Text>¡Has arrestado con éxito al asesino! ¡~g~Limpia la escena~~s~!</Text>
+        <Text>¡Oh no, has arrestado a la persona equivocada! ~¡Limpien la escena!</Text>
+        <Text>¡Un ~o~sospechoso~s~ ha ~r~muerto~s~.{0}Situación ~g~Código 4~s~, ~g~limpiar la escena~s~!</Text>
+        <Text>Un ~b~Oficial~s~ ha ~r~muerto~s~.{0}Situación ~g~Código 4~s~.</Text>
 
     </Arrest>
 

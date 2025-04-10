@@ -1,61 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
 <NoiseComplaint>
     <General>
-        <Text>Noise Complaint</Text>
-        <Text>Report of a loud house party</Text>
-        <Text>Neighbours called in a noise complaint. Make sure the ~o~event~s~ organizer lowers the music volume.</Text>
-        <Text>Press {Key} to adjust the volume for yourself.</Text>
+        <Text>Queja por ruido</Text>
+        <Text>Denuncia de una fiesta ruidosa en una casa</Text>
+        <Text>Los vecinos han presentado una queja por ruido. Asegúrate de que el organizador del ~o~evento baje el volumen de la música.</Text>
+        <Text>Pulse {Tecla} para ajustar el volumen usted mismo.</Text>
     </General>
 
     <Persons>
-        <Text>You</Text>
-        <Text>Owner</Text>
+        <Text>Usted</Text>
+        <Text>Propietario</Text>
         <Text>DJ</Text>
     </Persons>
 
     <Tasks>
-        <Text>Leave the party by driving towards the ~y~yellow marker~s~.</Text>
-        <Text>Act like you think is right here, then talk to the ~g~~h~DJ~h~~s~.</Text>
-        <Text>A caller reported a noise complaint at the same adress as before. Respond Code 2.</Text>
+        <Text>Abandona la fiesta conduciendo hacia el ~y~marcador amarillo~s~.</Text>
+        <Text>Actúa como crees que es correcto aquí, luego habla con los ~g~~h~DJ~h~~s~.</Text>
+        <Text>Un llamante informó de una queja por ruido en la misma dirección que antes. Código de respuesta 2.</Text>
     </Tasks>
 
     <OwnerCooperative>
-        <Dialogue>Hello Officer, how can I help?</Dialogue>
-        <Dialogue>We got a call about the loud music. Please lower the volume.</Dialogue>
-        <Dialogue>If I need to come here again, you'll get a citation for the loud music.</Dialogue>
-        <Dialogue>Alright, alright, we will lower it.</Dialogue>
-        <Dialogue>Thanks for the cooperation, enjoy the night.</Dialogue>
+        <Dialogue>Hola agente, ¿en qué puedo ayudarle?</Dialogue>
+        <Dialogue>Nos han llamado por la música alta. Por favor, bajen el volumen.</Dialogue>
+        <Dialogue>Si tengo que venir aquí otra vez, recibirás una citación por la música alta.</Dialogue>
+        <Dialogue>De acuerdo, de acuerdo, lo bajaremos.</Dialogue>
+        <Dialogue>Gracias por la colaboración, disfrutad de la noche.</Dialogue>
     </OwnerCooperative>
 
     <OwnerUncooperative>
-        <Dialogue>Yoo, the po-po, what the fuck are you doing here?</Dialogue>
-        <Dialogue>We were disptached to this address about the loud music.</Dialogue>
-        <Dialogue>The fuck, does this look like a kindergarten? We're fucking partying!!</Dialogue>
-        <Dialogue>Sir, turn the music down immediately.</Dialogue>
-        <Dialogue>I'm doing shit, you gonna have to arrest me or leave, pig.</Dialogue>
+        <Dialogue>Yoo, el po-po, ¿qué coño estás haciendo aquí?</Dialogue>
+        <Dialogue>Estábamos en desacuerdo con esta dirección por la música alta.</Dialogue>
+        <Dialogue>Joder, ¿esto parece una guardería? ¡¡Estamos de puta fiesta!!</Dialogue>
+        <Dialogue>Señor, baje la música inmediatamente.</Dialogue>
+        <Dialogue>Estoy haciendo mierda, vas a tener que arrestarme o irte, cerdo.</Dialogue>
     </OwnerUncooperative>
 
     <OwnerSecond>
-        <Dialogue>Hello again, we got another call about your music being to loud.</Dialogue>
-        <Dialogue>And as I can hear you turned the volume up again instead of keeping it lower...</Dialogue>
-        <Dialogue>Oh common Officer, we just having fun, we have a big party going on.</Dialogue>
-        <Dialogue>That's fine, as long as the music is at an acceptable volume.</Dialogue>
-        <Dialogue>If I have to come again, you will be arrested!</Dialogue>
-        <Dialogue>I will give you a citation since it's the second time I'm here.</Dialogue>
-        <Dialogue>Have a nice, but quieter night.</Dialogue>
+        <Dialogue>Hola de nuevo, recibimos otra llamada sobre su música demasiado alta.</Dialogue>
+        <Dialogue>Y como oigo que has vuelto a subir el volumen en vez de mantenerlo más bajo...</Dialogue>
+        <Dialogue>Oficial común, sólo nos divertimos, tenemos una gran fiesta en marcha.</Dialogue>
+        <Dialogue>Eso está bien, siempre que la música esté a un volumen aceptable.</Dialogue>
+        <Dialogue>¡Si tengo que venir otra vez, serás arrestado!</Dialogue>
+        <Dialogue>Te citaré ya que es la segunda vez que estoy aquí.</Dialogue>
+        <Dialogue>Que tengas una noche agradable, pero más tranquila.</Dialogue>
     </OwnerSecond>
 
     <DJ>
-        <Dialogue>Hello sir, you are the DJ here, right?</Dialogue>
-        <Dialogue>Yes sir, I'm sorry for the ~o~owner~s~, my name is ~g~DJ Moodyman~s~.</Dialogue>
-        <Dialogue>Oh, you have played on the yacht some time ago, right?</Dialogue>
-        <Dialogue>Yeah, I remember you were there. Anyways, what can I do for you?</Dialogue>
-        <Dialogue>Please turn down the volume, we have neighbours who feel bothered.</Dialogue>
-        <Dialogue>Oh yeah, no problem, I will. I'm sorry the owner is that uncooperative.</Dialogue>
-        <Dialogue>I'll see what I'll do with him. Have a nice day!</Dialogue>
+        <Dialogue>Hola señor, usted es el DJ aquí, ¿verdad?</Dialogue>
+        <Dialogue>Sí señor, lo siento por el ~o~propietario~s~, mi nombre es ~g~DJ Moodyman~s~.</Dialogue>
+        <Dialogue>Has jugado en el yate hace algún tiempo, ¿verdad?</Dialogue>
+        <Dialogue>Sí, recuerdo que estabas allí. De todos modos, ¿qué puedo hacer por ti?</Dialogue>
+        <Dialogue>Por favor, bajen el volumen, tenemos vecinos que se sienten molestados.</Dialogue>
+        <Dialogue>Sí, no hay problema, lo haré. Siento que el dueño sea tan poco cooperativo.</Dialogue>
+        <Dialogue>Ya veré qué hago con él. ¡Que tenga un buen día!</Dialogue>
     </DJ>
 
     <End>
-        <Text>~g~Callout is Code 4.</Text>
-        <Text>Press ~y~End~s~ anytime to end the callout.</Text>
+        <Text>~g~Callout es el Código 4.</Text>
+        <Text>Pulse ~y~End~s~ en cualquier momento para finalizar la llamada.</Text>
     </End>
 </NoiseComplaint>
