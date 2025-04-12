@@ -7,60 +7,60 @@
 
 
     <General>
-        <Text>Lost Freight</Text>
-        <Text>Caller reports lost freight on the highway.</Text>
-        <Text><![CDATA[Drive to the caller & make contact.]]></Text>
+        <Text>货物丢失</Text>
+        <Text>高速公路上货物丢失.</Text>
+        <Text><![CDATA[驾车前往并与呼叫者取得联系.]]></Text>
     </General>
 
 
     <DisplayHelp>
-        <Text>Talk to the caller with </Text>
-        <Text><![CDATA[Search the ~y~area~s~ & clear the obstacles with ]]></Text>
-        <Text>Talk to the ~b~officer~s~ with </Text>
-        <Text>No further communication.</Text>
-        <Text>Here's a little ~g~help.</Text>
+        <Text>与报警人通话</Text>
+        <Text><![CDATA[搜索~y~区域~s~ & 并清除障碍物 ]]></Text>
+        <Text>与~b~officer~s~ 交谈 </Text>
+        <Text>不再沟通.</Text>
+        <Text>以下是一些~g~帮助.</Text>
     </DisplayHelp>
 
 
     <Pickup>
-        <Text>~r~No objects~s~ nearby.</Text>
-        <Text>~r~Object~s~ removed!</Text>
+        <Text>附近没有~r~物体~s~.</Text>
+        <Text>~r~物体~s~ 已删除!</Text>
     </Pickup>
 
 
     <Conversation>
-        <Dialogue>~y~You~s~: Hello, you called about lost freight?</Dialogue>
-        <Dialogue><![CDATA[~b~Caller~s~: Hi, yeah, the trailer's door swung open & now stuff's fallen onto the highway!]]></Dialogue>
-        <Dialogue>~y~You~s~: That's dangerous, what were you carrying?</Dialogue>
-        <Dialogue>~b~Caller~s~: All sorts of ~b~tennis stuff~s~, since we were clearing out our club house.</Dialogue>
-        <Dialogue>~b~Caller~s~: Lots of ~b~office stuff~s~, cabinets, screens, chairs, speakers...</Dialogue>
-        <Dialogue>~b~Caller~s~: Loads of ~b~kitchen utensils~s~, pots, cutlery, plates, etc., as we had a company relocation.</Dialogue>
-        <Dialogue>~y~You~s~: I see, where were you headed?</Dialogue>
-        <Dialogue>~b~Caller~s~: I was only going in ~y~this one direction~s~, so search that one side of the highway.</Dialogue>
-        <Dialogue>~y~You~s~: Dispatch, block the last highway entrance, parts are on the road!</Dialogue>
-        <Dialogue>Copy, traffic will be stopped, units en route.</Dialogue>
+        <Dialogue>~y~警员~s~: 您好，您打电话来询问货物丢失的情况吗?</Dialogue>
+        <Dialogue><![CDATA[~b~报警人~s~: 嗨，是的，拖车的门打开了,& 现在东西掉到高速公路上了!]]></Dialogue>
+        <Dialogue>~y~警员~s~: 那很危险，车上带的是什么货物?</Dialogue>
+        <Dialogue>~b~报警人~s~: 各种各样的 ~b~网球用品~s~,因为我们正在清理我们的俱乐部会所.</Dialogue>
+        <Dialogue>~b~报警人~s~: 很多 ~b~办公用品~s~, 柜子、屏幕、椅子、扬声器...</Dialogue>
+        <Dialogue>~b~报警人~s~: 由于公司搬迁所以需要大量的~b~厨房用具~s~, 锅、餐具、盘子等.</Dialogue>
+        <Dialogue>~y~警员~s~: 我明白了，你要去哪里?</Dialogue>
+        <Dialogue>~b~报警人~s~: 我只往~~y~这个方向~s~, 走，所以搜索高速公路的那一侧.</Dialogue>
+        <Dialogue>~y~警员~s~: Dispatch, 封锁最后一个高速公路入口, 零件掉落在路上!</Dialogue>
+        <Dialogue>Copy, 交通将被停止.</Dialogue>
     </Conversation>
 
 
     <Officer1>
-        <Dialogue>~b~Officer Blue~s~: Hi! Hope you're having a great day!</Dialogue>
-        <Dialogue>~b~Officer Blue~s~: I'll keep traffic stopped until the road's clear!</Dialogue>
-        <Dialogue>~b~Officer Blue~s~: Good luck!</Dialogue>
+        <Dialogue>~b~Officer Blue~s~: 嗨！祝你今天过得愉快!</Dialogue>
+        <Dialogue>~b~Officer Blue~s~: 我会保持交通畅通，直到道路畅通!</Dialogue>
+        <Dialogue>~b~Officer Blue~s~: 祝你好运!</Dialogue>
     </Officer1>
 
 
     <Officer2>
-        <Dialogue>~b~Officer Night~s~: Hello, how much longer is this going to take?</Dialogue>
-        <Dialogue>~b~Officer Night~s~: I've got other things to do, too!</Dialogue>
-        <Dialogue>~b~Officer Night~s~: If you wouldn't talk so much, I'd be gone already!</Dialogue>
+        <Dialogue>~b~Officer Night~s~: 您好，这还需要多长时间?</Dialogue>
+        <Dialogue>~b~Officer Night~s~: 我还有其他事情要做!</Dialogue>
+        <Dialogue>~b~Officer Night~s~: 如果你不说这么多，我早就走了!</Dialogue>
     </Officer2>
 
 
     <End>
         <Text>We're ~g~Code 4~s~</Text>
-        <Text>Items removed:</Text> <!--There are 4 items to find, on this message you get to see how many you've found.-->
+        <Text>已移除的物品:</Text> <!--There are 4 items to find, on this message you get to see how many you've found.-->
         <Text>/~g~4</Text> <!--This means X items from 4 items were found -> X/4 items found-->
-        <Text>~r~Thank you, ~g~traffic can flow again!</Text>
+        <Text>~r~谢谢你, ~g~交通又可以畅通了!</Text>
     </End>
 
 
