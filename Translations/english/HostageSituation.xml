@@ -14,118 +14,118 @@
 
 
     <General>
-        <Text>Hostage Situation</Text>
-        <Text>One person is holding a hostage at gunpoint</Text>
-        <Text>Drive to the hostage situation Code 3, priority!</Text>
-        <Text><![CDATA[Park your car at the yellow marker & take cover while talking to the suspect.]]></Text>
-        <Text>Talk to the ~g~hostage.</Text>
-        <Text>Okay okay, I surrender!</Text>
-        <Text>Park there and take cover behind your vehicle.</Text>
+        <Text>人质事件</Text>
+        <Text>有一人用枪威胁人质</Text>
+        <Text>驾车前往人质事件现场 Code 3, 优先处理!</Text>
+        <Text><![CDATA[将车停在黄色标记处 & 并在与嫌疑人交谈时寻找掩护.]]></Text>
+        <Text>与~g~人质交谈.</Text>
+        <Text>Okay okay, 我投降!</Text>
+        <Text>停在那里并躲在你的车后面.</Text>
     </General>
 
     <PedStatus>
-        <Text>~r~Suspect ~s~arrested!</Text>
-        <Text>~g~Hostage ~y~arrested?!</Text>
-        <Text>The ~o~suspect~s~ has ~r~died.~s~</Text>
-        <Text>The ~g~hostage~s~ has ~r~died...~s~</Text>
+        <Text>~r~嫌疑人 ~s~已被捕!</Text>
+        <Text>~g~人质 ~y~被捕?!</Text>
+        <Text>The ~o~嫌疑人~s~ 已 ~r~死亡.~s~</Text>
+        <Text>The ~g~人质~s~ 已 ~r~死亡...~s~</Text>
     </PedStatus>
 
     <DisplayHelp>
-        <Text>Press</Text>                                                          <!-- Press _Key_Y__ to end ... -->
-        <Text>to end the callout after you've finished ~b~investigating~s~.</Text>  <!-- Press _Key_Y__ to end ... -->
-        <Text>Talk to the suspect using</Text>                                      <!-- Talk to the suspect using _Key_Y_ -->
+        <Text>按</Text>                                                          <!-- Press _Key_Y__ to end ... -->
+        <Text>在完成调查后 ~b~结束标注~s~.</Text>  <!-- Press _Key_Y__ to end ... -->
+        <Text>与嫌疑人交谈时使用</Text>                                      <!-- Talk to the suspect using _Key_Y_ -->
     </DisplayHelp>
 
     <DistanceToSuspect> <!-- If you're too close to the suspect with the hostage, you first get a warning, if you still in the area after a few seconds, he shoots -->
-        <Dialogue>~o~Piss off or I shoot!</Dialogue>
-        <Dialogue>~g~Just made it on time!</Dialogue>
-        <Dialogue>~r~Now it will rain bullets!</Dialogue>
+        <Dialogue>~o~滚开，不然我就开枪了!</Dialogue>
+        <Dialogue>~g~刚好准时到达!</Dialogue>
+        <Dialogue>~r~你靠得太近了！小心点!</Dialogue>
     </DistanceToSuspect>
 
     <DistanceWarner> <!-- If you're too close to the suspects vehicle with the hostage, you first get a warning, if you still in the area after a few seconds, he shoots -->
-        <Dialogue>~o~Keep your distance or the suspect gets angry!~s~</Dialogue>
-        <Dialogue>~g~Good job, stay at a safe distance.~s~</Dialogue>
-        <Dialogue>~r~You were too close! Watch out!~s~</Dialogue>
+        <Dialogue>~o~保持距离，否则嫌疑人会生气!~s~</Dialogue>
+        <Dialogue>~g~干得好，保持安全距离.~s~</Dialogue>
+        <Dialogue>~r~你靠得太近了！小心点!~s~</Dialogue>
     </DistanceWarner>
 
     <Menu>
         <MenuName>Decide:</MenuName>
 
         <Menu1>
-                <Conversation>Stay still</Conversation>
-                <Conversation>~y~You~s~: Don't worry, I'll stay right here.</Conversation>
-                <Conversation>Apply pressure</Conversation>
-                <Conversation>~y~You~s~: I'll blow your head off, you bastard!</Conversation>
+                <Conversation>保持不动</Conversation>
+                <Conversation>~y~警员~s~: 别担心，我会留在这里.</Conversation>
+                <Conversation>施加压力</Conversation>
+                <Conversation>~y~警员~s~: 我要爆掉你的X，你这个混蛋!</Conversation>
         </Menu1>
 
         <Menu2>
-                <Conversation>20,000 $ in cash</Conversation> <!-- Feel free to change currency (€) to your country. -->
-                <Conversation>~y~You~s~: We'll give you 20,000 $ in cash, does that sound good?</Conversation> <!-- Feel free to change currency (€) to your country. -->
-                <Conversation>Improve detention conditions</Conversation>
-                <Conversation>~y~You~s~: We can get your boss a bigger cell with a TV, how about that?</Conversation>
-                <Conversation><![CDATA[Suggest a fresh start & psychologist]]></Conversation>
-                <Conversation>~y~You~s~: I understand. A friend of mine is a great psychologist, she can help you get back on track, how does that sound?</Conversation>
+                <Conversation>50万现金</Conversation> <!-- Feel free to change currency (€) to your country. -->
+                <Conversation>~y~警员~s~: 我们会给你50万现金，听起来不错吧?</Conversation> <!-- Feel free to change currency (€) to your country. -->
+                <Conversation>改善拘留条件</Conversation>
+                <Conversation>~y~警员~s~: 我们可以给你boss弄一间带电视的大一点的牢房，怎么样?</Conversation>
+                <Conversation><![CDATA[建议重新开始&并咨询心理专家]]></Conversation>
+                <Conversation>~y~警员~s~: 我明白了。我有个朋友是个很棒的心理学家，她能帮你重回正轨，你觉得怎么样?</Conversation>
         </Menu2>
 
         <Menu3>
-                <Conversation>Getaway car with limited fuel</Conversation>
-                <Conversation>~y~You~s~: You'll get a getaway car with limited fuel, but where are you going?</Conversation>
-                <Conversation>Suggest pizza</Conversation>
-                <Conversation>~y~You~s~: How about a pizza instead?</Conversation>
+                <Conversation>燃油有限的逃逸车辆</Conversation>
+                <Conversation>~y~警员~s~: 你会得到一辆燃料有限的逃跑车，但是你要去哪里呢?</Conversation>
+                <Conversation>推荐披萨</Conversation>
+                <Conversation>~y~警员~s~: 吃块披萨怎么样?</Conversation>
         </Menu3>
     </Menu>
 
     <SuspectTalk>
-                <Dialogue>~r~Suspect~s~: Get lost! What do you want here?! Don't come any closer!</Dialogue>
-                <Dialogue>~r~Suspect~s~: You better hope so! Now, everyone leave, I don't want to see any more police!</Dialogue>
-                <Dialogue>~r~Suspect~s~: You can't do anything to me! I don't want to see any more police, or it will rain bullets!</Dialogue>
-                <Dialogue>~y~You~s~: I understand, but the building is surrounded.</Dialogue>
-                <Dialogue>~y~You~s~: I want this to end peacefully, for you, for the hostage, and for the officers.</Dialogue>
-                <Dialogue>~y~You~s~: Why did you rob the store?</Dialogue>
+                <Dialogue>~r~嫌疑人~s~: 滚！你们来干什么？！别再靠近我!</Dialogue>
+                <Dialogue>~r~嫌疑人~s~: 你最好希望如此！现在，大家都离开，我不想再看到警察了!</Dialogue>
+                <Dialogue>~r~嫌疑人~s~: 你别想把我怎么样！我不想再看到警察了，不然你就要见识到枪林弹雨了!</Dialogue>
+                <Dialogue>~y~警员~s~: 我明白，但是建筑物被包围了.</Dialogue>
+                <Dialogue>~y~警员~s~: 我希望这一切能够和平结束，为了你，为了人质，为了警官们.</Dialogue>
+                <Dialogue>~y~警员~s~: 你为什么要抢劫商店?</Dialogue>
         <Reasons>
-            <Dialogue>~r~Suspect~s~: I need ~b~money~s~, I'm ~b~broke~s~ and can't pay my rent anymore!</Dialogue>
-            <Dialogue>~r~Suspect~s~: It's her fault! ~b~She left me!~s~ And now she's my hostage!</Dialogue>
-            <Dialogue>~r~Suspect~s~: My ~b~boss~s~ is in ~b~prison~s~, I won't leave until he's free!</Dialogue>
+            <Dialogue>~r~嫌疑人~s~: 我需要~b~钱~s~, 我 ~b~破产了~s~ 付不起房租了!</Dialogue>
+            <Dialogue>~r~嫌疑人~s~: 都是她的错! ~b~她抛弃了我!~s~ 但现在她成了我的人质!</Dialogue>
+            <Dialogue>~r~嫌疑人~s~: 我的~b~boss~s~ 在 ~b~监狱里~s~, 他不被释放我就不走!</Dialogue>
         </Reasons>
-                <Dialogue>~y~You~s~: Listen closely, I'm offering you the following deal:</Dialogue>
-                <Dialogue>~r~Suspect~s~: We'll make the deal, but what do you want in return?</Dialogue>
-                <Dialogue>~y~You~s~: Once again, everyone should go home safely and you need to let go of the hostage!</Dialogue>
-                <Dialogue>~r~Suspect~s~: You give me a getaway car, I'll let the hostage go later!</Dialogue>
-                <Dialogue>~r~Suspect~s~: That doesn't make sense, final offer...</Dialogue>
+                <Dialogue>~y~警员~s~: 仔细听着，我向你提供以下交易:</Dialogue>
+                <Dialogue>~r~嫌疑人~s~: 我们会达成交易，但你想要什么回报?</Dialogue>
+                <Dialogue>~y~警员~s~: 再次强调，大家都应该安全回家，你现在需要放开人质!</Dialogue>
+                <Dialogue>~r~嫌疑人~s~: 你给我一辆逃跑的车，我稍后会释放人质!</Dialogue>
+                <Dialogue>~r~嫌疑人~s~: 这没有道理，最后的提议...</Dialogue>
         <Fail>
-            <Dialogue>~r~Suspect~s~: Fuck you and your deals! And the police are still here!</Dialogue>
-            <Dialogue>~r~Suspect~s~: Now you'll see what you get!</Dialogue>
-            <Dialogue>~r~Suspect~s~: You're crazy! Now you'll see what you get!</Dialogue>
+            <Dialogue>~r~嫌疑人~s~: 去你X的，还有你的交易！警察还在呢!</Dialogue>
+            <Dialogue>~r~嫌疑人~s~: 现在你就会看到你得到了什么!</Dialogue>
+            <Dialogue>~r~嫌疑人~s~: 你疯了！现在就等着瞧吧!</Dialogue>
         </Fail>
-                <Dialogue>~r~Suspect~s~: I'm not telling you, but I will release the hostage as soon as I don't see any more police.</Dialogue>
-                <Dialogue>~y~You~s~: The car should be there any moment...</Dialogue>
+                <Dialogue>~r~嫌疑人~s~: 我不会告诉你，但只要我再也看不到警察，我就会释放人质.</Dialogue>
+                <Dialogue>~y~警员~s~: 汽车随时就到...</Dialogue>
         
         
     </SuspectTalk>
 
     <SuspectDrives>
-        <Text>Follow the suspect's vehicle, but make sure to keep your distance, so he can't see you!</Text>
-        <Text><![CDATA[The ~g~suspect should feel safe,~s~ time to box him in & ~r~arrest him!~s~]]></Text>
-        <Text>A tracker was installed and is active on the vehicle.</Text>
-        <Text>The FBI reported: You can ~y~disable the vehicle's~s~ engine by pressing ~y~O~s~!</Text>
-        <Text><![CDATA[Take the ~y~suspect into custody~s~! Block his vehicle & arrest him!]]></Text>
-        <Text>The vehicle was deactivated, apprehend the suspect!</Text>
+        <Text>跟踪嫌疑人的车辆，但一定要保持距离，这样他就看不到你!</Text>
+        <Text><![CDATA[The ~g~嫌疑人应该感到安全了,~s~ 是时候把他围起来并 & ~r~逮捕他了!~s~]]></Text>
+        <Text>车辆上已安装跟踪器并处于活动状态.</Text>
+        <Text>FBI 报告: 您可以通过按下~y~O~s~ 来 ~y~禁用车辆的引擎~s~!</Text>
+        <Text><![CDATA[将~y~嫌疑人拘留~s~! 拦截他的车辆&并逮捕他!]]></Text>
+        <Text>车辆已停止，逮捕嫌疑人!</Text>
     </SuspectDrives>
 
     <HostageTalk>
-                <Dialogue>~g~Hostage~s~: Thank you so much, the guy is completely insane! I can't believe it!</Dialogue>
-                <Dialogue>~y~You~s~: Calm down. The hostage-taker is no longer a problem for you.</Dialogue>
-                <Dialogue>~y~You~s~: Are you alright? Do you need medical or psychological assistance?</Dialogue>
-                <Dialogue>~g~Hostage~s~: I'm fine, I just want to go home.</Dialogue>
-                <Dialogue>~y~You~s~: How did the hostage situation come about?</Dialogue>
+                <Dialogue>~g~人质~s~: 太感谢你们了，这家伙简直疯了！我简直不敢相信!</Dialogue>
+                <Dialogue>~y~警员~s~: 冷静一下。劫持你的人不再是你的麻烦了.</Dialogue>
+                <Dialogue>~y~警员~s~: 你还好吗？需要医疗或心理援助吗?</Dialogue>
+                <Dialogue>~g~人质~s~: 我没事，我只想回家.</Dialogue>
+                <Dialogue>~y~警员~s~: 这件事是如何发生的?</Dialogue>
         <ExGirlfriend>
-            <Dialogue>~g~Hostage~s~: My ex-boyfriend went crazy, I broke up with him two weeks ago.</Dialogue>
-            <Dialogue><![CDATA[~g~Hostage~s~: He couldn't handle it & followed me here.]]></Dialogue>
+            <Dialogue>~g~人质~s~: 我的前男友疯了，我两周前和他分手了.</Dialogue>
+            <Dialogue><![CDATA[~g~人质~s~: 他无法忍受 & 并跟着我来到这里.]]></Dialogue>
         </ExGirlfriend>
-                <Dialogue>~g~Hostage~s~: I just wanted to go shopping, then the guy came and pointed a gun at my head!</Dialogue>
-                <Dialogue>~g~Hostage~s~: He was determined to enforce his demands by all means...</Dialogue>
-                <Dialogue><![CDATA[~y~You~s~: Alright, if you have no other concerns, have a safe trip home & take care!]]></Dialogue>
-                <Dialogue>~g~Hostage~s~: Thank you again, goodbye!</Dialogue>
+                <Dialogue>~g~人质~s~: 我只是想去购物，然后那个家伙突然从我背后过来用枪指着我的头!</Dialogue>
+                <Dialogue>~g~人质~s~: 他决心不惜一切代价来执行他的要求...</Dialogue>
+                <Dialogue><![CDATA[~y~警员~s~: 好的，如果你没有其他顾虑,祝你一路平安& 保重!]]></Dialogue>
+                <Dialogue>~g~人质~s~: 再次感谢, 再见!</Dialogue>
     </HostageTalk>
 
     <End>
