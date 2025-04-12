@@ -1,69 +1,69 @@
 <Shoplifting>
 
     <General>
-        <Text>A reported shoplifting</Text>
-        <Text>A shopowner requested police</Text>
+        <Text>商店偷窃事件</Text>
+        <Text>店主请求警方帮助</Text>
         
-        <Text>~HC_64~Shop Owner~s~:</Text>
-        <Text>~y~You~s~:</Text>
+        <Text>~HC_64~店主~s~:</Text>
+        <Text>~y~警员~s~:</Text>
     </General>
 
     <GetInfos>
-        <Dialogue>Hello, I'm an officer from the local police department.</Dialogue>
-        <Dialogue>You called us about a shoplifting?</Dialogue>
-        <Dialogue>Hello! Yes, the suspect just left a few minutes ago!</Dialogue>
-        <Dialogue>This clown stole a bunch of stuff, he is carrying a bag with it.</Dialogue>
-        <Dialogue>How does the suspect look like?</Dialogue>
+        <Dialogue>您好，我是当地警察局的一名警官.</Dialogue>
+        <Dialogue>是您打电话给我们说商店被人偷窃了吗?</Dialogue>
+        <Dialogue>你好！是的，嫌疑人几分钟前刚离开!</Dialogue>
+        <Dialogue>这个人偷了一堆东西，他还带着一个袋子.</Dialogue>
+        <Dialogue>嫌疑人长得什么样?</Dialogue>
 
         <!-- {1}: ShoplHelper.Background() -->
-        <Dialogue>He is a black male</Dialogue>
-        <Dialogue>He is a white male</Dialogue>
+        <Dialogue>他是一名黑人男性</Dialogue>
+        <Dialogue>他是一名白人男性</Dialogue>
 
         <!-- {1}: {Suspect.GetRoundAge()} = {10} -->
-        <Dialogue>around {10} years old.</Dialogue>
+        <Dialogue>大约 {10} 岁.</Dialogue>
 
         <!-- {2}: ShoplHelper.TShirt() -->
-        <Dialogue>He was wearing a white tanktop</Dialogue>
-        <Dialogue>He was wearing a gray tanktop</Dialogue>
-        <Dialogue>He was wearing a black leather jacket</Dialogue>
+        <Dialogue>他穿着一件白色背心</Dialogue>
+        <Dialogue>他穿着一件灰色背心</Dialogue>
+        <Dialogue>他穿着一件黑色皮夹克</Dialogue>
 
         <!-- {2}: ShoplHelper.Pants() -->
-        <Dialogue>and checked pants.</Dialogue>
-        <Dialogue>and white pants.</Dialogue>
-        <Dialogue>and a light blue jeans.</Dialogue>
+        <Dialogue>和格子裤.</Dialogue>
+        <Dialogue>和白色裤子.</Dialogue>
+        <Dialogue>和一条浅蓝色牛仔裤.</Dialogue>
 
-        <Dialogue>I caught him on cctv, here is a photo of him!</Dialogue>
-        <Dialogue>The suspect left on foot!</Dialogue>
-        <Dialogue>Alright thank you, bye!</Dialogue>
+        <Dialogue>我在闭路电视上看到他了，这是他的照片!</Dialogue>
+        <Dialogue>嫌疑人徒步逃离!</Dialogue>
+        <Dialogue>好的，谢谢，再见!</Dialogue>
     </GetInfos>
 
     <LocationUpdater>
-        <Text>The ~y~location~s~ was updated!</Text> 
-        <Text>The ~g~location~s~ was updated!</Text> <!-- EasyLocationUpdater -->
-        <Text>The ~r~suspect~s~ has been found. Arrest him!</Text>
+        <Text>~y~位置~s~ 已更新!</Text> 
+        <Text>~g~位置~s~ 已更新!</Text> <!-- EasyLocationUpdater -->
+        <Text>~r~嫌疑人~s~ 已找到。逮捕他!</Text>
     </LocationUpdater>
 
     <Mugshot>
-        <Text>Black male</Text>
-        <Text>white tanktop</Text>
+        <Text>黑人男性</Text>
+        <Text>白色背心</Text>
 
-        <Text>White male</Text>
-        <Text>gray tanktop</Text>
+        <Text>白人男性</Text>
+        <Text>灰色背心</Text>
 
-        <Text>black leather jacket</Text>
+        <Text>黑色皮夹克</Text>
 
-        <Text>~h~Suspect description~h~</Text>
+        <Text>~h~可疑描述~h~</Text>
 
-        <Text>Press ~y~J~s~ anytime to view the ~y~picture~s~ again!</Text>
+        <Text>随时按 ~y~J键~s~ 即可再次查看 ~y~图片~s~ again!</Text>
     </Mugshot>
 
     <SearchForSuspect>
-        <Text>Now search for the suspect in the ~y~area~s~, which is ~y~marked~s~ on your gps.</Text>
-        <Text>Search the suspect and continue further.</Text>
+        <Text>现在在你的GPS标记的~y~区域~s~,内搜索嫌疑人.</Text>
+        <Text>搜查嫌疑人并继续进一步行动.</Text>
     </SearchForSuspect>
 
     <WaitForEnd>
-        <Text>The suspect died.</Text>
+        <Text>疑人死亡.</Text>
         <Text>~g~Code 4.</Text>
     </WaitForEnd>
 
