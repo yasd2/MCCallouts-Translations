@@ -58,7 +58,7 @@
         <Dialogue>~y~警员~w~: 他们现在被关在监狱里。你需要医疗救助吗?</Dialogue>
         <Dialogue>~g~受害者~w~: 不，我很好，只是现在有点发抖。非常感谢你的帮助!</Dialogue>
         <Dialogue>~y~警员~w~: 很高兴你没事，一定要安全回家!</Dialogue>
-        <Dialogue>Choose, if you want a ~y~taxi~w~, ~g~Uber~w~ to pick her up or send her ~b~on her way~w~.</Dialogue>
+        <Dialogue>选择, 是否需要~y~出租车~w~, ~g~Uber~w~ 来接她~b~或送她回家~w~.</Dialogue>
     </VictimTalk>
     
 </Kidnapping>
