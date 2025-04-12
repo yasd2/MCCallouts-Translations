@@ -1,65 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
 <SolveMurder>
 
     <General>
-        <Text>~r~Detective~s~ at murder case required</Text>
-        <Text>~g~Dispatch~s~: Drive to ~y~Mount Chiliad Gas Station~w~ at the highway, ~r~Detective~w~ required.</Text>
+        <Text>~r~Detective~s~ en caso de asesinato requerido</Text>
+        <Text>~g~Dispatch~s~: Conduzca a ~y~Mount Chiliad Gasolinera~w~ en la autopista, ~r~Detective~w~ requerido.</Text>
     </General>
 
     <Officer>
-        <Dialogue>Go to the ~b~officer~w~ and talk to her using </Dialogue>
-        <Dialogue>~b~Officer~s~: Hello Detective! Glad you are here!</Dialogue>
-        <Dialogue>~b~Officer~s~: We have a dead person to my right and two possible suspects.</Dialogue>
-        <Dialogue>~b~Officer~s~: Please go to the ~r~crime scene~w~ to my right and ~r~investigate~s~, see, if you can find something.</Dialogue>
+        <Dialogue>Ve a la ~b~oficial~w~ y habla con ella usando</Dialogue>
+        <Dialogue>~¡Hola Detective! ¡Me alegro de que esté aquí!</Dialogue>
+        <Dialogue>~b~Oficial~s~: Tenemos una persona muerta a mi derecha y dos posibles sospechosos.</Dialogue>
+        <Dialogue>~b~Oficial~s~: Por favor, vaya a la ~r~escena del crimen~w~ a mi derecha e ~r~investigue~s~, a ver, si puede encontrar algo.</Dialogue>
     </Officer>
 
     <Evidence>
-        <Text>~y~You~s~: A ~r~fresh empty bottle of liquor~s~, I wonder if it even belongs to the victim...</Text>
-        <Text>~y~You~s~: The wounds appear to be ~o~multiple stab wounds~s~, to the neck, belly and back.</Text>
-        <Text>~y~You~s~: Some ~g~chips~w~? Somebody ~g~recently~w~ has ~g~eaten~w~ those...</Text>
-        <Text>Investigation finished! Go to a ~r~suspect~w~ and talk to him using </Text>
+        <Text>~y~You~s~: Una botella vacía de licor, me pregunto si pertenece a la víctima...</Text>
+        <Text>~y~You~s~: Las heridas parecen ser múltiples puñaladas en el cuello, vientre y espalda.</Text>
+        <Text>~y~You~s~: Algunos ~g~chips~w~? Alguien ~g~recientemente~w~ ha ~g~eaten~w~ esos....</Text>
+        <Text>¡Investigación terminada! Ve a un ~r~sospechoso~w~ y habla con él usando</Text>
     </Evidence>
 
     <Suspect1>
-        <Dialogue>Talk to the ~o~suspect~w~ using </Dialogue>
-        <Dialogue>~y~You~s~: Hello, I'm the detective in this case, I have a few questions for you.</Dialogue>
-        <Dialogue>~o~Ayla May~s~: I'm so ~r~nervous~w~. I haven't got anything to do with this.</Dialogue>
-        <Dialogue>~y~You~s~: Don't worry, you're fine. What kind of alcohol do you drink?</Dialogue>
-        <Dialogue>~o~Ayla May~s~: I drink alcohol as good as ~g~never~w~... and if I do maybe a glass of red wine.</Dialogue>
-        <Dialogue>~y~You~s~: Do you eat ~r~chips~w~ sometimes?</Dialogue>
-        <Dialogue>~o~Ayla May~s~: ~g~No~w~, I live a healthy lifestyle, I do a lot of sport, too.</Dialogue>
-        <Dialogue>~y~You~s~: That would be all, thanks for your time.</Dialogue>
+        <Dialogue>Habla con el ~o~sospechoso~w~ usando</Dialogue>
+        <Dialogue>~Hola, soy el detective de este caso, tengo algunas preguntas para usted.</Dialogue>
+        <Dialogue>~o~Ayla May~s~: Estoy tan ~r~nerviosa~w~. No tengo nada que ver con esto.</Dialogue>
+        <Dialogue>~y~You~s~: No te preocupes, estás bien. ¿Qué tipo de alcohol bebes?</Dialogue>
+        <Dialogue>~o~Ayla May~s~: Bebo alcohol tan bien como ~g~nunca~w~... y si lo hago tal vez una copa de vino tinto.</Dialogue>
+        <Dialogue>~y~You~s~: ¿Come usted ~ r ~ chips ~ w ~ a veces?</Dialogue>
+        <Dialogue>~o~Ayla May~s~: ~g~No~w~, llevo un estilo de vida sano, también hago mucho deporte.</Dialogue>
+        <Dialogue>~y~You~s~: Eso sería todo, gracias por su tiempo.</Dialogue>
     </Suspect1>
 
     <Suspect2>
-        <Dialogue>Talk to the ~o~suspect~w~ using </Dialogue>
-        <Dialogue>~y~You~s~: Hi, I'm the ~r~detective~s~ in this case, may I ask you some questions?</Dialogue>
-        <Dialogue>~r~Jameson Fisher~s~: Howdy! Yeeeaaaaahh, do't be shyyyyyyy *laughs*</Dialogue>
-        <Dialogue>~y~You~s~: You appear ~r~intoxicated~w~, how much do you had to drink?!</Dialogue>
-        <Dialogue>~r~Jameson Fisher~s~: I haven't had anything, not even a drooooopp...</Dialogue>
-        <Dialogue>~y~You~s~: Please take this seriously. What are you working as?</Dialogue>
-        <Dialogue>~r~Jameson Fisher~s~: Sure, I'm a ~o~hunter~w~, I have a forest not too far from here.</Dialogue>
-        <Dialogue>~y~You~s~: Okay, do you eat ~r~chips~w~ as often as I do?</Dialogue>
-        <Dialogue>~r~Jameson Fisher~s~: Yeeeaaaaah, ~r~I LOVE chips~w~, I always eat them, ~y~I just ate a pack...</Dialogue>
-        <Dialogue>~y~You~s~: We're finished with questioning, I'll let you know how we continue.</Dialogue>
+        <Dialogue>Habla con el ~o~sospechoso~w~ usando</Dialogue>
+        <Dialogue>~Hola, soy el detective de este caso, ¿puedo hacerle algunas preguntas?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: ¡Hola! Yeeeaaaaahh, do't be shyyyyyyyyy *laughs*</Dialogue>
+        <Dialogue>~y~You~s~: ¡Usted parece ~r~intoxicated~w ~, ¿cuánto has tenido que beber?!</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: No he tenido nada, ni siquiera un drooooopp ...</Dialogue>
+        <Dialogue>~y~You~s~: Por favor, tome esto en serio. ¿De qué trabajas?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: Claro, soy un ~o~cazador~w~, tengo un bosque no muy lejos de aquí.</Dialogue>
+        <Dialogue>~y~You~s~: Bueno, ¿comes patatas fritas tan a menudo como yo?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: Yeeeaaaaah, ~r~Me ENCANTAN las patatas fritas~w~, siempre las como, ~y~Me acabo de comer un paquete...</Dialogue>
+        <Dialogue>~y~You~s~: Hemos terminado con el interrogatorio, te haré saber cómo continuamos.</Dialogue>
     </Suspect2>
 
     <Officer2>
-        <Dialogue>Go talk to the ~b~Officer~w~ again using </Dialogue>
-        <Dialogue>~b~Officer~w~: And could you find out based on evidence and talking who the ~r~murderer~w~ is?</Dialogue>
-        <Dialogue>~y~You~s~: Yes, I think the murderer is... ~o~[1] Ayla May  ~r~[2] Jameson Fisher</Dialogue>
-        <Dialogue>Press ~o~'1' ~w~or ~r~'2' ~w~to choose the ~r~murderer.</Dialogue>
-        <Dialogue>~y~You~s~: ...~o~Ayla May~w~!</Dialogue>
-        <Dialogue>~y~You~s~: ...~r~Jameson Fisher~w~!</Dialogue>
-        <Dialogue>~b~Officer~w~: Alright, go ahead and arrest the suspect!</Dialogue>
+        <Dialogue>Ve a hablar con el ~b~Oficial~w~ de nuevo usando</Dialogue>
+        <Dialogue>~b~Oficial~w~: ¿Y podrías averiguar, basándote en pruebas y hablando, quién es el asesino?</Dialogue>
+        <Dialogue>~y~You~s~: Sí, creo que el asesino es... ~o~[1] Ayla May ~r~[2] Jameson Fisher</Dialogue>
+        <Dialogue>Pulse ~o~'1' ~w~o ~r~'2' ~w~para elegir al ~r~asesino.</Dialogue>
+        <Dialogue>~y~You~s~: ¡~o~Ayla May~w~!</Dialogue>
+        <Dialogue>¡~y~You~s~: ...~r~Jameson Fisher~w~!</Dialogue>
+        <Dialogue>~b~Oficial~w~: ¡Muy bien, adelante y arresten al sospechoso!</Dialogue>
     </Officer2>
 
     <Arrest>
-        <Text>Oh no, you unfortunately have arrested an ~r~innocent~w~ person! ~o~Code 4~w~</Text>
-        <Text>Investigation is ~g~Code 4~w~, Case ~g~solved~w~, ~g~right suspect arrested!</Text>
-        <Text>Call a ~b~Coroner~w~ to pick up the ~y~victim~w~ and then transport the ~r~suspect~w~ to ~o~prison~w~.</Text>
-        <Text>~g~Ayla May ~r~died.~s~ Are you sure it was neccessary? ~g~Code 4~s~</Text>
-        <Text>~b~Jameson Fisher ~r~died,~s~ I hope you have a good attorney!? ~g~Code 4~s~</Text>
-        <Text>The ~b~Officer~s~ ~r~died~s~, thats not a good ending!? ~g~Code 4~s~</Text>
+        <Text>¡Oh no, desafortunadamente han arrestado a una persona inocente! ~o~Código 4~w~</Text>
+        <Text>¡La investigación es ~g~Código 4~w~, Caso ~g~resuelto~w~, ~g~sospechoso correcto arrestado!</Text>
+        <Text>Llame a un ~b~Coroner~w~ para recoger a la ~y~víctima~w~ y luego transporte al ~r~sospechoso~w~ a ~o~prisión~w~.</Text>
+        <Text>~g~Ayla May ~r~died.~s~ ¿Estás seguro de que era necesario? ~g~Code 4~s~</Text>
+        <Text>~b~Jameson Fisher~r~murió,~s~¡Espero que tenga un buen abogado!? ~g~Código 4~s~</Text>
+        <Text>El oficial murió, ese no es un buen final. ~g~Code 4~s~</Text>
     </Arrest>
 
 </SolveMurder>

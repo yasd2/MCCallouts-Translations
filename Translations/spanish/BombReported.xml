@@ -1,65 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
 <BombReported>
 
     <General>
-        <Text>Possible bomb reported</Text>
-        <Text>Search for a potential bomb thread, ~r~Code 3~s~.</Text>
-        <Text>Press {Y} to evacuate the citizens!</Text>
-        <Text>Search for the bomb in the ~y~area~s~.</Text>
-        <Text>HINT: Press {Y} to call the bomb specialist.</Text>
-        <Text>No bomb found, the area is clear.</Text>
-        <Text>Bomb disarmed! Good job!</Text>
-        <Text>~g~Green~s~ wire cut!</Text>
-        <Text>~y~Yellow~s~ wire cut!</Text>
-        <Text>~b~Blue~s~ wire cut!</Text>
-        <Text>Shit, you have cut the wrong wire! Run, the bomb will explode!</Text>
+        <Text>Posible bomba denunciada</Text>
+        <Text>Busca un hilo de bomba potencial, ~r~Código 3~s~.</Text>
+        <Text>¡Pulsa {Y} para evacuar a los ciudadanos!</Text>
+        <Text>Busca la bomba en el ~y~area~s~.</Text>
+        <Text>SUGERENCIA: Pulse {Y} para llamar al especialista en bombas.</Text>
+        <Text>No se ha encontrado ninguna bomba, la zona está despejada.</Text>
+        <Text>¡Bomba desarmada! ¡Buen trabajo!</Text>
+        <Text>~g~Verde~s~ ¡corte de alambre!</Text>
+        <Text>¡~y~Amarillo~s~ alambre cortado!</Text>
+        <Text>~b~Azul~s~ ¡Corte de alambre!</Text>
+        <Text>¡Mierda, has cortado el cable equivocado! ¡Corre, la bomba va a explotar!</Text>
     </General>
 
     <Persons>
-        <Text>You</Text>
-        <Text>Specialist</Text>
-        <Text>Officer</Text>
+        <Text>Usted</Text>
+        <Text>Especialista</Text>
+        <Text>Oficial</Text>
     </Persons>
 
     <Officer>
-        <Dialogue>Hi! Thanks for coming out!</Dialogue>
-        <Dialogue>We have a big scene going on! A report about a possible bomb came in!</Dialogue>
-        <Dialogue>We took it very seriously and blocked off the scene.</Dialogue>
-        <Dialogue>When we're done talking, evacuate everybody on the scene, then search for a bomb! Good luck!</Dialogue>
+        <Dialogue>¡Hola! ¡Gracias por venir!</Dialogue>
+        <Dialogue>¡Tenemos una gran escena en marcha! ¡Ha llegado un informe sobre una posible bomba!</Dialogue>
+        <Dialogue>Nos lo tomamos muy en serio y bloqueamos la escena.</Dialogue>
+        <Dialogue>Cuando terminemos de hablar, evacuen a todos los presentes y busquen una bomba. ¡Buena suerte!</Dialogue>
     </Officer>
 
     <Evacuate>
-        <Dialogue>Hey, please leave the scene immediately! We might have a bomb here!</Dialogue>
-        <Dialogue>Hey you, we have a bomb thread, get a safe distance!</Dialogue>
-        <Dialogue>This area need to be evacuated immediately! Hurry up!</Dialogue>
-        <Dialogue></Dialogue>
+        <Dialogue>¡Hey, por favor abandonen la escena inmediatamente! ¡Podríamos tener una bomba aquí!</Dialogue>
+        <Dialogue>¡Eh tú, tenemos un hilo de bombas, ponte a una distancia prudencial!</Dialogue>
+        <Dialogue>¡Esta área necesita ser evacuada inmediatamente! ¡Rápido!</Dialogue>
+        <Dialogue />
     </Evacuate>
 
     <SpecialistGeneral>
-        <Dialogue>Hello? Have you found the bomb?</Dialogue>
-        <Dialogue>Yes, I think so. It's right in front of me.</Dialogue>
-        <Dialogue>Alright, let me think. It has some kind of fancy control.</Dialogue>
-        <Dialogue>Hmm... okay... damn... what the... ? Ah, I got it.</Dialogue>
-        <Dialogue>Then... hm... oh no... ah, ok...</Dialogue>
-        <Dialogue>Awesome, I'm still alive! The bomb seems to be disarmed. Good job and thank you!</Dialogue>
-        <Dialogue>You're welcome, bye.</Dialogue>
+        <Dialogue>Hola? ¿Has encontrado la bomba?</Dialogue>
+        <Dialogue>Sí, creo que sí. Está justo delante de mí.</Dialogue>
+        <Dialogue>Muy bien, déjame pensar. Tiene algún tipo de control elegante.</Dialogue>
+        <Dialogue>Hmm... vale... maldición... qué... ? Ah, lo tengo.</Dialogue>
+        <Dialogue>Entonces... um... oh no... ah, ok...</Dialogue>
+        <Dialogue>¡Impresionante, sigo vivo! La bomba parece estar desarmada. ¡Buen trabajo y gracias!</Dialogue>
+        <Dialogue>De nada, adiós.</Dialogue>
     </SpecialistGeneral>
 
     <SpecialistGYB>
-        <Dialogue>First cut the green wire.</Dialogue>
-        <Dialogue>Now cut the yellow wire.</Dialogue>
-        <Dialogue>Ok, if it hasn't exploded yet, cut the remaining blue wire.</Dialogue>
+        <Dialogue>Primero corta el cable verde.</Dialogue>
+        <Dialogue>Ahora corta el cable amarillo.</Dialogue>
+        <Dialogue>Ok, si aún no ha explotado, corta el cable azul restante.</Dialogue>
     </SpecialistGYB>
 
     <SpecialistBYG>
-        <Dialogue>First cut the blue wire.</Dialogue>
-        <Dialogue>Now cut the yellow wire.</Dialogue>
-        <Dialogue>Ok, if it hasn't exploded yet, cut the remaining green wire.</Dialogue>
+        <Dialogue>Primero corta el cable azul.</Dialogue>
+        <Dialogue>Ahora corta el cable amarillo.</Dialogue>
+        <Dialogue>Ok, si aún no ha explotado, corta el cable verde restante.</Dialogue>
     </SpecialistBYG>
 
     <SpecialistGBY>
-        <Dialogue>First cut the green wire.</Dialogue>
-        <Dialogue>Now cut the blue wire.</Dialogue>
-        <Dialogue>Ok, if it hasn't exploded yet, cut the remaining yellow wire.</Dialogue>
+        <Dialogue>Primero corta el cable verde.</Dialogue>
+        <Dialogue>Ahora corta el cable azul.</Dialogue>
+        <Dialogue>Ok, si aún no ha explotado, corta el cable amarillo restante.</Dialogue>
     </SpecialistGBY>
 
 </BombReported>

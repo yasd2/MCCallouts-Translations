@@ -1,56 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
 <DrugHandover>
 
     <General>
-        <CalloutMessage>Drug Handover</CalloutMessage>
-        <CalloutAdvisory>~o~Intercept the meeting as a special force sniper~s~</CalloutAdvisory>
+        <CalloutMessage>Entrega de medicamentos</CalloutMessage>
+        <CalloutAdvisory>~o~Interceptar la reunión como un francotirador de la fuerza especial~s~</CalloutAdvisory>
     </General>
 
     <Persons>
-        <Text>You</Text>
-        <Text>Officer</Text>
+        <Text>Usted</Text>
+        <Text>Oficial</Text>
     </Persons>
 
     <EState>
         <Meeting>
             <D_Briefing>
-                <Dialogue>Hello, thanks for joining us.</Dialogue>
-                <Dialogue>This briefing is intended to give you an overview of what's going on.</Dialogue>
-                <Dialogue>We have reports of a illegal drug handover taking place today at the Sandy Shores Airfield.</Dialogue>
-                <Dialogue>Since you're one of the best trained sniper elites, your job is to scout and call us once a drug deal is made.</Dialogue>
-                <Dialogue>We will then come in hot with 2 unmarked units and 1 swat bearcat. If we're taking fire, your job is to take them out.</Dialogue>
-                <Dialogue>We have spotted a good sniper position for you on one of the buildings next to the airfield.</Dialogue>
-                <Dialogue>But for now, first choose a sniper, for that in the police station right there on the table.</Dialogue>
+                <Dialogue>Hola, gracias por acompañarnos.</Dialogue>
+                <Dialogue>Esta sesión informativa pretende darle una visión general de lo que está ocurriendo.</Dialogue>
+                <Dialogue>Tenemos informes de una entrega ilegal de drogas que tuvo lugar hoy en el aeródromo de Grapeseed.</Dialogue>
+                <Dialogue>Como eres uno de los francotiradores de élite mejor entrenados, tu trabajo es explorar y llamarnos una vez que se haga un trato de drogas.</Dialogue>
+                <Dialogue>Entonces entraremos en caliente con 2 unidades no marcadas y 1 swat bearcat. Si recibimos disparos, su trabajo es eliminarlos.</Dialogue>
+                <Dialogue>Hemos localizado una buena posición de francotirador para ti en uno de los edificios junto al aeródromo.</Dialogue>
+                <Dialogue>Pero por ahora, en primer lugar elegir un francotirador, para que en la estación de policía allí mismo sobre la mesa.</Dialogue>
             </D_Briefing>
-            <Text>Get yourself a sniper in the police station.</Text>
+            <Text>Consigue un francotirador en la comisaría.</Text>
         </Meeting>
 
         <Weapon>
             <WeaponSelector>
-                <Text>Weapon Chooser</Text>
-                <Text>Weapons</Text>
-                <Text>Select a Weapon</Text>
-                <Text>You have equipped the </Text> <!--WeaponType is harcoded in english-->
+                <Text>Selector de armas</Text>
+                <Text>Armas</Text>
+                <Text>Seleccione un arma</Text>
+                <Text>Ha equipado el</Text> 
             </WeaponSelector>
-            <Text>Now drive to the scene and prepare.</Text>
+            <Text>Ahora conduce hasta el lugar y prepárate.</Text>
         </Weapon>
 
         <DriveToScene>
-            <Text>This is the reported ~o~drug handover meeting point~s~. You'll now see on the minimap where ~g~your sniper position~s~ will be, go on the roof there.</Text>
+            <Text>Este es el punto de encuentro para la entrega de drogas. Ahora verás en el minimapa dónde estará ~g~tu posición de francotirador~s~, ve al tejado de allí.</Text>
         </DriveToScene>
 
         <IsAtÜbergabeort>
-            <Text>Now wait for the ~r~actual handover.</Text>
+            <Text>Ahora espera el traspaso real.</Text>
         </IsAtÜbergabeort>
     </EState>
 
     <Scenarios>
-        <Text>Once the ~g~handover~s~ is done, go in and arrest the ~r~suspects!</Text>
-        <Text>We have ~r~shots fired!</Text>
-        <Text>The ~r~suspects~s~ are leaving, secure the ~g~case!</Text>
-        <Text>The suspects are ~r~fleeing~s~, we are pursuing!</Text>
-        <Text>The suspects are surrendering!</Text>
-        <Text>You can pick up the ~g~case~s~ with {0}.</Text>
-        <Text>~g~Case~s~ secured!</Text>
+        <Text>Una vez hecha la entrega, entra y arresta a los sospechosos.</Text>
+        <Text>¡Tenemos disparos!</Text>
+        <Text>¡Los ~r~sospechosos~s~ se van, aseguran el ~g~caso!</Text>
+        <Text>¡Los sospechosos están huyendo, los estamos persiguiendo!</Text>
+        <Text>¡Los sospechosos se rinden!</Text>
+        <Text>Puedes recoger el ~g~case~s~ con {0}.</Text>
+        <Text>¡~g~Caso~s~ asegurado!</Text>
     </Scenarios>
 
 </DrugHandover>

@@ -1,56 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
 <DrugsOnBoat>
 
     <General>
-        <Text>Known drug transport ship spotted</Text>
-        <Text>Check for possible drugs on board</Text>
-        <Text>HINT: Search the boat for drugs</Text>
-        <Text>Dispatch, I couldn't find any drugs, I will talk to the ship owner again.</Text>
-        <Text>Copy that.</Text>
-        <Text>We've received ~o~anonymous tips~s~ on locations.</Text>
-        <Text>Dispatch, got one foot pursuit!</Text>
-        <Text>Dispatch, shots fired!</Text>
-        <Text>You are on the way to a ship to search for illegal drugs.</Text>
-        <Text>Press {Y} to pick up evidence.</Text>
-        <Text>Confront the ship owner or keep searching.</Text>
-        <Text>~g~All evidence found</Text>
-        <Text>Drugs found:</Text>
+        <Text>Avistado un conocido buque de transporte de drogas</Text>
+        <Text>Comprobación de posibles drogas a bordo</Text>
+        <Text>SUGERENCIA: Buscar drogas en el barco</Text>
+        <Text>Despacho, no pude encontrar ninguna droga, volveré a hablar con el armador.</Text>
+        <Text>Entendido.</Text>
+        <Text>Hemos recibido consejos anónimos sobre las ubicaciones.</Text>
+        <Text>¡Despacho, tengo un pie de persecución!</Text>
+        <Text>Central, ¡disparos!</Text>
+        <Text>Te diriges a un barco para buscar drogas ilegales.</Text>
+        <Text>Pulse {Y} para recoger pruebas.</Text>
+        <Text>Enfréntate al armador o sigue buscando.</Text>
+        <Text>~g~Todas las pruebas encontradas</Text>
+        <Text>Drogas encontradas:</Text>
     </General>
 
 
     <Persons>
-        <Text>Owner</Text>
-        <Text>You</Text>
+        <Text>Propietario</Text>
+        <Text>Usted</Text>
     </Persons>
 
 
     <D_Owner_Arrive>
-        <Dialogue>Hello sir, we have a search warrant for this boat.</Dialogue>
-        <Dialogue>Go to hell, you're not searching my boat!</Dialogue>
-        <Dialogue>Move aside, you can ask my deputies down there for the written warrant.</Dialogue>
+        <Dialogue>Hola señor, tenemos una orden de registro para este barco.</Dialogue>
+        <Dialogue>¡Vete al infierno, no vas a registrar mi barco!</Dialogue>
+        <Dialogue>Apártese, puede pedirle a mis ayudantes la orden escrita.</Dialogue>
     </D_Owner_Arrive>
 
 
     <D_Owner_NoDrugs>
-        <Dialogue>Alright, I am finished searching your ship, you are good to go!</Dialogue>
-        <Dialogue>This took some time, but time is money! I need to hurry up now.</Dialogue>
-        <Dialogue>I'm just doing my job, anyways have a good trip!</Dialogue>
+        <Dialogue>Muy bien, he terminado de registrar su nave, ¡puede irse!</Dialogue>
+        <Dialogue>Me ha llevado algún tiempo, ¡pero el tiempo es oro! Tengo que darme prisa.</Dialogue>
+        <Dialogue>Sólo hago mi trabajo, de todas formas ¡buen viaje!</Dialogue>
     </D_Owner_NoDrugs>
 
 
     <D_Owner_Surrender>
-        <Dialogue>Sir, I found multiple drugs on this ship, can you explain this?</Dialogue>
-        <Dialogue>... I mean ... sh*t, you got me anyways. Yeah, they are mine.</Dialogue>
-        <Dialogue>I won't resist, I tried to sell those, you can arrest me.</Dialogue>
+        <Dialogue>Señor, encontré múltiples drogas en esta nave, ¿puede explicar esto?</Dialogue>
+        <Dialogue>... Quiero decir ... sh * t, me tienes de todos modos. Sí, son míos.</Dialogue>
+        <Dialogue>No resistiré, traté de venderlos, pueden arrestarme.</Dialogue>
     </D_Owner_Surrender>
 
 
     <D_Owner_Pursuit_Shooting>
-        <Dialogue>Sir, I found multiple drugs on this ship, can you explain this?</Dialogue>
+        <Dialogue>Señor, encontré múltiples drogas en esta nave, ¿puede explicar esto?</Dialogue>
     </D_Owner_Pursuit_Shooting>
 
 
     <End>
-        <Text>Callout is Code 4.</Text>
+        <Text>La llamada es Código 4.</Text>
     </End>
 
 </DrugsOnBoat>

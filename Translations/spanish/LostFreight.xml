@@ -1,66 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
 <LostFreight>
 
-<!-- Hello translator, don't get confused by the CDATA!                    -->
-<!-- Just write in between the bracktes [ ]                                -->
-<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
-<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+
+
+
 
 
     <General>
-        <Text>Lost Freight</Text>
-        <Text>Caller reports lost freight on the highway.</Text>
-        <Text><![CDATA[Drive to the caller & make contact.]]></Text>
+        <Text>Carga perdida</Text>
+        <Text>La persona que llama informa de una carga perdida en la autopista.</Text>
+        <Text>Conduzca hasta la persona que llama y establezca contacto.</Text>
     </General>
 
 
     <DisplayHelp>
-        <Text>Talk to the caller with </Text>
-        <Text><![CDATA[Search the ~y~area~s~ & clear the obstacles with ]]></Text>
-        <Text>Talk to the ~b~officer~s~ with </Text>
-        <Text>No further communication.</Text>
-        <Text>Here's a little ~g~help.</Text>
+        <Text>Hable con el interlocutor con</Text>
+        <Text>Busca en el ~y~área~s~ y elimina los obstáculos con</Text>
+        <Text>Hable con el ~b~officer~s~ con</Text>
+        <Text>No hay más comunicaciones.</Text>
+        <Text>Aquí hay un poco de ~g~ayuda.</Text>
     </DisplayHelp>
 
 
     <Pickup>
-        <Text>~r~No objects~s~ nearby.</Text>
-        <Text>~r~Object~s~ removed!</Text>
+        <Text>~r~No hay objetos~s~ cerca.</Text>
+        <Text>¡~r~Objeto~s~ eliminado!</Text>
     </Pickup>
 
 
     <Conversation>
-        <Dialogue>~y~You~s~: Hello, you called about lost freight?</Dialogue>
-        <Dialogue><![CDATA[~b~Caller~s~: Hi, yeah, the trailer's door swung open & now stuff's fallen onto the highway!]]></Dialogue>
-        <Dialogue>~y~You~s~: That's dangerous, what were you carrying?</Dialogue>
-        <Dialogue>~b~Caller~s~: All sorts of ~b~tennis stuff~s~, since we were clearing out our club house.</Dialogue>
-        <Dialogue>~b~Caller~s~: Lots of ~b~office stuff~s~, cabinets, screens, chairs, speakers...</Dialogue>
-        <Dialogue>~b~Caller~s~: Loads of ~b~kitchen utensils~s~, pots, cutlery, plates, etc., as we had a company relocation.</Dialogue>
-        <Dialogue>~y~You~s~: I see, where were you headed?</Dialogue>
-        <Dialogue>~b~Caller~s~: I was only going in ~y~this one direction~s~, so search that one side of the highway.</Dialogue>
-        <Dialogue>~y~You~s~: Dispatch, block the last highway entrance, parts are on the road!</Dialogue>
-        <Dialogue>Copy, traffic will be stopped, units en route.</Dialogue>
+        <Dialogue>~Hola, ¿llamó por un flete perdido?</Dialogue>
+        <Dialogue>¡~b~Caller~s~: Hola, sí, la puerta del remolque se abrió y ahora las cosas han caído en la carretera!</Dialogue>
+        <Dialogue>~y~You~s~: Eso es peligroso, ¿qué llevabas?</Dialogue>
+        <Dialogue>~b~Caller~s~: Todo tipo de ~b~tennis cosas~s~, ya que estábamos limpiando nuestra casa club.</Dialogue>
+        <Dialogue>~b~Caller~s~: Un montón de ~b~cosas de oficina~s~, armarios, pantallas, sillas, altavoces...</Dialogue>
+        <Dialogue>~b~Caller~s~: Cargas de ~b~utensilios de cocina~s~, ollas, cubiertos, platos, etc., ya que tuvimos una reubicación de la empresa.</Dialogue>
+        <Dialogue>~y~You~s~: Ya veo, ¿a dónde te dirigías?</Dialogue>
+        <Dialogue>~b~Caller~s~: Sólo iba en esta dirección, así que busquen en ese lado de la autopista.</Dialogue>
+        <Dialogue>~y~You~s~: Despacho, bloqueen la última entrada a la autopista, ¡hay partes en el camino!</Dialogue>
+        <Dialogue>Recibido, el tráfico se detendrá, unidades en ruta.</Dialogue>
     </Conversation>
 
 
     <Officer1>
-        <Dialogue>~b~Officer Blue~s~: Hi! Hope you're having a great day!</Dialogue>
-        <Dialogue>~b~Officer Blue~s~: I'll keep traffic stopped until the road's clear!</Dialogue>
-        <Dialogue>~b~Officer Blue~s~: Good luck!</Dialogue>
+        <Dialogue>~¡Hola! ¡Espero que estés teniendo un gran día!</Dialogue>
+        <Dialogue>~b~Oficial Blue~s~: ¡Mantendré el tráfico detenido hasta que la carretera esté despejada!</Dialogue>
+        <Dialogue>~b~Oficial Azul~s~: ¡Buena suerte!</Dialogue>
     </Officer1>
 
 
     <Officer2>
-        <Dialogue>~b~Officer Night~s~: Hello, how much longer is this going to take?</Dialogue>
-        <Dialogue>~b~Officer Night~s~: I've got other things to do, too!</Dialogue>
-        <Dialogue>~b~Officer Night~s~: If you wouldn't talk so much, I'd be gone already!</Dialogue>
+        <Dialogue>~Hola, ¿cuánto tiempo más va a llevar esto?</Dialogue>
+        <Dialogue>~b~Noches de Oficial~s~: ¡También tengo otras cosas que hacer!</Dialogue>
+        <Dialogue>~b~Officer Night~s~: ¡Si no hablaras tanto, ya me habría ido!</Dialogue>
     </Officer2>
 
 
     <End>
-        <Text>We're ~g~Code 4~s~</Text>
-        <Text>Items removed:</Text> <!--There are 4 items to find, on this message you get to see how many you've found.-->
-        <Text>/~g~4</Text> <!--This means X items from 4 items were found -> X/4 items found-->
-        <Text>~r~Thank you, ~g~traffic can flow again!</Text>
+        <Text>Somos ~g~Código 4~s~</Text>
+        <Text>Elementos retirados:</Text> 
+        <Text>/~g~4</Text> 
+        <Text>~r~Gracias, ~g~¡el tráfico puede fluir de nuevo!</Text>
     </End>
 
 

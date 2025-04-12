@@ -1,43 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
 <ATMRobbery>
 
     <CamText>
-        <Text>CAM1</Text> <!--use a short text!-->
+        <Text>CAM1</Text> 
     </CamText>
 
     <D_Victim>
-        <Dialogue>Hello Officer! I have just been robbed!</Dialogue>
-        <Dialogue>I had just finished withdrawing money from the ATM, and then a person came and took my wallet!</Dialogue>
-        <Dialogue>We fought, and he hit me in the head!</Dialogue>
-        <Dialogue>Unfortunately, I can't remember what the person looked like...</Dialogue>
-        <Dialogue>No problem, I see we have a surveillance camera there. I will see what I can do.</Dialogue>
-        <Dialogue>Dispatch, can you give me access to the CCTV at my current location?</Dialogue>
+        <Dialogue>¡Hola Oficial! ¡Me acaban de robar!</Dialogue>
+        <Dialogue>Acababa de sacar dinero del cajero automático, y entonces vino una persona y me quitó la cartera.</Dialogue>
+        <Dialogue>¡Peleamos, y me golpeó en la cabeza!</Dialogue>
+        <Dialogue>Por desgracia, no recuerdo qué aspecto tenía la persona...</Dialogue>
+        <Dialogue>No hay problema, veo que tenemos una cámara de vigilancia allí. Veré lo que puedo hacer.</Dialogue>
+        <Dialogue>Central, ¿puede darme acceso al circuito cerrado de televisión de mi ubicación actual?</Dialogue>
     </D_Victim>
 
     <D_Suspect>
-        <Dialogue>What's your problem? Why are you following me?</Dialogue>
-        <Dialogue>You match the description of a recent robbery that has taken place.</Dialogue>
-        <Dialogue>Do I look like a criminal? That's ridiculous.</Dialogue>
-        <Dialogue>You have the wrong person, I didn't do anything!</Dialogue>
+        <Dialogue>¿Cuál es tu problema? ¿Por qué me sigues?</Dialogue>
+        <Dialogue>Coincides con la descripción de un robo reciente que ha tenido lugar.</Dialogue>
+        <Dialogue>¿Parezco un criminal? Eso es ridículo.</Dialogue>
+        <Dialogue>¡Te equivocas de persona, yo no he hecho nada!</Dialogue>
     </D_Suspect>
 
     <Persons>
-        <Text>Victim</Text>
-        <Text>You</Text>
+        <Text>Víctima</Text>
+        <Text>Usted</Text>
         <Text>Suspect</Text>
     </Persons>
 
     <General>
-        <CalloutMessage>ATM Robbery</CalloutMessage>
-        <CalloutAdvisory>A person has reported being robbed right after withdrawing money</CalloutAdvisory>
-        <Text>Press {0} to talk to the ~g~caller~s~.</Text>
-        <Text>Standby.</Text>
-        <Text>You should now have access to the camera.</Text>
-        <Text>Press {0} to view the camera feed!</Text>
-        <Text>We have reports of another robbery; the ~y~area is marked~s~ on your GPS.</Text>
-        <Text>Press {0} to talk to the ~r~suspect~s~.</Text>
-        <Text>The suspect doesn't seem to care.</Text>
-        <Text>Check on them.</Text>
-        <Text>Do a traffic stop.</Text>
+        <CalloutMessage>Robo en cajeros automáticos</CalloutMessage>
+        <CalloutAdvisory>Una persona ha denunciado un robo justo después de sacar dinero</CalloutAdvisory>
+        <Text>Pulse {0} para hablar con el ~g~llamador~s~.</Text>
+        <Text>En espera.</Text>
+        <Text>Ahora deberías tener acceso a la cámara.</Text>
+        <Text>Pulsa {0} para ver la imagen de la cámara.</Text>
+        <Text>Tenemos informes de otro robo; la zona está marcada en su GPS.</Text>
+        <Text>Pulsa {0} para hablar con el ~r~sospechoso~s~.</Text>
+        <Text>Al sospechoso no parece importarle.</Text>
+        <Text>Compruébalo.</Text>
+        <Text>Haz una parada de tráfico.</Text>
     </General>
 
 </ATMRobbery>

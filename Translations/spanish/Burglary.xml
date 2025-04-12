@@ -1,31 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
 <Burglary>
 
     <General>
-        <CalloutMessage>Citizen reports a Burglary</CalloutMessage>
-        <Text>Drive to the Burglary, proceed with caution.</Text>
-        <Text>Search for evidence, press {0} to pick up.</Text>
-        <Text>Inspect the area around the house.</Text>
+        <CalloutMessage>Un ciudadano denuncia un robo</CalloutMessage>
+        <Text>Conduzca hacia el Robo, proceda con precaución.</Text>
+        <Text>Busca pruebas, pulsa {0} para recoger.</Text>
+        <Text>Inspeccione los alrededores de la casa.</Text>
     </General>
 
     <FalseAlarm>
-        <Dialogue>Dispatch, nothing going on here.</Dialogue>
-        <Dialogue>Copy that, go back to patrol.</Dialogue>
+        <Dialogue>Despacho, aquí no pasa nada.</Dialogue>
+        <Dialogue>Entendido, vuelve a la patrulla.</Dialogue>
     </FalseAlarm>
 
     <AnimalOnScene>
-        <Dialogue>Dispatch, false alarm, just an animal causing chaos.</Dialogue>
-        <Dialogue>Copy that, go back to patrol.</Dialogue>
+        <Dialogue>Despacho, falsa alarma, sólo un animal causando caos.</Dialogue>
+        <Dialogue>Entendido, vuelve a la patrulla.</Dialogue>
     </AnimalOnScene>
 
     <BurglarLeft>
-        <Dialogue>Dispatch, we have signs of an intruder here, searching the scene.</Dialogue>
-        <Dialogue>Hmmm, that doesn't help.</Dialogue>
-        <Dialogue>Dispatch, I found a document of {DriversName}.</Dialogue>
-        <Dialogue>I got an ALPR hit on a speeding vehicle, owner is {DriversName}.</Dialogue>
+        <Dialogue>Despacho, tenemos señales de un intruso aquí, registrando la escena.</Dialogue>
+        <Dialogue>Hmmm, eso no ayuda.</Dialogue>
+        <Dialogue>Despacho, he encontrado un documento de {DriversName}.</Dialogue>
+        <Dialogue>Tengo una coincidencia ALPR en un vehículo de exceso de velocidad, el propietario es {DriversName}.</Dialogue>
     </BurglarLeft>
 
     <BurglarIsLeaving>
-        <Dialogue>Dispatch, one Vehicle ~r~fleeing~s~, two occupants!</Dialogue>
+        <Dialogue>Despacho, un vehículo ~r~huyendo~s~, ¡dos ocupantes!</Dialogue>
     </BurglarIsLeaving>
 
 </Burglary>

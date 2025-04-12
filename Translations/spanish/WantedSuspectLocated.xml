@@ -1,25 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
 <WantedSuspectLocated>
 
     <General>
-        <Text>Posible persona en busqueda y captura localizada</Text>
-        <Text>Compruebe las posibles localizaciones</Text>
-        <Text>Sospechoso detenido. ~g~Código 4~w~</Text>
+        <Text>Posible localización del sospechoso buscado</Text>
+        <Text>Echa un vistazo a las 2 posibles ubicaciones</Text>
+        <Text>Sospechoso en custodia, ~g~Código 4~w~</Text>
     </General>
 
     <Scenes>
-        <Text>Busca en la primera área al ~r~sospechoso~w~.</Text>
-        <Text>Busca al ~r~sospechoso~w~ en el ~g~área~w~.</Text>
-        <Text>No se ha localizado al sospechoso, vaya a la ~g~segunda localización~w~.</Text>
-        <Text>Ahora busca al ~r~sospechoso~w~ en la segunda ~g~área~w~. ¡Tiene que estar ahí!</Text>
-        <Text>~r~Descripción del sospechoso~s~:{0}~y~Hombre asiático~s~, delgado,{0}pelo negro, 30{0}viste una camiseta ~b~azul~s~.</Text>
-        <Text>~r~Descripción del sospechoso:{0}~y~Mujer negra~s~, delgada,{0}cabello negro, 30 años,{0}lleva una ~r~camisa roja</Text> <!--{0} es una nueva línea-->
-        <Text>~r~El sospechoso es un ~y~hombre asiático~s~,{0}de unos 30 años, delgado con cabello negro{0}y lleva una ~b~camisa azul.</Text>
+        <Text>Busca en la primera zona al ~r~sospechoso~w~.</Text>
+        <Text>Busca al ~r~sospechoso~w~ en la ~g~área~w~.</Text>
+        <Text>No se encontró sospechoso, muévase a la segunda ubicación.</Text>
+        <Text>Ahora busca al sospechoso en la segunda zona. ¡Tiene que estar ahí!</Text>
+        <Text>~Descripción del sospechoso: Hombre asiático, delgado, pelo negro, 30 años. Lleva una camiseta azul.</Text>
+        <Text>~Descripción del sospechoso: Mujer negra, delgada, pelo negro, 30 años, lleva una camiseta roja.</Text> 
+        <Text>~r~El sospechoso es un hombre ~y~asian~s~,{0}de unos 30 años, delgado con pelo negro{0}y lleva una camiseta ~b~azul.</Text>
     </Scenes>
     
     <Outcomes>
-        <Dialogue>~r~Sospechoso~w~: ¡Mierda, la pasma! Joder, !no disparéis, me rindo!</Dialogue>
-        <Dialogue>~r~Sospechoso~w~: ¡Mierda, un puto poli! ¡Que te follen, voy a ~o~volarte~w~ tu ~cabeza~w~, idiota!</Dialogue>
-        <Dialogue>~y~Usted~w~: Central, sospechoso localizado, ¡se ha dado~o~a la fuga~w~!</Dialogue>
+        <Dialogue>~r~Sospechoso~w~: ¡Oh Dios mío, policía! ¡No disparen! ¡Me rindo!</Dialogue>
+        <Dialogue>~r~Sospechoso~w~: ¡Oh mierda, la policía! ¡Que os jodan, os voy a reventar la cabeza, cerdos estúpidos!</Dialogue>
+        <Dialogue>~y~You~w~: Despacho, sospechoso encontrado, ¡va a ser una persecución!</Dialogue>
     </Outcomes>
 
 </WantedSuspectLocated>
