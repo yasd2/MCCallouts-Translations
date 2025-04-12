@@ -1,0 +1,66 @@
+<Shoplifting>
+
+    <General>
+        <Text>Furto em loja reportado</Text>
+        <Text>Dono da loja solicitou presença policial</Text>
+        
+        <Text>~HC_64~Dono da Loja~s~:</Text>
+        <Text>~y~Você~s~:</Text>
+    </General>
+
+    <GetInfos>
+        <Dialogue>Olá, sou policial do departamento local.</Dialogue>
+        <Dialogue>Você nos chamou por causa de um furto?</Dialogue>
+        <Dialogue>Olá! Sim, o suspeito acabou de sair há poucos minutos!</Dialogue>
+        <Dialogue>Aquele palhaço roubou várias coisas, está carregando uma sacola com os itens.</Dialogue>
+        <Dialogue>Como o suspeito se parece?</Dialogue>
+
+        <Dialogue>Ele é um homem negro</Dialogue>
+        <Dialogue>Ele é um homem branco</Dialogue>
+
+        <Dialogue>aproximadamente {10} anos de idade.</Dialogue>
+
+        <Dialogue>Ele estava vestindo uma regata branca</Dialogue>
+        <Dialogue>Ele estava vestindo uma regata cinza</Dialogue>
+        <Dialogue>Ele estava vestindo uma jaqueta de couro preta</Dialogue>
+
+        <Dialogue>e uma calça xadrez.</Dialogue>
+        <Dialogue>e uma calça branca.</Dialogue>
+        <Dialogue>e uma calça jeans azul clara.</Dialogue>
+
+        <Dialogue>Eu o peguei nas câmeras de segurança, aqui está uma foto dele!</Dialogue>
+        <Dialogue>O suspeito saiu a pé!</Dialogue>
+        <Dialogue>Certo, obrigado, até mais!</Dialogue>
+    </GetInfos>
+
+    <LocationUpdater>
+        <Text>A ~y~localização~s~ foi atualizada!</Text> 
+        <Text>A ~g~localização~s~ foi atualizada!</Text>
+        <Text>O ~r~suspeito~s~ foi localizado. Prenda-o!</Text>
+    </LocationUpdater>
+
+    <Mugshot>
+        <Text>Homem negro</Text>
+        <Text>Regata branca</Text>
+
+        <Text>Homem branco</Text>
+        <Text>Regata cinza</Text>
+
+        <Text>Jaqueta de couro preta</Text>
+
+        <Text>~h~Descrição do suspeito~h~</Text>
+
+        <Text>Pressione ~y~J~s~ a qualquer momento para ver a ~y~foto~s~ novamente!</Text>
+    </Mugshot>
+
+    <SearchForSuspect>
+        <Text>Agora procure pelo suspeito na ~y~área~s~, que está ~y~marcada~s~ no seu GPS.</Text>
+        <Text>Revise o suspeito e prossiga com a ocorrência.</Text>
+    </SearchForSuspect>
+
+    <WaitForEnd>
+        <Text>O suspeito foi de arrasta pra cima.</Text>
+        <Text>~g~Código 4.~s~</Text>
+    </WaitForEnd>
+
+</Shoplifting>

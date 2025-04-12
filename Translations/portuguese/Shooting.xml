@@ -1,0 +1,49 @@
+<Shooting>
+
+    <General>
+        <Text>Troca de Tiros</Text>
+        <Text>2 pessoas trocando tiros com pistolas</Text>
+        <Text>Dirija até a cena ~b~Código 3~s~, 2 atiradores, ~r~cuidado~s~, ~r~disparos~s~ foram ~r~efetuados~s~!</Text>
+        <Text>~y~Você~s~: ~p~Larguem suas ~r~armas~s~, ~b~Polícia~s~!!!</Text>
+        <Text>Chame reforços!</Text>
+        <Text></Text>
+        <Text></Text>
+    </General>
+
+    <Outcomes>
+
+        <StillShooting>
+            <Text>~y~Você~s~: Eles não estão obedecendo, use ~r~força~s~ ou ~o~aja~s~ conforme ~o~achar correto~s~!</Text>
+        </StillShooting>
+
+        <Surrender>
+            <Text>~r~Primeiro Suspeito~s~: Não atire, eu ~g~me rendo~s~!</Text>
+            <Text>~p~Segundo Suspeito~s~: Eu também ~g~me rendo~s~!</Text>
+        </Surrender>
+
+        <ShootAtPlayer>
+            <Text>Disparos contra a polícia!</Text>
+            <Text>~p~Suspeito~s~: Estou me rendendo, me prenda, acabou pra mim.</Text>
+        </ShootAtPlayer>
+
+    </Outcomes>
+
+    <Arrest>
+        <Text>Central, um suspeito ~y~preso~w~!</Text>
+        <Text>Central, um suspeito ~o~abatido~w~!</Text>
+    </Arrest>
+
+    <OnScene>
+        <Text>Chame um ~b~transporte~s~ para ambos os ~r~suspeitos~s~.</Text>
+        <Text>Chame ~b~transporte~s~ e o ~p~IML~s~ para cada ~r~suspeito~s~.</Text>
+        <Text>Chame o ~p~IML~s~ para ambos os ~r~suspeitos~s~.</Text>
+    </OnScene>
+
+    <End>
+        <Text>Um ~r~erro de personagem do GTA~s~ ocorreu, Ocorrência ~g~encerrada~s~</Text>
+        <Text>~y~Você~s~ morreu, Ocorrência ~g~encerrada~s~</Text>
+        <Text>Ocorrência encerrada</Text>
+        <Text>~g~Código 4~s~, ~b~libere~s~ a ~b~área~s~ e volte ao ~g~patrulhamento~s~.</Text>
+    </End>
+
+</Shooting>

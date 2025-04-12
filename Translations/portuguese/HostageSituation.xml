@@ -1,0 +1,120 @@
+<HostageSituation>
+
+    <General>
+        <Text>Situação com Refém</Text>
+        <Text>Uma pessoa está mantendo um refém sob a mira de uma arma</Text>
+        <Text>Vá até o local da situação com refém em Código 3, prioridade máxima!</Text>
+        <Text><![CDATA[Estacione seu carro no marcador amarelo & se abrigue enquanto fala com o suspeito.]]></Text>
+        <Text>Converse com o ~g~refém.</Text>
+        <Text>Ok, ok, eu me rendo!</Text>
+        <Text>Estacione ali e se abrigue atrás do seu veículo.</Text>
+    </General>
+
+    <PedStatus>
+        <Text>~r~Suspeito ~s~preso!</Text>
+        <Text>~g~Refém ~y~preso?!</Text>
+        <Text>O ~o~suspeito~s~ foi ~r~morto.~s~</Text>
+        <Text>O ~g~refém~s~ foi ~r~morto...~s~</Text>
+    </PedStatus>
+
+    <DisplayHelp>
+        <Text>Pressione</Text>
+        <Text>para encerrar a ocorrência após concluir a ~b~investigação~s~.</Text>
+        <Text>Fale com o suspeito usando</Text>
+    </DisplayHelp>
+
+    <DistanceToSuspect>
+        <Dialogue>~o~Cai fora ou eu atiro!</Dialogue>
+        <Dialogue>~g~Chegou bem na hora!</Dialogue>
+        <Dialogue>~r~Agora vai chover bala!</Dialogue>
+    </DistanceToSuspect>
+
+    <DistanceWarner>
+        <Dialogue>~o~Mantenha distância ou o suspeito ficará irritado!~s~</Dialogue>
+        <Dialogue>~g~Bom trabalho, mantenha distância segura.~s~</Dialogue>
+        <Dialogue>~r~Você chegou perto demais! Cuidado!~s~</Dialogue>
+    </DistanceWarner>
+
+    <Menu>
+        <MenuName>Decidir:</MenuName>
+
+        <Menu1>
+            <Conversation>Fique parado</Conversation>
+            <Conversation>~y~Você~s~: Não se preocupe, vou ficar exatamente aqui.</Conversation>
+            <Conversation>Pressionar</Conversation>
+            <Conversation>~y~Você~s~: Vou estourar sua cabeça, seu desgraçado!</Conversation>
+        </Menu1>
+
+        <Menu2>
+            <Conversation>20.000 $ em dinheiro</Conversation>
+            <Conversation>~y~Você~s~: Vamos te dar 20.000 $ em dinheiro, o que acha?</Conversation>
+            <Conversation>Melhorar condições de detenção</Conversation>
+            <Conversation>~y~Você~s~: Podemos arrumar uma cela melhor pro seu chefe, com TV. Que tal?</Conversation>
+            <Conversation><![CDATA[Sugerir um novo começo & psicólogo]]></Conversation>
+            <Conversation>~y~Você~s~: Eu entendo. Uma amiga minha é uma ótima psicóloga, ela pode te ajudar a recomeçar, o que acha?</Conversation>
+        </Menu2>
+
+        <Menu3>
+            <Conversation>Carro de fuga com combustível limitado</Conversation>
+            <Conversation>~y~Você~s~: Você vai receber um carro de fuga com combustível limitado, mas vai fugir pra onde?</Conversation>
+            <Conversation>Sugerir pizza</Conversation>
+            <Conversation>~y~Você~s~: Que tal uma pizza no lugar disso?</Conversation>
+        </Menu3>
+    </Menu>
+
+    <SuspectTalk>
+        <Dialogue>~r~Suspeito~s~: Cai fora! O que você quer aqui?! Não chegue mais perto!</Dialogue>
+        <Dialogue>~r~Suspeito~s~: É melhor que sim! Agora, todo mundo fora daqui, não quero ver mais nenhum policial!</Dialogue>
+        <Dialogue>~r~Suspeito~s~: Vocês não podem fazer nada comigo! Se eu vir mais polícia, vai chover bala!</Dialogue>
+        <Dialogue>~y~Você~s~: Eu entendo, mas o prédio está cercado.</Dialogue>
+        <Dialogue>~y~Você~s~: Quero que isso acabe em paz, por você, pelo refém e pelos policiais.</Dialogue>
+        <Dialogue>~y~Você~s~: Por que você assaltou a loja?</Dialogue>
+        <Reasons>
+            <Dialogue>~r~Suspeito~s~: Eu preciso de ~b~dinheiro~s~, estou ~b~falido~s~ e não consigo mais pagar o aluguel!</Dialogue>
+            <Dialogue>~r~Suspeito~s~: A culpa é dela! ~b~Ela me deixou!~s~ Agora ela é minha refém!</Dialogue>
+            <Dialogue>~r~Suspeito~s~: Meu ~b~chefe~s~ está na ~b~prisão~s~, não vou sair até que ele seja solto!</Dialogue>
+        </Reasons>
+        <Dialogue>~y~Você~s~: Escute com atenção, estou te oferecendo o seguinte acordo:</Dialogue>
+        <Dialogue>~r~Suspeito~s~: Fechamos o acordo, mas o que você quer em troca?</Dialogue>
+        <Dialogue>~y~Você~s~: Mais uma vez, todos devem voltar pra casa em segurança e você precisa soltar o refém!</Dialogue>
+        <Dialogue>~r~Suspeito~s~: Me dá um carro de fuga e eu solto o refém depois!</Dialogue>
+        <Dialogue>~r~Suspeito~s~: Isso não faz sentido, é minha oferta final...</Dialogue>
+        <Fail>
+            <Dialogue>~r~Suspeito~s~: Vai se ferrar com seus acordos! E a polícia ainda está aqui!</Dialogue>
+            <Dialogue>~r~Suspeito~s~: Agora você vai ver só!</Dialogue>
+            <Dialogue>~r~Suspeito~s~: Você é louco! Agora vai ver só!</Dialogue>
+        </Fail>
+        <Dialogue>~r~Suspeito~s~: Não vou dizer nada, mas vou soltar o refém assim que não vir mais nenhum policial.</Dialogue>
+        <Dialogue>~y~Você~s~: O carro deve chegar a qualquer momento...</Dialogue>
+    </SuspectTalk>
+
+    <SuspectDrives>
+        <Text>Siga o veículo do suspeito, mas mantenha distância para que ele não perceba!</Text>
+        <Text><![CDATA[O ~g~suspeito precisa se sentir seguro,~s~ hora de cercar e ~r~prendê-lo!~s~]]></Text>
+        <Text>Um rastreador foi instalado e está ativo no veículo.</Text>
+        <Text>Relatório do FBI: Você pode ~y~desativar o motor do veículo~s~ pressionando ~y~O~s~!</Text>
+        <Text><![CDATA[Leve o ~y~suspeito sob custódia~s~! Bloqueie o carro dele & prenda-o!]]></Text>
+        <Text>Veículo desativado, detenha o suspeito!</Text>
+    </SuspectDrives>
+
+    <HostageTalk>
+        <Dialogue>~g~Refém~s~: Muito obrigada, ele está completamente louco! Não acredito nisso!</Dialogue>
+        <Dialogue>~y~Você~s~: Calma. O sequestrador não é mais um problema pra você.</Dialogue>
+        <Dialogue>~y~Você~s~: Você está bem? Precisa de ajuda médica ou psicológica?</Dialogue>
+        <Dialogue>~g~Refém~s~: Estou bem, só quero ir pra casa.</Dialogue>
+        <Dialogue>~y~Você~s~: Como essa situação com refém começou?</Dialogue>
+        <ExGirlfriend>
+            <Dialogue>~g~Refém~s~: Meu ex-namorado surtou, terminei com ele duas semanas atrás.</Dialogue>
+            <Dialogue><![CDATA[~g~Refém~s~: Ele não aceitou e me seguiu até aqui.]]></Dialogue>
+        </ExGirlfriend>
+        <Dialogue>~g~Refém~s~: Eu só queria fazer compras, então ele apareceu e apontou uma arma pra mim!</Dialogue>
+        <Dialogue>~g~Refém~s~: Ele estava decidido a conseguir o que queria a qualquer custo...</Dialogue>
+        <Dialogue><![CDATA[~y~Você~s~: Certo, se não tiver mais nada, vá pra casa com segurança & se cuide!]]></Dialogue>
+        <Dialogue>~g~Refém~s~: Obrigada mais uma vez, tchau!</Dialogue>
+    </HostageTalk>
+
+    <End>
+        <Text>~g~Código 4.</Text>
+    </End>
+
+</HostageSituation>

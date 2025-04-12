@@ -1,0 +1,43 @@
+<ATMRobbery>
+
+    <CamText>
+        <Text>CAM1</Text> <!--use a short text!-->
+    </CamText>
+
+    <D_Victim>
+        <Dialogue>Olá, oficial! Acabei de ser assaltado!</Dialogue>
+        <Dialogue>Eu tinha acabado de sacar dinheiro no caixa eletrônico, e então uma pessoa veio e pegou minha carteira!</Dialogue>
+        <Dialogue>Nós lutamos, e ele me acertou na cabeça!</Dialogue>
+        <Dialogue>Infelizmente, não consigo me lembrar de como a pessoa parecia...</Dialogue>
+        <Dialogue>Sem problemas, vejo que temos uma câmera de vigilância ali. Vou ver o que posso fazer.</Dialogue>
+        <Dialogue>Central, você pode me dar acesso às câmeras de segurança no meu local atual?</Dialogue>
+    </D_Victim>
+
+    <D_Suspect>
+        <Dialogue>Qual é o seu problema? Por que está me seguindo?</Dialogue>
+        <Dialogue>Você se parece com a descrição de um roubo recente que ocorreu.</Dialogue>
+        <Dialogue>Eu pareço um criminoso? Isso é ridículo.</Dialogue>
+        <Dialogue>Você está enganado, não fiz nada!</Dialogue>
+    </D_Suspect>
+
+    <Persons>
+        <Text>Vítima</Text>
+        <Text>Você</Text>
+        <Text>Suspeito</Text>
+    </Persons>
+
+    <General>
+        <CalloutMessage>Roubo no Caixa Eletrônico</CalloutMessage>
+        <CalloutAdvisory>Uma pessoa relatou ter sido assaltada logo após sacar dinheiro</CalloutAdvisory>
+        <Text>Pressione {0} para falar com o ~g~chamador~s~.</Text>
+        <Text>Aguardando.</Text>
+        <Text>Agora você deve ter acesso à câmera.</Text>
+        <Text>Pressione {0} para ver a transmissão da câmera!</Text>
+        <Text>Temos relatos de outro roubo; a ~y~área está marcada~s~ no seu GPS.</Text>
+        <Text>Pressione {0} para falar com o ~r~suspeito~s~.</Text>
+        <Text>O suspeito parece não se importar.</Text>
+        <Text>Verifique-o.</Text>
+        <Text>Faça uma parada de tráfego.</Text>
+    </General>
+
+</ATMRobbery>

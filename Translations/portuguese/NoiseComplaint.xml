@@ -1,0 +1,63 @@
+<NoiseComplaint>
+
+    <General>
+        <Text>Reclamação de Barulho</Text>
+        <Text>Relato de festa barulhenta em residência</Text>
+        <Text>Vizinhos ligaram reclamando do barulho. Certifique-se de que o ~o~organizador do evento~s~ abaixe o volume da música.</Text>
+        <Text>Pressione {Key} para ajustar o volume para você mesmo.</Text>
+    </General>
+
+    <Persons>
+        <Text>Você</Text>
+        <Text>Proprietário</Text>
+        <Text>DJ</Text>
+    </Persons>
+
+    <Tasks>
+        <Text>Saia da festa dirigindo até o ~y~marcador amarelo~s~.</Text>
+        <Text>Aja da forma que achar correta aqui, depois fale com o ~g~~h~DJ~h~~s~.</Text>
+        <Text>Um solicitante relatou novamente uma reclamação de barulho no mesmo endereço. Responda em Código 2.</Text>
+    </Tasks>
+
+    <OwnerCooperative>
+        <Dialogue>Olá, policial, em que posso ajudar?</Dialogue>
+        <Dialogue>Recebemos uma ligação sobre o volume alto da música. Por favor, abaixe o som.</Dialogue>
+        <Dialogue>Se eu tiver que voltar aqui, você vai receber uma multa por perturbação sonora.</Dialogue>
+        <Dialogue>Tá bom, tá bom, vamos abaixar.</Dialogue>
+        <Dialogue>Obrigado pela cooperação. Aproveitem a noite.</Dialogue>
+    </OwnerCooperative>
+
+    <OwnerUncooperative>
+        <Dialogue>Yoo, olha a polícia, o que vocês tão fazendo aqui?</Dialogue>
+        <Dialogue>Fomos chamados a este endereço por conta do volume alto da música.</Dialogue>
+        <Dialogue>Qual é, isso aqui parece jardim de infância? A gente tá festejando pra valer!</Dialogue>
+        <Dialogue>Senhor, abaixe a música imediatamente.</Dialogue>
+        <Dialogue>Não vou fazer porra nenhuma, vai ter que me prender ou cair fora, porco.</Dialogue>
+    </OwnerUncooperative>
+
+    <OwnerSecond>
+        <Dialogue>Olá de novo, recebemos outra ligação sobre o volume da sua música.</Dialogue>
+        <Dialogue>E pelo que estou ouvindo, você aumentou o volume ao invés de manter mais baixo...</Dialogue>
+        <Dialogue>Ah, qual é, policial... só estamos nos divertindo, é uma grande festa.</Dialogue>
+        <Dialogue>Tudo bem, desde que a música esteja em um volume aceitável.</Dialogue>
+        <Dialogue>Se eu tiver que voltar aqui novamente, você será preso!</Dialogue>
+        <Dialogue>Vou te aplicar uma multa já que é a segunda vez que venho aqui.</Dialogue>
+        <Dialogue>Tenha uma boa noite — mas mais silenciosa.</Dialogue>
+    </OwnerSecond>
+
+    <DJ>
+        <Dialogue>Olá, senhor. Você é o DJ daqui, certo?</Dialogue>
+        <Dialogue>Sim, senhor. Me desculpe pelo ~o~proprietário~s~, meu nome é ~g~DJ Moodyman~s~.</Dialogue>
+        <Dialogue>Ah, você tocou naquele iate um tempo atrás, não foi?</Dialogue>
+        <Dialogue>Sim, lembro que você estava lá. Enfim, como posso ajudar?</Dialogue>
+        <Dialogue>Por favor, abaixe o volume. Os vizinhos estão incomodados.</Dialogue>
+        <Dialogue>Claro, sem problema, vou abaixar. Desculpa o dono ser tão difícil.</Dialogue>
+        <Dialogue>Vou conversar com ele. Tenha um bom dia!</Dialogue>
+    </DJ>
+
+    <End>
+        <Text>~g~Ocorrência encerrada, Código 4.</Text>
+        <Text>Pressione ~y~End~s~ a qualquer momento para encerrar a ocorrência.</Text>
+    </End>
+
+</NoiseComplaint>

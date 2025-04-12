@@ -1,0 +1,75 @@
+<MinorAlcohol>
+
+    <General>
+        <Text>Relatos de consumo de álcool por menores de idade</Text>
+        <Text>Ocorrência encerrada</Text>
+        <Text>Dirija-se ao local.</Text>
+        <Text>Sem mais diálogos.</Text>
+        <Text>Verifique o documento de identidade e realize um teste de sobriedade em campo.</Text>
+        <Text>Converse com {0}</Text>
+        <Text>Dirija-se até o ~q~iate~s~ e fale com o ~q~capitão~s~.</Text>
+    </General>
+
+    <Music>
+        <Text>Pressione {0} para ~b~ajustar~s~ o volume da música.</Text>
+        <Text>Pressione {0} e {1} para ~b~ajustar~s~ o volume da música.</Text>
+        <Text>Configurações</Text>
+        <Text>Volume</Text>
+        <Text><![CDATA[<- Diminuir; Aumentar ->]]></Text>
+        <Text>Iniciar faixa aleatória</Text>
+        <Text>Inicia uma faixa aleatória da pasta de músicas</Text>
+    </Music>
+
+    <Characters>
+        <Text>~b~Você: ~s~</Text>
+        <Text>~y~Pessoa: ~s~</Text>
+        <Text>~q~Capitão: ~s~</Text>
+        <Text>~r~Assistente Caty: ~s~</Text>
+        <Text>~r~Assistente Nicole: ~s~</Text>
+    </Characters>
+
+    <TalkToCaptain>
+        <Dialogue>Olá! Obrigado por vir!</Dialogue>
+        <Dialogue>Temos uma grande festa hoje à noite, o famoso ~g~DJ Moodyman~s~ está comandando o som!</Dialogue>
+        <Dialogue>Infelizmente, parece que temos alguns menores de idade a bordo.</Dialogue>
+        <Dialogue>Por favor, verifique isso, não podemos permitir que eles fiquem aqui.</Dialogue>
+        <Dialogue>Verifique as pessoas que possam se encaixar no perfil.</Dialogue>
+    </TalkToCaptain>
+
+    <Caty>
+        <Dialogue>Oi! Espero que você encontre os menores a bordo, dê uma olhada na parte de trás do navio!</Dialogue>
+        <Dialogue>~g~DJ Moodyman~s~ está tocando na plataforma superior, evite subir no palco e estragar a festa c;</Dialogue>
+    </Caty>
+
+    <Nicole>
+        <Dialogue>Ah, oi, policial...</Dialogue>
+        <Dialogue>Se precisar de algo, é só me chamar, ajudaremos no que pudermos!</Dialogue>
+    </Nicole>
+
+    <PedToCheck0>
+        <Dialogue>Olá, sou policial do departamento local!</Dialogue>
+        <Dialogue>Recebemos uma denúncia sobre menores bebendo e comemorando.</Dialogue>
+        <Dialogue>Preciso ver sua identidade, e talvez eu realize alguns testes de sobriedade.</Dialogue>
+    </PedToCheck0>
+
+    <PedToCheck1>
+        <Dialogue>Olá, sou policial do departamento local!</Dialogue>
+        <Dialogue>Recebemos uma chamada sobre festa com menores e consumo de álcool.</Dialogue>
+        <Dialogue>Por favor, me entregue sua identidade. Além disso, podemos fazer um teste do bafômetro.</Dialogue>
+    </PedToCheck1>
+
+    <PedToCheck2>
+        <Dialogue>Oi, sou policial.</Dialogue>
+        <Dialogue>Recebemos uma denúncia sobre festa com menores e consumo de álcool.</Dialogue>
+        <Dialogue>Preciso ver sua identidade, e talvez eu realize alguns testes de sobriedade em campo.</Dialogue>
+    </PedToCheck2>
+
+    <Transport>
+        <Text>Pressione ~y~1~s~ quando terminar para se ~y~teletransportar~s~ com os suspeitos para o ~b~transporte policial~s~.</Text>
+        <Text>Leve os suspeitos até o ~b~marcador azul~s~ para que entrem no barco da polícia.</Text>
+        <Text>Leve os suspeitos até a cadeia, pressione ~y~End~s~ a qualquer momento para encerrar a ocorrência.</Text>
+        <Text>Por favor, ~b~libere~s~ o suspeito e ~b~afaste-se~s~ um pouco.</Text>
+        <Text>O ~b~suspeito~s~ agora está aguardando no barco da polícia.</Text>
+    </Transport>
+
+</MinorAlcohol>

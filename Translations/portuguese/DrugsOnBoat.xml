@@ -1,0 +1,50 @@
+<DrugsOnBoat>
+
+    <General>
+        <Text>Navio conhecido por transporte de drogas avistado</Text>
+        <Text>Verifique a possibilidade de drogas a bordo</Text>
+        <Text>DICA: Procure por drogas no barco</Text>
+        <Text>Central, não encontrei nenhuma droga, vou falar com o dono do navio novamente.</Text>
+        <Text>Entendido.</Text>
+        <Text>Recebemos ~o~dicas anônimas~s~ sobre locais.</Text>
+        <Text>Central, perseguição a pé iniciada!</Text>
+        <Text>Central, temos disparos!</Text>
+        <Text>Você está a caminho de um navio para procurar drogas ilegais.</Text>
+        <Text>Pressione {Y} para recolher evidências.</Text>
+        <Text>Confronte o dono do navio ou continue procurando.</Text>
+        <Text>~g~Todas as evidências encontradas</Text>
+        <Text>Drogas encontradas:</Text>
+    </General>
+
+    <Persons>
+        <Text>Dono</Text>
+        <Text>Você</Text>
+    </Persons>
+
+    <D_Owner_Arrive>
+        <Dialogue>Olá senhor, temos um mandado de busca para este barco.</Dialogue>
+        <Dialogue>Vá pro inferno, vocês não vão revistar meu barco!</Dialogue>
+        <Dialogue>Saia da frente, pode falar com meus assistentes ali embaixo para ver o mandado por escrito.</Dialogue>
+    </D_Owner_Arrive>
+
+    <D_Owner_NoDrugs>
+        <Dialogue>Certo, terminei a busca no seu navio, você está liberado!</Dialogue>
+        <Dialogue>Isso demorou, e tempo é dinheiro! Agora preciso ir.</Dialogue>
+        <Dialogue>Só estou fazendo meu trabalho. De qualquer forma, boa viagem!</Dialogue>
+    </D_Owner_NoDrugs>
+
+    <D_Owner_Surrender>
+        <Dialogue>Senhor, encontrei várias drogas neste navio, pode me explicar isso?</Dialogue>
+        <Dialogue>... Quer dizer... droga, você me pegou mesmo. Sim, são minhas.</Dialogue>
+        <Dialogue>Não vou resistir, eu tentei vender isso. Pode me prender.</Dialogue>
+    </D_Owner_Surrender>
+
+    <D_Owner_Pursuit_Shooting>
+        <Dialogue>Senhor, encontrei várias drogas neste navio, pode me explicar isso?</Dialogue>
+    </D_Owner_Pursuit_Shooting>
+
+    <End>
+        <Text>Ocorrência finalizada, Código 4.</Text>
+    </End>
+
+</DrugsOnBoat>

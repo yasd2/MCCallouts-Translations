@@ -1,0 +1,96 @@
+<ConvenienceStoreDispute>
+
+    <General>
+        <Text>Conflito em Loja de Conveniência</Text>
+        <Text>Resolva a divergência</Text>
+    </General>
+
+    <Persons>
+        <Text>~y~Você:~s~ </Text>
+        <Text>~HC_7~Mulher:~s~ </Text>
+        <Text>~b~Atendente:~s~ </Text>
+    </Persons>
+
+    <D_Argue>
+        <Dialogue>Policial! O atendente não quer aceitar meu cupom!</Dialogue>
+        <Dialogue>Senhora, eu já lhe disse, esse cupom está inválido. Não posso aceitá-lo.</Dialogue>
+        <Dialogue>Isso é um absurdo, ele é válido! Eu tenho direitos! Você não pode se recusar a aceitar!</Dialogue>
+        <Dialogue>Policial, pode dar uma olhada e esclarecer, por favor?</Dialogue>
+        <Dialogue>Claro, deixe-me ver...</Dialogue>
+        <Dialogue>* Olha para o cupom... *</Dialogue>
+    </D_Argue>
+
+    <D_Expired>
+        <Dialogue>* Cupom de $30 para o mercado 24/7, expira em 01/06/2024 *</Dialogue>
+        <Dialogue>O cupom está claramente vencido.</Dialogue>
+    </D_Expired>
+
+    <D_Manipulated>
+        <Dialogue>* Você percebe que o cupom do mercado 24/7 de $30 foi alterado para $60 *</Dialogue>
+        <Dialogue>Esse cupom foi adulterado. Veja, os números foram modificados.</Dialogue>
+    </D_Manipulated>
+
+    <D_RefuseLeave>
+        <Dialogue>Isso não pode ser verdade! Você está mentindo!</Dialogue>
+        <Dialogue>Policial, isso é racismo! Eu não saio daqui até ter meus direitos garantidos!</Dialogue>
+    </D_RefuseLeave>
+
+    <D_Run>
+        <Dialogue>Todo mundo está contra mim! Esquece, eu não vou pagar isso!</Dialogue>
+    </D_Run>
+
+    <D_Fight>
+        <Dialogue>Já cansei dessas suas besteiras!</Dialogue>
+        <Dialogue>E você, policial, também faz parte do problema!!! Aaaaaargh!</Dialogue>
+    </D_Fight>
+
+    <D_Taser>
+        <Dialogue>Como ousa me ameaçar!</Dialogue>
+        <Dialogue>AGRESSÃO! Você me atacou!</Dialogue>
+        <Dialogue>Isso é legítima defesa!</Dialogue>
+    </D_Taser>
+
+    <D_Eco_Argue>
+        <Dialogue>Isso é um absurdo! Olha essa embalagem! Plástico por toda parte! Querem matar o planeta?</Dialogue>
+        <Dialogue>Senhora, entendo sua preocupação, mas nós não fabricamos os produtos. Apenas os vendemos.</Dialogue>
+        <Dialogue>Apenas vendem? Então são cúmplices! Vender produtos não ecológicos é praticamente ilegal!</Dialogue>
+        <Dialogue>Senhora, isso não é verdade. Não existe nenhuma lei contra esse tipo de embalagem—</Dialogue>
+        <Dialogue>Não minta pra mim! Vou fechar essa loja por atividades ilegais! Você é parte do problema! É um... é um assassino!</Dialogue>
+        <Dialogue>Com licença? Certo, policial, por favor remova ela da loja. E senhora, você está banida desta loja a partir de agora.</Dialogue>
+    </D_Eco_Argue>
+
+    <D_Eco_RefuseLeave>
+        <Dialogue>Eu não vou sair dessa loja até esse criminoso ser preso!</Dialogue>
+        <Dialogue>Senhora, entendo que esteja chateada, mas isso não é um caso criminal. Precisa sair da loja ou terei que removê-la eu mesmo.</Dialogue>
+        <Dialogue>Eu me recuso! Se você não prender esse assassino, então VOCÊ também é cúmplice! Vou ficar aqui o dia todo se for preciso!</Dialogue>
+    </D_Eco_RefuseLeave>
+
+    <D_Eco_FleeWPackage>
+        <Dialogue>Quer saber? Se você não resolver isso, eu mesma resolvo! Isso acaba agora!</Dialogue>
+        <Dialogue>Estou salvando o planeta! Isso deve ser descartado corretamente, não ficar nessas prateleiras imundas!</Dialogue>
+        <Dialogue>Senhora, isso é furto. Coloque o item no chão e afaste-se.</Dialogue>
+        <Dialogue>Não é furto se estou salvando a humanidade! Prendam ELES por venderem esse lixo!</Dialogue>
+        <Dialogue>Senhora, esse é seu último aviso. Solte o item e coopere, ou será presa.</Dialogue>
+    </D_Eco_FleeWPackage>
+
+    <D_Eco_Argumentative>
+        <Dialogue>Policial! Você precisa prender esse homem imediatamente! Ele é um assassino! Vender todo esse plástico — ele tá sufocando o planeta!</Dialogue>
+        <Dialogue>Senhora, isso não é um caso criminal. Agora, se você—</Dialogue>
+        <Dialogue>Nem comece comigo! Cadê seu supervisor? Quero o nome dele. E VOCÊ — * apontando pro policial * —quero seu nome e número de crachá! AGORA!</Dialogue>
+        <Dialogue>Senhora, não vamos fazer isso. Saia da loja ou terei que escoltá-la para fora.</Dialogue>
+        <Dialogue>Ah é? Quero ver você tentar! Vou denunciar TODOS vocês! À matriz, ao prefeito, à mídia — todo mundo vai saber disso!</Dialogue>
+    </D_Eco_Argumentative>
+
+    <D_Eco_Taser>
+        <Dialogue>Ah, então agora você está me ameaçando? Estou me sentindo totalmente insegura! Isso é agressão!</Dialogue>
+        <Dialogue>Senhora, ninguém está ameaçando você. Por favor, acal—</Dialogue>
+        <Dialogue>AGRESSÃO! VOCÊ ME AGREDIU! Todo mundo viu!</Dialogue>
+        <Dialogue>Senhora, ninguém tocou na senhora. Vamos apenas—</Dialogue>
+        <Dialogue>Não fale comigo, assassino!</Dialogue>
+    </D_Eco_Taser>
+
+    <End>
+        <Text>Ocorrência finalizada, Código 4.</Text>
+    </End>
+
+</ConvenienceStoreDispute>
