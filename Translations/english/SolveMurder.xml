@@ -1,65 +1,65 @@
 <SolveMurder>
 
     <General>
-        <Text>~r~Detective~s~ at murder case required</Text>
-        <Text>~g~Dispatch~s~: Drive to ~y~Mount Chiliad Gas Station~w~ at the highway, ~r~Detective~w~ required.</Text>
+        <Text>~r~需要警探~s~ 来处理谋杀案</Text>
+        <Text>~g~Dispatch~s~: 开车前往高速公路上的~y~Mount Chiliad 加油站~w~, 需要~r~警探~w~.</Text>
     </General>
 
     <Officer>
-        <Dialogue>Go to the ~b~officer~w~ and talk to her using </Dialogue>
-        <Dialogue>~b~Officer~s~: Hello Detective! Glad you are here!</Dialogue>
-        <Dialogue>~b~Officer~s~: We have a dead person to my right and two possible suspects.</Dialogue>
-        <Dialogue>~b~Officer~s~: Please go to the ~r~crime scene~w~ to my right and ~r~investigate~s~, see, if you can find something.</Dialogue>
+        <Dialogue>去找~b~officer~w~ 和她交谈 </Dialogue>
+        <Dialogue>~b~Officer~s~: 你好 警探! 很高兴你在这里!</Dialogue>
+        <Dialogue>~b~Officer~s~: 我右边有一具尸体，还有两名可能的嫌疑人.</Dialogue>
+        <Dialogue>~b~Officer~s~: 请前往我右边的 ~r~犯罪现场~w~ 并进行 ~r~调查~s~, 看看能不能找到什么.</Dialogue>
     </Officer>
 
     <Evidence>
-        <Text>~y~You~s~: A ~r~fresh empty bottle of liquor~s~, I wonder if it even belongs to the victim...</Text>
-        <Text>~y~You~s~: The wounds appear to be ~o~multiple stab wounds~s~, to the neck, belly and back.</Text>
-        <Text>~y~You~s~: Some ~g~chips~w~? Somebody ~g~recently~w~ has ~g~eaten~w~ those...</Text>
-        <Text>Investigation finished! Go to a ~r~suspect~w~ and talk to him using </Text>
+        <Text>~y~警员~s~: 一个~r~新鲜的空酒瓶~s~, 我不知道它是否属于受害者...</Text>
+        <Text>~y~警员~s~: 伤口看起来像是 ~o~多处刀伤~s~, 分别位于颈部、腹部和背部.</Text>
+        <Text>~y~警员~s~: 一些 ~g~薯片~w~? 有人 ~g~最近~w~ ~g~吃过~w~ 那些...</Text>
+        <Text>调查结束！前往一名 ~r~嫌疑人~w~ 处，使用 </Text>
     </Evidence>
 
     <Suspect1>
-        <Dialogue>Talk to the ~o~suspect~w~ using </Dialogue>
-        <Dialogue>~y~You~s~: Hello, I'm the detective in this case, I have a few questions for you.</Dialogue>
-        <Dialogue>~o~Ayla May~s~: I'm so ~r~nervous~w~. I haven't got anything to do with this.</Dialogue>
-        <Dialogue>~y~You~s~: Don't worry, you're fine. What kind of alcohol do you drink?</Dialogue>
-        <Dialogue>~o~Ayla May~s~: I drink alcohol as good as ~g~never~w~... and if I do maybe a glass of red wine.</Dialogue>
-        <Dialogue>~y~You~s~: Do you eat ~r~chips~w~ sometimes?</Dialogue>
-        <Dialogue>~o~Ayla May~s~: ~g~No~w~, I live a healthy lifestyle, I do a lot of sport, too.</Dialogue>
-        <Dialogue>~y~You~s~: That would be all, thanks for your time.</Dialogue>
+        <Dialogue>与 ~o~嫌疑人~w~ 交谈时使用 </Dialogue>
+        <Dialogue>~y~警员~s~: 您好，我是负责此案的警探，我有几个问题想问您.</Dialogue>
+        <Dialogue>~o~Ayla May~s~: 我好 ~r~紧张~w~啊. 我跟这事儿一点关系都没有.</Dialogue>
+        <Dialogue>~y~警员~s~: 别担心，你没事。你喝什么酒?</Dialogue>
+        <Dialogue>~o~Ayla May~s~: 我~g~几乎~w~从不喝酒... 如果我喝酒的话，也许会喝一杯红酒.</Dialogue>
+        <Dialogue>~y~警员~s~: 你有时会吃~r~薯片~w~ 吗?</Dialogue>
+        <Dialogue>~o~Ayla May~s~: ~g~不~w~, 我的生活方式很健康, 我也做很多运动.</Dialogue>
+        <Dialogue>~y~警员~s~: 先这样吧，感谢您抽出时间.</Dialogue>
     </Suspect1>
 
     <Suspect2>
-        <Dialogue>Talk to the ~o~suspect~w~ using </Dialogue>
-        <Dialogue>~y~You~s~: Hi, I'm the ~r~detective~s~ in this case, may I ask you some questions?</Dialogue>
-        <Dialogue>~r~Jameson Fisher~s~: Howdy! Yeeeaaaaahh, do't be shyyyyyyy *laughs*</Dialogue>
-        <Dialogue>~y~You~s~: You appear ~r~intoxicated~w~, how much do you had to drink?!</Dialogue>
-        <Dialogue>~r~Jameson Fisher~s~: I haven't had anything, not even a drooooopp...</Dialogue>
-        <Dialogue>~y~You~s~: Please take this seriously. What are you working as?</Dialogue>
-        <Dialogue>~r~Jameson Fisher~s~: Sure, I'm a ~o~hunter~w~, I have a forest not too far from here.</Dialogue>
-        <Dialogue>~y~You~s~: Okay, do you eat ~r~chips~w~ as often as I do?</Dialogue>
-        <Dialogue>~r~Jameson Fisher~s~: Yeeeaaaaah, ~r~I LOVE chips~w~, I always eat them, ~y~I just ate a pack...</Dialogue>
-        <Dialogue>~y~You~s~: We're finished with questioning, I'll let you know how we continue.</Dialogue>
+        <Dialogue>与~o~嫌疑人~w~交谈时使用 </Dialogue>
+        <Dialogue>~y~警员~s~: 您好，我是此案的~r~警探~s~ 我可以问您一些问题吗?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: 你好! 耶, 别害羞*笑*</Dialogue>
+        <Dialogue>~y~警员~s~: 你看起来~r~醉了~w~, 你喝了多少?!</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: 我什么都没喝，连杯水都没喝...</Dialogue>
+        <Dialogue>~y~警员~s~: 请认真对待。你是做什么工作的?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: 当然，我是一个 ~o~猎人~w~, 我家附近有一片森林.</Dialogue>
+        <Dialogue>~y~警员~s~: 好的，你经常吃~r~薯片~w~吗?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: 是啊, ~r~我喜欢薯片~w~, 我经常吃, ~y~我刚刚还吃了一包...</Dialogue>
+        <Dialogue>~y~警员~s~: 我们的询问结束了，我会告诉你接下来的进展.</Dialogue>
     </Suspect2>
 
     <Officer2>
-        <Dialogue>Go talk to the ~b~Officer~w~ again using </Dialogue>
-        <Dialogue>~b~Officer~w~: And could you find out based on evidence and talking who the ~r~murderer~w~ is?</Dialogue>
-        <Dialogue>~y~You~s~: Yes, I think the murderer is... ~o~[1] Ayla May  ~r~[2] Jameson Fisher</Dialogue>
-        <Dialogue>Press ~o~'1' ~w~or ~r~'2' ~w~to choose the ~r~murderer.</Dialogue>
-        <Dialogue>~y~You~s~: ...~o~Ayla May~w~!</Dialogue>
-        <Dialogue>~y~You~s~: ...~r~Jameson Fisher~w~!</Dialogue>
-        <Dialogue>~b~Officer~w~: Alright, go ahead and arrest the suspect!</Dialogue>
+        <Dialogue>再次与~b~Officer~w~交谈，使用 </Dialogue>
+        <Dialogue>~b~Officer~w~: 你能根据证据和谈话找出谁是~r~凶手~w~吗?</Dialogue>
+        <Dialogue>~y~警员~s~: 是的，我认为凶手是... ~o~[1] Ayla May  ~r~[2] Jameson Fisher</Dialogue>
+        <Dialogue>按 ~o~'1' ~w~或者~r~'2' ~w~选择~r~凶手.</Dialogue>
+        <Dialogue>~y~警员~s~: ...~o~Ayla May~w~!</Dialogue>
+        <Dialogue>~y~警员~s~: ...~r~Jameson Fisher~w~!</Dialogue>
+        <Dialogue>~b~Officer~w~: 好的，继续逮捕嫌疑人!</Dialogue>
     </Officer2>
 
     <Arrest>
-        <Text>Oh no, you unfortunately have arrested an ~r~innocent~w~ person! ~o~Code 4~w~</Text>
-        <Text>Investigation is ~g~Code 4~w~, Case ~g~solved~w~, ~g~right suspect arrested!</Text>
-        <Text>Call a ~b~Coroner~w~ to pick up the ~y~victim~w~ and then transport the ~r~suspect~w~ to ~o~prison~w~.</Text>
-        <Text>~g~Ayla May ~r~died.~s~ Are you sure it was neccessary? ~g~Code 4~s~</Text>
-        <Text>~b~Jameson Fisher ~r~died,~s~ I hope you have a good attorney!? ~g~Code 4~s~</Text>
-        <Text>The ~b~Officer~s~ ~r~died~s~, thats not a good ending!? ~g~Code 4~s~</Text>
+        <Text>哦不，不幸的是，你逮捕了一个~r~无辜的~w~ 人! ~o~Code 4~w~</Text>
+        <Text>调查正在进行中，~g~Code 4~w~,案件~g~已破~w~, ~g~嫌疑人已逮捕!</Text>
+        <Text>呼叫~b~验尸官~w~ 接走 ~y~受害者~w~ 然后将~r~嫌疑人~w~送往~o~监狱~w~.</Text>
+        <Text>~g~Ayla May ~r~已死亡.~s~  你确定有必要吗? ~g~Code 4~s~</Text>
+        <Text>~b~Jameson Fisher ~r~已死亡,~s~我希望你有个好律师!? ~g~Code 4~s~</Text>
+        <Text>~b~Officer~s~ ~r~已死亡~s~, 这可不是什么好结局? ~g~Code 4~s~</Text>
     </Arrest>
 
 </SolveMurder>
