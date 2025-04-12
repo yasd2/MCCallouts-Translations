@@ -1,63 +1,63 @@
 <Kidnapping>
 
     <General>
-        <Message>Caller advised a possible Vehicular Kidnapping</Message>
-        <Message>Traffic Stop required</Message>
-        <Message>Do a ~g~traffic stop~w~ on the ~o~suspected vehicle~w~, respond Code 3.</Message>
-        <Message>Dispatch, one suspect ~y~arrested~w~!</Message>
-        <Message>The Driver ~r~died, ~g~Code 4</Message>
-        <Message>The Passenger ~r~died, ~g~Code 4</Message>
-        <Message>Oh no, the Victim ~r~died! ~g~Code 4</Message>
+        <Message>来电者告知可能发生车辆绑架事件</Message>
+        <Message>需要交通拦截</Message>
+        <Message>对~g~嫌疑车辆~w~ 执行 ~o~交通停止~w~,Code 3.</Message>
+        <Message>Dispatch,一名嫌疑人~y~被捕~w~!</Message>
+        <Message>司机 ~r~死亡, ~g~Code 4</Message>
+        <Message>乘客 ~r~死亡, ~g~Code 4</Message>
+        <Message>哦不，受害者 ~r~死亡! ~g~Code 4</Message>
     </General>
 
     <Infos>
-        <Info>The vehicle was reported ~y~speeding~w~.</Info>
-        <Info>The vehicle model is a ~b~black Granger SUV~w~.</Info>
+        <Info>据报告，该车辆 ~y~超速~w~.</Info>
+        <Info>该车辆型号为~b~黑色 格兰杰SUV~w~.</Info>
     </Infos>
 
     <Conversation1>
-        <Dialogue>Talk to the Driver using </Dialogue>
-        <Dialogue>~y~You~w~: Hello, I'm an officer from the local police department.</Dialogue>
-        <Dialogue>~o~Driver~w~: I can see that. What's the reason for the stop?</Dialogue>
-        <Dialogue>~y~You~w~: We've got a call about your vehicle. Who else is with you?</Dialogue>
-        <Dialogue>~o~Driver~w~: Just my boss in the left rear. You don't need to know more.</Dialogue>
-        <Dialogue>~y~You~w~: Well, that's up to me who I'm talking to.</Dialogue>
-        <Dialogue>~o~Left rear passenger~w~: Dude, don't mess with us, we haven't done anything!</Dialogue>
-        <Dialogue>~y~You~w~: Sir, I'm not talking to you, let me talk to the lady, now.</Dialogue>
-        <Dialogue>~y~You~w~: M'am, how are you doing? Do you know those gentlemen?</Dialogue>
-        <Dialogue>~p~Woman~w~: Yes...</Dialogue>
-        <Dialogue>The woman appears to ~r~shake~w~ and feel ~r~uncomfortable~w~.</Dialogue>
-        <Dialogue>~o~Left rear passenger~w~: See, there's nothing wrong here, stop waisting your time!</Dialogue>
-        <Dialogue>There seems to be something not right, get a backup unit.</Dialogue>
-        <Dialogue>~y~You~w~: Alright, I want everyone to step out one by one...</Dialogue>
+        <Dialogue>与司机交谈 </Dialogue>
+        <Dialogue>~y~警员~w~: 您好，我是当地警察局的警官.</Dialogue>
+        <Dialogue>~o~司机~w~: 我看到了。拦车的原因是什么?</Dialogue>
+        <Dialogue>~y~警员~w~: 我们接到一个关于您车辆的电话。还有谁和您在一起?</Dialogue>
+        <Dialogue>~o~司机~w~: 只有我的老板坐在左后方。您不需要知道更多信息.</Dialogue>
+        <Dialogue>~y~警员~w~: 好吧，这取决于我在和谁说话.</Dialogue>
+        <Dialogue>~o~左后排乘客~w~: 伙计，别惹我们，我们什么也没做!</Dialogue>
+        <Dialogue>~y~警员~w~: 先生，我不是在跟您说话，现在让我和这位女士谈谈.</Dialogue>
+        <Dialogue>~y~警员~w~: 女士，您认识那两位先生吗?</Dialogue>
+        <Dialogue>~p~女士~w~: 是的...</Dialogue>
+        <Dialogue>这位女士似乎在~r~颤抖~w~ 并且感到~r~有点不舒服~w~.</Dialogue>
+        <Dialogue>~o~左后排乘客~w~: 看，这里没有什么问题，别再浪费时间了!</Dialogue>
+        <Dialogue>好像有什么不对劲, 叫一个支援小组.</Dialogue>
+        <Dialogue>~y~警员~w~: 好吧，我希望所有人一个接一个的从车上下来...</Dialogue>
     </Conversation1>
 
     <OutcomeVehiclePursuit>
-        <Dialogue>~o~Left rear passenger~w~: ~r~Go go go~w~!</Dialogue>
-        <Dialogue>~y~You~w~: Dispatch, gonna be a ~r~pursuit~w~!</Dialogue>
-        <Dialogue>~g~Chase down~w~ both suspects, call for ~b~backup~w~ eventually!</Dialogue>
+        <Dialogue>~o~左后排乘客~w~: ~r~快走快走~w~!</Dialogue>
+        <Dialogue>~y~警员~w~: Dispatch, 将会是一场~r~追捕~w~!</Dialogue>
+        <Dialogue>~g~追捕~w~ 两名嫌疑人, 呼叫~b~支援~w~!</Dialogue>
     </OutcomeVehiclePursuit>
 
     <OutcomeSurrender>
-        <Dialogue>~o~Driver~w~: ~r~We give up~w~!</Dialogue>
-        <Dialogue>~g~Arrest~w~ both suspects!</Dialogue>
+        <Dialogue>~o~司机~w~: ~r~我们放弃了~w~!</Dialogue>
+        <Dialogue>~g~逮捕~w~ 两名嫌疑人!</Dialogue>
     </OutcomeSurrender>
 
     <OutcomeFootPursuit>
-        <Dialogue>~o~Left rear passenger~w~: ~r~Run!</Dialogue>
-        <Dialogue>~y~You~w~: Dispatch, two suspects on ~r~foot pursuit~w~!</Dialogue>
-        <Dialogue>~g~Chase down~w~ both suspects, call for ~b~backup~w~ eventually!</Dialogue>
+        <Dialogue>~o~左后排乘客~w~: ~r~快跑!</Dialogue>
+        <Dialogue>~y~警员~w~: 两名嫌疑人正在 ~r~徒步逃跑~w~!</Dialogue>
+        <Dialogue>~g~追上~w~ 两名嫌疑人, 最终呼叫~b~支援~w~ !</Dialogue>
     </OutcomeFootPursuit>
 
     <VictimTalk>
-        <Dialogue>Go to the ~g~victim~w~ and make sure she's ~g~fine~w~.</Dialogue>
-        <Dialogue>~y~You~w~: Hello M'am, you're safe now.</Dialogue>
-        <Dialogue>~g~Victim~w~: Oh my god, thank you so much! I was so afraid!</Dialogue>
-        <Dialogue>~y~You~w~: Do you know the men who kidnapped you?</Dialogue>
-        <Dialogue>~g~Victim~w~: No, I've never seen them! They told me they were gonna sell me!</Dialogue>
-        <Dialogue>~y~You~w~: They are behind bars now. Do you need medical assistance?</Dialogue>
-        <Dialogue>~g~Victim~w~: No, I'm fine, just a bit shaky right now. Thank you very much for your help!</Dialogue>
-        <Dialogue>~y~You~w~: Glad your fine, make sure to go home safely!</Dialogue>
+        <Dialogue>去找 ~g~受害者~w~ 并确保她 ~g~没事~w~.</Dialogue>
+        <Dialogue>~y~警员~w~: 你好女士，你现在安全了.</Dialogue>
+        <Dialogue>~g~受害者~w~: 天哪，非常感谢！我太害怕了!</Dialogue>
+        <Dialogue>~y~警员~w~: 你认识绑架你的人吗?</Dialogue>
+        <Dialogue>~g~受害者~w~: 不，我从来没见过他们！他们告诉我要卖掉我!</Dialogue>
+        <Dialogue>~y~警员~w~: 他们现在被关在监狱里。你需要医疗救助吗?</Dialogue>
+        <Dialogue>~g~受害者~w~: 不，我很好，只是现在有点发抖。非常感谢你的帮助!</Dialogue>
+        <Dialogue>~y~警员~w~: 很高兴你没事，一定要安全回家!</Dialogue>
         <Dialogue>Choose, if you want a ~y~taxi~w~, ~g~Uber~w~ to pick her up or send her ~b~on her way~w~.</Dialogue>
     </VictimTalk>
     
