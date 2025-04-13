@@ -1,0 +1,65 @@
+<BombReported>
+
+    <General>
+        <Text>Possível bomba reportada</Text>
+        <Text>Procurar por uma ameaça de bomba potencial, ~r~Código 3~s~.</Text>
+        <Text>Pressione {Y} para evacuar os cidadãos!</Text>
+        <Text>Buscar a bomba na ~y~área~s~.</Text>
+        <Text>DICA: Pressione {Y} para chamar o especialista em bombas.</Text>
+        <Text>Nenhuma bomba encontrada, a área está limpa.</Text>
+        <Text>Bomba desarmada! Bom trabalho!</Text>
+        <Text>Fio ~g~verde~s~ cortado!</Text>
+        <Text>Fio ~y~amarelo~s~ cortado!</Text>
+        <Text>Fio ~b~azul~s~ cortado!</Text>
+        <Text>PQP!, você cortou o fio errado! Corra, a bomba vai explodir!</Text>
+    </General>
+
+    <Persons>
+        <Text>Você</Text>
+        <Text>Especialista</Text>
+        <Text>Oficial</Text>
+    </Persons>
+
+    <Officer>
+        <Dialogue>Olá! Obrigado por vir!</Dialogue>
+        <Dialogue>Temos uma grande operação acontecendo! Um relato sobre uma possível bomba chegou!</Dialogue>
+        <Dialogue>Nós levamos isso muito a sério e bloqueamos a área.</Dialogue>
+        <Dialogue>Depois de terminarmos de falar, evacue todos na área e depois procure a bomba! Boa sorte!</Dialogue>
+    </Officer>
+
+    <Evacuate>
+        <Dialogue>Ei, por favor, deixem a área imediatamente! Nós podemos ter uma bomba aqui!</Dialogue>
+        <Dialogue>Ei você, temos uma ameaça de bomba, saia para uma distância segura!</Dialogue>
+        <Dialogue>Esta área precisa ser evacuada imediatamente! Vamos, rápido!</Dialogue>
+        <Dialogue></Dialogue>
+    </Evacuate>
+
+    <SpecialistGeneral>
+        <Dialogue>Alô? Você encontrou a bomba?</Dialogue>
+        <Dialogue>Sim, eu acho que sim. Está bem na minha frente.</Dialogue>
+        <Dialogue>Certo, deixe-me pensar. Ela tem algum tipo de controle sofisticado.</Dialogue>
+        <Dialogue>Hmm... okay... droga... o que... ? Ah, entendi.</Dialogue>
+        <Dialogue>Então... hm... ah não... ah, okay...</Dialogue>
+        <Dialogue>Incrível, eu estou vivo! A bomba parece estar desarmada. Bom trabalho e obrigado!</Dialogue>
+        <Dialogue>De nada, tchau.</Dialogue>
+    </SpecialistGeneral>
+
+    <SpecialistGYB>
+        <Dialogue>Primeiro, corte o fio verde.</Dialogue>
+        <Dialogue>Agora, corte o fio amarelo.</Dialogue>
+        <Dialogue>Ok, se ainda não explodiu, corte o fio azul restante.</Dialogue>
+    </SpecialistGYB>
+
+    <SpecialistBYG>
+        <Dialogue>Primeiro, corte o fio azul.</Dialogue>
+        <Dialogue>Agora, corte o fio amarelo.</Dialogue>
+        <Dialogue>Ok, se ainda não explodiu, corte o fio verde restante.</Dialogue>
+    </SpecialistBYG>
+
+    <SpecialistGBY>
+        <Dialogue>Primeiro, corte o fio verde.</Dialogue>
+        <Dialogue>Agora, corte o fio azul.</Dialogue>
+        <Dialogue>Ok, se ainda não explodiu, corte o fio amarelo restante.</Dialogue>
+    </SpecialistGBY>
+
+</BombReported>

@@ -1,0 +1,35 @@
+<PrisonerFlight>
+
+    <General>
+        <Text>Transporte Aéreo de Presidiário</Text>
+        <Text>Piloto policial requisitado para transporte de prisioneiro</Text>
+        <Text>Dirija até o ~g~aeroporto~s~, o avião já está esperando!</Text>
+    </General>
+
+    <Agent>
+        <Dialogue>Fale com o ~b~Agente~s~ com</Dialogue>
+        <Dialogue>~y~Você~s~: Olá, sou piloto do departamento de polícia. O que temos aqui?</Dialogue>
+        <Dialogue>~b~Agente~s~: Bom dia. Temos aqui um prisioneiro de alta periculosidade que será transportado para North Yankton.</Dialogue>
+        <Dialogue>~b~Agente~s~: Este jato particular está pronto, o prisioneiro já está a bordo.</Dialogue>
+        <Dialogue>~b~Agente~s~: Por favor, voe até o destino, ele estará marcado no seu sistema de navegação. Você não vai errar.</Dialogue>
+        <Dialogue>~b~Agente~s~: A polícia estará lá esperando por você. Tenha um bom voo!</Dialogue>
+        <Dialogue><![CDATA[Entre no avião & voe até o ~o~destino~s~.]]></Dialogue>
+        <Dialogue>Sem mais diálogos.</Dialogue>
+    </Agent>
+
+    <Officer>
+        <Dialogue>Voe até o ~o~marcador de destino~s~ no seu minimapa.</Dialogue>
+        <Dialogue>Fale com o ~b~Policial~s~ com</Dialogue>
+        <Dialogue><![CDATA[~b~Policial~s~: Olá, bem-vindo a North Yankton!]]></Dialogue>
+        <Dialogue><![CDATA[~b~Policial~s~: Pode estar um pouco frio aqui fora e as ruas estão escorregadias...]]></Dialogue>
+        <Dialogue>~b~Policial~s~: O suspeito já está dentro do veículo.</Dialogue>
+        <Dialogue>~b~Policial~s~: Por favor, dirija até a ~g~prisão~s~ marcada no seu GPS usando nossa viatura.</Dialogue>
+        <Dialogue><![CDATA[Entre no veículo & dirija até a ~g~prisão~s~.]]></Dialogue>
+        <Dialogue>Sem mais diálogos.</Dialogue>
+        <Dialogue>Dirija até a ~g~prisão~s~ marcada no seu GPS.</Dialogue>
+        <Dialogue>Ocorrência concluída</Dialogue>
+        <Dialogue>Bom trabalho!</Dialogue>
+        <Dialogue>Código 4.</Dialogue>
+    </Officer>
+
+</PrisonerFlight>

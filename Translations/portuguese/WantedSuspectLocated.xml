@@ -1,0 +1,25 @@
+<WantedSuspectLocated>
+
+    <General>
+        <Text>Possível localização de suspeito procurado</Text>
+        <Text>Verifique os 2 possíveis locais</Text>
+        <Text>Suspeito sob custódia, ~g~Código 4~w~</Text>
+    </General>
+
+    <Scenes>
+        <Text>Procure o ~r~suspeito~w~ na primeira área.</Text>
+        <Text>Procure o ~r~suspeito~w~ na ~g~área~w~.</Text>
+        <Text>Suspeito não encontrado, vá para o ~g~segundo local~w~.</Text>
+        <Text>Agora procure o ~r~suspeito~w~ na segunda ~g~área~w~. Ele ~r~tem que~w~ estar lá!</Text>
+        <Text>~r~Descrição do suspeito:{0}~y~Homem asiático~s~, magro,{0}cabelos pretos, 30 anos{0}veste uma camiseta ~b~azul~s~</Text>
+        <Text>~r~Descrição do suspeito:{0}~y~Mulher negra~s~, magra,{0}cabelos pretos, 30 anos,{0}veste uma ~r~camiseta vermelha</Text>
+        <Text>~r~O suspeito é um ~y~homem asiático~s~,{0}cerca de 30 anos, magro com cabelo preto{0}e está usando uma ~b~camiseta azul.</Text>
+    </Scenes>
+    
+    <Outcomes>
+        <Dialogue>~r~Suspeito~w~: Meu Deus, polícia! Não atirem! Eu me rendo!</Dialogue>
+        <Dialogue>~r~Suspeito~w~: Ah merda, os tiras! Vai se f****, eu vou ~o~estourar~w~ a sua ~o~cabeça~w~, porcos estúpidos!</Dialogue>
+        <Dialogue>~y~Você~w~: Central, suspeito localizado, vai começar uma ~o~perseguição~w~!</Dialogue>
+    </Outcomes>
+
+</WantedSuspectLocated>

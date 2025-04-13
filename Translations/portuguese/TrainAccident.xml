@@ -1,0 +1,140 @@
+<TrainAccident>
+
+    <CalloutMessage>Acidente de Trem</CalloutMessage>
+    <CalloutAdvisory><![CDATA[Investigue o incidente e prenda o suspeito!]]></CalloutAdvisory>
+
+    <Mugshot>Foto do Suspeito</Mugshot>
+
+    <DisplayHelp>
+        <Text>Dirija até o local do ~b~acidente de trem.</Text>
+        <Text><![CDATA[Fale com as ~o~vítimas~s~ e com o ~r~maquinista.]]></Text>
+        <Text>Fale com as ~o~vítimas.</Text>
+        <Text>Agora fale com as ~g~testemunhas.</Text>
+        <Text>Procure por evidências ao redor dos ~y~trens.</Text>
+        <Text>Recebemos informações sobre a localização do ~r~possível suspeito.</Text>
+        <Text>~g~Código 4,~s~ retorne ao patrulhamento.</Text>
+    </DisplayHelp>
+
+    <Detective_NotDUI>
+        <Dialogue>~HC_43~Detetive~s~: Olá, Oficial. Obrigado por vir até essa bagunça!</Dialogue>
+        <Dialogue>~HC_43~Detetive~s~: Indo direto ao ponto: temos um acidente de trem com múltiplos feridos.</Dialogue>
+        <Dialogue>~HC_43~Detetive~s~: Parece que o trem descarrilou e se partiu ao meio.</Dialogue>
+        <Dialogue><![CDATA[~HC_43~Detetive~s~: Primeiro, gostaria que você falasse com as ~o~vítimas~s~ e com o ~r~maquinista~s~, depois procure por ~y~evidências~s~!]]></Dialogue>
+        <Dialogue>~HC_43~Detetive~s~: Ali estão ~g~duas testemunhas~s~. Boa sorte!</Dialogue>
+    </Detective_NotDUI>
+
+    <Detective_DUI2>
+        <Dialogue>~HC_43~Detetive~s~: Primeiro, gostaria que você falasse com as ~o~vítimas~s~, depois procure por ~y~evidências~s~!</Dialogue>
+    </Detective_DUI2>
+
+    <Detective_DUI>
+        <Dialogue>~HC_43~Detetive~s~: Olá, Oficial. Obrigado por vir até essa bagunça!</Dialogue>
+        <Dialogue>~HC_43~Detetive~s~: Indo direto ao ponto: temos um acidente de trem com múltiplos feridos.</Dialogue>
+        <Dialogue>~HC_43~Detetive~s~: Parece que o trem descarrilou e se partiu ao meio.</Dialogue>
+        <Dialogue>~HC_43~Detetive~s~: Primeiro, gostaria que você falasse com as ~o~vítimas~s~, depois procure por ~y~evidências~s~!</Dialogue>
+        <Dialogue>~HC_43~Detetive~s~: Ali estão ~g~duas testemunhas~s~. Boa sorte!</Dialogue>
+    </Detective_DUI>
+
+    <Victim1_>
+        <Dialogue>~o~Vítima~s~: Eu... eu estava dormindo, então de repente... um barulho alto! Tudo tremeu, as pessoas gritavam... Vi faíscas pela janela.</Dialogue>
+    </Victim1_>
+
+    <Victim2_NotDUI>
+        <Dialogue>~o~Vítima~s~: Oficial, como isso pôde acontecer? Olhe todas essas pessoas feridas. E tantos socorristas!</Dialogue>
+        <Dialogue>~o~Vítima~s~: Por favor, descubram o que houve. Precisamos de respostas.</Dialogue>
+    </Victim2_NotDUI>
+
+    <Victim2_DUI>
+        <Dialogue>~o~Vítima~s~: Ainda estou com dor de cabeça por causa do impacto.</Dialogue>
+        <Dialogue>~o~Vítima~s~: Não consigo entender por que o trem estava tão rápido.</Dialogue>
+        <Dialogue>~o~Vítima~s~: Não é surpresa que o acidente aconteceu com aquela velocidade!</Dialogue>
+        <Dialogue>~o~Vítima~s~: Preciso ir ao hospital agora, espero que o maquinista seja responsabilizado!</Dialogue>
+    </Victim2_DUI>
+
+    <Driver_NotDUI>
+        <Dialogue>~HC_8~Maquinista~s~: Não tive aviso nenhum. De repente, o trem saiu dos trilhos! Não consegui frear a tempo.</Dialogue>
+    </Driver_NotDUI>
+
+    <Driver_DUI>
+        <Dialogue>~y~Você~s~: Polícia, pare agora mesmo, mãos onde eu possa ver!</Dialogue>
+        <Dialogue>~HC_8~Maquinista~s~: O que está acontecendo? *hic* Eu nem te conheçoooooo.</Dialogue>
+        <Dialogue>~y~Você~s~: Você era o condutor do trem na {StreetName} hoje?</Dialogue>
+        <Dialogue>~HC_8~Maquinista~s~: Uh, não. Eu *hic* nem sei andar de bicicleta...</Dialogue>
+        <Dialogue>~y~Você~s~: Preciso ver sua identidade.</Dialogue>
+    </Driver_DUI>
+
+    <Witness1_Dismantled>
+        <Dialogue>~g~Testemunha~s~: Sou o chefe da oficina de trens. Houve uma invasão ontem, mas nada parecia ter sido levado.</Dialogue>
+        <Dialogue>~g~Testemunha~s~: Os dois suspeitos ontem, {Suspect1.GetGender()} e {Suspect2.GetGender()}, estavam dirigindo um {SuspectVehicle.Model.Name}.</Dialogue>
+        <Dialogue>~g~Testemunha~s~: Também demitimos um funcionário na semana passada chamado {Suspect2.GetFullName()}.</Dialogue>
+        <Dialogue>~g~Testemunha~s~: Suspeito que isso possa estar relacionado ao acidente...</Dialogue>
+    </Witness1_Dismantled>
+
+    <Witness1_ObjectOnTracks>
+        <Dialogue>~g~Testemunha~s~: Olá, eu estava caminhando quando vi duas pessoas nos trilhos.</Dialogue>
+        <Dialogue>~g~Testemunha~s~: Não tinha certeza se estavam consertando algo ou causando problemas.</Dialogue>
+        <Dialogue>~g~Testemunha~s~: Os suspeitos eram {Suspect1.GetGender()} e {Suspect2.GetGender()}.</Dialogue>
+    </Witness1_ObjectOnTracks>
+
+    <Witness1_DUI>
+        <Dialogue>~g~Testemunha~s~: Olá, eu estava caminhando a dois quarteirões daqui quando percebi algo.</Dialogue>
+        <Dialogue>~g~Testemunha~s~: Não entendo muito de sinais ferroviários, mas a luz estava definitivamente vermelha.</Dialogue>
+        <Dialogue>~g~Testemunha~s~: Achei melhor relatar.</Dialogue>
+    </Witness1_DUI>
+
+    <Witness2_NotDUI_WithVehicle>
+        <Dialogue>~g~Testemunha~s~: Vi dois caras correndo logo após o acidente! Em direção à rua!</Dialogue>
+        <Dialogue>~g~Testemunha~s~: O veículo era um ~h~{SuspectVehicle.Model.Name}~h~, placa ~h~{SuspectVehicle.LicensePlate}~h~.</Dialogue>
+        <Dialogue>~g~Testemunha~s~: Aqui, eu consegui tirar uma foto de um deles!</Dialogue>
+    </Witness2_NotDUI_WithVehicle>
+
+    <Witness2_NotDUI_OnFoot>
+        <Dialogue>~g~Testemunha~s~: Vi dois caras correndo logo após o acidente! Em direção à rua!</Dialogue>
+        <Dialogue>~g~Testemunha~s~: Um era {Suspect1.GetGender()}, o outro {Suspect2.GetGender()}.</Dialogue>
+        <Dialogue>~g~Testemunha~s~: Aqui, eu consegui tirar uma foto de um deles!</Dialogue>
+    </Witness2_NotDUI_OnFoot>
+
+    <Witness2_DUI_WithVehicle>
+        <Dialogue>~g~Testemunha~s~: Vi alguém cambaleando para longe do local do acidente.</Dialogue>
+        <Dialogue>~g~Testemunha~s~: A pessoa correu para um ~h~{SuspectVehicle.Model.Name}~h~.</Dialogue>
+        <Dialogue>~g~Testemunha~s~: A placa era ~h~{SuspectVehicle.LicensePlate}~h~.</Dialogue>
+    </Witness2_DUI_WithVehicle>
+
+    <Witness2_DUI_OnFoot>
+        <Dialogue>~g~Testemunha~s~: Vi alguém cambaleando para longe do local do acidente.</Dialogue>
+        <Dialogue>~g~Testemunha~s~: A pessoa fugiu, se é que dá pra chamar aquilo de correr.</Dialogue>
+        <Dialogue>~g~Testemunha~s~: Espero que você os encontre!</Dialogue>
+    </Witness2_DUI_OnFoot>
+
+    <Suspect1_>
+        <Dialogue>~y~Você~s~: Pare, polícia! Mãos para o alto!</Dialogue>
+        <Dialogue>~r~Suspeito~s~: Escute, vocês pegaram as pessoas erradas.</Dialogue>
+        <Dialogue>~r~Suspeito~s~: Não temos nada a ver com o acidente de trem.</Dialogue>
+        <Dialogue>~y~Você~s~: Como você sabe que foi um acidente de trem?</Dialogue>
+        <Dialogue>~r~Suspeito~s~: Uh...</Dialogue>
+    </Suspect1_>
+
+    <Evidence>
+        <Dismantled>
+            <Dialogue>Uma mangueira de óleo está solta, parece que alguém mexeu nela.</Dialogue>
+            <Dialogue>Esse freio está faltando.</Dialogue>
+            <Dialogue>Alguém desconectou os cabos do sistema elétrico.</Dialogue>
+            <Dialogue>Hmm... um hambúrguer, agora fiquei com fome.</Dialogue>
+        </Dismantled>
+
+        <ObjectOnTracks>
+            <Dialogue>Uma pedra grande perto dos trilhos... isso não é bom.</Dialogue>
+            <Dialogue>As rodas do trem estão quebradas, devem ter batido em algo...</Dialogue>
+            <Dialogue>Os trilhos estão soltos e tem um pé de cabra aqui... hmm...</Dialogue>
+            <Dialogue>Por que há pedras aqui?</Dialogue>
+        </ObjectOnTracks>
+
+        <DUI>
+            <Dialogue>O velocímetro está travado em 100 km/h... rápido demais.</Dialogue>
+            <Dialogue>Os freios parecem novos, não houve frenagem de emergência.</Dialogue>
+            <Dialogue>Uma pizza... hmm, deliciosa...</Dialogue>
+            <Dialogue>Uma lista de maquinistas com fotos, hoje era ~h~{Driver.GetFullName()}~h~...</Dialogue>
+        </DUI>
+    </Evidence>
+
+</TrainAccident>

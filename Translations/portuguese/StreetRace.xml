@@ -1,0 +1,45 @@
+<StreetRace>
+
+    <CalloutMessage>Operação Corrida de Rua Secreta</CalloutMessage>
+    <CalloutAdvisory>~s~Verifique um ~y~encontro de carros~s~ com uma ~o~possível corrida de rua~s~</CalloutAdvisory>
+    <Task>Dirija até o ~y~encontro de carros.</Task>
+
+    <Telephone>
+        <Help>Você pode ajustar o volume do telefone com {J}</Help>
+        <Ring>*Telefone tocando* - Pressione ~y~{Y}~s~ duas vezes para atender.</Ring>
+        <Dialogue>~g~Detetive:~s~ Ei, aqui é o Detetive Barker! Temos uma nova missão pela frente.</Dialogue>
+        <Dialogue>~g~Detetive:~s~ Haverá um encontro de carros em ~y~{ZONE}.</Dialogue>
+        <Dialogue>~g~Detetive:~s~ Sua tarefa é ir até lá disfarçado e fingir que é um observador de carros.</Dialogue>
+        <Dialogue>~g~Detetive:~s~ Se uma corrida de rua acontecer, você pode iniciar uma perseguição imediatamente ou esperar um pouco.</Dialogue>
+        <Dialogue>~g~Detetive:~s~ Agora vá para o encontro de carros. Boa sorte!</Dialogue>
+    </Telephone>
+
+    <Driver1>
+        <Dialogue>~o~{NAME}:~s~ E aí, parceiro! Está procurando por veículos rápidos e estilosos?</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Dá uma olhada no meu ~b~{CARMODEL}!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Se quiser sentar nele, vá em frente, mas não saia dirigindo!</Dialogue>
+    </Driver1>
+
+    <Driver6>
+        <Dialogue>~o~{NAME}:~s~ Fala aí! Que lugar legal para um encontro de carros!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Todas essas pessoas com o mesmo hobby—gente boa demais!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ E aí tem a polícia, sempre tentando acabar com nossa diversão. Nunca entendi o porquê...</Dialogue>
+    </Driver6>
+
+    <DriveToMeeting>Converse com as ~o~pessoas~s~ no local.</DriveToMeeting>
+
+    <Scenario>
+        <NoRace>Central, não há corrida de rua aqui, estamos em Código 4.</NoRace>
+        <Race>~o~Motorista:~s~ Muito bem, quem está pronto para uma corrida de rua? Tente me ultrapassar!</Race>
+    </Scenario>
+
+    <RaceActive>
+        <Help>Você pode chamar uma ~r~perseguição~s~ a qualquer momento com ~y~{9}!</Help>
+        <Dialogue>Central, temos uma ~r~corrida de rua ativa~s~, envie mais unidades!</Dialogue>
+    </RaceActive>
+
+    <Surrender>Os suspeitos estão se rendendo.</Surrender>
+
+    <End>A Corrida de Rua foi encerrada.</End>
+
+</StreetRace>

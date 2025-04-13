@@ -1,0 +1,46 @@
+<StructureFire>
+    <CalloutMessage>~r~~h~Incêndio Estrutural~h~~s~</CalloutMessage>
+    <Task>Dirija até o ~r~prédio em chamas Código 3!</Task>
+    <State>
+        <Extinguish>
+            <Text>~o~Apague o fogo você mesmo ~r~ou chame os bombeiros!</Text>
+            <Text>Todos os focos de incêndio foram extintos.</Text>
+        </Extinguish>
+        <Investigate>
+            <Text>Agora procure por evidências relacionadas ao incêndio. Pressione ~y~{Y}~s~ para pegá-las.</Text>
+            <Text>Recebemos informações sobre a localização das evidências.</Text>
+            <Text>Você encontrou uma evidência.</Text>
+        </Investigate>
+        <Manhunt>
+            <Text>Denunciantes forneceram a localização aproximada de um possível suspeito.</Text>
+        </Manhunt>
+        <End>
+            <Text>O chamado de Incêndio Estrutural foi encerrado.</Text>
+        </End>
+    </State>
+    <Scenario>
+        <SecureSceneOnly>
+            <Text>Pressione ~{End}~ para encerrar o chamado.</Text>
+        </SecureSceneOnly>
+        <NoFire>
+            <Text>Felizmente não há fogo neste local.</Text>
+        </NoFire>
+    </Scenario>
+    <SuspectAction>
+        <Ignoring>
+            <Text>O suspeito parece estar ~y~despreocupado~s~ com a sua presença.</Text>
+        </Ignoring>
+        <Shooting>
+            <Text>~y~Você: ~r~Tiros disparados! PewPew!</Text>
+        </Shooting>
+        <Surrender>
+            <Text>O suspeito está ~g~se rendendo.</Text>
+        </Surrender>
+        <Pursuit>
+            <Text>~y~Você:~s~ Temos uma ~o~perseguição!</Text>
+        </Pursuit>
+    </SuspectAction>
+    <FireProgressBar>
+        <Text>~h~Focos de incêndio extintos~h~</Text>
+    </FireProgressBar>
+</StructureFire>

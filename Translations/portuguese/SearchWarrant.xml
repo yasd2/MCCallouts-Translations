@@ -1,0 +1,45 @@
+<SearchWarrant>
+
+    <General>
+        <Text>Um Mandado de Busca foi emitido</Text>
+        <Text>Revise a casa em busca de drogas, armas, dinheiro, joias e pessoas</Text>
+        <Text>Procure por {ChosenEvidenceTranslation} dentro do imóvel!</Text>
+        <Text>Recebemos ~r~informações~s~ sobre onde a evidência ~r~está localizada~r~.</Text>
+        <Text>Recebemos informações de que o suspeito está no trabalho. O nome dele é {SuspectName}.</Text>
+        <Text>Evidência encontrada:</Text>
+    </General>
+
+    <Persons>
+        <Text>Jardineiro</Text>
+        <Text>Você</Text>
+    </Persons>
+
+    <EvidTranslation>
+        <Text>Joias</Text>
+        <Text>Ouro</Text>
+        <Text>Dinheiro</Text>
+        <Text>Armas</Text>
+        <Text>Drogas</Text>
+    </EvidTranslation>
+
+    <D_Gardener>
+        <Dialogue>Olá, senhor. Temos um mandado de busca para esta propriedade e toda a casa.</Dialogue>
+        <Dialogue>Ah, olá! Sou apenas o jardineiro aqui, não tem ninguém em casa agora, mas a porta está aberta.</Dialogue>
+    </D_Gardener>
+
+    <EvidenceChecker>
+        <Text>Evidência encontrada!</Text>
+        <Text>~g~Todas as evidências encontradas! Bom trabalho!~s~</Text>
+    </EvidenceChecker>
+
+    <SuspectAction>
+        <Dialogue>O suspeito está fugindo a pé, Central!</Dialogue>
+        <Dialogue>Ah droga, você me pegou...</Dialogue>
+        <Dialogue>~r~Suspeito:~s~ Que se fodam esse porcos policiais, vou sair daqui na bala, caralho!</Dialogue>
+    </SuspectAction>
+
+    <End>
+        <Text>Ocorrência finalizada, Código 4.</Text>
+    </End>
+
+</SearchWarrant>

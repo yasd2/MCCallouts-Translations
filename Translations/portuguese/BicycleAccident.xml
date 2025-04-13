@@ -1,0 +1,218 @@
+<BicycleAccident>
+
+    <General>
+        <Text>Acidente de trânsito envolvendo bicicleta</Text>
+        <Text>Analisar a cena</Text>
+        <Text>E você descobriu o que causou este acidente?</Text>
+        <Text>Chamada de Acidente de Bicicleta encerrada.</Text>
+    </General>
+
+
+    <D_Witness1_0>
+        <Dialogue>Olá, meu nome é Greg. Eu vou te dizer por que isso aconteceu.</Dialogue>
+        <Dialogue>Viu aquele suspeito ali? Ele deveria ser multado.</Dialogue>
+        <Dialogue>Ele estava dirigindo muito rápido, acima do limite de velocidade.</Dialogue>
+        <Dialogue>As pessoas não se importam com o limite de velocidade hoje em dia.</Dialogue>
+    </D_Witness1_0>
+
+    <D_Witness2_0>
+        <Dialogue>Olá. Eu vi parte do acidente.</Dialogue>
+        <Dialogue>O ciclista estava esperando na calçada e olhando para trás em direção aos veículos que vinham.</Dialogue>
+        <Dialogue>Ele tinha algo nas mãos, também. Não consegui ver o que era.</Dialogue>
+        <Dialogue>Não tenho certeza absoluta e não quero culpar o ciclista, mas ele parecia nervoso.</Dialogue>
+        <Dialogue>Então eu estava cuidando do meu próprio negócio quando ouvi um estrondo alto, foi quando aconteceu.</Dialogue>
+    </D_Witness2_0>
+
+    <D_Witness3_0>
+        <Dialogue>Meu nome é Paul, estou te dizendo, precisamos de mais proteção para os ciclistas.</Dialogue>
+        <Dialogue>Não há ciclovia, onde um ciclista pode andar com segurança?</Dialogue>
+        <Dialogue>Mas você não pode culpar o motorista do carro, esse ciclista foi apenas imprudente.</Dialogue>
+        <Dialogue>Ele olhou para a direita, diretamente para o veículo que vinha. Foi quando ele começou a pedalar.</Dialogue>
+        <Dialogue>Isso é estúpido, não é?</Dialogue>
+    </D_Witness3_0>
+
+    <D_Witness4_Driver_0>
+        <Dialogue>Olá, eu sou Sarah. Eu vi o que aconteceu enquanto dirigia.</Dialogue>
+        <Dialogue>O suspeito estava claramente tramando algo.</Dialogue>
+        <Dialogue>Oh, desculpe, devo mencionar que estou falando sobre o ciclista.</Dialogue>
+        <Dialogue>Ele tinha uma câmera na mão, parecia que ele queria filmar.</Dialogue>
+        <Dialogue>Parecia que o ciclista queria se jogar na frente do veículo.</Dialogue>
+    </D_Witness4_Driver_0>
+
+    <D_Suspect_0>
+        <Dialogue>Olá, oficial. Desculpe por tudo isso.</Dialogue>
+        <Dialogue>Foi culpa do ciclista? Ou minha? Não vi o ciclista em momento algum.</Dialogue>
+        <Dialogue>Eu estava dirigindo quando, de repente, o ciclista estava bem na minha frente.</Dialogue>
+        <Dialogue>Pisei duro no freio, mas não foi o suficiente. Espero que ele fique bem.</Dialogue>
+        <Dialogue>Meu carro está bastante danificado, mas o seguro vai cuidar disso.</Dialogue>
+    </D_Suspect_0>
+
+
+    <D_Witness1_1>
+        <Dialogue>Ei, por que isso está demorando tanto?! Estou com pressa.</Dialogue>
+        <Dialogue>Estou a caminho do trabalho, já estou 5 minutos atrasado!</Dialogue>
+        <Dialogue>Só vi o ciclista dirigindo como louco, muito rápido.</Dialogue>
+        <Dialogue>Ele estava dirigindo muito rápido na calçada, foi o que vi.</Dialogue>
+        <Dialogue>Realmente preciso ir agora, tchau!</Dialogue>
+    </D_Witness1_1>
+
+    <D_Witness2_1>
+        <Dialogue>Olá, meu nome é Linda. Esses ciclistas, sempre bloqueando a estrada!</Dialogue>
+        <Dialogue>Não é de admirar que acidentes como esses aconteçam. Os motoristas precisam chegar rápido ao seu destino e não podem esperar pelos ciclistas.</Dialogue>
+        <Dialogue>Este ciclista nem sequer estava usando capacete! Que negligência!</Dialogue>
+        <Dialogue>Este ciclista dirigiu como louco. E todos os outros carros precisam ultrapassá-lo de maneira perigosa, arriscando a vida do tráfego que vem na direção oposta!</Dialogue>
+        <Dialogue>Eu te digo, você precisa ficar de olho neste ciclista.</Dialogue>
+    </D_Witness2_1>
+
+    <D_Witness3_1>
+        <Dialogue>Olá, sou Paul. Gostaria de fazer um relatório. Wow, eu realmente gosto do seu uniforme.</Dialogue>
+        <Dialogue>Que tipo de pistola você está carregando? É a SFP9? Que arma legal.</Dialogue>
+        <Dialogue>Ah sim, desculpe, primeiro vi que o ciclista não estava usando capacete.</Dialogue>
+        <Dialogue>Anote: O ciclista estava usando fones de ouvido e não usava capacete enquanto pedalava.</Dialogue>
+        <Dialogue>Me diga, eu tenho o que é preciso para ser policial?</Dialogue>
+    </D_Witness3_1>
+
+    <D_Witness4_Driver_1>
+        <Dialogue>Olá, sou Sarah. Eu estava dirigindo na pista oposta quando vi tudo.</Dialogue>
+        <Dialogue>O carro estava estacionado, então o motorista estava prestes a sair.</Dialogue>
+        <Dialogue>Foi quando o ciclista mudou da calçada para a rua, ele nem estava olhando.</Dialogue>
+        <Dialogue>O ciclista estava dirigindo rápido. Foi tudo o que vi.</Dialogue>
+    </D_Witness4_Driver_1>
+
+
+    <D_Suspect_1_2>
+        <Dialogue>Olá, que cena temos aqui. Tudo por causa deste ciclista que me cortou.</Dialogue>
+        <Dialogue>Ciclistas estúpidos, olha agora meu carro! A frente está estragada!</Dialogue>
+        <Dialogue>Acabei de comprar este veículo, não tem nem um mês!</Dialogue>
+        <Dialogue>O ciclista estava na calçada e, de repente, se jogou na minha frente. Não tive chance de reagir.</Dialogue>
+        <Dialogue>Espero que ele melhore logo, não me entenda mal. Mas eu não estava em culpa.</Dialogue>
+    </D_Suspect_1_2>
+
+    <D_Witness1_2>
+        <Dialogue>Ei, estou com pressa, seja rápido. Escute.</Dialogue>
+        <Dialogue>Meu nome? É Greg. Preciso chegar ao trabalho rapidamente.</Dialogue>
+        <Dialogue>Só vi o carro em alta velocidade, muito rápido.</Dialogue>
+        <Dialogue>Não sei nada sobre a bicicleta, não a vi.</Dialogue>
+        <Dialogue>Posso ir agora? É tudo o que sei.</Dialogue>
+    </D_Witness1_2>
+
+    <D_Witness2_2>
+        <Dialogue>Ei, meu nome é Linda. Cara, olha essa bicicleta, completamente destruída.</Dialogue>
+        <Dialogue>Eu estava observando o ciclista, por causa da bicicleta. Que é ou era... a minha favorita.</Dialogue>
+        <Dialogue>Ah desculpe, ele estava dirigindo na beira da estrada. De repente ele foi atingido por trás.</Dialogue>
+        <Dialogue>Ouvi freios altos e então... a bicicleta voou...</Dialogue>
+    </D_Witness2_2>
+
+    <D_Witness3_2>
+        <Dialogue>Oh hey, oficial, sou Paul, prazer em conhecê-lo!</Dialogue>
+        <Dialogue>Sabe, eu estava pensando em trabalhar na polícia, acho que nasci para isso.</Dialogue>
+        <Dialogue>Eu estava caminhando quando vi esse ciclista. Ele não estava usando capacete e não tinha luz dianteira na bicicleta.</Dialogue>
+        <Dialogue>Às vezes é difícil ver pessoas com roupas escuras, especialmente em condições climáticas ruins.</Dialogue>
+    </D_Witness3_2>
+
+    <D_Witness4_Driver_2>
+        <Dialogue>Olá! Me chamo Sarah. Trabalho na padaria aqui perto.</Dialogue>
+        <Dialogue>Estava olhando pela janela quando vi um carro passando.</Dialogue>
+        <Dialogue>Poderia estar em alta velocidade, mas vi que ele estava no celular. Tenho quase certeza que era esse carro.</Dialogue>
+        <Dialogue>Sai correndo quando ouvi o estrondo alto. Foi quando vi o incidente.</Dialogue>
+    </D_Witness4_Driver_2>
+
+
+    <Persons>
+        <Text>Você</Text>
+        <Text>Greg</Text>
+        <Text>Linda</Text>
+        <Text>Paul</Text>
+        <Text>Sarah</Text>
+        <Text>Paramédico</Text>
+        <Text>Vítima</Text>
+        <Text>Peter</Text>
+        <Text>Isabella</Text>
+        <Text>Oficial Thompson</Text>
+        <Text>Oficial Reynolds</Text>
+        <Text>Oficial Harrison</Text>
+        <Text>Oficial Clinton</Text>
+        <Text>Bombeiro</Text>
+    </Persons>
+
+
+    <D_Paramedic1>
+        <Dialogue>Olá, como vai? Não se distraia com o meu relógio Crowex de 10.000.</Dialogue>
+        <Dialogue>Ah, como está o paciente? O ciclista não parece bem. Ele está gravemente ferido.</Dialogue>
+        <Dialogue>Ele não está respondendo, então precisamos levá-lo imediatamente para o hospital.</Dialogue>
+    </D_Paramedic1>
+
+    <D_Paramedic2>
+        <Dialogue>Não tenho tempo para conversa. O ciclista está gravemente ferido, então por favor não interrompa.</Dialogue>
+        <Dialogue>* gemidos * ...</Dialogue>
+    </D_Paramedic2>
+
+    <D_Officer1>
+        <Dialogue>Olá, oficial! Obrigado por aparecer! Temos algum tipo de acidente de trânsito aqui.</Dialogue>
+        <Dialogue>Fique à vontade para entrevistar as testemunhas, eu vou ficar por aqui enquanto isso.</Dialogue>
+        <Dialogue>Descubra quem é o culpado e o que está acontecendo aqui. Quando terminar a investigação, fale comigo novamente! Boa sorte!</Dialogue>
+    </D_Officer1>
+
+
+    <D_Officer1_InsuranceFraud>
+        <Dialogue>O ciclista tentou cometer fraude de seguro contra o motorista.</Dialogue>
+        <Dialogue>Assim que ele for liberado pelos médicos, vamos prendê-lo! Obrigado até agora!</Dialogue>
+    </D_Officer1_InsuranceFraud>
+
+    <D_Officer1_BikersFault>
+        <Dialogue>O ciclista claramente não estava focado na estrada. É culpa dele.</Dialogue>
+        <Dialogue>Certo, assim que ele for liberado pelos médicos, ele receberá uma multa! Obrigado!</Dialogue>
+    </D_Officer1_BikersFault>
+
+    <D_Officer1_DriversFault>
+        <Dialogue>O motorista claramente não seguiu as leis de trânsito. Ele é o culpado!</Dialogue>
+        <Dialogue>Entendido, prenda o motorista!</Dialogue>
+    </D_Officer1_DriversFault>
+
+
+    <D_Officer2>
+        <Dialogue>Ainda não tomei meu café da manhã, nossa máquina está quebrada...</Dialogue>
+    </D_Officer2>
+
+    <D_Officer3>
+        <Dialogue>Ei, essa pessoa viu alguma coisa, você poderia falar com ela.</Dialogue>
+    </D_Officer3>
+
+    <D_Officer4>
+        <Dialogue>Olá, parceiro, que acidente ruim. Certifique-se de entrevistar todas as testemunhas.</Dialogue>
+    </D_Officer4>
+
+    <D_Fireman1>
+        <Dialogue>Este veículo está com danos graves na frente.</Dialogue>
+        <Dialogue>Estamos aqui apenas no caso de o veículo pegar fogo ou derramar óleo.</Dialogue>
+    </D_Fireman1>
+
+    <D_Fireman3>
+        <Dialogue>Caramba, adoro o café da Bean Machine, especialmente nos turnos da noite. Você deveria experimentar!</Dialogue>
+    </D_Fireman3>
+
+
+    <Menu>
+        <Text>Cenário</Text>
+        <Text>Acidente de Trânsito</Text>
+        <Text>Escolha o correto!</Text>
+
+        <Text>Fraude de Seguro</Text>
+        <Text>O ciclista fez de propósito!</Text>
+        <Text>O ciclista tentou fraude de seguro!</Text>
+
+        <Text>Culpa do Ciclista</Text>
+        <Text>O ciclista não prestou atenção!</Text>
+        <Text>É culpa do ciclista!</Text>
+
+        <Text>Culpa do Motorista</Text>
+        <Text>O motorista é o culpado!</Text>
+        <Text>O motorista causou o acidente!</Text>
+
+        <Text>~g~Investigação correta</Text>
+        <Text>~r~Investigação falhou</Text>
+
+        <Text>Pressione ~y~END~s~ a qualquer momento para encerrar a chamada.</Text>
+    </Menu>
+
+</BicycleAccident>

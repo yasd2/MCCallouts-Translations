@@ -1,0 +1,67 @@
+<IllegalFishing>
+
+    <General>
+        <Text>Relatos de possível pesca ilegal</Text>
+    </General>
+
+    <Setup>
+        <Dialogue>Pressione {0} para conversar</Dialogue>
+        <Dialogue>~y~Você~s~: Olá, sou um policial do departamento local.</Dialogue>
+        <Dialogue>~y~Você~s~: Recebemos uma denúncia sobre atividade de pesca ilegal.</Dialogue>
+        <Dialogue>~b~Suspeito~s~: Ah, estou sozinho aqui, nada ilegal, só pescando um pouco...</Dialogue>
+        <Dialogue>~y~Você~s~: Já pegou alguma coisa?</Dialogue>
+        <Dialogue>~b~Suspeito~s~: Sim, já pesquei alguns até agora.</Dialogue>
+        <Dialogue>~y~Você~s~: Certo, preciso ver sua licença de pesca.</Dialogue>
+        <Dialogue>Pressione {0} para abrir o menu de interação, use o STP para verificar a identidade.</Dialogue>
+        <Dialogue>Pressione {0} e {1} para abrir o menu de interação, use o STP para verificar a identidade.</Dialogue>
+        <Dialogue>Pressione {0} para abrir o menu de interação.</Dialogue>
+        <Dialogue>Pressione {0} e {1} para abrir o menu de interação.</Dialogue>
+    </Setup>
+    
+    <ConversationAfterCheckingLicense>
+        <Dialogue>~y~Você~s~: Certo, verifiquei suas informações.</Dialogue>
+        <Dialogue>~y~Você~s~: Sua licença de pesca está válida, tudo certo até agora!</Dialogue>
+        <Dialogue>~y~Você~s~: Sua licença de pesca está suspensa, você não tem permissão para pescar!</Dialogue>
+        <Dialogue>~y~Você~s~: Além disso, sua identidade está limpa, nada com que se preocupar.</Dialogue>
+        <Dialogue>~y~Você~s~: Também não há nenhum mandado contra você.</Dialogue>
+        <Dialogue>~y~Você~s~: Mas o sistema mostrou que há um mandado contra você. Você precisa nos acompanhar.</Dialogue>
+        <Dialogue>~y~Você~s~: Você não mencionou o mandado. Está preso.</Dialogue>
+        <Dialogue>Prenda o suspeito.</Dialogue>
+        <Dialogue>Quando terminar, libere o suspeito e retorne ao patrulhamento.</Dialogue>
+        <Dialogue>~y~Você~s~: Você vai receber uma multa por pesca ilegal.</Dialogue>
+        <Dialogue>~y~Você~s~: Não volte aqui, ou da próxima vez você vai pra cadeia — e nenhum de nós quer isso.</Dialogue>
+        <Dialogue>Emita a multa para o suspeito e libere-o.</Dialogue>
+        <Dialogue>Pressione {0} novamente para conversar</Dialogue>
+    </ConversationAfterCheckingLicense>
+
+    <ConversationAfterPursuitArrest>
+        <Dialogue>~y~Você~s~: Que burrice... fugir por causa de uma coisa tão simples...</Dialogue>
+        <Dialogue>~b~Suspeito~s~: Já era tarde de qualquer forma...</Dialogue>
+    </ConversationAfterPursuitArrest>
+
+    <ConversationAndSearch>
+        <Dialogue>~y~Você~s~: Tem algo com você que possa me furar ou machucar?</Dialogue>
+        <Dialogue>~b~Suspeito~s~: Não...</Dialogue>
+        <Dialogue>Revise o suspeito, faça a documentação e leve-o para a prisão.</Dialogue>
+    </ConversationAndSearch>
+
+    <End>
+        <Text>O suspeito morreu.</Text>
+        <Text>Pressione {0} a qualquer momento para encerrar a ocorrência.</Text>
+        <Text>~r~Erro de GTA: Um ped se tornou inválido.~s~</Text>
+        <Text>~g~Código 4.~s~</Text>
+    </End>
+
+    <Menu>
+        <Text>Menu de Interação</Text>
+        <Text>Opções:</Text>
+        <Text>Mostrar licença de pesca</Text>
+        <Text>Nome:</Text>
+        <Text>Nascimento:</Text>
+        <Text>Licença de Pesca</Text>
+        <Text>Mostrar identidade</Text>
+        <Text>~g~Licença válida~s~</Text>
+        <Text>~r~Licença suspensa~s~</Text>
+    </Menu>
+
+</IllegalFishing>

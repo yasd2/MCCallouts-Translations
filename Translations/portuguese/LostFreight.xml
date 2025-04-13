@@ -1,0 +1,54 @@
+<LostFreight>
+
+    <General>
+        <Text>Carga Perdida</Text>
+        <Text>Solicitante relata carga perdida na rodovia.</Text>
+        <Text><![CDATA[Dirija até o solicitante & faça contato.]]></Text>
+    </General>
+
+    <DisplayHelp>
+        <Text>Fale com o solicitante com </Text>
+        <Text><![CDATA[Procure pela ~y~área~s~ & remova os obstáculos com ]]></Text>
+        <Text>Fale com o ~b~policial~s~ com </Text>
+        <Text>Sem mais comunicações.</Text>
+        <Text>Aqui vai uma ~g~ajuda~s~.</Text>
+    </DisplayHelp>
+
+    <Pickup>
+        <Text>~r~Nenhum objeto~s~ por perto.</Text>
+        <Text>~r~Objeto~s~ removido!</Text>
+    </Pickup>
+
+    <Conversation>
+        <Dialogue>~y~Você~s~: Olá, foi você quem ligou sobre a carga perdida?</Dialogue>
+        <Dialogue><![CDATA[~b~Solicitante~s~: Oi, sim, a porta do trailer abriu & algumas coisas caíram na rodovia!]]></Dialogue>
+        <Dialogue>~y~Você~s~: Isso é perigoso. O que você estava transportando?</Dialogue>
+        <Dialogue>~b~Solicitante~s~: Um monte de ~b~coisas de tênis~s~, estávamos esvaziando o clube.</Dialogue>
+        <Dialogue>~b~Solicitante~s~: Muitas ~b~coisas de escritório~s~, armários, telas, cadeiras, caixas de som...</Dialogue>
+        <Dialogue>~b~Solicitante~s~: Uma porção de ~b~utensílios de cozinha~s~, panelas, talheres, pratos, etc., pois mudamos de sede.</Dialogue>
+        <Dialogue>~y~Você~s~: Entendi. Para onde você estava indo?</Dialogue>
+        <Dialogue>~b~Solicitante~s~: Eu estava indo só ~y~nesta direção~s~, então procure por esse lado da rodovia.</Dialogue>
+        <Dialogue>~y~Você~s~: Central, bloqueiem a última entrada da rodovia, tem objetos na pista!</Dialogue>
+        <Dialogue>Entendido, tráfego será interrompido, viaturas a caminho.</Dialogue>
+    </Conversation>
+
+    <Officer1>
+        <Dialogue>~b~Policial Blue~s~: Olá! Espero que esteja tendo um bom dia!</Dialogue>
+        <Dialogue>~b~Policial Blue~s~: Vou manter o tráfego parado até que a via esteja limpa!</Dialogue>
+        <Dialogue>~b~Policial Blue~s~: Boa sorte!</Dialogue>
+    </Officer1>
+
+    <Officer2>
+        <Dialogue>~b~Policial Night~s~: Olá, quanto tempo isso ainda vai levar?</Dialogue>
+        <Dialogue>~b~Policial Night~s~: Também tenho outras coisas pra fazer!</Dialogue>
+        <Dialogue>~b~Policial Night~s~: Se você falasse menos, eu já teria ido embora!</Dialogue>
+    </Officer2>
+
+    <End>
+        <Text>Estamos em ~g~Código 4~s~</Text>
+        <Text>Itens removidos:</Text>
+        <Text>/~g~4</Text>
+        <Text>~r~Obrigado, ~g~o tráfego pode voltar ao normal!</Text>
+    </End>
+
+</LostFreight>
