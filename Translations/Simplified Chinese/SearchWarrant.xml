@@ -1,0 +1,45 @@
+<SearchWarrant>
+
+    <General>
+        <Text>搜查令已签发</Text>
+        <Text>搜查房子里是否有毒品、武器、钱财、骨头和人员</Text>
+        <Text>在建筑物中搜索{ChosenEvidenceTranslation}!</Text>
+        <Text>我们已收到关于证据所在位置的~r~信息~s~.</Text>
+        <Text>我们收到信息称，嫌疑人目前正在工作。他的名字是{SuspectName}.</Text>
+        <Text>找到证据:</Text>
+    </General>
+
+    <Persons>
+        <Text>园丁</Text>
+        <Text>警员</Text>
+    </Persons>
+
+    <EvidTranslation>
+        <Text>珠宝</Text>
+        <Text>黄金</Text>
+        <Text>钱</Text>
+        <Text>武器</Text>
+        <Text>毒品</Text>
+    </EvidTranslation>
+
+    <D_Gardener>
+        <Dialogue>您好，先生，我们有这处房产和整栋房子的搜查令.</Dialogue>
+        <Dialogue>哦，你好，我只是这里的园丁，现在家里没人，但是门是开着的.</Dialogue>
+    </D_Gardener>
+
+    <EvidenceChecker>
+        <Text>找到证据!</Text>
+        <Text>~g~找到所有证据! 干得好!~s~</Text>
+    </EvidenceChecker>
+
+    <SuspectAction>
+        <Dialogue>嫌疑犯正在徒步逃跑, Dispatch!</Dialogue>
+        <Dialogue>啊，该死，你抓住我了...</Dialogue>
+        <Dialogue>~r~嫌疑犯:~s~ Fuck the cops,我要开枪逃出去!</Dialogue>
+    </SuspectAction>
+
+    <End>
+        <Text>Code 4.</Text>
+    </End>
+
+</SearchWarrant>

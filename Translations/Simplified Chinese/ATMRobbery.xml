@@ -1,0 +1,43 @@
+<ATMRobbery>
+
+    <CamText>
+        <Text>CAM1</Text> <!--use a short text!-->
+    </CamText>
+
+    <D_Victim>
+        <Dialogue>您好 警官！我刚刚被抢劫了！</Dialogue>
+        <Dialogue>我刚从ATM机取完钱，突然有人跑来抢走了我的钱包！</Dialogue>
+        <Dialogue>我们打了一架，他打了我的头！</Dialogue>
+        <Dialogue>遗憾的是，我想不起这个人长什么样子……</Dialogue>
+        <Dialogue>没关系，我看到那里有监控摄像头。我会看看能做些什么。</Dialogue>
+        <Dialogue>Dispatch, 你能给我授权访问我当前位置的监控摄像头吗?</Dialogue>
+    </D_Victim>
+
+    <D_Suspect>
+        <Dialogue>你有什么问题？你为什么跟着我？</Dialogue>
+        <Dialogue>您符合最近发生的抢劫案的描述。</Dialogue>
+        <Dialogue>我看起来像个罪犯吗？太荒谬了。</Dialogue>
+        <Dialogue>你找错人了，我什么也没做！</Dialogue>
+    </D_Suspect>
+
+    <Persons>
+        <Text>受害者</Text>
+        <Text>警员</Text>
+        <Text>嫌疑人</Text>
+    </Persons>
+
+    <General>
+        <CalloutMessage>ATM 抢劫</CalloutMessage>
+        <CalloutAdvisory>有人报警称取款后被抢劫</CalloutAdvisory>
+        <Text>按 {0} 与报警人 ~g~通话~s~.</Text>
+        <Text>稍等.</Text>
+        <Text>你现在应该可以使用摄像头了.</Text>
+        <Text>按 {0} 查看录像文件!</Text>
+        <Text>我们收到了另一起抢劫案的报告; 区域 ~y~在您的 GPS 上标记为.</Text>
+        <Text>按 {0} 与 ~r~嫌疑人~s~交流.</Text>
+        <Text>嫌疑人似乎并不在意.</Text>
+        <Text>检查他们.</Text>
+        <Text>进行交通拦截.</Text>
+    </General>
+
+</ATMRobbery>

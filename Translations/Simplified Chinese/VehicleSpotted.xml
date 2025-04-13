@@ -1,0 +1,21 @@
+<VehicleSpotted>
+
+    <General>
+    <CalloutMessage>发现先前逃逸的车辆</CalloutMessage>
+        <Text>搜寻 ~o~嫌犯~s~.</Text>
+        <Text>一名警官发现一辆车辆早些时候从交通临检中逃逸.</Text>
+        <Text>~g~嫌疑人已被逮捕~s~</Text>
+    </General>
+
+    <Persons>
+        <Text>警官</Text>
+    </Persons>
+
+    <D_Officer>
+        <Dialogue>嘿,又见面了</Dialogue>
+        <Dialogue>我在这里发现了之前从我们这里逃走的车辆.</Dialogue>
+        <Dialogue>嫌疑人肯定在附近，我们只知道他是一名白人男性.</Dialogue>
+        <Dialogue>我猜他可能去了购物中心.</Dialogue>
+    </D_Officer>
+
+</VehicleSpotted>

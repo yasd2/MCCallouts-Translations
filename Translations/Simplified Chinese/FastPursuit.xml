@@ -1,0 +1,12 @@
+<FastPursuit>
+
+    <General>
+        <Text>快速追捕</Text>
+        <Text>需要警员协助追捕车辆</Text>
+        <Text>找到并追捕 ~r~嫌疑犯~w~.</Text>
+        <Text>嫌疑人是 ~r~已故~w~. ~g~Code 4~w~.</Text>
+        <Text>嫌疑人是 ~b~被拘留~w~. ~g~Code 4~w~.</Text>
+        <Text>~g~Code 4~w~.</Text>
+    </General>
+
+</FastPursuit>
