@@ -9,12 +9,12 @@
     <General>
         <Text>货物丢失</Text>
         <Text>高速公路上货物丢失.</Text>
-        <Text><![CDATA[驾车前往并与呼叫者取得联系.]]></Text>
+        <Text><![CDATA[驾车前往并与报警人取得联系.]]></Text>
     </General>
 
 
     <DisplayHelp>
-        <Text>与报警人通话</Text>
+        <Text>与报警人交谈</Text>
         <Text><![CDATA[搜索~y~区域~s~ & 并清除障碍物 ]]></Text>
         <Text>与~b~officer~s~ 交谈 </Text>
         <Text>不再沟通.</Text>
@@ -30,13 +30,13 @@
 
     <Conversation>
         <Dialogue>~y~警员~s~: 您好，您打电话来询问货物丢失的情况吗?</Dialogue>
-        <Dialogue><![CDATA[~b~报警人~s~: 嗨，是的，拖车的门打开了,& 现在东西掉到高速公路上了!]]></Dialogue>
+        <Dialogue><![CDATA[~b~报警人~s~: 嗨，是的，拖车的门打开了,现在东西掉到高速公路上了!]]></Dialogue>
         <Dialogue>~y~警员~s~: 那很危险，车上带的是什么货物?</Dialogue>
         <Dialogue>~b~报警人~s~: 各种各样的 ~b~网球用品~s~,因为我们正在清理我们的俱乐部会所.</Dialogue>
         <Dialogue>~b~报警人~s~: 很多 ~b~办公用品~s~, 柜子、屏幕、椅子、扬声器...</Dialogue>
         <Dialogue>~b~报警人~s~: 由于公司搬迁所以需要大量的~b~厨房用具~s~, 锅、餐具、盘子等.</Dialogue>
         <Dialogue>~y~警员~s~: 我明白了，你要去哪里?</Dialogue>
-        <Dialogue>~b~报警人~s~: 我只往~~y~这个方向~s~, 走，所以搜索高速公路的那一侧.</Dialogue>
+        <Dialogue>~b~报警人~s~: 我只往~y~这个方向~s~,走所以搜索高速公路的那一侧.</Dialogue>
         <Dialogue>~y~警员~s~: Dispatch, 封锁最后一个高速公路入口, 零件掉落在路上!</Dialogue>
         <Dialogue>Copy, 交通将被停止.</Dialogue>
     </Conversation>
