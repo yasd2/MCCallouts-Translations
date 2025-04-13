@@ -1,46 +1,46 @@
 <StructureFire>
-    <CalloutMessage>~r~~h~Structure Fire~h~~s~</CalloutMessage>
-    <Task>Drive to the ~r~burning building Code 3!</Task>
+    <CalloutMessage>~r~~h~建筑物火灾~h~~s~</CalloutMessage>
+    <Task>开车前往 ~r~燃烧的建筑物火灾现场 Code 3!</Task>
     <State>
         <Extinguish>
-            <Text>~o~Extinguish the fire yourself ~r~or call the fire department!</Text>
-            <Text>All fires have been extinguished.</Text>
+            <Text>~o~自行灭火~r~或者拨打消防部门电话!</Text>
+            <Text>所有火灾均已扑灭.</Text>
         </Extinguish>
         <Investigate>
-            <Text>Now search the scene for evidence relating to the fire. Press ~y~{Y}~s~ to pick it up.</Text>
-            <Text>We have received infos on the whereabouts of the evidence.</Text>
-            <Text>You found evidence.</Text>
+            <Text>现在搜索现场，寻找与火灾相关的证据. 按 ~y~{Y}~s~ 即可拾取.</Text>
+            <Text>我们已收到有关证据的信息.</Text>
+            <Text>你找到了证据.</Text>
         </Investigate>
         <Manhunt>
-            <Text>Callers have provided us with the approximate location of a possible suspect.</Text>
+            <Text>报警人向我们提供了可能的嫌疑人的大致位置.</Text>
         </Manhunt>
         <End>
-            <Text>Structure Fire has ended.</Text>
+            <Text>建筑物火灾已结束.</Text>
         </End>
     </State>
     <Scenario>
         <SecureSceneOnly>
-            <Text>Press ~{End}~ to end the callout.</Text>
+            <Text>按  ~{End}~ 结束标注.</Text>
         </SecureSceneOnly>
         <NoFire>
-            <Text>Luckily there is no fire at this location.</Text>
+            <Text>幸运的是，该位置没有发生火灾.</Text>
         </NoFire>
     </Scenario>
     <SuspectAction>
         <Ignoring>
-            <Text>The suspect seems ~y~unimpressed~s~ by your appearance.</Text>
+            <Text>T嫌疑人似乎对你的~y~外表~s~ 不以为然.</Text>
         </Ignoring>
         <Shooting>
-            <Text>~y~You: ~r~Shots fired!</Text>
+            <Text>~y~警员: ~r~Shots fired! Shots fired!</Text>
         </Shooting>
         <Surrender>
-            <Text>The suspect is ~g~surrendering.</Text>
+            <Text>嫌疑人~g~正在投降.</Text>
         </Surrender>
         <Pursuit>
-            <Text>~y~You:~s~ We have a ~o~pursuit!</Text>
+            <Text>~y~警员:~s~ 正在~o~追捕!</Text>
         </Pursuit>
     </SuspectAction>
     <FireProgressBar>
-        <Text>~h~Fires extinguished~h~</Text>
+        <Text>~h~火灾已扑灭~h~</Text>
     </FireProgressBar>
 </StructureFire>
