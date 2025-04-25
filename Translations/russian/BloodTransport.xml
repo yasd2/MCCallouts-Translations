@@ -5,18 +5,23 @@
     <STATE>
         <PICKUPBAG>
             <TEXT>Take the blood bag from the medic, then put it in your trunk.</TEXT>
+            <TEXT></TEXT>
         </PICKUPBAG>
         <PUTBAGINTRUNK>
             <TEXT>Press ~y~{Y}~s~ to put the blood bag in the trunk.</TEXT>
+            <TEXT></TEXT>
         </PUTBAGINTRUNK>
         <DRIVETODESTINATIONHOSPITAL>
             <TEXT>Now drive to the hospital, they are already awaiting your delivery.</TEXT>
+            <TEXT></TEXT>
         </DRIVETODESTINATIONHOSPITAL>
         <GRABFROMTRUNK>
             <TEXT>Grab the ~r~blood bag~s~ with ~y~{Y}~s~ from the trunk.</TEXT>
+            <TEXT></TEXT>
         </GRABFROMTRUNK>
         <GIVEBAGTODOC>
             <TEXT>Now bring the bag to the doctor!</TEXT>
+            <TEXT></TEXT>
         </GIVEBAGTODOC>
         <AUTOEND>
             <TEXT>You have ~g~successfully~s~ delivered the ~r~blood bag!</TEXT>

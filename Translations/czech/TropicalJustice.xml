@@ -1,0 +1,37 @@
+<TropicalJustice>
+
+    <CalloutMessage>Operace Tropická spravedlnost</CalloutMessage>
+    <CalloutAdvisory>~s~séf ~r~nebezpecného kartelu ~s~se zabarikádoval v opevneném areálu na ostrove ~o~Cayo Perico~s~</CalloutAdvisory>
+    <Task>Dojedte na ~g~letiste.</Task>
+
+    <Detective>
+        <Help>Promluvte si s ~g~Detetivem~s~ pomocí {Y}</Help>
+        <Dialogue>Dobrý den! Máme pred sebou dulezitou misi - jmenuje se ~g~Operace Tropická spravedlnost!</Dialogue>
+        <Dialogue>Poletíte na ostrov jmenem ~g~Cayo Perico~s~, kde se skrývá ~r~séfa mafie~s~</Dialogue>
+        <Dialogue>Po pristání budes muset chvíli jet, dokud nedojedes na jeho ~y~pozemek~s~.</Dialogue>
+        <Dialogue>Peclive ho hledejte, ale budte ve strehu - jsou tu ~r~ozbrojené stráze~s~!</Dialogue>
+        <Dialogue>Zatknete ~r~séfa~s~, pak odlette zpet do ~o~Los Santos~s~ a zavrete ho za mríze.</Dialogue>
+        <Dialogue>Doporucuji se na to vybavit ~b~vestou~s~ a spolehlivou ~p~zbraní.~s~ Hodne stestí!</Dialogue>
+        <Help>Nasednete do ~o~letadla~s~ nebo ~o~helicoptery~s~ – volba je na vás!</Help>
+    </Detective>
+
+    <Help>
+        <Text>Lette do ~o~cíle~s~ oznaceného na GPS. Let muzete ~y~vynechat~s~ pomocí {J}</Text>
+        <Text>Nastupte do ~HC_10~neoznaceného policejního vozidla.</Text>
+        <Text>Dojedte na ~y~pozemek.</Text>
+        <Text>Hledejte ~r~séfa mafie~s~! Budte opatrný, jsou tam ~r~ozbrojené stráze!</Text>
+        <Text>Nasel jste ~r~séfa~s~, zatknete ho!</Text>
+        <Text>Vezmete ~r~séfa~s~ do svého vozidla a odjedte zpet na letiste.</Text>
+        <Text>Podezrelého muzete odvést do vezení nebo výjezd ukoncit.</Text>
+        <Text>Operaci muzete ~r~ukoncit stisknutím tlacítka {End}.</Text>
+        <Text>Operace Tropická spravedlnost je pod kodem ctyri.</Text>
+    </Help>
+
+    <Mission>
+        <Text>~g~Mise splnena</Text>
+        <Text>~r~Mise nesplnena</Text>
+    </Mission>
+
+    <Warper>Stisknete {J} pro vstup/výstup do ~y~majetku.</Warper>
+
+</TropicalJustice>

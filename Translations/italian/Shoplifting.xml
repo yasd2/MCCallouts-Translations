@@ -1,70 +1,65 @@
 <Shoplifting>
 
     <General>
-        <Text>A reported shoplifting</Text>
-        <Text>A shopowner requested police</Text>
-        
-        <Text>~HC_64~Shop Owner~s~:</Text>
-        <Text>~y~You~s~:</Text>
+        <Text>Un furto segnalato</Text>
+        <Text>Un proprietario di negozio ha richiesto l'intervento della polizia</Text>
+        <Text>~HC_64~Proprietario del negozio~s~:</Text>
+        <Text>~y~Tu~s~:</Text>
     </General>
 
     <GetInfos>
-        <Dialogue>Hello, I'm an officer from the local police department.</Dialogue>
-        <Dialogue>You called us about a shoplifting?</Dialogue>
-        <Dialogue>Hello! Yes, the suspect just left a few minutes ago!</Dialogue>
-        <Dialogue>This clown stole a bunch of stuff, he is carrying a bag with it.</Dialogue>
-        <Dialogue>How does the suspect look like?</Dialogue>
+        <Dialogue>Salve, sono un agente del dipartimento di polizia locale.</Dialogue>
+        <Dialogue>Ci avete chiamato per un furto?</Dialogue>
+        <Dialogue>Salve! Sì, il sospetto è appena andato via pochi minuti fa!</Dialogue>
+        <Dialogue>Questo buffone ha rubato un sacco di cose, sta portando una borsa con la refurtiva.</Dialogue>
+        <Dialogue>Com'è l'aspetto del sospetto?</Dialogue>
 
         <!-- {1}: ShoplHelper.Background() -->
-        <Dialogue>He is a black male</Dialogue>
-        <Dialogue>He is a white male</Dialogue>
+        <Dialogue>È un uomo di colore</Dialogue>
+        <Dialogue>È un uomo bianco</Dialogue>
 
         <!-- {1}: {Suspect.GetRoundAge()} = {10} -->
-        <Dialogue>around {10} years old.</Dialogue>
+        <Dialogue>circa {10} anni.</Dialogue>
 
         <!-- {2}: ShoplHelper.TShirt() -->
-        <Dialogue>He was wearing a white tanktop</Dialogue>
-        <Dialogue>He was wearing a gray tanktop</Dialogue>
-        <Dialogue>He was wearing a black leather jacket</Dialogue>
+        <Dialogue>Indossava una canotta bianca</Dialogue>
+        <Dialogue>Indossava una canotta grigia</Dialogue>
+        <Dialogue>Indossava una giacca di pelle nera</Dialogue>
 
         <!-- {2}: ShoplHelper.Pants() -->
-        <Dialogue>and checked pants.</Dialogue>
-        <Dialogue>and white pants.</Dialogue>
-        <Dialogue>and a light blue jeans.</Dialogue>
+        <Dialogue>e pantaloni a quadri.</Dialogue>
+        <Dialogue>e pantaloni bianchi.</Dialogue>
+        <Dialogue>e un jeans azzurro chiaro.</Dialogue>
 
-        <Dialogue>I caught him on cctv, here is a photo of him!</Dialogue>
-        <Dialogue>The suspect left on foot!</Dialogue>
-        <Dialogue>Alright thank you, bye!</Dialogue>
+        <Dialogue>L'ho catturato sulla videosorveglianza, ecco una foto di lui!</Dialogue>
+        <Dialogue>Il sospetto è andato via a piedi!</Dialogue>
+        <Dialogue>D'accordo, grazie, arrivederci!</Dialogue>
     </GetInfos>
 
     <LocationUpdater>
-        <Text>The ~y~location~s~ was updated!</Text> 
-        <Text>The ~g~location~s~ was updated!</Text> <!-- EasyLocationUpdater -->
-        <Text>The ~r~suspect~s~ has been found. Arrest him!</Text>
+        <Text>La ~y~posizione~s~ è stata aggiornata!</Text> 
+        <Text>La ~g~posizione~s~ è stata aggiornata!</Text>
+        <Text>Il ~r~sospetto~s~ è stato trovato. Arrestalo!</Text>
     </LocationUpdater>
 
     <Mugshot>
-        <Text>Black male</Text>
-        <Text>white tanktop</Text>
-
-        <Text>White male</Text>
-        <Text>gray tanktop</Text>
-
-        <Text>black leather jacket</Text>
-
-        <Text>~h~Suspect description~h~</Text>
-
-        <Text>Press ~y~J~s~ anytime to view the ~y~picture~s~ again!</Text>
+        <Text>Uomo di colore</Text>
+        <Text>canotta bianca</Text>
+        <Text>Uomo bianco</Text>
+        <Text>canotta grigia</Text>
+        <Text>giacca di pelle nera</Text>
+        <Text>~h~Descrizione del sospetto~h~</Text>
+        <Text>Premi ~y~J~s~ in qualsiasi momento per visualizzare di nuovo la ~y~foto~s~!</Text>
     </Mugshot>
 
     <SearchForSuspect>
-        <Text>Now search for the suspect in the ~y~area~s~, which is ~y~marked~s~ on your gps.</Text>
-        <Text>Search the suspect and continue further.</Text>
+        <Text>Ora cerca il sospetto nella ~y~zona~s~, che è ~y~segnata~s~ sul tuo GPS.</Text>
+        <Text>Cerca il sospetto e prosegui.</Text>
     </SearchForSuspect>
 
     <WaitForEnd>
-        <Text>The suspect died.</Text>
-        <Text>~g~Code 4.</Text>
+        <Text>Il sospetto è deceduto.</Text>
+        <Text>~g~Codice 4.</Text>
     </WaitForEnd>
 
 </Shoplifting>

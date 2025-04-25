@@ -1,0 +1,46 @@
+<StructureFire>
+    <CalloutMessage>~r~~h~Pozár stavby~h~~s~</CalloutMessage>
+    <Task>Dojedte k ~r~horící budove pod kódem 3!</Task>
+    <State>
+        <Extinguish>
+            <Text>~o~Uhaste ohen sami ~r~nebo zavolejte hasice!</Text>
+            <Text>Vsechny pozáry byly uhaseny.</Text>
+        </Extinguish>
+        <Investigate>
+            <Text>Nyní prohledejte místo cinu a vyhledejte dukazy související s pozárem. Stisknete ~y~{Y}~s~ a zvednete je.</Text>
+            <Text>Obdrzeli jsme informace o tom, kde se dukazy nacházejí.</Text>
+            <Text>Nasel jste dukazy.</Text>
+        </Investigate>
+        <Manhunt>
+            <Text>Volající nám sdelili pribliznou polohu mozného podezrelého.</Text>
+        </Manhunt>
+        <End>
+            <Text>Pozár konstrukce je pod kodem ctyri.</Text>
+        </End>
+    </State>
+    <Scenario>
+        <SecureSceneOnly>
+            <Text>Stisknutím tlacítka ~{End}~ ukoncíte vyvolání.</Text>
+        </SecureSceneOnly>
+        <NoFire>
+            <Text>Nastestí na tomto míste nehorí.</Text>
+        </NoFire>
+    </Scenario>
+    <SuspectAction>
+        <Ignoring>
+            <Text>Podezrelý vypadá, ze na nej tvuj ~y~výraz~s~ neudelal dojem.</Text>
+        </Ignoring>
+        <Shooting>
+            <Text>~y~Ty: ~r~Strelba!</Text>
+        </Shooting>
+        <Surrender>
+            <Text>Podezrelý ~g~se vzdává.</Text>
+        </Surrender>
+        <Pursuit>
+            <Text>~y~Ty:~s~ Máme tu ~o~pronásledování!</Text>
+        </Pursuit>
+    </SuspectAction>
+    <FireProgressBar>
+        <Text>~h~Uhasené pozáry~h~</Text>
+    </FireProgressBar>
+</StructureFire>

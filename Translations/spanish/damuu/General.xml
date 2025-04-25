@@ -1,9 +1,0 @@
-<General>
-    <UpdateChecker>
-        <Text>Última versión de MCCallouts c; </Text>
-        <Text>Última versión beta o futura de MCCallouts c: </Text>
-        <Text>~r~Nueva versión disponible.~w~~n~¡Actualiza cuando sea posible!</Text>
-        <Text>~y~MCCallouts ha sido cargado~w~ pero ~r~no hemos podido comprobar ~w~ si hay actualizaciones.</Text>
-        <Text>!~y~MCCallouts ~g~ha sido cargado~w~!~n~!Disfruta de la patrulla!</Text>
-    </UpdateChecker>
-</General>

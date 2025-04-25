@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CALLOUT>
+    <CALLOUTMESSAGE>Transporte urgente de sangre</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Un paciente necesita sangre urgentemente</CALLOUTADVISORY>
+    <TASK>Conduzca hasta el lugar.</TASK>
+    <STATE>
+        <PICKUPBAG>
+            <TEXT>Coge la bolsa de sangre del médico y ponla en tu maletero.</TEXT>
+            <TEXT />
+        </PICKUPBAG>
+        <PUTBAGINTRUNK>
+            <TEXT>Pulse ~y~{Y}~s~ para meter la bolsa de sangre en el maletero.</TEXT>
+            <TEXT />
+        </PUTBAGINTRUNK>
+        <DRIVETODESTINATIONHOSPITAL>
+            <TEXT>Ahora conduce hasta el hospital, ya están esperando tu parto.</TEXT>
+            <TEXT />
+        </DRIVETODESTINATIONHOSPITAL>
+        <GRABFROMTRUNK>
+            <TEXT>Coge la ~r~bolsa de sangre~s~ con ~y~{Y}~s~ del maletero.</TEXT>
+            <TEXT />
+        </GRABFROMTRUNK>
+        <GIVEBAGTODOC>
+            <TEXT>¡Ahora lleva la bolsa al médico!</TEXT>
+            <TEXT />
+        </GIVEBAGTODOC>
+        <AUTOEND>
+            <TEXT>¡Has entregado con éxito la bolsa de sangre!</TEXT>
+            <TEXT>{CalloutMessage} ha finalizado.</TEXT>
+        </AUTOEND>
+    </STATE>
+</CALLOUT>

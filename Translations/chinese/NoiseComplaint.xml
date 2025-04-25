@@ -1,0 +1,61 @@
+<NoiseComplaint>
+    <General>
+        <Text>噪音投诉</Text>
+        <Text>关于喧闹家庭聚会的报告</Text>
+        <Text>邻居打电话投诉噪音. 请确保 ~o~活动组织者~s~调低音乐音量.</Text>
+        <Text>按 {Key}自行调节音量.</Text>
+    </General>
+
+    <Persons>
+        <Text>警员</Text>
+        <Text>所有者</Text>
+        <Text>DJ</Text>
+    </Persons>
+
+    <Tasks>
+        <Text>驾车前往 ~y~黄色标记处~s~离开派对.</Text>
+        <Text>表现得像你认为是对的一样，然后与 ~g~~h~DJ~h~~s~交谈.</Text>
+        <Text>一位来电者在同一地址报告了噪音投诉.Code 2.</Text>
+    </Tasks>
+
+    <OwnerCooperative>
+        <Dialogue>您好，警官，请问有什么可以帮到您?</Dialogue>
+        <Dialogue>我们接到一个电话，说音乐太吵了。请调低音量.</Dialogue>
+        <Dialogue>如果我需要再来这里，你会因为音乐太吵而被开罚单.</Dialogue>
+        <Dialogue>好的，好的，我们会降低它.</Dialogue>
+        <Dialogue>感谢您的合作，祝您今晚愉快.</Dialogue>
+    </OwnerCooperative>
+
+    <OwnerUncooperative>
+        <Dialogue>Yoo,警察，你他X的在这里干什么?</Dialogue>
+        <Dialogue>我们因音乐太吵被派往此处.</Dialogue>
+        <Dialogue>X的，这看起来像幼儿园吗？我们他X的在开派对!!</Dialogue>
+        <Dialogue>先生，请立即将音乐调低.</Dialogue>
+        <Dialogue>我正在做蠢事，你要么逮捕我，要么离开，猪头.</Dialogue>
+    </OwnerUncooperative>
+
+    <OwnerSecond>
+        <Dialogue>您好，我们又接到一个电话，说您的音乐太吵了.</Dialogue>
+        <Dialogue>而且我听得出来你没有把音量调低，反而是又把音量调高了...</Dialogue>
+        <Dialogue>Oh 哦，拜托，警官，我们正在举行一个盛大的派对,我们只是在玩得开心.</Dialogue>
+        <Dialogue>没问题，只要音乐音量合适即可.</Dialogue>
+        <Dialogue>如果我再来一次，你就会被逮捕!</Dialogue>
+        <Dialogue>由于这是我第二次来这里，所以我会给你开一张罚单.</Dialogue>
+        <Dialogue>祝您度过一个愉快而安静的夜晚.</Dialogue>
+    </OwnerSecond>
+
+    <DJ>
+        <Dialogue>您好，先生，您是这里的 DJ，对吗?</Dialogue>
+        <Dialogue>是的，先生，很抱歉 ~o~所有者~s~, 我的名字是~g~DJ Moodyman~s~.</Dialogue>
+        <Dialogue>哦，你前段时间在游艇上玩过吧?</Dialogue>
+        <Dialogue>是的，我记得你在那里。请问有什么可以帮到你吗?</Dialogue>
+        <Dialogue>请调低音量，我们的邻居觉得打扰了.</Dialogue>
+        <Dialogue>哦，好的，没问题，我会的。很抱歉店主这么不配合.</Dialogue>
+        <Dialogue>我会看看该怎么处置他。祝你今天愉快!</Dialogue>
+    </DJ>
+
+    <End>
+        <Text>~g~Code 4.</Text>
+        <Text>随时按  ~y~End~s~ 即可结束标注.</Text>
+    </End>
+</NoiseComplaint>

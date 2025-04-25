@@ -1,0 +1,45 @@
+<StreetRace>
+
+    <CalloutMessage>Operace Tajný poulicní závod</CalloutMessage>
+    <CalloutAdvisory>~s~Podívejte se na ~y~setkání automobilu~s~ s mozným ~o~poulicním závodem~s~</CalloutAdvisory>
+    <Task>Jedte na schuzku ~y~autem.</Task>
+
+    <Telephone>
+        <Help>Hlasitost telefonu muzete nastavit pomocí {J}</Help>
+        <Ring>*Telefon zvoní* - Dvakrát stisknete ~y~{Y}~s~ pro prijetí hovoru.</Ring>
+        <Dialogue>~g~Detektiv:~s~ Hej, tady detektiv Barker! Máme pred sebou novou misi.</Dialogue>
+        <Dialogue>~g~Detektiv:~s~ Sraz aut bude v ~y~{ZONE}.</Dialogue>
+        <Dialogue>~g~Detektiv:~s~ Vasím úkolem je vydat se tam v utajení a predstírat, ze jste hlídac aut.</Dialogue>
+        <Dialogue>~g~Detektiv:~s~ Pokud dojde k závodu poulicních vozu, muzete bud okamzite privolat pronásledování, nebo chvíli pockat.</Dialogue>
+        <Dialogue>~g~Detektiv:~s~ Nyní jedte na schuzku s autem. Hodne stestí!</Dialogue>
+    </Telephone>
+
+    <Driver1>
+        <Dialogue>~o~{NAME}:~s~ Ahoj, partáku! Hledáte rychlá a dobre vypadající vozidla?</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Podívejte se na muj ~b~{CARMODEL}!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Jestli v nem chcete sedet, klidne, ale nejezdete s ním!</Dialogue>
+    </Driver1>
+
+    <Driver6>
+        <Dialogue>~o~{NAME}:~s~ Ahoj! Jaké pekné místo pro setkání aut!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Vsichni tito lidé sdílejí stejný konícek - skvelí lidé!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ A pak jsou tu policajti, kterí se nám vzdycky snazí zkazit zábavu. Ale nechápu proc...</Dialogue>
+    </Driver6>
+
+    <DriveToMeeting>Promluvte si s ~o~lidmi~s~ na míste cinu.</DriveToMeeting>
+
+    <Scenario>
+        <NoRace>Dispecinku, tady nejsou zádné poulicní závody, je to pod kódem 4.</NoRace>
+        <Race>~o~Ridic:~s~ Tak jo, kdo je pripraven na poulicní závod? Zkuste me predjet!</Race>
+    </Scenario>
+
+    <RaceActive>
+        <Help>Pomocí ~y~{9} muzete kdykoli zavolat ~r~jednotky~s~!</Help>
+        <Dialogue>Dispecink, máme tu ~r~aktivní poulicní závod~s~, poslete dalsí jednotky!</Dialogue>
+    </RaceActive>
+
+    <Surrender>Podezrelí se vzdávají.</Surrender>
+
+    <End>Poulicní závod je pod kodem ctyri.</End>
+
+</StreetRace>

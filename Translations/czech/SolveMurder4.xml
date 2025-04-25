@@ -1,0 +1,165 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>~HC_48~Resení vrazdy v North Yanktonu</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Vedle statku v severním Yanktonu byla nalezena mrtvola.</CALLOUTADVISORY>
+    <TASK>Jedte na ~b~místo, kde na vás ceká dustojník~s~.</TASK>
+    <DIALOGUES>
+        <COP1>
+            <DIALOGUE>~b~Dustojník:~s~ Vítejte v chladném a zasnezeném severním Yanktonu!</DIALOGUE>
+            <DIALOGUE>~b~Dustojník:~s~ Bohuzel tam máme mrtvolu. Zatím toho moc nevíme, takze byste mohli místo cinu nejprve prohledat.</DIALOGUE>
+            <DIALOGUE>~b~Dustojník:~s~ Poté máme tri mozné podezrelé. Budete muset jet po silnici, abyste si s nimi promluvili.</DIALOGUE>
+            <DIALOGUE>~b~Dustojník:~s~ Je tu také soused, který nám rekl, ze byl svedkem neceho...</DIALOGUE>
+        </COP1>
+        <COP1_MURDERERCHOSEN>
+            <DIALOGUE>~b~Dustojník:~s~ Reknete mi, kdo je podle vás vrah?</DIALOGUE>
+            <DIALOGUE>~b~Dustojník:~s~ Zatknete ~r~vraha!</DIALOGUE>
+        </COP1_MURDERERCHOSEN>
+        <SUSPECT1_INNOCENT>
+            <DIALOGUE>~y~Ty:~s~ Dobrý den, pane, mám na vás nekolik otázek. Jste pravdepodobne podezrelý z nedávné vrazdy. Jak se jmenujete?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Vrazda? To je strasné! Jmenuji se James Walker, muzete mi ríkat Jimmy.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Kouríte?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Ne a jsem na to hrdý.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ cím se zivíte?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Jsem automechanik, pracuji na autech.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Pijete alkohol?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Ani ne, obcas si dám pivo.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Vlastníte nejaké zbrane?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Ne, nemám.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Nosíte hodinky?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Ano, mám hodne hodinek, potrebuji je k práci.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Kde jste byl, kdyz obet zemrela?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Mluvil jsem se zákazníkem o jeho rozbitém aute, rekl jsem mu, ze je neopravitelné.</DIALOGUE>
+        </SUSPECT1_INNOCENT>
+        <SUSPECT1_GUILTY>
+            <DIALOGUE>~y~Ty:~s~ Dobrý den, pane, jste podezrelý z vrazdy. Mám na vás nekolik otázek. Zacneme vasím jménem.</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Nic jsem neudelal! Jmenuji se James Walker, prátelé mi ríkají Jimmy.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Kouríte?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Ne a jsem na to hrdý.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ cím se zivíte?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Jsem automechanik, pracuji na autech.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Pijete alkohol?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Ani ne, obcas si dám pivo.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Vlastníte nejaké zbrane?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Ne, nemám.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Nosíte hodinky?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Ano, práve ted jsem... ach, ztratil jsem to.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Kde jste byl, kdyz obet zemrela?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Já... jsem byl v garázi a opravoval auta. Byl jsem poslední.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Vecer?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Ano, mám toho hodne na práci.</DIALOGUE>
+        </SUSPECT1_GUILTY>
+        <SUSPECT2_INNOCENT>
+            <DIALOGUE>~y~Ty:~s~ Dobrý den, jste podezrelá z vrazdy. Mám na vás nekolik otázek. Zacneme vasím jménem.</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Sakra, vrazda? Já? Já jsem nic neudelal. Jmenuji se Lisa Carterová.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Kouríte?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Ano, nekdy. Kouril jsi nekdy trávu?</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ ...cím se zivíte?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Pracuji v kancelári ve meste.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Pijete alkohol?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Jo, bohuzel hodne, nekdy whisky, nekdy champagner.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Vlastníte nejaké zbrane?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Nemám rád zbrane, takze ne.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Nosíte hodinky?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Mám jednu, ale nikdy ji nenosím. Proc se ptáte?</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Kde jste byl, kdyz obet zemrela?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Byla jsem venku s kamarádkou, muzes se jí zeptat.</DIALOGUE>
+        </SUSPECT2_INNOCENT>
+        <SUSPECT2_GUILTY>
+            <DIALOGUE>~y~Ty:~s~ Dobrý den, jste podezrelá z vrazdy. Mám na vás nekolik otázek. Zacneme vasím jménem.</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Sakra, vrazda? Já? Já jsem nic neudelal. Jmenuji se Lisa Carterová.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Jste kurák?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Ano, nekdy kourím. Kouríte trávu?</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ ...Jaká je vase práce?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Pracuji v kancelári ve meste.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Pijete pravidelne alkohol?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Jo, bohuzel hodne, nekdy whisky, nekdy champagner.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Nosíte zbran?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Nemám rád zbrane, takze ne.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Jaké máte hodinky?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Mám jednu, ale nikdy ji nenosím. Proc se ptáte?</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Kde jste byl, kdyz obet zemrela?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Byl jsem na vecírku v klubu, vypil jsem hodne vína.</DIALOGUE>
+        </SUSPECT2_GUILTY>
+        <SUSPECT3_INNOCENT>
+            <DIALOGUE>~y~Ty:~s~ Dobrý den, pane, mám na vás nekolik otázek. Jste pravdepodobne podezrelý z nedávné vrazdy. Jak se jmenujete?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Sakra, vrazda? Já? Já jsem nic neudelal. Jmenuji se Daniel nebo Danny Reed.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Jste kurák?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Víte, ze jsem lovec a máte spoustu casu, takze ano, kourím.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Co je vasí prací?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Jak jsem rekl, jsem lovec.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Pijete pravidelne alkohol?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Ne, ne pravidelne, ale chci ríct, ze jsem predtím pil alkohol.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Nosíte zbran?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Ted zrovna ne, ale jako lovec si dokázete predstavit, ze nejaké mám.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Jaké máte hodinky?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Jeden mám, je to levný model, protoze kdyz se rozbije, muzu si proste koupit jiný.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Kde jste byl, kdyz obet zemrela?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Byl jsem doma se svou zenou a vecereli jsme.</DIALOGUE>
+        </SUSPECT3_INNOCENT>
+        <SUSPECT3_GUILTY>
+            <DIALOGUE>~y~Ty:~s~ Dobrý den, pane, mám na vás nekolik otázek. Jste pravdepodobne podezrelý z nedávné vrazdy. Jak se jmenujete?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Sakra, vrazda? Já? Já jsem nic neudelal. Jmenuji se Daniel nebo Danny Reed.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Jste kurák?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Víte, ze jsem lovec a máte spoustu casu, takze ano, kourím.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Co je vasí prací?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Jak jsem rekl, jsem lovec.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Pijete pravidelne alkohol?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Ne, ne pravidelne, ale chci ríct, ze jsem predtím pil alkohol.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Nosíte zbran?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Ano... Myslím, ze jsem ho nechal v aute, nemuzu ho najít.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Jaké máte hodinky?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Normálne ho nosím, ale nemuzu ho najít, nastestí nebyl drahý.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Kde jste byl, kdyz obet zemrela?</DIALOGUE>
+            <DIALOGUE>~y~Podezrelý:~s~ Byl jsem v lese na lovu, ale bohuzel jsem nic nechytil.</DIALOGUE>
+        </SUSPECT3_GUILTY>
+        <WITNESS_SUSPECT1>
+            <DIALOGUE>~y~Ty:~s~ Dobrý den, pane, muj partner mi rekl, ze jste byl neceho svedkem?</DIALOGUE>
+            <DIALOGUE>~g~Soused:~s~ Ahoj, presne tak, chci nahlásit, co jsem videl.</DIALOGUE>
+            <DIALOGUE>~g~Soused:~s~ Slysel jsem, ze v dobe, kdy jsem jel kolem, doslo k vrazde.</DIALOGUE>
+            <DIALOGUE>~g~Soused:~s~ Videl jsem auto, které z místa cinu odjízdelo; v té dobe tam nebyl velký provoz.</DIALOGUE>
+            <DIALOGUE>~g~Soused:~s~ Vypadalo jako sluzební vozidlo; byla to vetsí dodávka.</DIALOGUE>
+            <DIALOGUE>~g~Soused:~s~ Doufejme, ze to pomuze!</DIALOGUE>
+        </WITNESS_SUSPECT1>
+        <WITNESS_SUSPECT2>
+            <DIALOGUE>~y~Ty:~s~ Dobrý den, pane, muj partner mi rekl, ze jste byl neceho svedkem?</DIALOGUE>
+            <DIALOGUE>~g~Soused:~s~ Ahoj, presne tak, chci nahlásit, co jsem videl.</DIALOGUE>
+            <DIALOGUE>~g~Soused:~s~ Slysel jsem, ze za mestem nasli mrtvého cloveka.</DIALOGUE>
+            <DIALOGUE>~g~Soused:~s~ Videl jsem, jak z tohoto prostoru odchází osoba, která neco drzela v ruce.</DIALOGUE>
+            <DIALOGUE>~g~Soused:~s~ Kourilo se z nej, predpokládám, ze to byl doutník.</DIALOGUE>
+            <DIALOGUE>~g~Soused:~s~ Omlouvám se, ale to je vse, co vím!</DIALOGUE>
+        </WITNESS_SUSPECT2>
+        <WITNESS_SUSPECT3>
+            <DIALOGUE>~y~Ty:~s~ Dobrý den, pane, muj partner mi rekl, ze jste byl neceho svedkem?</DIALOGUE>
+            <DIALOGUE>~g~Soused:~s~ Dobrý vecer, myslím, ze jsem svedek.</DIALOGUE>
+            <DIALOGUE>~g~Soused:~s~ Slysel jsem, ze v dobe, kdy jsem tudy projízdel, doslo k vrazde.</DIALOGUE>
+            <DIALOGUE>~g~Soused:~s~ Videl jsem auto, které z místa cinu odjízdelo; v té dobe tam nebyl velký provoz.</DIALOGUE>
+            <DIALOGUE>~g~Soused:~s~ Auto bylo velmi spinavé a melo velké pneumatiky.</DIALOGUE>
+            <DIALOGUE>~g~Soused:~s~ Doufejme, ze jsem byl uzitecný!</DIALOGUE>
+        </WITNESS_SUSPECT3>
+    </DIALOGUES>
+    <STATE>
+        <SEARCHFOREVIDENCE>
+            <TEXT>Hledejte dukazy na ulici.</TEXT>
+            <TEXT>Nalezené dukazy!</TEXT>
+        </SEARCHFOREVIDENCE>
+        <TALKTOSUSPECTSWITNESS>
+            <TEXT>Promluvte si s ~y~podezrelými~s~ a ~g~svedkem.</TEXT>
+        </TALKTOSUSPECTSWITNESS>
+        <ARRESTMURDERER>
+            <TEXT>~g~Správný podezrelý byl zatcen</TEXT>
+            <TEXT>~r~Nesprávný zatcený obcan.</TEXT>
+        </ARRESTMURDERER>
+        <END>
+            <TEXT>{CalloutMessage} je pod kodem ctyri.</TEXT>
+        </END>
+    </STATE>
+    <MENU>
+        <TITLE>Vrah</TITLE>
+        <SUBTITLE>Vrahem je...</SUBTITLE>
+        <ITEM>James 'Jimmy' Walker, automechanik</ITEM>
+        <ITEM>Lisa Carter, zena</ITEM>
+        <ITEM>Daniel 'Danny' Reed, lovec</ITEM>
+        <DIALOGUE>~y~Ty:~s~ James Walker!</DIALOGUE>
+        <DIALOGUE>~y~Ty:~s~ Lisa Carter!</DIALOGUE>
+        <DIALOGUE>~y~Ty:~s~ Daniel Reed!</DIALOGUE>
+    </MENU>
+</CALLOUT>

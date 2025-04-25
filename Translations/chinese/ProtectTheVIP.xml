@@ -1,0 +1,31 @@
+<ProtectTheVIP>
+    <CalloutMessage>VIP 保护</CalloutMessage>
+    <CalloutAdvisory>保护他们免受帮派成员的侵害!</CalloutAdvisory>
+    <Task>开车前往 ~g~VIP.</Task>
+    <VIP>
+        <Dialogue>嗨！谢谢您的服务，我被一个卡特尔组织盯上.</Dialogue>
+        <Dialogue>我在网上收到过无数次威胁我生命的威胁。我需要你们的保护.</Dialogue>
+        <Dialogue>我是~HC_17~Rusty Brown's Ring Donuts的老板.</Dialogue>
+        <Dialogue>哦不，他们在那里!</Dialogue>
+        <Task>Press ~o~{Y}~s~ - VIP ~o~移动~s~ 到您当前的位置</Task>
+        <Task>Press ~g~{J}:~s~ - 切换VIP ~g~是否跟随~s~ 你</Task>
+        <Task>VIP 控制</Task>
+        <Task>操作</Task>
+        <Dead>~r~VIP 死亡</Dead>
+    </VIP>
+
+    <Difficulty>
+        <Title>难度</Title>
+        <Easy>简单</Easy>
+        <Medium>正常</Medium>
+        <Hard>困难</Hard>
+    </Difficulty>
+
+    <FightGang>
+        <Dialogue>~y~警员:~s~ 向右移动到这里!</Dialogue>
+        <Dialogue>跟随我!</Dialogue>
+        <Dialogue>就待在这里!</Dialogue>
+    </FightGang>
+
+    <End>~b~VIP 保护已结束.</End>
+</ProtectTheVIP>

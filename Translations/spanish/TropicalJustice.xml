@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TropicalJustice>
+
+    <CalloutMessage>Operación Justicia Tropical</CalloutMessage>
+    <CalloutAdvisory>~s~Un ~r~peligroso jefe de cartel~s~ se ha atrincherado en un recinto fortificado en ~o~Cayo Perico~s~</CalloutAdvisory>
+    <Task>Conduce hasta el aeropuerto.</Task>
+
+    <Detective>
+        <Help>Habla con el ~g~Detective~s~ con {Y}</Help>
+        <Dialogue>¡Buenos días! Tenemos una misión importante por delante - se llama ~g~¡Operación Justicia Tropical!</Dialogue>
+        <Dialogue>Volarás a ~g~Cayo Perico~s~, donde se esconde el ~r~Jefe de la Mafia~s~.</Dialogue>
+        <Dialogue>Después de aterrizar, tendrás que conducir un rato hasta llegar a su ~y~propiedad~s~.</Dialogue>
+        <Dialogue>Búscalo con cuidado, pero mantente alerta: ¡hay guardias armados!</Dialogue>
+        <Dialogue>Arresta al ~r~jefe~s~, luego vuela de vuelta a ~o~Los Santos~s~ y ponlo tras las rejas.</Dialogue>
+        <Dialogue>Recomiendo llevar una armadura y un rifle fiable. ¡Buena suerte!</Dialogue>
+        <Help>Súbete al ~o~avión~s~ o al ~o~helicóptero~s~ - ¡tú eliges!</Help>
+    </Detective>
+
+    <Help>
+        <Text>Vuela al ~o~destino~s~ marcado en tu gps. Puedes ~y~saltar el vuelo~s~ con {J}</Text>
+        <Text>Sube al vehículo policial sin identificación.</Text>
+        <Text>Conduce hasta la propiedad.</Text>
+        <Text>¡Busca a los jefes mafiosos! Ten cuidado, ¡hay guardias armados!</Text>
+        <Text>¡Encontraron al jefe, arréstenlo!</Text>
+        <Text>Lleva al ~r~boss~s~ a tu vehículo y conduce de vuelta al aeropuerto.</Text>
+        <Text>Puedes llevar al sospechoso a la cárcel o terminar la llamada.</Text>
+        <Text>Pulse {Fin} para ~r~nalizar la operación.</Text>
+        <Text>La Operación Justicia Tropical ha terminado.</Text>
+    </Help>
+
+    <Mission>
+        <Text>~g~Misión superada</Text>
+        <Text>~r~Misión fallida</Text>
+    </Mission>
+
+    <Warper>Pulse {J} para entrar/salir de la ~y~propiedad</Warper>
+
+</TropicalJustice>

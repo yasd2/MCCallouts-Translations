@@ -1,0 +1,83 @@
+<LostObject>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+
+    <General>
+        <Text>丢失的物品</Text>
+        <Text>呼叫者丢失了一件物品，需要警方帮助</Text>
+        <Text><![CDATA[前往~g~目的地~s~ & 并找出问题所在.]]></Text>
+    </General>
+
+
+    <DisplayHelp>
+        <Text>与呼叫者通话，按 </Text>
+        <Text>寻找 ~o~手机~s~. 按 </Text> <!--Search for the ~o~cellphone~s~. Press __Key-Y__  to pick up the object.-->
+        <Text>寻找 ~o~钱包~s~. 按 </Text>    <!--Search for the ~o~wallet~s~. Press __Key-Y__  to pick up the object.-->
+        <Text>寻找 ~o~鞋子~s~. 按 </Text>      <!--Search for the ~o~shoe~s~. Press __Key-Y__  to pick up the object.-->
+        <Text>拾取物品.</Text>
+        <Text>按 </Text>                                 <!--Press __Key-Y__ to shout to the caller!-->
+        <Text> 对着报警人大喊!</Text>               <!--Press __Key-Y__ to shout to the caller!-->
+        <Text>这里有个小提示帮你.</Text>
+        <Text>按 ~g~1 ~s~接受或~r~2~s~ 中止.</Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+        <Text>找到了~r~手机~s~!</Text>
+        <Text>找到了~r~钱包~s~!</Text>
+        <Text>找到了~r~鞋子~s~!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>~y~警员~s~: 您好，请问您是报警人吗?</Dialogue>
+        <Dialogue>~b~报警人~s~: 等一下，我马上来!</Dialogue>
+        <Dialogue>~b~报警人~s~: 非常感谢！真希望我有像你一样的眼睛!</Dialogue>
+        <Dialogue>~y~警员~s~: 别担心，再见!</Dialogue>
+    </Conversation>
+
+
+    <OutcomeCellphone>
+        <Dialogue>~b~报警人~s~: 是的，我打过电话了。但我找不到我的手机了.</Dialogue>
+        <Dialogue>~y~警员~s~: 明白了。我会帮你找的.</Dialogue>
+        <Dialogue>~y~警员~s~: 你上次用它是什么时候?</Dialogue>
+        <Dialogue><![CDATA[~b~报警人~s~: 我当时正走在这里 & 我以为我把它放在口袋里了.]]></Dialogue>
+        <Dialogue>~y~警员~s~:  那它肯定在附近的某个地方. 我们去找找看吧.</Dialogue>
+        <Dialogue>~y~警员~s~:  嘿，我找到你的手机了!</Dialogue>
+    </OutcomeCellphone>
+
+
+    <OutcomeWallet>
+        <Dialogue><![CDATA[~b~报警人~s~: 是的，是我。我的钱包丢了，找不到了.]]></Dialogue>
+        <Dialogue>~y~警员~s~: 哦天哪。我相信我们一定能找到它的.</Dialogue>
+        <Dialogue>~y~警员~s~: 你还记得上次拿到它是什么时候吗?</Dialogue>
+        <Dialogue>~b~报警人~s~: 是的，就在一分钟前。它肯定就在附近.</Dialogue>
+        <Dialogue>~y~警员~s~: 好的，我们找一下你的钱包.</Dialogue>
+        <Dialogue>~y~警员~s~: 嘿，我找到你的钱包了!</Dialogue>
+    </OutcomeWallet>
+
+
+    <OutcomeShoe>
+        <Dialogue>~b~报警人~s~: 是的，我需要你的帮助。我有个大麻烦.</Dialogue>
+        <Dialogue>~b~报警人~s~: 我的鞋子丢了……可怜的鞋子，我太喜欢它了!</Dialogue>
+        <Dialogue>~y~警员~s~: 啊……抱歉，这不是报警的理由.</Dialogue>
+        <Dialogue>~b~报警人~s~: 但那是一双价值100美元的鞋子！对不起，你能帮我找找吗?</Dialogue>
+        <Dialogue>~y~警员~s~: 好的，我会帮你找你的鞋子。我们在这个区域找一下吧.</Dialogue>
+        <Dialogue>~y~警员~s~: 不，正如我所说。请仅在紧急情况下报警。祝你今天剩余时间过得愉快!</Dialogue>
+        <Dialogue>~y~警员~s~: 嘿，我找到你的鞋子了!</Dialogue>
+        <Dialogue>~y~警员~s~: 好的，但下次只在紧急情况下拨打电话！再见!</Dialogue>
+    </OutcomeShoe>
+
+
+    <End>
+        <Text>~g~code 4~s~, ~b~丢失的物品已 ~g~找到~s~.</Text>
+        <Text>Code ~g~4~s~, 案件结束.</Text>
+    </End>
+
+
+
+</LostObject>

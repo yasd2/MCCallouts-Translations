@@ -1,0 +1,37 @@
+<TropicalJustice>
+
+    <CalloutMessage>热带正义行动</CalloutMessage>
+    <CalloutAdvisory>~s~一个~r~危险的卡特尔头目~s~ 在~o~佩里科岛的防御工事内~s~设立了警戒线</CalloutAdvisory>
+    <Task>开车前往 ~g~机场.</Task>
+
+    <Detective>
+        <Help>与~g~警探~s~交谈并使用 {Y}</Help>
+        <Dialogue>你好! 我们接下来有一项重要任务 — 名为~g~热带正义行动!</Dialogue>
+        <Dialogue>你将飞往~g~佩里科岛~s~, 那里是~r~Mafia Boss~s~ 的藏身之处.</Dialogue>
+        <Dialogue>着陆后, 您需要行驶一段时间才能到达他的 ~y~藏身之处~s~.</Dialogue>
+        <Dialogue>仔细搜寻他, 但要保持警惕 — 那里有武装警卫~s~!</Dialogue>
+        <Dialogue>逮捕~r~boss~s~, 然后飞回~o~洛圣都~s~ 并将他关进监狱.</Dialogue>
+        <Dialogue>我建议您穿上 ~b~防弹背心~s~ 并带上一把可靠的~p~枪.~s~ 祝你好运!</Dialogue>
+        <Help>进入~o~飞机~s~ 或 ~o~直升机~s~ – 选择权在您手中!</Help>
+    </Detective>
+
+    <Help>
+        <Text>飞往标记的~o~目的地~s~. 您可以使用~y~跳过~s~航班 {J}</Text>
+        <Text>进入~HC_10~无标记警车.</Text>
+        <Text>开车前往~y~藏身之处.</Text>
+        <Text>寻找~r~黑手党老大~s~! 小心, 有~r~武装警卫!</Text>
+        <Text>你找到了~r~boss~s~,逮捕他</Text>
+        <Text>将 ~r~boss~s~ 带到您的车上，然后开车返回机场.</Text>
+        <Text>您可以将嫌疑人带入监狱或结束呼叫.</Text>
+        <Text>按 {End}~r~结束操作.</Text>
+        <Text>热带正义行动已结束.</Text>
+    </Help>
+
+    <Mission>
+        <Text>~g~任务完成</Text>
+        <Text>~r~任务失败</Text>
+    </Mission>
+
+    <Warper>按 {J} 进入/退出 ~y~属性</Warper>
+
+</TropicalJustice>

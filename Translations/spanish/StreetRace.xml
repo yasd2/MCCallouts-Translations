@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<StreetRace>
+
+    <CalloutMessage>Operación encubierta Carrera callejera</CalloutMessage>
+    <CalloutAdvisory>~s~Reunión de coches~s~ con una ~o~posible carrera callejera~s~</CalloutAdvisory>
+    <Task>Conduce hasta la reunión de ~y~coches.</Task>
+
+    <Telephone>
+        <Help>Puede ajustar el volumen del teléfono con {J}.</Help>
+        <Ring>*Suena el teléfono* - Pulse ~y~{Y}~s~ dos veces para aceptar la llamada.</Ring>
+        <Dialogue>~g~Detective:~s~ ¡Hola, soy el Detective Barker! Tenemos una nueva misión por delante.</Dialogue>
+        <Dialogue>~g~Detective:~s~ Habrá una reunión de coches en ~y~{ZONE}.</Dialogue>
+        <Dialogue>~g~Detective:~s~ Tu tarea es ir allí de incógnito y fingir ser un observador de coches.</Dialogue>
+        <Dialogue>~g~Detective:~s~ Si se produce una carrera callejera de coches, puedes llamar a la persecución inmediatamente o esperar un poco.</Dialogue>
+        <Dialogue>~g~Detective:~s~ Ahora conduce hasta la reunión de coches. ¡Buena suerte!</Dialogue>
+    </Telephone>
+
+    <Driver1>
+        <Dialogue>~o~{NAME}:~s~ ¡Hola, compañero! ¿Buscas vehículos rápidos y atractivos?</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ ¡Echa un vistazo a mi ~b~{CARMODEL}!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ ¡Si quieres sentarte en él, adelante, pero no lo conduzcas!</Dialogue>
+    </Driver1>
+
+    <Driver6>
+        <Dialogue>~o~{NAME}:~s~ ¡Hola! ¡Qué bonito lugar para una reunión de coches!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ ¡Toda esta gente compartiendo la misma afición-grandes chicos!</Dialogue>
+        <Dialogue>~Y luego está la policía, siempre tratando de arruinar nuestra diversión. Aunque no entiendo por qué...</Dialogue>
+    </Driver6>
+
+    <DriveToMeeting>Habla con la gente de la escena.</DriveToMeeting>
+
+    <Scenario>
+        <NoRace>Despacho, aquí no hay carreras callejeras, estamos en Código 4.</NoRace>
+        <Race>~o~Driver:~s~ Muy bien, ¿quién está listo para una carrera callejera? ¡Intenta adelantarme!</Race>
+    </Scenario>
+
+    <RaceActive>
+        <Help>¡Puede llamar a un ~r~pursuit~s~ en cualquier momento con ~y~{9}!</Help>
+        <Dialogue>Despacho, tenemos una carrera callejera activa, ¡envíen más unidades!</Dialogue>
+    </RaceActive>
+
+    <Surrender>Los sospechosos se están rindiendo.</Surrender>
+
+    <End>Street Race ha terminado.</End>
+
+</StreetRace>

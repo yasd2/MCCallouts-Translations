@@ -1,0 +1,165 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>~HC_48~侦破谋杀案4</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>在北扬克顿的一处农舍旁边发现一具尸体</CALLOUTADVISORY>
+    <TASK>开车前往~b~现场~s~，警官在那里等你.</TASK>
+    <DIALOGUES>
+        <COP1>
+            <DIALOGUE>~b~Cop:~s~ 欢迎来到寒冷多雪的北扬克顿!</DIALOGUE>
+            <DIALOGUE>~b~Cop:~s~ 很遗憾，我们在那里发现了一具尸体。我们还不清楚具体情况，所以你最好先搜查一下现场.</DIALOGUE>
+            <DIALOGUE>~b~Cop:~s~ 我们有三个嫌疑人。你得开车沿着这条路走才能见到他们并进行交谈.</DIALOGUE>
+            <DIALOGUE>~b~Cop:~s~ 还有一位邻居告诉我们他目睹了一些事情...</DIALOGUE>
+        </COP1>
+        <COP1_MURDERERCHOSEN>
+            <DIALOGUE>~b~Cop:~s~ 告诉我，你认为谁是凶手?</DIALOGUE>
+            <DIALOGUE>~b~Cop1:~s~ 逮捕 ~r~凶手!</DIALOGUE>
+        </COP1_MURDERERCHOSEN>
+        <SUSPECT1_INNOCENT>
+            <DIALOGUE>~y~警员:~s~ 你好, 我有几个问题想问你。你是最近一起凶杀案的嫌疑人。你叫什么名字?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 凶杀案? 太可怕了！我叫詹姆斯·沃克，你可以叫我吉米.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你抽烟吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 不，我为此感到自豪.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你是做什么工作的？</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 我是一名机械师，我修汽车.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你喝酒吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 不是真的，有时我会喝啤酒.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你有枪吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 不，我不知道.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你戴手表吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 是的，我有很多手表，我需要它们来工作.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 受害者死亡时你在哪里?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 我和一位顾客谈到他的车坏了，我告诉他这车无法修理.</DIALOGUE>
+        </SUSPECT1_INNOCENT>
+        <SUSPECT1_GUILTY>
+            <DIALOGUE>~y~警员:~s~ 你好, 你涉嫌谋杀了人。我有几个问题想问你。先从你的名字说起吧.</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 我什么都没做！我叫詹姆斯·沃克，朋友们都叫我吉米.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你抽烟吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 不，我为此感到自豪.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你是做什么工作的?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 我是一名汽车修理师.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你喝酒吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 不是真的，有时我会喝啤酒.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你有枪吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 不，我不知道.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你戴手表吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 是的，现在我……哦，我失去了它.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 受害者死亡时你在哪里?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 我……当时在车库里修车。我是最后一个离开的.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 晚上吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 是的，我有很多事情要做.</DIALOGUE>
+        </SUSPECT1_GUILTY>
+        <SUSPECT2_INNOCENT>
+            <DIALOGUE>~y~警员:~s~ 你好，女士，你涉嫌谋杀了一个人。我有几个问题想问你。先从你的名字开始吧.</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 该死，凶杀案？我？我什么也没做。我叫丽莎·卡特.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你抽烟吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 是的，有时候会。你抽过大麻吗?</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ ...你是做什么工作的?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 我在镇上的一家办公室工作.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你喝酒吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 是的，不幸的是有时喝很多,有时是威士忌,有时是香槟.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你有枪吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 我不喜欢枪，所以不行.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你戴手表吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 我有，但我从来不戴。你为什么这么问?</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 受害者死亡时你在哪里?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 我和我的一个朋友出去了，你可以问她.</DIALOGUE>
+        </SUSPECT2_INNOCENT>
+        <SUSPECT2_GUILTY>
+            <DIALOGUE>~y~警员:~s~ 你好，女士，你涉嫌谋杀了一个人。我有几个问题想问你。先从你的名字开始吧.</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 该死，凶杀案？我？我什么也没做。我叫丽莎·卡特.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你吸烟吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 是的，我有时抽烟。你抽大麻吗?</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ ...你的工作是什么?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 我在镇上的一家办公室工作.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你经常喝酒吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 是的，不幸的是很多，有时是威士忌，有时是香槟.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你带枪吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 我不喜欢枪，所以不行.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你有什么手表吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 我有，但我从来不戴。你为什么这么问?</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 受害者死亡时你在哪里?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 我当时去俱乐部参加派对了，喝了很多酒.</DIALOGUE>
+        </SUSPECT2_GUILTY>
+        <SUSPECT3_INNOCENT>
+            <DIALOGUE>~y~警员:~s~ 你好，我有几个问题想问你。你是最近一起凶杀案的嫌疑人。你叫什么名字?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 该死，凶杀案？我？我什么都没做。我叫丹尼尔，或者叫丹尼·里德.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你吸烟吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 你知道我是个猎人，而且你有很多时间，所以是的，我确实抽烟.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你的工作是什么?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 正如我所说，我是一名猎人.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你经常喝酒吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 不，不经常，但我的意思是我以前喝过酒.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你带枪吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 现在没有，但作为一名猎人，你可以想象我有一些.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你有什么手表?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 我有一个，但是是一个便宜的型号，因为如果它坏了，我可以再买一个.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 受害者死亡时你在哪里?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 我当时和妻子在家，我们正在吃晚饭.</DIALOGUE>
+        </SUSPECT3_INNOCENT>
+        <SUSPECT3_GUILTY>
+            <DIALOGUE>~y~警员:~s~ 你好, 我有几个问题想问你。你是最近一起凶杀案的嫌疑人。你叫什么名字?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 该死，凶杀案？我？我什么都没做。我叫丹尼尔，或者叫丹尼·里德.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你吸烟吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 你知道我是个猎人，而且你有很多时间，所以是的，我确实抽烟.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你的工作是什么?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 正如我所说，我是一名猎人.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你经常喝酒吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 不，不经常，但我的意思是我以前喝过酒.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你带枪吗?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 是的...我想我把它落在车里了，我找不到它.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 你有什么手表?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 我通常都会带一个，但是我找不到了，还好它不贵.</DIALOGUE>
+            <DIALOGUE>~y~警员:~s~ 受害者死亡时你在哪里?</DIALOGUE>
+            <DIALOGUE>~y~嫌疑人:~s~ 我在森林里打猎，不幸的是我什么也没抓到.</DIALOGUE>
+        </SUSPECT3_GUILTY>
+        <WITNESS_SUSPECT1>
+            <DIALOGUE>~y~警员:~s~ 你好，我的搭档告诉我你目睹了一些事情?</DIALOGUE>
+            <DIALOGUE>~g~邻居:~s~ 你好，没错，我想报告我所看到的情况.</DIALOGUE>
+            <DIALOGUE>~g~邻居:~s~ 我听说我开车经过的时候发生了一起谋杀案.</DIALOGUE>
+            <DIALOGUE>~g~邻居:~s~ 我看到一辆车从现场驶离；当时交通并不拥挤.</DIALOGUE>
+            <DIALOGUE>~g~邻居:~s~ 它看起来像一辆公司车辆；它是一辆更大的货车.</DIALOGUE>
+            <DIALOGUE>~g~邻居:~s~ 希望这有帮助!</DIALOGUE>
+        </WITNESS_SUSPECT1>
+        <WITNESS_SUSPECT2>
+            <DIALOGUE>~y~警员:~s~ 你好，我的搭档告诉我你目睹了一些事情?</DIALOGUE>
+            <DIALOGUE>~g~邻居:~s~ 你好，没错，我想报告我所看到的情况.</DIALOGUE>
+            <DIALOGUE>~g~邻居:~s~ 我听说在城外发现了一具死尸.</DIALOGUE>
+            <DIALOGUE>~g~邻居:~s~ 我看到一个人从这个区域走开，手里拿着一些东西.</DIALOGUE>
+            <DIALOGUE>~g~邻居:~s~ 它在冒烟；我猜那是一支雪茄.</DIALOGUE>
+            <DIALOGUE>~g~邻居:~s~ 抱歉，我只知道这些!</DIALOGUE>
+        </WITNESS_SUSPECT2>
+        <WITNESS_SUSPECT3>
+            <DIALOGUE>~y~警员:~s~ 你好，我的搭档告诉我你目睹了一些事情?</DIALOGUE>
+            <DIALOGUE>~g~邻居:~s~ 晚上好，我想我是证人.</DIALOGUE>
+            <DIALOGUE>~g~邻居:~s~ 我听说我开车经过该地区时发生了一起谋杀案.</DIALOGUE>
+            <DIALOGUE>~g~邻居:~s~ 我看到一辆车从现场驶离；当时交通并不拥挤.</DIALOGUE>
+            <DIALOGUE>~g~邻居:~s~ 这辆车很脏，而且轮胎很大.</DIALOGUE>
+            <DIALOGUE>~g~邻居:~s~ 希望我能帮上忙!</DIALOGUE>
+        </WITNESS_SUSPECT3>
+    </DIALOGUES>
+    <STATE>
+        <SEARCHFOREVIDENCE>
+            <TEXT>在街上搜寻证据.</TEXT>
+            <TEXT>搜寻证据!</TEXT>
+        </SEARCHFOREVIDENCE>
+        <TALKTOSUSPECTSWITNESS>
+            <TEXT>与~y~嫌疑人~s~和~g~证人.</TEXT>
+        </TALKTOSUSPECTSWITNESS>
+        <ARRESTMURDERER>
+            <TEXT>~g~凶手被捕</TEXT>
+            <TEXT>~r~抓错人了</TEXT>
+        </ARRESTMURDERER>
+        <END>
+            <TEXT>{CalloutMessage} 已结束.</TEXT>
+        </END>
+    </STATE>
+    <MENU>
+        <TITLE>凶手</TITLE>
+        <SUBTITLE>The murderer is...</SUBTITLE>
+        <ITEM>James 'Jimmy' Walker, the car mechanic</ITEM>
+        <ITEM>Lisa Carter, the woman</ITEM>
+        <ITEM>Daniel 'Danny' Reed, the hunter</ITEM>
+        <DIALOGUE>~y~警员:~s~ 詹姆斯·沃克!</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 丽莎·卡特!</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 丹尼尔·里德！</DIALOGUE>
+    </MENU>
+</CALLOUT>

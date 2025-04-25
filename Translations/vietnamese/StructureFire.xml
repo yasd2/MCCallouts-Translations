@@ -1,0 +1,46 @@
+<StructureFire>
+    <CalloutMessage>~r~~h~Structure Fire~h~~s~</CalloutMessage>
+    <Task>Drive to the ~r~burning building Code 3!</Task>
+    <State>
+        <Extinguish>
+            <Text>~o~Extinguish the fire yourself ~r~or call the fire department!</Text>
+            <Text>All fires have been extinguished.</Text>
+        </Extinguish>
+        <Investigate>
+            <Text>Now search the scene for evidence relating to the fire. Press ~y~{Y}~s~ to pick it up.</Text>
+            <Text>We have received infos on the whereabouts of the evidence.</Text>
+            <Text>You found evidence.</Text>
+        </Investigate>
+        <Manhunt>
+            <Text>Callers have provided us with the approximate location of a possible suspect.</Text>
+        </Manhunt>
+        <End>
+            <Text>Structure Fire has ended.</Text>
+        </End>
+    </State>
+    <Scenario>
+        <SecureSceneOnly>
+            <Text>Press ~{End}~ to end the callout.</Text>
+        </SecureSceneOnly>
+        <NoFire>
+            <Text>Luckily there is no fire at this location.</Text>
+        </NoFire>
+    </Scenario>
+    <SuspectAction>
+        <Ignoring>
+            <Text>The suspect seems ~y~unimpressed~s~ by your appearance.</Text>
+        </Ignoring>
+        <Shooting>
+            <Text>~y~You: ~r~Shots fired!</Text>
+        </Shooting>
+        <Surrender>
+            <Text>The suspect is ~g~surrendering.</Text>
+        </Surrender>
+        <Pursuit>
+            <Text>~y~You:~s~ We have a ~o~pursuit!</Text>
+        </Pursuit>
+    </SuspectAction>
+    <FireProgressBar>
+        <Text>~h~Fires extinguished~h~</Text>
+    </FireProgressBar>
+</StructureFire>

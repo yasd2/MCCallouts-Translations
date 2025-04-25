@@ -1,0 +1,31 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>血液紧急运输</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>一名患者急需血液</CALLOUTADVISORY>
+    <TASK>开车前往该地点.</TASK>
+    <STATE>
+        <PICKUPBAG>
+            <TEXT>从医生那里拿走血袋，然后将其放入后备箱中的血液运输冷藏箱.</TEXT>
+            <TEXT></TEXT>
+        </PICKUPBAG>
+        <PUTBAGINTRUNK>
+            <TEXT>按 ~y~{Y}~s~ 将血袋放入后备箱.</TEXT>
+            <TEXT></TEXT>
+        </PUTBAGINTRUNK>
+        <DRIVETODESTINATIONHOSPITAL>
+            <TEXT>现在开车去医院, 他们已经在等你了.</TEXT>
+            <TEXT></TEXT>
+        </DRIVETODESTINATIONHOSPITAL>
+        <GRABFROMTRUNK>
+            <TEXT>从后备箱中取出带有~y~{Y}~s~的~r~血袋~s~.</TEXT>
+            <TEXT></TEXT>
+        </GRABFROMTRUNK>
+        <GIVEBAGTODOC>
+            <TEXT>现在把袋子带给医生!</TEXT>
+            <TEXT></TEXT>
+        </GIVEBAGTODOC>
+        <AUTOEND>
+            <TEXT>您已 ~g~成功~s~ 送达 ~r~血袋!</TEXT>
+            <TEXT>{CalloutMessage} 已结束.</TEXT>
+        </AUTOEND>
+    </STATE>
+</CALLOUT>

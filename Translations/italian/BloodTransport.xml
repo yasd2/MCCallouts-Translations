@@ -1,0 +1,31 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>"Trasporto d'emergenza di sangue</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Un paziente necessita urgentemente di sangue</CALLOUTADVISORY>
+    <TASK>Guida fino alla posizione.</TASK>
+    <STATE>
+        <PICKUPBAG>
+            <TEXT>Prendi la sacca di sangue dal medico, poi mettila nel bagagliaio.</TEXT>
+            <TEXT></TEXT>
+        </PICKUPBAG>
+        <PUTBAGINTRUNK>
+            <TEXT>Premi ~y~{Y}~s~ per mettere la sacca di sangue nel bagagliaio.</TEXT>
+            <TEXT></TEXT>
+        </PUTBAGINTRUNK>
+        <DRIVETODESTINATIONHOSPITAL>
+            <TEXT>Ora guida fino all'ospedale, stanno già aspettando la tua consegna.</TEXT>
+            <TEXT></TEXT>
+        </DRIVETODESTINATIONHOSPITAL>
+        <GRABFROMTRUNK>
+            <TEXT>Prendi la ~r~sacca di sangue~s~ con ~y~{Y}~s~ dal bagagliaio.</TEXT>
+            <TEXT></TEXT>
+        </GRABFROMTRUNK>
+        <GIVEBAGTODOC>
+            <TEXT>Ora porta la sacca al medico!</TEXT>
+            <TEXT></TEXT>
+        </GIVEBAGTODOC>
+        <AUTOEND>
+            <TEXT>Hai ~g~consegnato con successo~s~ la ~r~sacca di sangue!</TEXT>
+            <TEXT>{CalloutMessage} è terminato.</TEXT>
+        </AUTOEND>
+    </STATE>
+</CALLOUT>

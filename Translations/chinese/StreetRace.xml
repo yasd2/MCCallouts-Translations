@@ -1,0 +1,45 @@
+<StreetRace>
+
+    <CalloutMessage>卧底街头赛车行动</CalloutMessage>
+    <CalloutAdvisory>~s~查看可能~y~进行街头赛车比赛~s~ 的 ~o~现场~s~</CalloutAdvisory>
+    <Task>开车前往~y~竞赛现场.</Task>
+
+    <Telephone>
+        <Help>您可以用这个调节电话音量 {J}</Help>
+        <Ring>*P电话铃声* - 按两次 ~y~{Y}~s~ 接听电话.</Ring>
+        <Dialogue>~g~Detective:~s~ 嘿，我是 Barker 警探！我们有一个新的任务要做.</Dialogue>
+        <Dialogue>~g~Detective:~s~ 在~y~{ZONE}有一个汽车竞赛.</Dialogue>
+        <Dialogue>~g~Detective:~s~ 你的任务是秘密前往那里，假装是一名汽车观察员.</Dialogue>
+        <Dialogue>~g~Detective:~s~ 如果发生街头赛车比赛，你可以立即呼叫追捕，也可以等待一会儿.</Dialogue>
+        <Dialogue>~g~Detective:~s~ 现在开车去汽车街头竞赛现场。祝你好运!</Dialogue>
+    </Telephone>
+
+    <Driver1>
+        <Dialogue>~o~{NAME}:~s~嘿，伙计！您在寻找速度快、外观漂亮的车辆吗?</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ 看看我的~b~{CARMODEL}!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ 如果你想坐进去，那就进去吧，但不要开着它到处跑!</Dialogue>
+    </Driver1>
+
+    <Driver6>
+        <Dialogue>~o~{NAME}:~s~ 这里真是个汽车聚会的好地方!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ 这些人都有相同的爱好 - 很棒的家伙!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ 然后还有警察，总是试图破坏我们的乐趣。但我不明白为什么...</Dialogue>
+    </Driver6>
+
+    <DriveToMeeting>与现场的 ~o~人员~s~交谈.</DriveToMeeting>
+
+    <Scenario>
+        <NoRace>Dispatch, 这里没有街头赛车, Code 4.</NoRace>
+        <Race>~o~Driver:~s~ 好吧，谁准备好街头赛车了？试着超越我!</Race>
+    </Scenario>
+
+    <RaceActive>
+        <Help>您可以随时使用~y~{9}呼叫~r~支援~s~ !</Help>
+        <Dialogue>Dispatch, 有一场~r~激烈的街头竞赛~s~, 请派出更多增援单位!</Dialogue>
+    </RaceActive>
+
+    <Surrender>嫌疑人正在投降.</Surrender>
+
+    <End>街头赛车已结束.</End>
+
+</StreetRace>

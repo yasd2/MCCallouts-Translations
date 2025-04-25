@@ -1,0 +1,37 @@
+<TropicalJustice>
+
+    <CalloutMessage>Operation Tropical Justice</CalloutMessage>
+    <CalloutAdvisory>~s~A ~r~dangerous cartel boss~s~ has barricaded himself in a fortified compound on ~o~Cayo Perico~s~</CalloutAdvisory>
+    <Task>Drive to the ~g~airport.</Task>
+
+    <Detective>
+        <Help>Talk to the ~g~Detective~s~ with {Y}</Help>
+        <Dialogue>Good day! We have a major mission ahead — it's called ~g~Operation Tropical Justice!</Dialogue>
+        <Dialogue>You'll be flying to ~g~Cayo Perico~s~, where the ~r~Mafia Boss~s~ is hiding.</Dialogue>
+        <Dialogue>After landing, you'll need to drive for a while until you reach his ~y~property~s~.</Dialogue>
+        <Dialogue>Search for him carefully, but stay alert — there are ~r~armed guards~s~!</Dialogue>
+        <Dialogue>Arrest the ~r~boss~s~, then fly back to ~o~Los Santos~s~ and put him behind bars.</Dialogue>
+        <Dialogue>I recommend wearing ~b~armor~s~ and bringing a reliable ~p~rifle.~s~ Good luck!</Dialogue>
+        <Help>Get into the ~o~plane~s~ or the ~o~helicopter~s~ – the choice is yours!</Help>
+    </Detective>
+
+    <Help>
+        <Text>Fly to the ~o~destination~s~ marked on your gps. You can ~y~skip the flight~s~ with {J}</Text>
+        <Text>Get in the ~HC_10~unmarked police vehicle.</Text>
+        <Text>Drive to the ~y~property.</Text>
+        <Text>Search for the ~r~mafia boss~s~! Be careful, there are ~r~armed guards!</Text>
+        <Text>You found the ~r~boss~s~, arrest him!</Text>
+        <Text>Take the ~r~boss~s~ to your vehicle and drive back to the airport.</Text>
+        <Text>You can take the suspect to jail or end the callout.</Text>
+        <Text>Press {End} to ~r~end the operation.</Text>
+        <Text>Operation Tropical Justice has ended.</Text>
+    </Help>
+
+    <Mission>
+        <Text>~g~Mission passed</Text>
+        <Text>~r~Mission failed</Text>
+    </Mission>
+
+    <Warper>Press {J} to enter/exit the ~y~property</Warper>
+
+</TropicalJustice>
