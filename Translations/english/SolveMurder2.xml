@@ -1,171 +1,171 @@
 <SolveMurder2>
 
     <General>
-        <Text>需要~p~警探~s~来侦查谋杀案</Text>
-        <Text>~g~Dispatch~s~: 开车去洛斯圣都的镜子公园，需要 ~p~警探~w~.</Text>
+        <Text>~p~Detective~s~ at murder case required</Text>
+        <Text>~g~Dispatch~s~: Drive to the Mirror Park in Los Santos, ~p~Detective~w~ required.</Text>
     </General>
 
     <Officer>
-        <Dialogue>去找~b~警官~w~ 交谈并使用 </Dialogue>
-        <Dialogue>~b~警员~s~: 你好，警探！我叫 ~g~Jack Walter~s~, 叫我杰克就好。希望交通没太拥堵.</Dialogue>
-        <Dialogue>~y~警员~s~: 你好！不，还好。我们这是怎么了?</Dialogue>
-        <Dialogue>~b~Jack~s~: 这有一具~g~尸体~s~, 可能被谋杀了, ~g~那边的~s~Dawson 警官有更多信息.</Dialogue>
-        <Dialogue>~b~Jack~s~: 另一边我们有 3 个可能的嫌疑人，其中一个就是打电话的人.</Dialogue>
-        <Dialogue>~y~警员~s~: 谢谢，那我就和~b~Dawson~s~警官谈谈.</Dialogue>
-        <Dialogue>去和 ~b~Dawson~s~警官交谈.</Dialogue>
+        <Dialogue>Go to the ~b~officer~w~ and talk to him using </Dialogue>
+        <Dialogue>~b~Officer~s~: Hello Detective! My name is ~g~Jack Walter~s~, just call me Jack. I hope traffic wasn't too bad.</Dialogue>
+        <Dialogue>~y~You~s~: Good day! No, it was okay. What do we got here?</Dialogue>
+        <Dialogue>~b~Jack~s~: We have a ~g~dead person~s~, possibly murdered, Officer Dawson ~g~over there~s~ has more info.</Dialogue>
+        <Dialogue>~b~Jack~s~: On the other side we have 3 possible suspects, one of them is the caller.</Dialogue>
+        <Dialogue>~y~You~s~: Thanks, I will talk to ~b~Officer Dawson~s~ then.</Dialogue>
+        <Dialogue>Go and talk to ~b~Officer Dawson~s~.</Dialogue>
     </Officer>
 
     <Officer2>
-        <Dialogue>去找~b~Officer Dawson~s~交谈并使用 </Dialogue>
-        <Dialogue>~y~警员~s~: 嘿，Dawson警官！Walter警官说你有一些信息?</Dialogue>
-        <Dialogue>~b~Officer~s~: 你好，侦探！你可以叫我艾丽卡!</Dialogue>
-        <Dialogue>~b~Erika~s~: 受害者是莉莉安娜·怀亚特，33岁，住在附近的尼古拉大道.</Dialogue>
-        <Dialogue>~b~Erika~s~: 是的，我们有 3 名可能的谋杀嫌疑人.</Dialogue>
-        <Dialogue>~b~Erika~s~:  其中一个人，贝尔·汉密尔顿，是打来电话的人，但她也可能是潜在的凶手.</Dialogue>
-        <Dialogue>~b~Erika~s~: 我建议你去犯罪现场调查一下，看看能不能找到一些东西.</Dialogue>
-        <Dialogue>前往犯罪现场并寻找~b~证据~s~.</Dialogue>
+        <Dialogue>Talk to ~b~Officer Dawson~s~ using </Dialogue>
+        <Dialogue>~y~You~s~: Hey, Officer Dawson! Officer Walter said you have some infos?</Dialogue>
+        <Dialogue>~b~Officer~s~: Good day Detective! You can call me Erika!</Dialogue>
+        <Dialogue>~b~Erika~s~: The victim is Lilliana Wyatt, 33 years old, had lived on Nikola Avenue nearby.</Dialogue>
+        <Dialogue>~b~Erika~s~: Yeah, we have 3 possible suspects for a potential murder.</Dialogue>
+        <Dialogue>~b~Erika~s~:  One of them, Belle Hamilton, is the caller, but she also could be the potential murderer.</Dialogue>
+        <Dialogue>~b~Erika~s~: I suggest you to go to the crimescene and investigate, see if you can find something.</Dialogue>
+        <Dialogue>Go to the crime scene and search for ~b~evidence~s~.</Dialogue>
     </Officer2>
 
     <Evidence>
-        <Text>~y~警员~s~: 她的头上有伤口，应该被那边的破瓶子砸到了...</Text>
-        <Text>一部手机……背景中是一辆 ~p~黑色的Obey Tailgater~s~...</Text>
-        <Text>嗯...吃了一半的汉堡...没什么意思.</Text>
-        <Text>血迹看起来还很新鲜，一定是在 2 小时以内发生的...</Text>
-        <Text>调查结束！前往~o~标记点~w~ 并使用与她交谈 </Text>
+        <Text>~y~You~s~: She has a wound to her head, she got hit with that broken bottle over there...</Text>
+        <Text>A mobile phone... The background shows a ~p~black Obey Tailgater~s~...</Text>
+        <Text>Hmmm... a half-eaten burger... not interesting.</Text>
+        <Text>The blood looks still fresh, it must have happened not longer than 2 hours ago...</Text>
+        <Text>Investigation finished! Go to the ~o~caller~w~ and talk to her using </Text>
     </Evidence>
 
     <Suspect1>
-        <Dialogue>去找~o~嫌疑人~w~交谈并使用 </Dialogue>
-        <Dialogue>~y~警员~s~: 你好！我是负责这个案子的警探。你叫什么名字?</Dialogue>
-        <Dialogue>~o~Caller~s~: 晚上好, 我叫贝尔·汉密尔顿. 我正走在街上，突然看到了她...</Dialogue>
-        <Dialogue>~y~警员~s~: 你给我们打电话是对的。我正在快速查看你的信息.</Dialogue>
-        <Dialogue>~y~警员~s~: Dispatch, 我可以派人去查看一下'贝尔·汉密尔顿'的情况吗?</Dialogue>
-        <Dialogue>请稍候，我正在检查.</Dialogue>
-        <Dialogue>~b~贝尔·汉密尔顿~s~</Dialogue>
-        <Dialogue>~g~没有搜查令</Dialogue>
-        <Dialogue>~g~不逮捕</Dialogue>
-        <Dialogue>~y~1张罚单：超速~s~</Dialogue>
-        <Dialogue>~y~警员~s~: 你的记录很干净。我还有几个问题想问你.</Dialogue>
-        <Dialogue>~y~警员~s~: 你认识受害者吗?</Dialogue>
-        <Dialogue>~o~Ms. Hamilton~s~: 不，我不知道。想象一下那些家庭成员的感受...</Dialogue>
-        <Dialogue>~y~警员~s~: 我们会处理的。我可以看看你的手机吗?</Dialogue>
-        <Dialogue>*展示手机*</Dialogue>
-        <Dialogue>~o~汉密尔顿女士~s~: 在这儿，但是……啊啊……里面有我的私人照片，我不能泄露出去.</Dialogue>
-        <Dialogue>~y~警员~s~: 你可以留着它。啊，你开的什么车？车牌号是多少?</Dialogue>
-        <Dialogue>~o~汉密尔顿女士~s~: 我开的是 Lampadati Pigalle，车牌号为 86LUN445.</Dialogue>
-        <Dialogue>~y~警员~s~: Dispatch, 帮我查一下车牌，号码是 86LUN445.</Dialogue>
-        <Dialogue>Copy, 稍等.</Dialogue>
+        <Dialogue>Talk to the ~o~suspect~w~ using </Dialogue>
+        <Dialogue>~y~You~s~: Hello there! I'm the Detective in this case. What's your name?</Dialogue>
+        <Dialogue>~o~Caller~s~: Good evening, my name is Belle Hamilton. I was walking down the street when I saw her...</Dialogue>
+        <Dialogue>~y~You~s~: You did the right thing by calling us. I'm quickly checking your details.</Dialogue>
+        <Dialogue>~y~You~s~: Dispatch, can I have a person check on 'Belle Hamilton'?</Dialogue>
+        <Dialogue>Standby, I'm checking.</Dialogue>
+        <Dialogue>~b~Belle Hamilton~s~</Dialogue>
+        <Dialogue>~g~No warrants</Dialogue>
+        <Dialogue>~g~No arrests</Dialogue>
+        <Dialogue>~y~1 citation: Speeding~s~</Dialogue>
+        <Dialogue>~y~You~s~: Your record is clean. I still have some questions for you.</Dialogue>
+        <Dialogue>~y~You~s~: Do you know the victim?</Dialogue>
+        <Dialogue>~o~Ms. Hamilton~s~: No, I don't. Imagine the family members, how they must feel...</Dialogue>
+        <Dialogue>~y~You~s~: We'll take care of them. May I please see your mobile phone?</Dialogue>
+        <Dialogue>*shows mobile phone*</Dialogue>
+        <Dialogue>~o~Ms. Hamilton~s~: Here, but... aaah... there are private photos of me, I can't give it away.</Dialogue>
+        <Dialogue>~y~You~s~: You can keep it. Ah, what vehicle do you drive and what is the license plate?</Dialogue>
+        <Dialogue>~o~Ms. Hamilton~s~: I drive a Lampadati Pigalle, License Plate 86LUN445.</Dialogue>
+        <Dialogue>~y~You~s~: Dispatch, I need a vehicle check on 86LUN445.</Dialogue>
+        <Dialogue>Copy, give me a minute.</Dialogue>
         <Dialogue>~b~86LUN445~s~</Dialogue>
-        <Dialogue>~g~型号~s~: Lampadati Pigalle</Dialogue>
-        <Dialogue>~b~所有者~s~: 贝尔·汉密尔顿</Dialogue>
-        <Dialogue>~r~保险已过期~s~</Dialogue>
-        <Dialogue>~y~警员~s~: 好吧，但是您的车辆保险已过期，您应该续保.</Dialogue>
-        <Dialogue>~o~汉密尔顿女士~s~: 哦，谢谢。我不知道，我会续保的.</Dialogue>
-        <Dialogue>~y~警员~s~: 就这样吧，请等待进一步的指示.</Dialogue>
-        <Dialogue>现在去找下一个~o~嫌疑人~s~并与他交谈.</Dialogue>
+        <Dialogue>~g~Model~s~: Lampadati Pigalle</Dialogue>
+        <Dialogue>~b~Owner~s~: Belle Hamilton</Dialogue>
+        <Dialogue>~r~Expired insurance~s~</Dialogue>
+        <Dialogue>~y~You~s~: Alright, but your vehicle has expired insurance, you should renew it.</Dialogue>
+        <Dialogue>~o~Ms. Hamilton~s~: Oh, thanks. I didn't know that, I will do that.</Dialogue>
+        <Dialogue>~y~You~s~: That would be all, please wait for further instructions.</Dialogue>
+        <Dialogue>Now go to the next ~o~suspect~s~ and talk to him.</Dialogue>
 
-        <Dialogue>~y~警员~s~: 就这样吧，感谢您抽出时间.</Dialogue>
+        <Dialogue>~y~You~s~: That would be all, thanks for your time.</Dialogue>
     </Suspect1>
 
     <Suspect2>
-        <Dialogue>与~o~他~s~交谈并使用 </Dialogue>
-        <Dialogue>~y~警员~s~: 晚上好，先生！我是警局的警探。请问您贵姓?</Dialogue>
-        <Dialogue>~o~嫌疑人~s~: 您好，警探，我叫 Talon Knight, 出生于 1992 年 12 月 12 日. 我为什么被关在这里?</Dialogue>
-        <Dialogue>~y~警员~s~: 事情发生时你就在现场.</Dialogue>
-        <Dialogue>~o~Talon~s~: 这违背我的意愿！放我走，我什么都没做!</Dialogue>
-        <Dialogue>~y~警员~s~: 回答完我的问题后就可以了。你住在哪里?</Dialogue>
-        <Dialogue>~o~Talon~s~: 我住在附近，离这儿有两个街区.</Dialogue>
-        <Dialogue>~y~警员~s~: 你认识受害者吗?</Dialogue>
-        <Dialogue>~o~Talon~s~: 不是吗?</Dialogue>
-        <Dialogue>~y~警员~s~: 你住在受害者附近，却告诉我你不认识 Lilliana Wyatt?</Dialogue>
-        <Dialogue>~o~Talon~s~: 好吧，我认识她，我只是不喜欢她，她不太友好，也不活跃，在邻里之间也不受欢迎...</Dialogue>
-        <Dialogue>~o~Talon~s~: 她曾经报警，因为我的狗在晚上 10 点后不久叫了几声...</Dialogue>
-        <Dialogue>~y~警员~s~: 嗯……好的，你能给我看一下你的手机吗?</Dialogue>
-        <Dialogue>~o~Talon~s~: 我想买，但是我上周把它摔了，送去修理店了。大概要花100美元...</Dialogue>
-        <Dialogue>~y~警员~s~: 明白了。您开的是什么车？车牌号是多少?</Dialogue>
-        <Dialogue>~o~Talon~s~: 我有一辆威皮小型货车，我的车牌是……啊……47LIF……341.</Dialogue>
-        <Dialogue>~y~警员~s~: Dispatch, 我需要对 47LIF341 进行车牌检查.</Dialogue>
-        <Dialogue>Copy, 请等待.</Dialogue>
+        <Dialogue>Talk to ~o~him~s~ using </Dialogue>
+        <Dialogue>~y~You~s~: Good evening, Sir! I'm the local Detective. May I have your name, please?</Dialogue>
+        <Dialogue>~o~Suspect~s~: Hello Detective, my name is Talon Knight, born 12th December 1992. Why am I being held here?</Dialogue>
+        <Dialogue>~y~You~s~: You were in the area as this happened.</Dialogue>
+        <Dialogue>~o~Talon~s~: That's against my will! Let me go, I haven't done anything!</Dialogue>
+        <Dialogue>~y~You~s~: Once you've answered my questions, you can. Where do you live?</Dialogue>
+        <Dialogue>~o~Talon~s~: I live nearby, 2 blocks away.</Dialogue>
+        <Dialogue>~y~You~s~: And do you know the victim?</Dialogue>
+        <Dialogue>~o~Talon~s~: No?</Dialogue>
+        <Dialogue>~y~You~s~: You live near the victim and you tell me you don't know Lilliana Wyatt?</Dialogue>
+        <Dialogue>~o~Talon~s~: Ok, I know her, I just don't like her, she wasn't very friendly nor active or liked in the neighbourhood...</Dialogue>
+        <Dialogue>~o~Talon~s~: She once called the cops on me, because my dog was barking a few times, shortly after 10 pm...</Dialogue>
+        <Dialogue>~y~You~s~: Hmmm... Ok, can you show me your cellphone, please?</Dialogue>
+        <Dialogue>~o~Talon~s~: I would like to, but I dropped it last week and gave it to a repair shop. It'll cost around 100$...</Dialogue>
+        <Dialogue>~y~You~s~: Understood. What vehicle do you drive and what is the license plate?</Dialogue>
+        <Dialogue>~o~Talon~s~: I have a Vapid Minivan, my license plate is... aaaah... 47LIF... 341.</Dialogue>
+        <Dialogue>~y~You~s~: Dispatch, I need a plate check on 47LIF341.</Dialogue>
+        <Dialogue>Copy, please standby.</Dialogue>
         <Dialogue>~b~47LIF341~s~</Dialogue>
-        <Dialogue>~g~型号~s~: 威皮小型货车</Dialogue>
-        <Dialogue>~b~所有者~s~: Talon Knight</Dialogue>
-        <Dialogue>~y~注意：车辆注册于 4 个月前~s~</Dialogue>
-        <Dialogue>~y~警员~s~: Dispatch, 请查一下这个名字'Talon Knight', please.</Dialogue>
-        <Dialogue>请稍候, 正在检查.</Dialogue>
+        <Dialogue>~g~Model~s~: Vapid Minivan</Dialogue>
+        <Dialogue>~b~Owner~s~: Talon Knight</Dialogue>
+        <Dialogue>~y~Note: Vehicle registered 4 months ago~s~</Dialogue>
+        <Dialogue>~y~You~s~: Dispatch, check the name 'Talon Knight', please.</Dialogue>
+        <Dialogue>Standby, I'm checking.</Dialogue>
         <Dialogue>~b~Talon Knight~s~</Dialogue>
-        <Dialogue>~g~不逮捕</Dialogue>
-        <Dialogue>~y~1张罚单: 在街道错误的一侧停车~s~</Dialogue>
-        <Dialogue>~y~警员~s~: 你的记录看起来很干净，等我处理完后，我会再回来找你.</Dialogue>
-        <Dialogue>~o~Talon~s~: 好吧!</Dialogue>
-        <Dialogue>与最后一名 ~o~嫌疑人~s~交谈.</Dialogue>
+        <Dialogue>~g~No arrests</Dialogue>
+        <Dialogue>~y~1 citation: Parking on the wrong side of the street~s~</Dialogue>
+        <Dialogue>~y~You~s~: Your record looks clean, once I'm finished, I will come back to you.</Dialogue>
+        <Dialogue>~o~Talon~s~: Alright!</Dialogue>
+        <Dialogue>Talk to the last ~o~suspect~s~.</Dialogue>
     </Suspect2>
 
     <Suspect3>
-        <Dialogue>与~o~她~s~交谈并使用 </Dialogue>
-        <Dialogue>~y~警员~s~: 晚上好，女士！我是警局的警探。请问您贵姓?</Dialogue>
-        <Dialogue>~o~嫌疑人~s~: 你好，我叫 Nylah Lane.</Dialogue>
-        <Dialogue>~y~警员~s~: 明白了. Dispatch, 能帮我查一下Nylah Lane吗?</Dialogue>
-        <Dialogue>Copy that, 正在查询.</Dialogue>
+        <Dialogue>Talk to ~o~her~s~ using </Dialogue>
+        <Dialogue>~y~You~s~: Hello Ms! I'm the detective in this case, can you give me your name, please?</Dialogue>
+        <Dialogue>~o~Suspect~s~: Hello there, my name is Nylah Lane.</Dialogue>
+        <Dialogue>~y~You~s~: Gotcha. Dispatch, can I have a name check on Nylah Lane?</Dialogue>
+        <Dialogue>Copy that, searching.</Dialogue>
         <Dialogue>~b~Nylah Lane~s~</Dialogue>
-        <Dialogue>~g~没有搜查令~s~</Dialogue>
-        <Dialogue>~g~不逮捕</Dialogue>
-        <Dialogue>~y~1张罚单: 在残疾人停车位停车~s~</Dialogue>
-        <Dialogue>~y~警员~s~: 好的，听起来不错。你住在哪里?</Dialogue>
-        <Dialogue>~o~Nylah~s~: 我住在好麦坞山，我在那里有一套公寓.</Dialogue>
-        <Dialogue>~y~警员~s~: 哇，那地方真适合居住！能让我看看你的手机吗?</Dialogue>
-        <Dialogue>~o~Nylah~s~: 是的，它在我的……哦，该死，它在哪里？……也许我把它落在车里了.</Dialogue>
-        <Dialogue>~y~警员~s~: 哦，希望如此。那你开什么车?</Dialogue>
-        <Dialogue>~o~Nylah~s~: 我开的是……啊……格罗蒂……毒刺，是的.</Dialogue>
-        <Dialogue>~y~警员~s~: 好的，车牌号是多少?</Dialogue>
-        <Dialogue>~o~Nylah~s~: ... 啊啊，我不知道.</Dialogue>
-        <Dialogue>~y~警员~s~: 您不知道自己车辆的车牌号吗?</Dialogue>
-        <Dialogue>~o~Nylah~s~: 是的，我的意思是……这很复杂...</Dialogue>
-        <Dialogue>~y~警员~s~: 好吧，随便你. Dispatch, 我需要检查一下~b~Grotti Stinger~s~,的车牌，主人是~s~.</Dialogue>
-        <Dialogue>10-4, 正在查询.</Dialogue>
-        <Dialogue>此组合没有结果，让我检查一下所有者.</Dialogue>
-        <Dialogue>我发现车主有另一辆车:</Dialogue>
+        <Dialogue>~g~No warrants~s~</Dialogue>
+        <Dialogue>~g~No arrests</Dialogue>
+        <Dialogue>~y~1 citation: Parking in disabled parking space~s~</Dialogue>
+        <Dialogue>~y~You~s~: Alright, sounds good. Where do you live?</Dialogue>
+        <Dialogue>~o~Nylah~s~: I live in Vinewood Hills, I have a flat there.</Dialogue>
+        <Dialogue>~y~You~s~: Wow, thats a nice place to live! Can I see your cellphone, please?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Yeah sure, it's in my ... Oh, sh*t, where is it?... Maybe I left it in my car, then.</Dialogue>
+        <Dialogue>~y~You~s~: Oh, I hope so. So what car do you drive?</Dialogue>
+        <Dialogue>~o~Nylah~s~: I drive a... aaaaah... Grotti ... Stinger, yeah.</Dialogue>
+        <Dialogue>~y~You~s~: Ok, what's the license plate?</Dialogue>
+        <Dialogue>~o~Nylah~s~: ... Aaah, I don't know.</Dialogue>
+        <Dialogue>~y~You~s~: You don't know the license plate of your own vehicle?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Yeah, I mean... it's complicated...</Dialogue>
+        <Dialogue>~y~You~s~: Okay, whatever. Dispatch, I need a plate check a ~b~Grotti Stinger~s~, owner is ~b~Nylah Lane~s~.</Dialogue>
+        <Dialogue>10-4, searching.</Dialogue>
+        <Dialogue>No results on this combination, let me check the owner.</Dialogue>
+        <Dialogue>I found a different vehicle on the owner:</Dialogue>
         <Dialogue>~b~58RLD582~s~</Dialogue>
-        <Dialogue>~y~型号~s~: Obey Tailgater</Dialogue>
-        <Dialogue>~b~所有者~s~: Nylah Lane</Dialogue>
-        <Dialogue>~y~警员~s~: 有意思。女士，你为什么要谎报你的车呢?</Dialogue>
-        <Dialogue>~o~Nylah~s~: 你什么意思？我是说……我有两辆车……不是吗?</Dialogue>
-        <Dialogue>~y~警员~s~: 真搞笑，你也对你的手机撒谎了吗?</Dialogue>
-        <Dialogue>~o~Nylah~s~: 你在附近找到它了吗？所以才问这个?</Dialogue>
-        <Dialogue>~y~警员~s~: ... 你和受害者是什么关系?</Dialogue>
-        <Dialogue>~o~Nylah~s~: 她是我的表妹，她欠我很多钱.</Dialogue>
-        <Dialogue>~y~警员~s~: 这就是你谋杀她的原因吗?</Dialogue>
-        <Dialogue>~o~Nylah~s~: 我只是开车去她家，与她对质债务问题.</Dialogue>
-        <Dialogue>~y~警员~s~: 感谢您的合作，我会再回来找您的.</Dialogue>
-        <Dialogue>再次与~b~Officer Erika~s~ 交谈.</Dialogue>
+        <Dialogue>~y~Model~s~: Obey Tailgater</Dialogue>
+        <Dialogue>~b~Owner~s~: Nylah Lane</Dialogue>
+        <Dialogue>~y~You~s~: Interesting. Ms, why did you lie about your vehicle?</Dialogue>
+        <Dialogue>~o~Nylah~s~: What do you mean? I mean.. I have 2 vehicles... or do I?</Dialogue>
+        <Dialogue>~y~You~s~: Very funny, did you lie about your phone, too?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Have you found it nearby? Is that why you asking?</Dialogue>
+        <Dialogue>~y~You~s~: ... What's your relation to the victim?</Dialogue>
+        <Dialogue>~o~Nylah~s~: She's my cousin and she owes me money, a lot.</Dialogue>
+        <Dialogue>~y~You~s~: Is that why you murdered her?</Dialogue>
+        <Dialogue>~o~Nylah~s~: I only drove to her house to confront her about the debts.</Dialogue>
+        <Dialogue>~y~You~s~: Thank you for your cooperation, I'll come back to you.</Dialogue>
+        <Dialogue>Talk to ~b~Officer Erika~s~ again.</Dialogue>
     </Suspect3>
 
     <Officer3>
-        <Dialogue>再次与~b~Officer~w~ 交谈并使用 </Dialogue>
-        <Dialogue>~y~警员~s~: 好的，我已经搜查了犯罪现场并与嫌疑人交谈过了.</Dialogue>
-        <Dialogue>~b~Erika~s~: 你能找出凶手是谁吗?</Dialogue>
-        <Dialogue>Press {1} ~r~切换为~s~, {2} ~o~切换为 Talon Knight~s~ 或按 {3} ~y~切换为~s~!</Dialogue>
+        <Dialogue>Go talk to the ~b~Officer~w~ again using </Dialogue>
+        <Dialogue>~y~You~s~: Alright, I've searched the crime scene and talked to the suspects.</Dialogue>
+        <Dialogue>~b~Erika~s~: And could you find out who the murderer is?</Dialogue>
+        <Dialogue>Press {1} ~r~for Belle Hamilton~s~, {2} ~o~for Talon Knight~s~ or {3} ~y~for Nylah Lane~s~!</Dialogue>
 
-        <Dialogue>~y~警员~s~: ... ~r~Belle Hamilton~s~!</Dialogue>
-        <Dialogue>~y~警员~s~: 汉密尔顿女士不想给我看他们的手机内容，并说事发时她就在附近!</Dialogue>
-        <Dialogue>~y~警员~s~: 她是凶手!</Dialogue>
+        <Dialogue>~y~You~s~: ... ~r~Belle Hamilton~s~!</Dialogue>
+        <Dialogue>~y~You~s~: Ms. Hamilton didn't want to show me their phone content and said she was in the area when it happened!</Dialogue>
+        <Dialogue>~y~You~s~: She's the murderer!</Dialogue>
 
-        <Dialogue>~y~警员~s~: ... ~o~Talon Knight~s~!</Dialogue>
-        <Dialogue>~y~警员~s~: 奈特先生不喜欢受害者，而且住在附近!</Dialogue>
-        <Dialogue>~y~警员~s~: 他也不能给我看他的手机！他就是凶手!</Dialogue>
+        <Dialogue>~y~You~s~: ... ~o~Talon Knight~s~!</Dialogue>
+        <Dialogue>~y~You~s~: Mr. Knight didn't like the victim and lives nearby!</Dialogue>
+        <Dialogue>~y~You~s~: He also couldn't show me his cellphone! He's the murderer!</Dialogue>
 
-        <Dialogue>~y~警员~s~: ... ~y~Nylah Lane~s~!</Dialogue>
-        <Dialogue>~y~警员~s~: 事发时，莱恩女士就在现场，并且与受害者有亲戚关系!</Dialogue>
-        <Dialogue>~y~警员~s~: 她对她的车和手机撒了谎!</Dialogue>
-        <Dialogue>~y~警员~s~: 她的手机显示了她的车到过现场。她在现场丢失了它。她就是凶手!</Dialogue>
+        <Dialogue>~y~You~s~: ... ~y~Nylah Lane~s~!</Dialogue>
+        <Dialogue>~y~You~s~: Ms. Lane was around as it happened and is related to the victim!</Dialogue>
+        <Dialogue>~y~You~s~: She lied about her vehicle and her cellphone!</Dialogue>
+        <Dialogue>~y~You~s~: Her cellphone shows her vehicle. She lost it on the scene. She's the murderer!</Dialogue>
 
-        <Dialogue>~b~Erika~s~: 哦，明白了！快去逮捕那个~r~嫌疑犯~s~!</Dialogue>
+        <Dialogue>~b~Erika~s~: Oh, I see! Go ahead and arrest the ~r~suspect~s~!</Dialogue>
     </Officer3>
 
     <Arrest>
-        <Text>你成功逮捕了 ~r~凶手~s~! ~g~清理现场~s~!</Text>
-        <Text>哦不, 你~y~抓错~s~ 人了! ~g~快清理现场~s~!</Text>
-        <Text>一名~o~嫌疑人~s~已死亡 ~r~died~s~.{0}现场 ~g~Code 4~s~, ~g~请清理现场~s~!</Text>
-        <Text>一名~b~警官~s~ 已 ~r~死亡~s~.{0}现场 ~g~Code 4~s~.</Text>
+        <Text>You successfully arrested the ~r~murderer~s~! ~g~Clean the scene~s~!</Text>
+        <Text>Oh no, you've arrested the ~y~wrong~s~ person! ~g~Clean the scene~s~!</Text>
+        <Text>A ~o~suspect~s~ has ~r~died~s~.{0}Situation ~g~Code 4~s~, ~g~clean the scene~s~!</Text>
+        <Text>An ~b~Officer~s~ has ~r~died~s~.{0}Situation ~g~Code 4~s~.</Text>
 
     </Arrest>
 

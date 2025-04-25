@@ -1,0 +1,45 @@
+<StreetRace>
+
+    <CalloutMessage>Operation Undercover-Straßenrennen</CalloutMessage>
+    <CalloutAdvisory>~s~Überprüfen Sie ein ~y~Autotreffen~s~ mit ~o~möglichem Straßenrennen~s~</CalloutAdvisory>
+    <Task>Fahren Sie zum ~y~Autotreffen.</Task>
+
+    <Telephone>
+        <Help>Sie können die Telefonlautstärke mit {J} anpassen</Help>
+        <Ring>*Telefon klingelt* - Drücken Sie ~y~{Y}~s~ zweimal, um den Anruf anzunehmen.</Ring>
+        <Dialogue>~g~Detektiv:~s~ Hallo, hier ist Detektiv Barker! Wir haben eine neue Mission für Sie.</Dialogue>
+        <Dialogue>~g~Detektiv:~s~ Es findet ein Autotreffen in ~y~{ZONE} statt.</Dialogue>
+        <Dialogue>~g~Detektiv:~s~ Ihre Aufgabe ist es, dort undercover als Autoscout zu gehen.</Dialogue>
+        <Dialogue>~g~Detektiv:~s~ Falls ein Straßenrennen beginnt, können Sie sofort Verstärkung anfordern oder kurz abwarten.</Dialogue>
+        <Dialogue>~g~Detektiv:~s~ Fahren Sie jetzt zum Autotreffen. Viel Erfolg!</Dialogue>
+    </Telephone>
+
+    <Driver1>
+        <Dialogue>~o~{NAME}:~s~ Hey Kollege! Suchen Sie nach schnellen, gut aussehenden Fahrzeugen?</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Schauen Sie sich meinen ~b~{CARMODEL} an!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Wenn Sie sich mal reinsetzen wollen, nur zu – aber fahren Sie nicht damit weg!</Dialogue>
+    </Driver1>
+
+    <Driver6>
+        <Dialogue>~o~{NAME}:~s~ Na hallo! Was für ein schöner Ort für ein Autotreffen!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ All diese Leute mit dem gleichen Hobby – tolle Leute!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Und dann sind da noch die Bullen, die uns immer den Spaß verderben wollen. Verstehe ich nicht...</Dialogue>
+    </Driver6>
+
+    <DriveToMeeting>Sprechen Sie mit den ~o~Anwesenden~s~ vor Ort.</DriveToMeeting>
+
+    <Scenario>
+        <NoRace>Leitstelle, hier findet kein Straßenrennen statt, wir sind Code 4.</NoRace>
+        <Race>~o~Fahrer:~s~ Okay, wer ist bereit für ein Straßenrennen? Versuchen Sie, mich zu überholen!</Race>
+    </Scenario>
+
+    <RaceActive>
+        <Help>Sie können jederzeit eine ~r~Verfolgungsjagd~s~ mit ~y~{9}~s~ durchgeben!</Help>
+        <Dialogue>Leitstelle, wir haben ein ~r~aktives Straßenrennen~s~, mehr Einheiten benötigt!</Dialogue>
+    </RaceActive>
+
+    <Surrender>Die Verdächtigen ergeben sich.</Surrender>
+
+    <End>Straßenrennen beendet.</End>
+
+</StreetRace>

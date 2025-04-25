@@ -1,0 +1,31 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Nouzový prevoz krve</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Pacient naléhave potrebuje krev</CALLOUTADVISORY>
+    <TASK>Dojedte na místo.</TASK>
+    <STATE>
+        <PICKUPBAG>
+            <TEXT>Vezmete si od lékare vak s krví a ulozte ho do kufru.</TEXT>
+            <TEXT></TEXT>
+        </PICKUPBAG>
+        <PUTBAGINTRUNK>
+            <TEXT>Stisknutím tlacítka ~y~{Y}~s~ vlozte vak s krví do kufru.</TEXT>
+            <TEXT></TEXT>
+        </PUTBAGINTRUNK>
+        <DRIVETODESTINATIONHOSPITAL>
+            <TEXT>Nyní jedte do nemocnice, kde uz cekají na vás porod.</TEXT>
+            <TEXT></TEXT>
+        </DRIVETODESTINATIONHOSPITAL>
+        <GRABFROMTRUNK>
+            <TEXT>Vezmete z kufru ~r~vak s krvý~s~ ~y~{Y}~s~.</TEXT>
+            <TEXT></TEXT>
+        </GRABFROMTRUNK>
+        <GIVEBAGTODOC>
+            <TEXT>Nyní doneste tasku k lékari!</TEXT>
+            <TEXT></TEXT>
+        </GIVEBAGTODOC>
+        <AUTOEND>
+            <TEXT>~g~Uspesne~s~ jsi dorucil ~r~vak s krví!</TEXT>
+            <TEXT>{CalloutMessage} je pod kodem ctyri.</TEXT>
+        </AUTOEND>
+    </STATE>
+</CALLOUT>

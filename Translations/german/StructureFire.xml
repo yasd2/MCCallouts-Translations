@@ -1,0 +1,46 @@
+<StructureFire>
+    <CalloutMessage>~r~~h~Gebäudebrand~h~~s~</CalloutMessage>
+    <Task>Fahren Sie mit Blaulicht zum ~r~brennenden Gebäude!</Task>
+    <State>
+        <Extinguish>
+            <Text>~o~Löschen Sie das Feuer selbst ~r~oder rufen Sie die Feuerwehr!</Text>
+            <Text>Alle Brände wurden gelöscht.</Text>
+        </Extinguish>
+        <Investigate>
+            <Text>Untersuchen Sie nun den Einsatzort nach Hinweisen zur Brandursache. Drücken Sie ~y~{Y}~s~, um Beweismittel aufzuheben.</Text>
+            <Text>Wir haben Informationen über den ungefähren Ort des Beweismittels erhalten.</Text>
+            <Text>Sie haben ein Beweismittel gefunden.</Text>
+        </Investigate>
+        <Manhunt>
+            <Text>Hinweisgeber haben uns den ungefähren Aufenthaltsort eines möglichen Verdächtigen gemeldet.</Text>
+        </Manhunt>
+        <End>
+            <Text>Der Gebäudebrand wurde beendet.</Text>
+        </End>
+    </State>
+    <Scenario>
+        <SecureSceneOnly>
+            <Text>Drücken Sie ~{End}~, um den Einsatz zu beenden.</Text>
+        </SecureSceneOnly>
+        <NoFire>
+            <Text>Glücklicherweise befindet sich an diesem Ort kein Feuer.</Text>
+        </NoFire>
+    </Scenario>
+    <SuspectAction>
+        <Ignoring>
+            <Text>Der Verdächtige scheint ~y~unbeeindruckt~s~ von Ihrem Erscheinen.</Text>
+        </Ignoring>
+        <Shooting>
+            <Text>~y~Sie: ~r~Schüsse abgefeuert!</Text>
+        </Shooting>
+        <Surrender>
+            <Text>Der Verdächtige ~g~ergibt sich.</Text>
+        </Surrender>
+        <Pursuit>
+            <Text>~y~Sie:~s~ Wir haben eine ~o~Verfolgung!</Text>
+        </Pursuit>
+    </SuspectAction>
+    <FireProgressBar>
+        <Text>~h~Gelöschte Brände~h~</Text>
+    </FireProgressBar>
+</StructureFire>

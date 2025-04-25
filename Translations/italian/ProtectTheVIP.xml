@@ -1,0 +1,31 @@
+<ProtectTheVIP>
+    <CalloutMessage>Protezione VIP</CalloutMessage>
+    <CalloutAdvisory>Proteggili dai membri di una gang!</CalloutAdvisory>
+    <Task>Guida verso il ~g~VIP.</Task>
+    <VIP>
+        <Dialogue>Ciao! Grazie per il tuo servizio, sono preso di mira da un cartello.</Dialogue>
+        <Dialogue>Ho ricevuto numerose minacce online contro la mia vita. Ho bisogno di protezione.</Dialogue>
+        <Dialogue>Sono il proprietario di ~HC_17~Rusty Brown's Ring Donuts.</Dialogue>
+        <Dialogue>Oh no, eccoli lì!</Dialogue>
+        <Task>Premi ~o~{Y}~s~ - Il VIP ~o~si sposta~s~ nella tua posizione corrente</Task>
+        <Task>Premi ~g~{J}:~s~ - attiva o disattiva se il VIP ~g~ti segue~s~</Task>
+        <Task>Controllo VIP</Task>
+        <Task>Azioni</Task>
+        <Dead>~r~Il VIP è morto</Dead>
+    </VIP>
+
+    <Difficulty>
+        <Title>Difficoltà</Title>
+        <Easy>Facile</Easy>
+        <Medium>Intermedia</Medium>
+        <Hard>Difficile</Hard>
+    </Difficulty>
+
+      <FightGang>
+        <Dialogue>~y~Tu:~s~ Muoviti proprio qui!</Dialogue>
+        <Dialogue>Seguimi!</Dialogue>
+        <Dialogue>Resta proprio qui!</Dialogue>
+    </FightGang>
+	
+    <End>~b~La protezione VIP è terminata.</End>
+</ProtectTheVIP>

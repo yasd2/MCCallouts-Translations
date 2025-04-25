@@ -1,0 +1,31 @@
+<ProtectTheVIP>
+    <CalloutMessage>Ochrana VIP osoby</CalloutMessage>
+    <CalloutAdvisory>Chrante ji pred cleny gangu!</CalloutAdvisory>
+    <Task>Dojedte do ~g~VIP zony.</Task>
+    <VIP>
+        <Dialogue>Dobrý den! Dekuji za vase sluzby, jsem cílem kartelu.</Dialogue>
+        <Dialogue>Na internetu mi bylo mnohokrát vyhrozováno smrtí. Potrebuji ochranu.</Dialogue>
+        <Dialogue>Jsem majitelem spolecnosti ~HC_17~Rusty Brown's Ring Donuts.</Dialogue>
+        <Dialogue>Ale ne, tady jsou!</Dialogue>
+        <Task>Stisknete ~o~{Y}~s~ - pro ~o~pohyb~s~ VIP osoby na aktuální pozici.</Task>
+        <Task>Stisknete ~g~{J}:~s~ - pro prepínání, zda vás VIP osoba ~g~pronásleduje~s~.</Task>
+        <Task>Ovládání VIP osoby</Task>
+        <Task>Akce</Task>
+        <Dead>~r~VIP osoba zemrel</Dead>
+    </VIP>
+
+    <Difficulty>
+        <Title>Obtíznost</Title>
+        <Easy>Snadná</Easy>
+        <Medium>Strední</Medium>
+        <Hard>Tezká</Hard>
+    </Difficulty>
+
+    <FightGang>
+        <Dialogue>~y~Ty:~s~ Presunte se sem!</Dialogue>
+        <Dialogue>Následujte me!</Dialogue>
+        <Dialogue>Zustante tady!</Dialogue>
+    </FightGang>
+
+    <End>~b~Ochrana VIP osoby je pod kodem ctyri.</End>
+</ProtectTheVIP>

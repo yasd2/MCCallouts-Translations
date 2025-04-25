@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<StructureFire>
+    <CalloutMessage>~r~~h~Incendio de estructura~h~~s~</CalloutMessage>
+    <Task>Conduce hasta el edificio en llamas. ¡Código 3!</Task>
+    <State>
+        <Extinguish>
+            <Text>¡~o~Apague el fuego usted mismo ~r~o llame a los bomberos!</Text>
+            <Text>Todos los incendios han sido extinguidos.</Text>
+        </Extinguish>
+        <Investigate>
+            <Text>Ahora busca en la escena pruebas relacionadas con el incendio. Pulsa ~y~{Y}~s~ para recogerla.</Text>
+            <Text>Hemos recibido información sobre el paradero de las pruebas.</Text>
+            <Text>Encontraste pruebas.</Text>
+        </Investigate>
+        <Manhunt>
+            <Text>Los llamantes nos han proporcionado la ubicación aproximada de un posible sospechoso.</Text>
+        </Manhunt>
+        <End>
+            <Text>El incendio de la estructura ha terminado.</Text>
+        </End>
+    </State>
+    <Scenario>
+        <SecureSceneOnly>
+            <Text>Pulse ~{Finalizar}~ para terminar la llamada.</Text>
+        </SecureSceneOnly>
+        <NoFire>
+            <Text>Por suerte no hay fuego en este lugar.</Text>
+        </NoFire>
+    </Scenario>
+    <SuspectAction>
+        <Ignoring>
+            <Text>El sospechoso parece no estar impresionado por tu apariencia.</Text>
+        </Ignoring>
+        <Shooting>
+            <Text>~y~Tú: ~r~¡Disparos!</Text>
+        </Shooting>
+        <Surrender>
+            <Text>El sospechoso se está entregando.</Text>
+        </Surrender>
+        <Pursuit>
+            <Text>~y~Tú:~s~ ¡Tenemos una ~o~persecución!</Text>
+        </Pursuit>
+    </SuspectAction>
+    <FireProgressBar>
+        <Text>~h~Incendios extinguidos~h~</Text>
+    </FireProgressBar>
+</StructureFire>

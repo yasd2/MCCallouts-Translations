@@ -1,0 +1,36 @@
+<CashTransport>
+
+    <General>
+        <Text>Transporte de Dinheiro de Alto Risco</Text>
+        <Text>Dirija até o ~g~~h~local da ocorrência~h~~s~.</Text>
+        <Text>Pressione {Y} para conversar</Text>
+        <Text>Dirija até o ~b~~h~destino~h~~s~.</Text>
+        <Text>Pressione {Y} a qualquer momento se o RIOT ficar preso.</Text>
+        <Text>Pegue a ~HC_3~~h~maleta de dinheiro~h~~s~ na parte de trás do ~r~~h~caminhão de valores~h~~s~.</Text>
+        <Text>Leve a maleta até dentro do banco.</Text>
+        <Text>Pressione ~y~~h~End~h~~s~ a qualquer momento para encerrar a ocorrência.</Text>
+    </General>
+
+    <Persons>
+        <Text>Segurança</Text>
+        <Text>Você</Text>
+        <Text>Gerente do Banco</Text>
+    </Persons>
+
+    <Guard>
+        <Dialogue>Olá, policial! Obrigado por vir! Temos uma entrega muito importante!</Dialogue>
+        <Dialogue>O caminhão blindado do banco vai entregar uma grande quantia de dinheiro no nosso destino.</Dialogue>
+        <Dialogue>Você vai dirigir o caminhão, e um veículo blindado da SWAT irá acompanhar.</Dialogue>
+        <Dialogue>Recebemos relatos de um possível ataque, por isso temos você e a equipe da SWAT conosco. Vamos nessa!</Dialogue>
+    </Guard>
+
+    <Bankman>
+        <Dialogue>Olá! Vejo que você chegou com vida! Agora você entende por que contratamos profissionais como você, e não como... meus colegas.</Dialogue>
+        <Dialogue>... com certeza. Pelo menos o veículo da SWAT é à prova de balas.</Dialogue>
+        <Dialogue>O caminhão de dinheiro também é blindado. Só as janelas não são.</Dialogue>
+        <Dialogue>Aqui está a maleta.</Dialogue>
+        <Dialogue>Perfeito, obrigado. Vou falar bem de você!</Dialogue>
+        <Dialogue>Espero que o risco tenha valido a pena. Tenha um bom dia!</Dialogue>
+    </Bankman>
+
+</CashTransport>

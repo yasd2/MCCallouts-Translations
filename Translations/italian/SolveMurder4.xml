@@ -1,0 +1,165 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>~HC_48~SolveMurder4</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>A corpse has been found next to a farm house in North Yankton</CALLOUTADVISORY>
+    <TASK>Drive to the ~b~scene, the officer~s~ waits there for you.</TASK>
+    <DIALOGUES>
+        <COP1>
+            <DIALOGUE>~b~Cop:~s~ Welcome to the cold and snowy North Yankton!</DIALOGUE>
+            <DIALOGUE>~b~Cop:~s~ Unfortunately we have a dead body over there. We don't know much yet, so you might search the scene first.</DIALOGUE>
+            <DIALOGUE>~b~Cop:~s~ After that we have three possible suspects. You'll have to drive down the road to talk to them.</DIALOGUE>
+            <DIALOGUE>~b~Cop:~s~ There is also a neighbour who told us he witnessed something...</DIALOGUE>
+        </COP1>
+        <COP1_MURDERERCHOSEN>
+            <DIALOGUE>~b~Cop:~s~ Tell me, who do you think is the murderer?</DIALOGUE>
+            <DIALOGUE>~b~Cop1:~s~ Arrest the ~r~murderer!</DIALOGUE>
+        </COP1_MURDERERCHOSEN>
+        <SUSPECT1_INNOCENT>
+            <DIALOGUE>~y~You:~s~ Hello sir, I have some questions for you. Your are a possible suspect in a recently homicide. What's your name?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ A homicide? That's horrible! My name is James Walker, you can call me Jimmy.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Do you smoke?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ No and I'm proud of it.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ What do you do for a living?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ I am a mechanic, I work on cars.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Do you drink alcohol?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ Not really, sometimes I drink a beer.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Do you own any guns?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ No, I don't.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Do you wear a watch?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ Yes, I have a lot of watches, I need them for work.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Where were you when the victim died?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ I spoke to a customer about his broken car, I told him it is unrepairable.</DIALOGUE>
+        </SUSPECT1_INNOCENT>
+        <SUSPECT1_GUILTY>
+            <DIALOGUE>~y~You:~s~ Hello sir, you are suspected the have murdered a person. I have some questions for you. Let's start with your name.</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ I didn't do nothing! My name is James Walker, my friends call me Jimmy.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Do you smoke?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ No and I'm proud of it.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ What do you do for a living?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ I am a mechanic, I work on cars.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Do you drink alcohol?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ Not really, sometimes I drink a beer.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Do you own any guns?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ No, I don't.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Do you wear a watch?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ Yes, right now I am... oh, I've lost it.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Where were you when the victim died?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ I... was in my garage fixing cars. I was the last one.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ In the evening?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ Yes, I have a lot to do.</DIALOGUE>
+        </SUSPECT1_GUILTY>
+        <SUSPECT2_INNOCENT>
+            <DIALOGUE>~y~You:~s~ Hello mam, you are suspected the have murdered a person. I have some questions for you. Let's start with your name.</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ Damn, a homicide? Me? I haven't done anything. My name is Lisa Carter.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Do you smoke?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ Yes, sometimes. Have you ever smoked weed?</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ ...What do you do for a living?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ I work in an office in the town.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Do you drink alcohol?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ Yeah, unfortunately a lot, sometimes whiskey, sometimes champagner.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Do you own any guns?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ I don't like guns, so no.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Do you wear a watch?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ I have one, but I never wear it. Why do you ask?</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Where were you when the victim died?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ I was out with a friend of mine, you can ask her.</DIALOGUE>
+        </SUSPECT2_INNOCENT>
+        <SUSPECT2_GUILTY>
+            <DIALOGUE>~y~You:~s~ Hello mam, you are suspected the have murdered a person. I have some questions for you. Let's start with your name.</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ Damn, a homicide? Me? I haven't done anything. My name is Lisa Carter.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Are you a smoker?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ Yes, sometimes I smoke. Do you smoke weed?</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ ...What is your job?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ I work in an office in the town.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Do you drink alcohol regularly?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ Yeah, unfortunately a lot, sometimes whiskey, sometimes champagner.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Do you carry a gun?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ I don't like guns, so no.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ What watches do you have?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ I have one, but I never wear it. Why do you ask?</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Where were you when the victim died?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ I was out partying in a club, I drank a lot of wine.</DIALOGUE>
+        </SUSPECT2_GUILTY>
+        <SUSPECT3_INNOCENT>
+            <DIALOGUE>~y~You:~s~ Hello sir, I have some questions for you. Your are a possible suspect in a recently homicide. What's your name?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ Damn, a homicide? Me? I haven't done anything. My name is Daniel or Danny Reed.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Are you a smoker?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ You know i am a hunter and you have a lot of time, so yes, I do smoke.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ What is your job?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ As I said, I am a hunter.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Do you drink alcohol regularly?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ No, not regulary, but I mean I have drank alcohol before.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Do you carry a gun?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ Not right now, but as a hunter you can imagine I have some.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ What watches do you have?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ I have one, it's a cheap model, because if it breaks, I can just buy another one.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Where were you when the victim died?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ I was at home with my wife, we were having dinner.</DIALOGUE>
+        </SUSPECT3_INNOCENT>
+        <SUSPECT3_GUILTY>
+            <DIALOGUE>~y~You:~s~ Hello sir, I have some questions for you. Your are a possible suspect in a recently homicide. What's your name?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ Damn, a homicide? Me? I haven't done anything. My name is Daniel or Danny Reed.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Are you a smoker?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ You know i am a hunter and you have a lot of time, so yes, I do smoke.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ What is your job?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ As I said, I am a hunter.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Do you drink alcohol regularly?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ No, not regulary, but I mean I have drank alcohol before.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Do you carry a gun?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ Yes... I think I have left it in my car, I can't find it.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ What watches do you have?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ Normally I carry one, but I can't find it, luckily it wasn't expensive.</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Where were you when the victim died?</DIALOGUE>
+            <DIALOGUE>~y~Suspect:~s~ I was out in the forest hunting, unfortunately I didn't catch anything.</DIALOGUE>
+        </SUSPECT3_GUILTY>
+        <WITNESS_SUSPECT1>
+            <DIALOGUE>~y~You:~s~ Hello sir, my partner told me you have witnessed something?</DIALOGUE>
+            <DIALOGUE>~g~Neighbour:~s~ Hi there, exactly, I want to report what I saw.</DIALOGUE>
+            <DIALOGUE>~g~Neighbour:~s~ I heard there was a murder around the time I drove past.</DIALOGUE>
+            <DIALOGUE>~g~Neighbour:~s~ I saw a car driving away from the scene; there wasn't much traffic at that time.</DIALOGUE>
+            <DIALOGUE>~g~Neighbour:~s~ It looked like a company vehicle; it was a larger van.</DIALOGUE>
+            <DIALOGUE>~g~Neighbour:~s~ Hopefully, this helps!</DIALOGUE>
+        </WITNESS_SUSPECT1>
+        <WITNESS_SUSPECT2>
+            <DIALOGUE>~y~You:~s~ Hello sir, my partner told me you have witnessed something?</DIALOGUE>
+            <DIALOGUE>~g~Neighbour:~s~ Hi there, exactly, I want to report what I saw.</DIALOGUE>
+            <DIALOGUE>~g~Neighbour:~s~ I heard a dead person was found outside of town.</DIALOGUE>
+            <DIALOGUE>~g~Neighbour:~s~ I saw a person walking away from this area, holding something in their hand.</DIALOGUE>
+            <DIALOGUE>~g~Neighbour:~s~ It was smoking; I assume it was a cigar.</DIALOGUE>
+            <DIALOGUE>~g~Neighbour:~s~ Sorry, that's all I know!</DIALOGUE>
+        </WITNESS_SUSPECT2>
+        <WITNESS_SUSPECT3>
+            <DIALOGUE>~y~You:~s~ Hello sir, my partner told me you have witnessed something?</DIALOGUE>
+            <DIALOGUE>~g~Neighbour:~s~ Good evening, I think I am a witness.</DIALOGUE>
+            <DIALOGUE>~g~Neighbour:~s~ I heard there was a murder around the time I drove past the area.</DIALOGUE>
+            <DIALOGUE>~g~Neighbour:~s~ I saw a car driving away from the scene; there wasn't much traffic at that time.</DIALOGUE>
+            <DIALOGUE>~g~Neighbour:~s~ The car was very dirty, and it had big tires.</DIALOGUE>
+            <DIALOGUE>~g~Neighbour:~s~ Hopefully, I was helpful!</DIALOGUE>
+        </WITNESS_SUSPECT3>
+    </DIALOGUES>
+    <STATE>
+        <SEARCHFOREVIDENCE>
+            <TEXT>Search for evidence on the street.</TEXT>
+            <TEXT>Evidence found!</TEXT>
+        </SEARCHFOREVIDENCE>
+        <TALKTOSUSPECTSWITNESS>
+            <TEXT>Talk to the ~y~suspects~s~ and the ~g~witness.</TEXT>
+        </TALKTOSUSPECTSWITNESS>
+        <ARRESTMURDERER>
+            <TEXT>~g~Correct murderer arrested</TEXT>
+            <TEXT>~r~Wrong person arrested</TEXT>
+        </ARRESTMURDERER>
+        <END>
+            <TEXT>{CalloutMessage} has ended.</TEXT>
+        </END>
+    </STATE>
+    <MENU>
+        <TITLE>Murderer</TITLE>
+        <SUBTITLE>The murderer is...</SUBTITLE>
+        <ITEM>James 'Jimmy' Walker, the car mechanic</ITEM>
+        <ITEM>Lisa Carter, the woman</ITEM>
+        <ITEM>Daniel 'Danny' Reed, the hunter</ITEM>
+        <DIALOGUE>~y~You:~s~ James Walker!</DIALOGUE>
+        <DIALOGUE>~y~You:~s~  Lisa Carter!</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ Daniel Reed!</DIALOGUE>
+    </MENU>
+</CALLOUT>

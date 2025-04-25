@@ -1,0 +1,22 @@
+<IntoxicatedIndividual>
+
+    <General>
+        <Text>Pessoa intoxicada em via pública</Text>
+        <Text>senhor</Text>
+        <Text>senhora</Text>
+        <Text>Pressione {0} para falar com o suspeito.</Text>
+        <Text>~y~Você~s~: Com licença, {0}, você precisa de alguma ajuda?</Text>
+        <Text>~p~Suspeito~s~: Naaahhh *hic* tá tudo *hic* beeem.</Text>
+        <Text>~y~Você~s~: Estar embriagado em público é ilegal. Vou ter que te aplicar uma multa.</Text>
+        <Text>~p~Suspeito~s~: Uma mul... o quê? Sai da minha frenteee.</Text>
+        <Text>Sem mais falas.</Text>
+    </General>
+
+    <End>
+        <Text>Um suspeito preso! ~g~Código 4~s~</Text>
+        <Text>Um suspeito abatido, ~g~Código 4~w~</Text>
+        <Text>~g~Código 4~w~</Text>
+        <Text>~r~GTA Ped Error,~s~ Ocorrência encerrada</Text>
+    </End>
+
+</IntoxicatedIndividual>

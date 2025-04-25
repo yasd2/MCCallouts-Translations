@@ -1,0 +1,165 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>~HC_48~SolveMurder4</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Eine Leiche wurde neben einem Bauernhaus in North Yankton gefunden</CALLOUTADVISORY>
+    <TASK>Fahren Sie zur ~b~Einsatzstelle, der Beamte~s~ wartet dort auf Sie.</TASK>
+    <DIALOGUES>
+        <COP1>
+            <DIALOGUE>~b~Polizist:~s~ Willkommen im kalten und schneereichen North Yankton!</DIALOGUE>
+            <DIALOGUE>~b~Polizist:~s~ Leider haben wir dort eine Leiche. Wir wissen noch nicht viel, also sollten Sie zuerst die Einsatzstelle untersuchen.</DIALOGUE>
+            <DIALOGUE>~b~Polizist:~s~ Wir haben drei mögliche Verdächtige. Fahren Sie die Straße entlang, um mit ihnen zu sprechen.</DIALOGUE>
+            <DIALOGUE>~b~Polizist:~s~ Ein Nachbar sagte uns, er habe etwas beobachtet...</DIALOGUE>
+        </COP1>
+        <COP1_MURDERERCHOSEN>
+            <DIALOGUE>~b~Polizist:~s~ Sagen Sie mir, wer ist Ihrer Meinung nach der Mörder?</DIALOGUE>
+            <DIALOGUE>~b~Polizist:~s~ Nehmen Sie den ~r~Mörder~s~ fest!</DIALOGUE>
+        </COP1_MURDERERCHOSEN>
+        <SUSPECT1_INNOCENT>
+            <DIALOGUE>~y~Sie:~s~ Guten Tag, ich habe einige Fragen an Sie. Sie stehen unter Verdacht, an einem kürzlichen Mord beteiligt zu sein. Wie ist Ihr Name?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Ein Mord? Das ist schrecklich! Mein Name ist James Walker, Sie können mich Jimmy nennen.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Rauchen Sie?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Nein und ich bin stolz darauf.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Was machen Sie beruflich?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Ich bin Mechaniker, ich repariere Autos.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Trinken Sie Alkohol?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Nicht wirklich, manchmal trinke ich ein Bier.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Besitzen Sie Waffen?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Nein, tue ich nicht.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Tragen Sie eine Uhr?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Ja, ich habe viele Uhren, ich brauche sie für die Arbeit.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Wo waren Sie, als das Opfer starb?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Ich habe mit einem Kunden über sein defektes Auto gesprochen, ich sagte ihm, es sei nicht reparierbar.</DIALOGUE>
+        </SUSPECT1_INNOCENT>
+        <SUSPECT1_GUILTY>
+            <DIALOGUE>~y~Sie:~s~ Guten Tag, Sie stehen unter Verdacht, eine Person ermordet zu haben. Ich habe einige Fragen an Sie. Beginnen wir mit Ihrem Namen.</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Ich habe nichts getan! Mein Name ist James Walker, meine Freunde nennen mich Jimmy.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Rauchen Sie?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Nein und ich bin stolz darauf.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Was machen Sie beruflich?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Ich bin Mechaniker, ich repariere Autos.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Trinken Sie Alkohol?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Nicht wirklich, manchmal trinke ich ein Bier.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Besitzen Sie Waffen?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Nein, tue ich nicht.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Tragen Sie eine Uhr?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Ja, gerade jetzt bin ich... oh, ich habe sie verloren.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Wo waren Sie, als das Opfer starb?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Ich... war in meiner Garage und habe Autos repariert. Ich war der Letzte.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Am Abend?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Ja, ich habe viel zu tun.</DIALOGUE>
+        </SUSPECT1_GUILTY>
+        <SUSPECT2_INNOCENT>
+            <DIALOGUE>~y~Sie:~s~ Guten Tag, Sie stehen unter Verdacht, eine Person ermordet zu haben. Ich habe einige Fragen an Sie. Beginnen wir mit Ihrem Namen.</DIALOGUE>
+            <DIALOGUE>~y~Verdächtige:~s~ Verdammt, ein Mord? Ich? Ich habe nichts getan. Mein Name ist Lisa Carter.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Rauchen Sie?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtige:~s~ Ja, manchmal. Haben Sie schon mal Gras geraucht?</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ ...Was machen Sie beruflich?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtige:~s~ Ich arbeite in einem Büro in der Stadt.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Trinken Sie Alkohol?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtige:~s~ Ja, leider viel, manchmal Whiskey, manchmal Champagner.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Besitzen Sie Waffen?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtige:~s~ Ich mag keine Waffen, also nein.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Tragen Sie eine Uhr?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtige:~s~ Ich habe eine, aber ich trage sie nie. Warum fragen Sie?</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Wo waren Sie, als das Opfer starb?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtige:~s~ Ich war mit einer Freundin unterwegs, Sie können sie fragen.</DIALOGUE>
+        </SUSPECT2_INNOCENT>
+        <SUSPECT2_GUILTY>
+            <DIALOGUE>~y~Sie:~s~ Guten Tag, Sie stehen unter Verdacht, eine Person ermordet zu haben. Ich habe einige Fragen an Sie. Beginnen wir mit Ihrem Namen.</DIALOGUE>
+            <DIALOGUE>~y~Verdächtige:~s~ Verdammt, ein Mord? Ich? Ich habe nichts getan. Mein Name ist Lisa Carter.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Sind Sie Raucherin?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtige:~s~ Ja, manchmal rauche ich. Rauchen Sie Gras?</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ ...Was ist Ihr Beruf?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtige:~s~ Ich arbeite in einem Büro in der Stadt.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Trinken Sie regelmäßig Alkohol?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtige:~s~ Ja, leider viel, manchmal Whiskey, manchmal Champagner.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Führen Sie eine Waffe mit sich?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtige:~s~ Ich mag keine Waffen, also nein.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Welche Uhren besitzen Sie?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtige:~s~ Ich habe eine, aber ich trage sie nie. Warum fragen Sie?</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Wo waren Sie, als das Opfer starb?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtige:~s~ Ich war in einem Club feiern, ich habe viel Wein getrunken.</DIALOGUE>
+        </SUSPECT2_GUILTY>
+        <SUSPECT3_INNOCENT>
+            <DIALOGUE>~y~Sie:~s~ Guten Tag, ich habe einige Fragen an Sie. Sie stehen unter Verdacht, an einem kürzlichen Mord beteiligt zu sein. Wie ist Ihr Name?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Verdammt, ein Mord? Ich? Ich habe nichts getan. Mein Name ist Daniel oder Danny Reed.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Sind Sie Raucher?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Sie wissen, ich bin Jäger und hat viel Zeit, also ja, ich rauche.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Was ist Ihr Beruf?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Wie gesagt, ich bin Jäger.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Trinken Sie regelmäßig Alkohol?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Nein, nicht regelmäßig, aber ich habe schon Alkohol getrunken.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Führen Sie eine Waffe mit sich?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Jetzt gerade nicht, aber als Jäger können Sie sich vorstellen, dass ich einige besitze.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Welche Uhren besitzen Sie?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Ich habe eine, es ist ein billiges Modell, denn wenn es kaputt geht, kann ich einfach eine neue kaufen.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Wo waren Sie, als das Opfer starb?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Ich war zu Hause bei meiner Frau, wir haben zu Abend gegessen.</DIALOGUE>
+        </SUSPECT3_INNOCENT>
+        <SUSPECT3_GUILTY>
+            <DIALOGUE>~y~Sie:~s~ Guten Tag, ich habe einige Fragen an Sie. Sie stehen unter Verdacht, an einem kürzlichen Mord beteiligt zu sein. Wie ist Ihr Name?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Verdammt, ein Mord? Ich? Ich habe nichts getan. Mein Name ist Daniel oder Danny Reed.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Sind Sie Raucher?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Sie wissen, ich bin Jäger und hat viel Zeit, also ja, ich rauche.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Was ist Ihr Beruf?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Wie gesagt, ich bin Jäger.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Trinken Sie regelmäßig Alkohol?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Nein, nicht regelmäßig, aber ich habe schon Alkohol getrunken.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Führen Sie eine Waffe mit sich?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Ja... Ich glaube, ich habe sie in meinem Auto gelassen, ich kann sie nicht finden.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Welche Uhren besitzen Sie?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Normalerweise habe ich eine, aber ich kann sie nicht finden, zum Glück war sie nicht teuer.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Wo waren Sie, als das Opfer starb?</DIALOGUE>
+            <DIALOGUE>~y~Verdächtiger:~s~ Ich war im Wald auf der Jagd, leider habe ich nichts erlegt.</DIALOGUE>
+        </SUSPECT3_GUILTY>
+        <WITNESS_SUSPECT1>
+            <DIALOGUE>~y~Sie:~s~ Guten Tag, mein Kollege sagte mir, Sie hätten etwas beobachtet?</DIALOGUE>
+            <DIALOGUE>~g~Nachbar:~s~ Hallo, genau, ich möchte berichten, was ich gesehen habe.</DIALOGUE>
+            <DIALOGUE>~g~Nachbar:~s~ Ich habe gehört, dass zu der Zeit, als ich vorbeifuhr, ein Mord geschah.</DIALOGUE>
+            <DIALOGUE>~g~Nachbar:~s~ Ich sah ein Auto vom Tatort wegfahren; zu dieser Zeit war wenig Verkehr.</DIALOGUE>
+            <DIALOGUE>~g~Nachbar:~s~ Es sah aus wie ein Firmenfahrzeug; es war ein größerer Transporter.</DIALOGUE>
+            <DIALOGUE>~g~Nachbar:~s~ Hoffentlich hilft das!</DIALOGUE>
+        </WITNESS_SUSPECT1>
+        <WITNESS_SUSPECT2>
+            <DIALOGUE>~y~Sie:~s~ Guten Tag, mein Kollege sagte mir, Sie hätten etwas beobachtet?</DIALOGUE>
+            <DIALOGUE>~g~Nachbar:~s~ Hallo, genau, ich möchte berichten, was ich gesehen habe.</DIALOGUE>
+            <DIALOGUE>~g~Nachbar:~s~ Ich hörte, dass außerhalb der Stadt eine Leiche gefunden wurde.</DIALOGUE>
+            <DIALOGUE>~g~Nachbar:~s~ Ich sah eine Person von diesem Gebiet weggehen, die etwas in der Hand hielt.</DIALOGUE>
+            <DIALOGUE>~g~Nachbar:~s~ Es qualmte; ich nehme an, es war eine Zigarre.</DIALOGUE>
+            <DIALOGUE>~g~Nachbar:~s~ Tut mir leid, das ist alles, was ich weiß!</DIALOGUE>
+        </WITNESS_SUSPECT2>
+        <WITNESS_SUSPECT3>
+            <DIALOGUE>~y~Sie:~s~ Guten Tag, mein Kollege sagte mir, Sie hätten etwas beobachtet?</DIALOGUE>
+            <DIALOGUE>~g~Nachbar:~s~ Guten Abend, ich glaube, ich bin Zeuge.</DIALOGUE>
+            <DIALOGUE>~g~Nachbar:~s~ Ich hörte, dass zu der Zeit, als ich vorbeifuhr, ein Mord geschah.</DIALOGUE>
+            <DIALOGUE>~g~Nachbar:~s~ Ich sah ein Auto vom Tatort wegfahren; zu dieser Zeit war wenig Verkehr.</DIALOGUE>
+            <DIALOGUE>~g~Nachbar:~s~ Das Auto war sehr schmutzig und hatte große Reifen.</DIALOGUE>
+            <DIALOGUE>~g~Nachbar:~s~ Hoffentlich konnte ich helfen!</DIALOGUE>
+        </WITNESS_SUSPECT3>
+    </DIALOGUES>
+    <STATE>
+        <SEARCHFOREVIDENCE>
+            <TEXT>Suchen Sie auf der Straße nach Beweisen.</TEXT>
+            <TEXT>Beweis gefunden!</TEXT>
+        </SEARCHFOREVIDENCE>
+        <TALKTOSUSPECTSWITNESS>
+            <TEXT>Sprechen Sie mit den ~y~Verdächtigen~s~ und dem ~g~Zeugen.</TEXT>
+        </TALKTOSUSPECTSWITNESS>
+        <ARRESTMURDERER>
+            <TEXT>~g~Richtiger Mörder festgenommen</TEXT>
+            <TEXT>~r~Falsche Person festgenommen</TEXT>
+        </ARRESTMURDERER>
+        <END>
+            <TEXT>{CalloutMessage} wurde beendet.</TEXT>
+        </END>
+    </STATE>
+    <MENU>
+        <TITLE>Mörder</TITLE>
+        <SUBTITLE>Der Mörder ist...</SUBTITLE>
+        <ITEM>James 'Jimmy' Walker, der Automechaniker</ITEM>
+        <ITEM>Lisa Carter, die Frau</ITEM>
+        <ITEM>Daniel 'Danny' Reed, der Jäger</ITEM>
+        <DIALOGUE>~y~Sie:~s~ James Walker!</DIALOGUE>
+        <DIALOGUE>~y~Sie:~s~ Lisa Carter!</DIALOGUE>
+        <DIALOGUE>~y~Sie:~s~ Daniel Reed!</DIALOGUE>
+    </MENU>
+</CALLOUT>

@@ -1,0 +1,37 @@
+<TropicalJustice>
+
+    <CalloutMessage>Operation Tropical Justice</CalloutMessage>
+    <CalloutAdvisory>~s~Ein ~r~gefährlicher Kartellboss~s~ hat sich in einem Anwesen auf ~o~Cayo Perico~s~ verschanzt.</CalloutAdvisory>
+    <Task>Fahren Sie zum ~g~Flughafen.</Task>
+
+    <Detective>
+        <Help>Sprechen Sie mit dem ~g~Detektiv~s~ mit {Y}</Help>
+        <Dialogue>Guten Tag! Wir haben eine wichtige Mission vor uns — sie heißt ~g~Operation Tropical Justice!</Dialogue>
+        <Dialogue>Sie fliegen nach ~g~Cayo Perico~s~, wo sich der ~r~Mafia-Boss~s~ versteckt hält.</Dialogue>
+        <Dialogue>Nach der Landung müssen Sie eine Weile fahren, bis Sie sein ~y~Anwesen~s~ erreichen.</Dialogue>
+        <Dialogue>Durchsuchen Sie es gründlich, aber seien Sie wachsam — es gibt ~r~bewaffnete Wachen~s~!</Dialogue>
+        <Dialogue>Nehmen Sie den ~r~Boss~s~ fest, fliegen Sie zurück nach ~o~Los Santos~s~ und bringen Sie ihn hinter Gitter.</Dialogue>
+        <Dialogue>Ich empfehle ~b~Schutzwesten~s~ und ein zuverlässiges ~p~Maschinengewehr.~s~ Viel Erfolg!</Dialogue>
+        <Help>Steigen Sie in das ~o~Flugzeug~s~ oder den ~o~Hubschrauber~s~ – die Wahl liegt bei Ihnen!</Help>
+    </Detective>
+
+    <Help>
+        <Text>Fliegen Sie zum ~o~Zielort~s~, der auf Ihrem GPS markiert ist. Sie können mit ~y~{J} den Flug überspringen</Text>
+        <Text>Steigen Sie in das ~HC_10~zivile Polizeifahrzeug.</Text>
+        <Text>Fahren Sie zum ~y~Anwesen.</Text>
+        <Text>Suchen Sie nach dem ~r~Mafia-Boss~s~! Vorsicht, es gibt ~r~bewaffnete Wachen!</Text>
+        <Text>Sie haben den ~r~Boss~s~ gefunden, nehmen Sie ihn fest!</Text>
+        <Text>Bringen Sie den ~r~Boss~s~ zu Ihrem Fahrzeug und fahren Sie zurück zum Flughafen.</Text>
+        <Text>Sie können den Verdächtigen ins Gefängnis bringen oder den Einsatz beenden.</Text>
+        <Text>Drücken Sie {End}, um die ~r~Operation zu beenden.</Text>
+        <Text>Operation Tropical Justice wurde beendet.</Text>
+    </Help>
+
+    <Mission>
+        <Text>~g~Mission erfolgreich</Text>
+        <Text>~r~Mission fehlgeschlagen</Text>
+    </Mission>
+
+    <Warper>Drücken Sie {J}, um das ~y~Anwesen~s~ zu betreten/verlassen</Warper>
+
+</TropicalJustice>

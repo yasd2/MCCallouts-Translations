@@ -1,0 +1,31 @@
+<Burglary>
+
+    <General>
+        <CalloutMessage>Cidadão relata um arrombamento</CalloutMessage>
+        <Text>Dirija até o local do arrombamento e proceda com cautela.</Text>
+        <Text>Procure por evidências, pressione {0} para coletar.</Text>
+        <Text>Inspecione a área ao redor da casa.</Text>
+    </General>
+
+    <FalseAlarm>
+        <Dialogue>Central, nada acontecendo por aqui.</Dialogue>
+        <Dialogue>Entendido, retorne ao patrulhamento.</Dialogue>
+    </FalseAlarm>
+
+    <AnimalOnScene>
+        <Dialogue>Central, alarme falso, apenas um animal causando confusão.</Dialogue>
+        <Dialogue>Entendido, retorne ao patrulhamento.</Dialogue>
+    </AnimalOnScene>
+
+    <BurglarLeft>
+        <Dialogue>Central, temos sinais de invasão aqui, estou vasculhando a cena.</Dialogue>
+        <Dialogue>Hmmm, isso não ajuda.</Dialogue>
+        <Dialogue>Central, encontrei um documento de {DriversName}.</Dialogue>
+        <Dialogue>Recebi um alerta do ALPR sobre um veículo em alta velocidade, o dono é {DriversName}.</Dialogue>
+    </BurglarLeft>
+
+    <BurglarIsLeaving>
+        <Dialogue>Central, um veículo ~r~fugindo~s~, dois ocupantes!</Dialogue>
+    </BurglarIsLeaving>
+
+</Burglary>

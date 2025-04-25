@@ -1,36 +1,36 @@
 <CashTransport>
 
     <General>
-        <Text>现金运输</Text>
-        <Text>开车前往 ~g~~h~标记位置~h~~s~.</Text>
-        <Text>按 {Y} 交谈</Text>
-        <Text>开车前往 ~b~~h~目的地~h~~s~.</Text>
-        <Text>如果车辆卡住了 按 {Y} .</Text>
-        <Text>从~HC_3~~h~运钞车~h~~s~ 后面取出 ~r~~h~现金箱~h~~s~.</Text>
-        <Text>将箱子带入银行.</Text>
-        <Text>随时按 ~y~~h~End~h~~s~ 结束呼叫.</Text>
+        <Text>Risky Money Transport</Text>
+        <Text>Drive to the ~g~~h~callout location~h~~s~.</Text>
+        <Text>Press {Y} to talk</Text>
+        <Text>Drive to the ~b~~h~destination~h~~s~.</Text>
+        <Text>Press {Y} anytime if the RIOT is stuck.</Text>
+        <Text>Get the ~HC_3~~h~cash suitcase~h~~s~ from the back of the ~r~~h~money truck~h~~s~.</Text>
+        <Text>Bring the case into the bank.</Text>
+        <Text>Press ~y~~h~End~h~~s~ anytime to end the callout.</Text>
     </General>
 
     <Persons>
-        <Text>警卫</Text>
-        <Text>警员</Text>
-        <Text>银行职员</Text>
+        <Text>Guard</Text>
+        <Text>You</Text>
+        <Text>Bankman</Text>
     </Persons>
 
     <Guard>
-        <Dialogue>您好警官！感谢您的到来！我们有一件非常重要的货物要运送!</Dialogue>
-        <Dialogue>银行装甲卡车将把一大笔钱送到我们的目的地.</Dialogue>
-        <Dialogue>卡车由你驾驶，后面跟着一辆装甲特警车.</Dialogue>
-        <Dialogue>我们收到报告说可能发生袭击，所以才派你和特警队过来。我们走吧!</Dialogue>
+        <Dialogue>Hello Officer! Thanks for coming! We have a very important delivery!</Dialogue>
+        <Dialogue>The armoured bank truck will deliver a big amount of money to our destination.</Dialogue>
+        <Dialogue>The truck will be driven by you, a armoured swat vehicle will follow.</Dialogue>
+        <Dialogue>We got reports that an attack might be happening, that's why we have you and the swat team. Let's go!</Dialogue>
     </Guard>
 
     <Bankman>
-        <Dialogue>你好！我看你还活着！现在你知道为什么我们雇佣你这样的专业人士，而不是像……我的同事.</Dialogue>
-        <Dialogue>... 当然。至少特警车是防弹的.</Dialogue>
-        <Dialogue>运钞车也是装甲的。只有窗户没有.</Dialogue>
-        <Dialogue>情况就是这样.</Dialogue>
-        <Dialogue>太好了，谢谢!</Dialogue>
-        <Dialogue>我希望这个风险是值得的，祝你有美好的一天!</Dialogue>
+        <Dialogue>Hello! I see you made it out alive! Now you know why we hire professionals like you, not like ... my colleagues.</Dialogue>
+        <Dialogue>... definitely. At least the swat vehicle is bullet proof.</Dialogue>
+        <Dialogue>The money truck is armoured, too. Only the windows are not.</Dialogue>
+        <Dialogue>Here is the case.</Dialogue>
+        <Dialogue>Perfect, thank you, I put in a good word for you!</Dialogue>
+        <Dialogue>I hope the risk was worth it, have a nice day!</Dialogue>
     </Bankman>
 
 </CashTransport>

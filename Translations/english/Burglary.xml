@@ -1,30 +1,31 @@
 <Burglary>
 
     <General>
-        <CalloutMessage>公民举报入室盗窃</CalloutMessage>
-        <Text>前往盗窃地点，小心驾驶.</Text>
-        <Text>寻找证据, 按 {0} 获取.</Text>
-        <Text>检查房屋周围的区域.</Text>
+        <CalloutMessage>Citizen reports a Burglary</CalloutMessage>
+        <Text>Drive to the Burglary, proceed with caution.</Text>
+        <Text>Search for evidence, press {0} to pick up.</Text>
+        <Text>Inspect the area around the house.</Text>
     </General>
 
     <FalseAlarm>
-        <Dialogue>Dispatch, 这里没有任何异常.</Dialogue>
-        <Dialogue>收到, 恢复巡逻.</Dialogue>
+        <Dialogue>Dispatch, nothing going on here.</Dialogue>
+        <Dialogue>Copy that, go back to patrol.</Dialogue>
     </FalseAlarm>
 
     <AnimalOnScene>
-        <Dialogue>Dispatch, 虚惊一场，只是一只动物制造了混乱.</Dialogue>
-        <Dialogue>Copy that, 恢复巡逻.</Dialogue>
+        <Dialogue>Dispatch, false alarm, just an animal causing chaos.</Dialogue>
+        <Dialogue>Copy that, go back to patrol.</Dialogue>
     </AnimalOnScene>
 
     <BurglarLeft>
-        <Dialogue>Dispatch, 我们发现有入侵者，正在搜寻现场.</Dialogue>
-        <Dialogue>Dispatch, 我找到了 {DriversName}驾驶证.</Dialogue>
-        <Dialogue>ALPR 检测到有一辆超速行驶的车辆，车主是 {DriversName}.</Dialogue>
+        <Dialogue>Dispatch, we have signs of an intruder here, searching the scene.</Dialogue>
+        <Dialogue>Hmmm, that doesn't help.</Dialogue>
+        <Dialogue>Dispatch, I found a document of {DriversName}.</Dialogue>
+        <Dialogue>I got an ALPR hit on a speeding vehicle, owner is {DriversName}.</Dialogue>
     </BurglarLeft>
 
     <BurglarIsLeaving>
-        <Dialogue>Dispatch, 车辆 ~r~逃跑~s~, 车内有两名人员!</Dialogue>
+        <Dialogue>Dispatch, one Vehicle ~r~fleeing~s~, two occupants!</Dialogue>
     </BurglarIsLeaving>
 
 </Burglary>

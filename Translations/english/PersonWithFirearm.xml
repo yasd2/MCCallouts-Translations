@@ -1,35 +1,35 @@
 <PersonWithFirearm>
 
     <General>
-        <Text>持枪者</Text>
-        <Text>有人怀疑携带枪支。请联系他们.</Text>
-        <Text>接近~r~嫌疑人~w~ 并进行 ~y~对话~w~.</Text>
-        <Text>按 {0} 停止并与嫌疑人交谈.</Text>
-        <Text>不再与 ~r~嫌疑人~w~进行对话.</Text>
+        <Text>Person With Firearm</Text>
+        <Text>An individual is suspected to be carrying a firearm. Make contact with them.</Text>
+        <Text>Approach the ~r~Suspect~w~ and proceed with ~y~dialogue~w~.</Text>
+        <Text>Press {0} to stop and speak with the Suspect.</Text>
+        <Text>There is no more dialogue with the ~r~Suspect~w~.</Text>
     </General> 
 
     <Conversation>
-        <Dialogue>~b~警员:~w~ 你好，我们可以聊一会儿吗?</Dialogue>
-        <Dialogue>~r~嫌疑人:~w~ 不，你是谁?! 你想干什么!</Dialogue>
-        <Dialogue>~b~警员:~w~ 我只是想聊天.我觉得你身上可能有武器.</Dialogue>
-        <Dialogue>~r~嫌疑人:~w~ 不对! 你找错人了.</Dialogue>
-        <Dialogue>~b~警员:~w~ 请与我们合作，以便我们解决问题.</Dialogue>
+        <Dialogue>~b~You:~w~ Hello, is it okay if we talk for a moment?</Dialogue>
+        <Dialogue>~r~Suspect:~w~ No, who are you?! What do you want!</Dialogue>
+        <Dialogue>~b~You:~w~ I just want to chat. I think you might have a weapon on you.</Dialogue>
+        <Dialogue>~r~Suspect:~w~ That's not true! You have the wrong person.</Dialogue>
+        <Dialogue>~b~You:~w~ Please cooperate with us so we can sort things out.</Dialogue>
     </Conversation>
 
     <Shooting>
-        <Dialogue>~r~嫌疑人:~w~ 不！绝不!</Dialogue>
+        <Dialogue>~r~Suspect:~w~ NO! NEVER!</Dialogue>
     </Shooting>
 
     <Surrender>  
-        <Dialogue>~r~嫌疑人:~w~ 好的，很抱歉...我需要做什么?</Dialogue>
-        <Dialogue>~b~警员:~w~ 请你把手举起来，这样我就可以逮捕你.</Dialogue>
-        <Dialogue>~r~嫌疑人:~w~是的警官...抱歉...</Dialogue>
+        <Dialogue>~r~Suspect:~w~ Okay, I'm sorry...what do I need to do?</Dialogue>
+        <Dialogue>~b~You:~w~ Please can you put your hands in the air so I can arrest you.</Dialogue>
+        <Dialogue>~r~Suspect:~w~ Yes Officer...sorry...</Dialogue>
     </Surrender>
 
     <End>
-        <Text>嫌疑人被拘留, ~g~Code 4~w~</Text>
+        <Text>Suspect in Custody, ~g~Code 4~w~</Text>
         <Text>~g~Code 4~w~</Text>
-        <Text>~r~嫌疑人死亡.~g~ Code 4</Text>
+        <Text>The ~r~suspect died.~g~ Code 4</Text>
     </End>
 
 </PersonWithFirearm>

@@ -1,11 +1,11 @@
 <Shooting>
 
     <General>
-        <Text>射击</Text>
-        <Text>有2人用手枪互相射击</Text>
-        <Text>开车前往现场 ~b~Code 3~s~, 2名枪手, ~r~小心~s~, ~r~射击~s~!</Text>
-        <Text>~y~警员~s~: ~p~放下你的 ~r~武器~s~, ~b~Police~s~!!!</Text>
-        <Text>呼叫支援!</Text>
+        <Text>Shooting</Text>
+        <Text>2 people shooting at each other with pistols</Text>
+        <Text>Drive to the scene ~b~Code 3~s~, 2 shooters, ~r~caution~s~, ~r~shots~s~ were ~r~fired~s~!</Text>
+        <Text>~y~You~s~: ~p~Drop your ~r~weapons~s~, ~b~Police~s~!!!</Text>
+        <Text>Call for backup!</Text>
         <Text></Text>
         <Text></Text>
     </General>
@@ -14,37 +14,37 @@
     <Outcomes>
 
         <StillShooting>
-            <Text>~y~警员~s~: 他们似乎不听,用你~r~认为正确~s~ 的 ~o~方式~s~来~o~采取行动~s~!</Text>
+            <Text>~y~You~s~: They appear not to listen, use ~r~force~s~ or ~o~act~s~ with what you ~o~believe is right~s~!</Text>
         </StillShooting>
 
         <Surrender>
-            <Text>~r~第一名嫌疑人~s~: 别开枪, 我~投~弃~了~!</Text>
-            <Text>~p~第二名嫌疑人~s~: 我也~投降~了~!</Text>
+            <Text>~r~First Suspect~s~: Don't shoot, I ~g~give up~s~!</Text>
+            <Text>~p~Second Suspect~s~: I ~g~surrender~s~, too!</Text>
         </Surrender>
 
         <ShootAtPlayer>
-            <Text>向警察开枪!</Text>
-            <Text>~p~嫌疑人~s~:我放弃了，把我关进监狱，我受够了.</Text>
+            <Text>Shots fired at the police!</Text>
+            <Text>~p~Suspect~s~: I'm giving up, put me in jail, I'm done.</Text>
         </ShootAtPlayer>
 
     </Outcomes>
 
     <Arrest>
-        <Text>Dispatch, 一名嫌疑人 ~y~被捕~w~!</Text>
-        <Text>Dispatch, 一名嫌疑人 ~o~倒下~w~!</Text>
+        <Text>Dispatch, one suspect ~y~arrested~w~!</Text>
+        <Text>Dispatch, one suspect ~o~down~w~!</Text>
     </Arrest>
 
     <OnScene>
-        <Text>呼叫~b~囚犯押送车~s~将~r~嫌疑人~s~运走.</Text>
-        <Text>呼叫~b~囚犯押送车~s~和~p~验尸官~s~来处理~r~每个嫌疑人~s~.</Text>
-        <Text>呼叫~p~验尸官~s~处理~r~嫌疑人~s~.</Text>
+        <Text>Call a ~b~transport~s~ for both ~r~suspects~s~.</Text>
+        <Text>Call ~b~transport~s~ and a ~p~coroner~s~ for each ~r~suspect~s~.</Text>
+        <Text>Call a ~p~coroner~s~ for both ~r~suspects~s~.</Text>
     </OnScene>
 
     <End>
         <Text>An ~r~GTA ped error~s~ occured, Callout ~g~ended~s~</Text>
-        <Text>~y~你~s~ 已经死了, 案件 ~g~结束~s~</Text>
-        <Text>案件结束</Text>
-        <Text>~g~Code 4~s~, ~b~清除~s~ ~b~场景~s~ 并返回 ~g~巡逻~s~.</Text>
+        <Text>~y~You~s~ have died, Callout ~g~ended~s~</Text>
+        <Text>Callout ended</Text>
+        <Text>~g~Code 4~s~, ~b~clear~s~ the ~b~scene~s~ and go back to ~g~patrol~s~.</Text>
     </End>
 
 </Shooting>

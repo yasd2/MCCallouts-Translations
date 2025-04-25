@@ -1,0 +1,26 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Notfall-Bluttransport</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Ein Patient benötigt dringend Blut</CALLOUTADVISORY>
+    <TASK>Fahren Sie zum Einsatzort.</TASK>
+    <STATE>
+        <PICKUPBAG>
+            <TEXT>Nehmen Sie die Blutkonserve vom Sanitäter entgegen und legen Sie sie anschließend in Ihren Kofferraum.</TEXT>
+        </PICKUPBAG>
+        <PUTBAGINTRUNK>
+            <TEXT>Drücken Sie ~y~{Y}~s~, um die Blutkonserve in den Kofferraum zu legen.</TEXT>
+        </PUTBAGINTRUNK>
+        <DRIVETODESTINATIONHOSPITAL>
+            <TEXT>Fahren Sie nun zum Krankenhaus. Man erwartet Ihre Lieferung bereits.</TEXT>
+        </DRIVETODESTINATIONHOSPITAL>
+        <GRABFROMTRUNK>
+            <TEXT>Nehmen Sie die ~r~Blutkonserve~s~ mit ~y~{Y}~s~ aus dem Kofferraum.</TEXT>
+        </GRABFROMTRUNK>
+        <GIVEBAGTODOC>
+            <TEXT>Bringen Sie die Konserve nun zum Arzt!</TEXT>
+        </GIVEBAGTODOC>
+        <AUTOEND>
+            <TEXT>Sie haben die ~r~Blutkonserve~s~ ~g~erfolgreich~s~ abgeliefert!</TEXT>
+            <TEXT>{CalloutMessage} wurde beendet.</TEXT>
+        </AUTOEND>
+    </STATE>
+</CALLOUT>

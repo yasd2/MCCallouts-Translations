@@ -1,0 +1,37 @@
+<TropicalJustice>
+
+    <CalloutMessage>Operação Justiça Tropical</CalloutMessage>
+    <CalloutAdvisory>~s~Um ~r~chefe de cartel perigoso~s~ se barricou em um complexo fortificado em ~o~Cayo Perico~s~</CalloutAdvisory>
+    <Task>Dirija até o ~g~aeroporto.</Task>
+
+    <Detective>
+        <Help>Fale com o ~g~Detetive~s~ com {Y}</Help>
+        <Dialogue>Bom dia! Temos uma missão importante pela frente — chama-se ~g~Operação Justiça Tropical!</Dialogue>
+        <Dialogue>Você irá voar até ~g~Cayo Perico~s~, onde o ~r~Chefe da Máfia~s~ está escondido.</Dialogue>
+        <Dialogue>Após o pouso, você precisará dirigir por um tempo até chegar na ~y~propriedade~s~ dele.</Dialogue>
+        <Dialogue>Procure por ele com cuidado, mas fique atento — há ~r~guardas armados~s~!</Dialogue>
+        <Dialogue>Prenda o ~r~chefe~s~, depois voe de volta para ~o~Los Santos~s~ e coloque-o atrás das grades.</Dialogue>
+        <Dialogue>Recomendo usar ~b~colete~s~ e levar um bom ~p~rifle.~s~ Boa sorte!</Dialogue>
+        <Help>Entre no ~o~avião~s~ ou no ~o~helicóptero~s~ – a escolha é sua!</Help>
+    </Detective>
+
+    <Help>
+        <Text>Voe até o ~o~destino~s~ marcado no seu GPS. Você pode ~y~pular o voo~s~ com {J}</Text>
+        <Text>Entre no ~HC_10~veículo policial descaracterizado.</Text>
+        <Text>Dirija até a ~y~propriedade.</Text>
+        <Text>Procure o ~r~chefe da máfia~s~! Cuidado, há ~r~guardas armados!</Text>
+        <Text>Você encontrou o ~r~chefe~s~, prenda-o!</Text>
+        <Text>Leve o ~r~chefe~s~ até seu veículo e dirija de volta ao aeroporto.</Text>
+        <Text>Você pode levar o suspeito para a cadeia ou encerrar a ocorrência.</Text>
+        <Text>Pressione {End} para ~r~encerrar a operação.</Text>
+        <Text>Operação Justiça Tropical encerrada.</Text>
+    </Help>
+
+    <Mission>
+        <Text>~g~Missão concluída</Text>
+        <Text>~r~Missão falhou</Text>
+    </Mission>
+
+    <Warper>Pressione {J} para entrar/sair da ~y~propriedade</Warper>
+
+</TropicalJustice>

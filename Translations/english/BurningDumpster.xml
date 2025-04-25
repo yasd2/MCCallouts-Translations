@@ -1,62 +1,62 @@
 <BurningDumpster>
 
     <General>
-        <Text>报告~r~垃圾箱着火~b~</Text>
-        <Text>配备灭火器的单位 Code 2</Text>
-        <Text>开车前往该位置并扑灭 the ~r~火~s~或呼叫~r~消防部门!</Text>
+        <Text>~r~Burning dumpster~b~ reported</Text>
+        <Text>Unit with fire extinguisher respond Code 2</Text>
+        <Text>Drive to the location and extinguish the ~r~fire~s~ or call the ~r~fire department!</Text>
     </General>
 
     <Persons>
-        <Text>报警人</Text>
-        <Text>警员</Text>
+        <Text>Caller</Text>
+        <Text>You</Text>
     </Persons>
 
     <Extingiush>
-        <Text>要获得 ~r~灭火器~s~, 请前往您的后备箱并按下</Text>
-        <Text>~r~灭火器~s~ 已配备!</Text>
-        <Text>现在在 ~y~标记~s~ 中按 {Key} 寻找 ~y~证据~s~.</Text>
+        <Text>To get a ~r~fire extinguisher~s~, go to your trunk and press</Text>
+        <Text>~r~Fire extinguisher~s~ equipped!</Text>
+        <Text>Now search for ~y~evidence~s~ by pressing {Key} while in the ~y~markers~s~.</Text>
     </Extingiush>
 
     <Tasks>
-        <Text>与报警者 ~b~交谈~s~</Text>
-        <Text>随时按 {MusicMenuKey} 可再次查看图片!</Text>
-        <Text>Dispatch, 嫌疑人~r~正在逃跑!</Text>
+        <Text>Talk to the 911 ~b~caller~s~ with</Text>
+        <Text>Press {MusicMenuKey} anytime to view the picture again!</Text>
+        <Text>Dispatch, Suspect is ~r~fleeing!</Text>
     </Tasks>
 
     <Caller>
-        <Dialogue>您好，是您报警说垃圾桶着火了吗?</Dialogue>
-        <Dialogue>是的，是我。我想举报我看到的可疑人员.</Dialogue>
-        <Dialogue>我路过垃圾桶时，看到一个人走开了.</Dialogue>
-        <Dialogue>紧接着，火就开始燃烧了!</Dialogue>
-        <Dialogue>这听起来很可疑，您有嫌疑人的详细信息吗?</Dialogue>
-        <Dialogue>当然，嫌疑人是  {gender} 大约 {age} 岁.</Dialogue>
-        <Dialogue>我拍了张照片，就是这个!</Dialogue>
-        <Dialogue>谢谢，我们正在寻找嫌疑人。再见!</Dialogue>
+        <Dialogue>Hello, are you the one who called in the burning trash?</Dialogue>
+        <Dialogue>Yes, that's me. I wanted to report a suspicious person I saw.</Dialogue>
+        <Dialogue>I was walking past the trash can when I saw a person walking away.</Dialogue>
+        <Dialogue>Right after that the fire started to burn!</Dialogue>
+        <Dialogue>This sounds suspicious, do you have details on the suspect?</Dialogue>
+        <Dialogue>Sure, it was a {gender} and around {age} years old.</Dialogue>
+        <Dialogue>I was able to take a photo, here it is!</Dialogue>
+        <Dialogue>Thanks, we're looking for the suspect now. Bye!</Dialogue>
     </Caller>
 
     <Genders>
-        <Text>女性</Text>
-        <Text>男性</Text>
-        <Text>非男非女</Text>
+        <Text>female</Text>
+        <Text>male</Text>
+        <Text>non-binary</Text>
     </Genders>
 
     <Evidence>
-        <Dialogue>燃烧瓶，这不是意外......有人想纵火.</Dialogue>
-        <Dialogue>一个装满汽油的油桶，看起来有人正准备点燃什么东西.</Dialogue>
-        <Dialogue>水烟筒？奇怪......也许有人太兴奋而没有注意到他们引发的火灾.</Dialogue>
-        <Dialogue>一枚破片手榴弹。这不是简单的火灾，我们要处理的是更危险的东西.</Dialogue>
-        <Dialogue>一枚烟雾弹。可能在纵火前用来掩盖行踪.</Dialogue>
-        <Dialogue>一个破瓶子。看起来像是临时做的，但可能用来生火.</Dialogue>
-        <Dialogue>一个煤气罐。如果煤气罐爆炸，整个地区都可能被烧成灰烬.</Dialogue>
-        <Dialogue>一个油桶。它在漏油……而且极易燃烧。看起来好像有人想让火势蔓延.</Dialogue>
-        <Dialogue>一个汽油罐。闻起来像汽油……有人真的想烧毁这个地方.</Dialogue>
-        <Dialogue>一只袜子？好吧，它看起来可能不是什么大事，但它的气味足以引起火灾.</Dialogue>
-        <Dialogue>有人把燃烧的香烟扔进垃圾桶，然后它开始燃烧.</Dialogue>
-        <Dialogue>破碎的打火机？好吧，它看起来很可疑，足以引起火灾.</Dialogue>
+        <Dialogue>A Molotov cocktail, this was no accident... someone wanted to start a fire.</Dialogue>
+        <Dialogue>A jerrycan full of gasoline, looks like someone was preparing to ignite something.</Dialogue>
+        <Dialogue>A bong? Strange... maybe someone was too high to notice the fire they started.</Dialogue>
+        <Dialogue>A frag grenade. This is no simple fire, we're dealing with something far more dangerous.</Dialogue>
+        <Dialogue>A smoke grenade. Could have been used to cover up their tracks before setting the fire.</Dialogue>
+        <Dialogue>A broken bottle. It seems improvised, but it could have been used to start the fire.</Dialogue>
+        <Dialogue>A gas cylinder. If this went off, the whole area could've gone up in flames.</Dialogue>
+        <Dialogue>An oil drum. It's leaking... and highly flammable. Looks like someone wanted to spread the fire.</Dialogue>
+        <Dialogue>A petrol can. Smells like gasoline... someone really wanted to burn this place down.</Dialogue>
+        <Dialogue>A sock? Well, it might not seem like much, but it smells bad enough to be a fire hazard.</Dialogue>
+        <Dialogue>Typical. Somebody threw a burning cigarette in the trash, then it started igniting.</Dialogue>
+        <Dialogue>A sock? Well, it might not seem like much, but it smells bad enough to be a fire hazard.</Dialogue>
     </Evidence>
 
     <End>
-        <Text>~g~现场 Code 4.</Text>
+        <Text>~g~Situation is Code 4.</Text>
     </End>
     
 </BurningDumpster>

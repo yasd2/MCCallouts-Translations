@@ -1,25 +1,25 @@
 <WantedSuspectLocated>
 
     <General>
-        <Text>通缉嫌疑人的可能位置</Text>
-        <Text>查看 2 个可能的地点</Text>
-        <Text>嫌疑人被拘留, ~g~Code 4~w~</Text>
+        <Text>Possible location of wanted suspect</Text>
+        <Text>Check out the 2 possible locations</Text>
+        <Text>Suspect in Custody, ~g~Code 4~w~</Text>
     </General>
 
     <Scenes>
-        <Text>在第一个区域中搜索 ~r~嫌犯~w~.</Text>
-        <Text>在~g~该位置~w~搜索~r~嫌犯~w~.</Text>
-        <Text>未找到嫌疑人,前往第二个位置 ~g~second location~w~.</Text>
-        <Text>在第二个~g~位置~w~搜索 ~r~嫌犯~w~. 他 ~r~应该~w~ 在那里!</Text>
-        <Text>~r~嫌疑人描述:{0}~y~男性~s~, 瘦削,{0}黑发, 30{0}岁 穿~b~蓝色~s~T恤</Text>
-        <Text>~r~嫌疑人描述:{0}~y~女性~s~, 微胖,{0}黑发, 30{0}岁 穿~r~红色~s~T恤</Text> <!--{0} is a new line-->
-        <Text>~r~嫌疑人是一名 ~y~男性~s~,{0}30 多岁, 瘦削 黑发{0}穿 ~b~T恤.</Text>
+        <Text>Search the first area for the ~r~suspect~w~.</Text>
+        <Text>Search for the ~r~suspect~w~ in the ~g~area~w~.</Text>
+        <Text>No suspect found, move to the ~g~second location~w~.</Text>
+        <Text>Now search for the ~r~suspect~w~ in the second ~g~area~w~. He ~r~has to~w~ be there!</Text>
+        <Text>~r~Suspect~s~ description:{0}~y~Asian male~s~, thin,{0}black hair, 30{0}wears a ~b~blue~s~ t-shirt</Text>
+        <Text>~r~Suspect description:{0}~y~Black female~s~, thin,{0}black hair, 30,{0}wears a ~r~red shirt</Text> <!--{0} is a new line-->
+        <Text>~r~Suspect is an ~y~asian male~s~,{0}mid 30s, thin with black hair{0}and has a ~b~blue shirt.</Text>
     </Scenes>
     
     <Outcomes>
-        <Dialogue>~r~嫌疑人~w~: 天哪，警察！别开枪！我投降!</Dialogue>
-        <Dialogue>~r~Suspect~w~: 哦，该死，警察! Fu** you, 我要 ~o~打爆~w~ 你的 ~o~头~w~, 你这愚蠢的猪!</Dialogue>
-        <Dialogue>~y~You~w~: Dispatch, 嫌疑犯已找到, 将进行 ~o~追捕~w~!</Dialogue>
+        <Dialogue>~r~Suspect~w~: Oh my god, police! Don't shoot! I surrender!</Dialogue>
+        <Dialogue>~r~Suspect~w~: Oh shit, the cops! Fu** you, I'll ~o~blow~w~ your ~o~head off~w~, stupid pigs!</Dialogue>
+        <Dialogue>~y~You~w~: Dispatch, Suspect found, gonna be a ~o~pursuit~w~!</Dialogue>
     </Outcomes>
 
 </WantedSuspectLocated>

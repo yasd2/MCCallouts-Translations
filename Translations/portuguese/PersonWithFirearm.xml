@@ -1,0 +1,35 @@
+<PersonWithFirearm>
+
+    <General>
+        <Text>Pessoa Armada</Text>
+        <Text>Um indivíduo está suspeito de estar portando uma arma de fogo. Faça contato com ele.</Text>
+        <Text>Aproxime-se do ~r~Suspeito~w~ e inicie o ~y~diálogo~w~.</Text>
+        <Text>Pressione {0} para parar e conversar com o suspeito.</Text>
+        <Text>Não há mais diálogo com o ~r~Suspeito~w~.</Text>
+    </General> 
+
+    <Conversation>
+        <Dialogue>~b~Você:~w~ Olá, podemos conversar um momento?</Dialogue>
+        <Dialogue>~r~Suspeito:~w~ Não! Quem é você?! O que você quer!</Dialogue>
+        <Dialogue>~b~Você:~w~ Só quero conversar. Acredito que você esteja portando uma arma.</Dialogue>
+        <Dialogue>~r~Suspeito:~w~ Isso não é verdade! Você está confundindo!</Dialogue>
+        <Dialogue>~b~Você:~w~ Por favor, coopere conosco para resolvermos isso.</Dialogue>
+    </Conversation>
+
+    <Shooting>
+        <Dialogue>~r~Suspeito:~w~ NÃO! NUNCA!</Dialogue>
+    </Shooting>
+
+    <Surrender>  
+        <Dialogue>~r~Suspeito:~w~ Ok, me desculpe... o que eu preciso fazer?</Dialogue>
+        <Dialogue>~b~Você:~w~ Por favor, levante as mãos para que eu possa te prender.</Dialogue>
+        <Dialogue>~r~Suspeito:~w~ Sim, policial... desculpa...</Dialogue>
+    </Surrender>
+
+    <End>
+        <Text>Suspeito sob custódia, ~g~Código 4~w~</Text>
+        <Text>~g~Código 4~w~</Text>
+        <Text>O ~r~suspeito morreu.~g~ Código 4</Text>
+    </End>
+
+</PersonWithFirearm>

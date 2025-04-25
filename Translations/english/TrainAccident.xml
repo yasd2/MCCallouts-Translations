@@ -1,139 +1,139 @@
 <TrainAccident>
 
-    <CalloutMessage>火车事故</CalloutMessage>
-    <CalloutAdvisory><![CDATA[调查事件 & 并逮捕嫌疑人!]]></CalloutAdvisory>
+    <CalloutMessage>Train Accident</CalloutMessage>
+    <CalloutAdvisory><![CDATA[Investigate the incident & apprehend the suspect!]]></CalloutAdvisory>
 
-    <Mugshot>嫌疑人照片</Mugshot>
+    <Mugshot>Suspect's Mugshot</Mugshot>
 
      <DisplayHelp>
-        <Text>驾车前往报告的 ~b~火车事故现场.</Text>
-        <Text><![CDATA[与~o~受害者~s~ & 和 ~r~火车司机交谈.]]></Text>
-        <Text>与~o~受害者交谈.</Text>
-        <Text>现在与 ~g~目击者交谈.</Text>
-        <Text>在~y~火车周围区域搜寻证据.</Text>
-        <Text>我们已收到有关~r~可能嫌疑人下落的信息.</Text>
-        <Text>~g~Code 4,~s~ 恢复巡逻.</Text>
+        <Text>Drive to the reported ~b~train accident.</Text>
+        <Text><![CDATA[Talk to the ~o~victims~s~ & the ~r~train driver.]]></Text>
+        <Text>Talk to the ~o~victims.</Text>
+        <Text>Now talk to the ~g~witnesses.</Text>
+        <Text>Search the area around the ~y~trains for evidence.</Text>
+        <Text>We have received information about the whereabouts of the ~r~possible suspect.</Text>
+        <Text>~g~Code 4,~s~ resume patrol duty.</Text>
     </DisplayHelp>
 
     <Detective_NotDUI>
-        <Dialogue>~HC_43~Detective~s~: 您好，警官，感谢您来到这个混乱的地方!</Dialogue>
-        <Dialogue>~HC_43~Detective~s~: 让我们开门见山吧,这发生了一起火车事故，造成了多人受伤.</Dialogue>
-        <Dialogue>~HC_43~Detective~s~: 看起来火车出轨了，从中间断裂了.</Dialogue>
-        <Dialogue><![CDATA[~HC_43~Detective~s~: 首先, 我希望您与 ~o~受害者~s~ & 和 ~r~火车司机~s~交谈, 然后在现场寻找~y~证据~s~!]]></Dialogue>
-        <Dialogue>~HC_43~Detective~s~: 那边有 ~g~两位目击者~s~. 祝你好运!</Dialogue>
+        <Dialogue>~HC_43~Detective~s~: Hello Officer, thanks for coming to this mess!</Dialogue>
+        <Dialogue>~HC_43~Detective~s~: Let's get straight to the point: We have a train accident with multiple injuries.</Dialogue>
+        <Dialogue>~HC_43~Detective~s~: It looks like the train derailed and broke apart in the middle.</Dialogue>
+        <Dialogue><![CDATA[~HC_43~Detective~s~: First, I'd like you to talk to the ~o~victims~s~ & the ~r~train driver~s~, then search the scene for ~y~evidence~s~!]]></Dialogue>
+        <Dialogue>~HC_43~Detective~s~: Over there are ~g~two witnesses~s~. Good luck!</Dialogue>
     </Detective_NotDUI>
 
     <Detective_DUI2>
-        <Dialogue>~HC_43~Detective~s~: 首先, 我希望你与~o~受害者~s~交谈, 然后在现场搜寻 ~y~证据~s~!</Dialogue>
+        <Dialogue>~HC_43~Detective~s~: First, I'd like you to talk to the ~o~victims~s~, then search the scene for ~y~evidence~s~!</Dialogue>
     </Detective_DUI2>
 
     <Detective_DUI>
-        <Dialogue>~HC_43~Detective~s~: 你好警官，感谢您来到这个混乱的地方!</Dialogue>
-        <Dialogue>~HC_43~Detective~s~: 让我们开门见山：我们发生了一起火车事故，造成多人受伤.</Dialogue>
-        <Dialogue>~HC_43~Detective~s~: 看起来火车出轨了，从中间断裂了.</Dialogue>
-        <Dialogue>~HC_43~Detective~s~: 首先, 我希望你与 ~o~受害者~s~交谈, 然后在现场搜寻 ~y~证据~s~!</Dialogue>
-        <Dialogue>~HC_43~Detective~s~: 那边有 ~g~两个证人~s~. 祝你好运!</Dialogue>
+        <Dialogue>~HC_43~Detective~s~: Hello Officer, thanks for coming to this mess!</Dialogue>
+        <Dialogue>~HC_43~Detective~s~: Let's get straight to the point: We have a train accident with multiple injuries.</Dialogue>
+        <Dialogue>~HC_43~Detective~s~: It looks like the train derailed and broke apart in the middle.</Dialogue>
+        <Dialogue>~HC_43~Detective~s~: First, I'd like you to talk to the ~o~victims~s~, then search the scene for ~y~evidence~s~!</Dialogue>
+        <Dialogue>~HC_43~Detective~s~: Over there are ~g~two witnesses~s~. Good luck!</Dialogue>
     </Detective_DUI>
 
     <Victim1_>
-        <Dialogue>~o~受害者~s~: 我……我睡着了，然后突然……一声巨响！一切都震动了，人们尖叫起来……我看到窗外有火花.</Dialogue>
+        <Dialogue>~o~Victim~s~: I... I was asleep, then suddenly... a loud bang! Everything shook, people were screaming... I saw sparks outside the windows.</Dialogue>
     </Victim1_>
 
     <Victim2_NotDUI>
-        <Dialogue>~o~受害者~s~: 警官，怎么会这样？看看这么多受伤的人。还有这么多急救人员!</Dialogue>
-        <Dialogue>~o~受害者~s~: 请彻底查明真相，我们需要答案.</Dialogue>
+        <Dialogue>~o~Victim~s~: Officer, how could this happen? Look at all the injured people. And so many emergency responders!</Dialogue>
+        <Dialogue>~o~Victim~s~: Please get to the bottom of this, we need answers.</Dialogue>
     </Victim2_NotDUI>
 
     <Victim2_DUI>
-        <Dialogue>~o~受害者~s~: 强烈的撞击让我头疼.</Dialogue>
-        <Dialogue>~o~受害者~s~: 我就是不明白为什么火车开得这么快.</Dialogue>
-        <Dialogue>~o~受害者~s~: 难怪事故发生的速度那么快!</Dialogue>
-        <Dialogue>~o~受害者~s~: 我现在需要去医院，希望追究司机的责任!</Dialogue>
+        <Dialogue>~o~Victim~s~: I still have a headache from the strong impact.</Dialogue>
+        <Dialogue>~o~Victim~s~: I just can't understand why the train was going so fast.</Dialogue>
+        <Dialogue>~o~Victim~s~: It's no wonder the accident happened with that speed!</Dialogue>
+        <Dialogue>~o~Victim~s~: I need to go to the hospital now, I hope the driver is held accountable!</Dialogue>
     </Victim2_DUI>
 
     <Driver_NotDUI>
-        <Dialogue>~HC_8~Driver~s~: 没有任何预兆。突然，火车脱轨了！我没能及时刹车.</Dialogue>
+        <Dialogue>~HC_8~Driver~s~: I had no warning. Suddenly, the train jumped off the tracks! I couldn't brake in time.</Dialogue>
     </Driver_NotDUI>
 
     <Driver_DUI>
-        <Dialogue>~y~You~s~: Police, 请停在那里，把手放在我能看见的地方!</Dialogue>
-        <Dialogue>~HC_8~Driver~s~: 发生什么事了? *嗝* I don’t knooooow youuuu.</Dialogue>
-        <Dialogue>~y~You~s~: 你是今天的 {StreetName} 火车司机吗?</Dialogue>
-        <Dialogue>~HC_8~Driver~s~: 呃，不是. 我 *呃* 连自行车都不会骑...</Dialogue>
-        <Dialogue>~y~You~s~: 我需要你的身份证.</Dialogue>
+        <Dialogue>~y~You~s~: Police, stop right there, hands where I can see them!</Dialogue>
+        <Dialogue>~HC_8~Driver~s~: What's going on? *hic* I don’t knooooow youuuu.</Dialogue>
+        <Dialogue>~y~You~s~: Were you the driver of the train at {StreetName} today?</Dialogue>
+        <Dialogue>~HC_8~Driver~s~: Uh, nope. I *hic* can’t even ride a bike...</Dialogue>
+        <Dialogue>~y~You~s~: I need your ID.</Dialogue>
     </Driver_DUI>
 
     <Witness1_Dismantled>
-        <Dialogue>~g~Witness~s~: 我是火车修理车间的负责人。昨天我们这里遭了贼，但好像没什么东西被偷。.</Dialogue>
-        <Dialogue>~g~Witness~s~: 昨天的两名嫌疑人, {Suspect1.GetGender()} 和 {Suspect2.GetGender()}, 驾驶一辆{SuspectVehicle.Model.Name}.</Dialogue>
-        <Dialogue>~g~Witness~s~: 此外，我们上周解雇了一名员工，名字叫 {Suspect2.GetFullName()}.</Dialogue>
-        <Dialogue>~g~Witness~s~: 我怀疑这可能与此次事故有关...</Dialogue>
+        <Dialogue>~g~Witness~s~: I’m the head of the train workshop. We had a break-in yesterday, but nothing seemed to be stolen.</Dialogue>
+        <Dialogue>~g~Witness~s~: The two suspects yesterday, {Suspect1.GetGender()} and {Suspect2.GetGender()}, were driving a {SuspectVehicle.Model.Name}.</Dialogue>
+        <Dialogue>~g~Witness~s~: Also, we fired an employee last week named {Suspect2.GetFullName()}.</Dialogue>
+        <Dialogue>~g~Witness~s~: I suspect this might be related to the accident...</Dialogue>
     </Witness1_Dismantled>
 
     <Witness1_ObjectOnTracks>
-        <Dialogue>~g~Witness~s~: 你好，我出去散步的时候注意到铁轨上有两个人.</Dialogue>
-        <Dialogue>~g~Witness~s~: 我不确定他们是在修理东西还是在制造麻烦.</Dialogue>
-        <Dialogue>~g~Witness~s~: 两名嫌疑人分别是 {Suspect1.GetGender()} 和 {Suspect2.GetGender()}.</Dialogue>
+        <Dialogue>~g~Witness~s~: Hello, I was out for a walk when I noticed these two people on the tracks.</Dialogue>
+        <Dialogue>~g~Witness~s~: I wasn’t sure if they were repairing something or causing trouble.</Dialogue>
+        <Dialogue>~g~Witness~s~: The two suspects were {Suspect1.GetGender()} and {Suspect2.GetGender()}.</Dialogue>
     </Witness1_ObjectOnTracks>
 
     <Witness1_DUI>
-        <Dialogue>~g~Witness~s~: 你好，我正从这里走两个街区的时候，注意到了一些东西.</Dialogue>
-        <Dialogue>~g~Witness~s~: 我不熟悉火车信号，但灯确实是红灯.</Dialogue>
-        <Dialogue>~g~Witness~s~: 我只是想举报.</Dialogue>
+        <Dialogue>~g~Witness~s~: Hello, I was walking two blocks from here when I noticed something.</Dialogue>
+        <Dialogue>~g~Witness~s~: I’m not familiar with train signals, but the light was definitely red.</Dialogue>
+        <Dialogue>~g~Witness~s~: I just thought I’d report it.</Dialogue>
     </Witness1_DUI>
 
     <Witness2_NotDUI_WithVehicle>
-        <Dialogue>~g~Witness~s~: 我看到两个人在撞车后就朝着马路跑了！</Dialogue>
-        <Dialogue>~g~Witness~s~: 车辆型号为 ~h~{SuspectVehicle.Model.Name}~h~, 车牌号为 ~h~{SuspectVehicle.LicensePlate}~h~.</Dialogue>
-        <Dialogue>~g~Witness~s~: 我用相机拍到了!</Dialogue>
+        <Dialogue>~g~Witness~s~: I saw two guys running away right after the crash! Towards the street!</Dialogue>
+        <Dialogue>~g~Witness~s~: The vehicle was a ~h~{SuspectVehicle.Model.Name}~h~, license plate ~h~{SuspectVehicle.LicensePlate}~h~.</Dialogue>
+        <Dialogue>~g~Witness~s~: Here, I caught one on camera!</Dialogue>
     </Witness2_NotDUI_WithVehicle>
 
     <Witness2_NotDUI_OnFoot>
-        <Dialogue>~g~Witness~s~: 我看到两个人在车祸后逃跑了！朝街上跑去!</Dialogue>
-        <Dialogue>~g~Witness~s~: 一个是 {Suspect1.GetGender()},另一个是 {Suspect2.GetGender()}.</Dialogue>
-        <Dialogue>~g~Witness~s~: 我用相机拍到了!</Dialogue>
+        <Dialogue>~g~Witness~s~: I saw two guys running away right after the crash! Towards the street!</Dialogue>
+        <Dialogue>~g~Witness~s~: One was {Suspect1.GetGender()}, the other {Suspect2.GetGender()}.</Dialogue>
+        <Dialogue>~g~Witness~s~: Here, I caught one on camera!</Dialogue>
     </Witness2_NotDUI_OnFoot>
 
     <Witness2_DUI_WithVehicle>
-        <Dialogue>~g~Witness~s~: 我看到有人从事故现场摇摇晃晃地走开.</Dialogue>
-        <Dialogue>~g~Witness~s~: 他们跑向了一辆 ~h~{SuspectVehicle.Model.Name}~h~.</Dialogue>
-        <Dialogue>~g~Witness~s~: 车牌号是 ~h~{SuspectVehicle.LicensePlate}~h~.</Dialogue>
+        <Dialogue>~g~Witness~s~: I saw someone staggering away from the crash site.</Dialogue>
+        <Dialogue>~g~Witness~s~: They ran to a ~h~{SuspectVehicle.Model.Name}~h~.</Dialogue>
+        <Dialogue>~g~Witness~s~: The license plate was ~h~{SuspectVehicle.LicensePlate}~h~.</Dialogue>
     </Witness2_DUI_WithVehicle>
 
     <Witness2_DUI_OnFoot>
-        <Dialogue>~g~Witness~s~: 我看到有人从事故现场摇摇晃晃地走开.</Dialogue>
-        <Dialogue>~g~Witness~s~: 他们逃跑了——如果那也能算是跑步的话.</Dialogue>
-        <Dialogue>~g~Witness~s~: 我希望你能找到他们!</Dialogue>
+        <Dialogue>~g~Witness~s~: I saw someone staggering away from the crash site.</Dialogue>
+        <Dialogue>~g~Witness~s~: They ran away, if you can even call that running.</Dialogue>
+        <Dialogue>~g~Witness~s~: I hope you find them!</Dialogue>
     </Witness2_DUI_OnFoot>
 
     <Suspect1_>
-        <Dialogue>~y~You~s~: police! 停下, 把手放在我能看见的地方!</Dialogue>
-        <Dialogue>~r~Suspect~s~: 听着，你抓错人了.</Dialogue>
-        <Dialogue>~r~Suspect~s~: 我们与火车事故无关.</Dialogue>
-        <Dialogue>~y~You~s~: 你怎么知道火车事故的?</Dialogue>
+        <Dialogue>~y~You~s~: Stop, police! Hands where I can see them!</Dialogue>
+        <Dialogue>~r~Suspect~s~: Listen, you've got the wrong people.</Dialogue>
+        <Dialogue>~r~Suspect~s~: We have nothing to do with the train accident.</Dialogue>
+        <Dialogue>~y~You~s~: How do you know about the train accident?</Dialogue>
         <Dialogue>~r~Suspect~s~: Uh...</Dialogue>
     </Suspect1_>
 
     <Evidence>
         <Dismantled>
-            <Dialogue>一根油管松了，表明有人动过手脚.</Dialogue>
-            <Dialogue>这个刹车不见了.</Dialogue>
-            <Dialogue>有人断开了电气系统中的电缆.</Dialogue>
-            <Dialogue>嗯...汉堡，现在我饿了.</Dialogue>
+            <Dialogue>An oil hose is loose, suggesting someone tampered with it.</Dialogue>
+            <Dialogue>This brake is missing.</Dialogue>
+            <Dialogue>Someone disconnected the cables in the electrical system.</Dialogue>
+            <Dialogue>Hmm... a burger, now I’m hungry.</Dialogue>
         </Dismantled>
 
         <ObjectOnTracks>
-            <Dialogue>铁轨附近有一块大石头可不是什么好事...</Dialogue>
-            <Dialogue>火车的轮子坏了，一定是撞到了什么东西...</Dialogue>
-            <Dialogue>嗯？有一根撬棍...</Dialogue>
-            <Dialogue>为什么这里有石头?</Dialogue>
+            <Dialogue>A large rock near the tracks isn’t good...</Dialogue>
+            <Dialogue>The train’s wheels are broken, they must have hit something...</Dialogue>
+            <Dialogue>The tracks are loose and there’s a crowbar here... hmm...</Dialogue>
+            <Dialogue>Why are there stones here?</Dialogue>
         </ObjectOnTracks>
 
         <DUI>
-            <Dialogue>车速表卡在 120 公里/小时……太快了.</Dialogue>
-            <Dialogue>刹车看起来是全新的，没有进行紧急制动.</Dialogue>
-            <Dialogue>披萨，嗯，好吃...</Dialogue>
-            <Dialogue>带有照片的火车司机列表，今天是 ~h~{Driver.GetFullName()}~h~...</Dialogue>
+            <Dialogue>The speedometer is stuck at 100 km/h... way too fast.</Dialogue>
+            <Dialogue>The brakes look brand new, no emergency braking was done.</Dialogue>
+            <Dialogue>A pizza, hmm, delicious...</Dialogue>
+            <Dialogue>A list of train drivers with photos, today it was ~h~{Driver.GetFullName()}~h~...</Dialogue>
         </DUI>
     </Evidence>
 

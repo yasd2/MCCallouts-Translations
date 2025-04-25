@@ -1,0 +1,56 @@
+<DrugHandover>
+
+    <General>
+        <CalloutMessage>Entrega de Drogas</CalloutMessage>
+        <CalloutAdvisory>~o~Intercepte o encontro como atirador de elite da força especial~s~</CalloutAdvisory>
+    </General>
+
+    <Persons>
+        <Text>Você</Text>
+        <Text>Policial</Text>
+    </Persons>
+
+    <EState>
+        <Meeting>
+            <D_Briefing>
+                <Dialogue>Olá, obrigado por se juntar a nós.</Dialogue>
+                <Dialogue>Este briefing tem como objetivo te dar uma visão geral da situação.</Dialogue>
+                <Dialogue>Recebemos relatos de uma entrega ilegal de drogas acontecendo hoje no aeródromo de Grapeseed.</Dialogue>
+                <Dialogue>Como você é um dos atiradores de elite mais bem treinados, seu trabalho é observar e nos avisar quando o negócio for feito.</Dialogue>
+                <Dialogue>Então entraremos com tudo, com 2 viaturas descaracterizadas e 1 blindado da SWAT. Se formos alvejados, seu trabalho é neutralizar as ameaças.</Dialogue>
+                <Dialogue>Identificamos uma boa posição de sniper em um dos prédios ao lado do aeródromo.</Dialogue>
+                <Dialogue>Mas antes de tudo, escolha um rifle de precisão — ele está ali na mesa, dentro da delegacia.</Dialogue>
+            </D_Briefing>
+            <Text>Equipe-se com um rifle de precisão na delegacia.</Text>
+        </Meeting>
+
+        <Weapon>
+            <WeaponSelector>
+                <Text>Escolha de Arma</Text>
+                <Text>Armas</Text>
+                <Text>Selecione uma arma</Text>
+                <Text>Você equipou a </Text> <!--WeaponType permanece em inglês por estar codificado-->
+            </WeaponSelector>
+            <Text>Agora dirija até a cena e se prepare.</Text>
+        </Weapon>
+
+        <DriveToScene>
+            <Text>Este é o ~o~ponto de encontro da entrega de drogas~s~ relatado. Você verá no minimapa onde está ~g~sua posição de sniper~s~, suba até o telhado lá.</Text>
+        </DriveToScene>
+
+        <IsAtÜbergabeort>
+            <Text>Aguarde agora pela ~r~entrega propriamente dita.</Text>
+        </IsAtÜbergabeort>
+    </EState>
+
+    <Scenarios>
+        <Text>Assim que a ~g~entrega~s~ for concluída, entre e prenda os ~r~suspeitos!</Text>
+        <Text>Temos ~r~disparos confirmados!</Text>
+        <Text>Os ~r~suspeitos~s~ estão fugindo, garanta a ~g~maleta!</Text>
+        <Text>Os suspeitos estão ~r~em fuga~s~, estamos em perseguição!</Text>
+        <Text>Os suspeitos estão se rendendo!</Text>
+        <Text>Você pode pegar a ~g~maleta~s~ com {0}.</Text>
+        <Text>~g~Maleta~s~ recuperada!</Text>
+    </Scenarios>
+
+</DrugHandover>

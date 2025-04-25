@@ -1,0 +1,68 @@
+<LostObject>
+
+    <General>
+        <Text>Objeto Perdido</Text>
+        <Text>Solicitante perdeu um objeto, Polícia requisitada</Text>
+        <Text><![CDATA[Dirija até o ~g~solicitante~s~ e descubra qual é o problema.]]></Text>
+    </General>
+
+    <DisplayHelp>
+        <Text>Fale com o solicitante pressionando </Text>
+        <Text>Procure pelo ~o~celular~s~. Pressione </Text>
+        <Text>Procure pela ~o~carteira~s~. Pressione </Text>
+        <Text>Procure pelo ~o~sapato~s~. Pressione </Text>
+        <Text> para pegar o objeto.</Text>
+        <Text>Pressione </Text>
+        <Text> para chamar o solicitante!</Text>
+        <Text>Aqui vai uma ~r~dica~s~ como ajuda.</Text>
+        <Text>Pressione ~g~1 ~s~para aceitar ou ~r~2~s~ para cancelar.</Text>
+    </DisplayHelp>
+
+    <Pickup>
+        <Text>~r~Celular~s~ encontrado!</Text>
+        <Text>~r~Carteira~s~ encontrada!</Text>
+        <Text>~r~Sapato~s~ encontrado!</Text>
+    </Pickup>
+
+    <Conversation>
+        <Dialogue>~y~Você~s~: Olá, foi você quem ligou?</Dialogue>
+        <Dialogue>~b~Solicitante~s~: Espera, já estou indo!</Dialogue>
+        <Dialogue>~b~Solicitante~s~: Muito obrigado! Queria ter olhos bons assim como os seus!</Dialogue>
+        <Dialogue>~y~Você~s~: Sem problemas, tchau!</Dialogue>
+    </Conversation>
+
+    <OutcomeCellphone>
+        <Dialogue>~b~Solicitante~s~: Sim, fui eu que liguei. Não consigo encontrar meu celular.</Dialogue>
+        <Dialogue>~y~Você~s~: Entendi. Vou te ajudar a procurar.</Dialogue>
+        <Dialogue>~y~Você~s~: Quando foi a última vez que usou?</Dialogue>
+        <Dialogue><![CDATA[~b~Solicitante~s~: Eu estava andando bem aqui & achei que tinha colocado no bolso.]]></Dialogue>
+        <Dialogue>~y~Você~s~: Então deve estar por perto. Vamos dar uma olhada.</Dialogue>
+        <Dialogue>~y~Você~s~: Heeey, achei seu celular!</Dialogue>
+    </OutcomeCellphone>
+
+    <OutcomeWallet>
+        <Dialogue><![CDATA[~b~Solicitante~s~: Sim, fui eu. Perdi minha carteira & não consigo encontrá-la.]]></Dialogue>
+        <Dialogue>~y~Você~s~: Poxa. Mas tenho certeza de que vamos encontrar.</Dialogue>
+        <Dialogue>~y~Você~s~: Lembra a última vez que estava com ela?</Dialogue>
+        <Dialogue>~b~Solicitante~s~: Sim, foi há um minuto. Deve estar por aqui.</Dialogue>
+        <Dialogue>~y~Você~s~: Ok, vamos procurar sua carteira.</Dialogue>
+        <Dialogue>~y~Você~s~: Heeey, achei sua carteira!</Dialogue>
+    </OutcomeWallet>
+
+    <OutcomeShoe>
+        <Dialogue>~b~Solicitante~s~: Sim, preciso da sua ajuda. Tenho um problema enooorme.</Dialogue>
+        <Dialogue>~b~Solicitante~s~: Perdi meu sapato... meu pobre sapato, eu amava ele demais!</Dialogue>
+        <Dialogue>~y~Você~s~: Ahhh... desculpa, isso não é motivo pra chamar a polícia.</Dialogue>
+        <Dialogue>~b~Solicitante~s~: Mas era um sapato de 100 dólares! Desculpa, mas pode me ajudar a procurar?</Dialogue>
+        <Dialogue>~y~Você~s~: Tudo bem, vou te ajudar a procurar o sapato. Vamos dar uma olhada na área.</Dialogue>
+        <Dialogue>~y~Você~s~: Como eu disse, chame a polícia apenas em emergências. Tenha um bom dia!</Dialogue>
+        <Dialogue>~y~Você~s~: Heeey, achei seu sapato!</Dialogue>
+        <Dialogue>~y~Você~s~: Certo, mas da próxima vez ligue só em casos de emergência! Tchau!</Dialogue>
+    </OutcomeShoe>
+
+    <End>
+        <Text>Estamos em ~g~Código 4~s~, ~b~objeto perdido foi ~g~encontrado~s~.</Text>
+        <Text>~g~Código 4~s~, caso encerrado.</Text>
+    </End>
+
+</LostObject>

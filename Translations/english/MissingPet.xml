@@ -1,117 +1,117 @@
 <MissingPet>
 
     <General>
-        <Text>宠物丢失</Text>
-        <Text>报警人担心宠物</Text>
-        <Text>开车前往~b~~h~标记点~h~~s~ 了解有关失踪宠物的更多信息.</Text>
+        <Text>Missing Pet</Text>
+        <Text>Caller is worried about the pet</Text>
+        <Text>Drive to the ~b~~h~Caller~h~~s~ to learn more about the missing pet.</Text>
     </General>
 
     <Persons>
-        <Dialogue>报警人</Dialogue>
-        <Dialogue>司机</Dialogue>
-        <Dialogue>警员</Dialogue>
-        <Dialogue>受害者</Dialogue>
+        <Dialogue>Caller</Dialogue>
+        <Dialogue>Driver</Dialogue>
+        <Dialogue>You</Dialogue>
+        <Dialogue>Victim</Dialogue>
     </Persons>
 
     <Tasks>
-        <Text>按 {Key} 与此人交谈.</Text>
-        <Text>收到有人遭动物袭击的报告!</Text>
-        <Text>尝试~y~tase~s~ 宠物以 ~o~停止~s~ 攻击!</Text>
-        <Text>这只 ~r~宠物~s~ 已经 ~g~停止攻击~s~了!</Text>
-        <Text>呼叫~g~动物控制~s~寻求宠物帮助.</Text>
-        <Text>为受害者呼叫~r~救护车~s~.</Text>
-        <Text>与受害者交谈</Text>
-        <Text>开车前往报警人处并告知其最新情况.</Text>
-        <Text>按 ~y~J~s~键将 ~r~宠物~s~ 传送到您的车辆上!</Text>
-        <Text>~r~先上车,~s~ 然后再试一次.</Text>
+        <Text>Press {Key} to speak to the person.</Text>
+        <Text>A report of a person being attacked by an animal came in!</Text>
+        <Text>Attempt to ~y~tase~s~ the pet to ~o~stop~s~ the attack!</Text>
+        <Text>The ~r~pet~s~ has ~g~stopped attacking~s~!</Text>
+        <Text>Call ~g~animal control~s~ for the pet.</Text>
+        <Text>Call an ~r~ambulance~s~ for the victim.</Text>
+        <Text>Talk to the victim with</Text>
+        <Text>Drive to the caller and give him/her an update.</Text>
+        <Text>Press ~y~J~s~ to ~r~teleport~s~ the pet in your vehicle!</Text>
+        <Text>~r~First get into a vehicle,~s~ then try again.</Text>
     </Tasks>
 
     <TasksAccident>
-        <Text>有人发现了{PetTypeAsNormalWord}并进行了举报.</Text>
-        <Text>开车前往发现宠物的地点.</Text>
-        <Text>呼叫 ~b~~h~验尸官~h~~s~ 报告该动物, 然后再开车前往 ~b~~h~报警人~h~~s~处.</Text>
+        <Text>A person found a {PetTypeAsNormalWord} and reported it.</Text>
+        <Text>Drive to the location where the pet was found.</Text>
+        <Text>Call a ~b~~h~coroner~h~~s~ for the animal, then drive to the ~b~~h~caller~h~~s~ again.</Text>
     </TasksAccident>
 
     <Animals>
-        <Text>烈性犬</Text>
-        <Text>美洲狮</Text>
-        <Text>狗</Text>
-        <Text>猫</Text>
-        <Text>郊狼</Text>
-        <Text>鹿</Text>
-        <Text>兔子</Text>
-        <Text>母鸡</Text>
-        <Text>野猪</Text>
-        <Text>猴子</Text>
-        <Text>恒河猴</Text>
+        <Text>Aggressive Dog</Text>
+        <Text>Mountain Lion</Text>
+        <Text>Dog</Text>
+        <Text>Cat</Text>
+        <Text>Coyote</Text>
+        <Text>Deer</Text>
+        <Text>Rabbit</Text>
+        <Text>Hen</Text>
+        <Text>Wild Boar</Text>
+        <Text>Monkey</Text>
+        <Text>Rhesus Monkey</Text>
     </Animals>
 
     <CallerGeneral>
-        <Dialogue>你好！我找不到我的宠物了!</Dialogue>
-        <Dialogue>它已经失踪 {min} 分钟了，但它一定就在附近!</Dialogue>
-        <Dialogue>哦，抱歉，它是{PetTypeAsNormalWord}, 它的名字是{PetName}.</Dialogue>
-        <Dialogue>它刚才溜走了！请帮它找到它！是!</Dialogue>
+        <Dialogue>Hello! I can't find my pet!</Dialogue>
+        <Dialogue>It has been missing for {min} minutes, but it must be nearby!</Dialogue>
+        <Dialogue>Oh, sorry, it's a {PetTypeAsNormalWord}, and its name is {PetName}.</Dialogue>
+        <Dialogue>It just slipped away! Please find it!</Dialogue>
     </CallerGeneral>
 
     <DriverAccident1>
-        <Dialogue>你好，警官！看看发生了什么事!</Dialogue>
-        <Dialogue>那只动物跑到我的车前面了！我根本没机会躲避它!</Dialogue>
-        <Dialogue>我的车也受损了！能帮我叫辆出租车和拖车吗?</Dialogue>
+        <Dialogue>Hello Officer! Look what happened!</Dialogue>
+        <Dialogue>The animal ran in front of my car! I had no chance to avoid it!</Dialogue>
+        <Dialogue>My car is damaged too! Can you call me a taxi and tow truck?</Dialogue>
     </DriverAccident1>
 
     <DriverAccident2>
-        <Dialogue>您好，警官，非常抱歉，我正在开车，这时这只动物跑过了马路.</Dialogue>
-        <Dialogue>我没能及时做出反应。该死.</Dialogue>
-        <Dialogue>只要您没事，一切都没问题。您的车也没事.</Dialogue>
-        <Dialogue>感谢您的报告，我会通知车主。安全驾驶.</Dialogue>
+        <Dialogue>Hello Officer, I'm so sorry, I was only driving when this animal ran across the street.</Dialogue>
+        <Dialogue>I wasn't able to react on time. Damn it.</Dialogue>
+        <Dialogue>As long as you are fine, everything is ok. Your vehicle is ok, too.</Dialogue>
+        <Dialogue>Thanks for the report, I will notify the owner then. Drive safe.</Dialogue>
     </DriverAccident2>
 
     <CallerReturnAccident1>
-        <Dialogue>您好，我带着坏消息回来了.</Dialogue>
-        <Dialogue>哦不，发生了什么事?</Dialogue>
-        <Dialogue>这只动物被车撞了，没有活下来.</Dialogue>
-        <Dialogue>哦，真可悲，但这只宠物不是我的；它属于我的邻居.</Dialogue>
-        <Dialogue>我的邻居会永远恨我，哦不....</Dialogue>
-        <Dialogue>不过，还是谢谢你告诉我!</Dialogue>
-        <Dialogue>不过，还是谢谢你告诉我!</Dialogue>
+        <Dialogue>Hello, I'm back with bad news.</Dialogue>
+        <Dialogue>Oh no, what happened?</Dialogue>
+        <Dialogue>The animal was hit by a car and didn't survive.</Dialogue>
+        <Dialogue>Oh, that's sad, but the pet wasn't mine; it belonged to my neighbors.</Dialogue>
+        <Dialogue>My neighbors will hate me forever, oh no...</Dialogue>
+        <Dialogue>Still, thanks for letting me know!</Dialogue>
+        <Dialogue>Oh no, have a good day anyway!</Dialogue>
     </CallerReturnAccident1>
 
     <CallerReturnAccident2>
         <Dialogue>Hi...</Dialogue>
-        <Dialogue>那么......你找到宠物了吗?</Dialogue>
-        <Dialogue>很抱歉，但你的宠物被意外超速行驶了。刚刚有人报告了此事.</Dialogue>
-        <Dialogue>哦，该死……那不是我的宠物，我的邻居正在度假，我接管了它...</Dialogue>
-        <Dialogue>还有什么我可以为您效劳的吗?</Dialogue>
-        <Dialogue>不用了，谢谢……该死……我该如何解释...</Dialogue>
+        <Dialogue>And... have you found the pet?</Dialogue>
+        <Dialogue>I'm sorry, but your pet was overdriven by accident. Somebody just reported that.</Dialogue>
+        <Dialogue>Oh damn it... It wasn't my pet, my neighbors are on holidays and I took over...</Dialogue>
+        <Dialogue>Is there anything else I can do for you?</Dialogue>
+        <Dialogue>No thank you... damn... how should I explain this...</Dialogue>
     </CallerReturnAccident2>
 
     <DriverAttackSafed1>
-        <Dialogue>天哪，谢谢你救了我!</Dialogue>
-        <Dialogue>我正在忙自己的事情，突然这只动物朝我冲来</Dialogue>
-        <Dialogue>没问题，我很高兴你安全.</Dialogue>
-        <Dialogue>谢谢，祝你有美好的一天!</Dialogue>
+        <Dialogue>Omg, thank you for saving me!</Dialogue>
+        <Dialogue>I was minding my own business when suddenly this animal came straight at me!</Dialogue>
+        <Dialogue>No problem, I'm glad you're safe.</Dialogue>
+        <Dialogue>Thank you, have a nice day!</Dialogue>
     </DriverAttackSafed1>
 
     <CallerAttackReturnPetAlive2>
-        <Dialogue>嘿，我把你的宠物带回来了!</Dialogue>
-        <Dialogue>太棒了，谢谢！你去哪儿了, {PetName}?</Dialogue>
-        <Dialogue>我可以告诉你，你的宠物袭击了一名无辜平民!</Dialogue>
-        <Dialogue>哦，我很抱歉，希望他伤得不重.</Dialogue>
-        <Dialogue>我需要您的详细信息（例如身份证），然后我会提交一份报告.</Dialogue>
-        <Dialogue>一旦完成，您就可以离开了.</Dialogue>
+        <Dialogue>Hey, I've brought your pet back!</Dialogue>
+        <Dialogue>Awesome, thank you! Where have you been, {PetName}?</Dialogue>
+        <Dialogue>I can tell you, your pet attacked an innocent civilian!</Dialogue>
+        <Dialogue>Oh, I'm so sorry, I hope he's not badly hurt.</Dialogue>
+        <Dialogue>I need your details such as I.D and I will file a report.</Dialogue>
+        <Dialogue>As soon as it's finished, you're free to go.</Dialogue>
     </CallerAttackReturnPetAlive2>
 
     <CallerAttackReturnPetDead2>
-        <Dialogue>您好，我有个坏消息要告诉您。很遗憾，您的宠物袭击了一名平民.</Dialogue>
-        <Dialogue>我被迫使用了致命武力，宠物已经死亡.</Dialogue>
-        <Dialogue>哦，好吧，我很抱歉，希望对方没有受伤?</Dialogue>
-        <Dialogue>对方安然无恙.</Dialogue>
-        <Dialogue>以后我会更加小心地照顾我的宠物.</Dialogue>
-        <Dialogue>最重要的是大家都平安。祝您有美好的一天.</Dialogue>
+        <Dialogue>Hello, I have bad news for you. Unfortunately your pet attacked a civilian.</Dialogue>
+        <Dialogue>I was forced to use lethal force, the pet is deceased.</Dialogue>
+        <Dialogue>Oh okay, I am so sorry, I hope the person is not hurt?</Dialogue>
+        <Dialogue>The person is fine.</Dialogue>
+        <Dialogue>For the future I will be more careful with my pets.</Dialogue>
+        <Dialogue>Most important is that everyone is safe. Have a good day.</Dialogue>
     </CallerAttackReturnPetDead2>
 
     <End>
-        <Text>随时按 ~y~End~s~ 结束通话.</Text>
+        <Text>Press ~y~End~s~ anytime to end the callout.</Text>
         <Text>~g~Callout is Code 4.</Text>
     </End>
 

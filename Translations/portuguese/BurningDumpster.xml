@@ -1,0 +1,62 @@
+<BurningDumpster>
+
+    <General>
+        <Text>~r~Lixeira em chamas~b~ reportado</Text>
+        <Text>Unidade com extintor, responda em Código 2</Text>
+        <Text>Dirija-se ao local e apague o ~r~fogo~s~ ou chame o ~r~corpo de bombeiros!</Text>
+    </General>
+
+    <Persons>
+        <Text>Solicitante</Text>
+        <Text>Você</Text>
+    </Persons>
+
+    <Extingiush>
+        <Text>Para pegar um ~r~extintor de incêndio~s~, vá até o porta-malas e pressione</Text>
+        <Text>~r~Extintor de incêndio~s~ equipado!</Text>
+        <Text>Agora procure por ~y~evidências~s~ pressionando {Key} enquanto estiver nos ~y~marcadores~s~.</Text>
+    </Extingiush>
+
+    <Tasks>
+        <Text>Converse com o ~b~solicitante~s~ do 911 com</Text>
+        <Text>Pressione {MusicMenuKey} a qualquer momento para ver a foto novamente!</Text>
+        <Text>Central, suspeito está ~r~fugindo!</Text>
+    </Tasks>
+
+    <Caller>
+        <Dialogue>Olá, foi você quem ligou sobre o lixo em chamas?</Dialogue>
+        <Dialogue>Sim, fui eu. Queria relatar uma pessoa suspeita que vi.</Dialogue>
+        <Dialogue>Eu estava passando perto da lixeira quando vi alguém se afastando.</Dialogue>
+        <Dialogue>Logo depois o fogo começou!</Dialogue>
+        <Dialogue>Isso parece suspeito, você tem alguma informação sobre o suspeito?</Dialogue>
+        <Dialogue>Claro, era um(a) {gender}, com cerca de {age} anos.</Dialogue>
+        <Dialogue>Consegui tirar uma foto, aqui está!</Dialogue>
+        <Dialogue>Obrigado, estamos procurando o suspeito agora. Até mais!</Dialogue>
+    </Caller>
+
+    <Genders>
+        <Text>feminino</Text>
+        <Text>masculino</Text>
+        <Text>não binário</Text>
+    </Genders>
+
+    <Evidence>
+        <Dialogue>Um coquetel molotov. Isso não foi acidente... alguém quis causar esse incêndio.</Dialogue>
+        <Dialogue>Um galão cheio de gasolina, parece que alguém estava se preparando para iniciar algo.</Dialogue>
+        <Dialogue>Um bong? Estranho... talvez alguém estivesse chapado demais pra notar o fogo que causou.</Dialogue>
+        <Dialogue>Uma granada de fragmentação. Isso não é um incêndio comum, estamos lidando com algo muito mais perigoso.</Dialogue>
+        <Dialogue>Uma granada de fumaça. Pode ter sido usada para encobrir rastros antes de incendiar.</Dialogue>
+        <Dialogue>Uma garrafa quebrada. Parece improvisado, mas pode ter sido usada pra iniciar o fogo.</Dialogue>
+        <Dialogue>Um cilindro de gás. Se isso explodisse, toda a área poderia ter pegado fogo.</Dialogue>
+        <Dialogue>Um tambor de óleo. Está vazando... e é altamente inflamável. Alguém queria espalhar o fogo.</Dialogue>
+        <Dialogue>Um galão de gasolina. Cheira a combustível... alguém realmente queria queimar o lugar.</Dialogue>
+        <Dialogue>Uma meia? Bom, pode não parecer muita coisa, mas o cheiro é forte o suficiente pra ser um risco de incêndio.</Dialogue>
+        <Dialogue>Típico. Alguém jogou um cigarro aceso no lixo, e acabou começando um incêndio.</Dialogue>
+        <Dialogue>Uma meia? Bom, pode não parecer muita coisa, mas o cheiro é forte o suficiente pra ser um risco de incêndio.</Dialogue>
+    </Evidence>
+
+    <End>
+        <Text>~g~Situação sob controle, Código 4.</Text>
+    </End>
+
+</BurningDumpster>

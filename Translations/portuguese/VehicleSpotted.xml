@@ -1,0 +1,21 @@
+<VehicleSpotted>
+
+    <General>
+        <CalloutMessage>Veículo Fugitivo Avistado</CalloutMessage>
+        <Text>Procure o ~o~suspeito~s~.</Text>
+        <Text>Um policial avistou um veículo que fugiu de uma abordagem anteriormente. Fale com ele primeiro.</Text>
+        <Text>~g~Suspeito correto preso~s~</Text>
+    </General>
+
+    <Persons>
+        <Text>Policial</Text>
+    </Persons>
+
+    <D_Officer>
+        <Dialogue>E aí, parceiro, bom te ver! Parece que você cultivou uma bela barriguinha, hein?</Dialogue>
+        <Dialogue>Enfim, eu avistei este veículo aqui, que fugiu de nós mais cedo.</Dialogue>
+        <Dialogue>O suspeito deve estar por perto, só sabemos que é um homem branco.</Dialogue>
+        <Dialogue>Eu suponho que ele tenha entrado no shopping, provavelmente está com fome.</Dialogue>
+    </D_Officer>
+
+</VehicleSpotted>

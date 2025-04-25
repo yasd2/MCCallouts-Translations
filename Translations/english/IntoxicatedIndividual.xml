@@ -1,22 +1,22 @@
 <IntoxicatedIndividual>
 
     <General>
-        <Text>公共场合醉酒的人</Text>
+        <Text>Intoxicated person in public</Text>
         <Text>sir</Text>
         <Text>mam</Text>
-        <Text>按 {0} 与嫌疑人交谈.</Text>
-        <Text>~y~警员~s~: 对不起 {0}, 您需要什么帮助吗?</Text>
-        <Text>~p~嫌疑人~s~: 不不不 *hic* 一切 *hic* 都好.</Text>
-        <Text>~y~警员~s~: 在公共场所醉酒是违法的. 我会给你开一张罚单.</Text>
-        <Text>~p~嫌疑人~s~:什么? 从我面前滚开.</Text>
-        <Text>禁止进一步发言.</Text>
+        <Text>Press {0} to talk to suspect.</Text>
+        <Text>~y~You~s~: Excuse me {0}, do you need any assistance?</Text>
+        <Text>~p~Suspect~s~: Nahhh *hic* it's all *hic* finnne.</Text>
+        <Text>~y~You~s~: Being intoxicated in public is not legal. I'm going to have to write you a citation.</Text>
+        <Text>~p~Suspect~s~: A ciwhat? Get outta my facce.</Text>
+        <Text>No further speech.</Text>
     </General>
 
     <End>
-        <Text>一名嫌疑人被捕! ~g~Code 4~s~</Text>
-        <Text>一名嫌疑人倒下, ~g~Code 4~w~</Text>
+        <Text>One suspect arrested! ~g~Code 4~s~</Text>
+        <Text>One suspect down, ~g~Code 4~w~</Text>
         <Text>~g~Code 4~w~</Text>
-        <Text>~r~GTA Ped Error,~s~ 呼叫结束</Text>
+        <Text>~r~GTA Ped Error,~s~ Callout ended</Text>
     </End>
 
 </IntoxicatedIndividual>

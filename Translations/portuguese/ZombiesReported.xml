@@ -1,0 +1,36 @@
+<ZombiesReported>
+
+    <General>
+        <Text>Um civil relatou ter visto zumbis kkk</Text>
+        <Text>Dirija até o civil preocupado, ~r~Código 3~s~.</Text>
+    </General>
+
+    <Persons>
+        <Text>Você</Text>
+        <Text>Civil</Text>   
+    </Persons>
+
+    <Civilian>
+        <Dialogue>Olá, você está bem?</Dialogue>
+        <Dialogue>Você não vai acreditar... Eu vi zumbis!!!</Dialogue>
+        <Dialogue>Okay, tudo vai ficar bem...</Dialogue>
+        <Dialogue>Lá estão eles, aaaaaah!...</Dialogue>
+    </Civilian>
+
+    <Civilian2>
+        <Dialogue>Oi, o que está acontecendo?</Dialogue>
+        <Dialogue>Acho que estou ficando louco... Eu vi zumbis vagando por aí...</Dialogue>
+        <Dialogue>Caramba, você tem certeza?</Dialogue>
+        <Dialogue>Meu Deus, lá estão eles... corra!!!</Dialogue>
+    </Civilian2>
+
+    <Wave>
+        <Text>Onda {WaveNumber} começando!</Text>
+        <Text>~g~Onda {WaveNumber} completa</Text>
+        <Text>~o~Onda {WaveNumber} começa em {time}s~s~</Text>
+        <Text>Parabéns, 10 ondas vencidas.</Text>
+        <Text>Pressione ~y~End~s~ para encerrar o chamado a qualquer momento.</Text>
+        <Text>Onda {WaveNumber}</Text>
+    </Wave>
+
+</ZombiesReported>

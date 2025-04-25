@@ -1,0 +1,64 @@
+<Kidnapping>
+
+    <General>
+        <Message>Solicitante relatou um possível sequestro veicular</Message>
+        <Message>Abordagem de trânsito necessária</Message>
+        <Message>Realize uma ~g~abordagem~w~ no ~o~veículo suspeito~w~, responda em Código 3.</Message>
+        <Message>Central, um suspeito ~y~preso~w~!</Message>
+        <Message>O motorista ~r~morreu, ~g~Código 4</Message>
+        <Message>O passageiro ~r~morreu, ~g~Código 4</Message>
+        <Message>Ah não, a vítima ~r~morreu! ~g~Código 4</Message>
+    </General>
+
+    <Infos>
+        <Info>O veículo foi denunciado por estar ~y~em alta velocidade~w~.</Info>
+        <Info>O modelo do veículo é um ~b~Granger SUV preto~w~.</Info>
+    </Infos>
+
+    <Conversation1>
+        <Dialogue>Converse com o motorista usando </Dialogue>
+        <Dialogue>~y~Você~w~: Olá, sou policial do departamento local.</Dialogue>
+        <Dialogue>~o~Motorista~w~: Já percebi. Qual o motivo da abordagem?</Dialogue>
+        <Dialogue>~y~Você~w~: Recebemos uma denúncia sobre seu veículo. Quem mais está com você?</Dialogue>
+        <Dialogue>~o~Motorista~w~: Só meu chefe ali atrás à esquerda. Não precisa saber mais que isso.</Dialogue>
+        <Dialogue>~y~Você~w~: Isso quem decide sou eu, e eu quero falar com ele.</Dialogue>
+        <Dialogue>~o~Passageiro traseiro esquerdo~w~: Cara, não se mete com a gente, a gente não fez nada!</Dialogue>
+        <Dialogue>~y~Você~w~: Senhor, não estou falando com você. Quero falar com a moça, agora.</Dialogue>
+        <Dialogue>~y~Você~w~: Senhora, como está? Conhece esses homens?</Dialogue>
+        <Dialogue>~p~Mulher~w~: Sim...</Dialogue>
+        <Dialogue>A mulher parece estar ~r~tremendo~w~ e se sentindo ~r~desconfortável~w~.</Dialogue>
+        <Dialogue>~o~Passageiro traseiro esquerdo~w~: Viu? Não tem nada errado aqui, para de perder tempo!</Dialogue>
+        <Dialogue>Parece haver algo errado, chame uma unidade de apoio.</Dialogue>
+        <Dialogue>~y~Você~w~: Certo, quero que todos saiam do carro, um por um...</Dialogue>
+    </Conversation1>
+
+    <OutcomeVehiclePursuit>
+        <Dialogue>~o~Passageiro traseiro esquerdo~w~: ~r~Vai vai vai~w~!</Dialogue>
+        <Dialogue>~y~Você~w~: Central, iniciando uma ~r~perseguição~w~!</Dialogue>
+        <Dialogue>~g~Persiga~w~ os dois suspeitos, chame ~b~reforços~w~ se necessário!</Dialogue>
+    </OutcomeVehiclePursuit>
+
+    <OutcomeSurrender>
+        <Dialogue>~o~Motorista~w~: ~r~Nós nos rendemos~w~!</Dialogue>
+        <Dialogue>~g~Prenda~w~ os dois suspeitos!</Dialogue>
+    </OutcomeSurrender>
+
+    <OutcomeFootPursuit>
+        <Dialogue>~o~Passageiro traseiro esquerdo~w~: ~r~Corre!</Dialogue>
+        <Dialogue>~y~Você~w~: Central, dois suspeitos em ~r~fuga a pé~w~!</Dialogue>
+        <Dialogue>~g~Persiga~w~ os dois suspeitos, chame ~b~reforços~w~ se necessário!</Dialogue>
+    </OutcomeFootPursuit>
+
+    <VictimTalk>
+        <Dialogue>Vá até a ~g~vítima~w~ e verifique se ela está ~g~bem~w~.</Dialogue>
+        <Dialogue>~y~Você~w~: Olá senhora, você está segura agora.</Dialogue>
+        <Dialogue>~g~Vítima~w~: Meu Deus, muito obrigada! Eu estava com tanto medo!</Dialogue>
+        <Dialogue>~y~Você~w~: Você conhece os homens que te sequestraram?</Dialogue>
+        <Dialogue>~g~Vítima~w~: Não, nunca vi eles! Disseram que iam me vender!</Dialogue>
+        <Dialogue>~y~Você~w~: Eles estão presos agora. Precisa de atendimento médico?</Dialogue>
+        <Dialogue>~g~Vítima~w~: Não, estou bem, só um pouco abalada. Muito obrigada pela ajuda!</Dialogue>
+        <Dialogue>~y~Você~w~: Que bom que está bem. Vá pra casa com segurança!</Dialogue>
+        <Dialogue>Escolha se deseja chamar um ~y~táxi~w~, ~g~Uber~w~ ou deixá-la ~b~seguir sozinha~w~.</Dialogue>
+    </VictimTalk>
+
+</Kidnapping>
