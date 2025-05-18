@@ -21,7 +21,7 @@
         <Dialogue>~b~Officer~s~: Good day Detective! You can call me Erika!</Dialogue>
         <Dialogue>~b~Erika~s~: The victim is Lilliana Wyatt, 33 years old, had lived on Nikola Avenue nearby.</Dialogue>
         <Dialogue>~b~Erika~s~: Yeah, we have 3 possible suspects for a potential murder.</Dialogue>
-        <Dialogue>~b~Erika~s~:  One of them, Belle Hamilton, is the caller, but she also could be the potential murderer.</Dialogue>
+        <Dialogue>~b~Erika~s~: One of them, Belle Hamilton, is the caller, but she also could be the potential murderer.</Dialogue>
         <Dialogue>~b~Erika~s~: I suggest you to go to the crimescene and investigate, see if you can find something.</Dialogue>
         <Dialogue>Go to the crime scene and search for ~b~evidence~s~.</Dialogue>
     </Officer2>
@@ -63,7 +63,7 @@
         <Dialogue>~o~Ms. Hamilton~s~: Oh, thanks. I didn't know that, I will do that.</Dialogue>
         <Dialogue>~y~You~s~: That would be all, please wait for further instructions.</Dialogue>
         <Dialogue>Now go to the next ~o~suspect~s~ and talk to him.</Dialogue>
-
+ 
         <Dialogue>~y~You~s~: That would be all, thanks for your time.</Dialogue>
     </Suspect1>
 

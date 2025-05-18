@@ -1,0 +1,20 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Ambulance under attack</CALLOUTMESSAGE>
+    <TASK>An ambulance requested urgent help, check on them.</TASK>
+    <DIALOGUES>
+        <DIALOGUE>~y~You:~s~ What happened?</DIALOGUE>
+        <DIALOGUE>~r~Paramedic:~s~ We were on route back to the hospital, when they suddenly stopped us.</DIALOGUE>
+        <DIALOGUE>~r~Paramedic:~s~ Then they attacked us without a reason!</DIALOGUE>
+        <DIALOGUE>~r~Paramedic:~s~ Thank you for your service!</DIALOGUE>
+        <DIALOGUE>~r~Paramedic:~s~ We will head back to the station, have a nice day!</DIALOGUE>
+    </DIALOGUES>
+    <EXTRA>
+        <TEXT>Press ~y~{Y}~s~ to make them stop fighting!</TEXT>
+        <TEXT>Talk to the paramedic to find out what happened.</TEXT>
+    </EXTRA>
+    <WARN>
+        <TEXT>~y~You:~s~ Police! Stop fighting and back up!</TEXT>
+        <TEXT>~y~You:~s~ Everyone stop! This is the police!</TEXT>
+    </WARN>
+    <END>Ambulance under attack has ended.</END>
+</CALLOUT>

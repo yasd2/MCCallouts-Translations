@@ -1,0 +1,20 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Krankenwagen wird angegriffen</CALLOUTMESSAGE>
+    <TASK>Ein Krankenwagen hat dringend um Hilfe gebeten. Sehen Sie nach dem Rechten.</TASK>
+    <DIALOGUES>
+        <DIALOGUE>~y~Sie:~s~ Was ist passiert?</DIALOGUE>
+        <DIALOGUE>~r~Sanitäter:~s~ Wir waren auf dem Rückweg ins Krankenhaus, als man uns plötzlich gestoppt hat.</DIALOGUE>
+        <DIALOGUE>~r~Sanitäter:~s~ Dann wurden wir ohne ersichtlichen Grund angegriffen!</DIALOGUE>
+        <DIALOGUE>~r~Sanitäter:~s~ Vielen Dank für Ihre Hilfe!</DIALOGUE>
+        <DIALOGUE>~r~Sanitäter:~s~ Wir fahren nun zurück zur Station. Einen schönen Tag noch!</DIALOGUE>
+    </DIALOGUES>
+    <EXTRA>
+        <TEXT>Drücken Sie ~y~{Y}~s~, um den Kampf zu beenden!</TEXT>
+        <TEXT>Sprechen Sie mit dem Sanitäter, um herauszufinden, was passiert ist.</TEXT>
+    </EXTRA>
+    <WARN>
+        <TEXT>~y~Sie:~s~ Polizei! Sofort aufhören und zurücktreten!</TEXT>
+        <TEXT>~y~Sie:~s~ Alle sofort stoppen! Hier spricht die Polizei!</TEXT>
+    </WARN>
+    <END>Der Einsatz „Krankenwagen wird angegriffen“ wurde beendet.</END>
+</CALLOUT>

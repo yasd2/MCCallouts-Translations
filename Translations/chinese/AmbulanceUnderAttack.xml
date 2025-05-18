@@ -1,0 +1,20 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>救护车遭遇袭击</CALLOUTMESSAGE>
+    <TASK>救护车请求紧急援助,请前往现场检查.</TASK>
+    <DIALOGUES>
+        <DIALOGUE>~y~警员:~s~ 发生了什么事?</DIALOGUE>
+        <DIALOGUE>~r~医护人员:~s~ 我们正在返回医院的路上,他们突然拦住了我们.</DIALOGUE>
+        <DIALOGUE>~r~医护人员:~s~ 然后无缘无故地袭击了我们!</DIALOGUE>
+        <DIALOGUE>~r~医护人员:~s~ 感谢您的帮助!</DIALOGUE>
+        <DIALOGUE>~r~医护人员:~s~ 我们将返回医院，祝您有美好的一天!</DIALOGUE>
+    </DIALOGUES>
+    <EXTRA>
+        <TEXT>按 ~y~{Y}~s~ 让他们停止打斗!</TEXT>
+        <TEXT>与医护人员交谈以了解发生了什么.</TEXT>
+    </EXTRA>
+    <WARN>
+        <TEXT>~y~警员:~s~ Police! 停止打斗，往后退!</TEXT>
+        <TEXT>~y~警员:~s~ police! 都给我住手! </TEXT>
+    </WARN>
+    <END>救护车遭受袭击已结束.</END>
+</CALLOUT>

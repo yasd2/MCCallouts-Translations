@@ -21,9 +21,9 @@
     </Shooting>
 
     <Surrender>  
-        <Dialogue>~r~Suspect:~w~ Okay, I'm sorry...what do I need to do?</Dialogue>
+        <Dialogue>~r~Suspect:~w~ Okay, I'm sorry... what do I need to do?</Dialogue>
         <Dialogue>~b~You:~w~ Please can you put your hands in the air so I can arrest you.</Dialogue>
-        <Dialogue>~r~Suspect:~w~ Yes Officer...sorry...</Dialogue>
+        <Dialogue>~r~Suspect:~w~ Yes Officer... sorry...</Dialogue>
     </Surrender>
 
     <End>

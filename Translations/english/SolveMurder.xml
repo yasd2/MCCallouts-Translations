@@ -22,9 +22,9 @@
     <Suspect1>
         <Dialogue>Talk to the ~o~suspect~w~ using </Dialogue>
         <Dialogue>~y~You~s~: Hello, I'm the detective in this case, I have a few questions for you.</Dialogue>
-        <Dialogue>~o~Ayla May~s~: I'm so ~r~nervous~w~. I haven't got anything to do with this.</Dialogue>
+        <Dialogue>~o~Ayla May~s~: I'm so ~r~nervous~s~. I have nothing to do with this.</Dialogue>
         <Dialogue>~y~You~s~: Don't worry, you're fine. What kind of alcohol do you drink?</Dialogue>
-        <Dialogue>~o~Ayla May~s~: I drink alcohol as good as ~g~never~w~... and if I do maybe a glass of red wine.</Dialogue>
+        <Dialogue>~o~Ayla May~s~: I hardly ever drink alcohol... and if I do, it's maybe just a glass of red wine.</Dialogue>
         <Dialogue>~y~You~s~: Do you eat ~r~chips~w~ sometimes?</Dialogue>
         <Dialogue>~o~Ayla May~s~: ~g~No~w~, I live a healthy lifestyle, I do a lot of sport, too.</Dialogue>
         <Dialogue>~y~You~s~: That would be all, thanks for your time.</Dialogue>

@@ -11,7 +11,7 @@
         </COP1>
         <COP1_MURDERERCHOSEN>
             <DIALOGUE>~b~Cop:~s~ Tell me, who do you think is the murderer?</DIALOGUE>
-            <DIALOGUE>~b~Cop1:~s~ Arrest the ~r~murderer!</DIALOGUE>
+            <DIALOGUE>~b~Cop:~s~ Arrest the ~r~murderer!</DIALOGUE>
         </COP1_MURDERERCHOSEN>
         <SUSPECT1_INNOCENT>
             <DIALOGUE>~y~You:~s~ Hello sir, I have some questions for you. Your are a possible suspect in a recently homicide. What's your name?</DIALOGUE>
@@ -159,7 +159,7 @@
         <ITEM>Lisa Carter, the woman</ITEM>
         <ITEM>Daniel 'Danny' Reed, the hunter</ITEM>
         <DIALOGUE>~y~You:~s~ James Walker!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~  Lisa Carter!</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ Lisa Carter!</DIALOGUE>
         <DIALOGUE>~y~You:~s~ Daniel Reed!</DIALOGUE>
     </MENU>
 </CALLOUT>
