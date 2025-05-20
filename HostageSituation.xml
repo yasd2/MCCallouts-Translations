@@ -1,0 +1,135 @@
+<HostageSituation>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+<!-- 
+<![CDATA[
+-->
+<!--
+]]>
+-->
+
+
+    <General>
+        <Text>Захват Заложника</Text>
+        <Text>Неизвестный держит заложника на мушке.</Text>
+        <Text>Езжайте на место захвата заложника, Код 3, приоритетно!</Text>
+        <Text><![CDATA[Остановите машину на желтом маркере и укройтесь за ней, пока разговариваете с подозреваемым.]]></Text>
+        <Text>Поговорите с ~g~заложницей.</Text>
+        <Text>Ладно, Ладно, Я сдаюсь!</Text>
+        <Text>Припаркуйтесь там и укройтесь за машиной.</Text>
+    </General>
+
+    <PedStatus>
+        <Text>~r~Подозреваемый ~s~арестован!</Text>
+        <Text>~g~Заложник ~y~арестован?!</Text>
+        <Text>~o~Подозреваемый~s~ ~r~погиб.~s~</Text>
+        <Text>~g~Заложник~s~ ~r~погиб...~s~</Text>
+    </PedStatus>
+
+    <DisplayHelp>
+        <Text>Нажмите</Text>                                                          <!-- Press _Key_Y__ to end ... -->
+        <Text>, чтобы закончить вызов после окончания ~b~расследования~s~.</Text>  <!-- Press _Key_Y__ to end ... -->
+        <Text>Поговорите с подозреваемым используя</Text>                                      <!-- Talk to the suspect using _Key_Y_ -->
+    </DisplayHelp>
+
+    <DistanceToSuspect> <!-- If you're too close to the suspect with the hostage, you first get a warning, if you still in the area after a few seconds, he shoots -->
+        <Dialogue>~o~Свали или Я стреляю!</Dialogue>
+        <Dialogue>~g~Успел как раз вовремя!</Dialogue>
+        <Dialogue>~r~Ну всё! Сейчас начнется свинцовый дождь!</Dialogue>
+    </DistanceToSuspect>
+
+    <DistanceWarner> <!-- If you're too close to the suspects vehicle with the hostage, you first get a warning, if you still in the area after a few seconds, he shoots -->
+        <Dialogue>~o~Держите дистанцию, иначе подозреваемый рассердится!~s~</Dialogue>
+        <Dialogue>~g~Отличная работа, держитесь на безопасном расстоянии.~s~</Dialogue>
+        <Dialogue>~r~Вы подошли слишком близко! Осторожно!~s~</Dialogue>
+    </DistanceWarner>
+
+    <Menu>
+        <MenuName>Решите:</MenuName>
+
+        <Menu1>
+                <Conversation>Не двигаться</Conversation>
+                <Conversation>~y~Вы~s~: Не волнуйся, я стою на месте.</Conversation>
+                <Conversation>Надавить</Conversation>
+                <Conversation>~y~Вы~s~: Я снесу тебе голову, ублюдок!</Conversation>
+        </Menu1>
+
+        <Menu2>
+                <Conversation>20,000$ Наличными</Conversation>
+                <Conversation>~y~Вы~s~: Мы предоставим тебе 20,000$ наличными, идёт?</Conversation>
+                <Conversation>Предложить улучшенние условий содержания под стражей</Conversation>
+                <Conversation>~y~Вы~s~: Мы можем устроить твоему боссу камеру побольше и с телевизором, как насчёт этого?</Conversation>
+                <Conversation><![CDATA[Предложить новое начало и помощь психолога]]></Conversation>
+                <Conversation>~y~Вы~s~: Я понимаю. Одна моя подруга - отличный психолог, она может помочь тебе вернуться к нормальной жизни, звучит не плохо?</Conversation>
+        </Menu2>
+
+        <Menu3>
+                <Conversation>Машину для побега с небольшим количеством топлива</Conversation>
+                <Conversation>~y~Вы~s~: Ты получишь машину для побега, с ограниченным количеством топлива, но куда ты уедешь?</Conversation>
+                <Conversation>Предложить пиццу</Conversation>
+                <Conversation>~y~Вы~s~: Как насчет пиццы вместо этого?</Conversation>
+        </Menu3>
+    </Menu>
+
+    <SuspectTalk>
+                <Dialogue>~r~Подозреваемый~s~: Исчезни! Что тебе здесь нужно?! Не приближайся!</Dialogue>
+                <Dialogue>~r~Подозреваемый~s~: Очень на это надеюсь! А теперь все, уходите, я не хочу тут видеть больше полицию!</Dialogue>
+                <Dialogue>~r~Подозреваемый~s~: Ты ничего мне не сделаешь! Я больше не хочу видеть тут полицию, иначе я устрою вам свинцовый дождь!</Dialogue>
+                <Dialogue>~y~Вы~s~: Я понимаю, но здание окружено.</Dialogue>
+                <Dialogue>~y~Вы~s~: Я хочу, чтобы все закончилось благополучно - для тебя и для заложницы, и для офицеров.</Dialogue>
+                <Dialogue>~y~Вы~s~: Зачем ты ограбил магазин?</Dialogue>
+        <Reasons>
+            <Dialogue>~r~Подозреваемый~s~: Мне нужны ~b~деньги~s~, Я ~b~на мели~s~ и не могу больше оплачивать аренду!</Dialogue>
+            <Dialogue>~r~Подозреваемый~s~: Это она во всём виновата! ~b~Она бросила меня!~s~ И теперь, она у меня в заложниках!</Dialogue>
+            <Dialogue>~r~Подозреваемый~s~: Мой ~b~босс~s~ сидит в ~b~тюрьме~s~, и я не уйду, пока его не освободят!</Dialogue>
+        </Reasons>
+                <Dialogue>~y~Вы~s~: Слушай, я предлагаю тебе такую сделку:</Dialogue>
+                <Dialogue>~r~Подозреваемый~s~: Хорошо, давай заключим сделку, но что ты хочешь взамен?</Dialogue>
+                <Dialogue>~y~Вы~s~: Еще раз, все должны благополучно разойтись по домам, ты должен отдать нам заложницу!</Dialogue>
+                <Dialogue>~r~Подозреваемый~s~: Дайте мне машину для отхода и я отпущу заложницу позже!</Dialogue>
+                <Dialogue>~r~Подозреваемый~s~: Это бессмыслица, последнее предложение...</Dialogue>
+        <Fail>
+            <Dialogue>~r~Подозреваемый~s~: Нахер тебя и твои сделки! И полиция все еще здесь!</Dialogue>
+            <Dialogue>~r~Подозреваемый~s~: Теперь ты узнаешь чего добился!</Dialogue>
+            <Dialogue>~r~Подозреваемый~s~: Что за бред! Теперь ты узнаешь чего добился!</Dialogue>
+        </Fail>
+                <Dialogue>~r~Подозреваемый~s~: Я этого не обещаю, но я отпущу заложницу, как только вы, копы, исчезните.</Dialogue>
+                <Dialogue>~y~Вы~s~: Машина должна быть тут с минуты на минуту...</Dialogue>
+        
+        
+    </SuspectTalk>
+
+    <SuspectDrives>
+        <Text>Следуйте за машиной подозреваемого, но держите дистанцию, чтобы он вас не заметил!</Text>
+        <Text><![CDATA[~g~Подозреваемый, похоже, чувствует себя в безопасности~s~, пора взять его в коробку и ~r~арестовать~s~]]></Text>
+        <Text>На автомобиле был установлен и активирован трекер.</Text>
+        <Text>ФБР сообщили: Вы можете ~y~заглушить двигатель~s~ автомобиля нажав ~y~O~s~!</Text>
+        <Text><![CDATA[Возьмите ~y~подозреваемого под стражу~s~! Заблокируйте автомобиль и арестуйте его!]]></Text>
+        <Text>Автомобиль выведен из строя, задержите подозреваемого!</Text>
+    </SuspectDrives>
+
+    <HostageTalk>
+                <Dialogue>~g~Заложница~s~: Спасибо большое, этот парень просто сумасшедший! Я не могу в это поверить!</Dialogue>
+                <Dialogue>~y~Вы~s~: Расслабьтесь. Захватчик больше не представляет для вас угрозы.</Dialogue>
+                <Dialogue>~y~Вы~s~: Вы в порядке? Вам нужна медицинская или психологическая помощь?</Dialogue>
+                <Dialogue>~g~Заложница~s~: Все хорошо, я просто хочу домой.</Dialogue>
+                <Dialogue>~y~Вы~s~: Как всё переросло в ситуация с захватом заложника?</Dialogue>
+        <ExGirlfriend>
+            <Dialogue>~g~Заложница~s~: Мой бывший парень сошел с ума, я рассталась с ним две недели назад.</Dialogue>
+            <Dialogue><![CDATA[~g~Заложница~s~: Он не выдержал этого и преследовал меня.]]></Dialogue>
+        </ExGirlfriend>
+                <Dialogue>~g~Заложница~s~: Я просто хотела прогуляться по магазинам, а потом пришел этот парень и приставил пистолет к моей голове!</Dialogue>
+                <Dialogue>~g~Заложница~s~: Он твердо решил добиваться своего, любыми средствами...</Dialogue>
+                <Dialogue><![CDATA[~y~Вы~s~: Ладно, если у вас нет других дел, счастливого пути домой и берегите себя!]]></Dialogue>
+                <Dialogue>~g~Заложница~s~: Еще раз спасибо, до свидания!</Dialogue>
+    </HostageTalk>
+
+    <End>
+        <Text>~g~Код 4.</Text>
+    </End>
+
+</HostageSituation>

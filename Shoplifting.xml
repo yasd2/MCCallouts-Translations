@@ -1,0 +1,70 @@
+<Shoplifting>
+
+    <General>
+        <Text>Сообщение о краже в магазине</Text>
+        <Text>Владелец магазина вызвал полицию</Text>
+        
+        <Text>~HC_64~Владелец магазина~s~:</Text>
+        <Text>~y~Вы~s~:</Text>
+    </General>
+
+    <GetInfos>
+        <Dialogue>Здравствуйте, я офицер местного полицейского департамента.</Dialogue>
+        <Dialogue>Вы вызвали нас по поводу кражи в магазине?</Dialogue>
+        <Dialogue>Здравствуйте! Да, подозреваемый ушёл всего несколько минут назад!</Dialogue>
+        <Dialogue>Этот клоун украл кучу вещей, он несет сумку с украденным.</Dialogue>
+        <Dialogue>Как выглядит подозреваемый?</Dialogue>
+
+        <!-- {1}: ShoplHelper.Background() -->
+        <Dialogue>Он чернокожий мужчина</Dialogue>
+        <Dialogue>Он белый мужчина</Dialogue>
+
+        <!-- {1}: {Suspect.GetRoundAge()} = {10} -->
+        <Dialogue>примерно {10} лет.</Dialogue>
+
+        <!-- {2}: ShoplHelper.TShirt() -->
+        <Dialogue>Он был в белой майке</Dialogue>
+        <Dialogue>Он был в серой майке</Dialogue>
+        <Dialogue>Он был в чёрной кожаной куртке</Dialogue>
+
+        <!-- {2}: ShoplHelper.Pants() -->
+        <Dialogue>и в клетчатых штанах.</Dialogue>
+        <Dialogue>и в белых штанах.</Dialogue>
+        <Dialogue>и в светло-голубых джинсах.</Dialogue>
+
+        <Dialogue>Я заснял его на камере видеонаблюдения, вот его фото!</Dialogue>
+        <Dialogue>Подозреваемый ушёл пешком!</Dialogue>
+        <Dialogue>Спасибо за информацию, до свидания!</Dialogue>
+    </GetInfos>
+
+    <LocationUpdater>
+        <Text>~y~Местоположение~s~ обновлено!</Text> 
+        <Text>~g~Местоположение~s~ обновлено!</Text>
+        <Text>~r~Подозреваемый~s~ найден. Арестуйте его!</Text>
+    </LocationUpdater>
+
+    <Mugshot>
+        <Text>Чернокожий мужчина</Text>
+        <Text>белая майка</Text>
+
+        <Text>Белый мужчина</Text>
+        <Text>серая майка</Text>
+
+        <Text>чёрная кожаная куртка</Text>
+
+        <Text>~h~Описание подозреваемого~h~</Text>
+
+        <Text>Нажмите ~y~J~s~ в любое время, чтобы снова увидеть ~y~фото~s~!</Text>
+    </Mugshot>
+
+    <SearchForSuspect>
+        <Text>Теперь ищите подозреваемого в ~y~области~s~, которая ~y~отмечена~s~ на вашем GPS.</Text>
+        <Text>Найдите подозреваемого и продолжайте выполнение задания.</Text>
+    </SearchForSuspect>
+
+    <WaitForEnd>
+        <Text>Подозреваемый погиб.</Text>
+        <Text>~g~Код 4.</Text>
+    </WaitForEnd>
+
+</Shoplifting>

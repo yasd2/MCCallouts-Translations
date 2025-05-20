@@ -1,0 +1,68 @@
+<LostFreight>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+
+    <General>
+        <Text>Потерянный Груз</Text>
+        <Text>Человек сообщает о потерянном грузе на шоссе.</Text>
+        <Text><![CDATA[Поезжайте к позвонившему человеку и поговорите с ним.]]></Text>
+    </General>
+
+
+    <DisplayHelp>
+        <Text>Поговорите с позвонившим используя </Text>
+        <Text><![CDATA[Обыщите ~y~область~s~ и уберите препятствия используя ]]></Text>
+        <Text>Поговорите с ~b~офицером~s~ используя </Text>
+        <Text>Человеку больше нечего сказать</Text>
+        <Text>Вот небольшая ~g~подсказка.</Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+        <Text>~r~Нет предметов~s~ поблизости.</Text>
+        <Text>~r~Предмет~s~ убран!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>~y~Вы~s~: Здравствуйте, вы позвонили насчёт потерянного груза?</Dialogue>
+        <Dialogue><![CDATA[~b~Звонивший~s~: Здравствуйте, да, дверь прицепа распахнулась и на шоссе посыпались вещи!]]></Dialogue>
+        <Dialogue>~y~Вы~s~: Это опасно, что вы везли?</Dialogue>
+        <Dialogue>~b~Звонивший~s~: Всяческие ~b~теннисные штуковины~s~, мы просто освобождали наш клуб хаус.</Dialogue>
+        <Dialogue>~b~Звонивший~s~: Кучу ~b~офисных вещей~s~, шкафы, экраны, стулья, динамики...</Dialogue>
+        <Dialogue>~b~Звонивший~s~: Множество ~b~кухонной утвари~s~, кастрюли, столовые приборы, тарелки и т.д, наша компания переезжает.</Dialogue>
+        <Dialogue>~y~Вы~s~: Ясно, а куда вы направлялись?</Dialogue>
+        <Dialogue>~b~Звонивший~s~: Я ехал только ~y~в этом направлении~s~, так что ищите на другой стороне шоссе.</Dialogue>
+        <Dialogue>~y~Вы~s~: Диспетчер, заблокируйте последний въезд на шоссе, препятствия на дороге!</Dialogue>
+        <Dialogue>Принято, трафик будет остановлен, юниты в пути.</Dialogue>
+    </Conversation>
+
+
+    <Officer1>
+        <Dialogue>~b~Офицер Blue~s~: Привет! Надеюсь, у вас всё хорошо!</Dialogue>
+        <Dialogue>~b~Офицер Blue~s~: Я остановлю движение, пока дорогу не очистят!</Dialogue>
+        <Dialogue>~b~Офицер Blue~s~: Удачи!</Dialogue>
+    </Officer1>
+
+
+    <Officer2>
+        <Dialogue>~b~Офицер Night~s~: Привет, сколько еще времени это займет?</Dialogue>
+        <Dialogue>~b~Офицер Night~s~: У меня тоже есть дела!</Dialogue>
+        <Dialogue>~b~Офицер Night~s~: Если бы ты так много не болтал, меня бы тут уже не было!</Dialogue>
+    </Officer2>
+
+
+    <End>
+        <Text>У нас ~g~Код 4~s~</Text>
+        <Text>Предметов убрано:</Text> <!--There are 4 items to find, on this message you get to see how many you've found.-->
+        <Text>/~g~4</Text> <!--This means X items from 4 items were found -> X/4 items found-->
+        <Text>~r~Спасибо, ~g~трафик возобновлен!</Text>
+    </End>
+
+
+
+</LostFreight>

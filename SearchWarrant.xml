@@ -1,0 +1,45 @@
+<SearchWarrant>
+
+    <General>
+        <Text>Выдан ордер на обыск</Text>
+        <Text>Обыщите дом в поисках наркотиков, оружия, денег, костей и людей</Text>
+        <Text>Обыщите здание в поисках {ChosenEvidenceTranslation}!</Text>
+        <Text>Мы получили ~r~информацию~s~ о ~r~местонахождении улик~r~.</Text>
+        <Text>Нам сообщили, что подозреваемый сейчас на работе. Его зовут {SuspectName}.</Text>
+        <Text>Найденные улики:</Text>
+    </General>
+
+    <Persons>
+        <Text>Садовник</Text>
+        <Text>Вы</Text>
+    </Persons>
+
+    <EvidTranslation>
+        <Text>Ювелирные изделия</Text>
+        <Text>Золото</Text>
+        <Text>Деньги</Text>
+        <Text>Оружие</Text>
+        <Text>Наркотики</Text>
+    </EvidTranslation>
+
+    <D_Gardener>
+        <Dialogue>Здравствуйте, сэр. У нас есть ордер на обыск этой территории и всего дома.</Dialogue>
+        <Dialogue>О, здравствуйте. Я всего лишь садовник, сейчас дома никого нет, но дверь открыта.</Dialogue>
+    </D_Gardener>
+
+    <EvidenceChecker>
+        <Text>Улика найдена!</Text>
+        <Text>~g~Все улики найдены! Отличная работа!~s~</Text>
+    </EvidenceChecker>
+
+    <SuspectAction>
+        <Dialogue>Диспетчер, подозреваемый убегает пешком!</Dialogue>
+        <Dialogue>Чёрт... вы меня поймали...</Dialogue>
+        <Dialogue>~r~Подозреваемый:~s~ К чёрту копов, я прорвусь с боем!</Dialogue>
+    </SuspectAction>
+
+    <End>
+        <Text>Вызов завершён. Код 4.</Text>
+    </End>
+
+</SearchWarrant>
