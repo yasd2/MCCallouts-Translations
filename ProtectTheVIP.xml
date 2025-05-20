@@ -1,0 +1,31 @@
+<ProtectTheVIP>
+    <CalloutMessage>Охрана VIP</CalloutMessage>
+    <CalloutAdvisory>Защитите его от членов банды!</CalloutAdvisory>
+    <Task>Отправляйтесь к ~g~VIP.</Task>
+    <VIP>
+        <Dialogue>Привет! Спасибо за помощь, на меня охотится картель.</Dialogue>
+        <Dialogue>Я получил множество угроз в интернете. Мне нужна защита.</Dialogue>
+        <Dialogue>Я владелец бизнеса ~HC_17~Rusty Brown's Ring Donuts.</Dialogue>
+        <Dialogue>О нет, вот они!</Dialogue>
+        <Task>Нажмите ~o~{Y}~s~ — VIP ~o~переместится~s~ к вашей текущей позиции</Task>
+        <Task>Нажмите ~g~{J}:~s~ — переключить, будет ли VIP ~g~следовать~s~ за вами</Task>
+        <Task>Управление VIP</Task>
+        <Task>Действия</Task>
+        <Dead>~r~VIP погиб</Dead>
+    </VIP>
+
+    <Difficulty>
+        <Title>Сложность</Title>
+        <Easy>Легко</Easy>
+        <Medium>Средне</Medium>
+        <Hard>Тяжело</Hard>
+    </Difficulty>
+
+    <FightGang>
+        <Dialogue>~y~Вы:~s~ Иди сюда!</Dialogue>
+        <Dialogue>Следуй за мной!</Dialogue>
+        <Dialogue>Оставайся здесь!</Dialogue>
+    </FightGang>
+
+    <End>~b~Операция по охране VIP завершена.</End>
+</ProtectTheVIP>

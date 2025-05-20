@@ -1,0 +1,31 @@
+<Burglary>
+
+    <General>
+        <CalloutMessage>Гражданин сообщает о краже со взломом</CalloutMessage>
+        <Text>Отправляйтесь на место преступления, действуйте с осторожностью.</Text>
+        <Text>Ищите улики, нажмите {0}, чтобы подобрать.</Text>
+        <Text>Осмотрите территорию вокруг дома.</Text>
+    </General>
+
+    <FalseAlarm>
+        <Dialogue>Диспетчер, здесь всё спокойно, ложная тревога.</Dialogue>
+        <Dialogue>Принято, возвращайтесь к патрулированию.</Dialogue>
+    </FalseAlarm>
+
+    <AnimalOnScene>
+        <Dialogue>Диспетчер, ложная тревога, это всего лишь животное устроило беспорядок.</Dialogue>
+        <Dialogue>Принято, возвращайтесь к патрулированию.</Dialogue>
+    </AnimalOnScene>
+
+    <BurglarLeft>
+        <Dialogue>Диспетчер, есть признаки взлома, осматриваем место происшествия.</Dialogue>
+        <Dialogue>Хмм, это не даёт нам информации.</Dialogue>
+        <Dialogue>Диспетчер, я нашёл документ на имя {DriversName}.</Dialogue>
+        <Dialogue>Получил срабатывание ALPR на превышение скорости, владелец — {DriversName}.</Dialogue>
+    </BurglarLeft>
+
+    <BurglarIsLeaving>
+        <Dialogue>Диспетчер, одно транспортное средство ~r~скрывается~s~, в нём двое!</Dialogue>
+    </BurglarIsLeaving>
+
+</Burglary>
