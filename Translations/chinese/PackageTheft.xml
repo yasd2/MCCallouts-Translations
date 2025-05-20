@@ -6,7 +6,7 @@
         <DIALOGUE>~y~警员~s~: 下午好。介意我和您简单聊聊吗?</DIALOGUE>
         <DIALOGUE>~o~邮递员~s~: 当然可以，警官。有什么问题吗?</DIALOGUE>
         <DIALOGUE>~y~警员~s~: 这附近发生过几起包裹被盗事件。我刚看到你送来一个包裹，想确认一下一切正常.</DIALOGUE>
-        <DIALOGUE>~o~邮递员~s~: 啊，是啊。我完全明白。我确实听过一些邻居提到一些奇怪的事情.</DIALOGUE>
+        <DIALOGUE>~o~邮递员~s~: 啊，是啊。我完全明白.我确实听过一些邻居提到一些奇怪的事情.</DIALOGUE>
         <DIALOGUE>~y~警员~s~: 请问您在哪家快递公司工作，以及包裹寄往哪个地址?</DIALOGUE>
         <DIALOGUE>~o~邮递员~s~: 我的是 GoPostal 的。包裹寄往格罗夫街 123 号——只是一个小盒子。我还把它放在门廊上拍了张照片.</DIALOGUE>
         <DIALOGUE>~y~警员~s~: 好的，听起来不错。我们只是在尽职尽责。感谢您的合作.</DIALOGUE>
