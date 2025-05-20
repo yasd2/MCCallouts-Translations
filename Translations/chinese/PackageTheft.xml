@@ -1,7 +1,7 @@
 <CALLOUT>
     <CALLOUTMESSAGE>盗窃包裹</CALLOUTMESSAGE>
     <CALLOUTADVISORY>需要警员监视此区域</CALLOUTADVISORY>
-    <!-- D_Friendly邮递员 -->
+    <!-- D_FriendlyPostman -->
     <DIALOGUES>
         <DIALOGUE>~y~警员~s~: 下午好。介意我和您简单聊聊吗?</DIALOGUE>
         <DIALOGUE>~o~邮递员~s~: 当然可以，警官。有什么问题吗?</DIALOGUE>
@@ -14,7 +14,7 @@
         <DIALOGUE>~y~警员~s~: 警员'一切顺利，一路平安.</DIALOGUE>
         <DIALOGUE>~o~邮递员~s~: 好的。谢谢您的关注,警官.</DIALOGUE>
     </DIALOGUES>
-    <!-- D_Annoyed邮递员 -->
+    <!-- D_AnnoyedPostman -->
     <DIALOGUES>
         <DIALOGUE>~y~警员~s~: 您好。如果可以的话，我需要占用您一点时间.</DIALOGUE>
         <DIALOGUE>~o~邮递员~s~: 我是说……嗯，我猜是的。这是什么意思?</DIALOGUE>
