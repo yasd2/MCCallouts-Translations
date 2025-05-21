@@ -1,0 +1,36 @@
+<ZombiesReported>
+
+    <General>
+        <Text>Гражданин сообщил, что видел зомби</Text>
+        <Text>Двигайтесь к встревоженному гражданину, ~r~Код 3~s~.</Text>
+    </General>
+
+    <Persons>
+        <Text>Вы</Text>
+        <Text>Гражданин</Text>   
+    </Persons>
+
+    <Civilian>
+        <Dialogue>Здравствуйте, вы в порядке?</Dialogue>
+        <Dialogue>Вы мне не поверите... Я видел зомби!!!</Dialogue>
+        <Dialogue>Хорошо, всё будет в порядке...</Dialogue>
+        <Dialogue>Вон они, аааааа!... </Dialogue>
+    </Civilian>
+
+    <Civilian2>
+        <Dialogue>Привет, что случилось?</Dialogue>
+        <Dialogue>Мне кажется, я схожу с ума... Я видел, как зомби бродили поблизости...</Dialogue>
+        <Dialogue>Чёрт, вы уверены?</Dialogue>
+        <Dialogue>О боже, вот они... бегите!!!</Dialogue>
+    </Civilian2>
+
+    <Wave>
+        <Text>Волна {WaveNumber} начинается!</Text>
+        <Text>~g~Волна {WaveNumber} завершена</Text>
+        <Text>~o~Волна {WaveNumber} начнётся через {time} секунд~s~</Text>
+        <Text>Поздравляем, вы справились с 10 волнами.</Text>
+        <Text>Нажмите ~y~End~s~, чтобы завершить вызов в любое время.</Text>
+        <Text>Волна {WaveNumber}</Text>
+    </Wave>
+
+</ZombiesReported>

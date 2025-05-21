@@ -1,0 +1,83 @@
+<LostObject>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+
+    <General>
+        <Text>Потерянный Предмет</Text>
+        <Text>Человек потерял вещь, требуется Полиция</Text>
+        <Text><![CDATA[Поезжайте к позвонившему человеку и выясните в чём дело.]]></Text>
+    </General>
+
+
+    <DisplayHelp>
+        <Text>Поговорите с позвонившим используя </Text>
+        <Text>Найдите ~o~телефон~s~. Нажмите </Text> <!--Search for the ~o~cellphone~s~. Press __Key-Y__  to pick up the object.-->
+        <Text>Найдите ~o~кошелёк~s~. Нажмите </Text>    <!--Search for the ~o~wallet~s~. Press __Key-Y__  to pick up the object.-->
+        <Text>Найдите ~o~туфлю~s~. Нажмите </Text>      <!--Search for the ~o~shoe~s~. Press __Key-Y__  to pick up the object.-->
+        <Text>, чтобы подобрать предмет</Text>
+        <Text>Нажмите </Text>                                 <!--Press __Key-Y__ to shout to the caller!-->
+        <Text> крикнуть позвонившему человеку!</Text>               <!--Press __Key-Y__ to shout to the caller!-->
+        <Text>Вот ~r~подсказка~s~, которая поможет.</Text>
+        <Text>Нажмите ~g~1~s~, чтобы принять или ~r~2~s~, чтобы отказаться.</Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+        <Text>~r~Телефон~s~ найден!</Text>
+        <Text>~r~Кошелёк~s~ найден!</Text>
+        <Text>~r~Туфля~s~ найдена!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>~y~Вы~s~: Здравствуйте, это вы нам звонили?</Dialogue>
+        <Dialogue>~b~Звонивший~s~: Секунду, я иду!</Dialogue>
+        <Dialogue>~b~Звонивший~s~: Спасибо вам большое! Хотела бы я иметь такое острое зрение, как у вас!</Dialogue>
+        <Dialogue>~y~Вы~s~: Ничего страшного, до свидания!</Dialogue>
+    </Conversation>
+
+
+    <OutcomeCellphone>
+        <Dialogue>~b~Звонивший~s~: Да, я звонила. Я не могу найти свой телефон.</Dialogue>
+        <Dialogue>~y~Вы~s~: Понятно. Я помогу вам найти его.</Dialogue>
+        <Dialogue>~y~Вы~s~: Когда вы в последний раз им пользовались?</Dialogue>
+        <Dialogue><![CDATA[~b~Звонивший~s~: Я гуляла прямо тут и думала, что положила его в карман.]]></Dialogue>
+        <Dialogue>~y~Вы~s~: Значит, он должен быть где-то поблизости. Давайте посмотрим.</Dialogue>
+        <Dialogue>~y~Вы~s~: Хэээй, я нашел ваш телефон!</Dialogue>
+    </OutcomeCellphone>
+
+
+    <OutcomeWallet>
+        <Dialogue><![CDATA[~b~Звонивший~s~: Да, это была я. Я потеряла кошелёк и не могу его найти.]]></Dialogue>
+        <Dialogue>~y~Вы~s~: О Боже. Уверен, мы найдем его.</Dialogue>
+        <Dialogue>~y~Вы~s~: Вы помните, когда в последний раз брали его в руки?</Dialogue>
+        <Dialogue>~b~Звонивший~s~: Ага, буквально минуту назад. Он должен быть где-то здесь.</Dialogue>
+        <Dialogue>~y~Вы~s~: Хорошо, давайте найдем ваш кошелёк.</Dialogue>
+        <Dialogue>~y~Вы~s~: Хэээй, я нашел ваш кошелёк!</Dialogue>
+    </OutcomeWallet>
+
+
+    <OutcomeShoe>
+        <Dialogue>~b~Звонивший~s~: Да, мне нужна ваша помощь. У меня огро-о-омная проблема.</Dialogue>
+        <Dialogue>~b~Звонивший~s~: Я потеряла туфлю... моя бедная туфля, я ее так люблю!</Dialogue>
+        <Dialogue>~y~Вы~s~: Аагхм... извините, но это не повод звонить в полицию.</Dialogue>
+        <Dialogue>~b~Звонивший~s~: Но это 100 долларовая туфля! Мне очень жаль, но не могли бы вы помочь мне найти её?</Dialogue>
+        <Dialogue>~y~Вы~s~: Ладно, я помогу вам найти туфлю. Давайте обыщем местность.</Dialogue>
+        <Dialogue>~y~Вы~s~: Нет, как я уже сказал. Звоните в полицию только в экстренных случаях. Хорошего дня!</Dialogue>
+        <Dialogue>~y~Вы~s~: Хэээй, я нашел вашу туфлю!</Dialogue>
+        <Dialogue>~y~Вы~s~: Ладно, но в следующий раз звоните только в экстренных случаях! До свидания!</Dialogue>
+    </OutcomeShoe>
+
+
+    <End>
+        <Text>У нас ~g~Код 4~s~, ~b~пропавшая вещь ~g~найдена~s~.</Text>
+        <Text>Код ~g~4~s~, дело закрыто.</Text>
+    </End>
+
+
+
+</LostObject>
