@@ -1,12 +1,12 @@
 <FastPursuit>
 
     <General>
-        <Text>Fast Pursuit</Text>
-        <Text>Officer required for evading vehicle</Text>
-        <Text>Locate and pursue the ~r~suspect~w~.</Text>
-        <Text>Suspect is ~r~deceased~w~. We are ~g~Code 4~w~.</Text>
-        <Text>Suspect in ~b~custody~w~. We are ~g~Code 4~w~.</Text>
-        <Text>We are ~g~Code 4~w~.</Text>
+        <Text>Persecución a alta velocidad</Text>
+        <Text>Se necesita apoyo por un vehículo que se ha dado a la fuga</Text>
+        <Text>Localiza y persigue al ~r~sospechoso~w~.</Text>
+        <Text>El sospechoso ha ~r~muerto~w~. ~g~Código 4~w~.</Text>
+        <Text>El sospechoso está ~b~detenido~w~. ~g~Código 4~w~.</Text>
+        <Text> ~g~Código 4~w~.</Text>
     </General>
 
 </FastPursuit>
