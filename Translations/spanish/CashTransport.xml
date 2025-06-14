@@ -2,34 +2,34 @@
 <CashTransport>
 
     <General>
-        <Text>Transporte de dinero arriesgado</Text>
-        <Text>Conduzca hasta el lugar ~g~~h~callout~h~~s~.</Text>
+        <Text>Transporte de dinero de riesgo</Text>
+        <Text>Conduzca hasta el ~g~~h~lugar de la llamada~h~~s~.</Text>
         <Text>Pulse {Y} para hablar</Text>
         <Text>Conduce hasta el ~b~~h~destino~h~~s~.</Text>
         <Text>Pulse {Y} en cualquier momento si el RIOT está atascado.</Text>
-        <Text>Coge la maleta ~HC_3~~h~cash~h~s~ de la parte trasera del camión ~r~~h~money~h~~s~.</Text>
+        <Text>Coge la ~HC_3~~h~maleta~h~s~ de la parte trasera del ~r~~h~furgón~h~~s~.</Text>
         <Text>Lleva el maletín al banco.</Text>
-        <Text>Pulse ~y~~h~End~h~s~ en cualquier momento para finalizar la llamada.</Text>
+        <Text>Pulse ~y~~h~FIN~h~s~ en cualquier momento para finalizar la llamada.</Text>
     </General>
 
     <Persons>
         <Text>Guardia</Text>
         <Text>Usted</Text>
-        <Text>Bankman</Text>
+        <Text>Banquero</Text>
     </Persons>
 
     <Guard>
-        <Dialogue>¡Hola Oficial! ¡Gracias por venir! ¡Tenemos una entrega muy importante!</Dialogue>
+        <Dialogue>¡Hola agente! ¡Gracias por venir! ¡Tenemos una entrega muy importante!</Dialogue>
         <Dialogue>El camión blindado del banco entregará una gran cantidad de dinero a nuestro destino.</Dialogue>
-        <Dialogue>El camión será conducido por usted, un vehículo blindado swat le seguirá.</Dialogue>
-        <Dialogue>Recibimos informes de que podría haber un ataque, por eso te tenemos a ti y al equipo SWAT. ¡Adelante!</Dialogue>
+        <Dialogue>Usted conducirá y un vehículo blindado del SWAT te seguirá.</Dialogue>
+        <Dialogue>Recibimos informes de que podría haber un ataque, por eso la necesidad del SWAT. ¡Adelante!</Dialogue>
     </Guard>
 
     <Bankman>
         <Dialogue>¡Hola! ¡Veo que has salido con vida! Ahora sabes por qué contratamos a profesionales como tú, no como... mis colegas.</Dialogue>
-        <Dialogue>...definitivamente. Al menos el vehículo swat es a prueba de balas.</Dialogue>
-        <Dialogue>El camión del dinero también está blindado. Sólo las ventanas no lo son.</Dialogue>
-        <Dialogue>Este es el caso.</Dialogue>
+        <Dialogue>...definitivamente. Al menos el vehículo del SWAT es a prueba de balas.</Dialogue>
+        <Dialogue>El camión del dinero, salvo las ventanas, también está blindado.</Dialogue>
+        <Dialogue>Ten el maletín.</Dialogue>
         <Dialogue>Perfecto, gracias, ¡he hablado bien de ti!</Dialogue>
         <Dialogue>Espero que el riesgo haya merecido la pena, ¡que tenga un buen día!</Dialogue>
     </Bankman>

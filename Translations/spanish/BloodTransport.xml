@@ -13,7 +13,7 @@
             <TEXT />
         </PUTBAGINTRUNK>
         <DRIVETODESTINATIONHOSPITAL>
-            <TEXT>Ahora conduce hasta el hospital, ya están esperando tu parto.</TEXT>
+            <TEXT>Ahora conduce hasta el hospital, ya te están esperando.</TEXT>
             <TEXT />
         </DRIVETODESTINATIONHOSPITAL>
         <GRABFROMTRUNK>
@@ -21,7 +21,7 @@
             <TEXT />
         </GRABFROMTRUNK>
         <GIVEBAGTODOC>
-            <TEXT>¡Ahora lleva la bolsa al médico!</TEXT>
+            <TEXT>¡Lleva la bolsa al médico!</TEXT>
             <TEXT />
         </GIVEBAGTODOC>
         <AUTOEND>

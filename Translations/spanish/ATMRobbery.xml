@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
 <ATMRobbery>
 
     <CamText>
@@ -6,12 +5,12 @@
     </CamText>
 
     <D_Victim>
-        <Dialogue>¡Hola Oficial! ¡Me acaban de robar!</Dialogue>
+        <Dialogue>¡Hola agente! ¡Me acaban de robar!</Dialogue>
         <Dialogue>Acababa de sacar dinero del cajero automático, y entonces vino una persona y me quitó la cartera.</Dialogue>
         <Dialogue>¡Peleamos, y me golpeó en la cabeza!</Dialogue>
         <Dialogue>Por desgracia, no recuerdo qué aspecto tenía la persona...</Dialogue>
         <Dialogue>No hay problema, veo que tenemos una cámara de vigilancia allí. Veré lo que puedo hacer.</Dialogue>
-        <Dialogue>Central, ¿puede darme acceso al circuito cerrado de televisión de mi ubicación actual?</Dialogue>
+        <Dialogue>Central, ¿puede darme acceso al CCTV de mi ubicación actual?</Dialogue>
     </D_Victim>
 
     <D_Suspect>
@@ -24,17 +23,17 @@
     <Persons>
         <Text>Víctima</Text>
         <Text>Usted</Text>
-        <Text>Suspect</Text>
+        <Text>Sospechosouspect</Text>
     </Persons>
 
     <General>
         <CalloutMessage>Robo en cajeros automáticos</CalloutMessage>
         <CalloutAdvisory>Una persona ha denunciado un robo justo después de sacar dinero</CalloutAdvisory>
-        <Text>Pulse {0} para hablar con el ~g~llamador~s~.</Text>
+        <Text>Pulse {0} para hablar con la ~g~víctima~s~.</Text>
         <Text>En espera.</Text>
         <Text>Ahora deberías tener acceso a la cámara.</Text>
         <Text>Pulsa {0} para ver la imagen de la cámara.</Text>
-        <Text>Tenemos informes de otro robo; la zona está marcada en su GPS.</Text>
+        <Text>Tenemos informes de otro robo. La zona está marcada en su GPS.</Text>
         <Text>Pulsa {0} para hablar con el ~r~sospechoso~s~.</Text>
         <Text>Al sospechoso no parece importarle.</Text>
         <Text>Compruébalo.</Text>

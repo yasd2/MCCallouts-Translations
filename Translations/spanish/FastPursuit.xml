@@ -2,11 +2,11 @@
 
     <General>
         <Text>Persecución a alta velocidad</Text>
-        <Text>Se requiere a un agente por un vehículo que se ha dado a la fuga.</Text>
+        <Text>Se necesita apoyo por un vehículo que se ha dado a la fuga</Text>
         <Text>Localiza y persigue al ~r~sospechoso~w~.</Text>
         <Text>El sospechoso ha ~r~muerto~w~. ~g~Código 4~w~.</Text>
-        <Text>El sospechoso está ~b~detenido~w~. Central, ~g~código 4~w~.</Text>
-        <Text>~g~Código 4~w~.</Text>
+        <Text>El sospechoso está ~b~detenido~w~. Central, ~g~Código 4~w~.</Text>
+        <Text> ~g~Código 4~w~.</Text>
     </General>
 
 </FastPursuit>
