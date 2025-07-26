@@ -1,0 +1,31 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Дорожно-транспортное происшествие</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>~r~Реагирование по Коду 3</CALLOUTADVISORY>
+    <TASK>Проследуйте к ~r~месту аварии.~s~ Обеспечьте контроль дорожного движения и проверьте состояние водителя.</TASK>
+    <SCENARIOS>
+        <DRIVERINJURED>
+            <TEXT>Нажмите ~{Y}~ для разговора.</TEXT>
+            <DIALOGUE>~y~Вы:~s~ Вы меня слышите? Вам нужна помощь?</DIALOGUE>
+            <DIALOGUE>~p~Водитель:~s~ Я... ранен... мне нужна... скорая. Помогите.</DIALOGUE>
+            <TEXT>Вызовите скорую помощь для пострадавшего.</TEXT>
+        </DRIVERINJURED>
+        <DRIVEROKBUTDRUNK>
+            <DIALOGUE>~y~Вы:~s~ Можете объяснить, что произошло?</DIALOGUE>
+            <DIALOGUE>~o~Водитель:~s~ Я не очень помню. *икает*</DIALOGUE>
+            <DIALOGUE>~y~Вы:~s~ Откуда вы ехали?</DIALOGUE>
+            <DIALOGUE>~o~Водитель:~s~ С вечеринки у друга. Я могу пройти тест на трезвость, я абсолютно чист.</DIALOGUE>
+        </DRIVEROKBUTDRUNK>
+        <DRIVERSHOTWEAPONNEARBY> 
+            <TEXT>Нажмите ~{Y}~ чтобы поднять оружие.</TEXT>
+            <TEXT>Нажмите ~y~{Y}~s~ для запроса проверки серийного номера в диспетчерской.</TEXT>
+            <SERIALNUMBER>
+                <DIALOGUE>~y~Вы:~s~ Диспетчер, проверьте серийный номер пистолета: ~r~{serialnumber}~s~.</DIALOGUE>
+                <DIALOGUE>Принято, проверяем.</DIALOGUE>
+                <DIALOGUE>Тип оружия: Пистолет</DIALOGUE>
+                <DIALOGUE>~b~Владелец: {DriversName}</DIALOGUE>
+                <DIALOGUE>~r~Внимание: Владелец в розыске</DIALOGUE>
+                <DIALOGUE>Внимание: Поступил вызов о подозрительном человеке поблизости, реагируйте по ~r~Коду 3.</DIALOGUE>
+            </SERIALNUMBER>
+        </DRIVERSHOTWEAPONNEARBY>
+    </SCENARIOS>
+</CALLOUT>

@@ -1,0 +1,20 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>~b~~h~[SWAT]~h~ Locked and Loaded</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>A swat team is required for clearing a building!</CALLOUTADVISORY>
+    <TASKS>
+        <TEXT>Drive to the ~o~location.</TEXT>
+        <TEXT>Enter and clear the building, ~r~multiple armed suspects have barricated themselves. ~b~Having backup partners could help!</TEXT>
+        <TEXT>Press ~{J}~ to go in/ out</TEXT>
+    </TASKS>
+    <SUCCESS>
+        <TEXT>~g~All threats neutralized!</TEXT>
+        <TEXT>Press ~{End}~ to end the callout.</TEXT>
+    </SUCCESS>
+    <STATS>
+        <TEXT>Neutralized:</TEXT>
+        <TEXT>Arrested:</TEXT>
+        <TEXT>~g~Mission accomplished~n~</TEXT>
+        <TEXT>~r~Mission failed~n~</TEXT>
+        <TEXT>Threats left:</TEXT>
+    </STATS>
+</CALLOUT>

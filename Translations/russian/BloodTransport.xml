@@ -1,31 +1,31 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Emergency Blood Transport</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>A patient requires blood urgently</CALLOUTADVISORY>
-    <TASK>Drive to the location.</TASK>
+    <CALLOUTMESSAGE>Срочная доставка крови</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Пациенту срочно требуется кровь</CALLOUTADVISORY>
+    <TASK>Поезжайте к месту назначения.</TASK>
     <STATE>
         <PICKUPBAG>
-            <TEXT>Take the blood bag from the medic, then put it in your trunk.</TEXT>
+            <TEXT>Возьмите пакет с кровью у медика и положите его в багажник.</TEXT>
             <TEXT></TEXT>
         </PICKUPBAG>
         <PUTBAGINTRUNK>
-            <TEXT>Press ~y~{Y}~s~ to put the blood bag in the trunk.</TEXT>
+            <TEXT>Нажмите ~y~{Y}~s~, чтобы положить пакет с кровью в багажник.</TEXT>
             <TEXT></TEXT>
         </PUTBAGINTRUNK>
         <DRIVETODESTINATIONHOSPITAL>
-            <TEXT>Now drive to the hospital, they are already awaiting your delivery.</TEXT>
+            <TEXT>Теперь поезжайте в больницу, там уже ждут вашу доставку.</TEXT>
             <TEXT></TEXT>
         </DRIVETODESTINATIONHOSPITAL>
         <GRABFROMTRUNK>
-            <TEXT>Grab the ~r~blood bag~s~ with ~y~{Y}~s~ from the trunk.</TEXT>
+            <TEXT>Возьмите ~r~пакет с кровью~s~ из багажника, нажав ~y~{Y}~s~.</TEXT>
             <TEXT></TEXT>
         </GRABFROMTRUNK>
         <GIVEBAGTODOC>
-            <TEXT>Now bring the bag to the doctor!</TEXT>
+            <TEXT>Теперь отнесите пакет врачу!</TEXT>
             <TEXT></TEXT>
         </GIVEBAGTODOC>
         <AUTOEND>
-            <TEXT>You have ~g~successfully~s~ delivered the ~r~blood bag!</TEXT>
-            <TEXT>{CalloutMessage} has ended.</TEXT>
+            <TEXT>Вы ~g~успешно~s~ доставили ~r~пакет с кровью!</TEXT>
+            <TEXT>{CalloutMessage} завершён.</TEXT>
         </AUTOEND>
     </STATE>
 </CALLOUT>

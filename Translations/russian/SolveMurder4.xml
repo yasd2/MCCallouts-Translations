@@ -1,165 +1,165 @@
 <CALLOUT>
     <CALLOUTMESSAGE>~HC_48~SolveMurder4</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>A corpse has been found next to a farm house in North Yankton</CALLOUTADVISORY>
-    <TASK>Drive to the ~b~scene, the officer~s~ waits there for you.</TASK>
+    <CALLOUTADVISORY>Рядом с фермой в Северном Янктоне найден труп</CALLOUTADVISORY>
+    <TASK>Поезжайте на ~b~место происшествия, ~s~офицер уже ждёт вас там.</TASK>
     <DIALOGUES>
         <COP1>
-            <DIALOGUE>~b~Cop:~s~ Welcome to the cold and snowy North Yankton!</DIALOGUE>
-            <DIALOGUE>~b~Cop:~s~ Unfortunately we have a dead body over there. We don't know much yet, so you might search the scene first.</DIALOGUE>
-            <DIALOGUE>~b~Cop:~s~ After that we have three possible suspects. You'll have to drive down the road to talk to them.</DIALOGUE>
-            <DIALOGUE>~b~Cop:~s~ There is also a neighbour who told us he witnessed something...</DIALOGUE>
+            <DIALOGUE>~b~Офицер:~s~ Добро пожаловать в холодный и снежный Северный Янктон!</DIALOGUE>
+            <DIALOGUE>~b~Офицер:~s~ К сожалению, у нас тут труп. Мы пока знаем немного, так что осмотрите место происшествия.</DIALOGUE>
+            <DIALOGUE>~b~Офицер:~s~ Затем у нас есть три возможных подозреваемых. Вам нужно будет съездить и поговорить с ними.</DIALOGUE>
+            <DIALOGUE>~b~Офицер:~s~ Также есть сосед, который утверждает, что что-то видел...</DIALOGUE>
         </COP1>
         <COP1_MURDERERCHOSEN>
-            <DIALOGUE>~b~Cop:~s~ Tell me, who do you think is the murderer?</DIALOGUE>
-            <DIALOGUE>~b~Cop1:~s~ Arrest the ~r~murderer!</DIALOGUE>
+            <DIALOGUE>~b~Офицер:~s~ Ну что, как думаете, кто убийца?</DIALOGUE>
+            <DIALOGUE>~b~Офицер:~s~ Арестуйте ~r~убийцу!</DIALOGUE>
         </COP1_MURDERERCHOSEN>
         <SUSPECT1_INNOCENT>
-            <DIALOGUE>~y~You:~s~ Hello sir, I have some questions for you. Your are a possible suspect in a recently homicide. What's your name?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ A homicide? That's horrible! My name is James Walker, you can call me Jimmy.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Do you smoke?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ No and I'm proud of it.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ What do you do for a living?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ I am a mechanic, I work on cars.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Do you drink alcohol?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ Not really, sometimes I drink a beer.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Do you own any guns?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ No, I don't.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Do you wear a watch?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ Yes, I have a lot of watches, I need them for work.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Where were you when the victim died?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ I spoke to a customer about his broken car, I told him it is unrepairable.</DIALOGUE>
+            <DIALOGUE>~y~Вы:~s~ Здравствуйте, сэр. У меня к вам несколько вопросов. Вы — возможный подозреваемый в недавнем убийстве. Как вас зовут?</DIALOGUE>
+            <DIALOGUE>~y~Подозреваемый:~s~ Убийство? Это ужасно! Меня зовут Джеймс Уокер, можете звать меня Джимми.</DIALOGUE>
+            <DIALOGUE>~y~Вы:~s~ Вы курите?</DIALOGUE>
+            <DIALOGUE>~y~Подозреваемый:~s~ Нет, и я этим горжусь.</DIALOGUE>
+            <DIALOGUE>~y~Вы:~s~ Чем вы зарабатываете на жизнь?</DIALOGUE>
+            <DIALOGUE>~y~Подозреваемый:~s~ Я автомеханик, чиню машины.</DIALOGUE>
+            <DIALOGUE>~y~Вы:~s~ Вы пьёте алкоголь?</DIALOGUE>
+            <DIALOGUE>~y~Подозреваемый:~s~ Не особо, иногда пью пиво.</DIALOGUE>
+            <DIALOGUE>~y~Вы:~s~ У вас есть оружие?</DIALOGUE>
+            <DIALOGUE>~y~Подозреваемый:~s~ Нет, у меня нет оружия.</DIALOGUE>
+            <DIALOGUE>~y~Вы:~s~ Вы носите часы?</DIALOGUE>
+            <DIALOGUE>~y~Подозреваемый:~s~ Да, у меня много часов — они нужны мне по работе.</DIALOGUE>
+            <DIALOGUE>~y~Вы:~s~ Где вы были, когда умерла жертва?</DIALOGUE>
+            <DIALOGUE>~y~Подозреваемый:~s~ Я разговаривал с клиентом по поводу его сломанной машины, сказал ему, что она не подлежит ремонту.</DIALOGUE>
         </SUSPECT1_INNOCENT>
         <SUSPECT1_GUILTY>
-            <DIALOGUE>~y~You:~s~ Hello sir, you are suspected the have murdered a person. I have some questions for you. Let's start with your name.</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ I didn't do nothing! My name is James Walker, my friends call me Jimmy.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Do you smoke?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ No and I'm proud of it.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ What do you do for a living?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ I am a mechanic, I work on cars.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Do you drink alcohol?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ Not really, sometimes I drink a beer.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Do you own any guns?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ No, I don't.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Do you wear a watch?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ Yes, right now I am... oh, I've lost it.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Where were you when the victim died?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ I... was in my garage fixing cars. I was the last one.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ In the evening?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ Yes, I have a lot to do.</DIALOGUE>
+            <DIALOGUE>~y~Вы:~s~ Здравствуйте, сэр. Вас подозревают в убийстве человека. У меня к вам несколько вопросов. Начнём с вашего имени.</DIALOGUE>
+            <DIALOGUE>~y~Подозреваемый:~s~ Я ничего не делал! Меня зовут Джеймс Уокер, друзья зовут Джимми.</DIALOGUE>
+            <DIALOGUE>~y~Вы:~s~ Вы курите?</DIALOGUE>
+            <DIALOGUE>~y~Подозреваемый:~s~ Нет, и я этим горжусь.</DIALOGUE>
+            <DIALOGUE>~y~Вы:~s~ Чем занимаетесь?</DIALOGUE>
+            <DIALOGUE>~y~Подозреваемый:~s~ Я механик, чиню машины.</DIALOGUE>
+            <DIALOGUE>~y~Вы:~s~ Вы пьёте алкоголь?</DIALOGUE>
+            <DIALOGUE>~y~Подозреваемый:~s~ Не особо, иногда пью пиво.</DIALOGUE>
+            <DIALOGUE>~y~Вы:~s~ У вас есть оружие?</DIALOGUE>
+            <DIALOGUE>~y~Подозреваемый:~s~ Нет, нету.</DIALOGUE>
+            <DIALOGUE>~y~Вы:~s~ Вы носите часы?</DIALOGUE>
+            <DIALOGUE>~y~Подозреваемый:~s~ Да, вообще-то... ой, я их потерял.</DIALOGUE>
+            <DIALOGUE>~y~Вы:~s~ Где вы были, когда умерла жертва?</DIALOGUE>
+            <DIALOGUE>~y~Подозреваемый:~s~ Я... был в гараже, чинил машины. Я был там один.</DIALOGUE>
+            <DIALOGUE>~y~Вы:~s~ Вечером?</DIALOGUE>
+            <DIALOGUE>~y~Подозреваемый:~s~ Да, у меня много работы.</DIALOGUE>
         </SUSPECT1_GUILTY>
-        <SUSPECT2_INNOCENT>
-            <DIALOGUE>~y~You:~s~ Hello mam, you are suspected the have murdered a person. I have some questions for you. Let's start with your name.</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ Damn, a homicide? Me? I haven't done anything. My name is Lisa Carter.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Do you smoke?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ Yes, sometimes. Have you ever smoked weed?</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ ...What do you do for a living?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ I work in an office in the town.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Do you drink alcohol?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ Yeah, unfortunately a lot, sometimes whiskey, sometimes champagner.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Do you own any guns?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ I don't like guns, so no.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Do you wear a watch?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ I have one, but I never wear it. Why do you ask?</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Where were you when the victim died?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ I was out with a friend of mine, you can ask her.</DIALOGUE>
-        </SUSPECT2_INNOCENT>
+		<SUSPECT2_INNOCENT>
+			<DIALOGUE>~y~Вы:~s~ Здравствуйте, мадам. Вы подозреваетесь в убийстве. У меня есть к вам несколько вопросов. Начнём с вашего имени.</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемая:~s~ Чёрт, убийство? Я? Я ничего не делала. Меня зовут Лиза Картер.</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ Вы курите?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемая:~s~ Да, иногда. А вы когда-нибудь курили травку?</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ …Кем вы работаете?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемая:~s~ Я работаю в офисе в городе.</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ Вы употребляете алкоголь?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемая:~s~ Да, к сожалению, довольно часто — иногда виски, иногда шампанское.</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ У вас есть оружие?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемая:~s~ Я не люблю оружие, так что нет.</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ Вы носите часы?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемая:~s~ У меня есть, но я их не ношу. А зачем вы спрашиваете?</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ Где вы были, когда погибла жертва?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемая:~s~ Я была с подругой. Можете у неё спросить.</DIALOGUE>
+		</SUSPECT2_INNOCENT>
         <SUSPECT2_GUILTY>
-            <DIALOGUE>~y~You:~s~ Hello mam, you are suspected the have murdered a person. I have some questions for you. Let's start with your name.</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ Damn, a homicide? Me? I haven't done anything. My name is Lisa Carter.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Are you a smoker?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ Yes, sometimes I smoke. Do you smoke weed?</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ ...What is your job?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ I work in an office in the town.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Do you drink alcohol regularly?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ Yeah, unfortunately a lot, sometimes whiskey, sometimes champagner.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Do you carry a gun?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ I don't like guns, so no.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ What watches do you have?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ I have one, but I never wear it. Why do you ask?</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Where were you when the victim died?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ I was out partying in a club, I drank a lot of wine.</DIALOGUE>
-        </SUSPECT2_GUILTY>
+			<DIALOGUE>~y~Вы:~s~ Здравствуйте, мэм. Вы подозреваетесь в убийстве. У меня есть к вам несколько вопросов. Начнём с вашего имени.</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемая:~s~ Чёрт, убийство? Я? Я ничего не делала. Меня зовут Лиза Картер.</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ Вы курите?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемая:~s~ Да, иногда. А вы курите травку?</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ …Кем вы работаете?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемая:~s~ Я работаю в офисе в городе.</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ Вы регулярно употребляете алкоголь?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемая:~s~ Да, к сожалению, часто — иногда виски, иногда шампанское.</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ У вас есть оружие?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемая:~s~ Я не люблю оружие, так что нет.</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ Какие у вас есть часы?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемая:~s~ У меня есть одни, но я их не ношу. А зачем вы спрашиваете?</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ Где вы были, когда погибла жертва?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемая:~s~ Я тусовалась в клубе, много выпила вина.</DIALOGUE>
+		</SUSPECT2_GUILTY>
         <SUSPECT3_INNOCENT>
-            <DIALOGUE>~y~You:~s~ Hello sir, I have some questions for you. Your are a possible suspect in a recently homicide. What's your name?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ Damn, a homicide? Me? I haven't done anything. My name is Daniel or Danny Reed.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Are you a smoker?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ You know i am a hunter and you have a lot of time, so yes, I do smoke.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ What is your job?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ As I said, I am a hunter.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Do you drink alcohol regularly?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ No, not regulary, but I mean I have drank alcohol before.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Do you carry a gun?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ Not right now, but as a hunter you can imagine I have some.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ What watches do you have?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ I have one, it's a cheap model, because if it breaks, I can just buy another one.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Where were you when the victim died?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ I was at home with my wife, we were having dinner.</DIALOGUE>
-        </SUSPECT3_INNOCENT>
-        <SUSPECT3_GUILTY>
-            <DIALOGUE>~y~You:~s~ Hello sir, I have some questions for you. Your are a possible suspect in a recently homicide. What's your name?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ Damn, a homicide? Me? I haven't done anything. My name is Daniel or Danny Reed.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Are you a smoker?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ You know i am a hunter and you have a lot of time, so yes, I do smoke.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ What is your job?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ As I said, I am a hunter.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Do you drink alcohol regularly?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ No, not regulary, but I mean I have drank alcohol before.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Do you carry a gun?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ Yes... I think I have left it in my car, I can't find it.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ What watches do you have?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ Normally I carry one, but I can't find it, luckily it wasn't expensive.</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Where were you when the victim died?</DIALOGUE>
-            <DIALOGUE>~y~Suspect:~s~ I was out in the forest hunting, unfortunately I didn't catch anything.</DIALOGUE>
-        </SUSPECT3_GUILTY>
+			<DIALOGUE>~y~Вы:~s~ Здравствуйте, сэр. У меня есть к вам несколько вопросов. Вы возможный подозреваемый в недавнем убийстве. Как вас зовут?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемый:~s~ Чёрт, убийство? Я? Я ничего не делал. Меня зовут Дэниел или просто Дэнни Рид.</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ Вы курите?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемый:~s~ Знаете, я охотник, и у вас куча времени, так что да — курю.</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ Кем вы работаете?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемый:~s~ Как я уже сказал — я охотник.</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ Вы регулярно употребляете алкоголь?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемый:~s~ Нет, не регулярно, но вообще да, я пил раньше.</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ У вас есть оружие?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемый:~s~ Сейчас нет, но, как вы понимаете, у охотника оно есть.</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ Какие у вас часы?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемый:~s~ Есть одни, дешёвая модель — если сломаются, просто куплю новые.</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ Где вы были, когда погибла жертва?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемый:~s~ Я был дома с женой, мы ужинали.</DIALOGUE>
+		</SUSPECT3_INNOCENT>
+		<SUSPECT3_GUILTY>
+			<DIALOGUE>~y~Вы:~s~ Здравствуйте, сэр. У меня есть к вам несколько вопросов. Вы возможный подозреваемый в недавнем убийстве. Как вас зовут?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемый:~s~ Чёрт, убийство? Я? Я ничего не делал. Меня зовут Дэниел или просто Дэнни Рид.</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ Вы курите?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемый:~s~ Знаете, я охотник, и у вас куча времени, так что да — курю.</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ Кем вы работаете?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемый:~s~ Как я уже сказал — я охотник.</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ Вы регулярно употребляете алкоголь?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемый:~s~ Нет, не регулярно, но вообще да, я пил раньше.</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ У вас есть оружие?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемый:~s~ Да… Кажется, я оставил его в машине — не могу найти.</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ Какие у вас часы?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемый:~s~ Обычно ношу, но сейчас не могу найти. К счастью, они были недорогими.</DIALOGUE>
+			<DIALOGUE>~y~Вы:~s~ Где вы были, когда погибла жертва?</DIALOGUE>
+			<DIALOGUE>~y~Подозреваемый:~s~ Я был в лесу на охоте. К сожалению, ничего не добыл.</DIALOGUE>
+		</SUSPECT3_GUILTY>
         <WITNESS_SUSPECT1>
-            <DIALOGUE>~y~You:~s~ Hello sir, my partner told me you have witnessed something?</DIALOGUE>
-            <DIALOGUE>~g~Neighbour:~s~ Hi there, exactly, I want to report what I saw.</DIALOGUE>
-            <DIALOGUE>~g~Neighbour:~s~ I heard there was a murder around the time I drove past.</DIALOGUE>
-            <DIALOGUE>~g~Neighbour:~s~ I saw a car driving away from the scene; there wasn't much traffic at that time.</DIALOGUE>
-            <DIALOGUE>~g~Neighbour:~s~ It looked like a company vehicle; it was a larger van.</DIALOGUE>
-            <DIALOGUE>~g~Neighbour:~s~ Hopefully, this helps!</DIALOGUE>
-        </WITNESS_SUSPECT1>
+			<DIALOGUE>~y~Вы:~s~ Здравствуйте, сэр. Напарник сказал, что вы были свидетелем чего-то?</DIALOGUE>
+			<DIALOGUE>~g~Сосед:~s~ Добрый день, всё верно, я хотел бы сообщить, что видел.</DIALOGUE>
+			<DIALOGUE>~g~Сосед:~s~ Я услышал, что произошло убийство — примерно в то же время я проезжал мимо.</DIALOGUE>
+			<DIALOGUE>~g~Сосед:~s~ Я видел, как машина уезжала с места происшествия; в то время движение было небольшим.</DIALOGUE>
+			<DIALOGUE>~g~Сосед:~s~ Похоже, это был служебный автомобиль — такой большой фургон.</DIALOGUE>
+			<DIALOGUE>~g~Сосед:~s~ Надеюсь, это поможет!</DIALOGUE>
+		</WITNESS_SUSPECT1>
         <WITNESS_SUSPECT2>
-            <DIALOGUE>~y~You:~s~ Hello sir, my partner told me you have witnessed something?</DIALOGUE>
-            <DIALOGUE>~g~Neighbour:~s~ Hi there, exactly, I want to report what I saw.</DIALOGUE>
-            <DIALOGUE>~g~Neighbour:~s~ I heard a dead person was found outside of town.</DIALOGUE>
-            <DIALOGUE>~g~Neighbour:~s~ I saw a person walking away from this area, holding something in their hand.</DIALOGUE>
-            <DIALOGUE>~g~Neighbour:~s~ It was smoking; I assume it was a cigar.</DIALOGUE>
-            <DIALOGUE>~g~Neighbour:~s~ Sorry, that's all I know!</DIALOGUE>
-        </WITNESS_SUSPECT2>
+			<DIALOGUE>~y~Вы:~s~ Здравствуйте, сэр. Мой напарник сказал, что вы были свидетелем чего-то?</DIALOGUE>
+			<DIALOGUE>~g~Сосед:~s~ Здравствуйте, да, я хочу рассказать, что видел.</DIALOGUE>
+			<DIALOGUE>~g~Сосед:~s~ Я слышал, что за городом нашли мертвого человека.</DIALOGUE>
+			<DIALOGUE>~g~Сосед:~s~ Я видел, как кто-то уходил из этого места, держа что-то в руке.</DIALOGUE>
+			<DIALOGUE>~g~Сосед:~s~ Из этого что-то дымилось, я думаю, что это была сигара.</DIALOGUE>
+			<DIALOGUE>~g~Сосед:~s~ Извините, больше ничего не знаю!</DIALOGUE>
+		</WITNESS_SUSPECT2>
         <WITNESS_SUSPECT3>
-            <DIALOGUE>~y~You:~s~ Hello sir, my partner told me you have witnessed something?</DIALOGUE>
-            <DIALOGUE>~g~Neighbour:~s~ Good evening, I think I am a witness.</DIALOGUE>
-            <DIALOGUE>~g~Neighbour:~s~ I heard there was a murder around the time I drove past the area.</DIALOGUE>
-            <DIALOGUE>~g~Neighbour:~s~ I saw a car driving away from the scene; there wasn't much traffic at that time.</DIALOGUE>
-            <DIALOGUE>~g~Neighbour:~s~ The car was very dirty, and it had big tires.</DIALOGUE>
-            <DIALOGUE>~g~Neighbour:~s~ Hopefully, I was helpful!</DIALOGUE>
-        </WITNESS_SUSPECT3>
+			<DIALOGUE>~y~Вы:~s~ Здравствуйте, сэр. Мой напарник сказал, что вы были свидетелем чего-то?</DIALOGUE>
+			<DIALOGUE>~g~Сосед:~s~ Добрый вечер, я думаю, я был свидетелем.</DIALOGUE>
+			<DIALOGUE>~g~Сосед:~s~ Я слышал, что произошло убийство примерно в то время, когда проезжал мимо.</DIALOGUE>
+			<DIALOGUE>~g~Сосед:~s~ Я видел машину, которая уезжала с места происшествия; в это время машин было мало.</DIALOGUE>
+			<DIALOGUE>~g~Сосед:~s~ Машина была очень грязной и с большими колесами.</DIALOGUE>
+			<DIALOGUE>~g~Сосед:~s~ Надеюсь, я был полезен!</DIALOGUE>
+		</WITNESS_SUSPECT3>
     </DIALOGUES>
     <STATE>
         <SEARCHFOREVIDENCE>
-            <TEXT>Search for evidence on the street.</TEXT>
-            <TEXT>Evidence found!</TEXT>
+            <TEXT>Ищите улики на улице.</TEXT>
+            <TEXT>Улики найдены!</TEXT>
         </SEARCHFOREVIDENCE>
         <TALKTOSUSPECTSWITNESS>
-            <TEXT>Talk to the ~y~suspects~s~ and the ~g~witness.</TEXT>
+            <TEXT>Поговорите с ~y~подозреваемыми~s~ и ~g~свидетелями.</TEXT>
         </TALKTOSUSPECTSWITNESS>
         <ARRESTMURDERER>
-            <TEXT>~g~Correct murderer arrested</TEXT>
-            <TEXT>~r~Wrong person arrested</TEXT>
+            <TEXT>~g~Правильный убийца арестован</TEXT>
+            <TEXT>~r~Арестован неправильный человек</TEXT>
         </ARRESTMURDERER>
         <END>
-            <TEXT>{CalloutMessage} has ended.</TEXT>
+            <TEXT>{CalloutMessage} завершён.</TEXT>
         </END>
     </STATE>
     <MENU>
-        <TITLE>Murderer</TITLE>
-        <SUBTITLE>The murderer is...</SUBTITLE>
-        <ITEM>James 'Jimmy' Walker, the car mechanic</ITEM>
-        <ITEM>Lisa Carter, the woman</ITEM>
-        <ITEM>Daniel 'Danny' Reed, the hunter</ITEM>
-        <DIALOGUE>~y~You:~s~ James Walker!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~  Lisa Carter!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Daniel Reed!</DIALOGUE>
+        <TITLE>Убийца</TITLE>
+        <SUBTITLE>Убийца это...</SUBTITLE>
+        <ITEM>Джеймс 'Джимми' Уокер, автомеханик</ITEM>
+        <ITEM>Лиза Картер, женщина</ITEM>
+        <ITEM>Дэниел 'Дэнни' Рид, охотник</ITEM>
+        <DIALOGUE>~y~Вы:~s~ Джеймс Уокер!</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Лиза Картер!</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Дэниел Рид!</DIALOGUE>
     </MENU>
 </CALLOUT>

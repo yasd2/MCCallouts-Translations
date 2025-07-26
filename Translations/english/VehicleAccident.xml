@@ -1,0 +1,31 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Vehicle Accident</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>~r~Respond Code 3</CALLOUTADVISORY>
+    <TASK>Drive to the ~r~accident scene.~s~ Make sure to manage traffic and that the driver is ok.</TASK>
+    <SCENARIOS>
+        <DRIVERINJURED>
+            <TEXT>Press ~{Y}~ to talk.</TEXT>
+            <DIALOGUE>~y~You:~s~ Hello? What do you need?</DIALOGUE>
+            <DIALOGUE>~p~Driver:~s~ I... am... hurt.. I need an... ambulance. Help.</DIALOGUE>
+            <TEXT>Call an ambulance for the injured person.</TEXT>
+        </DRIVERINJURED>
+        <DRIVEROKBUTDRUNK>
+            <DIALOGUE>~y~You:~s~ Can you tell me what happened?</DIALOGUE>
+            <DIALOGUE>~o~Driver:~s~ I don't really remember. *hicks*</DIALOGUE>
+            <DIALOGUE>~y~You:~s~ Where are you coming from?</DIALOGUE>
+            <DIALOGUE>~o~Driver:~s~ From a friends party. I can do sobriety tests, I'm clean as hell.</DIALOGUE>
+        </DRIVEROKBUTDRUNK>
+        <DRIVERSHOTWEAPONNEARBY> 
+            <TEXT>Press ~{Y}~ to pick up the weapon.</TEXT>
+            <TEXT>Press ~y~{Y}~s~ to request a serial number check from Dispatch.</TEXT>
+            <SERIALNUMBER>
+                <DIALOGUE>~y~You:~s~ Dispatch, can I get a serial number check for a pistol, it's ~r~{serialnumber}~s~?</DIALOGUE>
+                <DIALOGUE>10-4, checking.</DIALOGUE>
+                <DIALOGUE>Weapon: Pistol</DIALOGUE>
+                <DIALOGUE>~b~Owner: {DriversName}</DIALOGUE>
+                <DIALOGUE>~r~Caution: Owner wanted</DIALOGUE>
+                <DIALOGUE>Attention: We've got a call about a suspicious person nearby, please respond ~r~Code 3.</DIALOGUE>
+            </SERIALNUMBER>
+        </DRIVERSHOTWEAPONNEARBY>
+    </SCENARIOS>
+</CALLOUT>

@@ -1,45 +1,45 @@
 <StreetRace>
 
-    <CalloutMessage>Operation Undercover Street Race</CalloutMessage>
-    <CalloutAdvisory>~s~Check out a ~y~car meeting~s~ with a ~o~possible street race~s~</CalloutAdvisory>
-    <Task>Drive to the ~y~car meeting.</Task>
+    <CalloutMessage>Операция "Подпольные уличные гонки"</CalloutMessage>
+    <CalloutAdvisory>~s~Проверьте ~y~сбор машин~s~, возможно готовятся ~o~уличные гонки~s~</CalloutAdvisory>
+    <Task>Направляйтесь к ~y~сбору машин.</Task>
 
     <Telephone>
-        <Help>You can adjust the telephone volume with {J}</Help>
-        <Ring>*Phone rings* - Press ~y~{Y}~s~ twice to accept the call.</Ring>
-        <Dialogue>~g~Detective:~s~ Hey, this is Detective Barker! We have a new mission ahead of us.</Dialogue>
-        <Dialogue>~g~Detective:~s~ There will be a car meeting at ~y~{ZONE}.</Dialogue>
-        <Dialogue>~g~Detective:~s~ Your task is to go there undercover and pretend to be a car spotter.</Dialogue>
-        <Dialogue>~g~Detective:~s~ If a street car race occurs, you can either call in the pursuit immediately or wait for a bit.</Dialogue>
-        <Dialogue>~g~Detective:~s~ Now drive to the car meeting. Good luck!</Dialogue>
+        <Help>Вы можете изменить громкость телефона с помощью {J}</Help>
+        <Ring>*Телефон звонит* — Нажмите ~y~{Y}~s~ дважды, чтобы принять звонок.</Ring>
+        <Dialogue>~g~Детектив:~s~ Привет, это детектив Баркер! У нас новое задание.</Dialogue>
+        <Dialogue>~g~Детектив:~s~ В районе ~y~{ZONE}~s~ состоится сбор автомобилей.</Dialogue>
+        <Dialogue>~g~Детектив:~s~ Твоя задача — отправиться туда под прикрытием и притвориться автолюбителем.</Dialogue>
+        <Dialogue>~g~Детектив:~s~ Если начнутся уличные гонки, можешь сразу вызвать подкрепление или немного подождать.</Dialogue>
+        <Dialogue>~g~Детектив:~s~ А теперь езжай на место сбора. Удачи!</Dialogue>
     </Telephone>
 
     <Driver1>
-        <Dialogue>~o~{NAME}:~s~ Hey there, partner! Are you looking for fast, good-looking vehicles?</Dialogue>
-        <Dialogue>~o~{NAME}:~s~ Take a look at my ~b~{CARMODEL}!</Dialogue>
-        <Dialogue>~o~{NAME}:~s~ If you want to sit in it, go ahead, but don't drive it around!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Привет, приятель! Ищешь быстрые и стильные машины?</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Зацени мой ~b~{CARMODEL}!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Хочешь сесть в него — пожалуйста, только не катайся!</Dialogue>
     </Driver1>
 
     <Driver6>
-        <Dialogue>~o~{NAME}:~s~ Howdy! What a nice place for a car meet!</Dialogue>
-        <Dialogue>~o~{NAME}:~s~ All these people sharing the same hobby—great guys!</Dialogue>
-        <Dialogue>~o~{NAME}:~s~ And then there are the cops, always trying to ruin our fun. I don't get why, though...</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Здорово! Отличное место для автосходки!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Все тут увлечены одной темой — крутые ребята!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ А потом приходят копы и всё портят... Не понимаю зачем.</Dialogue>
     </Driver6>
 
-    <DriveToMeeting>Talk to the ~o~people~s~ on scene.</DriveToMeeting>
+    <DriveToMeeting>Поговорите с ~o~людьми~s~ на месте.</DriveToMeeting>
 
     <Scenario>
-        <NoRace>Dispatch, there is no street racing here, we are Code 4.</NoRace>
-        <Race>~o~Driver:~s~ Alright, who is ready for a street race? Try to overtake me!</Race>
+        <NoRace>Диспетчер, здесь никаких гонок. Код 4.</NoRace>
+        <Race>~o~Водитель:~s~ Ну что, кто готов к уличной гонке? Попробуй меня обогнать!</Race>
     </Scenario>
 
     <RaceActive>
-        <Help>You can call in a ~r~pursuit~s~ anytime with ~y~{9}!</Help>
-        <Dialogue>Dispatch, we have a ~r~active street race~s~, send more units!</Dialogue>
+        <Help>Вы можете вызвать ~r~погоню~s~ в любой момент, нажав ~y~{9}!</Help>
+        <Dialogue>Диспетчер, у нас ~r~активная уличная гонка~s~, пришлите подкрепление!</Dialogue>
     </RaceActive>
 
-    <Surrender>The suspects are surrendering.</Surrender>
+    <Surrender>Подозреваемые сдаются.</Surrender>
 
-    <End>Street Race has ended.</End>
+    <End>Уличная гонка окончена.</End>
 
 </StreetRace>

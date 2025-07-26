@@ -1,62 +1,62 @@
 <BurningDumpster>
 
     <General>
-        <Text>~r~Burning dumpster~b~ reported</Text>
-        <Text>Unit with fire extinguisher respond Code 2</Text>
-        <Text>Drive to the location and extinguish the ~r~fire~s~ or call the ~r~fire department!</Text>
+        <Text>~r~Загоревшийся контейнер~b~ был зарегистрирован</Text>
+        <Text>Подразделение с огнетушителем, ответить по коду 2</Text>
+        <Text>Доезжайте до места и потушите ~r~пожар~s~ или вызовите ~r~пожарную службу!</Text>
     </General>
 
     <Persons>
-        <Text>Caller</Text>
-        <Text>You</Text>
+        <Text>Звонящий</Text>
+        <Text>Вы</Text>
     </Persons>
 
     <Extingiush>
-        <Text>To get a ~r~fire extinguisher~s~, go to your trunk and press</Text>
-        <Text>~r~Fire extinguisher~s~ equipped!</Text>
-        <Text>Now search for ~y~evidence~s~ by pressing {Key} while in the ~y~markers~s~.</Text>
+        <Text>Чтобы получить ~r~огнетушитель~s~, подойдите к багажнику и нажмите</Text>
+        <Text>~r~Огнетушитель~s~ экипирован!</Text>
+        <Text>Теперь ищите ~y~улики~s~, нажав {Key}, находясь в ~y~зонах поиска~s~.</Text>
     </Extingiush>
 
     <Tasks>
-        <Text>Talk to the 911 ~b~caller~s~ with</Text>
-        <Text>Press {MusicMenuKey} anytime to view the picture again!</Text>
-        <Text>Dispatch, Suspect is ~r~fleeing!</Text>
+        <Text>Поговорите с оператором 911 ~b~звонящим~s~, используя</Text>
+        <Text>Нажмите {MusicMenuKey} в любое время, чтобы снова просмотреть фотографию!</Text>
+        <Text>Диспетчер, подозреваемый ~r~скрывается!</Text>
     </Tasks>
 
     <Caller>
-        <Dialogue>Hello, are you the one who called in the burning trash?</Dialogue>
-        <Dialogue>Yes, that's me. I wanted to report a suspicious person I saw.</Dialogue>
-        <Dialogue>I was walking past the trash can when I saw a person walking away.</Dialogue>
-        <Dialogue>Right after that the fire started to burn!</Dialogue>
-        <Dialogue>This sounds suspicious, do you have details on the suspect?</Dialogue>
-        <Dialogue>Sure, it was a {gender} and around {age} years old.</Dialogue>
-        <Dialogue>I was able to take a photo, here it is!</Dialogue>
-        <Dialogue>Thanks, we're looking for the suspect now. Bye!</Dialogue>
+        <Dialogue>Здравствуйте, вы тот, кто сообщил о горящем мусорном контейнере?</Dialogue>
+        <Dialogue>Да, это я. Я хотел(а) сообщить о подозрительном человеке, которого видел(а).</Dialogue>
+        <Dialogue>Я проходил(а) мимо мусорного бака, когда увидел(а) кого-то, уходящего прочь.</Dialogue>
+        <Dialogue>Сразу после этого огонь начал разгораться!</Dialogue>
+        <Dialogue>Это выглядит подозрительно, у вас есть какие-то детали о подозреваемом?</Dialogue>
+        <Dialogue>Конечно, это был(а) {gender} на вид около {age} лет.</Dialogue>
+        <Dialogue>Я успел(а) сделать фотографию, вот она!</Dialogue>
+        <Dialogue>Спасибо, мы ищем подозреваемого. До свидания!</Dialogue>
     </Caller>
 
     <Genders>
-        <Text>female</Text>
-        <Text>male</Text>
-        <Text>non-binary</Text>
+        <Text>женщина</Text>
+        <Text>мужчина</Text>
+        <Text>небинарный</Text>
     </Genders>
 
     <Evidence>
-        <Dialogue>A Molotov cocktail, this was no accident... someone wanted to start a fire.</Dialogue>
-        <Dialogue>A jerrycan full of gasoline, looks like someone was preparing to ignite something.</Dialogue>
-        <Dialogue>A bong? Strange... maybe someone was too high to notice the fire they started.</Dialogue>
-        <Dialogue>A frag grenade. This is no simple fire, we're dealing with something far more dangerous.</Dialogue>
-        <Dialogue>A smoke grenade. Could have been used to cover up their tracks before setting the fire.</Dialogue>
-        <Dialogue>A broken bottle. It seems improvised, but it could have been used to start the fire.</Dialogue>
-        <Dialogue>A gas cylinder. If this went off, the whole area could've gone up in flames.</Dialogue>
-        <Dialogue>An oil drum. It's leaking... and highly flammable. Looks like someone wanted to spread the fire.</Dialogue>
-        <Dialogue>A petrol can. Smells like gasoline... someone really wanted to burn this place down.</Dialogue>
-        <Dialogue>A sock? Well, it might not seem like much, but it smells bad enough to be a fire hazard.</Dialogue>
-        <Dialogue>Typical. Somebody threw a burning cigarette in the trash, then it started igniting.</Dialogue>
-        <Dialogue>A sock? Well, it might not seem like much, but it smells bad enough to be a fire hazard.</Dialogue>
+        <Dialogue>Коктейль Молотова, это не было случайностью... кто-то хотел устроить поджог.</Dialogue>
+        <Dialogue>Канистра с бензином, похоже, кто-то готовился что-то поджечь.</Dialogue>
+        <Dialogue>Бонг? Странно... возможно, кто-то был слишком под кайфом, чтобы заметить, как начал пожар.</Dialogue>
+        <Dialogue>Осколочная граната. Это не просто пожар, здесь дело гораздо серьезнее.</Dialogue>
+        <Dialogue>Дымовая граната. Возможно, использовали, чтобы замести следы перед поджогом.</Dialogue>
+        <Dialogue>Разбитая бутылка. Кажется импровизированной, но её могли использовать для поджога.</Dialogue>
+        <Dialogue>Газовый баллон. Если бы он взорвался, вся территория могла бы загореться.</Dialogue>
+        <Dialogue>Бочка с нефтью. Она протекает... и очень легко воспламеняется. Похоже, кто-то хотел распространить пожар.</Dialogue>
+        <Dialogue>Канистра с бензином. Пахнет бензином... кто-то действительно хотел сжечь это место.</Dialogue>
+        <Dialogue>Носок? Может показаться незначительным, но запах достаточно неприятен, чтобы стать причиной пожара.</Dialogue>
+        <Dialogue>Как обычно. Кто-то бросил горящую сигарету в мусор, и всё начало воспламеняться.</Dialogue>
+        <Dialogue>Носок? Может показаться незначительным, но запах достаточно неприятен, чтобы стать причиной пожара.</Dialogue>
     </Evidence>
 
     <End>
-        <Text>~g~Situation is Code 4.</Text>
+        <Text>~g~Ситуация под контролем, код 4.</Text>
     </End>
-    
+
 </BurningDumpster>

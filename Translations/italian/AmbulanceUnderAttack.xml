@@ -1,20 +1,20 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Ambulance under attack</CALLOUTMESSAGE>
-    <TASK>An ambulance requested urgent help, check on them.</TASK>
+    <CALLOUTMESSAGE>Ambulanza sotto attacco</CALLOUTMESSAGE>
+    <TASK>Un'ambulanza ha richiesto aiuto urgente, controlla la situazione.</TASK>
     <DIALOGUES>
-        <DIALOGUE>~y~You:~s~ What happened?</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ We were on route back to the hospital, when they suddenly stopped us.</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ Then they attacked us without a reason!</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ Thank you for your service!</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ We will head back to the station, have a nice day!</DIALOGUE>
+        <DIALOGUE>~y~Tu:~s~ Cosa è successo?</DIALOGUE>
+        <DIALOGUE>~r~Paramedico:~s~ Stavamo tornando in ospedale, quando ci hanno improvvisamente fermati.</DIALOGUE>
+        <DIALOGUE>~r~Paramedico:~s~ Poi ci hanno attaccati senza motivo!</DIALOGUE>
+        <DIALOGUE>~r~Paramedico:~s~ Grazie per il tuo intervento!</DIALOGUE>
+        <DIALOGUE>~r~Paramedico:~s~ Torniamo alla stazione, buona giornata!</DIALOGUE>
     </DIALOGUES>
     <EXTRA>
-        <TEXT>Press ~y~{Y}~s~ to make them stop fighting!</TEXT>
-        <TEXT>Talk to the paramedic to find out what happened.</TEXT>
+        <TEXT>Premi ~y~{Y}~s~ per farli smettere di combattere!</TEXT>
+        <TEXT>Parla con il paramedico per scoprire cosa è successo.</TEXT>
     </EXTRA>
     <WARN>
-        <TEXT>~y~You:~s~ Police! Stop fighting and back up!</TEXT>
-        <TEXT>~y~You:~s~ Everyone stop! This is the police!</TEXT>
+        <TEXT>~y~Tu:~s~ Polizia! Smettetela di combattere e indietreggiate!</TEXT>
+        <TEXT>~y~Tu:~s~ Tutti fermi! Questa è la polizia!</TEXT>
     </WARN>
-    <END>Ambulance under attack has ended.</END>
+    <END>Ambulanza sotto attacco è terminata.</END>
 </CALLOUT>

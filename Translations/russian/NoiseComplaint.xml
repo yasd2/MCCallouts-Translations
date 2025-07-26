@@ -1,61 +1,63 @@
 <NoiseComplaint>
+
     <General>
-        <Text>Noise Complaint</Text>
-        <Text>Report of a loud house party</Text>
-        <Text>Neighbours called in a noise complaint. Make sure the ~o~event~s~ organizer lowers the music volume.</Text>
-        <Text>Press {Key} to adjust the volume for yourself.</Text>
+        <Text>Жалоба на шум</Text>
+        <Text>Сообщение о громкой вечеринке в доме</Text>
+        <Text>Соседи пожаловались на шум. Убедитесь, что ~o~организатор мероприятия~s~ убавил громкость музыки.</Text>
+        <Text>Нажмите {Key}, чтобы настроить громкость для себя.</Text>
     </General>
 
     <Persons>
-        <Text>You</Text>
-        <Text>Owner</Text>
+        <Text>Вы</Text>
+        <Text>Владелец</Text>
         <Text>DJ</Text>
     </Persons>
 
     <Tasks>
-        <Text>Leave the party by driving towards the ~y~yellow marker~s~.</Text>
-        <Text>Act like you think is right here, then talk to the ~g~~h~DJ~h~~s~.</Text>
-        <Text>A caller reported a noise complaint at the same adress as before. Respond Code 2.</Text>
+        <Text>Покиньте вечеринку, доехав до ~y~жёлтого маркера~s~.</Text>
+        <Text>Действуйте, как считаете нужным, затем поговорите с ~g~~h~DJ~h~~s~.</Text>
+        <Text>Звонивший сообщил о повторной жалобе на шум по тому же адресу. Отреагируйте, код 2.</Text>
     </Tasks>
 
     <OwnerCooperative>
-        <Dialogue>Hello Officer, how can I help?</Dialogue>
-        <Dialogue>We got a call about the loud music. Please lower the volume.</Dialogue>
-        <Dialogue>If I need to come here again, you'll get a citation for the loud music.</Dialogue>
-        <Dialogue>Alright, alright, we will lower it.</Dialogue>
-        <Dialogue>Thanks for the cooperation, enjoy the night.</Dialogue>
+        <Dialogue>Здравствуйте, офицер, чем могу помочь?</Dialogue>
+        <Dialogue>Нам поступила жалоба на громкую музыку. Пожалуйста, убавьте громкость.</Dialogue>
+        <Dialogue>Если мне придётся вернуться сюда снова, вы получите штраф за громкую музыку.</Dialogue>
+        <Dialogue>Хорошо, хорошо, мы убавим.</Dialogue>
+        <Dialogue>Спасибо за сотрудничество, приятного вечера.</Dialogue>
     </OwnerCooperative>
 
     <OwnerUncooperative>
-        <Dialogue>Yoo, the po-po, what the fuck are you doing here?</Dialogue>
-        <Dialogue>We were disptached to this address about the loud music.</Dialogue>
-        <Dialogue>The fuck, does this look like a kindergarten? We're fucking partying!!</Dialogue>
-        <Dialogue>Sir, turn the music down immediately.</Dialogue>
-        <Dialogue>I'm doing shit, you gonna have to arrest me or leave, pig.</Dialogue>
+        <Dialogue>Эй, мусора, что вы тут забыли?</Dialogue>
+        <Dialogue>Мы получили жалобу на громкую музыку по этому адресу.</Dialogue>
+        <Dialogue>Чего? Тут что, детский сад? У нас вечеринка!!</Dialogue>
+        <Dialogue>Сэр, немедленно убавьте музыку.</Dialogue>
+        <Dialogue>Я ничего не буду делать, если что, арестуйте меня или валите, свинья.</Dialogue>
     </OwnerUncooperative>
 
     <OwnerSecond>
-        <Dialogue>Hello again, we got another call about your music being to loud.</Dialogue>
-        <Dialogue>And as I can hear you turned the volume up again instead of keeping it lower...</Dialogue>
-        <Dialogue>Oh common Officer, we just having fun, we have a big party going on.</Dialogue>
-        <Dialogue>That's fine, as long as the music is at an acceptable volume.</Dialogue>
-        <Dialogue>If I have to come again, you will be arrested!</Dialogue>
-        <Dialogue>I will give you a citation since it's the second time I'm here.</Dialogue>
-        <Dialogue>Have a nice, but quieter night.</Dialogue>
+        <Dialogue>Привет снова, мы получили ещё одну жалобу на вашу громкую музыку.</Dialogue>
+        <Dialogue>И, как я слышу, вы снова увеличили громкость вместо того, чтобы держать её тише...</Dialogue>
+        <Dialogue>Ох, офицер, мы просто веселимся, у нас большая вечеринка.</Dialogue>
+        <Dialogue>Это нормально, пока музыка на приемлемом уровне громкости.</Dialogue>
+        <Dialogue>Если я снова вернусь, вы будете арестованы!</Dialogue>
+        <Dialogue>Я выпишу вам штраф, так как это уже второй раз, когда я здесь.</Dialogue>
+        <Dialogue>Хорошего, но более тихого вечера.</Dialogue>
     </OwnerSecond>
 
     <DJ>
-        <Dialogue>Hello sir, you are the DJ here, right?</Dialogue>
-        <Dialogue>Yes sir, I'm sorry for the ~o~owner~s~, my name is ~g~DJ Moodyman~s~.</Dialogue>
-        <Dialogue>Oh, you have played on the yacht some time ago, right?</Dialogue>
-        <Dialogue>Yeah, I remember you were there. Anyways, what can I do for you?</Dialogue>
-        <Dialogue>Please turn down the volume, we have neighbours who feel bothered.</Dialogue>
-        <Dialogue>Oh yeah, no problem, I will. I'm sorry the owner is that uncooperative.</Dialogue>
-        <Dialogue>I'll see what I'll do with him. Have a nice day!</Dialogue>
+        <Dialogue>Здравствуйте, сэр, вы здесь диджей, верно?</Dialogue>
+        <Dialogue>Да, сэр, извините за ~o~владельца~s~, меня зовут ~g~DJ Moodyman~s~.</Dialogue>
+        <Dialogue>О, вы играли на яхте какое-то время назад, верно?</Dialogue>
+        <Dialogue>Да, я помню, что вы были там. В любом случае, чем могу помочь?</Dialogue>
+        <Dialogue>Пожалуйста, убавьте громкость, соседи жалуются на шум.</Dialogue>
+        <Dialogue>О, конечно, без проблем, я убавлю. Извините, что владелец так неконструктивен.</Dialogue>
+        <Dialogue>Я посмотрю, что можно сделать с ним. Хорошего дня!</Dialogue>
     </DJ>
 
     <End>
-        <Text>~g~Callout is Code 4.</Text>
-        <Text>Press ~y~End~s~ anytime to end the callout.</Text>
+        <Text>~g~Вызов завершён, код 4.</Text>
+        <Text>Нажмите ~y~End~s~ в любое время, чтобы завершить вызов.</Text>
     </End>
+
 </NoiseComplaint>

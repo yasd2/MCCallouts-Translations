@@ -1,0 +1,114 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Körperverletzung</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Eine Person wurde verletzt, Polizei und Rettungsdienst sind vor Ort</CALLOUTADVISORY>
+    <TASK>Ein Beamter meldete eine Körperverletzung. Der Rettungsdienst ist bereits vor Ort. Fahren Sie zum gemeldeten Einsatzort.</TASK>
+    <NOTIFICATIONS>
+        <TEXT>Durchsuchen Sie die Umgebung nach dem verdächtigen Fahrzeug.{n}~o~Fahrzeug:~s~ {MODEL}{n}~o~Farbe:~s~ {COLOR}{n}~o~Verdächtiger:~s~ {FIRSTNAME} {LASTNAME}</TEXT>
+        <TEXT>Durchsuchen Sie die Umgebung nach dem Verdächtigen.{n}~o~Name:~s~ {FIRSTNAME} {LASTNAME}{n}~o~Haftbefehl:~s~ Körperverletzung</TEXT>
+        <TEXT>Ein Beamter hat ein passendes Fahrzeug angehalten. Fahren Sie als Unterstützung mit Blaulicht an.</TEXT>
+    </NOTIFICATIONS>
+    <DIALOGUES id="D_Officer">
+        <DIALOGUE>Hallo Kollege, super, dass Sie so schnell hier sind!</DIALOGUE>
+        <DIALOGUE>Wir erhielten einen Anruf wegen Körperverletzung und ich war der erste vor Ort.</DIALOGUE>
+        <DIALOGUE>Wie Sie sehen ist der Notarzt auch schon vor Ort und behandelt den Verletzten.</DIALOGUE>
+        <DIALOGUE>Hol dir am besten als erstes Infos vom Sanitäter, wie es dem Opfer geht.</DIALOGUE>
+        <DIALOGUE>Der Verletzte sieht nicht gut aus, vielleicht ist die Prson ansprechbar und kann sich noch an etwas erinnern.</DIALOGUE>
+        <DIALOGUE>Ein Zeuge hat sich auch noch gemeldet, ich hoffe die Person kann Infos zum Tathergang machen.</DIALOGUE>
+        <DIALOGUE>Viel Erfolg!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Paramedic_Witness">
+        <DIALOGUE>Guten Tag, schön Unterstützung von Ihnen zu bekommen, die ist wohl notwendig.</DIALOGUE>
+        <DIALOGUE>Wir haben hier mehrere Platzwunden und Blutergüsse, diese könnten von einem größeren Objekt stammen.</DIALOGUE>
+        <DIALOGUE>Spieler: Sowas wie ein Messer, Schlagring oder Glasflasche?</DIALOGUE>
+        <DIALOGUE>Ja, genau. Der Patient ist schwer verletzt und nicht ansprechbar, ich stabilisiere ihn noch, danach geht's ins Krankenhaus.</DIALOGUE>
+        <DIALOGUE>Spieler: Von dem Verletzten bekomme ich wohl keine Infos, dann lasse ich Sie Ihren Job machen.</DIALOGUE>
+        <DIALOGUE>Ich spreche am besten noch mit dem Zeugen.</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Paramedic_VictimWitness">
+        <DIALOGUE>Ah hallo, hat ihr Kollege wohl Verstärkung angefordert?</DIALOGUE>
+        <DIALOGUE>Gut das Sie hier sind. Dem Opfer geht's den Umständen entsprechend gut.</DIALOGUE>
+        <DIALOGUE>Er hat eine Platzwunde am Kopf, womöglich ist die Person mit der Faust oder einem leichten Gegenstand getroffen worden.</DIALOGUE>
+        <DIALOGUE>Die Wunde muss genäht werden, ich würde ihn dann mit ins Krankenhaus nehmen.</DIALOGUE>
+        <DIALOGUE>Am besten stellen Sie Fragen jetzt gleich, dann wäre das erledigt und die Erinnerungen sind noch frisch.</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Victim_VictimWitness">
+        <DIALOGUE>Hallo Herr Polizist, bitte finden Sie den Täter, so ein feiges Schwein!</DIALOGUE>
+        <DIALOGUE>Ich war gerade zu Fuß unterwegs und wollte hier etwas kaufen.</DIALOGUE>
+        <DIALOGUE>Plötzlich kam {FIRSTNAME} {LASTNAME}, ich kenne ihn aus der Kneipe.</DIALOGUE>
+        <DIALOGUE>Er machte mich blöd an und schlug auf mich ein, ich kann mich nicht mehr genau erinnern.</DIALOGUE>
+        <DIALOGUE>Ich sah leider auch nicht, wo die Person hin ist. Ah, mein Kopf, er schmerzt. Verdammt!</DIALOGUE>
+        <DIALOGUE>Spieler: Alles gut, erholen Sie sich ersteinmal, wir nehmen die Daten auf und leiten sofort die Nahbereichsfahndung ein.</DIALOGUE>
+        <DIALOGUE>Suchen Sie nach {FIRSTNAME} {LASTNAME}, {GENDER}! Er war es!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Witness_Witness">
+        <DIALOGUE>Hallo Officer, super, dass Sie hier sind, ich hoffe, ich kann helfen, den Täter zu finden.</DIALOGUE>
+        <DIALOGUE>Ich habe gesehen, wie die beiden sich ein Wortgefecht lieferten, plötzlich schubste der eine und schlug auf ihn ein!</DIALOGUE>
+        <DIALOGUE>Ziemlich brutal, wenn Sie mich fragen! Kein Wunder, dass der Krankenwagen anrücken musste.</DIALOGUE>
+        <DIALOGUE>Ich hörte, wie der eine den Namen des Täters sagte: {LASTNAME}! Die Person war {GENDER}.</DIALOGUE>
+        <DIALOGUE>Es ist traurig, dass die Gewaltbereitschaft heutzutage immer mehr zunimmt.</DIALOGUE>
+        <DIALOGUE>Spieler: Vielen Dank schonmal, Sie konnten mir auf jeden Fall weiterhelfen.</DIALOGUE>
+        <DIALOGUE>Spieler: Haben Sie gesehen, wo der Täter hingefahren ist?</DIALOGUE>
+        <DIALOGUE>Er/Sie ist zu Fuß unterwegs. Ich zeige Ihnen gerne noch auf ihrem GPS, wo der Täter hingegangen ist!</DIALOGUE>
+        <DIALOGUE>Spieler: Danke nochmal, wir werden unser Bestes tun, ihn zu fassen!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Witness_VictimWitness">
+        <DIALOGUE>Spieler: Hallo, ich bin Polizist des lokalen Polizeipräsidiums. Können Sie Infos zum Tathergang schildern?</DIALOGUE>
+        <DIALOGUE>Hallo, ja, ich meine eine Person weggehen gesehen zu haben.</DIALOGUE>
+        <DIALOGUE>Ich hörte eine Streiterei, ich habe es nur gehört und bin in Richtung des Streits gegangen.</DIALOGUE>
+        <DIALOGUE>Da sah ich nur eine Person blutend am Boden liegen, aber eine andere ging gerade zügig davon.</DIALOGUE>
+        <DIALOGUE>Er/Sie ist in diese Richtung geflohen!</DIALOGUE>
+        <DIALOGUE>Spieler: Können Sie die Person beschreiben?</DIALOGUE>
+        <DIALOGUE>Leider nicht, ich habe Sie nur aus weiter Entfernung gesehen und bin dann beim Verletzen geblieben.</DIALOGUE>
+        <DIALOGUE>Spieler: Sie haben richtig gehandelt, Sie sehen ja das Ausmaß der Verletzung, vielen Dank dafür.</DIALOGUE>
+        <DIALOGUE>Spieler: Wir werden umgehend die Nahbereichsfahndung einleiten.</DIALOGUE>
+        <DIALOGUE>Viel Erfolg! Finden Sie den Mistkerl!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Witness_TrafficStop">
+        <DIALOGUE>Spieler: Guten Tag, ich bin Polizist der lokalen Polizeidienststelle.</DIALOGUE>
+        <DIALOGUE>Hallo, ich möchte helfen, den Täter zu finden.</DIALOGUE>
+        <DIALOGUE>Ich kenne diesen, die Person wohnt auch in der Stadt.</DIALOGUE>
+        <DIALOGUE>Der Name ist {FIRSTNAME} {LASTNAME}!</DIALOGUE>
+        <DIALOGUE>Er hatte etwas in der Hand, als ich den Kampf sah, ich konnte es nicht genau erkennen.</DIALOGUE>
+        <DIALOGUE>Das Arschloch hat mehrmals auf das Opfer eingeschlagen, danach ist die Person in einem {MODEL} weggefahren!</DIALOGUE>
+        <DIALOGUE>Die Fahrzeugfarbe war {COLOR}.</DIALOGUE>
+        <DIALOGUE>Das Kennzeichen habe ich mir aufgeschreiben... {LICENSEPLATE}!</DIALOGUE>
+        <DIALOGUE>Spieler: Vielen Dank! Ich werde sofort nach dem Fahrzeug Ausschau halten, einen schönen Tag noch!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_TrafficOfficer_1">
+        <DIALOGUE>Hey Kollege! Ich habe den hier angehalten, das Fahrzeug passt auf die Beschreibung.</DIALOGUE>
+        <DIALOGUE>Ich wollte auf jeden Fall noch Verstärkung, deswegen habe ich Sie gerufen.</DIALOGUE>
+        <DIALOGUE>Ich übernehme die Beifahrerseite, ich steh dir zu Seite, sollte der Verdächtige auf dumme Gedanken kommen.</DIALOGUE>
+        <DIALOGUE>Überprüfe gern nochmal die Fahrzeugdetails, sicher ist sicher.</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Suspect_Witness">
+        <DIALOGUE>Spieler: Stehen bleiben! Polizei!</DIALOGUE>
+        <DIALOGUE>Oh mein Gott, bin ich erschrocken. Was wollen Sie?</DIALOGUE>
+        <DIALOGUE>Sie sind Beschuldigter in einem Strafverfahren, wo waren Sie vor kurzem?</DIALOGUE>
+        <DIALOGUE>Ich... ist es wegen der Streitigkeit? Kommen Sie, das war doch nur ne Kleinigkeit.</DIALOGUE>
+        <DIALOGUE>Die Person wird gerade ins Krankenhaus transportiert zu Ihrer Info! Die Person ist schwerverletzt!</DIALOGUE>
+        <DIALOGUE>Oh nein, ich wollte das gar nicht! Verdammt, es tut mir so leid...</DIALOGUE>
+        <DIALOGUE>Hände da, wo ich sie sehen kann! Sie sind verhaftet!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Suspect_VictimWitness">
+        <DIALOGUE>Spieler: Polizei! Bitte kommen Sie mit mir, ich habe da ein paar Fragen an Sie.</DIALOGUE>
+        <DIALOGUE>Was wollen Sie von mir? Lassen Sie mich in Ruhe!</DIALOGUE>
+        <DIALOGUE>Hören Sie, wir können das auf die leichte oder harte Tour machen.</DIALOGUE>
+        <DIALOGUE>Sie können nichts beweisen, ich habe nichts gemacht! Gar nix!</DIALOGUE>
+        <DIALOGUE>Sie passen auf die Beschreibung eines Verdächtigen, wo waren Sie vor einer Stunde?</DIALOGUE>
+        <DIALOGUE>Ich... war in der Bücherei, ja genau! Ich lese und genieße die Ruhe von euch Schweinen!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Suspect_TrafficStop">
+        <DIALOGUE>Spieler: Guten Tag, ich bin Verkehrspolizist der lokalen Dienststelle. Ausweis und Fahrzeugdokumente, bitte.</DIALOGUE>
+        <DIALOGUE>Gibt es einen Grund für die Kontrolle? Meine Daten sind alle gültig!</DIALOGUE>
+        <DIALOGUE>Spieler: Von wo kommen Sie her?</DIALOGUE>
+        <DIALOGUE>Ich war gerade eben einkaufen, ein paar Kleinigkeiten, wieso?</DIALOGUE>
+        <DIALOGUE>Spieler: Haben Sie sich vor kurzem mit jemandem gestritten? Freund, Arbeitskollege oder ähnliches? Wir haben da eine Meldung.</DIALOGUE>
+        <DIALOGUE>Ja, ich hatte einen kleinen Streit, ein Wortgefecht, ein bisschen Schubserei.</DIALOGUE>
+        <DIALOGUE>Haben Sie mehr als nur einen Schubs gegeben? Ein Zeuge hat da anderes berichtet.</DIALOGUE>
+        <DIALOGUE>Ich weiß nicht, was Sie meinen!! Verhaften Sie mich ruhig!</DIALOGUE>
+    </DIALOGUES>
+    <END>
+    <TEXT>Leitstelle, wir sind Code 4. Wir kehren zum Streifendienst zurück.</TEXT>
+    <TEXT>Hier ist alles Code 4. Leitstelle, keine weitere Unterstützung erforderlich.</TEXT>
+</END>
+</CALLOUT>

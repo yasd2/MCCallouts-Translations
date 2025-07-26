@@ -1,0 +1,32 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Taxi Fare Dispute</CALLOUTMESSAGE>
+    <CALLOUTADVISORY></CALLOUTADVISORY>
+    <TASK>Drive to the location and solve the dispute.</TASK>
+    <D_PEACEFUL>
+        <DIALOGUE>~y~You:~s~ Alright, what's going on here?</DIALOGUE>
+        <DIALOGUE>~b~Driver:~s~ Officer, this guy took a ride in my cab, but when we arrived, he just got out and refused to pay!</DIALOGUE>
+        <DIALOGUE>~p~Passenger:~s~ Because he took a huge detour! I checked the map, and he added at least ten extra blocks to the route. I’m not paying for that!</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ Look, arguing won’t solve anything. How about we find a compromise?</DIALOGUE>
+        <DIALOGUE>~b~Driver:~s~ Compromise? I drove him here, he owes me the fare. That’s how this works!</DIALOGUE>
+        <DIALOGUE>~p~Passenger:~s~ Yeah? And what about the extra miles you added to rip me off?</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ Alright, how about this – the driver gives you a small discount, and you pay the rest? That way, everyone walks away happy.</DIALOGUE>
+        <DIALOGUE>~b~Driver:~s~ Ugh… fine. I'll take 20% off. But that’s my final offer.</DIALOGUE>
+        <DIALOGUE>~p~Passenger:~s~ Alright… I still think it’s unfair, but whatever. Here, take your money.</DIALOGUE>
+    </D_PEACEFUL>
+    <D_FIGHT>
+        <DIALOGUE>~y~You:~s~ What’s happening here?</DIALOGUE>
+        <DIALOGUE>~b~Driver:~s~ This guy took a ride in my cab and now refuses to pay! He’s wasting my time, and I’m not working for free!</DIALOGUE>
+        <DIALOGUE>~p~Passenger:~s~ Oh, shut up! You think I didn’t notice that you took the longest possible route? You scammed me, and I’m not giving you a dime!</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ Sir, you took the ride, and that means you need to pay. That’s how this works.</DIALOGUE>
+        <DIALOGUE>~p~Passenger:~s~ Like hell I do! This crook thinks he can take advantage of people!</DIALOGUE>
+        <DIALOGUE>~b~Driver:~s~ You’re the crook here! I provided a service, and you’re trying to skip the bill!</DIALOGUE>
+        <DIALOGUE>~p~Passenger:~s~ You wanna take my money? Try it!</DIALOGUE>
+    </D_FIGHT>
+    <END>
+        <TEXT>{CalloutMessage} is Code 4. Resume normal patrol.</TEXT>
+        <TEXT>{CalloutMessage} concluded. Continue your shift.</TEXT>
+        <TEXT>{CalloutMessage} resolved. Back to patrol duties.</TEXT>
+        <TEXT>{CalloutMessage} is over. Return to standard patrol.</TEXT>
+        <TEXT>{CalloutMessage} complete. You're clear to resume patrol.</TEXT>
+    </END>
+</CALLOUT>

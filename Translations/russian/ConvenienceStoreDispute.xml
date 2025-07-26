@@ -1,100 +1,100 @@
 <ConvenienceStoreDispute>
 
     <General>
-        <Text>Convenience Store Dispute</Text>
-        <Text>Solve the discrepancy</Text>
+        <Text>Конфликт в магазине</Text>
+        <Text>Разберитесь с ситуацией</Text>
     </General>
 
     <Persons>
-        <Text>~y~You:~s~ </Text>
-        <Text>~HC_7~Lady:~s~ </Text>
-        <Text>~b~Clerk:~s~ </Text>
+        <Text>~y~Вы:~s~ </Text>
+        <Text>~HC_7~Женщина:~s~ </Text>
+        <Text>~b~Продавец:~s~ </Text>
     </Persons>
 
     <D_Argue>
-        <Dialogue>Officer! The clerk doesn't want to take my coupon!</Dialogue>
-        <Dialogue>M'am, I already told you, this coupon is invalid. I can't accept it.</Dialogue>
-        <Dialogue>That's ridicolous, it's valid! I do have rights! You can't refuse to take it!</Dialogue>
-        <Dialogue>Officer, may you please take a look at it and clarify?</Dialogue>
-        <Dialogue>Sure, let me see it...</Dialogue>
-        <Dialogue>* Looks at coupon... *</Dialogue>
+        <Dialogue>Офицер! Продавец отказывается принять мой купон!</Dialogue>
+        <Dialogue>Мэм, я уже говорил вам, этот купон недействителен. Я не могу его принять.</Dialogue>
+        <Dialogue>Это нелепо, он действителен! У меня есть права! Вы не можете его не принять!</Dialogue>
+        <Dialogue>Офицер, можете взглянуть на него и прояснить ситуацию?</Dialogue>
+        <Dialogue>Конечно, дайте посмотреть...</Dialogue>
+        <Dialogue>* Осматривает купон... *</Dialogue>
     </D_Argue>
 
     <D_Expired>
-        <Dialogue>* Coupon for 30 $ at 24/7 market, expires on 06/01/2024 *</Dialogue>
-        <Dialogue>The coupon is definitely expired.</Dialogue>
+        <Dialogue>* Купон на 30 $ для магазина 24/7, срок действия до 01.06.2024 *</Dialogue>
+        <Dialogue>Этот купон определённо просрочен.</Dialogue>
     </D_Expired>
 
     <D_Manipulated>
-        <Dialogue>* You can see the 24/7 market coupon for 30$ is manipulated to 60 $ *</Dialogue>
-        <Dialogue>This coupon has been manipulated. Look, the numbers were changed.</Dialogue>
+        <Dialogue>* Видно, что купон на 30 $ для магазина 24/7 изменён на 60 $ *</Dialogue>
+        <Dialogue>Этот купон подделан. Посмотрите, цифры были изменены.</Dialogue>
     </D_Manipulated>
 
     <D_RefuseLeave>
-        <Dialogue>This can't be real! You're lying!</Dialogue>
-        <Dialogue>Officer, that's racist! I won't go before I receive my right!</Dialogue>
+        <Dialogue>Этого не может быть! Вы врёте!</Dialogue>
+        <Dialogue>Офицер, это дискриминация! Я не уйду, пока не получу то, что мне положено!</Dialogue>
     </D_RefuseLeave>
 
     <D_Run>
-        <Dialogue>Everybody is against me! Forget it, I won't pay this!</Dialogue>
+        <Dialogue>Все против меня! Забудьте, я не буду за это платить!</Dialogue>
     </D_Run>
 
     <D_Fight>
-        <Dialogue>I have enough of your bullshit!</Dialogue>
-        <Dialogue>And you Officer, are part of the problem!!! Aaaaaargh!</Dialogue>
+        <Dialogue>Мне надоела ваша чушь!</Dialogue>
+        <Dialogue>И вы, офицер, тоже часть этой проблемы!!! Аааааа!</Dialogue>
     </D_Fight>
 
     <D_Taser>
-        <Dialogue>How dare you threaten me!</Dialogue>
-        <Dialogue>ASSAULT! You have attacked me!</Dialogue>
-        <Dialogue>This is self-defense!</Dialogue>
+        <Dialogue>Как вы смеете мне угрожать!</Dialogue>
+        <Dialogue>НАПАДЕНИЕ! Вы напали на меня!</Dialogue>
+        <Dialogue>Это самозащита!</Dialogue>
     </D_Taser>
 
 
 
     <D_Eco_Argue>
-        <Dialogue>This is outrageous! Look at this packaging! Plastic everywhere! Are you trying to kill the planet?</Dialogue>
-        <Dialogue>Ma'am, I understand your concern, but we don't manufacture the products. We just sell them.</Dialogue>
-        <Dialogue>Just sell them? So you're complicit! Selling non-eco-friendly products is basically illegal!</Dialogue>
-        <Dialogue>Ma'am, that's not true. There are no laws against this packaging—</Dialogue>
-        <Dialogue>Don't lie to me! I'll have this store shut down for engaging in illegal activities! You're part of the problem! You're a—you're a murderer!</Dialogue>
-        <Dialogue>Excuse me? Alright Officer, please remove her from the store and M'am, you're banned from this store from now on.</Dialogue>
+        <Dialogue>Это возмутительно! Посмотрите на эту упаковку! Пластик повсюду! Вы хотите убить планету?</Dialogue>
+        <Dialogue>Мэм, я понимаю ваше беспокойство, но мы не производим эти товары. Мы их просто продаём.</Dialogue>
+        <Dialogue>Просто продаёте? Значит, вы соучастники! Продавать товары, вредные для экологии, фактически незаконно!</Dialogue>
+        <Dialogue>Мэм, это не так. Нет законов, запрещающих такую упаковку—</Dialogue>
+        <Dialogue>Не лгите мне! Я добьюсь закрытия этого магазина за незаконную деятельность! Вы — часть проблемы! Вы — убийца!</Dialogue>
+        <Dialogue>Простите? Ладно, офицер, выведите её из магазина. И, мэм, с этого момента вам запрещён вход в этот магазин.</Dialogue>
     </D_Eco_Argue>
 
     <D_Eco_RefuseLeave>
-        <Dialogue>I will not leave this store until this criminal is arrested!</Dialogue>
-        <Dialogue>Ma'am, I understand you're upset, but this is not a criminal matter. You need to leave the store, or I'll have to remove you myself.</Dialogue>
-        <Dialogue>I refuse! If you don't arrest this murderer, then YOU'RE complicit too! I'll stay here all day if I have to!</Dialogue>
+        <Dialogue>Я не покину этот магазин, пока этого преступника не арестуют!</Dialogue>
+        <Dialogue>Мэм, я понимаю, что вы расстроены, но это не уголовное дело. Вам нужно покинуть магазин, иначе мне придётся вывести вас силой.</Dialogue>
+        <Dialogue>Я отказываюсь! Если вы не арестуете этого убийцу, значит, вы тоже соучастник! Я буду стоять здесь весь день, если потребуется!</Dialogue>
     </D_Eco_RefuseLeave>
 
     <D_Eco_FleeWPackage>
-        <Dialogue>You know what? If you won't fix it, I'll do it myself! This ends now!</Dialogue>
-        <Dialogue>I'm saving the planet! This belongs in proper disposal, not on your filthy shelves!</Dialogue>
-        <Dialogue>Ma'am, that's theft. Put the item down and step away.</Dialogue>
-        <Dialogue>It's not theft if I'm saving humanity! Arrest THEM for stocking this garbage!</Dialogue>
-        <Dialogue>Ma'am, this is your last warning. Drop the item and cooperate, or you'll be placed under arrest.</Dialogue>
+        <Dialogue>Знаете что? Если вы не решите проблему, я сделаю это сама! Этому конец!</Dialogue>
+        <Dialogue>Я спасаю планету! Этому место в переработке, а не на ваших грязных полках!</Dialogue>
+        <Dialogue>Мэм, это кража. Поставьте товар на место и отойдите.</Dialogue>
+        <Dialogue>Это не кража, если я спасаю человечество! Арестуйте ИХ за продажу этого мусора!</Dialogue>
+        <Dialogue>Мэм, это последнее предупреждение. Отпустите товар и сотрудничайте, иначе вы будете арестованы.</Dialogue>
     </D_Eco_FleeWPackage>
 
     <D_Eco_Argumentative>
-        <Dialogue>Officer! You need to arrest this man immediately! He's a murderer! Selling all this plastic — he's practically choking the Earth himself!</Dialogue>
-        <Dialogue>Ma'am, this isn't a criminal matter. Now, if you—</Dialogue>
-        <Dialogue>Don't even start with me! Where's your supervisor? I want their name. And YOU— * pointing at the officer * —I want your name and badge number! RIGHT NOW!</Dialogue>
-        <Dialogue>Ma'am, we're not doing this. Either leave the store, or I'll have to escort you out.</Dialogue>
-        <Dialogue>Oh, I'd love to see you try! I'm going to report ALL of you! Corporate, the mayor, the media—everyone will hear about this!</Dialogue>
+        <Dialogue>Офицер! Вы должны немедленно арестовать этого человека! Он убийца! Продавая весь этот пластик, он буквально душит Землю!</Dialogue>
+        <Dialogue>Мэм, это не уголовное дело. Так что если вы—</Dialogue>
+        <Dialogue>Даже не начинайте со мной! Где ваш начальник? Я хочу знать его имя. И ВЫ— * указывая на офицера * —назовите своё имя и номер жетона! НЕМЕДЛЕННО!</Dialogue>
+        <Dialogue>Мэм, мы не будем это обсуждать. Либо покиньте магазин, либо мне придётся вас вывести.</Dialogue>
+        <Dialogue>О, я бы с удовольствием на это посмотрела! Я на ВСЕХ вас пожалуюсь! В корпорацию, мэру, в СМИ — все об этом узнают!</Dialogue>
     </D_Eco_Argumentative>
 
     <D_Eco_Taser>
-        <Dialogue>Oh, so now you're threatening me? I feel so unsafe right now! This is assault!</Dialogue>
-        <Dialogue>Ma'am, no one is threatening you. Please calm—</Dialogue>
-        <Dialogue>ASSAULT! YOU ASSAULTED ME! Everyone saw it!</Dialogue>
-        <Dialogue>Ma'am, no one has touched you. Let's just—</Dialogue>
-        <Dialogue>Don't you talk to me, murderer!</Dialogue>
+        <Dialogue>О, так теперь вы мне угрожаете? Я чувствую себя в опасности! Это нападение!</Dialogue>
+        <Dialogue>Мэм, вам никто не угрожает. Пожалуйста, успокойтесь—</Dialogue>
+        <Dialogue>НАПАДЕНИЕ! ВЫ НАПАЛИ НА МЕНЯ! Все это видели!</Dialogue>
+        <Dialogue>Мэм, вас никто не трогал. Давайте просто—</Dialogue>
+        <Dialogue>Не говорите со мной, убийца!</Dialogue>
     </D_Eco_Taser>
 
 
 
     <End>
-        <Text>Callout is Code 4.</Text>
+        <Text>Вызов завершён. Код 4.</Text>
     </End>
 
 </ConvenienceStoreDispute>

@@ -1,36 +1,36 @@
 <CashTransport>
 
     <General>
-        <Text>Risky Money Transport</Text>
-        <Text>Drive to the ~g~~h~callout location~h~~s~.</Text>
-        <Text>Press {Y} to talk</Text>
-        <Text>Drive to the ~b~~h~destination~h~~s~.</Text>
-        <Text>Press {Y} anytime if the RIOT is stuck.</Text>
-        <Text>Get the ~HC_3~~h~cash suitcase~h~~s~ from the back of the ~r~~h~money truck~h~~s~.</Text>
-        <Text>Bring the case into the bank.</Text>
-        <Text>Press ~y~~h~End~h~~s~ anytime to end the callout.</Text>
+        <Text>Рискованная перевозка денег</Text>
+        <Text>Двигайтесь к ~g~~h~месту вызова~h~~s~.</Text>
+        <Text>Нажмите {Y} чтобы поговорить</Text>
+        <Text>Двигайтесь к ~b~~h~пункту назначения~h~~s~.</Text>
+        <Text>Нажмите {Y} в любое время, если бронированный автомобиль застрял.</Text>
+        <Text>Возьмите ~HC_3~~h~чемодан с деньгами~h~~s~ из задней части ~r~~h~инкассаторской машины~h~~s~.</Text>
+        <Text>Доставьте чемодан в банк.</Text>
+        <Text>Нажмите ~y~~h~End~h~~s~ в любое время, чтобы завершить вызов.</Text>
     </General>
 
     <Persons>
-        <Text>Guard</Text>
-        <Text>You</Text>
-        <Text>Bankman</Text>
+        <Text>Охранник</Text>
+        <Text>Вы</Text>
+        <Text>Сотрудник банка</Text>
     </Persons>
 
     <Guard>
-        <Dialogue>Hello Officer! Thanks for coming! We have a very important delivery!</Dialogue>
-        <Dialogue>The armoured bank truck will deliver a big amount of money to our destination.</Dialogue>
-        <Dialogue>The truck will be driven by you, a armoured swat vehicle will follow.</Dialogue>
-        <Dialogue>We got reports that an attack might be happening, that's why we have you and the swat team. Let's go!</Dialogue>
+        <Dialogue>Здравствуйте, офицер! Спасибо, что прибыли! У нас очень важная доставка!</Dialogue>
+        <Dialogue>Бронированная банковская машина доставит крупную сумму денег в пункт назначения.</Dialogue>
+        <Dialogue>Водителем грузовика будете вы, за вами поедет бронированный автомобиль спецназа.</Dialogue>
+        <Dialogue>Мы получили сообщения о возможной атаке, поэтому у нас есть вы и команда спецназа. Поехали!</Dialogue>
     </Guard>
 
     <Bankman>
-        <Dialogue>Hello! I see you made it out alive! Now you know why we hire professionals like you, not like ... my colleagues.</Dialogue>
-        <Dialogue>... definitely. At least the swat vehicle is bullet proof.</Dialogue>
-        <Dialogue>The money truck is armoured, too. Only the windows are not.</Dialogue>
-        <Dialogue>Here is the case.</Dialogue>
-        <Dialogue>Perfect, thank you, I put in a good word for you!</Dialogue>
-        <Dialogue>I hope the risk was worth it, have a nice day!</Dialogue>
+        <Dialogue>Здравствуйте! Вижу, вы остались живы! Теперь вы понимаете, почему мы нанимаем профессионалов, а не таких, как ... мои коллеги.</Dialogue>
+        <Dialogue>... точно. По крайней мере, бронированный автомобиль спецназа пуленепробиваемый.</Dialogue>
+        <Dialogue>Грузовик с деньгами тоже бронированный. Только окна уязвимы.</Dialogue>
+        <Dialogue>Вот чемодан.</Dialogue>
+        <Dialogue>Отлично, спасибо, я дам о вас хорошую рекомендацию!</Dialogue>
+        <Dialogue>Надеюсь, риск был оправдан. Хорошего дня!</Dialogue>
     </Bankman>
 
 </CashTransport>

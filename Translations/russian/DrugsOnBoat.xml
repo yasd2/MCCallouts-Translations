@@ -1,56 +1,56 @@
 <DrugsOnBoat>
 
     <General>
-        <Text>Known drug transport ship spotted</Text>
-        <Text>Check for possible drugs on board</Text>
-        <Text>HINT: Search the boat for drugs</Text>
-        <Text>Dispatch, I couldn't find any drugs, I will talk to the ship owner again.</Text>
-        <Text>Copy that.</Text>
-        <Text>We've received ~o~anonymous tips~s~ on locations.</Text>
-        <Text>Dispatch, got one foot pursuit!</Text>
-        <Text>Dispatch, shots fired!</Text>
-        <Text>You are on the way to a ship to search for illegal drugs.</Text>
-        <Text>Press {Y} to pick up evidence.</Text>
-        <Text>Confront the ship owner or keep searching.</Text>
-        <Text>~g~All evidence found</Text>
-        <Text>Drugs found:</Text>
+        <Text>Обнаружено судно, используемое для перевозки наркотиков</Text>
+        <Text>Проверьте, возможны ли наркотики на борту</Text>
+        <Text>ПОДСКАЗКА: Обыщите лодку на наличие наркотиков</Text>
+        <Text>Диспетчер, я не смог найти никаких наркотиков, я поговорю с владельцем судна еще раз.</Text>
+        <Text>Понял.</Text>
+        <Text>Мы получили ~o~анонимные подсказки~s~ о местах.</Text>
+        <Text>Диспетчер, началась погоня пешком!</Text>
+        <Text>Диспетчер, прозвучали выстрелы!</Text>
+        <Text>Вы направляетесь к судну для поиска незаконных наркотиков.</Text>
+        <Text>Нажмите {Y}, чтобы подобрать улику.</Text>
+        <Text>Спросите владельца судна или продолжайте поиск.</Text>
+        <Text>~g~Все улики найдены</Text>
+        <Text>Найдены наркотики:</Text>
     </General>
 
 
     <Persons>
-        <Text>Owner</Text>
-        <Text>You</Text>
+        <Text>Владелец</Text>
+        <Text>Вы</Text>
     </Persons>
 
 
     <D_Owner_Arrive>
-        <Dialogue>Hello sir, we have a search warrant for this boat.</Dialogue>
-        <Dialogue>Go to hell, you're not searching my boat!</Dialogue>
-        <Dialogue>Move aside, you can ask my deputies down there for the written warrant.</Dialogue>
+        <Dialogue>Здравствуйте, сэр, у нас есть ордер на обыск этого судна.</Dialogue>
+        <Dialogue>Идите к черту, вы не будете обыскивать мою лодку!</Dialogue>
+        <Dialogue>Отойдите в сторону, вы можете спросить у моих заместителей внизу письменный ордер.</Dialogue>
     </D_Owner_Arrive>
 
 
     <D_Owner_NoDrugs>
-        <Dialogue>Alright, I am finished searching your ship, you are good to go!</Dialogue>
-        <Dialogue>This took some time, but time is money! I need to hurry up now.</Dialogue>
-        <Dialogue>I'm just doing my job, anyways have a good trip!</Dialogue>
+        <Dialogue>Хорошо, я закончил обыск вашего судна, вы свободны!</Dialogue>
+        <Dialogue>Это заняло некоторое время, но время — деньги! Мне нужно сейчас спешить.</Dialogue>
+        <Dialogue>Я просто выполняю свою работу, в любом случае, удачного плавания!</Dialogue>
     </D_Owner_NoDrugs>
 
 
     <D_Owner_Surrender>
-        <Dialogue>Sir, I found multiple drugs on this ship, can you explain this?</Dialogue>
-        <Dialogue>... I mean ... sh*t, you got me anyways. Yeah, they are mine.</Dialogue>
-        <Dialogue>I won't resist, I tried to sell those, you can arrest me.</Dialogue>
+        <Dialogue>Сэр, я нашел несколько наркотиков на этом судне, можете это объяснить?</Dialogue>
+        <Dialogue>... Ну... черт, вы меня все равно поймали. Да, они мои.</Dialogue>
+        <Dialogue>Я не буду сопротивляться, я пытался их продать, вы можете меня арестовать.</Dialogue>
     </D_Owner_Surrender>
 
 
     <D_Owner_Pursuit_Shooting>
-        <Dialogue>Sir, I found multiple drugs on this ship, can you explain this?</Dialogue>
+        <Dialogue>Сэр, я нашел несколько наркотиков на этом судне, можете это объяснить?</Dialogue>
     </D_Owner_Pursuit_Shooting>
 
 
     <End>
-        <Text>Callout is Code 4.</Text>
+        <Text>Вызов завершен. Код 4.</Text>
     </End>
 
 </DrugsOnBoat>

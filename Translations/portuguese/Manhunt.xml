@@ -1,0 +1,25 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>~b~Manhunt</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>A wanted fugitive was last seen in {ZoneName}</CALLOUTADVISORY>
+    <TASK>Drive to the perimeter. Officers have sealed off the area.</TASK>
+    <WARRANTS>
+        <TEXT>Homicide</TEXT>
+        <TEXT>Assault</TEXT>
+        <TEXT>Missed Courtdate</TEXT>
+        <TEXT>Reckless Driving</TEXT>
+    </WARRANTS>
+    <BACKUP>
+        <TEXT>~b~Press ~y~{Y}~b~ within the next 10 seconds to request backup. They will help searching.</TEXT>
+        <TEXT>~b~Backup is on the way and will help searching for the suspect.</TEXT>
+        <TEXT>Acknowledged. Backup will not be dispatched.</TEXT>
+    </BACKUP>
+    <SEARCH>
+        <TEXT>We are searching for ~r~{Name}~s~, wanted for ~r~{Warrant}.</TEXT> 
+        <TEXT>Need help? Press ~{9}~ to locate the ~r~suspect!</TEXT>
+        <TEXT>The ~r~suspect~s~ has been found! Arrest him!</TEXT>
+    </SEARCH>
+    <END>
+        <TEXT>{CalloutMessage} has ended.~n~</TEXT>
+        <TEXT>~g~The suspect ~r~{Name}~g~ has been arrested.~n~</TEXT>
+    </END>
+</CALLOUT>

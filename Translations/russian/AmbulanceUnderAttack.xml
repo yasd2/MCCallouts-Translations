@@ -1,20 +1,21 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Ambulance under attack</CALLOUTMESSAGE>
-    <TASK>An ambulance requested urgent help, check on them.</TASK>
+    <NAME>AmbulanceUnderAttack</NAME>
+    <CALLOUTMESSAGE>Нападение на скорую помощь</CALLOUTMESSAGE>
+    <TASK>Скорая запросила срочную помощь, проверьте, что с ними.</TASK>
     <DIALOGUES>
-        <DIALOGUE>~y~You:~s~ What happened?</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ We were on route back to the hospital, when they suddenly stopped us.</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ Then they attacked us without a reason!</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ Thank you for your service!</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ We will head back to the station, have a nice day!</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Что случилось?</DIALOGUE>
+        <DIALOGUE>~r~Фельдшер:~s~ Мы возвращались в больницу, когда нас внезапно остановили.</DIALOGUE>
+        <DIALOGUE>~r~Фельдшер:~s~ А потом напали на нас без всякой причины!</DIALOGUE>
+        <DIALOGUE>~r~Фельдшер:~s~ Спасибо за вашу помощь!</DIALOGUE>
+        <DIALOGUE>~r~Фельдшер:~s~ Мы возвращаемся на станцию, хорошего дня!</DIALOGUE>
     </DIALOGUES>
-    <EXTRA>
-        <TEXT>Press ~y~{Y}~s~ to make them stop fighting!</TEXT>
-        <TEXT>Talk to the paramedic to find out what happened.</TEXT>
+    <EXTRA>     
+        <TEXT>Нажмите ~y~{Y}~s~, чтобы остановить драку!</TEXT>
+        <TEXT>Поговорите с фельдшером, чтобы узнать, что произошло.</TEXT>
     </EXTRA>
     <WARN>
-        <TEXT>~y~You:~s~ Police! Stop fighting and back up!</TEXT>
-        <TEXT>~y~You:~s~ Everyone stop! This is the police!</TEXT>
+        <TEXT>~y~Вы:~s~ Полиция! Прекратите драку и отойдите!</TEXT>
+        <TEXT>~y~Вы:~s~ Всем стоять! Это полиция!</TEXT>
     </WARN>
-    <END>Ambulance under attack has ended.</END>
+    <END>Инцидент с нападением на скорую помощь завершён.</END>
 </CALLOUT>

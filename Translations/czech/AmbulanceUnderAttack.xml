@@ -1,20 +1,20 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Ambulance under attack</CALLOUTMESSAGE>
-    <TASK>An ambulance requested urgent help, check on them.</TASK>
+    <CALLOUTMESSAGE>Napadení sanitky</CALLOUTMESSAGE>
+    <TASK>Sanitka si vyzádala naléhavou pomoc, zkontrolujte to.</TASK>
     <DIALOGUES>
-        <DIALOGUE>~y~You:~s~ What happened?</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ We were on route back to the hospital, when they suddenly stopped us.</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ Then they attacked us without a reason!</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ Thank you for your service!</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ We will head back to the station, have a nice day!</DIALOGUE>
+        <DIALOGUE>~y~Ty:~s~ Co se stalo?</DIALOGUE>
+        <DIALOGUE>~r~Záchranár:~s~ Byli jsme na ceste zpet do nemocnice, kdyz nás náhle zastavili.</DIALOGUE>
+        <DIALOGUE>~r~Záchranár:~s~ Pak na nás bezduvodne zaútocili!</DIALOGUE>
+        <DIALOGUE>~r~Záchranár:~s~ Dekujeme vám za vasi sluzbu!</DIALOGUE>
+        <DIALOGUE>~r~Záchranár:~s~ Vrátíme se na nádrazí, hezký den!</DIALOGUE>
     </DIALOGUES>
     <EXTRA>
-        <TEXT>Press ~y~{Y}~s~ to make them stop fighting!</TEXT>
-        <TEXT>Talk to the paramedic to find out what happened.</TEXT>
+        <TEXT>Zmácknete ~y~{Y}~s~ aby se prestali hádat!</TEXT>
+        <TEXT>Promluvte si se záchranárem a zjistete, co se stalo.</TEXT>
     </EXTRA>
     <WARN>
-        <TEXT>~y~You:~s~ Police! Stop fighting and back up!</TEXT>
-        <TEXT>~y~You:~s~ Everyone stop! This is the police!</TEXT>
+        <TEXT>~y~Ty:~s~ Policie! Prestante se prát a ustupte!</TEXT>
+        <TEXT>~y~Ty:~s~ Vsichni zastavte! Tady je policie!</TEXT>
     </WARN>
-    <END>Ambulance under attack has ended.</END>
+    <END>Útok na sanitku byl vyresen!</END>
 </CALLOUT>

@@ -1,0 +1,25 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>~b~Облавливание</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Разыскиваемый преступник был замечен в районе {ZoneName}</CALLOUTADVISORY>
+    <TASK>Проследуйте к периметру. Офицеры уже оцепили территорию.</TASK>
+    <WARRANTS>
+        <TEXT>Убийство</TEXT>
+        <TEXT>Нападение</TEXT>
+        <TEXT>Неявка в суд</TEXT>
+        <TEXT>Опасное вождение</TEXT>
+    </WARRANTS>
+    <BACKUP>
+        <TEXT>~b~Нажмите ~y~{Y}~b~ в течение 10 секунд для запроса подкрепления. Они помогут в поисках.</TEXT>
+        <TEXT>~b~Подкрепление в пути и поможет в поисках подозреваемого.</TEXT>
+        <TEXT>Принято. Подкрепление не будет направлено.</TEXT>
+    </BACKUP>
+    <SEARCH>
+        <TEXT>Мы разыскиваем ~r~{Name}~s~, в розыск за ~r~{Warrant}.</TEXT>
+        <TEXT>Нужна помощь? Нажмите ~{9}~ для обнаружения ~r~подозреваемого!</TEXT>
+        <TEXT>~r~Подозреваемый~s~ обнаружен! Задержите его!</TEXT>
+    </SEARCH>
+    <END>
+        <TEXT>{CalloutMessage} завершён.~n~</TEXT>
+        <TEXT>~g~Подозреваемый ~r~{Name}~g~ задержан.~n~</TEXT>
+    </END>
+</CALLOUT>

@@ -11,18 +11,19 @@
     </Persons>
 
     <Civilian>
-        <Dialogue>Hello, are you alright?</Dialogue>
-        <Dialogue>You won't believe me... I saw zombies!!!</Dialogue>
-        <Dialogue>Okay, everything will be alright...</Dialogue>
-        <Dialogue>There they are, aaaaaah!...</Dialogue>
+        <Dialogue>Hello, are you all right?</Dialogue>
+        <Dialogue>You won’t believe me... I saw zombies!</Dialogue>
+        <Dialogue>Okay, everything will be all right...</Dialogue>
+        <Dialogue>There they are—aaaaaah!</Dialogue>
     </Civilian>
 
     <Civilian2>
-        <Dialogue>Hi, what's going on?</Dialogue>
-        <Dialogue>I think I'm crazy... I saw zombies wandering around...</Dialogue>
+        <Dialogue>Hi, what’s going on?</Dialogue>
+        <Dialogue>I think I’m going crazy... I saw zombies wandering around...</Dialogue>
         <Dialogue>Damn, are you sure?</Dialogue>
-        <Dialogue>Omg, there they are... run!!!</Dialogue>
+        <Dialogue>Oh my god, there they are—run!</Dialogue>
     </Civilian2>
+
 
     <Wave>
         <Text>Wave {WaveNumber} is starting!</Text>

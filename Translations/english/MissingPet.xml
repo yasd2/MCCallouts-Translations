@@ -2,7 +2,7 @@
 
     <General>
         <Text>Missing Pet</Text>
-        <Text>Caller is worried about the pet</Text>
+        <Text>Caller is worried about their pet</Text>
         <Text>Drive to the ~b~~h~Caller~h~~s~ to learn more about the missing pet.</Text>
     </General>
 
@@ -48,46 +48,46 @@
 
     <CallerGeneral>
         <Dialogue>Hello! I can't find my pet!</Dialogue>
-        <Dialogue>It has been missing for {min} minutes, but it must be nearby!</Dialogue>
+        <Dialogue>It has been missing for several minutes, but it must be nearby!</Dialogue>
         <Dialogue>Oh, sorry, it's a {PetTypeAsNormalWord}, and its name is {PetName}.</Dialogue>
-        <Dialogue>It just slipped away! Please find it!</Dialogue>
+        <Dialogue>It just slipped away! Please help me find it!</Dialogue>
     </CallerGeneral>
 
     <DriverAccident1>
         <Dialogue>Hello Officer! Look what happened!</Dialogue>
-        <Dialogue>The animal ran in front of my car! I had no chance to avoid it!</Dialogue>
-        <Dialogue>My car is damaged too! Can you call me a taxi and tow truck?</Dialogue>
+        <Dialogue>The animal ran right in front of my car! I had no chance to avoid it!</Dialogue>
+        <Dialogue>My car is damaged too! Could you call a taxi and a tow truck for me?</Dialogue>
     </DriverAccident1>
 
     <DriverAccident2>
-        <Dialogue>Hello Officer, I'm so sorry, I was only driving when this animal ran across the street.</Dialogue>
-        <Dialogue>I wasn't able to react on time. Damn it.</Dialogue>
-        <Dialogue>As long as you are fine, everything is ok. Your vehicle is ok, too.</Dialogue>
-        <Dialogue>Thanks for the report, I will notify the owner then. Drive safe.</Dialogue>
+        <Dialogue>Hello Officer, I'm so sorry, I was just driving when this animal ran across the street.</Dialogue>
+        <Dialogue>I wasn't able to react in time. Damn it.</Dialogue>
+        <Dialogue>As long as you're okay, everything is fine. Your vehicle is fine, too.</Dialogue>
+        <Dialogue>Thanks for the report. I'll notify the owner. Drive safe.</Dialogue>
     </DriverAccident2>
 
     <CallerReturnAccident1>
-        <Dialogue>Hello, I'm back with bad news.</Dialogue>
+        <Dialogue>Hello, I’m back with bad news.</Dialogue>
         <Dialogue>Oh no, what happened?</Dialogue>
-        <Dialogue>The animal was hit by a car and didn't survive.</Dialogue>
-        <Dialogue>Oh, that's sad, but the pet wasn't mine; it belonged to my neighbors.</Dialogue>
+        <Dialogue>The animal was hit by a car and didn’t survive.</Dialogue>
+        <Dialogue>Oh, that’s sad. But the pet wasn’t mine; it belonged to my neighbors.</Dialogue>
         <Dialogue>My neighbors will hate me forever, oh no...</Dialogue>
-        <Dialogue>Still, thanks for letting me know!</Dialogue>
+        <Dialogue>Still, thanks for letting me know.</Dialogue>
         <Dialogue>Oh no, have a good day anyway!</Dialogue>
     </CallerReturnAccident1>
 
     <CallerReturnAccident2>
         <Dialogue>Hi...</Dialogue>
         <Dialogue>And... have you found the pet?</Dialogue>
-        <Dialogue>I'm sorry, but your pet was overdriven by accident. Somebody just reported that.</Dialogue>
-        <Dialogue>Oh damn it... It wasn't my pet, my neighbors are on holidays and I took over...</Dialogue>
+        <Dialogue>I'm sorry, but your pet was accidentally hit by a car. Someone just reported it.</Dialogue>
+        <Dialogue>Oh damn it... It wasn’t my pet. My neighbors are on holiday and I’m taking care of it...</Dialogue>
         <Dialogue>Is there anything else I can do for you?</Dialogue>
-        <Dialogue>No thank you... damn... how should I explain this...</Dialogue>
+        <Dialogue>No, thank you... damn... how should I explain this...</Dialogue>
     </CallerReturnAccident2>
 
     <DriverAttackSafed1>
-        <Dialogue>Omg, thank you for saving me!</Dialogue>
-        <Dialogue>I was minding my own business when suddenly this animal came straight at me!</Dialogue>
+        <Dialogue>Oh my god, thank you for saving me!</Dialogue>
+        <Dialogue>I was minding my own business when suddenly this animal charged at me!</Dialogue>
         <Dialogue>No problem, I'm glad you're safe.</Dialogue>
         <Dialogue>Thank you, have a nice day!</Dialogue>
     </DriverAttackSafed1>
@@ -95,20 +95,21 @@
     <CallerAttackReturnPetAlive2>
         <Dialogue>Hey, I've brought your pet back!</Dialogue>
         <Dialogue>Awesome, thank you! Where have you been, {PetName}?</Dialogue>
-        <Dialogue>I can tell you, your pet attacked an innocent civilian!</Dialogue>
+        <Dialogue>I have to tell you, your pet attacked an innocent civilian!</Dialogue>
         <Dialogue>Oh, I'm so sorry, I hope he's not badly hurt.</Dialogue>
-        <Dialogue>I need your details such as I.D and I will file a report.</Dialogue>
+        <Dialogue>I’ll need your details, such as ID, to file a report.</Dialogue>
         <Dialogue>As soon as it's finished, you're free to go.</Dialogue>
     </CallerAttackReturnPetAlive2>
 
     <CallerAttackReturnPetDead2>
-        <Dialogue>Hello, I have bad news for you. Unfortunately your pet attacked a civilian.</Dialogue>
-        <Dialogue>I was forced to use lethal force, the pet is deceased.</Dialogue>
-        <Dialogue>Oh okay, I am so sorry, I hope the person is not hurt?</Dialogue>
+        <Dialogue>Hello, I have bad news for you. Unfortunately, your pet attacked a civilian.</Dialogue>
+        <Dialogue>I was forced to use lethal force; the pet did not survive.</Dialogue>
+        <Dialogue>Oh okay, I’m so sorry. I hope the person isn’t hurt?</Dialogue>
         <Dialogue>The person is fine.</Dialogue>
-        <Dialogue>For the future I will be more careful with my pets.</Dialogue>
-        <Dialogue>Most important is that everyone is safe. Have a good day.</Dialogue>
+        <Dialogue>In the future, I will be more careful with my pets.</Dialogue>
+        <Dialogue>The most important thing is that everyone is safe. Have a good day.</Dialogue>
     </CallerAttackReturnPetDead2>
+
 
     <End>
         <Text>Press ~y~End~s~ anytime to end the callout.</Text>

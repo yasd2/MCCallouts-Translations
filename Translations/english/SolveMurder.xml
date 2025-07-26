@@ -6,7 +6,7 @@
     </General>
 
     <Officer>
-        <Dialogue>Go to the ~b~officer~w~ and talk to her using </Dialogue>
+        <Dialogue>Go talk to the ~b~officer~w~ using </Dialogue>
         <Dialogue>~b~Officer~s~: Hello Detective! Glad you are here!</Dialogue>
         <Dialogue>~b~Officer~s~: We have a dead person to my right and two possible suspects.</Dialogue>
         <Dialogue>~b~Officer~s~: Please go to the ~r~crime scene~w~ to my right and ~r~investigate~s~, see, if you can find something.</Dialogue>
