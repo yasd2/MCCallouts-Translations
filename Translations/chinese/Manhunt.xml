@@ -1,25 +1,25 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>~b~Manhunt</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>A wanted fugitive was last seen in {ZoneName}</CALLOUTADVISORY>
-    <TASK>Drive to the perimeter. Officers have sealed off the area.</TASK>
+    <CALLOUTMESSAGE>~b~追捕逃犯</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>一名通缉逃犯最后一次出现在 {ZoneName}</CALLOUTADVISORY>
+    <TASK>前往边界。警员已封锁该区域.</TASK>
     <WARRANTS>
-        <TEXT>Homicide</TEXT>
-        <TEXT>Assault</TEXT>
-        <TEXT>Missed Courtdate</TEXT>
-        <TEXT>Reckless Driving</TEXT>
+        <TEXT>凶杀案</TEXT>
+        <TEXT>突击</TEXT>
+        <TEXT>错过开庭日期</TEXT>
+        <TEXT>鲁莽驾驶</TEXT>
     </WARRANTS>
     <BACKUP>
-        <TEXT>~b~Press ~y~{Y}~b~ within the next 10 seconds to request backup. They will help searching.</TEXT>
-        <TEXT>~b~Backup is on the way and will help searching for the suspect.</TEXT>
-        <TEXT>Acknowledged. Backup will not be dispatched.</TEXT>
+        <TEXT>~b~在接下来的10秒内按y~{Y}~b~请求支援. 他们将协助搜索.</TEXT>
+        <TEXT>~b~支援人员正在途中，将协助搜寻嫌疑人.</TEXT>
+        <TEXT>已确认。将不会派遣支援部队.</TEXT>
     </BACKUP>
     <SEARCH>
-        <TEXT>We are searching for ~r~{Name}~s~, wanted for ~r~{Warrant}.</TEXT> 
-        <TEXT>Need help? Press ~{9}~ to locate the ~r~suspect!</TEXT>
-        <TEXT>The ~r~suspect~s~ has been found! Arrest him!</TEXT>
+        <TEXT>我们正在寻找 ~r~{Name}~s~, 因 ~r~{Warrant}而通缉.</TEXT> 
+        <TEXT>需要帮助? 按 ~{9}~ 找到~r~嫌疑人!</TEXT>
+        <TEXT>~r~嫌疑人~s~已找到! 逮捕他!</TEXT>
     </SEARCH>
     <END>
-        <TEXT>{CalloutMessage} has ended.~n~</TEXT>
-        <TEXT>~g~The suspect ~r~{Name}~g~ has been arrested.~n~</TEXT>
+        <TEXT>{CalloutMessage} 已结束.~n~</TEXT>
+        <TEXT>~g~嫌疑人 ~r~{Name}~g~ 已被逮捕.~n~</TEXT>
     </END>
 </CALLOUT>

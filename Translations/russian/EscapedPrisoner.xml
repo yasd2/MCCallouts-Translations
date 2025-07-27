@@ -1,67 +1,67 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Escaped Prisoner</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>A prison bus crashed at {Zone}, an inmate escaped</CALLOUTADVISORY>
-    <TASK>A prisoner escaped recently. Drive to the last reported area.</TASK>
+    <CALLOUTMESSAGE>Побег заключённого</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Тюремный автобус попал в ДТП в {Zone}, заключённый сбежал</CALLOUTADVISORY>
+    <TASK>Заключённый совершил побег. Проследуйте в последний известный район его пребывания.</TASK>
     <DIALOGUE0>
-        <DIALOGUE>~y~You:~s~ Hello sir, what happened here?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Hi! I was attacked! The prisoner—he just snapped!</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ He assaulted me while I was watching the traffic. I flipped the bus accidentally, then he jumped out of the bus.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ He’s on foot now, ran off into the woods wearing his orange jumpsuit!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Do you have any idea where he might be headed?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Last I saw, he was headed north, past that ridge over there.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ He might try to steal a car, or hide somewhere.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Be careful—he’s dangerous and desperate!</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Oh my god, he took my gun, too! I can't find it!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Alright. I’ll find him.</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Здравствуйте, что здесь произошло?</DIALOGUE>
+        <DIALOGUE>~o~Тюремный охранник:~s~ Он напал на меня! Заключённый просто взбесился!</DIALOGUE>
+        <DIALOGUE>~o~Тюремный охранник:~s~ Он атаковал меня, когда я следил за дорогой. Автобус перевернулся, и он сбежал.</DIALOGUE>
+        <DIALOGUE>~o~Тюремный охранник:~s~ Он пешком, убежал в лес в оранжевом комбинезоне!</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Есть идеи, куда он мог направиться?</DIALOGUE>
+        <DIALOGUE>~o~Тюремный охранник:~s~ Последний раз я видел, как он шёл на север, за тот холм.</DIALOGUE>
+        <DIALOGUE>~o~Тюремный охранник:~s~ Может попытаться угнать машину или где-то спрятаться.</DIALOGUE>
+        <DIALOGUE>~o~Тюремный охранник:~s~ Будьте осторожны — он опасен и отчаян!</DIALOGUE>
+        <DIALOGUE>~o~Тюремный охранник:~s~ О боже, он ещё и мой пистолет забрал! Я не могу его найти!</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Понял. Я найду его.</DIALOGUE>
     </DIALOGUE0>
     <DIALOGUE1>
-        <DIALOGUE>~y~You:~s~ Sir, are you alright? What’s going on here?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ That inmate lost it! He attacked me out of nowhere!</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ I was checking directions on my tablet, and he took the chance to overpower me. The bus rolled when I tried to stop him.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ He bolted as soon as we crashed—ran straight into the woods in full orange.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Which way did he go?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Northbound, over that hill. He was fast, too!</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ If he finds a car or a hiding spot, we might lose him.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Watch out, officer—he's not thinking straight.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Damn it, I just realized… he took my service weapon!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Got it. I’m going after him now.</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Сэр, вы в порядке? Что здесь случилось?</DIALOGUE>
+        <DIALOGUE>~o~Тюремный охранник:~s~ Заключённый взбесился! Напал на меня без предупреждения!</DIALOGUE>
+        <DIALOGUE>~o~Тюремный охранник:~s~ Я смотрел маршрут на планшете, а он воспользовался моментом. Автобус перевернулся, когда я попытался его остановить.</DIALOGUE>
+        <DIALOGUE>~o~Тюремный охранник:~s~ Он сбежал сразу после аварии — прямо в лес, в оранжевом комбинезоне.</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ В каком направлении он ушёл?</DIALOGUE>
+        <DIALOGUE>~o~Тюремный охранник:~s~ На север, за тот холм. И бежал очень быстро!</DIALOGUE>
+        <DIALOGUE>~o~Тюремный охранник:~s~ Если найдёт машину или укрытие, мы можем его потерять.</DIALOGUE>
+        <DIALOGUE>~o~Тюремный охранник:~s~ Осторожнее, офицер — он не в себе.</DIALOGUE>
+        <DIALOGUE>~o~Тюремный охранник:~s~ Чёрт, я только понял... он забрал моё табельное оружие!</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Понял. Я уже иду за ним.</DIALOGUE>
     </DIALOGUE1>
     <DIALOGUE2>
-        <DIALOGUE>~y~You:~s~ What happened? Are you injured?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ No serious injuries, but it was close. The inmate flipped—he ambushed me!</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ I lost control of the transport vehicle during the struggle. He forced the door open and made a run for it.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Last I saw him, he was heading for the tree line. Still in the jumpsuit.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Any clue where he might be going?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Could be trying to reach the main road or find a hiding place nearby.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ He’s unpredictable, and probably armed now.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Damn… my firearm’s missing. He must’ve grabbed it in the chaos!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Understood. I’ll track him down.</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Что случилось? Вы ранены?</DIALOGUE>
+        <DIALOGUE>~o~Тюремный охранник:~s~ Серьёзных травм нет, но было близко. Заключённый взорвался — устроил засаду!</DIALOGUE>
+        <DIALOGUE>~o~Тюремный охранник:~s~ Я потерял контроль над автобусом во время борьбы. Он выбил дверь и сбежал.</DIALOGUE>
+        <DIALOGUE>~o~Тюремный охранник:~s~ Последний раз я видел его у кромки леса. Всё ещё в комбинезоне.</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Есть предположения, куда он мог направиться?</DIALOGUE>
+        <DIALOGUE>~o~Тюремный охранник:~s~ Может пытаться выйти к дороге или спрятаться где-то рядом.</DIALOGUE>
+        <DIALOGUE>~o~Тюремный охранник:~s~ Он непредсказуем и, вероятно, теперь вооружён.</DIALOGUE>
+        <DIALOGUE>~o~Тюремный охранник:~s~ Чёрт... моего пистолета нет. Должно быть, он схватил его в суматохе!</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Понял. Я его найду.</DIALOGUE>
     </DIALOGUE2>
     <SEARCH>
-        <TEXT>Suspect description:~n~</TEXT>
-        <TEXT>~r~Name:~s~ {Name}~n~</TEXT>
-        <TEXT>~r~Age:~s~ {Age}~n~</TEXT>
-        <TEXT>~r~Gender:~s~ {Gender}</TEXT>
-        <TEXT>Press ~{Y}~ anytime to view the info again.</TEXT>
-        <TEXT>Talk to the Prison Guard with ~{Y}~</TEXT>
+        <TEXT>Приметы подозреваемого:~n~</TEXT>
+        <TEXT>~r~Имя:~s~ {Name}~n~</TEXT>
+        <TEXT>~r~Возраст:~s~ {Age}~n~</TEXT>
+        <TEXT>~r~Пол:~s~ {Gender}</TEXT>
+        <TEXT>Нажмите ~{Y}~ чтобы повторно просмотреть информацию.</TEXT>
+        <TEXT>Поговорите с охранником, нажав ~{Y}~</TEXT>
     </SEARCH>
     <ATTEMPTEDROBBERY>
-        <TEXT>We received a report of a Mugging nearby! Respond Code 3!</TEXT>
-        <TEXT>"~g~Victim:~s~ Officer, the robber just fled! He’s wearing an orange overall!!"</TEXT>
-        <TEXT>"~g~Victim:~s~ Help! That guy just escaped custody! He’s in an orange jumpsuit!"</TEXT>
-        <TEXT>"~g~Victim:~s~ Officer! I saw him running—orange prison uniform, heading that way!"</TEXT>
+        <TEXT>Поступил сигнал о грабеже поблизости! Реагируйте по Коду 3!</TEXT>
+        <TEXT>"~g~Пострадавший:~s~ Офицер, грабитель только что скрылся! На нём оранжевый комбинезон!!"</TEXT>
+        <TEXT>"~g~Пострадавший:~s~ Помогите! Этот парень сбежал из-под стражи! На нём тюремная роба!"</TEXT>
+        <TEXT>"~g~Пострадавший:~s~ Офицер! Я видел, как он бежал — оранжевая форма, вон в том направлении!"</TEXT>
     </ATTEMPTEDROBBERY>
-    <AUTOSTEHLEN>A carcacking report came in! Respond Code 3!</AUTOSTEHLEN>
+    <AUTOSTEHLEN>Поступил сигнал об угоне автомобиля! Реагируйте по Коду 3!</AUTOSTEHLEN>
     <END> <!--Leave the space at the end of each element-->
-        <TEXT>Suspect was put behind bars! </TEXT>
-        <TEXT>The Suspect died. </TEXT>
-        <TEXT>~g~Go back to patrol.</TEXT>
+        <TEXT>Подозреваемый за решёткой! </TEXT>
+        <TEXT>Подозреваемый убит. </TEXT>
+        <TEXT>~g~Возвращайтесь к патрулированию. </TEXT>
     </END>
     <ACTION>
-        <DIALOGUE>~r~Suspect:~s~ Don't shoot! I surrender!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ Try to catch me, motherfuckers!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ You wanna fight?! Let's go!!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ Shoot me you idiots!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ I will kill all of you pigs!</DIALOGUE>
+        <DIALOGUE>~r~Подозреваемый:~s~ Не стреляйте! Я сдаюсь!</DIALOGUE>
+        <DIALOGUE>~r~Подозреваемый:~s~ Попробуйте меня поймать, ублюдки!</DIALOGUE>
+        <DIALOGUE>~r~Подозреваемый:~s~ Хотите драки?! Давайте!!</DIALOGUE>
+        <DIALOGUE>~r~Подозреваемый:~s~ Стреляйте, идиоты!</DIALOGUE>
+        <DIALOGUE>~r~Подозреваемый:~s~ Я перебью всех вас, мусора!</DIALOGUE>
     </ACTION>
 </CALLOUT>

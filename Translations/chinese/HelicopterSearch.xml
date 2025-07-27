@@ -1,27 +1,27 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Helicopter Search for a Stolen Vehicle</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>Jump in the shoes of a pilot!</CALLOUTADVISORY>
-    <TASK>A stolen vehicle has been spotted in the area by a CCTV camera. Meet the officer at the meeting point.</TASK>
+    <CALLOUTMESSAGE>直升机搜寻被盗车辆</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>扮演一名飞行员!</CALLOUTADVISORY>
+    <TASK>监控发现附近有一辆被盗车辆。请前往该地点与警官会面.</TASK>
     <COP>
-        <DIALOGUE>~b~Officer:~s~ Hello, Pilot! Glad to have you with us.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ We're looking for a stolen vehicle that was last seen in this area.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ We do have information on the vehicle’s model and color, but there are several possible matches.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ Please circle the area where the vehicle was last spotted and scan nearby vehicles using the helicopter scanner.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ Good luck!</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 你好, 很高兴你能加入我们.</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 我们正在寻找最后一次出现在该地区的被盗车辆.</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 我们确实有关于车辆型号和颜色的信息，但有几种可能的匹配.</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 请在最后发现该车辆的区域，使用直升机扫描仪扫描附近的车辆.</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 祝你好运!</DIALOGUE>
     </COP>
     <VEHICLEINFO>
-        <TEXT>Wanted vehicle:~n~</TEXT>
-        <TEXT>~b~Model:~s~ {Model}~n~</TEXT>
-        <TEXT>~b~Color:~s~ {Color}~n~</TEXT>
-        <TEXT>~b~Last seen in~s~ {Zone}</TEXT>
+        <TEXT>通缉车辆:~n~</TEXT>
+        <TEXT>~b~型号:~s~ {Model}~n~</TEXT>
+        <TEXT>~b~颜色:~s~ {Color}~n~</TEXT>
+        <TEXT>~b~最后出现在~s~ {Zone}</TEXT>
     </VEHICLEINFO>
     <SEARCH>
-        <TEXT>~r~The suspect has been scanned and found! Follow him until he comes to a stop or ~o~perform a traffic stop!</TEXT>
-        <TEXT>That's not the car we're searching for.</TEXT>
-        <TEXT>The suspect has parked, now apprehend him!</TEXT>
+        <TEXT>~r~嫌疑人已被找到！跟踪他直到他停下来,或者~o~进行交通拦截!</TEXT>
+        <TEXT>那不是我们要找的车.</TEXT>
+        <TEXT>犯罪嫌疑人已停车，立即逮捕他!</TEXT>
     </SEARCH>
     <ACTION>
-        <TEXT>The suspect is ignoring your commands.</TEXT>
-        <TEXT>The suspect is surrendering.</TEXT>
+        <TEXT>嫌疑人无视你的命令.</TEXT>
+        <TEXT>嫌疑人正在投降.</TEXT>
     </ACTION>
 </CALLOUT>

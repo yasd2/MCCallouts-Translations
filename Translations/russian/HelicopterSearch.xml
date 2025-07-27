@@ -1,27 +1,27 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Helicopter Search for a Stolen Vehicle</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>Jump in the shoes of a pilot!</CALLOUTADVISORY>
-    <TASK>A stolen vehicle has been spotted in the area by a CCTV camera. Meet the officer at the meeting point.</TASK>
+    <CALLOUTMESSAGE>Поиск угнанного автомобиля с помощию вертолёта</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Попробуйте себя в роли пилота!</CALLOUTADVISORY>
+    <TASK>Камеры наблюдения зафиксировали угнанный автомобиль в этом районе. Встретьтесь с офицером в указанной точке.</TASK>
     <COP>
-        <DIALOGUE>~b~Officer:~s~ Hello, Pilot! Glad to have you with us.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ We're looking for a stolen vehicle that was last seen in this area.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ We do have information on the vehicle’s model and color, but there are several possible matches.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ Please circle the area where the vehicle was last spotted and scan nearby vehicles using the helicopter scanner.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ Good luck!</DIALOGUE>
+        <DIALOGUE>~b~Офицер:~s~ Здравствуйте, пилот! Рады видеть вас с нами.</DIALOGUE>
+        <DIALOGUE>~b~Офицер:~s~ Мы разыскиваем угнанный автомобиль, последний раз замеченный в этом районе.</DIALOGUE>
+        <DIALOGUE>~b~Офицер:~s~ У нас есть данные о модели и цвете машины, но есть несколько возможных совпадений.</DIALOGUE>
+        <DIALOGUE>~b~Офицер:~s~ Облетите район, где был замечен автомобиль, и просканируйте nearby транспортные средства с помощью вертолётного сканера.</DIALOGUE>
+        <DIALOGUE>~b~Офицер:~s~ Удачи!</DIALOGUE>
     </COP>
     <VEHICLEINFO>
-        <TEXT>Wanted vehicle:~n~</TEXT>
-        <TEXT>~b~Model:~s~ {Model}~n~</TEXT>
-        <TEXT>~b~Color:~s~ {Color}~n~</TEXT>
-        <TEXT>~b~Last seen in~s~ {Zone}</TEXT>
+        <TEXT>Разыскиваемый автомобиль:~n~</TEXT>
+        <TEXT>~b~Модель:~s~ {Model}~n~</TEXT>
+        <TEXT>~b~Цвет:~s~ {Color}~n~</TEXT>
+        <TEXT>~b~Последнее место:~s~ {Zone}</TEXT>
     </VEHICLEINFO>
     <SEARCH>
-        <TEXT>~r~The suspect has been scanned and found! Follow him until he comes to a stop or ~o~perform a traffic stop!</TEXT>
-        <TEXT>That's not the car we're searching for.</TEXT>
-        <TEXT>The suspect has parked, now apprehend him!</TEXT>
+        <TEXT>~r~Подозреваемый обнаружен при сканировании! Проследуйте за ним до остановки или ~o~проведите принудительную остановку!</TEXT>
+        <TEXT>Это не тот автомобиль, который мы ищем.</TEXT>
+        <TEXT>Подозреваемый остановился - задержите его!</TEXT>
     </SEARCH>
     <ACTION>
-        <TEXT>The suspect is ignoring your commands.</TEXT>
-        <TEXT>The suspect is surrendering.</TEXT>
+        <TEXT>Подозреваемый игнорирует ваши команды.</TEXT>
+        <TEXT>Подозреваемый сдаётся.</TEXT>
     </ACTION>
 </CALLOUT>

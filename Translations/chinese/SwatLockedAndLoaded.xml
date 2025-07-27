@@ -1,20 +1,20 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>~b~~h~[SWAT]~h~ Locked and Loaded</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>A swat team is required for clearing a building!</CALLOUTADVISORY>
+    <CALLOUTMESSAGE>~b~~h~[SWAT]~h~ 枪林弹雨</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>需要特警队清除建筑物内部威胁!</CALLOUTADVISORY>
     <TASKS>
-        <TEXT>Drive to the ~o~location.</TEXT>
-        <TEXT>Enter and clear the building, ~r~multiple armed suspects have barricated themselves. ~b~Having backup partners could help!</TEXT>
-        <TEXT>Press ~{J}~ to go in/ out</TEXT>
+        <TEXT>开车前往 ~o~地点.</TEXT>
+        <TEXT>进入并清除建筑物内部, ~r~多名武装嫌疑人用路障封锁了这里. ~b~拥有支援伙伴可能会有所帮助!</TEXT>
+        <TEXT>按 ~{J}~ 进入/退出</TEXT>
     </TASKS>
     <SUCCESS>
-        <TEXT>~g~All threats neutralized!</TEXT>
-        <TEXT>Press ~{End}~ to end the callout.</TEXT>
+        <TEXT>~g~所有威胁均已消除!</TEXT>
+        <TEXT>按 ~{End}~ 结束呼叫.</TEXT>
     </SUCCESS>
     <STATS>
-        <TEXT>Neutralized:</TEXT>
-        <TEXT>Arrested:</TEXT>
-        <TEXT>~g~Mission accomplished~n~</TEXT>
-        <TEXT>~r~Mission failed~n~</TEXT>
-        <TEXT>Threats left:</TEXT>
+        <TEXT>已清除:</TEXT>
+        <TEXT>逮捕:</TEXT>
+        <TEXT>~g~任务完成~n~</TEXT>
+        <TEXT>~r~任务失败~n~</TEXT>
+        <TEXT>剩余威胁:</TEXT>
     </STATS>
 </CALLOUT>
