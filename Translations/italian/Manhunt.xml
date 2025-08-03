@@ -1,25 +1,25 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>~b~Manhunt</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>A wanted fugitive was last seen in {ZoneName}</CALLOUTADVISORY>
-    <TASK>Drive to the perimeter. Officers have sealed off the area.</TASK>
+    <CALLOUTMESSAGE>~b~Caccia all’Uomo</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Un fuggitivo ricercato è stato visto l’ultima volta in {ZoneName}</CALLOUTADVISORY>
+    <TASK>Recati al perimetro. Gli agenti hanno isolato la zona.</TASK>
     <WARRANTS>
-        <TEXT>Homicide</TEXT>
-        <TEXT>Assault</TEXT>
-        <TEXT>Missed Courtdate</TEXT>
-        <TEXT>Reckless Driving</TEXT>
+        <TEXT>Omicidio</TEXT>
+        <TEXT>Aggressione</TEXT>
+        <TEXT>Udienza Mancata</TEXT>
+        <TEXT>Guida Pericolosa</TEXT>
     </WARRANTS>
     <BACKUP>
-        <TEXT>~b~Press ~y~{Y}~b~ within the next 10 seconds to request backup. They will help searching.</TEXT>
-        <TEXT>~b~Backup is on the way and will help searching for the suspect.</TEXT>
-        <TEXT>Acknowledged. Backup will not be dispatched.</TEXT>
+        <TEXT>~b~Premi ~y~{Y}~b~ entro 10 secondi per richiedere rinforzi. Aiuteranno nella ricerca.</TEXT>
+        <TEXT>~b~I rinforzi sono in arrivo e aiuteranno a cercare il sospetto.</TEXT>
+        <TEXT>Ricevuto. Nessun rinforzo sarà inviato.</TEXT>
     </BACKUP>
     <SEARCH>
-        <TEXT>We are searching for ~r~{Name}~s~, wanted for ~r~{Warrant}.</TEXT> 
-        <TEXT>Need help? Press ~{9}~ to locate the ~r~suspect!</TEXT>
-        <TEXT>The ~r~suspect~s~ has been found! Arrest him!</TEXT>
+        <TEXT>Stiamo cercando ~r~{Name}~s~, ricercato per ~r~{Warrant}.</TEXT> 
+        <TEXT>Hai bisogno di aiuto? Premi ~{9}~ per localizzare il ~r~sospetto!</TEXT>
+        <TEXT>Il ~r~sospetto~s~ è stato trovato! Arrestalo!</TEXT>
     </SEARCH>
     <END>
-        <TEXT>{CalloutMessage} has ended.~n~</TEXT>
-        <TEXT>~g~The suspect ~r~{Name}~g~ has been arrested.~n~</TEXT>
+        <TEXT>{CalloutMessage} è terminata.~n~</TEXT>
+        <TEXT>~g~Il sospetto ~r~{Name}~g~ è stato arrestato.~n~</TEXT>
     </END>
 </CALLOUT>

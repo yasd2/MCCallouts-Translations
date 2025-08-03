@@ -1,25 +1,25 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>~b~Manhunt</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>A wanted fugitive was last seen in {ZoneName}</CALLOUTADVISORY>
-    <TASK>Drive to the perimeter. Officers have sealed off the area.</TASK>
+    <CALLOUTMESSAGE>~b~Pátrání po hledané osobe</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Hledaný uprchlík byl naposledy viden v {ZoneName}</CALLOUTADVISORY>
+    <TASK>Jedte k perimetru. Policisté oblast uzavreli.</TASK>
     <WARRANTS>
-        <TEXT>Homicide</TEXT>
-        <TEXT>Assault</TEXT>
-        <TEXT>Missed Courtdate</TEXT>
-        <TEXT>Reckless Driving</TEXT>
+        <TEXT>Vrazdu</TEXT>
+        <TEXT>Násilný útok</TEXT>
+        <TEXT>Zmeskaný soudní termín</TEXT>
+        <TEXT>Bezohledné rízení</TEXT>
     </WARRANTS>
     <BACKUP>
-        <TEXT>~b~Press ~y~{Y}~b~ within the next 10 seconds to request backup. They will help searching.</TEXT>
-        <TEXT>~b~Backup is on the way and will help searching for the suspect.</TEXT>
-        <TEXT>Acknowledged. Backup will not be dispatched.</TEXT>
+        <TEXT>~b~Zmácknete ~y~{Y}~b~ do 10 sekund, abyste pozádali o pomoc. Pomohou vám kolegové s hledáním.</TEXT>
+        <TEXT>~b~Posily jsou na ceste a pomohou s pátráním po podezrelém.</TEXT>
+        <TEXT>Rozumím. Posila nebude poslána na místo.</TEXT>
     </BACKUP>
     <SEARCH>
-        <TEXT>We are searching for ~r~{Name}~s~, wanted for ~r~{Warrant}.</TEXT> 
-        <TEXT>Need help? Press ~{9}~ to locate the ~r~suspect!</TEXT>
-        <TEXT>The ~r~suspect~s~ has been found! Arrest him!</TEXT>
+        <TEXT>Hledáme ~r~{Name}~s~, hledané pro ~r~{Warrant}.</TEXT> 
+        <TEXT>Potrebujete pomoc? Stisknete ~{9}~ a najdete ~r~podezrelého!</TEXT>
+        <TEXT>~r~Podezrelý~s~ byl nalezen! Zatknete ho!</TEXT>
     </SEARCH>
     <END>
-        <TEXT>{CalloutMessage} has ended.~n~</TEXT>
-        <TEXT>~g~The suspect ~r~{Name}~g~ has been arrested.~n~</TEXT>
+        <TEXT>{CalloutMessage} pod kodem ctyri.~n~</TEXT>
+        <TEXT>~g~Podezrelý  ~r~{Name}~g~ byl zatcen.~n~</TEXT>
     </END>
 </CALLOUT>

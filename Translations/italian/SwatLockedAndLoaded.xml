@@ -1,20 +1,20 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>~b~~h~[SWAT]~h~ Locked and Loaded</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>A swat team is required for clearing a building!</CALLOUTADVISORY>
+    <CALLOUTMESSAGE>~b~~h~[SWAT]~h~ Pronti all’Azione</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>È richiesta una squadra SWAT per liberare un edificio!</CALLOUTADVISORY>
     <TASKS>
-        <TEXT>Drive to the ~o~location.</TEXT>
-        <TEXT>Enter and clear the building, ~r~multiple armed suspects have barricated themselves. ~b~Having backup partners could help!</TEXT>
-        <TEXT>Press ~{J}~ to go in/ out</TEXT>
+        <TEXT>Raggiungi la ~o~posizione.</TEXT>
+        <TEXT>Entra e libera l’edificio, ~r~più sospetti armati si sono barricati. ~b~Avere compagni di supporto può aiutare!</TEXT>
+        <TEXT>Premi ~{J}~ per entrare/uscire</TEXT>
     </TASKS>
     <SUCCESS>
-        <TEXT>~g~All threats neutralized!</TEXT>
-        <TEXT>Press ~{End}~ to end the callout.</TEXT>
+        <TEXT>~g~Minacce neutralizzate!</TEXT>
+        <TEXT>Premi ~{End}~ per terminare la chiamata.</TEXT>
     </SUCCESS>
     <STATS>
-        <TEXT>Neutralized:</TEXT>
-        <TEXT>Arrested:</TEXT>
-        <TEXT>~g~Mission accomplished~n~</TEXT>
-        <TEXT>~r~Mission failed~n~</TEXT>
-        <TEXT>Threats left:</TEXT>
+        <TEXT>Neutralizzati:</TEXT>
+        <TEXT>Arrestati:</TEXT>
+        <TEXT>~g~Missione compiuta~n~</TEXT>
+        <TEXT>~r~Missione fallita~n~</TEXT>
+        <TEXT>Minacce rimaste:</TEXT>
     </STATS>
 </CALLOUT>

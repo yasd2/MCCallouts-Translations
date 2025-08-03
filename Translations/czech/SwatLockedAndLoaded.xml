@@ -1,20 +1,20 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>~b~~h~[SWAT]~h~ Locked and Loaded</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>A swat team is required for clearing a building!</CALLOUTADVISORY>
+    <CALLOUTMESSAGE>~b~~h~[SWAT]~h~ Zabezpeceno a pripraveno</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>K vyklizení budovy je zapotrebí zavolat SWAT jednotku!</CALLOUTADVISORY>
     <TASKS>
-        <TEXT>Drive to the ~o~location.</TEXT>
-        <TEXT>Enter and clear the building, ~r~multiple armed suspects have barricated themselves. ~b~Having backup partners could help!</TEXT>
-        <TEXT>Press ~{J}~ to go in/ out</TEXT>
+        <TEXT>Jedte na místo urcení~o~.</TEXT>
+        <TEXT>Vstupte do budovy a vycistete ji, ~r~nekolik ozbrojených podezrelých se tam zabarikádovalo. ~b~Pomoc kolegu by se mohla hodit!</TEXT>
+        <TEXT>Stisknete ~{J}~ pro vstup/výstup.</TEXT>
     </TASKS>
     <SUCCESS>
-        <TEXT>~g~All threats neutralized!</TEXT>
-        <TEXT>Press ~{End}~ to end the callout.</TEXT>
+        <TEXT>~g~Vsichni podezrelí byli zneskodneni!</TEXT>
+        <TEXT>Zmácknutím ~{End}~ pro ukoncení mise.</TEXT>
     </SUCCESS>
     <STATS>
-        <TEXT>Neutralized:</TEXT>
-        <TEXT>Arrested:</TEXT>
-        <TEXT>~g~Mission accomplished~n~</TEXT>
-        <TEXT>~r~Mission failed~n~</TEXT>
-        <TEXT>Threats left:</TEXT>
+        <TEXT>Zneskodnen:</TEXT>
+        <TEXT>Zatcen:</TEXT>
+        <TEXT>~g~Mise splnena~n~</TEXT>
+        <TEXT>~r~Mise se nezdarila~n~</TEXT>
+        <TEXT>Zbývajících podezrelých:</TEXT>
     </STATS>
 </CALLOUT>

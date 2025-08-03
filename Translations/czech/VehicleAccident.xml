@@ -1,30 +1,30 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Vehicle Accident</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>~r~Respond Code 3</CALLOUTADVISORY>
-    <TASK>Drive to the ~r~accident scene.~s~ Make sure to manage traffic and that the driver is ok.</TASK>
+    <CALLOUTMESSAGE>Dopravní nehoda</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>~r~Reagujte pod kodem tri</CALLOUTADVISORY>
+    <TASK>Jedte na místo ~r~nehody.~s~ Zajistete rízení dopravy a ujistete se, ze ridic je v porádku.</TASK>
     <SCENARIOS>
         <DRIVERINJURED>
-            <TEXT>Press ~{Y}~ to talk.</TEXT>
-            <DIALOGUE>~y~You:~s~ Hello? What do you need?</DIALOGUE>
-            <DIALOGUE>~p~Driver:~s~ I... am... hurt.. I need an... ambulance. Help.</DIALOGUE>
-            <TEXT>Call an ambulance for the injured person.</TEXT>
+            <TEXT>Stisknete ~{Y}~, abyste mohli mluvit.</TEXT>
+            <DIALOGUE>~y~Ty:~s~ Haló? Co potrebujete?</DIALOGUE>
+            <DIALOGUE>~p~Ridic:~s~ Bolí me to... Potrebuji... sanitku. Pomoc.</DIALOGUE>
+            <TEXT>Zavolejte pro zranenou osobu sanitku.</TEXT>
         </DRIVERINJURED>
         <DRIVEROKBUTDRUNK>
-            <DIALOGUE>~y~You:~s~ Can you tell me what happened?</DIALOGUE>
-            <DIALOGUE>~o~Driver:~s~ I don't really remember. *hicks*</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Where are you coming from?</DIALOGUE>
-            <DIALOGUE>~o~Driver:~s~ From a friends party. I can do sobriety tests, I'm clean as hell.</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Muzete mi ríct, co se stalo?</DIALOGUE>
+            <DIALOGUE>~o~Ridic:~s~ Vlastne si nevzpomínám. *je otresený*</DIALOGUE>
+            <DIALOGUE>~y~Ty:~s~ Odkud prijízdíte?</DIALOGUE>
+            <DIALOGUE>~o~Ridic:~s~ Z vecírku u prátel. Umím delat testy strízlivosti, jsem naprosto cistý.</DIALOGUE>
         </DRIVEROKBUTDRUNK>
         <DRIVERSHOTWEAPONNEARBY> 
-            <TEXT>Press ~{Y}~ to pick up the weapon.</TEXT>
-            <TEXT>Press ~y~{Y}~s~ to request a serial number check from Dispatch.</TEXT>
+            <TEXT>Stisknete ~{Y}~ pro zvednutí zbrane.</TEXT>
+            <TEXT>Stisknete ~y~{Y}~s~, abyste pozádali dispecink o kontrolu sériového císla.</TEXT>
             <SERIALNUMBER>
-                <DIALOGUE>~y~You:~s~ Dispatch, can I get a serial number check for a pistol, it's ~r~{serialnumber}~s~?</DIALOGUE>
-                <DIALOGUE>10-4, checking.</DIALOGUE>
-                <DIALOGUE>Weapon: Pistol</DIALOGUE>
-                <DIALOGUE>~b~Owner: {DriversName}</DIALOGUE>
-                <DIALOGUE>~r~Caution: Owner wanted</DIALOGUE>
-                <DIALOGUE>Attention: We've got a call about a suspicious person nearby, please respond ~r~Code 3.</DIALOGUE>
+                <DIALOGUE>~y~Ty:~s~ Dispecink, muzete mi overit sériové císlo pistole, je to ~r~{serialnumber}~s~?</DIALOGUE>
+                <DIALOGUE>10-4, pockejte.</DIALOGUE>
+                <DIALOGUE>Zbran: Pistole</DIALOGUE>
+                <DIALOGUE>~b~Majitel: {DriversName}</DIALOGUE>
+                <DIALOGUE>~r~Upozornení: Hledá se majitel</DIALOGUE>
+                <DIALOGUE>Pozor: Máme hlásení o podezrelé osobe v okolí, reagujte prosím  ~r~pod kodem tri..</DIALOGUE>
             </SERIALNUMBER>
         </DRIVERSHOTWEAPONNEARBY>
     </SCENARIOS>

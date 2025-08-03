@@ -1,67 +1,67 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Escaped Prisoner</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>A prison bus crashed at {Zone}, an inmate escaped</CALLOUTADVISORY>
-    <TASK>A prisoner escaped recently. Drive to the last reported area.</TASK>
+    <CALLOUTMESSAGE>Uprchlý vezen</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>V {Zone} havaroval vezenský autobus, jeden vezen uprchl.</CALLOUTADVISORY>
+    <TASK>Nedávno uprchl vezen. Jedte do oblasti, kde byl naposledy spatren.</TASK>
     <DIALOGUE0>
-        <DIALOGUE>~y~You:~s~ Hello sir, what happened here?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Hi! I was attacked! The prisoner—he just snapped!</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ He assaulted me while I was watching the traffic. I flipped the bus accidentally, then he jumped out of the bus.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ He’s on foot now, ran off into the woods wearing his orange jumpsuit!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Do you have any idea where he might be headed?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Last I saw, he was headed north, past that ridge over there.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ He might try to steal a car, or hide somewhere.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Be careful—he’s dangerous and desperate!</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Oh my god, he took my gun, too! I can't find it!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Alright. I’ll find him.</DIALOGUE>
+        <DIALOGUE>~y~Ty:~s~ Dobrý den, pane, co se tady stalo?</DIALOGUE>
+        <DIALOGUE>~o~Vezenský dozorce:~s~ Ahoj! Byl jsem napaden! Ten vezen – proste se zbláznil!</DIALOGUE>
+        <DIALOGUE>~o~Vezenský dozorce:~s~ Napadl me, kdyz jsem sledoval provoz. Nechtene jsem prevrátil autobus a on z nej vyskocil.</DIALOGUE>
+        <DIALOGUE>~o~Vezenský dozorce:~s~ Ted je na úteku, utekl do lesa v oranzové kombinéze!</DIALOGUE>
+        <DIALOGUE>~y~Ty:~s~ Máte tusení, kam by mohl smerovat?</DIALOGUE>
+        <DIALOGUE>~o~Vezenský dozorce:~s~ Naposledy jsem ho videl, jak míril na sever, za tím hrebenem tamhle.</DIALOGUE>
+        <DIALOGUE>~o~Vezenský dozorce:~s~ Mohl by se pokusit ukrást auto nebo se nekde schovat.</DIALOGUE>
+        <DIALOGUE>~o~Vezenský dozorce:~s~ Budte opatrní – je nebezpecný a zoufalý!</DIALOGUE>
+        <DIALOGUE>~o~Vezenský dozorce:~s~ Proboha, vzal mi taky zbran! Nemuzu ji najít!</DIALOGUE>
+        <DIALOGUE>~y~Ty:~s~ Dobre. Najdu ho.</DIALOGUE>
     </DIALOGUE0>
     <DIALOGUE1>
-        <DIALOGUE>~y~You:~s~ Sir, are you alright? What’s going on here?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ That inmate lost it! He attacked me out of nowhere!</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ I was checking directions on my tablet, and he took the chance to overpower me. The bus rolled when I tried to stop him.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ He bolted as soon as we crashed—ran straight into the woods in full orange.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Which way did he go?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Northbound, over that hill. He was fast, too!</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ If he finds a car or a hiding spot, we might lose him.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Watch out, officer—he's not thinking straight.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Damn it, I just realized… he took my service weapon!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Got it. I’m going after him now.</DIALOGUE>
+        <DIALOGUE>~y~Ty:~s~ Sir, Jsi v porádku? Co se tady deje?</DIALOGUE>
+        <DIALOGUE>~o~Vezenský dozorce:~s~ Ten vezen se zbláznil! Z niceho nic me napadl!</DIALOGUE>
+        <DIALOGUE>~o~Vezenský dozorce:~s~ Zkousel jsem si na tabletu najít cestu a on toho vyuzil, aby me premohl. Kdyz jsem se ho snazil zastavit, autobus se rozjel.</DIALOGUE>
+        <DIALOGUE>~o~Vezenský dozorce:~s~ Jakmile jsme havarovali, vyrazil jako blesk – v plné oranzové barve zamíril prímo do lesa.</DIALOGUE>
+        <DIALOGUE>~y~Ty:~s~ Kudy sel?</DIALOGUE>
+        <DIALOGUE>~o~Vezenský dozorce:~s~ Na sever, pres ten kopec. Byl taky rychlý!</DIALOGUE>
+        <DIALOGUE>~o~Vezenský dozorce:~s~ Pokud najde auto nebo úkryt, muzeme ho ztratit.</DIALOGUE>
+        <DIALOGUE>~o~Vezenský dozorce:~s~ Pozor, strázníku, on není pri smyslech.</DIALOGUE>
+        <DIALOGUE>~o~Vezenský dozorce:~s~ Sakra, práve jsem si uvedomil... vzal mi sluzební zbran!</DIALOGUE>
+        <DIALOGUE>~y~Ty:~s~ Rozumím. Jdu za ním.</DIALOGUE>
     </DIALOGUE1>
     <DIALOGUE2>
-        <DIALOGUE>~y~You:~s~ What happened? Are you injured?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ No serious injuries, but it was close. The inmate flipped—he ambushed me!</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ I lost control of the transport vehicle during the struggle. He forced the door open and made a run for it.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Last I saw him, he was heading for the tree line. Still in the jumpsuit.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Any clue where he might be going?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Could be trying to reach the main road or find a hiding place nearby.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ He’s unpredictable, and probably armed now.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Damn… my firearm’s missing. He must’ve grabbed it in the chaos!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Understood. I’ll track him down.</DIALOGUE>
+        <DIALOGUE>~y~Ty:~s~ Co se stalo? Jsi zranený?</DIALOGUE>
+        <DIALOGUE>~o~Vezenský dozorce:~s~ Zádná vázná zranení, ale bylo to o chlup. Vezen se vzbouril – prepadl me!</DIALOGUE>
+        <DIALOGUE>~o~Vezenský dozorce:~s~ Behem zápasu jsem ztratil kontrolu nad transportním vozidlem. Vypácil dvere a utekl.</DIALOGUE>
+        <DIALOGUE>~o~Vezenský dozorce:~s~ Kdyz jsem ho videl naposledy, míril k lesu. Stále v kombinéze.</DIALOGUE>
+        <DIALOGUE>~y~Ty:~s~ Más tusení, kam by mohl jít?</DIALOGUE>
+        <DIALOGUE>~o~Vezenský dozorce:~s~ Mozná se snazí dostat na hlavní silnici nebo najít úkryt v okolí.</DIALOGUE>
+        <DIALOGUE>~o~Vezenský dozorce:~s~ Je nepredvídatelný a pravdepodobne nyní ozbrojený.</DIALOGUE>
+        <DIALOGUE>~o~Vezenský dozorce:~s~ Sakra... moje zbran je pryc. Musel ji vzít v tom zmatku!</DIALOGUE>
+        <DIALOGUE>~y~Ty:~s~ Rozumím. Najdu ho.</DIALOGUE>
     </DIALOGUE2>
     <SEARCH>
-        <TEXT>Suspect description:~n~</TEXT>
-        <TEXT>~r~Name:~s~ {Name}~n~</TEXT>
-        <TEXT>~r~Age:~s~ {Age}~n~</TEXT>
-        <TEXT>~r~Gender:~s~ {Gender}</TEXT>
-        <TEXT>Press ~{Y}~ anytime to view the info again.</TEXT>
-        <TEXT>Talk to the Prison Guard with ~{Y}~</TEXT>
+        <TEXT>Popis podezrelého:~n~</TEXT>
+        <TEXT>~r~Jméno:~s~ {Name}~n~</TEXT>
+        <TEXT>~r~Vek:~s~ {Age}~n~</TEXT>
+        <TEXT>~r~Pohlaví:~s~ {Gender}</TEXT>
+        <TEXT>Kdykoli stisknete ~{Y}~, abyste si informace znovu zobrazili.</TEXT>
+        <TEXT>Promluvte si s vezenským strázcem pres ~{Y}~</TEXT>
     </SEARCH>
     <ATTEMPTEDROBBERY>
-        <TEXT>We received a report of a Mugging nearby! Respond Code 3!</TEXT>
-        <TEXT>"~g~Victim:~s~ Officer, the robber just fled! He’s wearing an orange overall!!"</TEXT>
-        <TEXT>"~g~Victim:~s~ Help! That guy just escaped custody! He’s in an orange jumpsuit!"</TEXT>
-        <TEXT>"~g~Victim:~s~ Officer! I saw him running—orange prison uniform, heading that way!"</TEXT>
+        <TEXT>Dostali jsme hlásení o prepadení v blízkosti! Reagujte kódem 3!</TEXT>
+        <TEXT>"~g~Obet:~s~ Pane policisto, ten lupic práve utekl! Má na sobe oranzovou kombinézu!!"</TEXT>
+        <TEXT>"~g~Obet:~s~ Pomoc! Ten chlap práve utekl z vazby! Má na sobe oranzovou kombinézu!"</TEXT>
+        <TEXT>"~g~Obet:~s~ Strázníku! Videl jsem ho utíkat – mel na sobe oranzovou vezenskou uniformu a bezel tím smerem!"</TEXT>
     </ATTEMPTEDROBBERY>
-    <AUTOSTEHLEN>A carcacking report came in! Respond Code 3!</AUTOSTEHLEN>
+    <AUTOSTEHLEN>Prisla hláska o vrazde! Reagujte kódem 3!</AUTOSTEHLEN>
     <END> <!--Leave the space at the end of each element-->
-        <TEXT>Suspect was put behind bars! </TEXT>
-        <TEXT>The Suspect died. </TEXT>
-        <TEXT>~g~Go back to patrol.</TEXT>
+        <TEXT>Podezrelý byl zadrzen! </TEXT>
+        <TEXT>Podezrelý zemrel. </TEXT>
+        <TEXT>~g~Vratte se na hlídku. </TEXT>
     </END>
     <ACTION>
-        <DIALOGUE>~r~Suspect:~s~ Don't shoot! I surrender!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ Try to catch me, motherfuckers!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ You wanna fight?! Let's go!!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ Shoot me you idiots!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ I will kill all of you pigs!</DIALOGUE>
+        <DIALOGUE>~r~Podezrelý:~s~ Nestrílejte! Vzdávám se!</DIALOGUE>
+        <DIALOGUE>~r~Podezrelý:~s~ Zkuste me chytit, vy zmrdi!</DIALOGUE>
+        <DIALOGUE>~r~Podezrelý:~s~ Chces se prát?! Jdeme na to!!</DIALOGUE>
+        <DIALOGUE>~r~Podezrelý:~s~ Zastrelte me, vy idioti!</DIALOGUE>
+        <DIALOGUE>~r~Podezrelý:~s~ Vsechny vás zabiju, vy svine!</DIALOGUE>
     </ACTION>
 </CALLOUT>

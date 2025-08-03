@@ -1,86 +1,92 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Package Theft</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>Officer for Area Surveillance required</CALLOUTADVISORY>
-    <TASK>There have been several package thefts reported in {ZoneName}. Drive to the area and stay alert.</TASK>
+ <CALLOUTMESSAGE>Furto di Pacchi</CALLOUTMESSAGE>
+<CALLOUTADVISORY>Richiesto agente per sorveglianza dell’area</CALLOUTADVISORY>
+<TASK>Ci sono stati diversi furti di pacchi segnalati in {ZoneName}. Recati nell’area e resta vigile.</TASK>
+
     <D_FriendlyPostman>
-        <DIALOGUE>~y~You~s~: Good afternoon, sir. Mind if I have a word with you real quick?</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Sure thing, officer. Is there a problem?</DIALOGUE>
-        <DIALOGUE>~y~You~s~: Not exactly. We’ve had a few incidents in this neighborhood involving stolen packages. I just saw you drop one off and wanted to check everything's in order.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Ah, yeah. I totally get that. I've actually heard some neighbors mention weird stuff going on.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: Can I ask what delivery company you’re working for and what address that package was meant for?</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: I'm with GoPostal. The package was for number 123 Grove Street – just a small box. I even left it at the porch and took a photo.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: Alright, sounds good. Just doing our due diligence. Thanks for being so cooperative.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: No problem at all. Better safe than sorry.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: You're good to go. Drive safe.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Will do. Appreciate you checking in, officer. Stay safe out there.</DIALOGUE>
+        <DIALOGUE>~y~Tu~s~: Buon pomeriggio, signore. Posso parlarle un attimo?</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Certamente, agente. C’è qualche problema?</DIALOGUE>
+<DIALOGUE>~y~Tu~s~: Non proprio. Ci sono stati alcuni episodi in questo quartiere legati a furti di pacchi. Ho appena visto che ne ha lasciato uno e volevo assicurarmi che fosse tutto in ordine.</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Ah, sì. Capisco perfettamente. Ho sentito anch’io dei vicini parlare di cose strane.</DIALOGUE>
+<DIALOGUE>~y~Tu~s~: Posso chiederle per quale azienda di consegna lavora e a quale indirizzo era destinato quel pacco?</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Lavoro per GoPostal. Il pacco era per il numero 123 di Grove Street – solo una piccola scatola. L’ho lasciato sul portico e ho anche scattato una foto.</DIALOGUE>
+<DIALOGUE>~y~Tu~s~: Perfetto, tutto chiaro. Solo un controllo di routine. Grazie per la collaborazione.</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Nessun problema. Meglio prevenire che curare.</DIALOGUE>
+<DIALOGUE>~y~Tu~s~: Può andare. Guida con prudenza.</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Lo farò. Grazie per aver controllato, agente. Stia attento là fuori.</DIALOGUE>
+
     </D_FriendlyPostman>
     <D_AnnoyedPostman>
-        <DIALOGUE>~y~You~s~: Hi there. I need a moment of your time, if that’s okay.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: I mean… yeah, I guess. What’s this about?</DIALOGUE>
-        <DIALOGUE>~y~You~s~: We’ve had a few reports of fake delivery drivers stealing packages in this area. Just wanted to verify your delivery.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: You’ve got to be kidding me. I’ve got 40 more stops to make.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: I understand. I just need to confirm where you dropped that last package and who you work for.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: It was 119 Grove Street. Small box, signed "J. Ramirez" on the manifest. I left it near the door.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: Got it. Do you have any ID or badge I can take a quick look at?</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Yeah, yeah, one sec. *[hands ID]* Here you go.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: Thanks. That checks out. Appreciate your time.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Alright then. Can I go now?</DIALOGUE>
-        <DIALOGUE>~y~You~s~: You're free to go. Sorry for the delay.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Next time maybe call ahead or something…</DIALOGUE>
+       <DIALOGUE>~y~Tu~s~: Salve. Mi serve un attimo del tuo tempo, se va bene.</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Cioè… sì, suppongo. Di cosa si tratta?</DIALOGUE>
+<DIALOGUE>~y~Tu~s~: Abbiamo ricevuto alcune segnalazioni di finti corrieri che rubano pacchi in questa zona. Volevo solo verificare la tua consegna.</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: State scherzando? Ho ancora 40 fermate da fare.</DIALOGUE>
+<DIALOGUE>~y~Tu~s~: Capisco. Devo solo confermare dove hai lasciato l’ultimo pacco e per quale compagnia lavori.</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Era al 119 di Grove Street. Piccola scatola, firmata "J. Ramirez" sul registro. L’ho lasciata vicino alla porta.</DIALOGUE>
+<DIALOGUE>~y~Tu~s~: Ricevuto. Hai un documento o un tesserino che posso controllare velocemente?</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Sì, sì, un attimo. *[consegna il documento]* Ecco qua.</DIALOGUE>
+<DIALOGUE>~y~Tu~s~: Grazie. Tutto in regola. Ti ringrazio per il tempo.</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Ok allora. Posso andare?</DIALOGUE>
+<DIALOGUE>~y~Tu~s~: Sei libero di andare. Scusa per il disturbo.</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: La prossima volta magari avvisate prima o qualcosa del genere…</DIALOGUE>
+
     </D_AnnoyedPostman>
     <D_SuspectTalk>
-        <DIALOGUE>~y~You~s~: Afternoon. I saw you leaving a property back there—mind telling me what you were doing?</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Just delivering a package, officer. I’m on my route.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: That’s strange, we’ve had several reports of packages going missing recently. Mind telling me the address?</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Uh… 142 Grove Street, I think? Just following orders.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: That house hasn’t had deliveries in weeks. Can I see some credentials?</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: I… I think I left my badge at the warehouse. Look, it’s just a small job.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: Sounds more like theft. You need to step out of the vehicle.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Alright, alright. No need to make a scene. I’ll cooperate.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: You’d better. You're coming with me.</DIALOGUE>
+        <DIALOGUE>~y~Tu~s~: Buon pomeriggio. Ti ho visto lasciare una proprietà poco fa—mi puoi dire cosa stavi facendo?</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Stavo solo consegnando un pacco, agente. Sono nel mio giro.</DIALOGUE>
+<DIALOGUE>~y~Tu~s~: Strano, abbiamo ricevuto diverse segnalazioni di pacchi scomparsi di recente. Mi dici l’indirizzo?</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Uh… 142 Grove Street, credo? Solo seguo gli ordini.</DIALOGUE>
+<DIALOGUE>~y~Tu~s~: Quella casa non riceve consegne da settimane. Posso vedere qualche documento?</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Credo di aver lasciato il tesserino in magazzino. Guardi, è solo un lavoretto.</DIALOGUE>
+<DIALOGUE>~y~Tu~s~: Questo sembra più un furto. Devi scendere dal veicolo.</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Va bene, va bene. Non serve fare scenate. Collaborerò.</DIALOGUE>
+<DIALOGUE>~y~Tu~s~: Meglio così. Vieni con me.</DIALOGUE>
+
     </D_SuspectTalk>
     <D_SuspectPursuit>
-        <DIALOGUE>~y~You~s~: Stop the vehicle and step out. I have some questions for you.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: I don’t think that’s necessary. I'm just doing my job, officer.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: You match the description of a suspect in multiple thefts. Shut off the engine.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Yeah… not today!</DIALOGUE>
-    </D_SuspectPursuit>
-    <D_SuspectShooting>
-        <DIALOGUE>~y~You~s~: Alright, out of the vehicle—hands where I can see them.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Don’t come any closer, I swear to God!</DIALOGUE>
-        <DIALOGUE>~y~You~s~: You’re impersonating a delivery driver and stealing packages. It’s over!</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: You cops think you can control everything!</DIALOGUE>
-        <DIALOGUE>~y~You~s~: Drop the weapon now!</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Not gonna happen!</DIALOGUE>
-        <DIALOGUE>~y~You~s~: Last warning!</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: I’m not going to prison!</DIALOGUE>
-    </D_SuspectShooting>
-    <D_SuspectSurrender>
-        <DIALOGUE>~y~You~s~: Exit the vehicle now and keep your hands visible!</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Okay, okay! Don’t shoot!</DIALOGUE>
-        <DIALOGUE>~y~You~s~: Down on your knees, now!</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Alright! I give up!</DIALOGUE>
-        <DIALOGUE>~y~You~s~: You’re under arrest for package theft and impersonating a delivery worker.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: I didn’t mean for this to go that far…</DIALOGUE>
-        <DIALOGUE>~y~You~s~: You’ll have a chance to explain it at the station.</DIALOGUE>
-    </D_SuspectSurrender>
+      <DIALOGUE>~y~Tu~s~: Ferma il veicolo ed esci. Ho alcune domande per te.</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Non credo sia necessario. Sto solo facendo il mio lavoro, agente.</DIALOGUE>
+<DIALOGUE>~y~Tu~s~: Correspondi alla descrizione di un sospetto in diversi furti. Spegni il motore.</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Sì... oggi non se ne parla!</DIALOGUE>
+</D_SuspectPursuit>
+<D_SuspectShooting>
+<DIALOGUE>~y~Tu~s~: Fuori dal veicolo—mani dove posso vederle.</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Non ti avvicinare, lo giuro su Dio!</DIALOGUE>
+<DIALOGUE>~y~Tu~s~: Stai fingendo di essere un corriere e stai rubando pacchi. È finita!</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Voi sbirri pensate di poter controllare tutto!</DIALOGUE>
+<DIALOGUE>~y~Tu~s~: Lascia subito l’arma!</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Non succederà mai!</DIALOGUE>
+<DIALOGUE>~y~Tu~s~: Ultimo avvertimento!</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Non andrò in prigione!</DIALOGUE>
+</D_SuspectShooting>
+<D_SuspectSurrender>
+<DIALOGUE>~y~Tu~s~: Esci dal veicolo subito e tieni le mani visibili!</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Ok, ok! Non sparare!</DIALOGUE>
+<DIALOGUE>~y~Tu~s~: In ginocchio, ora!</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Va bene! Mi arrendo!</DIALOGUE>
+<DIALOGUE>~y~Tu~s~: Sei in arresto per furto di pacchi e per esserti finto corriere.</DIALOGUE>
+<DIALOGUE>~o~Postino~s~: Non pensavo che sarebbe finita così...</DIALOGUE>
+<DIALOGUE>~y~Tu~s~: Potrai spiegare tutto in centrale.</DIALOGUE>
+</D_SuspectSurrender>
+
     <SCENARIOS>
         <THIEF>
-            <TEXT>Keep an eye on the area. A delivery should happen soon.</TEXT>
-            <TEXT>Perform a traffic stop to talk to the driver.</TEXT>
-            <TEXT>Press ~y~{Y}~s~ to talk to the driver.</TEXT>
-        </THIEF>
-        <POSTMAN>
-            <TEXT>Keep an eye on the area. A delivery should happen soon.</TEXT> <!--The same line as above-->
-            <TEXT>Perform a traffic stop to talk to the driver.</TEXT> <!--The same line as above-->
-            <TEXT>Press ~y~{Y}~s~ to talk to the driver.</TEXT> <!--The same line as above-->
-            <TEXT>~g~The delivery appears legitimate. No further action is required.</TEXT>
-        </POSTMAN>
-    </SCENARIOS>
-    <END>
-        <TEXT>Package theft investigation concluded. Resume patrol.</TEXT>
-        <TEXT>Looks like that's it. Continue your patrol.</TEXT>
-        <TEXT>Nothing more to do here. Get back out there.</TEXT>
-        <TEXT>~r~The Postman died</TEXT>
+           <TEXT>Tieni d’occhio la zona. Una consegna dovrebbe avvenire a breve.</TEXT>
+<TEXT>Esegui un controllo sul veicolo per parlare con il conducente.</TEXT>
+<TEXT>Premi ~y~{Y}~s~ per parlare con il conducente.</TEXT>
+</THIEF>
+<POSTMAN>
+<TEXT>Tieni d’occhio la zona. Una consegna dovrebbe avvenire a breve.</TEXT> <!--La stessa riga come sopra-->
+<TEXT>Esegui un controllo sul veicolo per parlare con il conducente.</TEXT> <!--La stessa riga come sopra-->
+<TEXT>Premi ~y~{Y}~s~ per parlare con il conducente.</TEXT> <!--La stessa riga come sopra-->
+<TEXT>~g~La consegna sembra legittima. Non sono richieste ulteriori azioni.</TEXT>
+</POSTMAN>
+</SCENARIOS>
+<END>
+<TEXT>Indagine sul furto di pacchi conclusa. Riprendi il pattugliamento.</TEXT>
+<TEXT>Sembra che sia tutto. Continua il pattugliamento.</TEXT>
+<TEXT>Nulla da fare qui. Torna là fuori.</TEXT>
+<TEXT>~r~Il postino è morto</TEXT>
+
     </END>
 </CALLOUT>

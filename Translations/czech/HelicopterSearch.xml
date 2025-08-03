@@ -1,27 +1,27 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Helicopter Search for a Stolen Vehicle</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>Jump in the shoes of a pilot!</CALLOUTADVISORY>
-    <TASK>A stolen vehicle has been spotted in the area by a CCTV camera. Meet the officer at the meeting point.</TASK>
+    <CALLOUTMESSAGE>Helikoptéra pátrá po odcizeném vozidle</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Vzijte se do role pilota!</CALLOUTADVISORY>
+    <TASK>V této oblasti byla kamerovým systémem zachycena odcizená vozidla. Setkejte se s policistou na domluveném míste.</TASK>
     <COP>
-        <DIALOGUE>~b~Officer:~s~ Hello, Pilot! Glad to have you with us.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ We're looking for a stolen vehicle that was last seen in this area.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ We do have information on the vehicle’s model and color, but there are several possible matches.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ Please circle the area where the vehicle was last spotted and scan nearby vehicles using the helicopter scanner.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ Good luck!</DIALOGUE>
+        <DIALOGUE>~b~Dustojník:~s~ Ahoj, Pilote! Jsme rádi, ze jsi s námi.</DIALOGUE>
+        <DIALOGUE>~b~Dustojník:~s~ Hledáme odcizené vozidlo, které bylo naposledy spatreno v této oblasti.</DIALOGUE>
+        <DIALOGUE>~b~Dustojník:~s~ Máme informace o modelu a barve vozidla, ale existuje nekolik mozných shod.</DIALOGUE>
+        <DIALOGUE>~b~Dustojník:~s~ Zakrouzkujte oblast, kde bylo vozidlo naposledy spatreno, a prohledejte okolní vozidla pomocí skeneru vrtulníku.</DIALOGUE>
+        <DIALOGUE>~b~Dustojník:~s~ Hodne stestí!</DIALOGUE>
     </COP>
     <VEHICLEINFO>
-        <TEXT>Wanted vehicle:~n~</TEXT>
-        <TEXT>~b~Model:~s~ {Model}~n~</TEXT>
-        <TEXT>~b~Color:~s~ {Color}~n~</TEXT>
-        <TEXT>~b~Last seen in~s~ {Zone}</TEXT>
+        <TEXT>Hledané vozidlo:~n~</TEXT>
+        <TEXT>~b~Model vozidla:~s~ {Model}~n~</TEXT>
+        <TEXT>~b~Barva:~s~ {Color}~n~</TEXT>
+        <TEXT>~b~Naposledy viden v~s~ {Zone}</TEXT>
     </VEHICLEINFO>
     <SEARCH>
-        <TEXT>~r~The suspect has been scanned and found! Follow him until he comes to a stop or ~o~perform a traffic stop!</TEXT>
-        <TEXT>That's not the car we're searching for.</TEXT>
-        <TEXT>The suspect has parked, now apprehend him!</TEXT>
+        <TEXT>~r~Podezrelý byl naskenován a nalezen!  Sledujte ho, dokud nezastaví, nebo ~o~provedte dopravní kontrolu!</TEXT>
+        <TEXT>To není auto, které hledáme.</TEXT>
+        <TEXT>Podezrelý zaparkoval, ted ho zatknete!</TEXT>
     </SEARCH>
     <ACTION>
-        <TEXT>The suspect is ignoring your commands.</TEXT>
-        <TEXT>The suspect is surrendering.</TEXT>
+        <TEXT>Podezrelý ignoruje vase príkazy.</TEXT>
+        <TEXT>Podezrelý se vzdává.</TEXT>
     </ACTION>
 </CALLOUT>
