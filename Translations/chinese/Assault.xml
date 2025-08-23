@@ -1,0 +1,114 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>袭击</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>一人受伤，警察和 EMS 已赶到现场</CALLOUTADVISORY>
+    <TASK>一名警官报告了一起袭击事件。急救人员已抵达现场。请驾车前往报告地点.</TASK>
+    <NOTIFICATIONS>
+        <TEXT>在附近区域搜寻嫌疑车辆.{n}~o~车辆:~s~ {MODEL}{n}~o~颜色:~s~ {COLOR}{n}~o~嫌疑人:~s~ {FIRSTNAME} {LASTNAME}</TEXT>
+        <TEXT>在附近区域搜寻嫌疑人.{n}~o~姓名:~s~ {FIRSTNAME} {LASTNAME}{n}~o~逮捕令:~s~ 袭击</TEXT>
+        <TEXT>一名警官已拦下一辆匹配车辆。请响应Code 3 作为支援车辆前往.</TEXT>
+    </NOTIFICATIONS>
+    <DIALOGUES id="D_Officer">
+        <DIALOGUE>~b~警官:~s~ 嘿，搭档，很高兴你这么快就到了!</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 我们接到了有关袭击的电话，我是第一个到达现场的人.</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 如你所见，EMS 已开始治疗受害者.</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 你应该先和医护人员谈谈，了解受害者的最新情况.</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 受害者看起来不太好，也许他反应灵敏，能记住一些事情.</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 一位目击者也站了出来，我希望他们能提供一些有关该事件的有用信息.</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 祝你好运!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Paramedic_Witness">
+        <DIALOGUE>~r~医护人员:~s~ 您好，很高兴得到您的帮助-这绝对是必要的.</DIALOGUE>
+        <DIALOGUE>~r~医护人员:~s~ 我们这里有多处割伤和瘀伤，可能是由较大的物体造成的.</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 像刀、指节铜环或玻璃瓶之类的东西吗?</DIALOGUE>
+        <DIALOGUE>~r~医护人员:~s~ 是的，没错。病人伤势严重，没有反应。我现在正在稳定他的情况，然后就去医院了.</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 看起来我不会从受害者那里得到任何信息，我会让你做你的工作.</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 我接下来要和证人谈谈.</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Paramedic_VictimWitness">
+        <DIALOGUE>~r~医护人员:~s~ 啊，你好，我猜你的同事呼叫了支援?</DIALOGUE>
+        <DIALOGUE>~r~医护人员:~s~ 很高兴你来了。目前情况下，受害者的情况还好.</DIALOGUE>
+        <DIALOGUE>~r~医护人员:~s~ 他的头部受伤，可能是被拳头或轻物体击中造成的.</DIALOGUE>
+        <DIALOGUE>~r~医护人员:~s~ 伤口需要缝合，所以我很快就会带他去医院.</DIALOGUE>
+        <DIALOGUE>~r~医护人员:~s~ 最好趁记忆犹新时现在提出你的问题.</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Victim_VictimWitness">
+        <DIALOGUE>~o~受害者:~s~ 您好警官，请找出做这件事的混蛋!</DIALOGUE>
+        <DIALOGUE>~o~受害者:~s~ 我四处走走，只是想买点东西.</DIALOGUE>
+        <DIALOGUE>~o~受害者:~s~ 突然, {FIRSTNAME} {LASTNAME} 出现了-我在酒吧认识他.</DIALOGUE>
+        <DIALOGUE>~o~受害者:~s~ 他开始对我破口大骂，然后打了我——之后我就记不太清楚了.</DIALOGUE>
+        <DIALOGUE>~o~受害者:~s~ 很遗憾，我没看到他们去了哪里。啊，我的头……好痛。该死!</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 没事，先休息一下。我们会记录你的陈述，并立即开始搜.</DIALOGUE>
+        <DIALOGUE>~o~受害者:~s~ 寻找 {FIRSTNAME} {LASTNAME}, {GENDER}! 他们干的!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Witness_Witness">
+        <DIALOGUE>~g~目击者:~s~ 您好，警官，很高兴您来。我希望我能帮忙辨认袭击者.</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 我看到他们在争吵，突然一个人推了另一个人，开始打架!</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 说实话，这太残忍了！难怪要叫救护车.</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 我听到其中一个人说出了嫌疑人的名字: {LASTNAME}. 此人是 {GENDER}.</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 如今暴力事件不断增加，真令人悲伤.</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 谢谢，这确实有帮助.</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 你看到嫌疑人去了哪里吗?</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 他们步行走了。如果你需要的话，我可以在你的GPS上标记!</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 再次感谢，我们会尽力抓住他们!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Witness_VictimWitness">
+        <DIALOGUE>~y~警员:~s~ 你好，我是当地警察局的警官。能告诉我发生了什么事吗?</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 你好，是的 - 我想我看见有人离开了现场.</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 我听到了争吵声，便朝声音的方向走去.</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 我只看到有人在地上流血，还有另一个人快速走开.</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ T他们朝那个方向跑了!</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 你能描述一下这个人吗?</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 很遗憾没有，我只是远远地看到了他们，并陪在受伤的人身边.</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 你做得对，谢谢你 - 你可以看到他们受伤有多么严重.</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 我们将立即开始近距离搜索.</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 祝你好运！抓住那个混蛋!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Witness_TrafficStop">
+        <DIALOGUE>~y~警员:~s~ 你好，我是当地警察局的一名警官.</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 您好，我想帮忙抓捕嫌疑人.</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 我认识他们，他们也住在城里.</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 他们的名字是 {FIRSTNAME} {LASTNAME}!</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 他们在打斗中拿着一些东西——我看不清那是什么.</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 这个混蛋多次殴打受害者，然后开着一辆 {MODEL}逃走了!</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 汽车颜色为 {COLOR}.</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 我记下了车牌号... {LICENSEPLATE}!</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 非常感谢！我会留意车辆。祝您拥有美好的一天!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_TrafficOfficer_1">
+        <DIALOGUE>~b~警官:~s~ 嘿,我拦下了这辆车，车子和描述相符.</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 我确实需要支援，所以我打电话给你.</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 我会在乘客那边——万一他们做傻事，我会帮助你.</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 为了确保万无一失，请继续仔细检查车辆详细信息.</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Suspect_Witness">
+        <DIALOGUE>~y~警员:~s~ 站住! Police!</DIALOGUE>
+        <DIALOGUE>~r~嫌疑人:~s~ 哦天哪，你吓到我了。你想干什么?</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 你是一起刑事案件的嫌疑人。你刚才在哪里?</DIALOGUE>
+        <DIALOGUE>~r~嫌疑人:~s~ 我……是因为那场打架的事吗？拜托，这又不是什么大事.</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 告诉你，受害者正在被送往医院！他们伤势严重!</DIALOGUE>
+        <DIALOGUE>~r~嫌疑人:~s~ 哦不……我不是故意的。该死，真的很抱歉...</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 把手放在我能看见的地方！你被逮捕了!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Suspect_VictimWitness">
+        <DIALOGUE>~y~警员:~s~ Police! 过来一下，我有几个问题想问你.</DIALOGUE>
+        <DIALOGUE>~r~嫌疑人:~s~ 你想从我这里得到什么？别烦我!</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 听着，我们可以用简单的方法或困难的方法来做到这一点.</DIALOGUE>
+        <DIALOGUE>~r~嫌疑人:~s~ 你什么也证明不了。我什么都没做！什么都没做!</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 你符合嫌疑人的描述。一小时前你在哪里?</DIALOGUE>
+        <DIALOGUE>~r~嫌疑人:~s~ 我……在图书馆，没错！我在看书，并享受远离你们这群猪的宁静!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Suspect_TrafficStop">
+        <DIALOGUE>~y~警员:~s~ 你好，我是当地交通部门的交通警察。请出示驾照和车辆证件.</DIALOGUE>
+        <DIALOGUE>~r~嫌疑人:~s~ 让我停车有什么原因吗？我的证件都有效!</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 你从哪里来?</DIALOGUE>
+        <DIALOGUE>~r~嫌疑人:~s~ 我只是去购物，买一些小东西.</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 你最近和朋友、同事或者其他的人吵架了吗？我们收到了一份报告.</DIALOGUE>
+        <DIALOGUE>~r~嫌疑人:~s~ 是的，我发生了一点小争吵，只是言语上有些争执，还有点推搡.</DIALOGUE>
+        <DIALOGUE>~y~警员:~s~ 除了推搡，你还做了其他什么吗？目击者的说法有所不同.</DIALOGUE>
+        <DIALOGUE>~r~嫌疑人:~s~ 我不明白你的意思！</DIALOGUE>
+    </DIALOGUES>
+    <END>
+        <TEXT>Dispatch，Code 4。返回巡逻.</TEXT>
+        <TEXT>Code 4，无需进一步协助.</TEXT>
+    </END>
+</CALLOUT>
