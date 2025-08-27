@@ -1,0 +1,114 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Assault</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>One person injured, police and EMS on scene</CALLOUTADVISORY>
+    <TASK>An officer reported an assault. EMS is already on scene. Drive to the reported location.</TASK>
+    <NOTIFICATIONS>
+        <TEXT>Search the area nearby for the suspect vehicle.{n}~o~Vehicle:~s~ {MODEL}{n}~o~Color:~s~ {COLOR}{n}~o~Suspect:~s~ {FIRSTNAME} {LASTNAME}</TEXT>
+        <TEXT>Search the nearby area for the suspect.{n}~o~Name:~s~ {FIRSTNAME} {LASTNAME}{n}~o~Warrant:~s~ Assault</TEXT>
+        <TEXT>An officer has pulled over a matching vehicle. Respond Code 3 as backup.</TEXT>
+    </NOTIFICATIONS>
+    <DIALOGUES id="D_Officer">
+        <DIALOGUE>~b~Officer:~s~ Hello partner, great that you got here so quickly!</DIALOGUE>
+        <DIALOGUE>~b~Officer:~s~ We received a call about an assault and I was the first on scene.</DIALOGUE>
+        <DIALOGUE>~b~Officer:~s~ As you can see, EMS is already treating the victim.</DIALOGUE>
+        <DIALOGUE>~b~Officer:~s~ You should probably talk to the paramedic first to get an update on the victim's condition.</DIALOGUE>
+        <DIALOGUE>~b~Officer:~s~ The victim doesn't look good, maybe he's responsive and can remember something.</DIALOGUE>
+        <DIALOGUE>~b~Officer:~s~ A witness has come forward too, I hope they can give some useful information about the incident.</DIALOGUE>
+        <DIALOGUE>~b~Officer:~s~ Good luck!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Paramedic_Witness">
+        <DIALOGUE>~r~Paramedic:~s~ Good day, glad to get support from you - it's definitely needed.</DIALOGUE>
+        <DIALOGUE>~r~Paramedic:~s~ We have multiple lacerations and bruises here, possibly caused by a larger object.</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ Something like a knife, brass knuckles, or a glass bottle?</DIALOGUE>
+        <DIALOGUE>~r~Paramedic:~s~ Yes, exactly. The patient is seriously injured and unresponsive. I'm stabilizing him now, then it's off to the hospital.</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ Doesn't look like I'll get any info from the victim, I'll let you do your job.</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ I'll go talk to the witness next.</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Paramedic_VictimWitness">
+        <DIALOGUE>~r~Paramedic:~s~ Ah hello, I guess your colleague called for backup?</DIALOGUE>
+        <DIALOGUE>~r~Paramedic:~s~ Glad you're here. The victim is doing okay under the circumstances.</DIALOGUE>
+        <DIALOGUE>~r~Paramedic:~s~ He has a head wound, possibly caused by a punch or a light object.</DIALOGUE>
+        <DIALOGUE>~r~Paramedic:~s~ The wound needs stitches, so I'll take him to the hospital shortly.</DIALOGUE>
+        <DIALOGUE>~r~Paramedic:~s~ It's best if you ask your questions now while the memory is still fresh.</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Victim_VictimWitness">
+        <DIALOGUE>~o~Victim:~s~ Hello officer, please find the bastard who did this!</DIALOGUE>
+        <DIALOGUE>~o~Victim:~s~ I was walking around, just trying to shop for something.</DIALOGUE>
+        <DIALOGUE>~o~Victim:~s~ Suddenly, {FIRSTNAME} {LASTNAME} showed up - I know him from the bar.</DIALOGUE>
+        <DIALOGUE>~o~Victim:~s~ He started mouthing off at me and then hit me - I don't remember much after that.</DIALOGUE>
+        <DIALOGUE>~o~Victim:~s~ Unfortunately, I didn't see where they went. Ah, my head... it hurts. Damn!</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ It's okay, just rest for now. We'll record your statement and start a search immediately.</DIALOGUE>
+        <DIALOGUE>~o~Victim:~s~ Look for {FIRSTNAME} {LASTNAME}, {GENDER}! They did this!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Witness_Witness">
+        <DIALOGUE>~g~Witness:~s~ Hello officer, great you're here. I hope I can help identify the attacker.</DIALOGUE>
+        <DIALOGUE>~g~Witness:~s~ I saw them arguing, and suddenly one pushed the other and started hitting!</DIALOGUE>
+        <DIALOGUE>~g~Witness:~s~ Pretty brutal if you ask me! No wonder an ambulance had to come.</DIALOGUE>
+        <DIALOGUE>~g~Witness:~s~ I heard one of them say the suspect's name: {LASTNAME}. The person was {GENDER}.</DIALOGUE>
+        <DIALOGUE>~g~Witness:~s~ It's sad how violence is increasing these days.</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ Thanks, that definitely helped.</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ Did you see where the suspect went?</DIALOGUE>
+        <DIALOGUE>~g~Witness:~s~ They went off on foot. I can mark it on your GPS if you want!</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ Thanks again, we'll do our best to catch them!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Witness_VictimWitness">
+        <DIALOGUE>~y~You:~s~ Hello, I'm an officer from the local police department. Can you tell me what happened?</DIALOGUE>
+        <DIALOGUE>~g~Witness:~s~ Hello, yes - I think I saw someone leaving the scene.</DIALOGUE>
+        <DIALOGUE>~g~Witness:~s~ I heard an argument and went toward the sound.</DIALOGUE>
+        <DIALOGUE>~g~Witness:~s~ I only saw someone bleeding on the ground, and another person walking away quickly.</DIALOGUE>
+        <DIALOGUE>~g~Witness:~s~ They ran off in that direction!</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ Can you describe the person?</DIALOGUE>
+        <DIALOGUE>~g~Witness:~s~ Sadly not, I only saw them from a distance and stayed with the injured person.</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ You did the right thing, thank you - you can see how badly they were hurt.</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ We'll start a close-range search right away.</DIALOGUE>
+        <DIALOGUE>~g~Witness:~s~ Good luck! Catch that bastard!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Witness_TrafficStop">
+        <DIALOGUE>~y~You:~s~ Good day, I'm an officer from the local police department.</DIALOGUE>
+        <DIALOGUE>~g~Witness:~s~ Hello, I want to help catch the suspect.</DIALOGUE>
+        <DIALOGUE>~g~Witness:~s~ I know them, they also live in town.</DIALOGUE>
+        <DIALOGUE>~g~Witness:~s~ Their name is {FIRSTNAME} {LASTNAME}!</DIALOGUE>
+        <DIALOGUE>~g~Witness:~s~ They were holding something during the fight - I couldn't quite tell what it was.</DIALOGUE>
+        <DIALOGUE>~g~Witness:~s~ The asshole hit the victim several times, then drove off in a {MODEL}!</DIALOGUE>
+        <DIALOGUE>~g~Witness:~s~ The car color was {COLOR}.</DIALOGUE>
+        <DIALOGUE>~g~Witness:~s~ I wrote down the license plate... {LICENSEPLATE}!</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ Thanks a lot! I'll keep a lookout for the vehicle. Have a great day!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_TrafficOfficer_1">
+        <DIALOGUE>~b~Officer:~s~ Hey partner! I pulled this one over, the car matches the description.</DIALOGUE>
+        <DIALOGUE>~b~Officer:~s~ I definitely wanted backup, that's why I called you.</DIALOGUE>
+        <DIALOGUE>~b~Officer:~s~ I'll take the passenger side - I've got your back in case they try anything stupid.</DIALOGUE>
+        <DIALOGUE>~b~Officer:~s~ Go ahead and double-check the vehicle details, just to be sure.</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Suspect_Witness">
+        <DIALOGUE>~y~You:~s~ Stop right there! Police!</DIALOGUE>
+        <DIALOGUE>~r~Suspect:~s~ Oh my God, you scared me. What do you want?</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ You're a suspect in a criminal case. Where were you a short while ago?</DIALOGUE>
+        <DIALOGUE>~r~Suspect:~s~ I... is this about the fight? Come on, it wasn't a big deal.</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ Just so you know, the victim is being transported to the hospital! They're seriously injured!</DIALOGUE>
+        <DIALOGUE>~r~Suspect:~s~ Oh no... I didn't mean for that to happen. Damn, I'm so sorry...</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ Hands where I can see them! You're under arrest!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Suspect_VictimWitness">
+        <DIALOGUE>~y~You:~s~ Police! Please come with me, I've got a few questions for you.</DIALOGUE>
+        <DIALOGUE>~r~Suspect:~s~ What do you want from me? Leave me alone!</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ Listen, we can do this the easy way or the hard way.</DIALOGUE>
+        <DIALOGUE>~r~Suspect:~s~ You can't prove anything. I didn't do anything! Nothing at all!</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ You match the description of a suspect. Where were you an hour ago?</DIALOGUE>
+        <DIALOGUE>~r~Suspect:~s~ I... was at the library, yes exactly! I read and enjoy the peace away from you pigs!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Suspect_TrafficStop">
+        <DIALOGUE>~y~You:~s~ Good day, I'm a traffic officer from the local department. License and vehicle documents, please.</DIALOGUE>
+        <DIALOGUE>~r~Suspect:~s~ Is there a reason for this stop? My documents are all valid!</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ Where are you coming from?</DIALOGUE>
+        <DIALOGUE>~r~Suspect:~s~ I was just shopping, a few small things, why?</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ Were you in an argument recently? Friend, coworker or similar? We got a report.</DIALOGUE>
+        <DIALOGUE>~r~Suspect:~s~ Yes, I had a small argument, just words, a little shoving.</DIALOGUE>
+        <DIALOGUE>~y~You:~s~ Did you do more than just shove? A witness reported something different.</DIALOGUE>
+        <DIALOGUE>~r~Suspect:~s~ I don't know what you mean!! Go ahead and arrest me then!</DIALOGUE>
+    </DIALOGUES>
+    <END>
+        <TEXT>Dispatch, show us Code 4. Returning to patrol.</TEXT>
+        <TEXT>We're Code 4 here. Dispatch, no further assistance needed.</TEXT>
+    </END>
+</CALLOUT>
