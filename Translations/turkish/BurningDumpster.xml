@@ -1,0 +1,62 @@
+<BurningDumpster>
+
+    <General>
+        <Text>~r~Yanan çöp konteyneri~b~ ihbarı</Text>
+        <Text>Yangın söndürücüsü olan ekip Code 3 koduyla yanıt versin</Text>
+        <Text>Konuma sürün ve ~r~yangını~s~ söndürün ya da ~r~itfaiyeyi~s~ arayın!</Text>
+    </General>
+
+    <Persons>
+        <Text>Arayan</Text>
+        <Text>Siz</Text>
+    </Persons>
+
+    <Extingiush>
+        <Text>~r~Yangın söndürücüsünü~s~ almak için, bagajınıza gidin ve basın</Text>
+        <Text>~r~Yangın söndürücüsü~s~ kuşanıldı!</Text>
+        <Text>Şimdi ~y~işaretçilerdeyken~s~ {Key} tuşuna basarak ~y~delil~s~ arayın.</Text>
+    </Extingiush>
+
+    <Tasks>
+        <Text>911'i ~b~arayanla~s~ konuşun</Text>
+        <Text>Fotoğrafı tekrar görmek için dilediğiniz zaman {MusicMenuKey} tuşuna basın!</Text>
+        <Text>Merkez, Şüpheli ~r~kaçıyor!</Text>
+    </Tasks>
+
+    <Caller>
+        <Dialogue>Merhaba, yanan çöpü ihbar eden siz misiniz?</Dialogue>
+        <Dialogue>Evet, bendim. Gördüğüm şüpheli bir kişiyi bildirmek istedim.</Dialogue>
+        <Dialogue>Çöp kutusunun yanından geçerken birinin oradan uzaklaştığını gördüm.</Dialogue>
+        <Dialogue>Hemen sonra yangın başladı!</Dialogue>
+        <Dialogue>Şüpheli görünüyor. Şüpheli hakkında herhangi bir bilginiz var mı?</Dialogue>
+        <Dialogue>Elbette, {gender} ve yaklaşık {age} yaşındaydı.</Dialogue>
+        <Dialogue>Hatta bir fotoğrafını çekmeyi başardım. İşte burada!</Dialogue>
+        <Dialogue>Teşekkürler. Şimdi şüpheliyi arıyoruz. Hoşça kalın!</Dialogue>
+    </Caller>
+
+    <Genders>
+        <Text>kadın</Text>
+        <Text>erkek</Text>
+        <Text>non-binary</Text>
+    </Genders>
+
+    <Evidence>
+        <Dialogue>Bir Molotof kokteyli, bu bir kaza değil... birisi yangın çıkarmak istemiş.</Dialogue>
+        <Dialogue>Benzinle dolu bir bidon, sanki birisi bir şeyi ateşe vermeye hazırlanıyormuş gibi görünüyor.</Dialogue>
+        <Dialogue>Bir bong? Garip... belki birisi çıkardığı yangını fark edemeyecek kadar kafası güzeldi.</Dialogue>
+        <Dialogue>Bir parça tesirli el bombası. Bu basit bir yangın değil, çok daha tehlikeli bir şeyle uğraşıyoruz.</Dialogue>
+        <Dialogue>Bir sis bombası. Yangını çıkarmadan önce izlerini örtmek için kullanılmış olabilir.</Dialogue>
+        <Dialogue>Kırık bir şişe. Doğaçlama gibi görünüyor, ancak yangını çıkarmak için kullanılmış olabilir.</Dialogue>
+        <Dialogue>Bir gaz tüpü. Eğer bu patlasaydı, tüm bölge alevler içinde kalabilirdi.</Dialogue>
+        <Dialogue>Bir petrol varili. Sızdırıyor... ve oldukça yanıcı. Birisi yangını yaymak istemiş gibi görünüyor.</Dialogue>
+        <Dialogue>Bir benzin bidonu. Benzin gibi kokuyor... birisi burayı gerçekten yakmak istemiş.</Dialogue>
+        <Dialogue>Bir çorap? Pek bir şeye benzemeyebilir, ama yangın tehlikesi oluşturacak kadar kötü kokuyor.</Dialogue>
+        <Dialogue>Tipik. Birisi yanan bir sigarayı çöpün içine atmış, sonra da alev almış.</Dialogue>
+        <Dialogue>Bir çorap? Pek bir şeye benzemeyebilir, ama yangın tehlikesi oluşturacak kadar kötü kokuyor.</Dialogue>
+    </Evidence>
+
+    <End>
+        <Text>~g~Durum Code 4.</Text>
+    </End>
+    
+</BurningDumpster>

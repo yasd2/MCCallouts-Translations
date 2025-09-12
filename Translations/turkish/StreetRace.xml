@@ -1,0 +1,55 @@
+<StreetRace>
+
+    <CalloutMessage>Gizli Sokak Yarışı Operasyonu</CalloutMessage>
+    <CalloutAdvisory>~s~Olası bir ~o~sokak yarışı~s~ olan bir ~y~araba buluşmasını~s~ kontrol et</CalloutAdvisory>
+    <Task>~y~Araba buluşmasına~s~ gidin.</Task>
+
+    <Telephone>
+        <Help>Telefon sesini {J} ile ayarlayabilirsiniz</Help>
+        <Ring>*Telefon çalıyor* - Çağrıyı kabul etmek için ~y~{Y}~s~ tuşuna iki kez basın.</Ring>
+        <Dialogue>~g~Dedektif:~s~ Hey, ben Dedektif Barker! Önümüzde yeni bir görev var.</Dialogue>
+        <Dialogue>~g~Dedektif:~s~ ~y~{ZONE}~s~'da bir araba buluşması olacak.</Dialogue>
+        <Dialogue>~g~Dedektif:~s~ Göreviniz oraya gizli bir şekilde gitmek ve bir araba tutkunu gibi davranmak.</Dialogue>
+        <Dialogue>~g~Dedektif:~s~ Eğer bir sokak yarışı olursa, kovalamacayı hemen bildirebilir veya biraz bekleyebilirsiniz.</Dialogue>
+        <Dialogue>~g~Dedektif:~s~ Şimdi araba buluşmasına gidin. İyi şanslar!</Dialogue>
+    </Telephone>
+
+    <Driver1>
+        <Dialogue>~o~{NAME}:~s~ Hey ortağım! Hızlı, iyi görünen araçlar mı arıyorsun?</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ ~b~{CARMODEL}~s~ arabama bir göz at!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Eğer içinde oturmak istersen, buyur, ama etrafta dolaşma!</Dialogue>
+    </Driver1>
+
+    <Driver6>
+        <Dialogue>~o~{NAME}:~s~ Selam! Bir araba buluşması için ne kadar güzel bir yer!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Aynı hobiye sahip tüm bu insanlar—harika adamlar!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Ve sonra bir de polisler var, her zaman eğlencemizi mahvetmeye çalışıyorlar. Nedenini anlamıyorum ki...</Dialogue>
+    </Driver6>
+
+    <DriveToMeeting>Olay yerindeki ~o~insanlarla~s~ konuşun.</DriveToMeeting>
+
+    <Scenario>
+        <NoRace>Merkez, burada sokak yarışı yok, biz Code 4'üz.</NoRace>
+        <Race>~o~Sürücü:~s~ Pekala, kim sokak yarışına hazır? Beni geçmeye çalışın!</Race>
+    </Scenario>
+
+    <RaceActive>
+        <Help>Bir ~r~kovalamaca~s~ başlatmak için {0} veya ~b~polisi aramak için {1}~s~ tuşuna basın</Help>
+        <Dialogue>~o~Sürücü:~s~ Bizi yakalamak için polisleri mi arıyorsun? Haha, bunu görmek istiyorum!</Dialogue>
+        <Dialogue>~y~Sen:~s~ Merkeze, şüpheli araç ~o~[0]~s~, plakası ~r~[1]~s~, yarışıyor ve beni ~b~kovalamaya~s~ davet etti, ~b~birime ihtiyacım var!~s~</Dialogue>
+        <Dialogue>~y~Sen:~s~ Merkeze, ~b~[0]~s~ plakalı araç, yarışa başladı ve beni ~b~kovalamaya~s~ davet etti, ~b~birim çağırıyorum!~s~</Dialogue>
+        <Dialogue>~y~Sen:~s~ Merkeze, ~r~[0]~s~ ve ~r~[1]~s~ plakalı araçlar yarışıyor. Onlarla ilgileniyorum. ~b~Birime ihtiyacım var!~s~</Dialogue>
+        <Dialogue>~y~Sen:~s~ Bu ~r~[0]~s~'in peşinde olduğumuzu anlıyor musun?</Dialogue>
+        <Dialogue>~y~Sen:~s~ Onlarla ilgilenebilirim, yardıma ihtiyacım yok.</Dialogue>
+        <Dialogue>~y~Sen:~s~ Devriye aracımla ~r~şüpheli aracın~s~ peşine düştüm, ~o~yardıma ihtiyacım var!</Dialogue>
+        <Dialogue>~y~Sen:~s~ Bırakalım gitsinler, bu o kadar da büyük bir olay değil.</Dialogue>
+    </RaceActive>
+
+    <End>
+        <Text>~g~Başarılı bir şekilde~s~ bir sokak yarışını durdurdunuz.</Text>
+        <Text>~g~Başarılı bir şekilde~s~ bir sokak yarışını durdurdunuz, ancak ~r~tüm şüpheliler~s~ kaçtı.</Text>
+        <Text>~r~Şüpheli~s~ ~g~tutuklandı.~s~</Text>
+        <Text>~r~Şüpheliler~s~ ~g~tutuklandı.~s~</Text>
+    </End>
+
+</StreetRace>

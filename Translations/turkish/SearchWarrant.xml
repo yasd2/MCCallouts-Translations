@@ -1,0 +1,45 @@
+<SearchWarrant>
+
+    <General>
+        <Text>Bir Arama Emri Çıkarıldı</Text>
+        <Text>Evde uyuşturucu, silah, para, kemik ve şahıs arayın</Text>
+        <Text>Binada {ChosenEvidenceTranslation} arayın!</Text>
+        <Text>Delillerin nerede ~r~olduğuyla ilgili~s~ ~r~bilgi~s~ aldık.</Text>
+        <Text>Şüphelinin şu anda işte olduğuna dair bilgi aldık. Adı {SuspectName}.</Text>
+        <Text>Bulunan deliller:</Text>
+    </General>
+
+    <Persons>
+        <Text>Bahçıvan</Text>
+        <Text>Siz</Text>
+    </Persons>
+
+    <EvidTranslation>
+        <Text>Mücevher</Text>
+        <Text>Altın</Text>
+        <Text>Para</Text>
+        <Text>Silahlar</Text>
+        <Text>Uyuşturucu</Text>
+    </EvidTranslation>
+
+    <D_Gardener>
+        <Dialogue>Merhaba bayım, bu mülk ve evin tamamı için bir arama emrimiz var.</Dialogue>
+        <Dialogue>Oh merhaba, ben sadece buranın bahçıvanıyım, şu an evde kimse yok ama kapı açık.</Dialogue>
+    </D_Gardener>
+
+    <EvidenceChecker>
+        <Text>Delil bulundu!</Text>
+        <Text>~g~Tüm deliller bulundu! İyi iş!~s~</Text>
+    </EvidenceChecker>
+
+    <SuspectAction>
+        <Dialogue>Şüpheli yaya olarak kaçıyor, Merkez!</Dialogue>
+        <Dialogue>Kahretsin, beni yakaladınız...</Dialogue>
+        <Dialogue>~r~Şüpheli:~s~ Polisi sikeyim, ateş ederek yolumu açacağım!</Dialogue>
+    </SuspectAction>
+
+    <End>
+        <Text>Olay Code 4.</Text>
+    </End>
+
+</SearchWarrant>

@@ -1,0 +1,72 @@
+<LostObject>
+
+<General>
+        <Text>Kayıp Eşya</Text>
+        <Text>Arayan kişi eşya kaybı bildirdi, polis gerekiyor</Text>
+        <Text><![CDATA[~g~Arayan kişiye~s~ gidip sorunun ne olduğunu öğrenin.]]></Text>
+    </General>
+
+
+    <DisplayHelp>
+        <Text>Arayan kişiyle konuşmak için </Text>
+        <Text>~o~Cep telefonunu~s~ arayın. Nesneyi almak için </Text> <Text>~o~Cüzdanı~s~ arayın. Nesneyi almak için </Text>    <Text>~o~Ayakkabıyı~s~ arayın. Nesneyi almak için </Text>      <Text> tuşuna basın.</Text>
+        <Text>Tuşuna basın </Text>                                 <Text>arayana seslenmek için!</Text>               <Text>Yardım için ~r~ipucu~s~ burada.</Text>
+        <Text>Kabul etmek için ~g~1~s~ veya iptal etmek için ~r~2~s~ tuşuna basın.</Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+        <Text>~r~Cep telefonu~s~ bulundu!</Text>
+        <Text>~r~Cüzdan~s~ bulundu!</Text>
+        <Text>~r~Ayakkabı~s~ bulundu!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>~y~Siz~s~: Merhaba, arayan siz misiniz?</Dialogue>
+        <Dialogue>~b~Arayan~s~: Durun, geliyorum!</Dialogue>
+        <Dialogue>~b~Arayan~s~: Çok teşekkürler! Keşke sizin gibi gözlerim olsaydı!</Dialogue>
+        <Dialogue>~y~Siz~s~: Önemli değil, güle güle!</Dialogue>
+    </Conversation>
+
+
+    <OutcomeCellphone>
+        <Dialogue>~b~Arayan~s~: Evet, bendim. Cep telefonumu bulamıyorum.</Dialogue>
+        <Dialogue>~y~Siz~s~: Anlıyorum. Bulmanıza yardımcı olacağım.</Dialogue>
+        <Dialogue>~y~Siz~s~: En son ne zaman kullandığınızı hatırlıyor musunuz?</Dialogue>
+        <Dialogue><![CDATA[~b~Arayan~s~: Tam burada yürüyordum & cebime koyduğumu sanıyordum.]]></Dialogue>
+        <Dialogue>~y~Siz~s~: O zaman buralarda bir yerde olmalı. Bir göz atalım.</Dialogue>
+        <Dialogue>~y~Siz~s~: Heyyy, cep telefonunu buldum!</Dialogue>
+    </OutcomeCellphone>
+
+
+    <OutcomeWallet>
+        <Dialogue><![CDATA[~b~Arayan~s~: Evet, bendim. Cüzdanımı kaybettim & bulamıyorum.]]></Dialogue>
+        <Dialogue>~y~Siz~s~: Ah, bu kötü olmuş. Eminim buluruz.</Dialogue>
+        <Dialogue>~y~Siz~s~: En son ne zaman yanınızda olduğunu hatırlıyor musunuz?</Dialogue>
+        <Dialogue>~b~Arayan~s~: Evet, daha bir dakika önceydi. Buralarda olmalı.</Dialogue>
+        <Dialogue>~y~Siz~s~: Tamam, cüzdanınızı arayalım.</Dialogue>
+        <Dialogue>~y~Siz~s~: Heyyy, cüzdanını buldum!</Dialogue>
+    </OutcomeWallet>
+
+
+    <OutcomeShoe>
+        <Dialogue>~b~Arayan~s~: Evet, yardımınıza ihtiyacım var. Çok büyük bir sorunum var.</Dialogue>
+        <Dialogue>~b~Arayan~s~: Ayakkabımı kaybettim... zavallı ayakkabım, onu çok seviyordum!</Dialogue>
+        <Dialogue>~y~Siz~s~: Ahhh... üzgünüm, bu polisi aramak için bir sebep değil.</Dialogue>
+        <Dialogue>~b~Arayan~s~: Ama 100 dolarlık bir ayakkabıydı! Üzgünüm, ama lütfen onu aramama yardım eder misiniz?</Dialogue>
+        <Dialogue>~y~Siz~s~: Tamam, ayakkabınızı aramanıza yardım edeceğim. Bölgeyi arayalım.</Dialogue>
+        <Dialogue>~y~Siz~s~: Hayır, dediğim gibi. Lütfen sadece acil durumlar için polisi arayın. Günün geri kalanı güzel geçsin!</Dialogue>
+        <Dialogue>~y~Siz~s~: Heyyy, ayakkabını buldum!</Dialogue>
+        <Dialogue>~y~Siz~s~: Pekala, ama bir dahaki sefere sadece acil durumlar için arayın! Güle güle!</Dialogue>
+    </OutcomeShoe>
+
+
+    <End>
+        <Text>~g~Kod 4'e~s~ geçtik, ~b~kayıp eşya ~g~bulundu~s~.</Text>
+        <Text>Kod ~g~4~s~, operasyon sona erdi.</Text>
+    </End>
+
+
+
+</LostObject>

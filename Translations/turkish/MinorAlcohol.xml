@@ -1,0 +1,75 @@
+<MinorAlcohol>
+
+    <General>
+        <Text>Reşit Olmayanların Alkollü Eğlencesi İhbarı</Text>
+        <Text>Operasyon sona erdi</Text>
+        <Text>Konuma gidin.</Text>
+        <Text>Başka diyalog yok.</Text>
+        <Text>Kimlikleri kontrol edin ve bir saha ayıklık testi yapın.</Text>
+        <Text>{0} ile konuşun</Text>
+        <Text>~q~Yata~s~ sürün ve ~q~Kaptan~s~ ile konuşun.</Text>
+    </General>
+
+    <Music>
+        <Text>Müziğin sesini ~b~ayarlamak~s~ için {0} tuşuna basın.</Text>
+        <Text>Müziğin sesini ~b~ayarlamak~s~ için {0} ve {1} tuşlarına basın.</Text>
+        <Text>Ayarlar</Text>
+        <Text>Ses</Text>
+        <Text><![CDATA[<- Azalt; Artır ->]]></Text>
+        <Text>Rastgele parça başlat</Text>
+        <Text>Müzik klasöründen rastgele bir parça başlatır</Text>
+    </Music>
+
+    <Characters>
+        <Text>~b~Siz:~s~</Text>
+        <Text>~y~Kişi:~s~</Text>
+        <Text>~q~Kaptan:~s~</Text>
+        <Text>~r~Asistan Caty:~s~</Text>
+        <Text>~r~Asistan Nicole:~s~</Text>
+    </Characters>
+
+    <TalkToCaptain>
+        <Dialogue>Merhaba, geldiğiniz için teşekkürler!</Dialogue>
+        <Dialogue>Bu gece büyük bir parti var, ünlü ~g~DJ Moodyman~s~ çalıyor!</Dialogue>
+        <Dialogue>Maalesef aramızda birkaç reşit olmayan kişi var gibi görünüyor.</Dialogue>
+        <Dialogue>Lütfen onları kontrol edin, burada olamazlar.</Dialogue>
+        <Dialogue>Uygun olabilecek kişileri kontrol edin.</Dialogue>
+    </TalkToCaptain>
+
+    <Caty>
+        <Dialogue>Selam, umarım gemideki gençleri bulabilirsiniz, geminin arkasına bakın!</Dialogue>
+        <Dialogue>~g~DJ Moodyman~s~ üst platformda çalıyor, partiyi mahvetmek için sahneye çıkmamaya dikkat edin c;</Dialogue>
+    </Caty>
+
+    <Nicole>
+        <Dialogue>Ah, merhaba Memur Bey...</Dialogue>
+        <Dialogue>Herhangi bir şeye ihtiyacınız olursa bana ulaşın, elimizden geldiğince yardımcı oluruz!</Dialogue>
+    </Nicole>
+
+    <PedToCheck0>
+        <Dialogue>Merhaba, yerel polis teşkilatından bir memurum!</Dialogue>
+        <Dialogue>Reşit olmayanların eğlenip alkol aldığına dair bir şikayet aldık.</Dialogue>
+        <Dialogue>Lütfen kimliğinizi görmek istiyorum ve bir saha ayıklık testi yapabiliriz.</Dialogue>
+    </PedToCheck0>
+
+    <PedToCheck1>
+        <Dialogue>Merhaba, yerel polis teşkilatından bir memurum!</Dialogue>
+        <Dialogue>Reşit olmayanların parti yapıp alkol aldığına dair bir ihbar aldık.</Dialogue>
+        <Dialogue>Lütfen kimliğinizi verin, ayrıca bir alkolmetreli test yapabiliriz.</Dialogue>
+    </PedToCheck1>
+
+    <PedToCheck2>
+        <Dialogue>Merhaba, bir polis memuruyum.</Dialogue>
+        <Dialogue>Birisi bizi reşit olmayanların parti yapıp alkol aldığına dair aradı.</Dialogue>
+        <Dialogue>Kimliğinizi görmem gerekiyor ve bir saha ayıklık testi yapabiliriz.</Dialogue>
+    </PedToCheck2>
+
+    <Transport>
+        <Text>İşiniz bittiğinde sizi ve şüphelileri ~b~polis nakil aracına~s~ ~y~ışınlamak~s~ için ~y~1~s~ tuşuna basın.</Text>
+        <Text>Şüpheliyi(leri) polis botuna oturtmak için ~b~mavi işaretçiye~s~ götürün.</Text>
+        <Text>Şüphelileri cezaevine götürün, operasyonu sonlandırmak için istediğiniz zaman ~y~End~s~ tuşuna basın.</Text>
+        <Text>Lütfen şüpheliyi ~b~bırakın~s~ ve biraz ~b~geri çekilin~s~.</Text>
+        <Text>~b~Şüpheli~s~ şimdi polis botunda bekliyor.</Text>
+    </Transport>
+
+</MinorAlcohol>

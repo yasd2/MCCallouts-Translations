@@ -1,0 +1,31 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Araç Kazası</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>~r~Code 3 ile yanıt ver</CALLOUTADVISORY>
+    <TASK>~r~Kaza yerine~s~ sür. Trafiği yönettiğinden ve sürücünün iyi olduğundan emin ol.</TASK>
+    <SCENARIOS>
+        <DRIVERINJURED>
+            <TEXT>Konuşmak için ~{Y}~ tuşuna bas.</TEXT>
+            <DIALOGUE>~y~Siz:~s~ Merhaba? Ne lazım?</DIALOGUE>
+            <DIALOGUE>~p~Sürücü:~s~ Ben... yaralıyım.. Bir... ambulans... lazım. Yardım edin.</DIALOGUE>
+            <TEXT>Yaralı kişi için ambulans çağır.</TEXT>
+        </DRIVERINJURED>
+        <DRIVEROKBUTDRUNK>
+            <DIALOGUE>~y~Siz:~s~ Ne olduğunu anlatır mısınız?</DIALOGUE>
+            <DIALOGUE>~o~Sürücü:~s~ Pek hatırlamıyorum. *hık*</DIALOGUE>
+            <DIALOGUE>~y~Siz:~s~ Nereden geliyorsunuz?</DIALOGUE>
+            <DIALOGUE>~o~Sürücü:~s~ Bir arkadaş partiden. Ayıklık testlerini yapabilirim, sapasağlamım.</DIALOGUE>
+        </DRIVEROKBUTDRUNK>
+        <DRIVERSHOTWEAPONNEARBY> 
+            <TEXT>Silahı almak için ~{Y}~ tuşuna bas.</TEXT>
+            <TEXT>Seri numarasını Telsiz Merkezine sorgulatmak için ~y~{Y}~s~ tuşuna bas.</TEXT>
+            <SERIALNUMBER>
+                <DIALOGUE>~y~Siz:~s~ Merkez, bir tabanca için seri numarası sorgulaması yapabilir misiniz, numarası ~r~{serialnumber}~s~?</DIALOGUE>
+                <DIALOGUE>10-4, kontrol ediliyor.</DIALOGUE>
+                <DIALOGUE>Silah: Tabanca</DIALOGUE>
+                <DIALOGUE>~b~Sahibi: {DriversName}</DIALOGUE>
+                <DIALOGUE>~r~Dikkat: Sahibi aranıyor</DIALOGUE>
+                <DIALOGUE>Dikkat: Yakınlarda şüpheli bir kişi hakkında çağrı aldık, lütfen ~r~Code 3~s~ ile yanıt verin.</DIALOGUE>
+            </SERIALNUMBER>
+        </DRIVERSHOTWEAPONNEARBY>
+    </SCENARIOS>
+</CALLOUT>

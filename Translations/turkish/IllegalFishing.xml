@@ -1,0 +1,67 @@
+<IllegalFishing>
+
+    <General>
+        <Text>Olası yasa dışı balıkçılık raporları</Text>
+    </General>
+
+    <Setup>
+        <Dialogue>{0} tuşuna basın</Dialogue>
+        <Dialogue>~y~Siz~s~: Merhaba, ben yerel karakoldan bir memur.</Dialogue>
+        <Dialogue>~y~Siz~s~: Yasa dışı balıkçılık faaliyeti hakkında bir rapor aldık.</Dialogue>
+        <Dialogue>~b~Şüpheli~s~: Ah, ben burada tek başımayım, yasa dışı bir şey yok, sadece biraz balık tutuyorum...</Dialogue>
+        <Dialogue>~y~Siz~s~: Henüz bir şey yakaladınız mı?</Dialogue>
+        <Dialogue>~b~Şüpheli~s~: Evet, şimdiye kadar birkaç tane yakaladım.</Dialogue>
+        <Dialogue>~y~Siz~s~: Pekala, balıkçılık lisansınızı görmem gerek.</Dialogue>
+        <Dialogue>Etkileşim menüsünü açmak için {0} tuşuna basın, kimliği kontrol etmek için STP'yi kullanın.</Dialogue>
+        <Dialogue>Etkileşim menüsünü açmak için {0} ve {1} tuşlarına basın, kimliği kontrol etmek için STP'yi kullanın.</Dialogue>
+        <Dialogue>Etkileşim menüsünü açmak için {0} tuşuna basın.</Dialogue>
+        <Dialogue>Etkileşim menüsünü açmak için {0} ve {1} tuşlarına basın.</Dialogue>
+    </Setup>
+
+    <ConversationAfterCheckingLicense>
+        <Dialogue>~y~Siz~s~: Pekala, bilgilerinizi doğruladım.</Dialogue>
+        <Dialogue>~y~Siz~s~: Balıkçılık lisansınız geçerli, şimdilik her şey yolunda!</Dialogue>
+        <Dialogue>~y~Siz~s~: Balıkçılık lisansınız askıya alınmış, balık tutmanıza izin yok!</Dialogue>
+        <Dialogue>~y~Siz~s~: Ayrıca kimliğinizde bir sorun yok, endişelenecek bir durum yok.</Dialogue>
+        <Dialogue>~y~Siz~s~: Ayrıca aramanız da yok.</Dialogue>
+        <Dialogue>~y~Siz~s~: Veritabanımda hakkınızda arama emri olduğunu gördüm. Bizimle gelmeniz gerekiyor.</Dialogue>
+        <Dialogue>~y~Siz~s~: Arama emrinizden bana bahsetmediniz. Tutuklusunuz.</Dialogue>
+        <Dialogue>Şüpheliyi tutuklayın.</Dialogue>
+        <Dialogue>İşiniz bittiğinde, şüpheliyi serbest bırakın ve devriyeye geri dönün.</Dialogue>
+        <Dialogue>~y~Siz~s~: Yasa dışı balıkçılıktan dolayı ceza alacaksınız.</Dialogue>
+        <Dialogue>~y~Siz~s~: Geri gelmeyin, yoksa sizi hapse götürmek zorunda kalırım ve ikimiz de bunu istemeyiz.</Dialogue>
+        <Dialogue>Şüpheliye ceza verin ve serbest bırakın.</Dialogue>
+        <Dialogue>Konuşmak için tekrar {0} tuşuna basın</Dialogue>
+    </ConversationAfterCheckingLicense>
+
+    <ConversationAfterPursuitArrest>
+        <Dialogue>~y~Siz~s~: Bu basit bir şey için kaçmak çok aptalcaydı...</Dialogue>
+        <Dialogue>~b~Şüpheli~s~: Artık çok geç zaten...</Dialogue>
+    </ConversationAfterPursuitArrest>
+
+    <ConversationAndSearch>
+        <Dialogue>~y~Siz~s~: Üzerinizde beni delebilecek veya batırabilecek bir şey var mı?</Dialogue>
+        <Dialogue>~b~Şüpheli~s~: Yok...</Dialogue>
+        <Dialogue>Şüpheliyi arayın, evrak işlerini yapın ve onu hapse götürün.</Dialogue>
+    </ConversationAndSearch>
+
+    <End>
+        <Text>Şüpheli öldü.</Text>
+        <Text>Görevi bitirmek için istediğiniz zaman {0} tuşuna basın.</Text>
+        <Text>~r~GTA-Hata: Bir Kişi geçersiz oldu.~s~</Text>
+        <Text>~g~Code 4.~s~</Text>
+    </End>
+
+    <Menu>
+        <Text>Etkileşim Menüsü</Text>
+        <Text>Seçenekler:</Text>
+        <Text>Balıkçılık lisansını göster</Text>
+        <Text>Adı:</Text>
+        <Text>Doğum:</Text>
+        <Text>Balıkçılık Lisansı</Text>
+        <Text>Kimliği Göster</Text>
+        <Text>~g~Geçerli lisans~s~</Text>
+        <Text>~r~Askıya alınmış lisans~s~</Text>
+    </Menu>
+
+</IllegalFishing>

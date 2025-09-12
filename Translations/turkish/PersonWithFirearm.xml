@@ -1,0 +1,34 @@
+<PersonWithFirearm>
+
+    <General>
+        <Text>Ateşli Silahlı Kişi</Text>
+        <Text>Bir kişinin ateşli silah taşıdığından şüpheleniliyor. Kendisiyle irtibat kurun.</Text>
+        <Text>~r~Şüpheliye~w~ yaklaşın ve ~y~konuşmaya~w~ başlayın.</Text>
+        <Text>Şüpheliyi durdurmak ve onunla konuşmak için {0} tuşuna basın.</Text>
+        <Text>~r~Şüpheliyle~w~ daha fazla diyalog yok.</Text>
+    </General> 
+
+    <Conversation>
+        <Dialogue>~b~Siz:~w~ Merhaba, bir dakika konuşabilir miyiz?</Dialogue>
+        <Dialogue>~r~Şüpheli:~w~ Hayır, sen kimsin?! Ne istiyorsun!</Dialogue>
+        <Dialogue>~b~Siz:~w~ Sadece konuşmak istiyorum. Sanırım üzerinde bir silah olabilir.</Dialogue>
+        <Dialogue>~r~Şüpheli:~w~ Bu doğru değil! Yanlış kişiyi buldunuz.</Dialogue>
+        <Dialogue>~b~Siz:~w~ Lütfen bizimle işbirliği yapın, böylece her şeyi çözebiliriz.</Dialogue>
+    </Conversation>
+
+    <Shooting>
+        <Dialogue>~r~Şüpheli:~w~ HAYIR! ASLA!</Dialogue>
+    </Shooting>
+
+    <Surrender>  
+        <Dialogue>~r~Şüpheli:~w~ Tamam, üzgünüm... Ne yapmam gerekiyor?</Dialogue>
+        <Dialogue>~b~Siz:~w~ Lütfen ellerinizi havaya kaldırın, böylece sizi tutuklayabilirim.</Dialogue>
+        <Dialogue>~r~Şüpheli:~w~ Evet komiserim... üzgünüm...</Dialogue>
+    </Surrender>
+
+    <End>
+        <Text>Şüpheli Gözaltında, ~g~Code 4~w~</Text>
+        <Text>~g~Code 4~w~</Text>
+        <Text>~r~Şüpheli öldü.~g~ Code 4</Text>
+    </End>
+</PersonWithFirearm>

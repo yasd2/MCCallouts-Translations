@@ -1,0 +1,97 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>~HC_48~SolveMurder4</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>North Yankton'da bir çiftlik evinin yanında bir ceset bulundu</CALLOUTADVISORY>
+    <TASK>~b~Olay yerine~s~ gidin, ~b~memur~s~ sizi orada bekliyor.</TASK>
+    <DIALOGUES>
+        <COP1>
+            <DIALOGUE>~b~Memur:~s~ Soğuk ve karlı North Yankton'a hoş geldiniz!</DIALOGUE>
+            <DIALOGUE>~b~Memur:~s~ Maalesef orada bir ceset var. Henüz çok fazla bir şey bilmiyoruz, bu yüzden önce olay yerini aramanız iyi olur.</DIALOGUE>
+            <DIALOGUE>~b~Memur:~s~ Ondan sonra üç olası şüphelimiz var. Onlarla konuşmak için yolu takip etmeniz gerekecek.</DIALOGUE>
+            <DIALOGUE>~b~Memur:~s~ Ayrıca bize bir şeye tanık olduğunu söyleyen bir komşu da var...</DIALOGUE>
+        </COP1>
+        <COP1_MURDERERCHOSEN>
+            <DIALOGUE>~b~Memur:~s~ Söyleyin bana, katilin kim olduğunu düşünüyorsunuz?</DIALOGUE>
+            <DIALOGUE>~b~Memur:~s~ ~r~Katili~s~ tutuklayın!</DIALOGUE>
+        </COP1_MURDERERCHOSEN>
+        <SUSPECT1_INNOCENT>
+            <DIALOGUE>~y~Siz:~s~ Merhaba, size birkaç sorum olacak. Yakın zamanda meydana gelen bir cinayet vakasında olası bir şüphelisiniz. Adınız ne?</DIALOGUE>
+            <DIALOGUE>~y~Şüpheli:~s~ Bir cinayet mi? Bu korkunç...</DIALOGUE>
+            <DIALOGUE>~y~Şüpheli:~s~ Adım James Walker. Ben bir araba tamircisiyim. Olay yerini biliyorum, oraya arabayı kontrol etmeye gittim.</DIALOGUE>
+            <DIALOGUE>~y~Siz:~s~ Arabayı mı? Kimin arabası?</DIALOGUE>
+            <DIALOGUE>~y~Şüpheli:~s~ Sarah Carter'ın arabası. Arabasının şanzımanında bir problem vardı. Arabayı garaja getirdim ve kontrol ettim, ama sorun yoktu. O da bana inanmadı.</DIALOGUE>
+            <DIALOGUE>~y~Siz:~s~ Cep telefonunuz yanınızda mı?</DIALOGUE>
+            <DIALOGUE>~y~Şüpheli:~s~ Evet, tabii ki, buyurun. Çok fazla fotoğrafım var...</DIALOGUE>
+            <DIALOGUE>~y~Siz:~s~ Cep telefonunuzu görmek için neden bu kadar gerginsiniz?</DIALOGUE>
+            <DIALOGUE>~y~Şüpheli:~s~ Gergin değilim, sadece... içinde çok sayıda selfie var. İşte buyurun!</DIALOGUE>
+            <DIALOGUE>~y~Siz:~s~ Tamam. İşiniz bitti, teşekkürler.</DIALOGUE>
+        </SUSPECT1_INNOCENT>
+        <SUSPECT2_MURDERER>
+            <DIALOGUE>~y~Siz:~s~ Merhaba Bayan, size birkaç sorum olacak. Yakın zamanda meydana gelen bir cinayet vakasında olası bir şüphelisiniz. Adınız ne?</DIALOGUE>
+            <DIALOGUE>~y~Şüpheli:~s~ Hımm... Lisa Carter.</DIALOGUE>
+            <DIALOGUE>~y~Siz:~s~ Olay yerini biliyor musunuz?</DIALOGUE>
+            <DIALOGUE>~y~Şüpheli:~s~ Aah... Hayır, bilmiyorum. Bir arkadaşımı ziyaret etmek için buradaydım.</DIALOGUE>
+            <DIALOGUE>~y~Siz:~s~ Yakın zamanda bir cinayet işlendiğini biliyor muydunuz?</DIALOGUE>
+            <DIALOGUE>~y~Şüpheli:~s~ Hayır, ne olduğunu bilmiyorum. Bu ne hakkında?</DIALOGUE>
+            <DIALOGUE>~y~Siz:~s~ Olayın kurbanı Sarah Carter'ı tanıyor musunuz?</DIALOGUE>
+            <DIALOGUE>~y~Şüpheli:~s~ ... Ah... evet, tanıyordum. Kuzenimdi.</DIALOGUE>
+            <DIALOGUE>~y~Siz:~s~ Neden yalan söylediniz? Aranızda bir anlaşmazlık var mıydı?</DIALOGUE>
+            <DIALOGUE>~y~Şüpheli:~s~ Sadece... onunla konuşmak istemiyordum.</DIALOGUE>
+            <DIALOGUE>~y~Siz:~s~ Aranızda bir anlaşmazlık vardı, değil mi?</DIALOGUE>
+            <DIALOGUE>~y~Şüpheli:~s~ Tamam... Evet, yaklaşık 1 yıl önce bir araba kazasında ailemi öldürdü. Ve o sadece hapse girdi. Geri döndüğünde, onu öldürmek istedim, işte bu kadar.</DIALOGUE>
+            <DIALOGUE>~y~Siz:~s~ Siz ve kuzeniniz arasında bir anlaşmazlık vardı, ancak onu öldürdüğünüzden şüphelenmiyoruz.</DIALOGUE>
+            <DIALOGUE>~y~Siz:~s~ Cep telefonunuz yanınızda mı?</DIALOGUE>
+            <DIALOGUE>~y~Şüpheli:~s~ Evet, buyurun.</DIALOGUE>
+            <DIALOGUE>~y~Siz:~s~ Teşekkürler, işiniz bitti. Sizi tekrar arayacağız.</DIALOGUE>
+        </SUSPECT2_MURDERER>
+        <SUSPECT3_INNOCENT>
+            <DIALOGUE>~y~Siz:~s~ Merhaba efendim, size birkaç sorum olacak. Yakın zamanda meydana gelen bir cinayet vakasında olası bir şüphelisiniz. Adınız ne?</DIALOGUE>
+            <DIALOGUE>~y~Şüpheli:~s~ Benim adım Jason Smith. Burada bir tatil evim var.</DIALOGUE>
+            <DIALOGUE>~y~Siz:~s~ Bu cinayetle herhangi bir ilginiz var mı?</DIALOGUE>
+            <DIALOGUE>~y~Şüpheli:~s~ Hayır, kesinlikle hayır. Ben bir turistim.</DIALOGUE>
+            <DIALOGUE>~y~Siz:~s~ En son ne zaman cinayet mahalline yakın bir yerde bulundunuz?</DIALOGUE>
+            <DIALOGUE>~y~Şüpheli:~s~ Yürüyüşe çıkmıştım. Etrafta dolaşıyordum. Hava güzeldi, neden olmasın ki?</DIALOGUE>
+            <DIALOGUE>~y~Siz:~s~ Kurbanı tanıyor musunuz?</DIALOGUE>
+            <DIALOGUE>~y~Şüpheli:~s~ Hayır, tanımıyorum. Herhangi birine zarar vermek bana göre değil.</DIALOGUE>
+            <DIALOGUE>~y~Siz:~s~ Cep telefonunuzu görebilir miyim lütfen?</DIALOGUE>
+            <DIALOGUE>~y~Şüpheli:~s~ Telefonum yanımda değil. Sadece yürüyüşe çıkmıştım.</DIALOGUE>
+            <DIALOGUE>~y~Siz:~s~ Pekala. İşte kimliğiniz.</DIALOGUE>
+            <DIALOGUE>~y~Siz:~s~ Teşekkürler, işimiz bitti. Başka talimatlar için bekleyin.</DIALOGUE>
+        </SUSPECT3_INNOCENT>
+        <EVIDENCE>
+            <DIALOGUE>~r~delil~s~: Bu ceket, soğuk havada birinin dışarıda olduğunu gösteriyor.</DIALOGUE>
+            <DIALOGUE>~r~delil~s~: Kurbanın boynunda bir ip yarası var.</DIALOGUE>
+            <DIALOGUE>~r~delil~s~: Bu parmak izleri şüpheliye ait, o kişiyi tanıyorum.</DIALOGUE>
+            <DIALOGUE>~r~delil~s~: Bu araba tekerleklerinin izi. Dört çeker bir araca ait.</DIALOGUE>
+        </EVIDENCE>
+        <WITNESS_SUSPECT3>
+            <DIALOGUE>~g~Komşu:~s~ İyi akşamlar, sanırım bir tanığım.</DIALOGUE>
+            <DIALOGUE>~g~Komşu:~s~ Civardan geçerken bir cinayet işlendiğini duydum.</DIALOGUE>
+            <DIALOGUE>~g~Komşu:~s~ O sırada pek trafik yoktu ve olay yerinden uzaklaşan bir araba gördüm.</DIALOGUE>
+            <DIALOGUE>~g~Komşu:~s~ Araba çok kirliydi ve büyük lastikleri vardı.</DIALOGUE>
+            <DIALOGUE>~g~Komşu:~s~ Umarım yardımcı olmuşumdur!</DIALOGUE>
+        </WITNESS_SUSPECT3>
+    </DIALOGUES>
+    <STATE>
+        <SEARCHFOREVIDENCE>
+            <TEXT>Yoldaki delilleri arayın.</TEXT>
+            <TEXT>Delil bulundu!</TEXT>
+        </SEARCHFOREVIDENCE>
+        <TALKTOSUSPECTSWITNESS>
+            <TEXT>~y~Şüpheliler~s~ ve ~g~tanıkla~s~ konuşun.</TEXT>
+        </TALKTOSUSPECTSWITNESS>
+        <ARRESTMURDERER>
+            <TEXT>~g~Doğru katil tutuklandı</TEXT>
+            <TEXT>~r~Yanlış kişi tutuklandı</TEXT>
+        </ARRESTMURDERER>
+        <END>
+            <TEXT>{CalloutMessage} sona erdi.</TEXT>
+        </END>
+    </STATE>
+    <MENU>
+        <TITLE>Katil</TITLE>
+        <SUBTITLE>Katil şu...</SUBTITLE>
+        <ITEM>James 'Jimmy' Walker, araba tamircisi</ITEM>
+        <ITEM>Lisa Carter, kadın</ITEM>
+        <ITEM>Jason Smith, turist</ITEM>
+    </MENU>
+</CALLOUT>

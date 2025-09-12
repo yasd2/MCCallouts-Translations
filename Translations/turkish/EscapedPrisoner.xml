@@ -1,0 +1,66 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Kaçan Mahkum</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>{Zone} bölgesinde bir mahkum otobüsü kaza yaptı, bir mahkum kaçtı</CALLOUTADVISORY>
+    <TASK>Yakın zamanda bir mahkum kaçtı. Son görüldüğü bölgeye intikal et.</TASK>
+    <DIALOGUE0>
+        <DIALOGUE>~y~Siz:~s~ Merhaba Komiserim, burada ne oldu?</DIALOGUE>
+        <DIALOGUE>~o~Cezaevi Gardiyanı:~s~ Merhaba! Bana saldırdılar! Mahkum... sadece delirdi!</DIALOGUE>
+        <DIALOGUE>~o~Cezaevi Gardiyanı:~s~ Trafiği izlerken bana saldırdı. Otobüsü yanlışlıkla devirdim, sonra otobüsten atladı.</DIALOGUE>
+        <DIALOGUE>~o~Cezaevi Gardiyanı:~s~ Şimdi yaya olarak turuncu tulumuyla ormanlık alana doğru kaçtı!</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Nereye gidiyor olabileceğine dair bir fikriniz var mı?</DIALOGUE>
+        <DIALOGUE>~o~Cezaevi Gardiyanı:~s~ En son gördüğümde, oradaki sırtın arkasından kuzeye doğru gidiyordu.</DIALOGUE>
+        <DIALOGUE>~o~Cezaevi Gardiyanı:~s~ Bir araba çalmaya veya bir yere saklanmaya çalışabilir.</DIALOGUE>
+        <DIALOGUE>~o~Cezaevi Gardiyanı:~s~ Dikkatli olun, tehlikeli ve umutsuz bir durumda!</DIALOGUE>
+        <DIALOGUE>~o~Cezaevi Gardiyanı:~s~ Aman Tanrım, silahımı da almış! Bulamıyorum!</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Tamam. Onu bulacağım.</DIALOGUE>
+    </DIALOGUE0>
+    <DIALOGUE1>
+        <DIALOGUE>~y~Siz:~s~ Komiserim, iyi misiniz? Neler oluyor burada?</DIALOGUE>
+        <DIALOGUE>~o~Cezaevi Gardiyanı:~s~ O mahkum aklını kaçırmış! Durup dururken bana saldırdı!</DIALOGUE>
+        <DIALOGUE>~o~Cezaevi Gardiyanı:~s~ Tabletimden yol tarifi bakıyordum, o da beni alt etmek için fırsatı değerlendirdi. Onu durdurmaya çalıştığımda otobüs takla attı.</DIALOGUE>
+        <DIALOGUE>~o~Cezaevi Gardiyanı:~s~ Kaza yapar yapmaz kaçtı, dümdüz ormanlık alana daldı, hala turuncu kıyafetleri üzerindeydi.</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Hangi yöne gitti?</DIALOGUE>
+        <DIALOGUE>~o~Cezaevi Gardiyanı:~s~ Kuzeye doğru, o tepenin üzerinden. Çok da hızlıydı!</DIALOGUE>
+        <DIALOGUE>~o~Cezaevi Gardiyanı:~s~ Eğer bir araba veya saklanacak bir yer bulursa, onu kaybedebiliriz.</DIALOGUE>
+        <DIALOGUE>~o~Cezaevi Gardiyanı:~s~ Dikkatli olun, Komiserim, doğru düşünemiyor.</DIALOGUE>
+        <DIALOGUE>~o~Cezaevi Gardiyanı:~s~ Kahretsin, şimdi fark ettim... beylik silahımı almış!</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Anlaşıldı. Peşine düşüyorum.</DIALOGUE>
+    </DIALOGUE1>
+    <DIALOGUE2>
+        <DIALOGUE>~y~Siz:~s~ Ne oldu? Yaralı mısınız?</DIALOGUE>
+        <DIALOGUE>~o~Cezaevi Gardiyanı:~s~ Ciddi bir yaralanma yok ama ucuz atlattım. Mahkum delirmişti, pusu kurdu bana!</DIALOGUE>
+        <DIALOGUE>~o~Cezaevi Gardiyanı:~s~ Boğuşma sırasında araç kontrolünü kaybettim. Kapıyı zorla açıp kaçtı.</DIALOGUE>
+        <DIALOGUE>~o~Cezaevi Gardiyanı:~s~ En son onu ağaçlık alana doğru giderken gördüm. Hala tulumu üzerindeydi.</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Nereye gidiyor olabileceğine dair bir ipucu var mı?</DIALOGUE>
+        <DIALOGUE>~o~Cezaevi Gardiyanı:~s~ Ana yola ulaşmaya veya yakınlarda bir saklanma yeri bulmaya çalışıyor olabilir.</DIALOGUE>
+        <DIALOGUE>~o~Cezaevi Gardiyanı:~s~ Ne yapacağı belli olmaz, ve muhtemelen şimdi silahlı.</DIALOGUE>
+        <DIALOGUE>~o~Cezaevi Gardiyanı:~s~ Kahretsin... beylik tabancam kayıp. Kaos sırasında almış olmalı!</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Anlaşıldı. Onu bulacağım.</DIALOGUE>
+    </DIALOGUE2>
+    <SEARCH>
+        <TEXT>Şüpheli tanımı:~n~</TEXT>
+        <TEXT>~r~İsim:~s~ {Name}~n~</TEXT>
+        <TEXT>~r~Yaş:~s~ {Age}~n~</TEXT>
+        <TEXT>~r~Cinsiyet:~s~ {Gender}</TEXT>
+        <TEXT>Bilgileri tekrar görüntülemek için istediğiniz zaman ~{Y}~ tuşuna basın.</TEXT>
+        <TEXT>~{Y}~ tuşuyla Cezaevi Gardiyanıyla konuş.</TEXT>
+    </SEARCH>
+    <ATTEMPTEDROBBERY>
+        <TEXT>Yakınlarda bir gasp ihbarı aldık! Code 3 intikal edin!</TEXT>
+        <TEXT>"~g~Mağdur:~s~ Komiserim, soyguncu az önce kaçtı! Turuncu bir tulum giyiyordu!!"</TEXT>
+        <TEXT>"~g~Mağdur:~s~ Yardım edin! O adam az önce hapisten kaçtı! Turuncu bir tulumla dolaşıyor!"</TEXT>
+        <TEXT>"~g~Mağdur:~s~ Komiserim! Koştuğunu gördüm, turuncu mahkum üniformalıydı, o tarafa doğru gidiyordu!"</TEXT>
+    </ATTEMPTEDROBBERY>
+    <AUTOSTEHLEN>Bir araç gaspı ihbarı geldi! Code 3 intikal edin!</AUTOSTEHLEN>
+    <END> <TEXT>Şüpheli tekrar demir parmaklıklar ardına konuldu. </TEXT>
+        <TEXT>Şüpheli hayatını kaybetti. </TEXT>
+        <TEXT>~g~Devriyenize geri dönün.</TEXT>
+    </END>
+    <ACTION>
+        <DIALOGUE>~r~Şüpheli:~s~ Ateş etmeyin! Teslim oluyorum!</DIALOGUE>
+        <DIALOGUE>~r~Şüpheli:~s~ Yakalamaya çalışın bakalım, piçler!</DIALOGUE>
+        <DIALOGUE>~r~Şüpheli:~s~ Savaşmak mı istiyorsun?! Hadi gel bakalım!</DIALOGUE>
+        <DIALOGUE>~r~Şüpheli:~s~ Ateş etsenize aptallar!</DIALOGUE>
+        <DIALOGUE>~r~Şüpheli:~s~ Hepinizi öldüreceğim polis domuzları!</DIALOGUE>
+    </ACTION>
+</CALLOUT>

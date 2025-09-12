@@ -1,0 +1,37 @@
+<ZombiesReported>
+
+    <General>
+        <Text>Bir sivil, zombi gördüğünü bildirdi</Text>
+        <Text>İlgili sivile ~r~Code 3~s~ ile sür.</Text>
+    </General>
+
+        <Persons>
+        <Text>Siz</Text>
+        <Text>Sivil</Text>   
+    </Persons>
+
+    <Civilian>
+        <Dialogue>Merhaba, iyi misin?</Dialogue>
+        <Dialogue>Bana inanmayacaksın... Zombiler gördüm!</Dialogue>
+        <Dialogue>Tamam, her şey yoluna girecek...</Dialogue>
+        <Dialogue>İşte oradalar—aaaaaah!</Dialogue>
+    </Civilian>
+
+    <Civilian2>
+        <Dialogue>Merhaba, neler oluyor?</Dialogue>
+        <Dialogue>Sanırım deliriyorum... Etrafta dolaşan zombiler gördüm...</Dialogue>
+        <Dialogue>Kahretsin, emin misin?</Dialogue>
+        <Dialogue>Aman Tanrım, işte oradalar—kaçın!</Dialogue>
+    </Civilian2>
+
+
+    <Wave>
+        <Text>Dalga {WaveNumber} başlıyor!</Text>
+        <Text>~g~Dalga {WaveNumber} tamamlandı</Text>
+        <Text>~o~Dalga {WaveNumber}, {time}s~s~ içinde başlıyor</Text>
+        <Text>Tebrikler, 10 dalgayı da geçtiniz.</Text>
+        <Text>Çağrıyı istediğin zaman sonlandırmak için ~y~End~s~ tuşuna bas.</Text>
+        <Text>Dalga {WaveNumber}</Text>
+    </Wave>
+
+</ZombiesReported>

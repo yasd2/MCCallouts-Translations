@@ -1,0 +1,20 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>~b~~h~[SWAT]~h~ Kilitli ve Yüklenmiş</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Bir binayı temizlemek için bir SWAT ekibi gerekiyor!</CALLOUTADVISORY>
+    <TASKS>
+        <TEXT>~o~Konuma~s~ gidin.</TEXT>
+        <TEXT>Binaya girin ve temizleyin, ~r~birden fazla silahlı şüpheli kendilerini barikat kurdu. ~b~Yedek ortaklara sahip olmak yardımcı olabilir!</TEXT>
+        <TEXT>Girmek/çıkmak için ~{J}~ tuşuna basın</TEXT>
+    </TASKS>
+    <SUCCESS>
+        <TEXT>~g~Tüm tehditler etkisiz hale getirildi!</TEXT>
+        <TEXT>Görevi sonlandırmak için ~{End}~ tuşuna basın.</TEXT>
+    </SUCCESS>
+    <STATS>
+        <TEXT>Etkisiz hale getirildi:</TEXT>
+        <TEXT>Tutuklandı:</TEXT>
+        <TEXT>~g~Görev başarıyla tamamlandı~n~</TEXT>
+        <TEXT>~r~Görev başarısız oldu~n~</TEXT>
+        <TEXT>Kalan tehditler:</TEXT>
+    </STATS>
+</CALLOUT>

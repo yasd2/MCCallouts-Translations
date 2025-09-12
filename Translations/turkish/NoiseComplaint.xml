@@ -1,0 +1,61 @@
+<NoiseComplaint>
+    <General>
+        <Text>Gürültü Şikayeti</Text>
+        <Text>Yüksek sesli bir ev partisinin ihbarı</Text>
+        <Text>Komşular gürültü şikayetiyle aradı. ~o~Etkinlik~s~ organizatörünün müziğin sesini kısmasını sağlayın.</Text>
+        <Text>Kendiniz için ses seviyesini ayarlamak üzere {Key} tuşuna basın.</Text>
+    </General>
+
+    <Persons>
+        <Text>You</Text>
+        <Text>Owner</Text>
+        <Text>DJ</Text>
+    </Persons>
+
+    <Tasks>
+        <Text>Partiden ~y~sarı işaretçiye~s~ doğru sürerek ayrılın.</Text>
+        <Text>Burada doğru olduğunu düşündüğünüz gibi davranın, sonra ~g~~h~DJ~h~~s~ ile konuşun.</Text>
+        <Text>Arayan kişi aynı adresten tekrar gürültü şikayeti bildirdi. Code 2 ile yanıt verin.</Text>
+    </Tasks>
+
+    <OwnerCooperative>
+        <Dialogue>Merhaba Komiserim, nasıl yardımcı olabilirim?</Dialogue>
+        <Dialogue>Yüksek sesli müzikle ilgili bir şikayet aldık. Lütfen sesini kısın.</Dialogue>
+        <Dialogue>Eğer buraya tekrar gelmek zorunda kalırsam, yüksek sesli müzik nedeniyle ceza alacaksınız.</Dialogue>
+        <Dialogue>Pekala, peki, sesini kısarız.</Dialogue>
+        <Dialogue>İşbirliğiniz için teşekkürler, gecenin tadını çıkarın.</Dialogue>
+    </OwnerCooperative>
+
+    <OwnerUncooperative>
+        <Dialogue>Yoo, polisler, ne bok yemeye geldiniz buraya?</Dialogue>
+        <Dialogue>Yüksek sesli müzik nedeniyle bu adrese gönderildik.</Dialogue>
+        <Dialogue>Ne boku, burası anaokuluna mı benziyor? Parti yapıyoruz be!</Dialogue>
+        <Dialogue>Müziğin sesini derhal kısın.</Dialogue>
+        <Dialogue>Hiçbir şey yapmıyorum, ya beni tutuklarsınız ya da gidersiniz, domuz herif.</Dialogue>
+    </OwnerUncooperative>
+
+    <OwnerSecond>
+        <Dialogue>Merhaba tekrar, müziğinizin çok yüksek olduğuna dair bir çağrı daha aldık.</Dialogue>
+        <Dialogue>Ve duyduğuma göre, sesini kısmak yerine tekrar yükseltmişsiniz...</Dialogue>
+        <Dialogue>Ah, Komiserim, sadece eğleniyoruz, büyük bir parti var.</Dialogue>
+        <Dialogue>O sorun değil, müzik kabul edilebilir bir seviyede olduğu sürece.</Dialogue>
+        <Dialogue>Eğer tekrar gelmek zorunda kalırsam, tutuklanacaksınız!</Dialogue>
+        <Dialogue>Buraya ikinci gelişim olduğu için size ceza keseceğim.</Dialogue>
+        <Dialogue>İyi ama daha sessiz bir gece geçirin.</Dialogue>
+    </OwnerSecond>
+
+    <DJ>
+        <Dialogue>Merhaba bayım, buradaki DJ sizsiniz, değil mi?</Dialogue>
+        <Dialogue>Evet bayım, ~o~ev sahibi~s~ için üzgünüm, benim adım ~g~DJ Moodyman~s~.</Dialogue>
+        <Dialogue>Ah, bir süre önce yatta çalıyordunuz, değil mi?</Dialogue>
+        <Dialogue>Evet, orada olduğunuzu hatırlıyorum. Neyse, sizin için ne yapabilirim?</Dialogue>
+        <Dialogue>Lütfen sesini kısın, rahatsız olan komşularımız var.</Dialogue>
+        <Dialogue>Ah evet, sorun değil, kısarım. Ev sahibinin bu kadar işbirlikçi olmamasına üzgünüm.</Dialogue>
+        <Dialogue>Onunla ne yapacağımı göreceğim. İyi günler!</Dialogue>
+    </DJ>
+
+    <End>
+        <Text>~g~Operasyon Code 4.</Text>
+        <Text>Operasyonu bitirmek için istediğiniz zaman ~y~End~s~ tuşuna basın.</Text>
+    </End>
+</NoiseComplaint>
