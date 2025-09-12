@@ -9,23 +9,23 @@
 
     <FalseAlarm>
         <Dialogue>Dispaccio, qui non succede niente.</Dialogue>
-        <Dialoque>Copialo, torna in pattuglia.</Dialoque>
+        <Dialogue>Copialo, torna in pattuglia.</Dialogue>
     </FalseAlarm>
 
     <AnimalOnScene>
-<Dialogue>Dispaccio, falso allarme, solo un animale che provoca il caos.</Dialogue>
-        <Dialoque>Copialo, torna in pattuglia.</Dialoque>
+        <Dialogue>Dispaccio, falso allarme, solo un animale che provoca il caos.</Dialogue>
+        <Dialogue>Copialo, torna in pattuglia.</Dialogue>
     </AnimalOnScene>
 
     <BurglarLeft>
-        <Dialoque>Dispaccio, abbiamo segni di un intruso qui, che sta perlustrando la scena.</Dialoque>
+        <Dialogue>Dispaccio, abbiamo segni di un intruso qui, che sta perlustrando la scena.</Dialogue>
         <Dialogue>Hmmm, questo non aiuta.</Dialogue>
         <Dialogue>Centrale, ho trovato un documento di {DriversName}.</Dialogue>
         <Dialogue>Ho ricevuto un riscontro ALPR su un veicolo in corsa, il proprietario è {DriversName}.</Dialogue>
     </BurglarLeft>
 
     <BurglarIsLeaving>
-       <Dialoque>Distribuzione, un veicolo ~r~in fuga~s~, due occupanti!</Dialoque>
+       <Dialogue>Distribuzione, un veicolo ~r~in fuga~s~, due occupanti!</Dialogue>
     </BurglarIsLeaving>
 
 </Burglary>

@@ -52,55 +52,53 @@
         <MenuName>Decide:</MenuName>
 
         <Menu1>
-                <Conversation>Stay still</Conversation>
-                <Conversation>~y~You~s~: Don't worry, I'll stay right here.</Conversation>
-                <Conversation>Apply pressure</Conversation>
-                <Conversation>~y~You~s~: I'll blow your head off, you bastard!</Conversation>
+            <Conversation>Stay still</Conversation>
+            <Conversation>~y~You~s~: Don't worry, I'll stay right here.</Conversation>
+            <Conversation>Apply pressure</Conversation>
+            <Conversation>~y~You~s~: I'll blow your head off, you bastard!</Conversation>
         </Menu1>
 
         <Menu2>
-                <Conversation>20,000 $ in cash</Conversation> <!-- Feel free to change currency (€) to your country. -->
-                <Conversation>~y~You~s~: We'll give you 20,000 $ in cash, does that sound good?</Conversation> <!-- Feel free to change currency (€) to your country. -->
-                <Conversation>Improve detention conditions</Conversation>
-                <Conversation>~y~You~s~: We can get your boss a bigger cell with a TV, how about that?</Conversation>
-                <Conversation><![CDATA[Suggest a fresh start & psychologist]]></Conversation>
-                <Conversation>~y~You~s~: I understand. A friend of mine is a great psychologist, she can help you get back on track, how does that sound?</Conversation>
+            <Conversation>20,000 $ in cash</Conversation> <!-- Feel free to change currency (€) to your country. -->
+            <Conversation>~y~You~s~: We'll give you 20,000 $ in cash, does that sound good?</Conversation> <!-- Feel free to change currency (€) to your country. -->
+            <Conversation>Improve detention conditions</Conversation>
+            <Conversation>~y~You~s~: We can get your boss a bigger cell with a TV, how about that?</Conversation>
+            <Conversation><![CDATA[Suggest a fresh start & psychologist]]></Conversation>
+            <Conversation>~y~You~s~: I understand. A friend of mine is a great psychologist, she can help you get back on track, how does that sound?</Conversation>
         </Menu2>
 
         <Menu3>
-                <Conversation>Getaway car with limited fuel</Conversation>
-                <Conversation>~y~You~s~: You'll get a getaway car with limited fuel, but where are you going?</Conversation>
-                <Conversation>Suggest pizza</Conversation>
-                <Conversation>~y~You~s~: How about a pizza instead?</Conversation>
+            <Conversation>Getaway car with limited fuel</Conversation>
+            <Conversation>~y~You~s~: You'll get a getaway car with limited fuel, but where are you going?</Conversation>
+            <Conversation>Suggest pizza</Conversation>
+            <Conversation>~y~You~s~: How about a pizza instead?</Conversation>
         </Menu3>
     </Menu>
 
     <SuspectTalk>
-                <Dialogue>~r~Suspect~s~: Get lost! What do you want here?! Don't come any closer!</Dialogue>
-                <Dialogue>~r~Suspect~s~: You better hope so! Now, everyone leave, I don't want to see any more police!</Dialogue>
-                <Dialogue>~r~Suspect~s~: You can't do anything to me! I don't want to see any more police, or it will rain bullets!</Dialogue>
-                <Dialogue>~y~You~s~: I understand, but the building is surrounded.</Dialogue>
-                <Dialogue>~y~You~s~: I want this to end peacefully, for you, for the hostage, and for the officers.</Dialogue>
-                <Dialogue>~y~You~s~: Why did you rob the store?</Dialogue>
+        <Dialogue>~r~Suspect~s~: Get lost! What do you want here?! Don't come any closer!</Dialogue>
+        <Dialogue>~r~Suspect~s~: You better hope so! Now, everyone leave, I don't want to see any more police!</Dialogue>
+        <Dialogue>~r~Suspect~s~: You can't do anything to me! I don't want to see any more police, or it will rain bullets!</Dialogue>
+        <Dialogue>~y~You~s~: I understand, but the building is surrounded.</Dialogue>
+        <Dialogue>~y~You~s~: I want this to end peacefully, for you, for the hostage, and for the officers.</Dialogue>
+        <Dialogue>~y~You~s~: Why did you rob the store?</Dialogue>
         <Reasons>
             <Dialogue>~r~Suspect~s~: I need ~b~money~s~, I'm ~b~broke~s~ and can't pay my rent anymore!</Dialogue>
             <Dialogue>~r~Suspect~s~: It's her fault! ~b~She left me!~s~ And now she's my hostage!</Dialogue>
             <Dialogue>~r~Suspect~s~: My ~b~boss~s~ is in ~b~prison~s~, I won't leave until he's free!</Dialogue>
         </Reasons>
-                <Dialogue>~y~You~s~: Listen closely, I'm offering you the following deal:</Dialogue>
-                <Dialogue>~r~Suspect~s~: We'll make the deal, but what do you want in return?</Dialogue>
-                <Dialogue>~y~You~s~: Once again, everyone should go home safely and you need to let go of the hostage!</Dialogue>
-                <Dialogue>~r~Suspect~s~: You give me a getaway car, I'll let the hostage go later!</Dialogue>
-                <Dialogue>~r~Suspect~s~: That doesn't make sense, final offer...</Dialogue>
+        <Dialogue>~y~You~s~: Listen closely, I'm offering you the following deal:</Dialogue>
+        <Dialogue>~r~Suspect~s~: We'll make the deal, but what do you want in return?</Dialogue>
+        <Dialogue>~y~You~s~: Once again, everyone should go home safely and you need to let go of the hostage!</Dialogue>
+        <Dialogue>~r~Suspect~s~: You give me a getaway car, I'll let the hostage go later!</Dialogue>
+        <Dialogue>~r~Suspect~s~: That doesn't make sense, final offer...</Dialogue>
         <Fail>
             <Dialogue>~r~Suspect~s~: Fuck you and your deals! And the police are still here!</Dialogue>
             <Dialogue>~r~Suspect~s~: Now you'll see what you get!</Dialogue>
             <Dialogue>~r~Suspect~s~: You're crazy! Now you'll see what you get!</Dialogue>
         </Fail>
-                <Dialogue>~r~Suspect~s~: I'm not telling you, but I will release the hostage as soon as I don't see any more police.</Dialogue>
-                <Dialogue>~y~You~s~: The car should be there any moment...</Dialogue>
-        
-        
+        <Dialogue>~r~Suspect~s~: I'm not telling you, but I will release the hostage as soon as I don't see any more police.</Dialogue>
+        <Dialogue>~y~You~s~: The car should be there any moment...</Dialogue>
     </SuspectTalk>
 
     <SuspectDrives>
@@ -113,19 +111,19 @@
     </SuspectDrives>
 
     <HostageTalk>
-                <Dialogue>~g~Hostage~s~: Thank you so much, the guy is completely insane! I can't believe it!</Dialogue>
-                <Dialogue>~y~You~s~: Calm down. The hostage-taker is no longer a problem for you.</Dialogue>
-                <Dialogue>~y~You~s~: Are you alright? Do you need medical or psychological assistance?</Dialogue>
-                <Dialogue>~g~Hostage~s~: I'm fine, I just want to go home.</Dialogue>
-                <Dialogue>~y~You~s~: How did the hostage situation come about?</Dialogue>
+        <Dialogue>~g~Hostage~s~: Thank you so much, the guy is completely insane! I can't believe it!</Dialogue>
+        <Dialogue>~y~You~s~: Calm down. The hostage-taker is no longer a problem for you.</Dialogue>
+        <Dialogue>~y~You~s~: Are you alright? Do you need medical or psychological assistance?</Dialogue>
+        <Dialogue>~g~Hostage~s~: I'm fine, I just want to go home.</Dialogue>
+        <Dialogue>~y~You~s~: How did the hostage situation come about?</Dialogue>
         <ExGirlfriend>
             <Dialogue>~g~Hostage~s~: My ex-boyfriend went crazy, I broke up with him two weeks ago.</Dialogue>
             <Dialogue><![CDATA[~g~Hostage~s~: He couldn't handle it & followed me here.]]></Dialogue>
         </ExGirlfriend>
-                <Dialogue>~g~Hostage~s~: I just wanted to go shopping, then the guy came and pointed a gun at my head!</Dialogue>
-                <Dialogue>~g~Hostage~s~: He was determined to enforce his demands by all means...</Dialogue>
-                <Dialogue><![CDATA[~y~You~s~: Alright, if you have no other concerns, have a safe trip home & take care!]]></Dialogue>
-                <Dialogue>~g~Hostage~s~: Thank you again, goodbye!</Dialogue>
+        <Dialogue>~g~Hostage~s~: I just wanted to go shopping, then the guy came and pointed a gun at my head!</Dialogue>
+        <Dialogue>~g~Hostage~s~: He was determined to enforce his demands by all means...</Dialogue>
+        <Dialogue><![CDATA[~y~You~s~: Alright, if you have no other concerns, have a safe trip home & take care!]]></Dialogue>
+        <Dialogue>~g~Hostage~s~: Thank you again, goodbye!</Dialogue>
     </HostageTalk>
 
     <End>
