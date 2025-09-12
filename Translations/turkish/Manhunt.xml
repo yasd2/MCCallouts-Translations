@@ -1,0 +1,25 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>~b~İnsan Avı</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Aranan bir firari en son {ZoneName} bölgesinde görüldü</CALLOUTADVISORY>
+    <TASK>Perimetreye sürün. Memurlar bölgeyi abluka altına aldı.</TASK>
+    <WARRANTS>
+        <TEXT>Cinayet</TEXT>
+        <TEXT>Saldırı</TEXT>
+        <TEXT>Mahkemeye Çıkmama</TEXT>
+        <TEXT>Tehlikeli Araç Kullanma</TEXT>
+    </WARRANTS>
+    <BACKUP>
+        <TEXT>~b~Takviye ekip çağırmak için sonraki 10 saniye içinde ~y~{Y}~b~ tuşuna basın. Aramaya yardımcı olacaklar.</TEXT>
+        <TEXT>~b~Takviye ekip yolda ve şüpheliyi aramaya yardımcı olacak.</TEXT>
+        <TEXT>Anlaşıldı. Takviye ekip gönderilmeyecek.</TEXT>
+    </BACKUP>
+    <SEARCH>
+        <TEXT>~r~{Name}~s~ adlı şahsı, ~r~{Warrant}~s~ suçundan dolayı arıyoruz.</TEXT> 
+        <TEXT>Yardıma mı ihtiyacınız var? ~r~Şüphelinin~s~ yerini bulmak için ~{9}~ tuşuna basın!</TEXT>
+        <TEXT>~r~Şüpheli~s~ bulundu! Onu tutuklayın!</TEXT>
+    </SEARCH>
+    <END>
+        <TEXT>{CalloutMessage} sona erdi.~n~</TEXT>
+        <TEXT>~g~Şüpheli ~r~{Name}~g~ tutuklandı.~n~</TEXT>
+    </END>
+</CALLOUT>

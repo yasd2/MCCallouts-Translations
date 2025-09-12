@@ -1,0 +1,31 @@
+<ProtectTheVIP>
+    <CalloutMessage>VIP Koruması</CalloutMessage>
+    <CalloutAdvisory>Onları çete üyelerine karşı koruyun!</CalloutAdvisory>
+    <Task>~g~VIP'e doğru sürün.</Task>
+    <VIP>
+        <Dialogue>Merhaba! Hizmetiniz için teşekkür ederim, bir kartel tarafından hedef alınıyorum.</Dialogue>
+        <Dialogue>Hayatıma yönelik çok sayıda tehdit aldım. Korumaya ihtiyacım var.</Dialogue>
+        <Dialogue>~HC_17~Rusty Brown's Ring Donuts'un sahibiyim.</Dialogue>
+        <Dialogue>Aman tanrım, işte oradalar!</Dialogue>
+        <Task>~o~{Y}~s~ tuşuna basın - VIP bulunduğunuz konuma ~o~hareket eder</Task>
+        <Task>~g~{J}:~s~ tuşuna basın - VIP'in sizi ~g~takip etmesini aç/kapat</Task>
+        <Task>VIP Kontrolü</Task>
+        <Task>Eylemler</Task>
+        <Dead>~r~VIP öldü</Dead>
+    </VIP>
+
+    <Difficulty>
+        <Title>Zorluk</Title>
+        <Easy>Kolay</Easy>
+        <Medium>Orta</Medium>
+        <Hard>Zor</Hard>
+    </Difficulty>
+
+    <FightGang>
+        <Dialogue>~y~Siz:~s~ Hemen buraya geçin!</Dialogue>
+        <Dialogue>Beni takip edin!</Dialogue>
+        <Dialogue>Tam burada kalın!</Dialogue>
+    </FightGang>
+
+    <End>~b~VIP Koruması sona erdi.</End>
+</ProtectTheVIP>

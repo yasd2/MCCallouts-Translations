@@ -1,0 +1,9 @@
+<Timecycle>
+    <General>
+        <Text>Gerçekçi bir deneyim için saat ~b~21.00'de~w~ oynamak ister misin?</Text>
+        <Text>~g~Evet~w~ için '~g~Y~w~', ~r~Hayır~w~ için '~r~N~w~' tuşuna bas.</Text>
+        <Text>~g~Evet~w~ için {0},  ~r~Hayır~w~ için {1} tuşuna bas.</Text>
+        <Text>Zaman durduruldu, iyi eğlenceler!</Text>
+        <Text>Saat ~b~gece~w~ olarak ayarlandı.</Text>
+    </General>
+</Timecycle>

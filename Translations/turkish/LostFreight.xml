@@ -1,0 +1,60 @@
+<LostFreight>
+
+<General>
+        <Text>Kaybolan Yük</Text>
+        <Text>Arayan kişi, otoyolda yük kaybı olduğunu bildirdi.</Text>
+        <Text><![CDATA[Arayan kişiye gidip iletişime geçin.]]></Text>
+    </General>
+
+
+    <DisplayHelp>
+        <Text>Arayan kişiyle konuşmak için </Text>
+        <Text><![CDATA[~y~Bölgeyi~s~ arayın & engelleri temizlemek için ]]></Text>
+        <Text>~b~Memurla~s~ konuşmak için </Text>
+        <Text>Başka iletişim yok.</Text>
+        <Text>İşte küçük bir ~g~ipucu.</Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+        <Text>Yakınlarda ~r~nesne yok~s~.</Text>
+        <Text>~r~Nesne~s~ kaldırıldı!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>~y~Siz~s~: Merhaba, kaybolan yük için siz mi aramıştınız?</Dialogue>
+        <Dialogue><![CDATA[~b~Arayan~s~: Merhaba, evet, römorkun kapısı açılmış & şimdi eşyalar otoyola saçıldı!]]></Dialogue>
+        <Dialogue>~y~Siz~s~: Bu tehlikeli, ne taşıyordunuz?</Dialogue>
+        <Dialogue>~b~Arayan~s~: Kulüp binamızı boşalttığımız için her türlü ~b~tenis malzemesi~s~.</Dialogue>
+        <Dialogue>~b~Arayan~s~: Bir sürü ~b~ofis eşyası~s~, dolaplar, ekranlar, sandalyeler, hoparlörler...</Dialogue>
+        <Dialogue>~b~Arayan~s~: Şirket yeri değiştirdiği için bir sürü ~b~mutfak eşyası~s~, tencere, çatal-bıçak, tabak vb.</Dialogue>
+        <Dialogue>~y~Siz~s~: Anladım, nereye gidiyordunuz?</Dialogue>
+        <Dialogue>~b~Arayan~s~: Sadece ~y~bu yöne~s~ doğru gidiyordum, o yüzden otoyolun sadece o tarafını arayın.</Dialogue>
+        <Dialogue>~y~Siz~s~: Merkez, son otoyol girişini bloke edin, yolda parçalar var!</Dialogue>
+        <Dialogue>Anlaşıldı, trafik durdurulacak, ekipler yolda.</Dialogue>
+    </Conversation>
+
+
+    <Officer1>
+        <Dialogue>~b~Memur Bule~s~: Merhaba! Umarım harika bir gün geçiriyorsunuzdur!</Dialogue>
+        <Dialogue>~b~Memur Bule~s~: Yol temizlenene kadar trafiği durduracağım!</Dialogue>
+        <Dialogue>~b~Memur Bule~s~: İyi şanslar!</Dialogue>
+    </Officer1>
+
+
+    <Officer2>
+        <Dialogue>~b~Memur Night~s~: Merhaba, bu daha ne kadar sürecek?</Dialogue>
+        <Dialogue>~b~Memur Night~s~: Benim de yapacak başka işlerim var!</Dialogue>
+        <Dialogue>~b~Memur Night~s~: Bu kadar çok konuşmasaydın, çoktan gitmiştim!</Dialogue>
+    </Officer2>
+
+
+    <End>
+        <Text>~g~Kod 4'e~s~ geçtik</Text>
+        <Text>Bulunan eşya sayısı:</Text> <Text>/~g~4</Text> <Text>~r~Teşekkürler, ~g~trafik akışı tekrar sağlanabilir!</Text>
+    </End>
+
+
+
+</LostFreight>

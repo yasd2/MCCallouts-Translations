@@ -1,0 +1,24 @@
+<WantedSuspectLocated>
+
+    <General>
+        <Text>Aranan Şüphelinin Konumu Tespit Edildi</Text>
+        <Text>2 olası konumu kontrol et</Text>
+        <Text>Şüpheli Gözaltında, ~g~Code 4~w~</Text>
+    </General>
+
+    <Scenes>
+        <Text>İlk bölgede ~r~şüpheliyi~w~ ara.</Text>
+        <Text>~g~Bölgede~w~ ~r~şüpheliyi~w~ ara.</Text>
+        <Text>Şüpheli bulunamadı, ~g~ikinci konuma~w~ geç.</Text>
+        <Text>Şimdi ikinci ~g~bölgede~w~ ~r~şüpheliyi~w~ ara. ~r~Orada olmak zorunda~w~!</Text>
+        <Text>~r~Şüpheli tanımı:{0}~y~Asyalı erkek~s~, zayıf,{0}siyah saçlı, 30 yaşında{0}üzerinde ~b~mavi~s~ bir tişört var</Text>
+        <Text>~r~Şüpheli tanımı:{0}~y~Siyahi kadın~s~, zayıf,{0}siyah saçlı, 30 yaşında,{0}üzerinde ~r~kırmızı bir tişört var</Text> <Text>~r~Şüpheli ~y~asyalı bir erkek~s~,{0}30'larının ortasında, zayıf ve siyah saçlı{0}üzerinde de ~b~mavi bir tişört var.</Text>
+    </Scenes>
+    
+    <Outcomes>
+        <Dialogue>~r~Şüpheli~w~: Aman Tanrım, polis! Ateş etmeyin! Teslim oluyorum!</Dialogue>
+        <Dialogue>~r~Şüpheli~w~: Siktir, polisler! Siktir git, aptal domuzlar, ~o~kafanızı uçuracağım~w~!</Dialogue>
+        <Dialogue>~y~Siz~w~: Merkez, şüpheli bulundu, ~o~takip~w~ başlıyor!</Dialogue>
+    </Outcomes>
+
+</WantedSuspectLocated>

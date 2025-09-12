@@ -1,0 +1,218 @@
+<BicycleAccident>
+
+    <General>
+        <Text>Bisiklet Trafik Kazası</Text>
+        <Text>Olay yerini analiz et</Text>
+        <Text>Bu kazaya neyin sebep olduğunu buldunuz mu?</Text>
+        <Text>Bisiklet Kazası çağrısı sona erdi.</Text>
+    </General>
+
+
+    <D_Witness1_0>
+        <Dialogue>Merhaba, ben Oğuz. Size neden böyle olduğunu anlatayım.</Dialogue>
+        <Dialogue>Şu şüpheliye bakın! Ceza yemesi lazım.</Dialogue>
+        <Dialogue>Hız limitinin çok üzerinde sürüyordu.</Dialogue>
+        <Dialogue>İnsanlar bu günlerde hız limitini umursamıyor.</Dialogue>
+    </D_Witness1_0>
+
+    <D_Witness2_0>
+        <Dialogue>Merhaba. Kazanın bir kısmını gördüm.</Dialogue>
+        <Dialogue>Kaldırımda bekliyor, gelen araçlara bakıyordu.</Dialogue>
+        <Dialogue>Elinde bir şeyler de vardı. Göremedim ne olduğunu.</Dialogue>
+        <Dialogue>%100 emin değilim ve bisikletçiyi suçlamak istemem ama gergin görünüyordu.</Dialogue>
+        <Dialogue>Sonra kendi işime bakıyordum ki yüksek bir patlama sesi duydum, işte o zaman oldu.</Dialogue>
+    </D_Witness2_0>
+
+    <D_Witness3_0>
+        <Dialogue>Adım Doğukan, size söylüyorum, bisikletçiler için daha fazla korumaya ihtiyacımız var.</Dialogue>
+        <Dialogue>Bisiklet yolu yok, bisiklet süren biri güvenli bir şekilde nerede sürmeli o zaman?</Dialogue>
+        <Dialogue>Ama araba şoförünü suçlayamazsınız, bu bisikletçi düpedüz aptaldı.</Dialogue>
+        <Dialogue>Sağa baktı, tam gelen araca. O zaman sürmeye başladı.</Dialogue>
+        <Dialogue>Bu aptallık, değil mi?</Dialogue>
+    </D_Witness3_0>
+
+    <D_Witness4_Driver_0>
+        <Dialogue>Merhaba, ben Türkan. Sürerken ne olduğunu gördüm.</Dialogue>
+        <Dialogue>Şüpheli açıkça bir şeyler karıştırıyordu.</Dialogue>
+        <Dialogue>Ah üzgünüm, bisikletçiden bahsettiğimi belirtmeliyim.</Dialogue>
+        <Dialogue>Elinde bir kamera vardı, sanki film çekmek istiyordu.</Dialogue>
+        <Dialogue>Bisikletçi aracın önüne atlamak istemiş gibiydi.</Dialogue>
+    </D_Witness4_Driver_0>
+
+    <D_Suspect_0>
+        <Dialogue>Merhaba komiserim, tüm bunlar için üzgünüm.</Dialogue>
+        <Dialogue>Bisikletçinin mi hatasıydı? Yoksa benim mi? Bisikletçiyi hiç görmedim.</Dialogue>
+        <Dialogue>Sürüyordum ki aniden bisikletçi tam önümde belirdi.</Dialogue>
+        <Dialogue>Sert fren yaptım ama yeterli olmadı. Umarım iyi olur.</Dialogue>
+        <Dialogue>Arabam kötü hasar gördü ama sigorta halleder.</Dialogue>
+    </D_Suspect_0>
+
+
+    <D_Witness1_1>
+        <Dialogue>Hey, neden bu kadar uzun sürüyor?! Acelem var.</Dialogue>
+        <Dialogue>İşe gidiyorum, zaten 5 dakika geç kaldım!</Dialogue>
+        <Dialogue>Sadece bisikletçinin cehennem gibi sürdüğünü gördüm, çok hızlıydı.</Dialogue>
+        <Dialogue>Kaldırımda çok hızlı sürüyordu, gördüğüm buydu.</Dialogue>
+        <Dialogue>Gerçekten hemen gitmem lazım, güle güle!</Dialogue>
+    </D_Witness1_1>
+
+    <D_Witness2_1>
+        <Dialogue>Merhaba, ben Esin. Bu bisikletçiler, hep yolu tıkıyorlar!</Dialogue>
+        <Dialogue>Böyle kazaların olması şaşırtıcı değil. Sürücülerin gidecekleri yere hızlıca varması gerekiyor ve bisikletçileri bekleyemezler.</Dialogue>
+        <Dialogue>Bu bisikletçi kask bile takmıyordu! Ne kadar da umursamaz!</Dialogue>
+        <Dialogue>Bu bisikletçi şeytan gibi sürüyordu. Ve diğer tüm arabalar tehlikeli bir şekilde sollamak zorunda kalıyor, gelen trafiğin hayatını riske atıyor!</Dialogue>
+        <Dialogue>Size söyleyeyim, bu bisikletçiye dikkat etmeniz gerekiyor.</Dialogue>
+    </D_Witness2_1>
+
+    <D_Witness3_1>
+        <Dialogue>Merhaba, ben Doğukan. Bildirmek istediğim bir şey var. Vay canına, üniformanızı çok beğendim.</Dialogue>
+        <Dialogue>Ne tür bir tabanca taşıyorsunuz? SAR9 mu? Ne güzel bir silah.</Dialogue>
+        <Dialogue>Ah evet, üzgünüm, öncelikle bisikletçinin kask takmadığını gördüm.</Dialogue>
+        <Dialogue>Bisikletçi kulaklık takıyordu ve sürerken kaskı yoktu.</Dialogue>
+        <Dialogue>Söyleyin bana, polis memuru olmak için gerekenlere sahip miyim?</Dialogue>
+    </D_Witness3_1>
+
+    <D_Witness4_Driver_1>
+        <Dialogue>Merhaba, ben Türkan. Kazaya doğru karşı şeritten geliyordum. Her şeyi gördüm.</Dialogue>
+        <Dialogue>Araba park halindeydi, sonra sürücü kalkış yapmak üzereydi.</Dialogue>
+        <Dialogue>İşte o zaman bisikletçi kaldırımdan yola geçti, hiç bakmıyordu bile.</Dialogue>
+        <Dialogue>Bisikletçi hızlı sürüyordu. Gördüğüm her şey buydu.</Dialogue>
+    </D_Witness4_Driver_1>
+
+
+    <D_Suspect_1_2>
+        <Dialogue>Merhaba, ne sahne var burada. Hepsi bu bisikletçi yüzünden bana çarptı.</Dialogue>
+        <Dialogue>Aptal bisikletçiler, şimdi arabama bakın! Ön taraf mahvoldu!</Dialogue>
+        <Dialogue>Bu aracı yeni aldım, daha bir ay bile olmadı!</Dialogue>
+        <Dialogue>Bisikletçi kaldırımda sürüyordu, sonra aniden üzerime sürdü. Tepki verecek şansım olmadı.</Dialogue>
+        <Dialogue>Umarım tez zamanda iyileşir, yanlış anlamayın. Ama hata bende değildi.</Dialogue>
+    </D_Suspect_1_2>
+
+    <D_Witness1_2>
+        <Dialogue>Hey, acelem var, çabuk olun. Dinleyin.</Dialogue>
+        <Dialogue>Adım mı? Oğuz. İşe hızlıca gitmem lazım.</Dialogue>
+        <Dialogue>Sadece arabanın hız yaptığını gördüm, çok hızlıydı.</Dialogue>
+        <Dialogue>Bisiklet hakkında hiçbir şey bilmiyorum, görmedim.</Dialogue>
+        <Dialogue>Gidebilir miyim şimdi? Bildiğim tek şey bu.</Dialogue>
+    </D_Witness1_2>
+
+    <D_Witness2_2>
+        <Dialogue>Hey, ben Esin. Dostum, şu bisiklete bakın, tamamen mahvolmuş.</Dialogue>
+        <Dialogue>Bisikletçiyi izliyordum, bisiklet yüzünden. O benim favori bisikletimdi, ya da öyleydi...</Dialogue>
+        <Dialogue>Ah üzgünüm, yolun kenarında sürüyordu. Aniden arkadan vuruldu.</Dialogue>
+        <Dialogue>Yüksek bir fren sesi duydum ve sonra... bisiklet uçup gitti...</Dialogue>
+    </D_Witness2_2>
+
+    <D_Witness3_2>
+        <Dialogue>Ah hey komiserim, ben Doğukan, tanıştığımıza memnun oldum!</Dialogue>
+        <Dialogue>Biliyorsunuz, ben de emniyet güçlerinde çalışmayı düşünüyordum, bunun için yaratılmışım.</Dialogue>
+        <Dialogue>Yürüyordum ki bu bisikletçiyi gördüm. Kask takmıyordu ve ön bisiklet ışığı yoktu.</Dialogue>
+        <Dialogue>Bazen koyu renk kıyafetli insanları görmek zor oluyor, özellikle kötü hava koşullarında.</Dialogue>
+    </D_Witness3_2>
+
+    <D_Witness4_Driver_2>
+        <Dialogue>Merhaba! Adım Türkan. Yakındaki fırında çalışıyorum.</Dialogue>
+        <Dialogue>Pencereden dışarı bakarken bir arabanın geçtiğini gördüm.</Dialogue>
+        <Dialogue>Hız yapıyor olabilirdi ama telefonunda gördüm. Oldukça eminim bu arabaydı.</Dialogue>
+        <Dialogue>Yüksek bir patlama sesi duyduğumda dışarı koştum. İşte o zaman olayı gördüm.</Dialogue>
+    </D_Witness4_Driver_2>  
+
+
+    <Persons>
+        <Text>Siz</Text>
+        <Text>Oğuz</Text>
+        <Text>Esin</Text>
+        <Text>Doğukan</Text>
+        <Text>Türkan</Text>
+        <Text>Paramedik</Text>
+        <Text>Mağdur</Text>
+        <Text>Peter</Text>
+        <Text>Isabella</Text>
+        <Text>Memur Thompson</Text>
+        <Text>Memur Reynolds</Text>
+        <Text>Memur Harrison</Text>
+        <Text>Memur Clinton</Text>
+        <Text>İtfaiyeci</Text>
+    </Persons>
+
+
+    <D_Paramedic1>
+        <Dialogue>Hey, nasıl gidiyor? Benim 10.000'lik büyük crowex saatim dikkatini dağıtmasın.</Dialogue>
+        <Dialogue>Ah, hasta nasıl? Bisikletçi iyi görünmüyor. Kötü yaralanmış.</Dialogue>
+        <Dialogue>Tepki vermiyor, bu yüzden onu hemen hastaneye götürmemiz gerekiyor.</Dialogue>
+    </D_Paramedic1>
+
+    <D_Paramedic2>
+        <Dialogue>Sohbet edecek vaktim yok. Bisikletçinin kötü yaraları var, lütfen sözümü kesmeyin.</Dialogue>
+        <Dialogue>* inler * ...</Dialogue>
+    </D_Paramedic2>
+
+    <D_Officer1>
+        <Dialogue>Hey komiserim! Geldiğiniz için teşekkürler! Burada bir trafik kazası var.</Dialogue>
+        <Dialogue>Tanıkları sorgulamaktan çekinmeyin, ben bu arada burada takılırım.</Dialogue>
+        <Dialogue>Kimin suçlu olduğunu ve burada neler olup bittiğini öğrenin. Araştırmanız bittiğinde tekrar benimle konuşun! İyi şanslar!</Dialogue>
+    </D_Officer1>
+
+
+    <D_Officer1_InsuranceFraud>
+        <Dialogue>Bisikletçi, sürücüye karşı sigorta dolandırıcılığı yapmaya çalıştı.</Dialogue>
+        <Dialogue>Sağlık ekibi tarafından onaylanır onaylanmaz onu tutuklayacağız! Şimdilik teşekkürler!</Dialogue>
+    </D_Officer1_InsuranceFraud>
+
+    <D_Officer1_BikersFault>
+        <Dialogue>Bisikletçi açıkça yola odaklanmamıştı. Bu onun suçu.</Dialogue>
+        <Dialogue>Tamam, sağlık ekibi tarafından onaylanır onaylanmaz ceza yiyecek! Teşekkür ederim!</Dialogue>
+    </D_Officer1_BikersFault>
+
+    <D_Officer1_DriversFault>
+        <Dialogue>Sürücü açıkça trafik kurallarına uymadı. Suç onda!</Dialogue>
+        <Dialogue>Anlaşıldı, sürücüyü tutuklayın!</Dialogue>
+    </D_Officer1_DriversFault>
+
+
+    <D_Officer2>
+        <Dialogue>Sabah kahvemi içmedim, makinemiz bozuk...</Dialogue>
+    </D_Officer2>
+
+    <D_Officer3>
+        <Dialogue>Hey, bu kişi bir şeyler gördü, onlarla konuşabilirsiniz.</Dialogue>
+    </D_Officer3>
+
+    <D_Officer4>
+        <Dialogue>Merhaba partner, ne kötü bir kaza. Tüm tanıkların sorgulandığından emin ol.</Dialogue>
+    </D_Officer4>
+
+    <D_Fireman1>
+        <Dialogue>Bu aracın ön tarafında ciddi hasar var.</Dialogue>
+        <Dialogue>Araç yanar veya yağ kaybeder diye buradayız.</Dialogue>
+    </D_Fireman1>
+
+    <D_Fireman3>
+        <Dialogue>Adamım, Bean Machine'den kahveyi çok seviyorum, özellikle gece vardiyalarında. Denemelisin!</Dialogue>
+    </D_Fireman3>
+
+
+    <Menu>
+        <Text>Senaryo</Text>
+        <Text>Trafik Kazası</Text>
+        <Text>Doğru olanı seçin!</Text>
+
+        <Text>Sigorta Dolandırıcılığı</Text>
+        <Text>Bisikletçi bunu kasten yaptı!</Text>
+        <Text>Bisikletçi Sigorta Dolandırıcılığına Teşebbüs Etti!</Text>
+
+        <Text>Bisikletçinin Hatası</Text>
+        <Text>Bisikletçi dikkat etmedi!</Text>
+        <Text>Bu bisikletçinin hatası!</Text>
+
+        <Text>Sürücünün Hatası</Text>
+        <Text>Sürücü hatalı!</Text>
+        <Text>Kazaya araba sürücüsü sebep oldu!</Text>
+
+        <Text>~g~Soruşturma doğru</Text>
+        <Text>~r~Soruşturma başarısız</Text>
+
+        <Text>Çağrıyı bitirmek için istediğiniz zaman ~y~Bitir~s~ tuşuna basın.</Text>
+    </Menu>
+
+</BicycleAccident>

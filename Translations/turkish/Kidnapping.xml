@@ -1,0 +1,64 @@
+<Kidnapping>
+
+    <General>
+        <Message>Arayan kişi olası Araçla Adam Kaçırma ihbarı yaptı</Message>
+        <Message>Trafik Durdurması gerekli</Message>
+        <Message>~o~Şüpheli aracı~w~ durdurmak için ~g~trafik durdurması~w~ yapın, Code 3 ile yanıt verin.</Message>
+        <Message>Merkez, bir şüpheli ~y~tutuklandı~w~!</Message>
+        <Message>Sürücü ~r~öldü, ~g~Code 4</Message>
+        <Message>Yolcu ~r~öldü, ~g~Code 4</Message>
+        <Message>Aman Tanrım, Kurban ~r~öldü! ~g~Code 4</Message>
+    </General>
+
+    <Infos>
+        <Info>Araç, ~y~hız yaptığı~w~ için bildirildi.</Info>
+        <Info>Aracın modeli ~b~siyah Granger SUV~w~.</Info>
+    </Infos>
+
+    <Conversation1>
+        <Dialogue>Sürücü ile konuşmak için</Dialogue>
+        <Dialogue>~y~Siz~w~: Merhaba, ben yerel polis departmanından bir memur.</Dialogue>
+        <Dialogue>~o~Sürücü~w~: Görüyorum. Durdurma sebebiniz ne?</Dialogue>
+        <Dialogue>~y~Siz~w~: Aracınızla ilgili bir ihbar aldık. Yanınızda başka kim var?</Dialogue>
+        <Dialogue>~o~Sürücü~w~: Sadece sol arka koltuktaki patronum. Daha fazlasını bilmenize gerek yok.</Dialogue>
+        <Dialogue>~y~Siz~w~: Kiminle konuştuğum bana kalmış, hanımefendi.</Dialogue>
+        <Dialogue>~o~Sol arka yolcu~w~: Dostum, bizimle uğraşma, bir şey yapmadık!</Dialogue>
+        <Dialogue>~y~Siz~w~: Beyefendi, sizinle konuşmuyorum, şimdi o hanımefendiyle konuşmama izin verin.</Dialogue>
+        <Dialogue>~y~Siz~w~: Hanımefendi, iyi misiniz? Bu beyleri tanıyor musunuz?</Dialogue>
+        <Dialogue>~p~Kadın~w~: Evet...</Dialogue>
+        <Dialogue>Kadın ~r~titriyor~w~ ve ~r~rahatsız~w~ görünüyor.</Dialogue>
+        <Dialogue>~o~Sol arka yolcu~w~: Gördün mü, burada yanlış bir şey yok, zamanını boşa harcama!</Dialogue>
+        <Dialogue>Bir şeyler yanlış gidiyor gibi, destek birimi çağırın.</Dialogue>
+        <Dialogue>~y~Siz~w~: Pekala, herkesin tek tek dışarı çıkmasını istiyorum...</Dialogue>
+    </Conversation1>
+
+    <OutcomeVehiclePursuit>
+        <Dialogue>~o~Sol arka yolcu~w~: ~r~Gidelim gidelim gidelim~w~!</Dialogue>
+        <Dialogue>~y~Siz~w~: Merkez, ~r~takip~w~ var!</Dialogue>
+        <Dialogue>Her iki şüpheliyi de ~g~kovalayın~w~, gerekirse ~b~destek~w~ çağırın!</Dialogue>
+    </OutcomeVehiclePursuit>
+
+    <OutcomeSurrender>
+        <Dialogue>~o~Sürücü~w~: ~r~Teslim oluyoruz~w~!</Dialogue>
+        <Dialogue>Her iki şüpheliyi de ~g~tutuklayın~w~!</Dialogue>
+    </OutcomeSurrender>
+
+    <OutcomeFootPursuit>
+        <Dialogue>~o~Sol arka yolcu~w~: ~r~Kaçın!</Dialogue>
+        <Dialogue>~y~Siz~w~: Merkez, iki şüpheli ~r~yaya takibinde~w~!</Dialogue>
+        <Dialogue>Her iki şüpheliyi de ~g~kovalayın~w~, gerekirse ~b~destek~w~ çağırın!</Dialogue>
+    </OutcomeFootPursuit>
+
+    <VictimTalk>
+        <Dialogue>~g~Kurbanın~w~ yanına gidin ve ~g~iyi~w~ olduğundan emin olun.</Dialogue>
+        <Dialogue>~y~Siz~w~: Merhaba hanımefendi, artık güvendesiniz.</Dialogue>
+        <Dialogue>~g~Kurban~w~: Aman Tanrım, çok teşekkür ederim! Çok korkmuştum!</Dialogue>
+        <Dialogue>~y~Siz~w~: Sizi kaçıran adamları tanıyor musunuz?</Dialogue>
+        <Dialogue>~g~Kurban~w~: Hayır, onları daha önce hiç görmedim! Beni satacaklarını söylediler!</Dialogue>
+        <Dialogue>~y~Siz~w~: Artık parmaklıklar ardındalar. Tıbbi yardıma ihtiyacınız var mı?</Dialogue>
+        <Dialogue>~g~Kurban~w~: Hayır, iyiyim, sadece biraz titriyorum. Yardımınız için çok teşekkür ederim!</Dialogue>
+        <Dialogue>~y~Siz~w~: İyi olmanıza sevindim, güvenli bir şekilde eve gittiğinizden emin olun!</Dialogue>
+        <Dialogue>Onu alması için bir ~y~taksi~w~, ~g~Uber~w~ çağırmayı veya kendi ~b~yoluna göndermeyi~w~ seçin.</Dialogue>
+    </VictimTalk>
+
+</Kidnapping>

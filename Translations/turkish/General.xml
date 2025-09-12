@@ -1,0 +1,9 @@
+<General>
+    <UpdateChecker>
+        <Text>MCCallouts'un son sürümü yüklü c;</Text>
+        <Text>MCCallouts'un beta/gelecek sürümü yüklü c:</Text>
+        <Text>~r~Eski sürüm tespit edildi.~w~~n~Mümkünse güncelleyin!</Text>
+        <Text>~y~MCCallouts yüklendi~w~ ancak güncellemeleri ~r~kontrol edemedik~w~.</Text>
+        <Text>~y~MCCallouts ~g~yüklendi~w~!~n~İyi devriyeler!</Text>
+    </UpdateChecker>
+</General>

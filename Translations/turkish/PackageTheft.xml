@@ -1,0 +1,86 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Paket Hırsızlığı</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Bölge Gözetimi için Memur gerekli</CALLOUTADVISORY>
+    <TASK>{ZoneName} bölgesinde birkaç paket hırsızlığı rapor edildi. Bölgeye sürün ve tetikte kalın.</TASK>
+    <D_FriendlyPostman>
+        <DIALOGUE>~y~Siz~s~: İyi günler, beyefendi. Bir dakika ayırabilir misiniz?</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Elbette, memur. Bir sorun mu var?</DIALOGUE>
+        <DIALOGUE>~y~Siz~s~: Tam olarak bir sorun değil. Bu mahallede çalınan paketlerle ilgili birkaç olay yaşadık. Az önce bir paketi bıraktığınızı gördüm ve her şeyin yolunda olduğunu kontrol etmek istedim.</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Ah, evet. Bunu tamamen anlıyorum. Aslında bazı komşuların garip şeyler olduğunu söylediğini duydum.</DIALOGUE>
+        <DIALOGUE>~y~Siz~s~: Hangi kargo şirketi için çalıştığınızı ve bu paketin hangi adrese gönderildiğini sorabilir miyim?</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: GoPostal ile çalışıyorum. Paket 123 Grove Street içindi – sadece küçük bir kutuydu. Hatta verandaya bıraktım ve bir fotoğrafını çektim.</DIALOGUE>
+        <DIALOGUE>~y~Siz~s~: Pekala, kulağa iyi geliyor. Sadece görevimizi yapıyoruz. İşbirliğiniz için teşekkürler.</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Hiç sorun değil. Her ihtimale karşı tedbirli olmak daha iyidir.</DIALOGUE>
+        <DIALOGUE>~y~Siz~s~: Gidebilirsiniz. Güvenli sürüşler.</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Öyle yapacağım. Kontrol ettiğiniz için teşekkür ederim, memur. Kendinize iyi bakın.</DIALOGUE>
+    </D_FriendlyPostman>
+    <D_AnnoyedPostman>
+        <DIALOGUE>~y~Siz~s~: Merhaba. Bir dakika ayırabilir misiniz, uygunsa?</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Yani... evet, sanırım. Bu ne hakkında?</DIALOGUE>
+        <DIALOGUE>~y~Siz~s~: Bu bölgede sahte kuryelerin paket çaldığına dair birkaç rapor aldık. Sadece teslimatınızı doğrulamak istedim.</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Şaka yapıyor olmalısınız. Yapmam gereken 40 durak daha var.</DIALOGUE>
+        <DIALOGUE>~y~Siz~s~: Anlıyorum. Sadece en son paketi nereye bıraktığınızı ve kim için çalıştığınızı teyit etmem gerekiyor.</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: 119 Grove Street'ti. Küçük bir kutu, manifestoda "J. Ramirez" imzalı. Kapının yanına bıraktım.</DIALOGUE>
+        <DIALOGUE>~y~Siz~s~: Anladım. Hızlıca bakabileceğim bir kimlik veya rozetiniz var mı?</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Evet, evet, bir saniye. *[kimliğini uzatır]* Buyurun.</DIALOGUE>
+        <DIALOGUE>~y~Siz~s~: Teşekkürler. Bu doğru görünüyor. Ayırdığınız zaman için teşekkürler.</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Pekala. Şimdi gidebilir miyim?</DIALOGUE>
+        <DIALOGUE>~y~Siz~s~: Gidebilirsiniz. Gecikme için üzgünüm.</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Bir dahaki sefere belki önceden ararsınız ya da bir şey...</DIALOGUE>
+    </D_AnnoyedPostman>
+    <D_SuspectTalk>
+        <DIALOGUE>~y~Siz~s~: İyi günler. Az önce oradan bir mülkten ayrıldığınızı gördüm—ne yaptığınızı söyler misiniz?</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Sadece bir paket teslim ediyordum, memur. Rotamdayım.</DIALOGUE>
+        <DIALOGUE>~y~Siz~s~: Bu garip, son zamanlarda birkaç paketin kaybolduğuna dair raporlar aldık. Adresi söyler misiniz?</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Ee... 142 Grove Street, sanırım? Sadece emirleri uyguluyorum.</DIALOGUE>
+        <DIALOGUE>~y~Siz~s~: O eve haftalardır teslimat yapılmadı. Bazı belgelerinizi görebilir miyim?</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Ben... Rozetimi depoda unuttum sanırım. Bakın, sadece küçük bir iş.</DIALOGUE>
+        <DIALOGUE>~y~Siz~s~: Bu daha çok hırsızlık gibi. Araçtan çıkmanız gerekiyor.</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Pekala, pekala. Sahne yaratmaya gerek yok. İşbirliği yapacağım.</DIALOGUE>
+        <DIALOGUE>~y~Siz~s~: İyi olur. Benimle geliyorsunuz.</DIALOGUE>
+    </D_SuspectTalk>
+    <D_SuspectPursuit>
+        <DIALOGUE>~y~Siz~s~: Aracı durdurun ve dışarı çıkın. Size birkaç sorum var.</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Bunun gerekli olduğunu sanmıyorum. Sadece işimi yapıyorum, memur.</DIALOGUE>
+        <DIALOGUE>~y~Siz~s~: Birden fazla hırsızlıkta şüphelinin tanımına uyuyorsunuz. Motoru durdurun.</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Evet... bugün olmaz!</DIALOGUE>
+    </D_SuspectPursuit>
+    <D_SuspectShooting>
+        <DIALOGUE>~y~Siz~s~: Pekala, araçtan dışarı—ellerinizi görebileceğim bir yere koyun.</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Yaklaşmayın, yemin ederim!</DIALOGUE>
+        <DIALOGUE>~y~Siz~s~: Kurye kılığında paket çalıyorsun. Bu iş bitti!</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Siz polisler her şeyi kontrol edebileceğinizi sanıyorsunuz!</DIALOGUE>
+        <DIALOGUE>~y~Siz~s~: Silahı şimdi bırak!</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Olmayacak!</DIALOGUE>
+        <DIALOGUE>~y~Siz~s~: Son uyarı!</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Hapse girmeyeceğim!</DIALOGUE>
+    </D_SuspectShooting>
+    <D_SuspectSurrender>
+        <DIALOGUE>~y~Siz~s~: Şimdi araçtan inin ve ellerinizi görünür bir yere koyun!</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Tamam, tamam! Ateş etmeyin!</DIALOGUE>
+        <DIALOGUE>~y~Siz~s~: Şimdi dizlerinizin üzerine çökün!</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Tamam! Teslim oluyorum!</DIALOGUE>
+        <DIALOGUE>~y~Siz~s~: Paket hırsızlığı ve kurye kılığına girme suçundan tutuklusunuz.</DIALOGUE>
+        <DIALOGUE>~o~Postacı~s~: Bunun bu kadar ileri gitmesini istememiştim...</DIALOGUE>
+        <DIALOGUE>~y~Siz~s~: İstasyon'da açıklama şansınız olacak.</DIALOGUE>
+    </D_SuspectSurrender>
+    <SCENARIOS>
+        <THIEF>
+            <TEXT>Bölgeye göz kulak olun. Yakında bir teslimat gerçekleşmeli.</TEXT>
+            <TEXT>Sürücüyle konuşmak için trafik durdurması yapın.</TEXT>
+            <TEXT>Sürücüyle konuşmak için ~y~{Y}~s~ tuşuna basın.</TEXT>
+        </THIEF>
+        <POSTMAN>
+            <TEXT>Bölgeye göz kulak olun. Yakında bir teslimat gerçekleşmeli.</TEXT>
+            <TEXT>Sürücüyle konuşmak için trafik durdurması yapın.</TEXT>
+            <TEXT>Sürücüyle konuşmak için ~y~{Y}~s~ tuşuna basın.</TEXT>
+            <TEXT>~g~Teslimat yasal görünüyor. Başka bir işlem gerekmiyor.</TEXT>
+        </POSTMAN>
+    </SCENARIOS>
+    <END>
+        <TEXT>Paket hırsızlığı soruşturması tamamlandı. Devriyenize geri dönün.</TEXT>
+        <TEXT>Görünüşe göre bu kadar. Devriyenize devam edin.</TEXT>
+        <TEXT>Burada yapılacak başka bir şey yok. Tekrar dışarı çıkın.</TEXT>
+        <TEXT>~r~Postacı öldü</TEXT>
+    </END>
+</CALLOUT>

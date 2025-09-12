@@ -1,0 +1,172 @@
+<SolveMurder2>
+
+    <General>
+        <Text>~p~Dedektif~s~ cinayet vakası için çağırıldı</Text>
+        <Text>~g~Merkez~s~: Los Santos'taki Mirror Park'a gidin, ~p~Dedektif~w~ gerekiyor.</Text>
+    </General>
+
+    <Officer>
+        <Dialogue>~b~Memurun~w~ yanına gidip konuşun</Dialogue>
+        <Dialogue>~b~Memur~s~: Merhaba Dedektif! Benim adım ~g~Jack Walter~s~, bana kısaca Jack diyebilirsin. Umarım trafik çok kötü değildi.</Dialogue>
+        <Dialogue>~y~Siz~s~: İyi günler! Yok, fena değildi. Burada ne oldu?</Dialogue>
+        <Dialogue>~b~Jack~s~: Burada ~g~ceset~s~ var, muhtemelen cinayete kurban gitmiş, ~g~şurada duran~s~ Memur Dawson'da daha fazla bilgi var.</Dialogue>
+        <Dialogue>~b~Jack~s~: Karşı tarafta 3 olası şüpheli var, biri de arayan kişi.</Dialogue>
+        <Dialogue>~y~Siz~s~: Teşekkürler, o zaman ~b~Memur Dawson~s~ ile konuşacağım.</Dialogue>
+        <Dialogue>Gidip ~b~Memur Dawson~s~ ile konuşun.</Dialogue>
+    </Officer>
+
+    <Officer2>
+        <Dialogue>~b~Memur Dawson~s~ ile konuşun</Dialogue>
+        <Dialogue>~y~Siz~s~: Selam, Memur Dawson! Memur Walter sende bilgi olduğunu söyledi?</Dialogue>
+        <Dialogue>~b~Memur~s~: İyi günler Dedektif! Bana Erika diyebilirsin!</Dialogue>
+        <Dialogue>~b~Erika~s~: Kurban Lilliana Wyatt, 33 yaşında, yakındaki Nikola Caddesi'nde yaşıyormuş.</Dialogue>
+        <Dialogue>~b~Erika~s~: Evet, potansiyel cinayet için 3 olası şüpheli var.</Dialogue>
+        <Dialogue>~b~Erika~s~: Onlardan biri, Belle Hamilton, arayan kişi, ama aynı zamanda potansiyel katil de olabilir.</Dialogue>
+        <Dialogue>~b~Erika~s~: Bence suç mahaline gidip araştırma yapın, bir şeyler bulabilir misiniz bakın.</Dialogue>
+        <Dialogue>Suç mahaline gidip ~b~delil~s~ arayın.</Dialogue>
+    </Officer2>
+
+    <Evidence>
+        <Text>~y~Siz~s~: Başında bir yara var, oradaki kırık şişeyle vurulmuş...</Text>
+        <Text>Bir cep telefonu... Arka planında ~p~siyah bir Obey Tailgater~s~ görünüyor...</Text>
+        <Text>Hımm... yarısı yenmiş bir hamburger... ilgi çekici değil.</Text>
+        <Text>Kan hala taze görünüyor, en fazla 2 saat önce olmuş olmalı...</Text>
+        <Text>Soruşturma bitti! ~o~Arayan kişiye~w~ gidip onunla konuşun</Text>
+    </Evidence>
+
+    <Suspect1>
+        <Dialogue>~o~Şüpheliyle~w~ konuşun</Dialogue>
+        <Dialogue>~y~Siz~s~: Merhaba! Ben bu davanın Dedektifiyim. Adınız ne?</Dialogue>
+        <Dialogue>~o~Arayan kişi~s~: İyi akşamlar, benim adım Belle Hamilton. Yolda yürüyordum ki onu gördüm...</Dialogue>
+        <Dialogue>~y~Siz~s~: Bizi arayarak doğru olanı yaptınız. Hızlıca bilgilerinizi kontrol ediyorum.</Dialogue>
+        <Dialogue>~y~Siz~s~: Merkez, 'Belle Hamilton' hakkında bir kişi sorgusu yapabilir miyim?</Dialogue>
+        <Dialogue>Beklemede kalın, kontrol ediyorum.</Dialogue>
+        <Dialogue>~b~Belle Hamilton~s~</Dialogue>
+        <Dialogue>~g~Yakalanma kararı yok</Dialogue>
+        <Dialogue>~g~Sabıka kaydı yok</Dialogue>
+        <Dialogue>~y~1 ihlal: Hız yapmak~s~</Dialogue>
+        <Dialogue>~y~Siz~s~: Kaydınız temiz. Yine de size birkaç sorum var.</Dialogue>
+        <Dialogue>~y~Siz~s~: Kurbanı tanıyor musunuz?</Dialogue>
+        <Dialogue>~o~Bayan Hamilton~s~: Hayır, tanımıyorum. Ailesini hayal edebiliyorum, ne hissediyorlardır...</Dialogue>
+        <Dialogue>~y~Siz~s~: Onlarla biz ilgileniriz. Cep telefonunuzu görebilir miyim lütfen?</Dialogue>
+        <Dialogue>*cep telefonunu gösterir*</Dialogue>
+        <Dialogue>~o~Bayan Hamilton~s~: İşte, ama... aaah... içinde özel fotoğraflarım var, veremem.</Dialogue>
+        <Dialogue>~y~Siz~s~: Telefon sizde kalabilir. Hangi aracı kullanıyorsunuz ve plakası ne?</Dialogue>
+        <Dialogue>~o~Bayan Hamilton~s~: Bir Lampadati Pigalle kullanıyorum, plakası 86LUN445.</Dialogue>
+        <Dialogue>~y~Siz~s~: Merkez, 86LUN445 plakalı araç için sorgu istiyorum.</Dialogue>
+        <Dialogue>Anlaşıldı, bir dakika verin.</Dialogue>
+        <Dialogue>~b~86LUN445~s~</Dialogue>
+        <Dialogue>~g~Model~s~: Lampadati Pigalle</Dialogue>
+        <Dialogue>~b~Sahibi~s~: Belle Hamilton</Dialogue>
+        <Dialogue>~r~Sigorta süresi dolmuş~s~</Dialogue>
+        <Dialogue>~y~Siz~s~: Peki, aracınızın sigorta süresi dolmuş, yenilemelisiniz.</Dialogue>
+        <Dialogue>~o~Bayan Hamilton~s~: Oh, teşekkürler. Bilmiyordum, hemen halledeceğim.</Dialogue>
+        <Dialogue>~y~Siz~s~: Bu kadar, lütfen diğer talimatları bekleyin.</Dialogue>
+        <Dialogue>Şimdi diğer ~o~şüphelinin~s~ yanına gidip onunla konuşun.</Dialogue>
+ 
+        <Dialogue>~y~Siz~s~: Bu kadar, zaman ayırdığınız için teşekkürler.</Dialogue>
+    </Suspect1>
+
+    <Suspect2>
+        <Dialogue>~o~Onunla~s~ konuşun</Dialogue>
+        <Dialogue>~y~Siz~s~: İyi akşamlar, Beyefendi! Ben yerel Dedektifim. Adınızı alabilir miyim lütfen?</Dialogue>
+        <Dialogue>~o~Şüpheli~s~: Merhaba Dedektif, benim adım Talon Knight, 12 Aralık 1992 doğumluyum. Neden burada tutuluyorum?</Dialogue>
+        <Dialogue>~y~Siz~s~: Olay olduğunda bu bölgedeydiniz.</Dialogue>
+        <Dialogue>~o~Talon~s~: Bu benim isteğim dışında! Bırakın gideyim, hiçbir şey yapmadım!</Dialogue>
+        <Dialogue>~y~Siz~s~: Sorularımı cevapladıktan sonra gidebilirsiniz. Nerede yaşıyorsunuz?</Dialogue>
+        <Dialogue>~o~Talon~s~: Yakında, 2 blok ötede yaşıyorum.</Dialogue>
+        <Dialogue>~y~Siz~s~: Kurbanı tanıyor musunuz?</Dialogue>
+        <Dialogue>~o~Talon~s~: Hayır?</Dialogue>
+        <Dialogue>~y~Siz~s~: Kurbanın yakınında yaşıyorsunuz ve bana Lilliana Wyatt'ı tanımadığınızı mı söylüyorsunuz?</Dialogue>
+        <Dialogue>~o~Talon~s~: Tamam, tanıyorum, sadece onu sevmiyorum, mahallede pek arkadaş canlısı, aktif veya sevilen biri değildi...</Dialogue>
+        <Dialogue>~o~Talon~s~: Bir keresinde köpeğim birkaç kez havladı diye akşam 10'dan sonra polisi aramıştı...</Dialogue>
+        <Dialogue>~y~Siz~s~: Hımm... Pekala, bana cep telefonunuzu gösterebilir misiniz lütfen?</Dialogue>
+        <Dialogue>~o~Talon~s~: İsterdim, ama geçen hafta düşürdüm ve bir tamirciye verdim. Yaklaşık 100$ tutacak...</Dialogue>
+        <Dialogue>~y~Siz~s~: Anlaşıldı. Hangi aracı kullanıyorsunuz ve plakası ne?</Dialogue>
+        <Dialogue>~o~Talon~s~: Bir Vapid Minivan'ım var, plakam... aaaah... 47LIF... 341.</Dialogue>
+        <Dialogue>~y~Siz~s~: Merkez, 47LIF341 plakalı araç için sorgu istiyorum.</Dialogue>
+        <Dialogue>Anlaşıldı, beklemede kalın lütfen.</Dialogue>
+        <Dialogue>~b~47LIF341~s~</Dialogue>
+        <Dialogue>~g~Model~s~: Vapid Minivan</Dialogue>
+        <Dialogue>~b~Sahibi~s~: Talon Knight</Dialogue>
+        <Dialogue>~y~Not: Araç 4 ay önce tescil edilmiş~s~</Dialogue>
+        <Dialogue>~y~Siz~s~: Merkez, 'Talon Knight' adını kontrol edin lütfen.</Dialogue>
+        <Dialogue>Beklemede kalın, kontrol ediyorum.</Dialogue>
+        <Dialogue>~b~Talon Knight~s~</Dialogue>
+        <Dialogue>~g~Sabıka kaydı yok</Dialogue>
+        <Dialogue>~y~1 ihlal: Sokağın yanlış tarafına park etme~s~</Dialogue>
+        <Dialogue>~y~Siz~s~: Kaydınız temiz görünüyor, işim bittiğinde size geri döneceğim.</Dialogue>
+        <Dialogue>~o~Talon~s~: Pekala!</Dialogue>
+        <Dialogue>Son ~o~şüpheliyle~s~ konuşun.</Dialogue>
+    </Suspect2>
+
+    <Suspect3>
+        <Dialogue>~o~Onunla~s~ konuşun</Dialogue>
+        <Dialogue>~y~Siz~s~: Merhaba Bayan! Ben bu davanın dedektifiyim, adınızı alabilir miyim lütfen?</Dialogue>
+        <Dialogue>~o~Şüpheli~s~: Merhaba, benim adım Nylah Lane.</Dialogue>
+        <Dialogue>~y~Siz~s~: Anlaşıldı. Merkez, Nylah Lane için bir isim sorgusu yapabilir miyim?</Dialogue>
+        <Dialogue>Anlaşıldı, aranıyor.</Dialogue>
+        <Dialogue>~b~Nylah Lane~s~</Dialogue>
+        <Dialogue>~g~Yakalanma kararı yok~s~</Dialogue>
+        <Dialogue>~g~Sabıka kaydı yok</Dialogue>
+        <Dialogue>~y~1 ihlal: Engelli park yerine park etme~s~</Dialogue>
+        <Dialogue>~y~Siz~s~: Pekala, kulağa iyi geliyor. Nerede yaşıyorsunuz?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Vinewood Hills'te yaşıyorum, orada bir dairem var.</Dialogue>
+        <Dialogue>~y~Siz~s~: Vay canına, yaşamak için güzel bir yer! Cep telefonunuzu görebilir miyim lütfen?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Evet, elbette, çantamda... Ah, kahretsin, nerede ki?... Belki arabamda bırakmışımdır o zaman.</Dialogue>
+        <Dialogue>~y~Siz~s~: Ah, umarım öyledir. Peki hangi arabayı kullanıyorsunuz?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Bir... aaaaah... Grotti ... Stinger, evet.</Dialogue>
+        <Dialogue>~y~Siz~s~: Tamam, plakası ne?</Dialogue>
+        <Dialogue>~o~Nylah~s~: ... Aaah, bilmiyorum.</Dialogue>
+        <Dialogue>~y~Siz~s~: Kendi aracınızın plakasını bilmiyor musunuz?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Evet, yani... karmaşık bir durum...</Dialogue>
+        <Dialogue>~y~Siz~s~: Pekala, neyse. Merkez, ~b~Grotti Stinger~s~ için plaka sorgusu istiyorum, sahibi ~b~Nylah Lane~s~.</Dialogue>
+        <Dialogue>Anlaşıldı, aranıyor.</Dialogue>
+        <Dialogue>Bu kombinasyonda sonuç yok, sahibini kontrol edeyim.</Dialogue>
+        <Dialogue>Sahibinde farklı bir araç buldum:</Dialogue>
+        <Dialogue>~b~58RLD582~s~</Dialogue>
+        <Dialogue>~y~Model~s~: Obey Tailgater</Dialogue>
+        <Dialogue>~b~Sahibi~s~: Nylah Lane</Dialogue>
+        <Dialogue>~y~Siz~s~: İlginç. Bayan, neden aracınız hakkında yalan söylediniz?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Ne demek istiyorsunuz? Yani... benim 2 aracım var... öyle miydi?</Dialogue>
+        <Dialogue>~y~Siz~s~: Çok komik, telefonunuz hakkında da yalan mı söylediniz?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Yakınlarda mı buldunuz? O yüzden mi soruyorsunuz?</Dialogue>
+        <Dialogue>~y~Siz~s~: ... Kurbanla ilişkiniz ne?</Dialogue>
+        <Dialogue>~o~Nylah~s~: O benim kuzenim ve bana borcu vardı, çok borcu vardı.</Dialogue>
+        <Dialogue>~y~Siz~s~: Onu bu yüzden mi öldürdünüz?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Sadece borçları yüzünden onun evine gittim ve yüzleşmek istedim.</Dialogue>
+        <Dialogue>~y~Siz~s~: İşbirliğiniz için teşekkür ederim, size geri döneceğim.</Dialogue>
+        <Dialogue>Tekrar ~b~Memur Erika~s~ ile konuşun.</Dialogue>
+    </Suspect3>
+
+    <Officer3>
+        <Dialogue>~b~Memurla~w~ tekrar konuşun</Dialogue>
+        <Dialogue>~y~Siz~s~: Pekala, suç mahallini aradım ve şüphelilerle konuştum.</Dialogue>
+        <Dialogue>~b~Erika~s~: Ve katilin kim olduğunu bulabildiniz mi?</Dialogue>
+        <Dialogue>~r~Belle Hamilton~s~ için {1}, ~o~Talon Knight~s~ için {2} veya ~y~Nylah Lane~s~ için {3} tuşuna basın!</Dialogue>
+
+        <Dialogue>~y~Siz~s~: ... ~r~Belle Hamilton~s~!</Dialogue>
+        <Dialogue>~y~Siz~s~: Bayan Hamilton telefonunun içeriğini göstermek istemedi ve olay olduğunda o bölgede olduğunu söyledi!</Dialogue>
+        <Dialogue>~y~Siz~s~: O katil!</Dialogue>
+
+        <Dialogue>~y~Siz~s~: ... ~o~Talon Knight~s~!</Dialogue>
+        <Dialogue>~y~Siz~s~: Bay Knight kurbanı sevmiyordu ve yakınlarda yaşıyordu!</Dialogue>
+        <Dialogue>~y~Siz~s~: Ayrıca cep telefonunu da gösteremedi! O katil!</Dialogue>
+
+        <Dialogue>~y~Siz~s~: ... ~y~Nylah Lane~s~!</Dialogue>
+        <Dialogue>~y~Siz~s~: Bayan Lane olay olduğunda oradaydı ve kurbanla akrabaydı!</Dialogue>
+        <Dialogue>~y~Siz~s~: Aracı ve cep telefonu hakkında yalan söyledi!</Dialogue>
+        <Dialogue>~y~Siz~s~: Cep telefonu onun aracını gösteriyor. Telefonunu olay yerinde düşürmüş. O katil!</Dialogue>
+
+        <Dialogue>~b~Erika~s~: Oh, anlıyorum! Devam edin ve ~r~şüpheliyi~s~ tutuklayın!</Dialogue>
+    </Officer3>
+
+    <Arrest>
+        <Text>~r~Katili~s~ başarıyla tutukladınız! ~g~Olay yerini temizleyin~s~!</Text>
+        <Text>Ah hayır, ~y~yanlış~s~ kişiyi tutukladınız! ~g~Olay yerini temizleyin~s~!</Text>
+        <Text>Bir ~o~şüpheli~s~ ~r~öldü~s~.{0}Durum ~g~Code 4~s~, ~g~olay yerini temizleyin~s~!</Text>
+        <Text>Bir ~b~Memur~s~ ~r~öldü~s~.{0}Durum ~g~Code 4~s~.</Text>
+
+    </Arrest>
+
+</SolveMurder2>

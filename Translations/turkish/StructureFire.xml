@@ -1,0 +1,46 @@
+<StructureFire>
+    <CalloutMessage>~r~~h~Bina Yangını~h~~s~</CalloutMessage>
+    <Task>~r~Yanan binaya~s~ ~r~Kod 3~s~ ile sürün!</Task>
+    <State>
+        <Extinguish>
+            <Text>~o~Yangını kendiniz söndürün ~r~veya itfaiyeyi arayın!</Text>
+            <Text>Tüm yangınlar söndürüldü.</Text>
+        </Extinguish>
+        <Investigate>
+            <Text>Şimdi olay yerini yangınla ilgili deliller için arayın. Almak için ~y~{Y}~s~ tuşuna basın.</Text>
+            <Text>Delillerin yaklaşık konumu hakkında bilgi aldık.</Text>
+            <Text>Delil buldunuz.</Text>
+        </Investigate>
+        <Manhunt>
+            <Text>Arayanlar bize olası bir şüphelinin yaklaşık konumunu verdi.</Text>
+        </Manhunt>
+        <End>
+            <Text>Bina Yangını sona erdi.</Text>
+        </End>
+    </State>
+    <Scenario>
+        <SecureSceneOnly>
+            <Text>Görevi sonlandırmak için ~{End}~ tuşuna basın.</Text>
+        </SecureSceneOnly>
+        <NoFire>
+            <Text>Neyse ki bu yerde yangın yok.</Text>
+        </NoFire>
+    </Scenario>
+    <SuspectAction>
+        <Ignoring>
+            <Text>Şüpheli, görünüşünüzden ~y~etkilenmemiş~s~ görünüyor.</Text>
+        </Ignoring>
+        <Shooting>
+            <Text>~y~Siz: ~r~Ateş açıldı!</Text>
+        </Shooting>
+        <Surrender>
+            <Text>Şüpheli ~g~teslim oluyor.</Text>
+        </Surrender>
+        <Pursuit>
+            <Text>~y~Siz:~s~ Bir ~o~takibimiz~s~ var!</Text>
+        </Pursuit>
+    </SuspectAction>
+    <FireProgressBar>
+        <Text>~h~Söndürülen yangınlar~h~</Text>
+    </FireProgressBar>
+</StructureFire>

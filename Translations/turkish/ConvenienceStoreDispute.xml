@@ -1,0 +1,100 @@
+<ConvenienceStoreDispute>
+
+    <General>
+        <Text>Market Anlaşmazlığı</Text>
+        <Text>Anlaşmazlığı çözün</Text>
+    </General>
+
+    <Persons>
+        <Text>~y~Siz:~s~ </Text>
+        <Text>~HC_7~Kadın:~s~ </Text>
+        <Text>~b~Tezgahtar:~s~ </Text>
+    </Persons>
+
+    <D_Argue>
+        <Dialogue>Komiserim! Tezgahtar kuponumu kabul etmiyor!</Dialogue>
+        <Dialogue>Hanımefendi, size zaten söyledim, bu kupon geçersiz. Kabul edemem.</Dialogue>
+        <Dialogue>Bu saçmalık, geçerli! Haklarım var! Kabul etmeyi reddedemezsin!</Dialogue>
+        <Dialogue>Komiserim, lütfen bir bakar mısınız, konuya açıklık getirir misiniz?</Dialogue>
+        <Dialogue>Elbette, bir göreyim...</Dialogue>
+        <Dialogue>* Kupona bakıyor... *</Dialogue>
+    </D_Argue>
+
+    <D_Expired>
+        <Dialogue>* 24/7 market için 30 dolarlık kupon, 06/01/2024 tarihinde süresi doluyor *</Dialogue>
+        <Dialogue>Kuponun süresi kesinlikle dolmuş.</Dialogue>
+    </D_Expired>
+
+    <D_Manipulated>
+        <Dialogue>* 24/7 market için 30 dolarlık kuponun 60 dolar olarak değiştirildiğini görebilirsiniz *</Dialogue>
+        <Dialogue>Bu kuponla oynanmış. Bakın, rakamlar değiştirilmiş.</Dialogue>
+    </D_Manipulated>
+
+    <D_RefuseLeave>
+        <Dialogue>Bu gerçek olamaz! Yalan söylüyorsunuz!</Dialogue>
+        <Dialogue>Komiserim, bu ırkçılık! Hakkımı almadan gitmeyeceğim!</Dialogue>
+    </D_RefuseLeave>
+
+    <D_Run>
+        <Dialogue>Herkes bana karşı! Unut gitsin, bunu ödemeyeceğim!</Dialogue>
+    </D_Run>
+
+    <D_Fight>
+        <Dialogue>Yalanlarından bıktım artık!</Dialogue>
+        <Dialogue>Ve siz de komiserim, sorunun bir parçasısınız!!! Aaaaaargh!</Dialogue>
+    </D_Fight>
+
+    <D_Taser>
+        <Dialogue>Beni tehdit etmeye nasıl cüret edersin!</Dialogue>
+        <Dialogue>SALDIRI! Bana saldırdın!</Dialogue>
+        <Dialogue>Bu nefsi müdafaa!</Dialogue>
+    </D_Taser>
+
+
+
+    <D_Eco_Argue>
+        <Dialogue>Bu çok çirkin! Şu ambalaja bakın! Her yer plastik! Gezegeni öldürmeye mi çalışıyorsunuz?</Dialogue>
+        <Dialogue>Hanımefendi, endişenizi anlıyorum, ancak ürünleri biz üretmiyoruz. Sadece satıyoruz.</Dialogue>
+        <Dialogue>Sadece satıyorsunuz öyle mi? O zaman suç ortağısınız! Çevre dostu olmayan ürünler satmak temelde yasa dışı!</Dialogue>
+        <Dialogue>Hanımefendi, bu doğru değil. Bu tür ambalajlara karşı yasalar yok—</Dialogue>
+        <Dialogue>Bana yalan söyleme! Yasa dışı faaliyetlerde bulunduğu için bu dükkanı kapattıracağım! Siz de sorunun bir parçasısınız! Siz bir—siz bir katilsiniz!</Dialogue>
+        <Dialogue>Pardon? Pekala komiserim, lütfen hanımefendiyi dükkandan uzaklaştırın ve hanımefendi, şu andan itibaren bu dükkana girişiniz yasaklandı.</Dialogue>
+    </D_Eco_Argue>
+
+    <D_Eco_RefuseLeave>
+        <Dialogue>Bu suçlu tutuklanana kadar bu dükkandan ayrılmayacağım!</Dialogue>
+        <Dialogue>Hanımefendi, üzgün olduğunuzu anlıyorum, ancak bu bir suç meselesi değil. Dükkandan ayrılmanız gerekiyor, yoksa sizi bizzat ben çıkarmak zorunda kalacağım.</Dialogue>
+        <Dialogue>Reddediyorum! Eğer bu katili tutuklamazsanız, SİZ de suç ortağısınız demektir! Gerekirse bütün gün burada kalırım!</Dialogue>
+    </D_Eco_RefuseLeave>
+
+    <D_Eco_FleeWPackage>
+        <Dialogue>Ne biliyor musunuz? Siz düzeltmeyecekseniz, ben kendim yaparım! Bu iş şimdi bitiyor!</Dialogue>
+        <Dialogue>Gezegeni kurtarıyorum! Bunun yeri sizin kirli raflarınız değil, uygun bir imha yeri!</Dialogue>
+        <Dialogue>Hanımefendi, bu hırsızlık. Eşyayı bırakın ve uzaklaşın.</Dialogue>
+        <Dialogue>Eğer insanlığı kurtarıyorsam bu hırsızlık değildir! Bu çöpü stokladıkları için ONLARI tutuklayın!</Dialogue>
+        <Dialogue>Hanımefendi, bu son uyarınız. Eşyayı bırakın ve işbirliği yapın, yoksa tutuklanacaksınız.</Dialogue>
+    </D_Eco_FleeWPackage>
+
+    <D_Eco_Argumentative>
+        <Dialogue>Komiserim! Bu adamı derhal tutuklamanız gerekiyor! O bir katil! Tüm bu plastiği satarak—resmen gezegenin boğazını sıkıyor!</Dialogue>
+        <Dialogue>Hanımefendi, bu bir suç meselesi değil. Şimdi, eğer—</Dialogue>
+        <Dialogue>Bana sakın başlamayın! Amiri nerede? Adını istiyorum. Ve SİZ— * polisi işaret ederek * —sizin de adınızı ve yaka numaranızı istiyorum! HEMEN ŞİMDİ!</Dialogue>
+        <Dialogue>Hanımefendi, bunu yapmayacağız. Ya dükkandan ayrılırsınız ya da sizi dışarıya kadar ben götürmek zorunda kalırım.</Dialogue>
+        <Dialogue>Oh, denemenizi çok isterim! Hepinizi şikayet edeceğim! Şirkete, belediye başkanına, medyaya—herkes bunu duyacak!</Dialogue>
+    </D_Eco_Argumentative>
+
+    <D_Eco_Taser>
+        <Dialogue>Oh, şimdi de beni mi tehdit ediyorsunuz? Kendimi şu an çok güvensiz hissediyorum! Bu bir saldırı!</Dialogue>
+        <Dialogue>Hanımefendi, kimse sizi tehdit etmiyor. Lütfen sakin olun—</Dialogue>
+        <Dialogue>SALDIRI! BANA SALDIRDINIZ! Herkes gördü!</Dialogue>
+        <Dialogue>Hanımefendi, size kimse dokunmadı. Sadece—</Dialogue>
+        <Dialogue>Bana konuşmayın, katil!</Dialogue>
+    </D_Eco_Taser>
+
+
+
+    <End>
+        <Text>Görev Code 4.</Text>
+    </End>
+
+</ConvenienceStoreDispute>

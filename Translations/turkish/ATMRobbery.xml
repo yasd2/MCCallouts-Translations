@@ -1,0 +1,43 @@
+<ATMRobbery>
+
+<CamText>
+    <Text>CAM1</Text>
+</CamText>
+
+<D_Victim>
+    <Dialogue>Komiserim merhaba! Az önce soyuldum!</Dialogue>
+    <Dialogue>ATM'den para çekmeyi bitirmiştim ki birisi gelip cüzdanımı aldı!</Dialogue>
+    <Dialogue>Kavga ettik ve kafama vurdu!</Dialogue>
+    <Dialogue>Maalesef o kişinin nasıl göründüğünü hatırlamıyorum...</Dialogue>
+    <Dialogue>Sorun değil, orada bir güvenlik kamerası görüyorum. Ne yapabileceğime bi' bakacağım.</Dialogue>
+    <Dialogue>Merkez, bulunduğum konumdaki kameralara erişim sağlayabilir misiniz?</Dialogue>
+</D_Victim>
+
+<D_Suspect>
+    <Dialogue>Neyin var senin? Neden beni takip ediyorsun?</Dialogue>
+    <Dialogue>Yakın zamanda gerçekleşen bir soygunun tarifine uyuyorsunuz.</Dialogue>
+    <Dialogue>Benim bir suçluya mı benziyorum? Saçmalık.</Dialogue>
+    <Dialogue>Yanlış kişiyi buldunuz, ben hiçbir şey yapmadım!</Dialogue>
+</D_Suspect>
+
+<Persons>
+    <Text>Mağdur</Text>
+    <Text>Sen</Text>
+    <Text>Şüpheli</Text>
+</Persons>
+
+<General>
+    <CalloutMessage>ATM Soygunu</CalloutMessage>
+    <CalloutAdvisory>Bir kişi, para çektikten hemen sonra soyulduğunu bildirdi</CalloutAdvisory>
+    <Text>~g~Arayanla~s~ konuşmak için {0} tuşuna basın.</Text>
+    <Text>Beklemede kalın.</Text>
+    <Text>Şimdi kameraya erişiminiz olması gerek.</Text>
+    <Text>Kamera görüntüsünü izlemek için {0} tuşuna basın!</Text>
+    <Text>Başka bir soygun ihbarı var; ~y~bölge GPS'inizde işaretli~s~.</Text>
+    <Text>~r~Şüpheliyle~s~ konuşmak için {0} tuşuna basın.</Text>
+    <Text>Şüpheli umursamıyor gibi.</Text>
+    <Text>Kontrol edin.</Text>
+    <Text>Trafik durdurması yapın.</Text>
+</General>
+
+</ATMRobbery>

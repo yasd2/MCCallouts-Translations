@@ -1,0 +1,37 @@
+<TropicalJustice>
+
+    <CalloutMessage>Tropikal Adalet Operasyonu</CalloutMessage>
+    <CalloutAdvisory>~s~Tehlikeli bir ~r~kartel patronu~s~, ~o~Cayo Perico'da~s~ güçlendirilmiş bir malikaneye barikat kurdu.</CalloutAdvisory>
+    <Task>~g~Havaalanına~w~ git.</Task>
+
+    <Detective>
+        <Help>~g~Dedektif~s~ ile {Y} tuşuyla konuş.</Help>
+        <Dialogue>İyi günler! Önümüzde büyük bir görev var — adı ~g~Tropikal Adalet Operasyonu!</Dialogue>
+        <Dialogue>~r~Mafya Patronunun~s~ saklandığı ~g~Cayo Perico'ya~s~ uçacaksın.</Dialogue>
+        <Dialogue>İndikten sonra, onun ~y~malikanesine~s~ ulaşana kadar biraz araba sürmen gerekecek.</Dialogue>
+        <Dialogue>Onu dikkatlice ara, ama tetikte ol — etrafta ~r~silahlı korumalar~s~ var!</Dialogue>
+        <Dialogue>~r~Patronu~s~ tutukla, sonra ~o~Los Santos'a~s~ geri uç ve parmaklıklar ardına koy.</Dialogue>
+        <Dialogue>~b~Çelik yelek~s~ giymeni ve yanında güvenilir bir ~p~tüfek~s~ getirmeni öneririm. İyi şanslar!</Dialogue>
+        <Help>~o~Uçağa~s~ veya ~o~helikoptere~s~ bin – seçim senin!</Help>
+    </Detective>
+
+    <Help>
+        <Text>GPS'inde işaretli olan ~o~hedef noktasına~s~ uç. ~y~Uçuşu {J} tuşuyla atlayabilirsin.</Text>
+        <Text>~HC_10~Sivil polis aracına~w~ bin.</Text>
+        <Text>~y~Malikaneye~w~ sür.</Text>
+        <Text>~r~Mafya patronunu~s~ ara! Dikkatli ol, etrafta ~r~silahlı korumalar~s~ var!</Text>
+        <Text>~r~Patronu~s~ buldun, onu tutukla!</Text>
+        <Text>~r~Patronu~s~ aracına götür ve havaalanına geri dön.</Text>
+        <Text>Şüpheliyi hapse götürebilir veya çağrıyı sonlandırabilirsin.</Text>
+        <Text>Operasyonu ~r~sonlandırmak~s~ için {End} tuşuna bas.</Text>
+        <Text>Tropikal Adalet Operasyonu sona erdi.</Text>
+    </Help>
+
+    <Mission>
+        <Text>~g~Görev başarıyla tamamlandı</Text>
+        <Text>~r~Görev başarısız oldu</Text>
+    </Mission>
+
+    <Warper>~y~Malikaneye~s~ girmek/çıkmak için {J} tuşuna bas.</Warper>
+
+</TropicalJustice>
