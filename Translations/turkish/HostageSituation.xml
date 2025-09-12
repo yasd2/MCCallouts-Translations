@@ -2,7 +2,7 @@
     <General>
         <Text>Rehin Alma Olayı</Text>
         <Text>Bir kişi bir rehineyi silah zoruyla tutuyor</Text>
-        <Text>Rehin alma olay yerine Code 3, acil!</Text>
+        <Text>Rehin alma olay yerine Kod 3, acil!</Text>
         <Text><![CDATA[Aracınızı sarı işaretli yere park edin ve şüpheliyle konuşurken siper alın.]]></Text>
         <Text>~g~Rehine~w~ ile konuş.</Text>
         <Text>Tamam tamam, teslim oluyorum!</Text>
@@ -101,6 +101,6 @@
         <Dialogue>~g~Rehine~s~: Tekrar teşekkürler, güle güle!</Dialogue>
     </HostageTalk>
     <End>
-        <Text>~g~Code 4.</Text>
+        <Text>~g~Kod 4.</Text>
     </End>
 </HostageSituation>

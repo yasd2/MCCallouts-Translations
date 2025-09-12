@@ -7,7 +7,7 @@
     <Telephone>
         <Help>Telefon sesini {J} ile ayarlayabilirsiniz</Help>
         <Ring>*Telefon çalıyor* - Çağrıyı kabul etmek için ~y~{Y}~s~ tuşuna iki kez basın.</Ring>
-        <Dialogue>~g~Dedektif:~s~ Hey, ben Dedektif Barker! Önümüzde yeni bir görev var.</Dialogue>
+        <Dialogue>~g~Dedektif:~s~ Hey, ben Dedektif Deniz! Önümüzde yeni bir görev var.</Dialogue>
         <Dialogue>~g~Dedektif:~s~ ~y~{ZONE}~s~'da bir araba buluşması olacak.</Dialogue>
         <Dialogue>~g~Dedektif:~s~ Göreviniz oraya gizli bir şekilde gitmek ve bir araba tutkunu gibi davranmak.</Dialogue>
         <Dialogue>~g~Dedektif:~s~ Eğer bir sokak yarışı olursa, kovalamacayı hemen bildirebilir veya biraz bekleyebilirsiniz.</Dialogue>

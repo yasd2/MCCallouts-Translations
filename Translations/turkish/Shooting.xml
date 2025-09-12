@@ -3,7 +3,7 @@
     <General>
         <Text>Çatışma</Text>
         <Text>2 kişi karşılıklı tabanca ile çatışıyor</Text>
-        <Text>Olay yerine intikal edin ~b~Code 3~s~, 2 şüpheli, ~r~dikkatli~s~ olun, ~r~ateş~s~ ~r~edildi~s~!</Text>
+        <Text>Olay yerine intikal edin ~b~Kod 3~s~, 2 şüpheli, ~r~dikkatli~s~ olun, ~r~ateş~s~ ~r~edildi~s~!</Text>
         <Text>~y~Siz~s~: ~p~Silahlarınızı ~r~bırakın~s~, ~b~Polis~s~!!!</Text>
         <Text>Takviye ekip çağırın!</Text>
         <Text></Text>
@@ -44,7 +44,7 @@
         <Text>Bir ~r~GTA ped hatası~s~ oluştu, Görev ~g~sona erdi~s~</Text>
         <Text>~y~Öldünüz~s~, Görev ~g~sona erdi~s~</Text>
         <Text>Görev sona erdi</Text>
-        <Text>~g~Code 4~s~, ~b~olay yerini boşaltın~s~ ve ~g~devriyeye~s~ geri dönün.</Text>
+        <Text>~g~Kod 4~s~, ~b~olay yerini boşaltın~s~ ve ~g~devriyeye~s~ geri dönün.</Text>
     </End>
 
 </Shooting>

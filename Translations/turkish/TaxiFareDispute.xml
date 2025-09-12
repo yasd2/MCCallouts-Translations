@@ -23,7 +23,7 @@
         <DIALOGUE>~p~Yolcu:~s~ Paramı almak mı istiyorsun? Dene de görelim!</DIALOGUE>
     </D_FIGHT>
     <END>
-        <TEXT>{CalloutMessage} is Code 4. Normal devriyenize dönün.</TEXT>
+        <TEXT>{CalloutMessage} Kod 4. Normal devriyenize dönün.</TEXT>
         <TEXT>{CalloutMessage} tamamlandı. Vardiyanıza devam edin.</TEXT>
         <TEXT>{CalloutMessage} çözüldü. Devriye görevlerinize geri dönün.</TEXT>
         <TEXT>{CalloutMessage} sona erdi. Standart devriyeye dönün.</TEXT>

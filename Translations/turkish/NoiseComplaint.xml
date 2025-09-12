@@ -15,7 +15,7 @@
     <Tasks>
         <Text>Partiden ~y~sarı işaretçiye~s~ doğru sürerek ayrılın.</Text>
         <Text>Burada doğru olduğunu düşündüğünüz gibi davranın, sonra ~g~~h~DJ~h~~s~ ile konuşun.</Text>
-        <Text>Arayan kişi aynı adresten tekrar gürültü şikayeti bildirdi. Code 2 ile yanıt verin.</Text>
+        <Text>Arayan kişi aynı adresten tekrar gürültü şikayeti bildirdi. Kod 2 ile yanıt verin.</Text>
     </Tasks>
 
     <OwnerCooperative>
@@ -46,7 +46,7 @@
 
     <DJ>
         <Dialogue>Merhaba bayım, buradaki DJ sizsiniz, değil mi?</Dialogue>
-        <Dialogue>Evet bayım, ~o~ev sahibi~s~ için üzgünüm, benim adım ~g~DJ Moodyman~s~.</Dialogue>
+        <Dialogue>Evet bayım, ~o~ev sahibi~s~ için üzgünüm, benim adım ~g~DJ Tornado Kazım~s~.</Dialogue>
         <Dialogue>Ah, bir süre önce yatta çalıyordunuz, değil mi?</Dialogue>
         <Dialogue>Evet, orada olduğunuzu hatırlıyorum. Neyse, sizin için ne yapabilirim?</Dialogue>
         <Dialogue>Lütfen sesini kısın, rahatsız olan komşularımız var.</Dialogue>
@@ -55,7 +55,7 @@
     </DJ>
 
     <End>
-        <Text>~g~Operasyon Code 4.</Text>
+        <Text>~g~Operasyon Kod 4.</Text>
         <Text>Operasyonu bitirmek için istediğiniz zaman ~y~End~s~ tuşuna basın.</Text>
     </End>
 </NoiseComplaint>

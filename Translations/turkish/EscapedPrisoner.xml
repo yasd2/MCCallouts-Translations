@@ -46,12 +46,12 @@
         <TEXT>~{Y}~ tuşuyla Cezaevi Gardiyanıyla konuş.</TEXT>
     </SEARCH>
     <ATTEMPTEDROBBERY>
-        <TEXT>Yakınlarda bir gasp ihbarı aldık! Code 3 intikal edin!</TEXT>
+        <TEXT>Yakınlarda bir gasp ihbarı aldık! Kod 3 intikal edin!</TEXT>
         <TEXT>"~g~Mağdur:~s~ Komiserim, soyguncu az önce kaçtı! Turuncu bir tulum giyiyordu!!"</TEXT>
         <TEXT>"~g~Mağdur:~s~ Yardım edin! O adam az önce hapisten kaçtı! Turuncu bir tulumla dolaşıyor!"</TEXT>
         <TEXT>"~g~Mağdur:~s~ Komiserim! Koştuğunu gördüm, turuncu mahkum üniformalıydı, o tarafa doğru gidiyordu!"</TEXT>
     </ATTEMPTEDROBBERY>
-    <AUTOSTEHLEN>Bir araç gaspı ihbarı geldi! Code 3 intikal edin!</AUTOSTEHLEN>
+    <AUTOSTEHLEN>Bir araç gaspı ihbarı geldi! Kod 3 intikal edin!</AUTOSTEHLEN>
     <END> <TEXT>Şüpheli tekrar demir parmaklıklar ardına konuldu. </TEXT>
         <TEXT>Şüpheli hayatını kaybetti. </TEXT>
         <TEXT>~g~Devriyenize geri dönün.</TEXT>
