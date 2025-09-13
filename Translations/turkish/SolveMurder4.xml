@@ -16,7 +16,7 @@
         <SUSPECT1_INNOCENT>
             <DIALOGUE>~y~Siz:~s~ Merhaba, size birkaç sorum olacak. Yakın zamanda meydana gelen bir cinayet vakasında olası bir şüphelisiniz. Adınız ne?</DIALOGUE>
             <DIALOGUE>~y~Şüpheli:~s~ Bir cinayet mi? Bu korkunç...</DIALOGUE>
-            <DIALOGUE>~y~Şüpheli:~s~ Adım James Walker. Ben bir araba tamircisiyim. Olay yerini biliyorum, oraya arabayı kontrol etmeye gittim.</DIALOGUE>
+            <DIALOGUE>~y~Şüpheli:~s~ Adım Hüsnü Demircioğlu. Ben bir araba tamircisiyim. Olay yerini biliyorum, oraya arabayı kontrol etmeye gittim.</DIALOGUE>
             <DIALOGUE>~y~Siz:~s~ Arabayı mı? Kimin arabası?</DIALOGUE>
             <DIALOGUE>~y~Şüpheli:~s~ Sarah Carter'ın arabası. Arabasının şanzımanında bir problem vardı. Arabayı garaja getirdim ve kontrol ettim, ama sorun yoktu. O da bana inanmadı.</DIALOGUE>
             <DIALOGUE>~y~Siz:~s~ Cep telefonunuz yanınızda mı?</DIALOGUE>
@@ -27,7 +27,7 @@
         </SUSPECT1_INNOCENT>
         <SUSPECT2_MURDERER>
             <DIALOGUE>~y~Siz:~s~ Merhaba Bayan, size birkaç sorum olacak. Yakın zamanda meydana gelen bir cinayet vakasında olası bir şüphelisiniz. Adınız ne?</DIALOGUE>
-            <DIALOGUE>~y~Şüpheli:~s~ Hımm... Lisa Carter.</DIALOGUE>
+            <DIALOGUE>~y~Şüpheli:~s~ Hımm... Eda Yılmaz.</DIALOGUE>
             <DIALOGUE>~y~Siz:~s~ Olay yerini biliyor musunuz?</DIALOGUE>
             <DIALOGUE>~y~Şüpheli:~s~ Aah... Hayır, bilmiyorum. Bir arkadaşımı ziyaret etmek için buradaydım.</DIALOGUE>
             <DIALOGUE>~y~Siz:~s~ Yakın zamanda bir cinayet işlendiğini biliyor muydunuz?</DIALOGUE>
@@ -45,7 +45,7 @@
         </SUSPECT2_MURDERER>
         <SUSPECT3_INNOCENT>
             <DIALOGUE>~y~Siz:~s~ Merhaba efendim, size birkaç sorum olacak. Yakın zamanda meydana gelen bir cinayet vakasında olası bir şüphelisiniz. Adınız ne?</DIALOGUE>
-            <DIALOGUE>~y~Şüpheli:~s~ Benim adım Jason Smith. Burada bir tatil evim var.</DIALOGUE>
+            <DIALOGUE>~y~Şüpheli:~s~ Benim adım Tarık Sucu. Burada bir tatil evim var.</DIALOGUE>
             <DIALOGUE>~y~Siz:~s~ Bu cinayetle herhangi bir ilginiz var mı?</DIALOGUE>
             <DIALOGUE>~y~Şüpheli:~s~ Hayır, kesinlikle hayır. Ben bir turistim.</DIALOGUE>
             <DIALOGUE>~y~Siz:~s~ En son ne zaman cinayet mahalline yakın bir yerde bulundunuz?</DIALOGUE>
@@ -90,8 +90,8 @@
     <MENU>
         <TITLE>Katil</TITLE>
         <SUBTITLE>Katil şu...</SUBTITLE>
-        <ITEM>James 'Jimmy' Walker, araba tamircisi</ITEM>
-        <ITEM>Lisa Carter, kadın</ITEM>
-        <ITEM>Jason Smith, turist</ITEM>
+        <ITEM>Hüsnü 'Hüseyin' Demircioğlu, araba tamircisi</ITEM>
+        <ITEM>Eda Yılmaz, kadın</ITEM>
+        <ITEM>Tarık Sucu, turist</ITEM>
     </MENU>
 </CALLOUT>

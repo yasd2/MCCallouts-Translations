@@ -3,11 +3,11 @@
     <General>
         <Message>Arayan kişi olası Araçla Adam Kaçırma ihbarı yaptı</Message>
         <Message>Trafik Durdurması gerekli</Message>
-        <Message>~o~Şüpheli aracı~w~ durdurmak için ~g~trafik durdurması~w~ yapın, Code 3 ile yanıt verin.</Message>
+        <Message>~o~Şüpheli aracı~w~ durdurmak için ~g~trafik durdurması~w~ yapın, Kod 3 ile yanıt verin.</Message>
         <Message>Merkez, bir şüpheli ~y~tutuklandı~w~!</Message>
-        <Message>Sürücü ~r~öldü, ~g~Code 4</Message>
-        <Message>Yolcu ~r~öldü, ~g~Code 4</Message>
-        <Message>Aman Tanrım, Kurban ~r~öldü! ~g~Code 4</Message>
+        <Message>Sürücü ~r~öldü, ~g~Kod 4</Message>
+        <Message>Yolcu ~r~öldü, ~g~Kod 4</Message>
+        <Message>Aman Tanrım, Kurban ~r~öldü! ~g~Kod 4</Message>
     </General>
 
     <Infos>

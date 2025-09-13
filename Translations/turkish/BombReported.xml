@@ -2,7 +2,7 @@
 
     <General>
         <Text>Bomba ihbarı</Text>
-        <Text>Olası bir bomba tehdidine karşı ~r~Code 3~s~ koduyla arama yapın.</Text>
+        <Text>Olası bir bomba tehdidine karşı ~r~Kod 3~s~ koduyla arama yapın.</Text>
         <Text>Vatandaşları tahliye etmek için {Y} tuşuna basın!</Text>
         <Text>~y~Bölgede~s~ bombayı arayın.</Text>
         <Text>İPUCU: Bomba uzmanını aramak için {Y} tuşuna basın.</Text>

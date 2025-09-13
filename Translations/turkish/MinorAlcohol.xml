@@ -24,13 +24,13 @@
         <Text>~b~Siz:~s~</Text>
         <Text>~y~Kişi:~s~</Text>
         <Text>~q~Kaptan:~s~</Text>
-        <Text>~r~Asistan Caty:~s~</Text>
-        <Text>~r~Asistan Nicole:~s~</Text>
+        <Text>~r~Asistan Cansu:~s~</Text>
+        <Text>~r~Asistan Nur:~s~</Text>
     </Characters>
 
     <TalkToCaptain>
         <Dialogue>Merhaba, geldiğiniz için teşekkürler!</Dialogue>
-        <Dialogue>Bu gece büyük bir parti var, ünlü ~g~DJ Moodyman~s~ çalıyor!</Dialogue>
+        <Dialogue>Bu gece büyük bir parti var, ünlü ~g~DJ Tornado Kazım~s~ çalıyor!</Dialogue>
         <Dialogue>Maalesef aramızda birkaç reşit olmayan kişi var gibi görünüyor.</Dialogue>
         <Dialogue>Lütfen onları kontrol edin, burada olamazlar.</Dialogue>
         <Dialogue>Uygun olabilecek kişileri kontrol edin.</Dialogue>
@@ -38,7 +38,7 @@
 
     <Caty>
         <Dialogue>Selam, umarım gemideki gençleri bulabilirsiniz, geminin arkasına bakın!</Dialogue>
-        <Dialogue>~g~DJ Moodyman~s~ üst platformda çalıyor, partiyi mahvetmek için sahneye çıkmamaya dikkat edin c;</Dialogue>
+        <Dialogue>~g~DJ Tornado Kazım~s~ üst platformda çalıyor, partiyi mahvetmek için sahneye çıkmamaya dikkat edin c;</Dialogue>
     </Caty>
 
     <Nicole>

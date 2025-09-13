@@ -27,8 +27,8 @@
     </Surrender>
 
     <End>
-        <Text>Şüpheli Gözaltında, ~g~Code 4~w~</Text>
-        <Text>~g~Code 4~w~</Text>
-        <Text>~r~Şüpheli öldü.~g~ Code 4</Text>
+        <Text>Şüpheli Gözaltında, ~g~Kod 4~w~</Text>
+        <Text>~g~Kod 4~w~</Text>
+        <Text>~r~Şüpheli öldü.~g~ Kod 4</Text>
     </End>
 </PersonWithFirearm>

@@ -1,114 +1,114 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Assault</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>One person injured, police and EMS on scene</CALLOUTADVISORY>
-    <TASK>An officer reported an assault. EMS is already on scene. Drive to the reported location.</TASK>
+    <CALLOUTMESSAGE>Saldırı</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Bir kişi yaralı, polis ve ambulans olay yerinde</CALLOUTADVISORY>
+    <TASK>Bir memur, bir saldırı vakası bildirdi. Ambulans zaten olay yerinde. Bildirilen konuma doğru sürün.</TASK>
     <NOTIFICATIONS>
-        <TEXT>Search the area nearby for the suspect vehicle.{n}~o~Vehicle:~s~ {MODEL}{n}~o~Color:~s~ {COLOR}{n}~o~Suspect:~s~ {FIRSTNAME} {LASTNAME}</TEXT>
-        <TEXT>Search the nearby area for the suspect.{n}~o~Name:~s~ {FIRSTNAME} {LASTNAME}{n}~o~Warrant:~s~ Assault</TEXT>
-        <TEXT>An officer has pulled over a matching vehicle. Respond Code 3 as backup.</TEXT>
+        <TEXT>Yakın bölgede şüpheli aracı arayın.{n}~o~Araç:~s~ {MODEL}{n}~o~Renk:~s~ {COLOR}{n}~o~Şüpheli:~s~ {FIRSTNAME} {LASTNAME}</TEXT>
+        <TEXT>Yakın bölgede şüpheliyi arayın.{n}~o~İsim:~s~ {FIRSTNAME} {LASTNAME}{n}~o~Yakalanma Kararı:~s~ Saldırı</TEXT>
+        <TEXT>Bir memur eşleşen bir aracı durdurdu. Destek için Kod 3 ile olay yerine intikal edin.</TEXT>
     </NOTIFICATIONS>
     <DIALOGUES id="D_Officer">
-        <DIALOGUE>~b~Officer:~s~ Hello partner, great that you got here so quickly!</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ We received a call about an assault and I was the first on scene.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ As you can see, EMS is already treating the victim.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ You should probably talk to the paramedic first to get an update on the victim's condition.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ The victim doesn't look good, maybe he's responsive and can remember something.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ A witness has come forward too, I hope they can give some useful information about the incident.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ Good luck!</DIALOGUE>
+        <DIALOGUE>~b~Memur:~s~ Selam devrem, ne kadar hızlı geldin böyle!</DIALOGUE>
+        <DIALOGUE>~b~Memur:~s~ Bir saldırı hakkında ihbar aldık ve olay yerine ilk ben ulaştım.</DIALOGUE>
+        <DIALOGUE>~b~Memur:~s~ Gördüğün gibi, ambulans personeli zaten mağdurla ilgileniyor.</DIALOGUE>
+        <DIALOGUE>~b~Memur:~s~ Mağdurun durumu hakkında bilgi almak için önce sağlık görevlisiyle konuşsan iyi olur.</DIALOGUE>
+        <DIALOGUE>~b~Memur:~s~ Mağdur pek iyi görünmüyor, belki bilinci açıktır ve bir şeyler hatırlıyordur.</DIALOGUE>
+        <DIALOGUE>~b~Memur:~s~ Bir de görgü tanığı çıktı, umarım olay hakkında faydalı bilgiler verebilir.</DIALOGUE>
+        <DIALOGUE>~b~Memur:~s~ İyi şanslar!</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Paramedic_Witness">
-        <DIALOGUE>~r~Paramedic:~s~ Good day, glad to get support from you - it's definitely needed.</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ We have multiple lacerations and bruises here, possibly caused by a larger object.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Something like a knife, brass knuckles, or a glass bottle?</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ Yes, exactly. The patient is seriously injured and unresponsive. I'm stabilizing him now, then it's off to the hospital.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Doesn't look like I'll get any info from the victim, I'll let you do your job.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ I'll go talk to the witness next.</DIALOGUE>
+        <DIALOGUE>~r~Sağlık Görevlisi:~s~ Merhaba, destek geldiğine sevindim - kesinlikle ihtiyacımız vardı.</DIALOGUE>
+        <DIALOGUE>~r~Sağlık Görevlisi:~s~ Burada, muhtemelen daha büyük bir cisimden kaynaklanan çok sayıda kesik ve morluk var.</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Bıçak, muşta ya da cam şişe gibi bir şey mi?</DIALOGUE>
+        <DIALOGUE>~r~Sağlık Görevlisi:~s~ Evet, aynen öyle. Hasta ciddi şekilde yaralı ve bilinci kapalı. Şimdi onu stabilize ediyorum, sonra da hastaneye götüreceğiz.</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Mağdurdan bir bilgi alabileceğimi sanmıyorum, ben en iyisi seni işine bırakayım.</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Şimdi de görgü tanığıyla konuşacağım.</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Paramedic_VictimWitness">
-        <DIALOGUE>~r~Paramedic:~s~ Ah hello, I guess your colleague called for backup?</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ Glad you're here. The victim is doing okay under the circumstances.</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ He has a head wound, possibly caused by a punch or a light object.</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ The wound needs stitches, so I'll take him to the hospital shortly.</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ It's best if you ask your questions now while the memory is still fresh.</DIALOGUE>
+        <DIALOGUE>~r~Sağlık Görevlisi:~s~ Ah merhaba, sanırım meslektaşın destek çağırdı?</DIALOGUE>
+        <DIALOGUE>~r~Sağlık Görevlisi:~s~ Burada olmana sevindim. Mağdur koşullara göre iyi durumda.</DIALOGUE>
+        <DIALOGUE>~r~Sağlık Görevlisi:~s~ Bir kafa yarası var, muhtemelen bir yumruk veya hafif bir cisimden kaynaklanmış.</DIALOGUE>
+        <DIALOGUE>~r~Sağlık Görevlisi:~s~ Yaranın dikilmesi gerekiyor, bu yüzden kısa süre içinde onu hastaneye götüreceğim.</DIALOGUE>
+        <DIALOGUE>~r~Sağlık Görevlisi:~s~ Hafızası hala tazeyken sorularınızı şimdi sormanız en iyisi.</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Victim_VictimWitness">
-        <DIALOGUE>~o~Victim:~s~ Hello officer, please find the bastard who did this!</DIALOGUE>
-        <DIALOGUE>~o~Victim:~s~ I was walking around, just trying to shop for something.</DIALOGUE>
-        <DIALOGUE>~o~Victim:~s~ Suddenly, {FIRSTNAME} {LASTNAME} showed up - I know him from the bar.</DIALOGUE>
-        <DIALOGUE>~o~Victim:~s~ He started mouthing off at me and then hit me - I don't remember much after that.</DIALOGUE>
-        <DIALOGUE>~o~Victim:~s~ Unfortunately, I didn't see where they went. Ah, my head... it hurts. Damn!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ It's okay, just rest for now. We'll record your statement and start a search immediately.</DIALOGUE>
-        <DIALOGUE>~o~Victim:~s~ Look for {FIRSTNAME} {LASTNAME}, {GENDER}! They did this!</DIALOGUE>
+        <DIALOGUE>~o~Mağdur:~s~ Selam komiserim, lütfen bunu yapan şerefsizi bulun!</DIALOGUE>
+        <DIALOGUE>~o~Mağdur:~s~ Etrafta dolaşıyordum, sadece bir şeyler almak için mağazaya gitmeye çalışıyordum.</DIALOGUE>
+        <DIALOGUE>~o~Mağdur:~s~ Aniden, barda tanıdığım {FIRSTNAME} {LASTNAME} ortaya çıktı.</DIALOGUE>
+        <DIALOGUE>~o~Mağdur:~s~ Bana küfretmeye başladı ve sonra vurdu - sonrasını pek hatırlamıyorum.</DIALOGUE>
+        <DIALOGUE>~o~Mağdur:~s~ Maalesef, nereye gittiklerini göremedim. Ah, kafam... çok ağrıyor. Kahretsin!</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Sakin olun, şimdilik dinlenin. İfadenizi kaydedip hemen bir arama başlatacağız.</DIALOGUE>
+        <DIALOGUE>~o~Mağdur:~s~ {FIRSTNAME} {LASTNAME}'ı arayın, {GENDER}! Bunu o yaptı!</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Witness_Witness">
-        <DIALOGUE>~g~Witness:~s~ Hello officer, great you're here. I hope I can help identify the attacker.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ I saw them arguing, and suddenly one pushed the other and started hitting!</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ Pretty brutal if you ask me! No wonder an ambulance had to come.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ I heard one of them say the suspect's name: {LASTNAME}. The person was {GENDER}.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ It's sad how violence is increasing these days.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Thanks, that definitely helped.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Did you see where the suspect went?</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ They went off on foot. I can mark it on your GPS if you want!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Thanks again, we'll do our best to catch them!</DIALOGUE>
+        <DIALOGUE>~g~Görgü Tanığı:~s~ Merhaba komiserim, burada olmanıza sevindim. Umarım saldırganı teşhis etmeye yardımcı olabilirim.</DIALOGUE>
+        <DIALOGUE>~g~Görgü Tanığı:~s~ Tartıştıklarını gördüm ve aniden biri diğerini itti ve vurmaya başladı!</DIALOGUE>
+        <DIALOGUE>~g~Görgü Tanığı:~s~ Bence oldukça vahşiydi! Ambulansın gelmesine şaşmamalı.</DIALOGUE>
+        <DIALOGUE>~g~Görgü Tanığı:~s~ Birinin şüphelinin adını söylediğini duydum: {LASTNAME}. O kişi {GENDER} idi.</DIALOGUE>
+        <DIALOGUE>~g~Görgü Tanığı:~s~ Bu günlerde şiddetin artması çok üzücü.</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Teşekkürler, bu kesinlikle yardımcı oldu.</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Şüphelinin nereye gittiğini gördünüz mü?</DIALOGUE>
+        <DIALOGUE>~g~Görgü Tanığı:~s~ Yaya olarak uzaklaştılar. İsterseniz GPS'inize işaretleyebilirim!</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Tekrar teşekkürler, onları yakalamak için elimizden geleni yapacağız!</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Witness_VictimWitness">
-        <DIALOGUE>~y~You:~s~ Hello, I'm an officer from the local police department. Can you tell me what happened?</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ Hello, yes - I think I saw someone leaving the scene.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ I heard an argument and went toward the sound.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ I only saw someone bleeding on the ground, and another person walking away quickly.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ They ran off in that direction!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Can you describe the person?</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ Sadly not, I only saw them from a distance and stayed with the injured person.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ You did the right thing, thank you - you can see how badly they were hurt.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ We'll start a close-range search right away.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ Good luck! Catch that bastard!</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Merhaba, yerel polis merkezinden bir memurum. Ne olduğunu anlatabilir misiniz?</DIALOGUE>
+        <DIALOGUE>~g~Görgü Tanığı:~s~ Merhaba, evet - sanırım birinin olay yerinden ayrıldığını gördüm.</DIALOGUE>
+        <DIALOGUE>~g~Görgü Tanığı:~s~ Bir tartışma sesi duydum ve sese doğru yürüdüm.</DIALOGUE>
+        <DIALOGUE>~g~Görgü Tanığı:~s~ Sadece yerde kanlar içinde birini ve başka bir kişinin hızla uzaklaştığını gördüm.</DIALOGUE>
+        <DIALOGUE>~g~Görgü Tanığı:~s~ O yöne doğru koştular!</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ O kişiyi tarif edebilir misiniz?</DIALOGUE>
+        <DIALOGUE>~g~Görgü Tanığı:~s~ Maalesef hayır, onları sadece uzaktan gördüm ve yaralı kişinin yanında kaldım.</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Doğru olanı yaptınız, teşekkür ederim - ne kadar kötü yaralandıklarını görebiliyorsunuz.</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Hemen yakın mesafeli bir arama başlatacağız.</DIALOGUE>
+        <DIALOGUE>~g~Görgü Tanığı:~s~ İyi şanslar! O şerefsizi yakalayın!</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Witness_TrafficStop">
-        <DIALOGUE>~y~You:~s~ Good day, I'm an officer from the local police department.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ Hello, I want to help catch the suspect.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ I know them, they also live in town.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ Their name is {FIRSTNAME} {LASTNAME}!</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ They were holding something during the fight - I couldn't quite tell what it was.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ The asshole hit the victim several times, then drove off in a {MODEL}!</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ The car color was {COLOR}.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ I wrote down the license plate... {LICENSEPLATE}!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Thanks a lot! I'll keep a lookout for the vehicle. Have a great day!</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Merhaba, yerel polis merkezinden bir trafik memuruyum.</DIALOGUE>
+        <DIALOGUE>~g~Görgü Tanığı:~s~ Merhaba, şüpheliyi yakalamaya yardım etmek istiyorum.</DIALOGUE>
+        <DIALOGUE>~g~Görgü Tanığı:~s~ Onu tanıyorum, o da bu kasabada yaşıyor.</DIALOGUE>
+        <DIALOGUE>~g~Görgü Tanığı:~s~ Adı {FIRSTNAME} {LASTNAME}!</DIALOGUE>
+        <DIALOGUE>~g~Görgü Tanığı:~s~ Kavga sırasında elinde bir şey tutuyordu - tam olarak ne olduğunu anlayamadım.</DIALOGUE>
+        <DIALOGUE>~g~Görgü Tanığı:~s~ O adi herif mağdura birkaç kez vurdu, sonra da bir {MODEL} ile uzaklaştı!</DIALOGUE>
+        <DIALOGUE>~g~Görgü Tanığı:~s~ Arabanın rengi {COLOR} idi.</DIALOGUE>
+        <DIALOGUE>~g~Görgü Tanığı:~s~ Plakayı not aldım... {LICENSEPLATE}!</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Çok teşekkürler! Aracı takip edeceğim. İyi günler!</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_TrafficOfficer_1">
-        <DIALOGUE>~b~Officer:~s~ Hey partner! I pulled this one over, the car matches the description.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ I definitely wanted backup, that's why I called you.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ I'll take the passenger side - I've got your back in case they try anything stupid.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ Go ahead and double-check the vehicle details, just to be sure.</DIALOGUE>
+        <DIALOGUE>~b~Memur:~s~ Hey devrem! Bu arabayı durdurdum, açıklamayla eşleşiyor.</DIALOGUE>
+        <DIALOGUE>~b~Memur:~s~ Kesinlikle desteğe ihtiyacım vardı, bu yüzden seni aradım.</DIALOGUE>
+        <DIALOGUE>~b~Memur:~s~ Ben yolcu tarafına bakacağım - saçma bir şey denerlerse arkandayım.</DIALOGUE>
+        <DIALOGUE>~b~Memur:~s~ İyice emin olmak için sen de araç detaylarını bir kez daha kontrol et.</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Suspect_Witness">
-        <DIALOGUE>~y~You:~s~ Stop right there! Police!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ Oh my God, you scared me. What do you want?</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ You're a suspect in a criminal case. Where were you a short while ago?</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ I... is this about the fight? Come on, it wasn't a big deal.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Just so you know, the victim is being transported to the hospital! They're seriously injured!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ Oh no... I didn't mean for that to happen. Damn, I'm so sorry...</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Hands where I can see them! You're under arrest!</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Olduğun yerde kal! Polis!</DIALOGUE>
+        <DIALOGUE>~r~Şüpheli:~s~ Aman Allah'ım, beni korkuttunuz. Ne istiyorsunuz?</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Bir suç davasında şüphelisiniz. Kısa bir süre önce neredeydiniz?</DIALOGUE>
+        <DIALOGUE>~r~Şüpheli:~s~ Ben... bu kavgayla ilgili mi? Hadi ama, o kadar da büyük bir mesele değildi.</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Sadece bilginiz olsun, mağdur hastaneye kaldırılıyor! Ciddi şekilde yaralanmış!</DIALOGUE>
+        <DIALOGUE>~r~Şüpheli:~s~ Hayır... Bunun olmasını istememiştim. Kahretsin, çok üzgünüm...</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Eller yukarı! Tutuklusunuz!</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Suspect_VictimWitness">
-        <DIALOGUE>~y~You:~s~ Police! Please come with me, I've got a few questions for you.</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ What do you want from me? Leave me alone!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Listen, we can do this the easy way or the hard way.</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ You can't prove anything. I didn't do anything! Nothing at all!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ You match the description of a suspect. Where were you an hour ago?</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ I... was at the library, yes exactly! I read and enjoy the peace away from you pigs!</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Polis! Lütfen benimle gelin, size birkaç sorum olacak.</DIALOGUE>
+        <DIALOGUE>~r~Şüpheli:~s~ Benden ne istiyorsunuz? Beni rahat bırakın!</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Dinle, bunu kolay yoldan da yapabiliriz, zor yoldan da.</DIALOGUE>
+        <DIALOGUE>~r~Şüpheli:~s~ Hiçbir şey kanıtlayamazsınız. Ben hiçbir şey yapmadım! Hiçbir şey!</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Bir şüphelinin tarifine uyuyorsunuz. Bir saat önce neredeydiniz?</DIALOGUE>
+        <DIALOGUE>~r~Şüpheli:~s~ Ben... kütüphanedeydim, evet tam olarak orada! Sizin gibi domuzlardan uzakta huzurun tadını çıkarıyordum!</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Suspect_TrafficStop">
-        <DIALOGUE>~y~You:~s~ Good day, I'm a traffic officer from the local department. License and vehicle documents, please.</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ Is there a reason for this stop? My documents are all valid!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Where are you coming from?</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ I was just shopping, a few small things, why?</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Were you in an argument recently? Friend, coworker or similar? We got a report.</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ Yes, I had a small argument, just words, a little shoving.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Did you do more than just shove? A witness reported something different.</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ I don't know what you mean!! Go ahead and arrest me then!</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Merhaba, yerel bir trafik memuruyum. Ehliyet ve araç belgelerinizi alabilir miyim?</DIALOGUE>
+        <DIALOGUE>~r~Şüpheli:~s~ Bu durdurmanın bir sebebi var mı? Belgelerimin hepsi geçerli!</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Nereden geliyorsunuz?</DIALOGUE>
+        <DIALOGUE>~r~Şüpheli:~s~ Sadece alışveriş yapıyordum, birkaç küçük şey, neden sordunuz?</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Yakın zamanda bir tartışmanız oldu mu? Arkadaş, iş arkadaşı ya da benzeri? Bir ihbar aldık.</DIALOGUE>
+        <DIALOGUE>~r~Şüpheli:~s~ Evet, küçük bir tartışmam oldu, sadece sözlü bir atışma, hafif bir itişme.</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Sadece itişmeden daha fazlasını yaptınız mı? Bir tanık farklı bir şey bildirdi.</DIALOGUE>
+        <DIALOGUE>~r~Şüpheli:~s~ Ne demek istediğinizi bilmiyorum!! Hadi o zaman beni tutuklayın!</DIALOGUE>
     </DIALOGUES>
     <END>
-        <TEXT>Dispatch, show us Code 4. Returning to patrol.</TEXT>
-        <TEXT>We're Code 4 here. Dispatch, no further assistance needed.</TEXT>
+        <TEXT>Merkez, bizi Kod 4 olarak göster. Devriyeye dönüyoruz.</TEXT>
+        <TEXT>Burada Kod 4'üz. Merkez, başka bir yardıma gerek yok.</TEXT>
     </END>
 </CALLOUT>

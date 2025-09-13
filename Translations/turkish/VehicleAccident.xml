@@ -1,6 +1,6 @@
 <CALLOUT>
     <CALLOUTMESSAGE>Araç Kazası</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>~r~Code 3 ile yanıt ver</CALLOUTADVISORY>
+    <CALLOUTADVISORY>~r~Kod 3 ile yanıt ver</CALLOUTADVISORY>
     <TASK>~r~Kaza yerine~s~ sür. Trafiği yönettiğinden ve sürücünün iyi olduğundan emin ol.</TASK>
     <SCENARIOS>
         <DRIVERINJURED>
@@ -24,7 +24,7 @@
                 <DIALOGUE>Silah: Tabanca</DIALOGUE>
                 <DIALOGUE>~b~Sahibi: {DriversName}</DIALOGUE>
                 <DIALOGUE>~r~Dikkat: Sahibi aranıyor</DIALOGUE>
-                <DIALOGUE>Dikkat: Yakınlarda şüpheli bir kişi hakkında çağrı aldık, lütfen ~r~Code 3~s~ ile yanıt verin.</DIALOGUE>
+                <DIALOGUE>Dikkat: Yakınlarda şüpheli bir kişi hakkında çağrı aldık, lütfen ~r~Kod 3~s~ ile yanıt verin.</DIALOGUE>
             </SERIALNUMBER>
         </DRIVERSHOTWEAPONNEARBY>
     </SCENARIOS>

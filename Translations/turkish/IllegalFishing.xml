@@ -48,8 +48,8 @@
     <End>
         <Text>Şüpheli öldü.</Text>
         <Text>Görevi bitirmek için istediğiniz zaman {0} tuşuna basın.</Text>
-        <Text>~r~GTA-Hata: Bir Kişi geçersiz oldu.~s~</Text>
-        <Text>~g~Code 4.~s~</Text>
+        <Text>~r~GTA-Hata: Bir Ped geçersiz oldu.~s~</Text>
+        <Text>~g~Kod 4.~s~</Text>
     </End>
 
     <Menu>

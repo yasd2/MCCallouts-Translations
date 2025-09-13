@@ -22,44 +22,44 @@
     <Suspect1>
         <Dialogue>Kullanarak ~o~şüpheliyle~w~ konuşun</Dialogue>
         <Dialogue>~y~Siz~s~: Merhaba, bu davanın dedektifiyim, size birkaç sorum olacak.</Dialogue>
-        <Dialogue>~o~Ayla May~s~: Çok ~r~gerginim~s~. Bu olayla bir ilgim yok.</Dialogue>
+        <Dialogue>~o~Ayla Öztürk~s~: Çok ~r~gerginim~s~. Bu olayla bir ilgim yok.</Dialogue>
         <Dialogue>~y~Siz~s~: Endişelenmeyin, iyisiniz. Ne tür alkol içersiniz?</Dialogue>
-        <Dialogue>~o~Ayla May~s~: Neredeyse hiç alkol içmem... eğer içersem de, belki bir kadeh kırmızı şarap.</Dialogue>
+        <Dialogue>~o~Ayla Öztürk~s~: Neredeyse hiç alkol içmem... eğer içersem de, belki bir kadeh kırmızı şarap.</Dialogue>
         <Dialogue>~y~Siz~s~: Bazen ~r~cips~w~ yer misiniz?</Dialogue>
-        <Dialogue>~o~Ayla May~s~: ~g~Hayır~w~, sağlıklı bir yaşam tarzım var, çok spor yaparım.</Dialogue>
+        <Dialogue>~o~Ayla Öztürk~s~: ~g~Hayır~w~, sağlıklı bir yaşam tarzım var, çok spor yaparım.</Dialogue>
         <Dialogue>~y~Siz~s~: Bu kadar, zaman ayırdığınız için teşekkürler.</Dialogue>
     </Suspect1>
 
     <Suspect2>
         <Dialogue>Kullanarak ~o~şüpheliyle~w~ konuşun</Dialogue>
         <Dialogue>~y~Siz~s~: Merhaba, ben bu davanın ~r~dedektifiyim~s~, size birkaç soru sorabilir miyim?</Dialogue>
-        <Dialogue>~r~Jameson Fisher~s~: Selam! Evet, çekinmeeeee *güler*</Dialogue>
+        <Dialogue>~r~Burak Tatlıcı~s~: Selam! Evet, çekinmeeeee *güler*</Dialogue>
         <Dialogue>~y~Siz~s~: ~r~Sarhoş~w~ görünüyorsunuz, ne kadar içtiniz?!</Dialogue>
-        <Dialogue>~r~Jameson Fisher~s~: Hiçbir şey içmedim, bir damla bile değiiiil...</Dialogue>
+        <Dialogue>~r~Burak Tatlıcı~s~: Hiçbir şey içmedim, bir damla bile değiiiil...</Dialogue>
         <Dialogue>~y~Siz~s~: Lütfen bunu ciddiye alın. Ne iş yapıyorsunuz?</Dialogue>
-        <Dialogue>~r~Jameson Fisher~s~: Elbette, ben bir ~o~avcıyım~w~, buraya çok uzak olmayan bir ormanım var.</Dialogue>
+        <Dialogue>~r~Burak Tatlıcı~s~: Elbette, ben bir ~o~avcıyım~w~, buraya çok uzak olmayan bir ormanım var.</Dialogue>
         <Dialogue>~y~Siz~s~: Tamam, benim kadar sık ~r~cips~w~ yer misiniz?</Dialogue>
-        <Dialogue>~r~Jameson Fisher~s~: Evet, ~r~cipsi ÇOK SEVERİM~w~, ben hep yerim, ~y~az önce bir paket yedim...</Dialogue>
+        <Dialogue>~r~Burak Tatlıcı~s~: Evet, ~r~cipsi ÇOK SEVERİM~w~, ben hep yerim, ~y~az önce bir paket yedim...</Dialogue>
         <Dialogue>~y~Siz~s~: Sorgumuz bitti, nasıl devam edeceğimizi size bildireceğim.</Dialogue>
     </Suspect2>
 
     <Officer2>
         <Dialogue>Tekrar ~b~Memurla~w~ konuşun</Dialogue>
         <Dialogue>~b~Memur~w~: Peki, delillere ve konuşmalara dayanarak ~r~katilin~w~ kim olduğunu bulabildiniz mi?</Dialogue>
-        <Dialogue>~y~Siz~s~: Evet, bence katil... ~o~[1] Ayla May  ~r~[2] Jameson Fisher</Dialogue>
+        <Dialogue>~y~Siz~s~: Evet, bence katil... ~o~[1] Ayla Öztürk  ~r~[2] Burak Tatlıcı</Dialogue>
         <Dialogue>~r~Katili~s~ seçmek için ~o~'1'~w~ veya ~r~'2'~w~ tuşuna basın.</Dialogue>
-        <Dialogue>~y~Siz~s~: ...~o~Ayla May~w~!</Dialogue>
-        <Dialogue>~y~Siz~s~: ...~r~Jameson Fisher~w~!</Dialogue>
+        <Dialogue>~y~Siz~s~: ...~o~Ayla Öztürk~w~!</Dialogue>
+        <Dialogue>~y~Siz~s~: ...~r~Burak Tatlıcı~w~!</Dialogue>
         <Dialogue>~b~Memur~w~: Pekala, devam edin ve şüpheliyi tutuklayın!</Dialogue>
     </Officer2>
 
     <Arrest>
-        <Text>Ah hayır, ne yazık ki ~r~masum~w~ birini tutukladınız! ~o~Code 4~w~</Text>
-        <Text>Soruşturma ~g~Code 4~w~, Dava ~g~çözüldü~w~, ~g~doğru şüpheli tutuklandı!</Text>
+        <Text>Ah hayır, ne yazık ki ~r~masum~w~ birini tutukladınız! ~o~Kod 4~w~</Text>
+        <Text>Soruşturma ~g~Kod 4~w~, Dava ~g~çözüldü~w~, ~g~doğru şüpheli tutuklandı!</Text>
         <Text>~y~Kurbanı~w~ almak için bir ~b~Adli Tıp Görevlisi~w~ çağırın ve ardından ~r~şüpheliyi~w~ ~o~hapishaneye~w~ nakledin.</Text>
-        <Text>~g~Ayla May ~r~öldü.~s~ Bunun gerekli olduğundan emin misiniz? ~g~Code 4~s~</Text>
-        <Text>~b~Jameson Fisher ~r~öldü,~s~ umarım iyi bir avukatınız vardır!? ~g~Code 4~s~</Text>
-        <Text>~b~Memur~s~ ~r~öldü~s~, bu iyi bir son değil!? ~g~Code 4~s~</Text>
+        <Text>~g~Ayla Öztürk ~r~öldü.~s~ Bunun gerekli olduğundan emin misiniz? ~g~Kod 4~s~</Text>
+        <Text>~b~Burak Tatlıcı ~r~öldü,~s~ umarım iyi bir avukatınız vardır!? ~g~Kod 4~s~</Text>
+        <Text>~b~Memur~s~ ~r~öldü~s~, bu iyi bir son değil!? ~g~Kod 4~s~</Text>
     </Arrest>
 
 </SolveMurder>
