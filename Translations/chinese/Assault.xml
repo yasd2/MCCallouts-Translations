@@ -1,0 +1,114 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>袭击案</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>一人受伤，警方和急救人员已在现场</CALLOUTADVISORY>
+    <TASK>一名警官报告了一起袭击案。急救人员已在现场。请驾车前往报告地点。</TASK>
+    <NOTIFICATIONS>
+        <TEXT>搜索附近区域寻找嫌疑车辆。{n}~o~车型:~s~ {MODEL}{n}~o~颜色:~s~ {COLOR}{n}~o~嫌疑人:~s~ {FIRSTNAME} {LASTNAME}</TEXT>
+        <TEXT>搜索附近区域寻找嫌疑人。{n}~o~姓名:~s~ {FIRSTNAME} {LASTNAME}{n}~o~通缉令:~s~ 袭击罪</TEXT>
+        <TEXT>一名警官已拦停一辆匹配车辆。请 Code 3 响应支援。</TEXT>
+    </NOTIFICATIONS>
+    <DIALOGUES id="D_Officer">
+        <DIALOGUE>~b~警官:~s~ 你好伙计，你这么快就到了真是太好了！</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 我们接到一个关于袭击案的电话，我是第一个到达现场的。</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 如你所见，急救人员已经在救治受害者了。</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 你可能应该先和护理人员谈谈，了解受害者的情况。</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 受害者情况看起来不妙，也许他还有意识，能记起些什么。</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 一位目击者也站了出来，我希望他们能提供一些关于事件的有用信息。</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 祝你好运！</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Paramedic_Witness">
+        <DIALOGUE>~r~护理人员:~s~ 你好，很高兴得到你的支援——这绝对是需要的。</DIALOGUE>
+        <DIALOGUE>~r~护理人员:~s~ 我们这里有多处撕裂伤和淤伤，可能是由较大的物体造成的。</DIALOGUE>
+        <DIALOGUE>~y~你:~s~ 像是刀子、指节铜环或者玻璃瓶之类的东西？</DIALOGUE>
+        <DIALOGUE>~r~护理人员:~s~ 是的，没错。伤者伤势严重且没有反应。我正在稳定他的情况，然后就去医院。</DIALOGUE>
+        <DIALOGUE>~y~你:~s~ 看来我从受害者那里得不到任何信息了，我就不打扰你工作了。</DIALOGUE>
+        <DIALOGUE>~y~你:~s~ 我接下来去和目击者谈谈。</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Paramedic_VictimWitness">
+        <DIALOGUE>~r~护理人员:~s~ 啊你好，我猜是你的同事呼叫了支援？</DIALOGUE>
+        <DIALOGUE>~r~护理人员:~s~ 很高兴你来了。受害者在这种情况下还算可以。</DIALOGUE>
+        <DIALOGUE>~r~护理人员:~s~ 他头部有伤，可能是由一拳或一个轻的物体造成的。</DIALOGUE>
+        <DIALOGUE>~r~护理人员:~s~ 伤口需要缝合，所以我马上带他去医院。</DIALOGUE>
+        <DIALOGUE>~r~护理人员:~s~ 你最好现在提问，趁记忆还新鲜。</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Victim_VictimWitness">
+        <DIALOGUE>~o~受害者:~s~ 你好警官，请找到干这事的混蛋！</DIALOGUE>
+        <DIALOGUE>~o~受害者:~s~ 我当时在闲逛，只是想买点东西。</DIALOGUE>
+        <DIALOGUE>~o~受害者:~s~ 突然，{FIRSTNAME} {LASTNAME}出现了——我在酒吧认识他。</DIALOGUE>
+        <DIALOGUE>~o~受害者:~s~ 他开始对我破口大骂，然后打了我——之后我就不太记得了。</DIALOGUE>
+        <DIALOGUE>~o~受害者:~s~ 不幸的是，我没看到他们去了哪里。啊，我的头……好痛。该死的！</DIALOGUE>
+        <DIALOGUE>~y~你:~s~ 没关系，先休息吧。我们会记录你的陈述并立即开始搜查。</DIALOGUE>
+        <DIALOGUE>~o~受害者:~s~ 去找 {FIRSTNAME} {LASTNAME}，{GENDER}！就是他们干的！</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Witness_Witness">
+        <DIALOGUE>~g~目击者:~s~ 你好警官，太好了你来了。我希望我能帮忙指认袭击者。</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 我看到他们在争吵，突然一个推了另一个然后开始打人！</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 要我说的话太残忍了！难怪得叫救护车。</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 我听到其中一个说了嫌疑人的名字：{LASTNAME}。那个人是{GENDER}。</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 如今暴力事件越来越多，真令人难过。</DIALOGUE>
+        <DIALOGUE>~y~你:~s~ 谢谢，这肯定有帮助。</DIALOGUE>
+        <DIALOGUE>~y~你:~s~ 你看到嫌疑人去哪里了吗？</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 他们步行离开了。如果你需要，我可以在你的GPS上标出来！</DIALOGUE>
+        <DIALOGUE>~y~你:~s~ 再次感谢，我们会尽力抓住他们！</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Witness_VictimWitness">
+        <DIALOGUE>~y~你:~s~ 你好，我是本地警察局的警官。你能告诉我发生了什么吗？</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 你好，是的——我想我看到有人离开了现场。</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 我听到争吵声就朝声音走去。</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 我只看到有人流血倒在地上，另一个人快速走开了。</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 他们朝那个方向跑掉了！</DIALOGUE>
+        <DIALOGUE>~y~你:~s~ 你能描述一下那个人吗？</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 很遗憾不能，我只从远处看到他们，然后就留下来照顾伤者了。</DIALOGUE>
+        <DIALOGUE>~y~你:~s~ 你做得对，谢谢——你也看到他们伤得多重了。</DIALOGUE>
+        <DIALOGUE>~y~你:~s~ 我们马上开始近距离搜查。</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 祝你好运！抓住那个混蛋！</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Witness_TrafficStop">
+        <DIALOGUE>~y~你:~s~ 你好，我是本地警察局的警官。</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 你好，我想帮忙抓住嫌疑人。</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 我认识他们，他们也住在镇上。</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 他们的名字是 {FIRSTNAME} {LASTNAME}！</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 打架时他们手里拿着什么东西——我不太确定那是什么。</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 那个混蛋打了受害者好几次，然后开着一辆 {MODEL} 车走了！</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 车颜色是 {COLOR}。</DIALOGUE>
+        <DIALOGUE>~g~目击者:~s~ 我记下了车牌…… {LICENSEPLATE}！</DIALOGUE>
+        <DIALOGUE>~y~你:~s~ 非常感谢！我会留意那辆车的。祝你今天愉快！</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_TrafficOfficer_1">
+        <DIALOGUE>~b~警官:~s~ 嘿伙计！我拦停了这辆车，车型匹配描述。</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 我肯定需要支援，所以叫了你。</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 我负责乘客侧——如果他们想干蠢事，我掩护你。</DIALOGUE>
+        <DIALOGUE>~b~警官:~s~ 你去再核对一下车辆详情，以防万一。</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Suspect_Witness">
+        <DIALOGUE>~y~你:~s~ 站住别动！警察！</DIALOGUE>
+        <DIALOGUE>~r~嫌疑人:~s~ 哦我的天，你吓到我了。你想干嘛？</DIALOGUE>
+        <DIALOGUE>~y~你:~s~ 你是一起刑事案件的嫌疑人。你刚才在哪里？</DIALOGUE>
+        <DIALOGUE>~r~嫌疑人:~s~ 我……是关于那场打架吗？得了吧，没什么大不了的。</DIALOGUE>
+        <DIALOGUE>~y~你:~s~ 告诉你，受害者正在被送往医院！他们伤得很重！</DIALOGUE>
+        <DIALOGUE>~r~嫌疑人:~s~ 哦不……我不是故意让这种事发生的。该死，我很抱歉……</DIALOGUE>
+        <DIALOGUE>~y~你:~s~ 把手放在我能看到的地方！你被捕了！</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Suspect_VictimWitness">
+        <DIALOGUE>~y~你:~s~ 警察！请跟我来，我有几个问题要问你。</DIALOGUE>
+        <DIALOGUE>~r~嫌疑人:~s~ 你想从我这里得到什么？离我远点！</DIALOGUE>
+        <DIALOGUE>~y~你:~s~ 听着，我们可以来文的，也可以来武的。</DIALOGUE>
+        <DIALOGUE>~r~嫌疑人:~s~ 你证明不了任何事。我什么都没做！根本什么都没有！</DIALOGUE>
+        <DIALOGUE>~y~你:~s~ 你符合嫌疑人的描述。一小时前你在哪里？</DIALOGUE>
+        <DIALOGUE>~r~嫌疑人:~s~ 我……在图书馆，对没错！我在看书，远离你们这些条子享受宁静！</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Suspect_TrafficStop">
+        <DIALOGUE>~y~你:~s~ 你好，我是本地部门的交通警官。请出示驾照和车辆文件。</DIALOGUE>
+        <DIALOGUE>~r~嫌疑人:~s~ 这次拦截有理由吗？我的文件都有效！</DIALOGUE>
+        <DIALOGUE>~y~你:~s~ 你从哪里来？</DIALOGUE>
+        <DIALOGUE>~r~嫌疑人:~s~ 我只是去购物，买些小东西，怎么了？</DIALOGUE>
+        <DIALOGUE>~y~你:~s~ 你最近有过争吵吗？朋友、同事或类似的人？我们接到报告。</DIALOGUE>
+        <DIALOGUE>~r~嫌疑人:~s~ 是的，我有过一次小争吵，只是言语上的，稍微推搡了一下。</DIALOGUE>
+        <DIALOGUE>~y~你:~s~ 你不止是推搡吧？目击者报告的情况不同。</DIALOGUE>
+        <DIALOGUE>~r~嫌疑人:~s~ 我不知道你在说什么！！有本事就逮捕我啊！</DIALOGUE>
+    </DIALOGUES>
+    <END>
+        <TEXT>调度中心，请将我们标识为 Code 4。返回巡逻。</TEXT>
+        <TEXT>我们这里 Code 4。调度中心，不再需要援助。</TEXT>
+    </END>
+</CALLOUT>
