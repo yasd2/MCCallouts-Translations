@@ -1,27 +1,27 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Helicopter Search for a Stolen Vehicle</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>Jump in the shoes of a pilot!</CALLOUTADVISORY>
-    <TASK>A stolen vehicle has been spotted in the area by a CCTV camera. Meet the officer at the meeting point.</TASK>
+    <CALLOUTMESSAGE>Hubschraubersuche nach einem gestohlenen Fahrzeug</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Schlüpfen Sie in die Rolle eines Piloten!</CALLOUTADVISORY>
+    <TASK>Eine Überwachungskamera hat ein gestohlenes Fahrzeug in der Gegend entdeckt. Treffen Sie den Beamten am Treffpunkt.</TASK>
     <COP>
-        <DIALOGUE>~b~Officer:~s~ Hello, Pilot! Glad to have you with us.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ We're looking for a stolen vehicle that was last seen in this area.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ We do have information on the vehicle’s model and color, but there are several possible matches.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ Please circle the area where the vehicle was last spotted and scan nearby vehicles using the helicopter scanner.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ Good luck!</DIALOGUE>
+        <DIALOGUE>~b~Beamter:~s~ Hallo, Pilot! Schön, dass Sie dabei sind.</DIALOGUE>
+        <DIALOGUE>~b~Beamter:~s~ Wir suchen nach einem gestohlenen Fahrzeug, das zuletzt in dieser Gegend gesehen wurde.</DIALOGUE>
+        <DIALOGUE>~b~Beamter:~s~ Wir haben Informationen über Modell und Farbe des Fahrzeugs, aber es gibt mehrere mögliche Treffer.</DIALOGUE>
+        <DIALOGUE>~b~Beamter:~s~ Bitte kreisen Sie das Gebiet ab, in dem das Fahrzeug zuletzt gesichtet wurde, und scannen Sie die umliegenden Fahrzeuge mit dem Hubschrauber-Scanner.</DIALOGUE>
+        <DIALOGUE>~b~Beamter:~s~ Viel Glück!</DIALOGUE>
     </COP>
     <VEHICLEINFO>
-        <TEXT>Wanted vehicle:~n~</TEXT>
-        <TEXT>~b~Model:~s~ {Model}~n~</TEXT>
-        <TEXT>~b~Color:~s~ {Color}~n~</TEXT>
-        <TEXT>~b~Last seen in~s~ {Zone}</TEXT>
+        <TEXT>Gesuchtes Fahrzeug:~n~</TEXT>
+        <TEXT>~b~Modell:~s~ {Model}~n~</TEXT>
+        <TEXT>~b~Farbe:~s~ {Color}~n~</TEXT>
+        <TEXT>~b~Zuletzt gesehen in~s~ {Zone}</TEXT>
     </VEHICLEINFO>
     <SEARCH>
-        <TEXT>~r~The suspect has been scanned and found! Follow him until he comes to a stop or ~o~perform a traffic stop!</TEXT>
-        <TEXT>That's not the car we're searching for.</TEXT>
-        <TEXT>The suspect has parked, now apprehend him!</TEXT>
+        <TEXT>~r~Der Verdächtige wurde erfasst und gefunden! Folgen Sie ihm, bis er anhält, oder ~o~führen Sie eine Verkehrskontrolle durch!</TEXT>
+        <TEXT>Das ist nicht das Fahrzeug, nach dem wir suchen.</TEXT>
+        <TEXT>Der Verdächtige hat geparkt, nehmen Sie ihn jetzt fest!</TEXT>
     </SEARCH>
     <ACTION>
-        <TEXT>The suspect is ignoring your commands.</TEXT>
-        <TEXT>The suspect is surrendering.</TEXT>
+        <TEXT>Der Verdächtige ignoriert Ihre Anweisungen.</TEXT>
+        <TEXT>Der Verdächtige ergibt sich.</TEXT>
     </ACTION>
 </CALLOUT>

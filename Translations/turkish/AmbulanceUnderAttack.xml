@@ -1,0 +1,20 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Ambulans saldırı altında</CALLOUTMESSAGE>
+    <TASK>Bir ambulans acil yardım talebinde bulundu, durumu kontrol edin.</TASK>
+    <DIALOGUES>
+        <DIALOGUE>~y~Siz:~s~ Ne oldu?</DIALOGUE>
+        <DIALOGUE>~r~Paramedik:~s~ Hastaneye geri dönerken aniden önümüzü kestiler.</DIALOGUE>
+        <DIALOGUE>~r~Paramedik:~s~ Sonra da hiçbir sebep yokken bize saldırdılar!</DIALOGUE>
+        <DIALOGUE>~r~Paramedik:~s~ Hizmetiniz için teşekkür ederiz!</DIALOGUE>
+        <DIALOGUE>~r~Paramedik:~s~ İstasyona geri döneceğiz, iyi günler!</DIALOGUE>
+    </DIALOGUES>
+    <EXTRA>
+        <TEXT>Kavga etmeyi bırakmalarını söylemek için ~y~{Y}~s~ tuşuna basın!</TEXT>
+        <TEXT>Ne olduğunu öğrenmek için paramedikle konuşun.</TEXT>
+    </EXTRA>
+    <WARN>
+        <TEXT>~y~Siz:~s~ Polis! Kavgayı bırakın ve geri çekilin!</TEXT>
+        <TEXT>~y~Siz:~s~ Herkes dursun! Burası polis!</TEXT>
+    </WARN>
+    <END>Ambulans saldırı altında çağrısı sona erdi.</END>
+</CALLOUT>

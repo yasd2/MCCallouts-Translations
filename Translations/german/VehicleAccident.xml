@@ -1,30 +1,30 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Vehicle Accident</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>~r~Respond Code 3</CALLOUTADVISORY>
-    <TASK>Drive to the ~r~accident scene.~s~ Make sure to manage traffic and that the driver is ok.</TASK>
+    <CALLOUTMESSAGE>Verkehrsunfall</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>~r~Reagieren Sie mit Code 3</CALLOUTADVISORY>
+    <TASK>Fahren Sie zur ~r~Unfallstelle.~s~ Sorgen Sie für eine sichere Verkehrsregelung und prüfen Sie, ob es dem Fahrer gut geht.</TASK>
     <SCENARIOS>
         <DRIVERINJURED>
-            <TEXT>Press ~{Y}~ to talk.</TEXT>
-            <DIALOGUE>~y~You:~s~ Hello? What do you need?</DIALOGUE>
-            <DIALOGUE>~p~Driver:~s~ I... am... hurt.. I need an... ambulance. Help.</DIALOGUE>
-            <TEXT>Call an ambulance for the injured person.</TEXT>
+            <TEXT>Drücken Sie ~{Y}~, um zu sprechen.</TEXT>
+            <DIALOGUE>~y~Sie:~s~ Hallo? Was brauchen Sie?</DIALOGUE>
+            <DIALOGUE>~p~Fahrer:~s~ I… ch… bin… verletzt… Ich brauche einen… Krankenwagen. Hilfe.</DIALOGUE>
+            <TEXT>Fordern Sie einen Krankenwagen für die verletzte Person an.</TEXT>
         </DRIVERINJURED>
         <DRIVEROKBUTDRUNK>
-            <DIALOGUE>~y~You:~s~ Can you tell me what happened?</DIALOGUE>
-            <DIALOGUE>~o~Driver:~s~ I don't really remember. *hicks*</DIALOGUE>
-            <DIALOGUE>~y~You:~s~ Where are you coming from?</DIALOGUE>
-            <DIALOGUE>~o~Driver:~s~ From a friends party. I can do sobriety tests, I'm clean as hell.</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Können Sie mir sagen, was passiert ist?</DIALOGUE>
+            <DIALOGUE>~o~Fahrer:~s~ Ich erinnere mich nicht so genau. *hicks*</DIALOGUE>
+            <DIALOGUE>~y~Sie:~s~ Woher kommen Sie?</DIALOGUE>
+            <DIALOGUE>~o~Fahrer:~s~ Von einer Party bei einem Freund. Ich kann Alkoholtests machen, ich bin stocknüchtern.</DIALOGUE>
         </DRIVEROKBUTDRUNK>
         <DRIVERSHOTWEAPONNEARBY> 
-            <TEXT>Press ~{Y}~ to pick up the weapon.</TEXT>
-            <TEXT>Press ~y~{Y}~s~ to request a serial number check from Dispatch.</TEXT>
+            <TEXT>Drücken Sie ~{Y}~, um die Waffe aufzuheben.</TEXT>
+            <TEXT>Drücken Sie ~y~{Y}~s~, um über die Leitstelle eine Seriennummernprüfung anzufordern.</TEXT>
             <SERIALNUMBER>
-                <DIALOGUE>~y~You:~s~ Dispatch, can I get a serial number check for a pistol, it's ~r~{serialnumber}~s~?</DIALOGUE>
-                <DIALOGUE>10-4, checking.</DIALOGUE>
-                <DIALOGUE>Weapon: Pistol</DIALOGUE>
-                <DIALOGUE>~b~Owner: {DriversName}</DIALOGUE>
-                <DIALOGUE>~r~Caution: Owner wanted</DIALOGUE>
-                <DIALOGUE>Attention: We've got a call about a suspicious person nearby, please respond ~r~Code 3.</DIALOGUE>
+                <DIALOGUE>~y~Sie:~s~ Leitstelle, ich benötige eine Seriennummernprüfung für eine Pistole, Nummer: ~r~{serialnumber}~s~.</DIALOGUE>
+                <DIALOGUE>10-4, wird überprüft.</DIALOGUE>
+                <DIALOGUE>Waffe: Pistole</DIALOGUE>
+                <DIALOGUE>~b~Eigentümer: {DriversName}</DIALOGUE>
+                <DIALOGUE>~r~Achtung: Eigentümer wird gesucht</DIALOGUE>
+                <DIALOGUE>Achtung: Wir haben einen Anruf über eine verdächtige Person in der Nähe erhalten, bitte reagieren Sie mit ~r~Code 3.</DIALOGUE>
             </SERIALNUMBER>
         </DRIVERSHOTWEAPONNEARBY>
     </SCENARIOS>

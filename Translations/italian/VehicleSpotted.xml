@@ -1,21 +1,21 @@
 <VehicleSpotted>
 
-    <General>
-  <CalloutMessage>Veicolo precedentemente fuggito individuato</CalloutMessage>
-<Text>Cerca il ~o~sospetto~s~.</Text>
-<Text>Un agente ha individuato un veicolo fuggito da un posto di blocco. Parla prima con lui.</Text>
-<Text>~g~Sospettato giusto arrestato~s~</Text>
-    </General>
+  <General>
+    <CalloutMessage>Veicolo precedentemente fuggito individuato</CalloutMessage>
+    <Text>Cerca il ~o~sospetto~s~.</Text>
+    <Text>Un agente ha individuato un veicolo fuggito da un posto di blocco. Parla prima con lui.</Text>
+    <Text>~g~Sospettato giusto arrestato~s~</Text>
+  </General>
 
-    <Persons>
-      <Testo>Agente</Testo>
-    </Persons>
+  <Persons>
+    <Text>Agente</Text>
+  </Persons>
 
-    <D_Officer>
-      <Dialogue>Ehi amico, è bello vederti! Sembra che ti sia fatto crescere una bella pancia, eh?</Dialogue>
-<Dialogue>Comunque, ho notato questo veicolo proprio qui, che è scappato da noi prima.</Dialogue>
-<Dialogue>Il sospettato deve essere in giro, sappiamo solo che è un maschio bianco.</Dialogue>
-<Dialogue>Immagino che stia andando al centro commerciale, probabilmente ha fame.</Dialogue>
-    </D_Officer>
+  <D_Officer>
+    <Dialogue>Ehi amico, è bello vederti! Sembra che ti sia fatto crescere una bella pancia, eh?</Dialogue>
+    <Dialogue>Comunque, ho notato questo veicolo proprio qui, che è scappato da noi prima.</Dialogue>
+    <Dialogue>Il sospettato deve essere in giro, sappiamo solo che è un maschio bianco.</Dialogue>
+    <Dialogue>Immagino che stia andando al centro commerciale, probabilmente ha fame.</Dialogue>
+  </D_Officer>
 
 </VehicleSpotted>

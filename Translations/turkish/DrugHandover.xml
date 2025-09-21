@@ -1,0 +1,56 @@
+<DrugHandover>
+
+    <General>
+        <CalloutMessage>Uyuşturucu Teslimatı</CalloutMessage>
+        <CalloutAdvisory>~o~Özel harekat keskin nişancısı olarak buluşmayı engelleyin~s~</CalloutAdvisory>
+    </General>
+
+    <Persons>
+        <Text>Siz</Text>
+        <Text>Komiser</Text>
+    </Persons>
+
+    <EState>
+        <Meeting>
+            <D_Briefing>
+                <Dialogue>Merhaba, aramıza katıldığınız için teşekkürler.</Dialogue>
+                <Dialogue>Bu brifing, neler olup bittiğine dair size bir genel bakış sunmak için düzenlendi.</Dialogue>
+                <Dialogue>Grapeseed Havaalanı'nda bugün yasa dışı bir uyuşturucu teslimatı yapılacağına dair ihbarlar aldık.</Dialogue>
+                <Dialogue>En iyi eğitimli keskin nişancı elitlerinden biri olarak, göreviniz gözetlemek ve bir uyuşturucu anlaşması yapıldığında bizi aramak.</Dialogue>
+                <Dialogue>Daha sonra 2 sivil ekip ve 1 adet SWAT zırhlı aracıyla olay yerine geleceğiz. Eğer ateşle karşılık verirlerse, göreviniz onları etkisiz hale getirmek.</Dialogue>
+                <Dialogue>Havaalanının yanındaki binalardan birinde sizin için iyi bir keskin nişancı pozisyonu belirledik.</Dialogue>
+                <Dialogue>Ama şimdilik, önce karakolda, hemen oradaki masadan bir keskin nişancı tüfeği seçin.</Dialogue>
+            </D_Briefing>
+            <Text>Karakolda kendinize bir keskin nişancı tüfeği alın.</Text>
+        </Meeting>
+
+        <Weapon>
+            <WeaponSelector>
+                <Text>Silah Seçici</Text>
+                <Text>Silahlar</Text>
+                <Text>Bir Silah Seçin</Text>
+                <Text>Şunu kuşandınız: </Text>
+            </WeaponSelector>
+            <Text>Şimdi olay yerine sürün ve hazırlanın.</Text>
+        </Weapon>
+
+        <DriveToScene>
+            <Text>Burası ihbar edilen ~o~uyuşturucu teslimat buluşma noktası~s~. Şimdi mini haritada ~g~keskin nişancı pozisyonunuzun~s~ nerede olacağını göreceksiniz, oradaki çatıya çıkın.</Text>
+        </DriveToScene>
+
+        <IsAtÜbergabeort>
+            <Text>Şimdi ~r~asıl teslimatı~s~ bekleyin.</Text>
+        </IsAtÜbergabeort>
+    </EState>
+
+    <Scenarios>
+        <Text>~g~Teslimat~s~ bittiğinde, içeri girin ve ~r~şüphelileri~s~ tutuklayın!</Text>
+        <Text>~r~Ateş açıldı!</Text>
+        <Text>~r~Şüpheliler~s~ ayrılıyor, ~g~çantayı~s~ güvenceye alın!</Text>
+        <Text>Şüpheliler ~r~kaçıyor~s~, takipteyiz!</Text>
+        <Text>Şüpheliler teslim oluyor!</Text>
+        <Text>~g~Çantayı~s~ {0} tuşuyla alabilirsiniz.</Text>
+        <Text>~g~Çanta~s~ güvenceye alındı!</Text>
+    </Scenarios>
+
+</DrugHandover>

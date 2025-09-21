@@ -1,0 +1,65 @@
+<Shoplifting>
+
+    <General>
+        <Text>Bir mağaza hırsızlığı ihbarı</Text>
+        <Text>Bir mağaza sahibi polisi aradı</Text>
+        
+        <Text>~HC_64~Mağaza Sahibi~s~:</Text>
+        <Text>~y~Siz~s~:</Text>
+    </General>
+
+    <GetInfos>
+        <Dialogue>Merhaba, ben yerel polis departmanından bir memurum.</Dialogue>
+        <Dialogue>Bize bir mağaza hırsızlığı için mi ulaştınız?</Dialogue>
+        <Dialogue>Merhaba! Evet, şüpheli birkaç dakika önce ayrıldı!</Dialogue>
+        <Dialogue>Bu soytarı bir sürü şey çaldı, yanında bir çantayla gidiyor.</Dialogue>
+        <Dialogue>Şüpheli neye benziyor?</Dialogue>
+
+        <Dialogue>Siyahi bir erkek</Dialogue>
+        <Dialogue>Beyaz bir erkek</Dialogue>
+
+        <Dialogue>yaklaşık {10} yaşında.</Dialogue>
+
+        <Dialogue>Beyaz bir atlet giyiyordu</Dialogue>
+        <Dialogue>Gri bir atlet giyiyordu</Dialogue>
+        <Dialogue>Siyah bir deri ceket giyiyordu</Dialogue>
+
+        <Dialogue>ve ekose bir pantolon.</Dialogue>
+        <Dialogue>ve beyaz bir pantolon.</Dialogue>
+        <Dialogue>ve açık mavi bir kot pantolon.</Dialogue>
+
+        <Dialogue>Onu güvenlik kamerasında yakaladım, işte fotoğrafı!</Dialogue>
+        <Dialogue>Şüpheli yaya olarak ayrıldı!</Dialogue>
+        <Dialogue>Pekala, teşekkürler, güle güle!</Dialogue>
+    </GetInfos>
+
+    <LocationUpdater>
+        <Text>~y~Konum~s~ güncellendi!</Text> 
+        <Text>~g~Konum~s~ güncellendi!</Text> <Text>~r~Şüpheli~s~ bulundu. Onu tutuklayın!</Text>
+    </LocationUpdater>
+
+    <Mugshot>
+        <Text>Siyahi erkek</Text>
+        <Text>beyaz atlet</Text>
+
+        <Text>Beyaz erkek</Text>
+        <Text>gri atlet</Text>
+
+        <Text>siyah deri ceket</Text>
+
+        <Text>~h~Şüpheli tanımı~h~</Text>
+
+        <Text>Resmi tekrar görmek için istediğiniz zaman ~y~J~s~ tuşuna basın!</Text>
+    </Mugshot>
+
+    <SearchForSuspect>
+        <Text>Şimdi gps'inizde ~y~işaretlenmiş~s~ olan ~y~alanda~s~ şüpheliyi arayın.</Text>
+        <Text>Şüpheliyi arayın ve göreve devam edin.</Text>
+    </SearchForSuspect>
+
+    <WaitForEnd>
+        <Text>Şüpheli öldü.</Text>
+        <Text>~g~Code 4.</Text>
+    </WaitForEnd>
+
+</Shoplifting>

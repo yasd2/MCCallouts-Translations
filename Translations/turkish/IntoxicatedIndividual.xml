@@ -1,0 +1,22 @@
+<IntoxicatedIndividual>
+
+    <General>
+        <Text>Halk arasında sarhoş kişi</Text>
+        <Text>beyefendi</Text>
+        <Text>hanımefendi</Text>
+        <Text>Şüpheliyle konuşmak için {0} tuşuna basın.</Text>
+        <Text>~y~Siz~s~: Affedersiniz {0}, herhangi bir yardıma ihtiyacınız var mı?</Text>
+        <Text>~p~Şüpheli~s~: Yooook *hık* her şey *hık* iiidii.</Text>
+        <Text>~y~Siz~s~: Halk arasında sarhoş olmak yasal değil. Size bir ceza yazmam gerekecek.</Text>
+        <Text>~p~Şüpheli~s~: Ceeza mı? Çekil önümden!</Text>
+        <Text>Başka konuşma yok.</Text>
+    </General>
+
+    <End>
+        <Text>Bir şüpheli tutuklandı! ~g~Kod 4~s~</Text>
+        <Text>Bir şüpheli etkisiz hale getirildi, ~g~Kod 4~w~</Text>
+        <Text>~g~Kod 4~w~</Text>
+        <Text>~r~GTA Ped Hatası,~s~ Görev bitti</Text>
+    </End>
+
+</IntoxicatedIndividual>

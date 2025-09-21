@@ -1,0 +1,56 @@
+<DrugsOnBoat>
+
+    <General>
+        <Text>Uyuşturucu taşıyan gemi tespit edildi</Text>
+        <Text>Gemide olası uyuşturucu olup olmadığını kontrol edin</Text>
+        <Text>İPUCU: Gemide uyuşturucu arayın</Text>
+        <Text>Merkez, herhangi bir uyuşturucu bulamadım, gemi sahibiyle tekrar konuşacağım.</Text>
+        <Text>Anlaşıldı.</Text>
+        <Text>Konumlar hakkında ~o~anonim ihbarlar~s~ aldık.</Text>
+        <Text>Merkez, yaya takibi başladı!</Text>
+        <Text>Merkez, silahlı çatışma var!</Text>
+        <Text>Yasa dışı uyuşturucu araması yapmak için bir gemiye gidiyorsunuz.</Text>
+        <Text>{Y} tuşuna basarak delilleri topla.</Text>
+        <Text>Gemi sahibiyle yüzleş ya da aramaya devam et.</Text>
+        <Text>~g~Tüm deliller bulundu</Text>
+        <Text>Bulunan uyuşturucular:</Text>
+    </General>
+
+
+    <Persons>
+        <Text>Sahip</Text>
+        <Text>Siz</Text>
+    </Persons>
+
+
+    <D_Owner_Arrive>
+        <Dialogue>Merhaba, bu gemi için arama emrimiz var.</Dialogue>
+        <Dialogue>Cehenneme kadar yolunuz var, benim gemimi arayamazsınız!</Dialogue>
+        <Dialogue>Kenara çekil, yazılı arama emrini aşağıdaki polislerden isteyebilirsin.</Dialogue>
+    </D_Owner_Arrive>
+
+
+    <D_Owner_NoDrugs>
+        <Dialogue>Pekala, geminizi aramayı bitirdim, gidebilirsiniz!</Dialogue>
+        <Dialogue>Bu biraz zaman aldı ama vakit nakittir! Acele etmeliyim şimdi.</Dialogue>
+        <Dialogue>Sadece işimi yapıyorum, iyi yolculuklar!</Dialogue>
+    </D_Owner_NoDrugs>
+
+
+    <D_Owner_Surrender>
+        <Dialogue>Beyefendi, gemide birden fazla uyuşturucu buldum, bunu açıklar mısınız?</Dialogue>
+        <Dialogue>... Yani... siktir, yakaladın beni. Evet, onlar benim.</Dialogue>
+        <Dialogue>Direnmeyeceğim, bunları satmaya çalışıyordum, beni tutuklayabilirsiniz.</Dialogue>
+    </D_Owner_Surrender>
+
+
+    <D_Owner_Pursuit_Shooting>
+        <Dialogue>Beyefendi, gemide birden fazla uyuşturucu buldum, bunu açıklar mısınız?</Dialogue>
+    </D_Owner_Pursuit_Shooting>
+
+
+    <End>
+        <Text>Operasyon tamamlandı.</Text>
+    </End>
+
+</DrugsOnBoat>

@@ -1,0 +1,34 @@
+<PrisonerFlight>
+
+    <General>
+        <Text>Mahkum Uçuş Transferi</Text>
+        <Text>Bir mahkum transferi için polis pilotu gerekli</Text>
+        <Text>~g~Havaalanına~s~ sürün, uçak sizi bekliyor!</Text>
+    </General>
+
+    <Agent>
+        <Dialogue>~b~Ajanla~s~ konuşmak için</Dialogue>
+        <Dialogue>~y~Siz~s~: Merhaba, ben emniyetten pilotum, neyimiz var burada?</Dialogue>
+        <Dialogue>~b~Ajan~s~: İyi günler, burada yüksek riskli bir mahkumumuz var ve North Yankton'a transfer edilecek.</Dialogue>
+        <Dialogue>~b~Ajan~s~: Burada özel jetimiz var, mahkum zaten içinde.</Dialogue>
+        <Dialogue>~b~Ajan~s~: Lütfen navigasyon sisteminizdeki varış noktasına uçun, kaçırmanız imkansız.</Dialogue>
+        <Dialogue>~b~Ajan~s~: Orada polis sizi bekliyor olacak. İyi uçuşlar!</Dialogue>
+        <Dialogue><![CDATA[Uçağa binin ve ~o~varış noktasına~s~ uçun.]]></Dialogue>
+        <Dialogue>Başka diyalog yok.</Dialogue>
+    </Agent>
+
+    <Officer>
+        <Dialogue>Minimap'inizdeki ~o~varış noktası işaretçisine~s~ uçun.</Dialogue>
+        <Dialogue>~b~Komiserle~s~ konuşun</Dialogue>
+        <Dialogue><![CDATA[~b~Komiser~s~: Merhaba ve North Yankton'a hoş geldiniz!]]></Dialogue>
+        <Dialogue><![CDATA[~b~Komiser~s~: Hava biraz soğuk olabilir ve sokaklar kaygan...]]></Dialogue>
+        <Dialogue>~b~Komiser~s~: Şüpheli zaten araçta oturuyor.</Dialogue>
+        <Dialogue>~b~Komiser~s~: Lütfen bizim polis aracımızla GPS'inizde işaretli olan ~g~hapishaneye~s~ sürün.</Dialogue>
+        <Dialogue><![CDATA[Araca binin ve ~g~hapishaneye~s~ sürün.]]></Dialogue>
+        <Dialogue>Başka diyalog yok.</Dialogue>
+        <Dialogue>Gps'inizde işaretli olan ~g~hapishaneye~s~ sürün.</Dialogue>
+        <Dialogue>Şüpheliyi ~g~hapishaneye~s~ kadar takip edin.</Dialogue>
+        <Dialogue>Şüpheliyi ~r~tutuklayın~s~!</Dialogue>
+        <Dialogue>~g~Şüpheli tutuklandı, ~s~ olay sona erdi.</Dialogue>
+    </Officer>
+</PrisonerFlight>

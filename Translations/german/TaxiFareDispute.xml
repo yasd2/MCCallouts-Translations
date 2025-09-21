@@ -1,32 +1,32 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Taxi Fare Dispute</CALLOUTMESSAGE>
+    <CALLOUTMESSAGE>Streit um Taxifahrt</CALLOUTMESSAGE>
     <CALLOUTADVISORY></CALLOUTADVISORY>
-    <TASK>Drive to the location and solve the dispute.</TASK>
+    <TASK>Fahren Sie zum Einsatzort und klären Sie den Streit.</TASK>
     <D_PEACEFUL>
-        <DIALOGUE>~y~You:~s~ Alright, what's going on here?</DIALOGUE>
-        <DIALOGUE>~b~Driver:~s~ Officer, this guy took a ride in my cab, but when we arrived, he just got out and refused to pay!</DIALOGUE>
-        <DIALOGUE>~p~Passenger:~s~ Because he took a huge detour! I checked the map, and he added at least ten extra blocks to the route. I’m not paying for that!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Look, arguing won’t solve anything. How about we find a compromise?</DIALOGUE>
-        <DIALOGUE>~b~Driver:~s~ Compromise? I drove him here, he owes me the fare. That’s how this works!</DIALOGUE>
-        <DIALOGUE>~p~Passenger:~s~ Yeah? And what about the extra miles you added to rip me off?</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Alright, how about this – the driver gives you a small discount, and you pay the rest? That way, everyone walks away happy.</DIALOGUE>
-        <DIALOGUE>~b~Driver:~s~ Ugh… fine. I'll take 20% off. But that’s my final offer.</DIALOGUE>
-        <DIALOGUE>~p~Passenger:~s~ Alright… I still think it’s unfair, but whatever. Here, take your money.</DIALOGUE>
+        <DIALOGUE>~y~Sie:~s~ Also, was ist hier los?</DIALOGUE>
+        <DIALOGUE>~b~Fahrer:~s~ Herr/Frau Beamter, dieser Herr ist in meinem Taxi mitgefahren, aber als wir ankamen, ist er einfach ausgestiegen und hat sich geweigert zu zahlen!</DIALOGUE>
+        <DIALOGUE>~p~Fahrgast:~s~ Weil er einen riesigen Umweg gefahren ist! Ich habe die Karte überprüft, und er hat mindestens zehn Blocks extra zur Strecke hinzugefügt. Dafür zahle ich nicht!</DIALOGUE>
+        <DIALOGUE>~y~Sie:~s~ Hören Sie, Streiten bringt nichts. Wie wäre es, wenn wir einen Kompromiss finden?</DIALOGUE>
+        <DIALOGUE>~b~Fahrer:~s~ Kompromiss? Ich habe ihn hierher gefahren, er schuldet mir das Fahrgeld. So funktioniert das!</DIALOGUE>
+        <DIALOGUE>~p~Fahrgast:~s~ Ach ja? Und was ist mit den Extrameilen, die Sie absichtlich gefahren sind, um mich abzuzocken?</DIALOGUE>
+        <DIALOGUE>~y~Sie:~s~ Gut, wie wäre es so – der Fahrer gibt Ihnen einen kleinen Nachlass, und Sie zahlen den Rest? Dann gehen alle zufrieden auseinander.</DIALOGUE>
+        <DIALOGUE>~b~Fahrer:~s~ Hmpf… meinetwegen. Ich ziehe 20 % ab. Aber das ist mein letztes Angebot.</DIALOGUE>
+        <DIALOGUE>~p~Fahrgast:~s~ Na gut… ich finde es immer noch unfair, aber von mir aus. Hier, nehmen Sie Ihr Geld.</DIALOGUE>
     </D_PEACEFUL>
     <D_FIGHT>
-        <DIALOGUE>~y~You:~s~ What’s happening here?</DIALOGUE>
-        <DIALOGUE>~b~Driver:~s~ This guy took a ride in my cab and now refuses to pay! He’s wasting my time, and I’m not working for free!</DIALOGUE>
-        <DIALOGUE>~p~Passenger:~s~ Oh, shut up! You think I didn’t notice that you took the longest possible route? You scammed me, and I’m not giving you a dime!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Sir, you took the ride, and that means you need to pay. That’s how this works.</DIALOGUE>
-        <DIALOGUE>~p~Passenger:~s~ Like hell I do! This crook thinks he can take advantage of people!</DIALOGUE>
-        <DIALOGUE>~b~Driver:~s~ You’re the crook here! I provided a service, and you’re trying to skip the bill!</DIALOGUE>
-        <DIALOGUE>~p~Passenger:~s~ You wanna take my money? Try it!</DIALOGUE>
+        <DIALOGUE>~y~Sie:~s~ Was geht hier vor?</DIALOGUE>
+        <DIALOGUE>~b~Fahrer:~s~ Dieser Kerl ist in meinem Taxi gefahren und weigert sich jetzt zu zahlen! Er verschwendet meine Zeit, und ich arbeite nicht umsonst!</DIALOGUE>
+        <DIALOGUE>~p~Fahrgast:~s~ Ach, halten Sie den Mund! Glauben Sie, ich habe nicht gemerkt, dass Sie den längstmöglichen Weg genommen haben? Sie haben mich betrogen, und ich gebe Ihnen keinen Cent!</DIALOGUE>
+        <DIALOGUE>~y~Sie:~s~ Mein Herr, Sie haben die Fahrt in Anspruch genommen, also müssen Sie auch bezahlen. So funktioniert das.</DIALOGUE>
+        <DIALOGUE>~p~Fahrgast:~s~ Von wegen! Dieser Gauner denkt, er kann Leute ausnutzen!</DIALOGUE>
+        <DIALOGUE>~b~Fahrer:~s~ Gauner sind doch Sie! Ich habe eine Dienstleistung erbracht, und Sie versuchen, nicht zu zahlen!</DIALOGUE>
+        <DIALOGUE>~p~Fahrgast:~s~ Sie wollen mein Geld? Dann holen Sie es sich doch!</DIALOGUE>
     </D_FIGHT>
     <END>
-        <TEXT>{CalloutMessage} is Code 4. Resume normal patrol.</TEXT>
-        <TEXT>{CalloutMessage} concluded. Continue your shift.</TEXT>
-        <TEXT>{CalloutMessage} resolved. Back to patrol duties.</TEXT>
-        <TEXT>{CalloutMessage} is over. Return to standard patrol.</TEXT>
-        <TEXT>{CalloutMessage} complete. You're clear to resume patrol.</TEXT>
+        <TEXT>{CalloutMessage} ist Code 4. Setzen Sie die normale Streife fort.</TEXT>
+        <TEXT>{CalloutMessage} abgeschlossen. Fahren Sie mit Ihrer Schicht fort.</TEXT>
+        <TEXT>{CalloutMessage} geklärt. Kehren Sie zu den Streifenaufgaben zurück.</TEXT>
+        <TEXT>{CalloutMessage} beendet. Nehmen Sie die reguläre Streife wieder auf.</TEXT>
+        <TEXT>{CalloutMessage} abgeschlossen. Sie können die Streife fortsetzen.</TEXT>
     </END>
 </CALLOUT>

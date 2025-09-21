@@ -1,67 +1,67 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Escaped Prisoner</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>A prison bus crashed at {Zone}, an inmate escaped</CALLOUTADVISORY>
-    <TASK>A prisoner escaped recently. Drive to the last reported area.</TASK>
+    <CALLOUTMESSAGE>Geflohener Gefangener</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Ein Gefängnisbus ist in {Zone} verunglückt, ein Insasse ist entkommen</CALLOUTADVISORY>
+    <TASK>Ein Gefangener ist vor Kurzem entkommen. Fahren Sie zum zuletzt gemeldeten Gebiet.</TASK>
     <DIALOGUE0>
-        <DIALOGUE>~y~You:~s~ Hello sir, what happened here?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Hi! I was attacked! The prisoner—he just snapped!</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ He assaulted me while I was watching the traffic. I flipped the bus accidentally, then he jumped out of the bus.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ He’s on foot now, ran off into the woods wearing his orange jumpsuit!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Do you have any idea where he might be headed?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Last I saw, he was headed north, past that ridge over there.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ He might try to steal a car, or hide somewhere.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Be careful—he’s dangerous and desperate!</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Oh my god, he took my gun, too! I can't find it!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Alright. I’ll find him.</DIALOGUE>
+        <DIALOGUE>~y~Sie:~s~ Hallo, was ist hier passiert?</DIALOGUE>
+        <DIALOGUE>~o~Gefängniswärter:~s~ Hilfe! Ich wurde angegriffen! Der Gefangene – er ist einfach ausgerastet!</DIALOGUE>
+        <DIALOGUE>~o~Gefängniswärter:~s~ Er hat mich überfallen, während ich den Verkehr beobachtet habe. Ich habe den Bus aus Versehen überschlagen, dann ist er herausgesprungen.</DIALOGUE>
+        <DIALOGUE>~o~Gefängniswärter:~s~ Jetzt ist er zu Fuß unterwegs, er ist in den Wald geflüchtet – immer noch in seinem orangenen Overall!</DIALOGUE>
+        <DIALOGUE>~y~Sie:~s~ Haben Sie eine Ahnung, wohin er unterwegs sein könnte?</DIALOGUE>
+        <DIALOGUE>~o~Gefängniswärter:~s~ Zuletzt habe ich gesehen, dass er nach Norden gelaufen ist, über den Hügel dort.</DIALOGUE>
+        <DIALOGUE>~o~Gefängniswärter:~s~ Er könnte versuchen, ein Auto zu stehlen oder sich irgendwo zu verstecken.</DIALOGUE>
+        <DIALOGUE>~o~Gefängniswärter:~s~ Seien Sie vorsichtig – er ist gefährlich und verzweifelt!</DIALOGUE>
+        <DIALOGUE>~o~Gefängniswärter:~s~ Oh mein Gott, er hat auch meine Waffe genommen! Ich finde sie nicht mehr!</DIALOGUE>
+        <DIALOGUE>~y~Sie:~s~ In Ordnung. Ich werde ihn finden.</DIALOGUE>
     </DIALOGUE0>
     <DIALOGUE1>
-        <DIALOGUE>~y~You:~s~ Sir, are you alright? What’s going on here?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ That inmate lost it! He attacked me out of nowhere!</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ I was checking directions on my tablet, and he took the chance to overpower me. The bus rolled when I tried to stop him.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ He bolted as soon as we crashed—ran straight into the woods in full orange.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Which way did he go?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Northbound, over that hill. He was fast, too!</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ If he finds a car or a hiding spot, we might lose him.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Watch out, officer—he's not thinking straight.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Damn it, I just realized… he took my service weapon!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Got it. I’m going after him now.</DIALOGUE>
+        <DIALOGUE>~y~Sie:~s~ Geht es Ihnen gut? Was ist hier los?</DIALOGUE>
+        <DIALOGUE>~o~Gefängniswärter:~s~ Der Gefangene ist völlig ausgerastet! Er hat mich völlig unerwartet angegriffen!</DIALOGUE>
+        <DIALOGUE>~o~Gefängniswärter:~s~ Ich habe gerade auf meinem Tablet die Route überprüft, und er hat die Gelegenheit genutzt, mich zu überwältigen. Der Bus hat sich überschlagen, als ich versucht habe, ihn aufzuhalten.</DIALOGUE>
+        <DIALOGUE>~o~Gefängniswärter:~s~ Sobald wir verunglückt sind, ist er abgehauen – direkt in den Wald, in voller Gefängniskleidung.</DIALOGUE>
+        <DIALOGUE>~y~Sie:~s~ In welche Richtung ist er gelaufen?</DIALOGUE>
+        <DIALOGUE>~o~Gefängniswärter:~s~ Nach Norden, über den Hügel. Er war sehr schnell!</DIALOGUE>
+        <DIALOGUE>~o~Gefängniswärter:~s~ Wenn er ein Auto findet oder ein Versteck, verlieren wir ihn vielleicht.</DIALOGUE>
+        <DIALOGUE>~o~Gefängniswärter:~s~ Passen Sie auf, Officer – er ist nicht bei klarem Verstand.</DIALOGUE>
+        <DIALOGUE>~o~Gefängniswärter:~s~ Verdammt, mir fällt gerade auf … er hat meine Dienstwaffe mitgenommen!</DIALOGUE>
+        <DIALOGUE>~y~Sie:~s~ Verstanden. Ich nehme sofort die Verfolgung auf.</DIALOGUE>
     </DIALOGUE1>
     <DIALOGUE2>
-        <DIALOGUE>~y~You:~s~ What happened? Are you injured?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ No serious injuries, but it was close. The inmate flipped—he ambushed me!</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ I lost control of the transport vehicle during the struggle. He forced the door open and made a run for it.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Last I saw him, he was heading for the tree line. Still in the jumpsuit.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Any clue where he might be going?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Could be trying to reach the main road or find a hiding place nearby.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ He’s unpredictable, and probably armed now.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Damn… my firearm’s missing. He must’ve grabbed it in the chaos!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Understood. I’ll track him down.</DIALOGUE>
+        <DIALOGUE>~y~Sie:~s~ Was ist passiert? Sind Sie verletzt?</DIALOGUE>
+        <DIALOGUE>~o~Gefängniswärter:~s~ Keine schweren Verletzungen, aber es war knapp. Der Gefangene ist durchgedreht – er hat mich überfallen!</DIALOGUE>
+        <DIALOGUE>~o~Gefängniswärter:~s~ Während des Kampfes habe ich die Kontrolle über das Transportfahrzeug verloren. Er hat die Tür aufgebrochen und ist geflüchtet.</DIALOGUE>
+        <DIALOGUE>~o~Gefängniswärter:~s~ Zuletzt habe ich ihn in Richtung Wald laufen sehen. Immer noch im Overall.</DIALOGUE>
+        <DIALOGUE>~y~Sie:~s~ Haben Sie eine Ahnung, wohin er unterwegs sein könnte?</DIALOGUE>
+        <DIALOGUE>~o~Gefängniswärter:~s~ Vielleicht versucht er, die Hauptstraße zu erreichen oder ein Versteck in der Nähe zu finden.</DIALOGUE>
+        <DIALOGUE>~o~Gefängniswärter:~s~ Er ist unberechenbar – und vermutlich jetzt auch bewaffnet.</DIALOGUE>
+        <DIALOGUE>~o~Gefängniswärter:~s~ Verdammt … meine Schusswaffe fehlt. Er muss sie im Chaos an sich genommen haben!</DIALOGUE>
+        <DIALOGUE>~y~Sie:~s~ Verstanden. Ich werde ihn aufspüren.</DIALOGUE>
     </DIALOGUE2>
     <SEARCH>
-        <TEXT>Suspect description:~n~</TEXT>
+        <TEXT>Beschreibung des Verdächtigen:~n~</TEXT>
         <TEXT>~r~Name:~s~ {Name}~n~</TEXT>
-        <TEXT>~r~Age:~s~ {Age}~n~</TEXT>
-        <TEXT>~r~Gender:~s~ {Gender}</TEXT>
-        <TEXT>Press ~{Y}~ anytime to view the info again.</TEXT>
-        <TEXT>Talk to the Prison Guard with ~{Y}~</TEXT>
+        <TEXT>~r~Alter:~s~ {Age}~n~</TEXT>
+        <TEXT>~r~Geschlecht:~s~ {Gender}</TEXT>
+        <TEXT>Drücken Sie jederzeit ~{Y}~, um die Informationen erneut anzuzeigen.</TEXT>
+        <TEXT>Sprechen Sie mit dem Gefängniswärter mit ~{Y}~</TEXT>
     </SEARCH>
     <ATTEMPTEDROBBERY>
-        <TEXT>We received a report of a Mugging nearby! Respond Code 3!</TEXT>
-        <TEXT>"~g~Victim:~s~ Officer, the robber just fled! He’s wearing an orange overall!!"</TEXT>
-        <TEXT>"~g~Victim:~s~ Help! That guy just escaped custody! He’s in an orange jumpsuit!"</TEXT>
-        <TEXT>"~g~Victim:~s~ Officer! I saw him running—orange prison uniform, heading that way!"</TEXT>
+        <TEXT>Wir haben eine Meldung über einen Überfall in der Nähe erhalten! Reagieren Sie mit Code 3!</TEXT>
+        <TEXT>"~g~Opfer:~s~ Officer, der Räuber ist gerade geflohen! Er trägt einen orangenen Overall!!"</TEXT>
+        <TEXT>"~g~Opfer:~s~ Hilfe! Dieser Mann ist aus dem Gewahrsam entkommen! Er trägt einen orangenen Overall!"</TEXT>
+        <TEXT>"~g~Opfer:~s~ Officer! Ich habe ihn rennen sehen – orangene Gefängniskleidung, in diese Richtung!"</TEXT>
     </ATTEMPTEDROBBERY>
-    <AUTOSTEHLEN>A carcacking report came in! Respond Code 3!</AUTOSTEHLEN>
+    <AUTOSTEHLEN>Wir haben eine Meldung über einen Autodiebstahl erhalten! Reagieren Sie mit Code 3!</AUTOSTEHLEN>
     <END> <!--Leave the space at the end of each element-->
-        <TEXT>Suspect was put behind bars! </TEXT>
-        <TEXT>The Suspect died. </TEXT>
-        <TEXT>~g~Go back to patrol.</TEXT>
+        <TEXT>Der Verdächtige wurde wieder hinter Gitter gebracht!</TEXT>
+        <TEXT>Der Verdächtige ist tot.</TEXT>
+        <TEXT>~g~Nehmen Sie Ihre Streifenfahrt wieder auf.</TEXT>
     </END>
     <ACTION>
-        <DIALOGUE>~r~Suspect:~s~ Don't shoot! I surrender!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ Try to catch me, motherfuckers!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ You wanna fight?! Let's go!!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ Shoot me you idiots!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ I will kill all of you pigs!</DIALOGUE>
+        <DIALOGUE>~r~Verdächtiger:~s~ Nicht schießen! Ich ergebe mich!</DIALOGUE>
+        <DIALOGUE>~r~Verdächtiger:~s~ Versuchen Sie mich doch zu fangen, ihr Mistkerle!</DIALOGUE>
+        <DIALOGUE>~r~Verdächtiger:~s~ Wollen Sie kämpfen?! Na los!!</DIALOGUE>
+        <DIALOGUE>~r~Verdächtiger:~s~ Erschießen Sie mich, ihr Idioten!</DIALOGUE>
+        <DIALOGUE>~r~Verdächtiger:~s~ Ich werde euch alle umbringen, ihr Schweine!</DIALOGUE>
     </ACTION>
 </CALLOUT>

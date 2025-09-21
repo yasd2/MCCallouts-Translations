@@ -1,0 +1,31 @@
+<Burglary>
+
+    <General>
+        <CalloutMessage>Vatandaş hırsızlık ihbarı yaptı</CalloutMessage>
+        <Text>Hırsızlık olayına sürün, dikkatli ilerleyin.</Text>
+        <Text>Delil arayın, almak için {0} tuşuna basın.</Text>
+        <Text>Evin çevresini inceleyin.</Text>
+    </General>
+
+    <FalseAlarm>
+        <Dialogue>Merkez, burada bir şey yok.</Dialogue>
+        <Dialogue>Anlaşıldı, devriyeye geri dönün.</Dialogue>
+    </FalseAlarm>
+
+    <AnimalOnScene>
+        <Dialogue>Merkez, yanlış ihbar, sadece ortalığı karıştıran bir hayvan var.</Dialogue>
+        <Dialogue>Anlaşıldı, devriyeye geri dönün.</Dialogue>
+    </AnimalOnScene>
+
+    <BurglarLeft>
+        <Dialogue>Merkez, burada bir davetsiz misafir olduğuna dair işaretler var, olay yerini araştırıyorum.</Dialogue>
+        <Dialogue>Hımm, bu pek yardımcı olmadı.</Dialogue>
+        <Dialogue>Merkez, {DriversName} adına bir belge buldum.</Dialogue>
+        <Dialogue>Hız yapan bir araca ALPR uygulandı, sahibi {DriversName}</Dialogue>
+    </BurglarLeft>
+
+    <BurglarIsLeaving>
+        <Dialogue>Merkez, bir araç ~r~kaçıyor~s~, içinde iki kişi var!</Dialogue>
+    </BurglarIsLeaving>
+
+</Burglary>

@@ -1,86 +1,86 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Package Theft</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>Officer for Area Surveillance required</CALLOUTADVISORY>
-    <TASK>There have been several package thefts reported in {ZoneName}. Drive to the area and stay alert.</TASK>
+    <CALLOUTMESSAGE>Paketdiebstahl</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Beamter für Gebietskontrolle benötigt</CALLOUTADVISORY>
+    <TASK>In {ZoneName} wurden mehrere Paketdiebstähle gemeldet. Fahren Sie in das Gebiet und bleiben Sie wachsam.</TASK>
     <D_FriendlyPostman>
-        <DIALOGUE>~y~You~s~: Good afternoon, sir. Mind if I have a word with you real quick?</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Sure thing, officer. Is there a problem?</DIALOGUE>
-        <DIALOGUE>~y~You~s~: Not exactly. We’ve had a few incidents in this neighborhood involving stolen packages. I just saw you drop one off and wanted to check everything's in order.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Ah, yeah. I totally get that. I've actually heard some neighbors mention weird stuff going on.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: Can I ask what delivery company you’re working for and what address that package was meant for?</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: I'm with GoPostal. The package was for number 123 Grove Street – just a small box. I even left it at the porch and took a photo.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: Alright, sounds good. Just doing our due diligence. Thanks for being so cooperative.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: No problem at all. Better safe than sorry.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: You're good to go. Drive safe.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Will do. Appreciate you checking in, officer. Stay safe out there.</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Guten Tag. Dürfte ich kurz ein Wort mit Ihnen wechseln?</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Aber sicher, Officer. Gibt es ein Problem?</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Nicht direkt. Wir hatten in dieser Nachbarschaft ein paar Vorfälle mit gestohlenen Paketen. Ich habe gesehen, dass Sie gerade eines zugestellt haben, und wollte sicherstellen, dass alles in Ordnung ist.</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Ah, ja. Das verstehe ich vollkommen. Ich habe tatsächlich schon von Nachbarn gehört, dass hier seltsame Dinge passieren.</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Darf ich fragen, für welches Unternehmen Sie arbeiten und an welche Adresse das Paket bestimmt war?</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Ich arbeite für GoPostal. Das Paket war für Hausnummer 123 Grove Street – nur ein kleines Päckchen. Ich habe es sogar auf die Veranda gelegt und ein Foto gemacht.</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Alles klar, klingt gut. Wir gehen nur unserer Pflicht nach. Vielen Dank, dass Sie so kooperativ sind.</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Gar kein Problem. Vorsicht ist besser als Nachsicht.</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Sie können weiterfahren. Fahren Sie vorsichtig.</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Mache ich. Danke, dass Sie nachgefragt haben, Officer. Passen Sie draußen auf sich auf.</DIALOGUE>
     </D_FriendlyPostman>
     <D_AnnoyedPostman>
-        <DIALOGUE>~y~You~s~: Hi there. I need a moment of your time, if that’s okay.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: I mean… yeah, I guess. What’s this about?</DIALOGUE>
-        <DIALOGUE>~y~You~s~: We’ve had a few reports of fake delivery drivers stealing packages in this area. Just wanted to verify your delivery.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: You’ve got to be kidding me. I’ve got 40 more stops to make.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: I understand. I just need to confirm where you dropped that last package and who you work for.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: It was 119 Grove Street. Small box, signed "J. Ramirez" on the manifest. I left it near the door.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: Got it. Do you have any ID or badge I can take a quick look at?</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Yeah, yeah, one sec. *[hands ID]* Here you go.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: Thanks. That checks out. Appreciate your time.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Alright then. Can I go now?</DIALOGUE>
-        <DIALOGUE>~y~You~s~: You're free to go. Sorry for the delay.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Next time maybe call ahead or something…</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Hallo. Ich bräuchte einen Moment Ihrer Zeit, wenn das in Ordnung ist.</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Also… ja, denke schon. Worum geht es?</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Wir haben Berichte über falsche Zusteller, die Pakete stehlen. Ich möchte nur Ihre Zustellung überprüfen.</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Das darf doch nicht wahr sein. Ich habe noch 40 Stopps vor mir.</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Ich verstehe das. Ich muss nur kurz bestätigen, wohin Sie das letzte Paket geliefert haben und für wen Sie arbeiten.</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Das war 119 Grove Street. Kleines Paket, im Manifest steht „J. Ramirez“. Ich habe es an der Tür abgelegt.</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Verstanden. Haben Sie einen Ausweis oder eine Kennkarte, die ich kurz sehen könnte?</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Ja, Moment. *[reicht Ausweis]* Hier bitte.</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Danke. Das passt. Ich danke Ihnen für Ihre Zeit.</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Na gut. Kann ich jetzt weiterfahren?</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Sie können weiterfahren. Entschuldigen Sie die Verzögerung.</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Vielleicht rufen Sie nächstes Mal vorher an oder so…</DIALOGUE>
     </D_AnnoyedPostman>
     <D_SuspectTalk>
-        <DIALOGUE>~y~You~s~: Afternoon. I saw you leaving a property back there—mind telling me what you were doing?</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Just delivering a package, officer. I’m on my route.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: That’s strange, we’ve had several reports of packages going missing recently. Mind telling me the address?</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Uh… 142 Grove Street, I think? Just following orders.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: That house hasn’t had deliveries in weeks. Can I see some credentials?</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: I… I think I left my badge at the warehouse. Look, it’s just a small job.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: Sounds more like theft. You need to step out of the vehicle.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Alright, alright. No need to make a scene. I’ll cooperate.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: You’d better. You're coming with me.</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Guten Tag. Ich habe gesehen, dass Sie gerade ein Grundstück verlassen haben – darf ich fragen, was Sie dort gemacht haben?</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Ich habe nur ein Paket zugestellt, Officer. Ich bin auf meiner Route.</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Seltsam, wir haben in letzter Zeit mehrere Meldungen über verschwundene Pakete erhalten. Dürfte ich die Adresse erfahren?</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Äh… 142 Grove Street, glaube ich? Ich folge nur den Anweisungen.</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Dieses Haus hat seit Wochen keine Lieferungen mehr erhalten. Kann ich Ihren Ausweis sehen?</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Ich… ich glaube, den habe ich im Lager vergessen. Schauen Sie, es ist nur ein kleiner Job.</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Das klingt eher nach Diebstahl. Steigen Sie bitte aus dem Fahrzeug.</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Schon gut, schon gut. Keine Szene, ich kooperiere.</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Besser so. Sie kommen mit mir.</DIALOGUE>
     </D_SuspectTalk>
     <D_SuspectPursuit>
-        <DIALOGUE>~y~You~s~: Stop the vehicle and step out. I have some questions for you.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: I don’t think that’s necessary. I'm just doing my job, officer.</DIALOGUE>
-        <DIALOGUE>~y~You~s~: You match the description of a suspect in multiple thefts. Shut off the engine.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Yeah… not today!</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Stoppen Sie das Fahrzeug und steigen Sie aus. Ich habe ein paar Fragen.</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Das ist nicht nötig. Ich mache nur meinen Job, Officer.</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Sie entsprechen der Beschreibung eines Verdächtigen in mehreren Diebstählen. Schalten Sie den Motor aus.</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Heute nicht!</DIALOGUE>
     </D_SuspectPursuit>
     <D_SuspectShooting>
-        <DIALOGUE>~y~You~s~: Alright, out of the vehicle—hands where I can see them.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Don’t come any closer, I swear to God!</DIALOGUE>
-        <DIALOGUE>~y~You~s~: You’re impersonating a delivery driver and stealing packages. It’s over!</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: You cops think you can control everything!</DIALOGUE>
-        <DIALOGUE>~y~You~s~: Drop the weapon now!</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Not gonna happen!</DIALOGUE>
-        <DIALOGUE>~y~You~s~: Last warning!</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: I’m not going to prison!</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: In Ordnung, raus aus dem Fahrzeug – Hände, wo ich sie sehen kann.</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Kommen Sie mir nicht näher, ich schwöre bei Gott!</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Sie geben sich als Zusteller aus und stehlen Pakete. Es ist vorbei!</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Ihr Cops denkt, ihr könnt alles kontrollieren!</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Lassen Sie sofort die Waffe fallen!</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Keine Chance!</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Letzte Warnung!</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Ich gehe nicht ins Gefängnis!</DIALOGUE>
     </D_SuspectShooting>
     <D_SuspectSurrender>
-        <DIALOGUE>~y~You~s~: Exit the vehicle now and keep your hands visible!</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Okay, okay! Don’t shoot!</DIALOGUE>
-        <DIALOGUE>~y~You~s~: Down on your knees, now!</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: Alright! I give up!</DIALOGUE>
-        <DIALOGUE>~y~You~s~: You’re under arrest for package theft and impersonating a delivery worker.</DIALOGUE>
-        <DIALOGUE>~o~Postman~s~: I didn’t mean for this to go that far…</DIALOGUE>
-        <DIALOGUE>~y~You~s~: You’ll have a chance to explain it at the station.</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Steigen Sie jetzt aus dem Fahrzeug und halten Sie Ihre Hände sichtbar!</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Okay, okay! Nicht schießen!</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Auf die Knie, sofort!</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Schon gut! Ich ergebe mich!</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Sie sind wegen Paketdiebstahls und Amtsanmaßung als Zusteller verhaftet.</DIALOGUE>
+        <DIALOGUE>~o~Postbote~s~: Ich wollte nicht, dass es so weit kommt…</DIALOGUE>
+        <DIALOGUE>~y~Sie~s~: Sie können das auf der Wache erklären.</DIALOGUE>
     </D_SuspectSurrender>
     <SCENARIOS>
         <THIEF>
-            <TEXT>Keep an eye on the area. A delivery should happen soon.</TEXT>
-            <TEXT>Perform a traffic stop to talk to the driver.</TEXT>
-            <TEXT>Press ~y~{Y}~s~ to talk to the driver.</TEXT>
+            <TEXT>Beobachten Sie das Gebiet. Bald sollte eine Zustellung erfolgen.</TEXT>
+            <TEXT>Führen Sie eine Verkehrskontrolle durch, um mit dem Fahrer zu sprechen.</TEXT>
+            <TEXT>Drücken Sie ~y~{Y}~s~, um mit dem Fahrer zu sprechen.</TEXT>
         </THIEF>
         <POSTMAN>
-            <TEXT>Keep an eye on the area. A delivery should happen soon.</TEXT> <!--The same line as above-->
-            <TEXT>Perform a traffic stop to talk to the driver.</TEXT> <!--The same line as above-->
-            <TEXT>Press ~y~{Y}~s~ to talk to the driver.</TEXT> <!--The same line as above-->
-            <TEXT>~g~The delivery appears legitimate. No further action is required.</TEXT>
+            <TEXT>Beobachten Sie das Gebiet. Bald sollte eine Zustellung erfolgen.</TEXT> <!--Gleiche Zeile wie oben-->
+            <TEXT>Führen Sie eine Verkehrskontrolle durch, um mit dem Fahrer zu sprechen.</TEXT> <!--Gleiche Zeile wie oben-->
+            <TEXT>Drücken Sie ~y~{Y}~s~, um mit dem Fahrer zu sprechen.</TEXT> <!--Gleiche Zeile wie oben-->
+            <TEXT>~g~Die Zustellung wirkt legitim. Es sind keine weiteren Maßnahmen erforderlich.</TEXT>
         </POSTMAN>
     </SCENARIOS>
     <END>
-        <TEXT>Package theft investigation concluded. Resume patrol.</TEXT>
-        <TEXT>Looks like that's it. Continue your patrol.</TEXT>
-        <TEXT>Nothing more to do here. Get back out there.</TEXT>
-        <TEXT>~r~The Postman died</TEXT>
+        <TEXT>Untersuchung zum Paketdiebstahl abgeschlossen. Nehmen Sie Ihre Streifenfahrt wieder auf.</TEXT>
+        <TEXT>Das war’s wohl. Setzen Sie Ihre Streifenfahrt fort.</TEXT>
+        <TEXT>Hier gibt es nichts weiter zu tun. Fahren Sie wieder raus.</TEXT>
+        <TEXT>~r~Der Postbote ist gestorben</TEXT>
     </END>
 </CALLOUT>

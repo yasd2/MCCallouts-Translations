@@ -1,25 +1,25 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>~b~Manhunt</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>A wanted fugitive was last seen in {ZoneName}</CALLOUTADVISORY>
-    <TASK>Drive to the perimeter. Officers have sealed off the area.</TASK>
+    <CALLOUTMESSAGE>~b~Fahndung</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Ein gesuchter Flüchtiger wurde zuletzt in {ZoneName} gesehen.</CALLOUTADVISORY>
+    <TASK>Fahren Sie zum abgesperrten Bereich. Beamte haben das Gebiet bereits abgeriegelt.</TASK>
     <WARRANTS>
-        <TEXT>Homicide</TEXT>
-        <TEXT>Assault</TEXT>
-        <TEXT>Missed Courtdate</TEXT>
-        <TEXT>Reckless Driving</TEXT>
+        <TEXT>Tötungsdelikt</TEXT>
+        <TEXT>Körperverletzung</TEXT>
+        <TEXT>Nicht zum Gerichtstermin erschienen</TEXT>
+        <TEXT>Rücksichtsloses Fahren</TEXT>
     </WARRANTS>
     <BACKUP>
-        <TEXT>~b~Press ~y~{Y}~b~ within the next 10 seconds to request backup. They will help searching.</TEXT>
-        <TEXT>~b~Backup is on the way and will help searching for the suspect.</TEXT>
-        <TEXT>Acknowledged. Backup will not be dispatched.</TEXT>
+        <TEXT>~b~Drücken Sie ~y~{Y}~b~ innerhalb der nächsten 10 Sekunden, um Verstärkung anzufordern. Diese wird bei der Suche helfen.</TEXT>
+        <TEXT>~b~Verstärkung ist unterwegs und wird bei der Suche nach dem Verdächtigen helfen.</TEXT>
+        <TEXT>Verstanden. Es wird keine Verstärkung entsandt.</TEXT>
     </BACKUP>
     <SEARCH>
-        <TEXT>We are searching for ~r~{Name}~s~, wanted for ~r~{Warrant}.</TEXT> 
-        <TEXT>Need help? Press ~{9}~ to locate the ~r~suspect!</TEXT>
-        <TEXT>The ~r~suspect~s~ has been found! Arrest him!</TEXT>
+        <TEXT>Wir suchen nach ~r~{Name}~s~, wegen ~r~{Warrant}.</TEXT> 
+        <TEXT>Brauchen Sie Hilfe? Drücken Sie ~{9}~, um den ~r~Verdächtigen~s~ zu orten!</TEXT>
+        <TEXT>Der ~r~Verdächtige~s~ wurde gefunden! Nehmen Sie ihn fest!</TEXT>
     </SEARCH>
     <END>
-        <TEXT>{CalloutMessage} has ended.~n~</TEXT>
-        <TEXT>~g~The suspect ~r~{Name}~g~ has been arrested.~n~</TEXT>
+        <TEXT>{CalloutMessage} wurde beendet.~n~</TEXT>
+        <TEXT>~g~Der Verdächtige ~r~{Name}~g~ wurde festgenommen.~n~</TEXT>
     </END>
 </CALLOUT>

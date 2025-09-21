@@ -1,0 +1,32 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Taksi Ücreti Anlaşmazlığı</CALLOUTMESSAGE>
+    <CALLOUTADVISORY></CALLOUTADVISORY>
+    <TASK>Konuma sür ve anlaşmazlığı çöz.</TASK>
+    <D_PEACEFUL>
+        <DIALOGUE>~y~Siz:~s~ Pekala, sorun neymiş bakalım?</DIALOGUE>
+        <DIALOGUE>~b~Sürücü:~s~ Komiserim, bu adam taksime bindi, ama geldiğimizde indi ve parayı ödemeyi reddetti!</DIALOGUE>
+        <DIALOGUE>~p~Yolcu:~s~ Çünkü çok büyük bir dolambaçlı yoldan geldi! Haritayı kontrol ettim, en az on blok fazladan yol eklemiş. Onun parasını ödemeyeceğim!</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Bakın, tartışmak bir şeyi çözmez. Bir uzlaşma yolu bulmaya ne dersiniz?</DIALOGUE>
+        <DIALOGUE>~b~Sürücü:~s~ Uzlaşma mı? Onu buraya kadar ben getirdim, bana borcu var. İşte bu böyle işler!</DIALOGUE>
+        <DIALOGUE>~p~Yolcu:~s~ Ya öyle mi? Peki beni dolandırmak için eklediğin o fazladan millere ne demeli?</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Tamam, şöyle yapalım – sürücü sana küçük bir indirim yapsın, sen de geri kalanını öde? Böylece herkes mutlu ayrılır.</DIALOGUE>
+        <DIALOGUE>~b~Sürücü:~s~ Ahh... Pekala. %20 indirim yapacağım. Ama bu benim son teklifim.</DIALOGUE>
+        <DIALOGUE>~p~Yolcu:~s~ Pekala... Hala adil olmadığını düşünüyorum, ama neyse. Al paranı.</DIALOGUE>
+    </D_PEACEFUL>
+    <D_FIGHT>
+        <DIALOGUE>~y~Siz:~s~ Burada neler oluyor?</DIALOGUE>
+        <DIALOGUE>~b~Sürücü:~s~ Bu adam taksime bindi ve şimdi ödemeyi reddediyor! Zamanımı boşa harcıyor ve bedavaya çalışmayacağım!</DIALOGUE>
+        <DIALOGUE>~p~Yolcu:~s~ Siktir git! En uzun yoldan gittiğini fark etmediğimi mi sandın? Beni dolandırdın ve sana bir kuruş bile vermeyeceğim!</DIALOGUE>
+        <DIALOGUE>~y~Siz:~s~ Beyefendi, taksiye bindin, bu da ödeme yapman gerektiği anlamına gelir. İşte bu böyle işler.</DIALOGUE>
+        <DIALOGUE>~p~Yolcu:~s~ Bok öderim! Bu dolandırıcı insanların zaaflarından faydalanabileceğini sanıyor!</DIALOGUE>
+        <DIALOGUE>~b~Sürücü:~s~ Asıl dolandırıcı sensin! Ben hizmet verdim, sen de hesabı ödemekten kaçıyorsun!</DIALOGUE>
+        <DIALOGUE>~p~Yolcu:~s~ Paramı almak mı istiyorsun? Dene de görelim!</DIALOGUE>
+    </D_FIGHT>
+    <END>
+        <TEXT>{CalloutMessage} Kod 4. Normal devriyenize dönün.</TEXT>
+        <TEXT>{CalloutMessage} tamamlandı. Vardiyanıza devam edin.</TEXT>
+        <TEXT>{CalloutMessage} çözüldü. Devriye görevlerinize geri dönün.</TEXT>
+        <TEXT>{CalloutMessage} sona erdi. Standart devriyeye dönün.</TEXT>
+        <TEXT>{CalloutMessage} tamamlandı. Devriyeye devam etmekte serbestsiniz.</TEXT>
+    </END>
+</CALLOUT>

@@ -1,0 +1,140 @@
+<TrainAccident>
+
+    <CalloutMessage>Tren Kazası</CalloutMessage>
+    <CalloutAdvisory><![CDATA[Olayı araştır ve şüpheliyi yakala!]]></CalloutAdvisory>
+
+    <Mugshot>Şüphelinin Sabıka Fotoğrafı</Mugshot>
+
+     <DisplayHelp>
+        <Text>Bildirilen ~b~tren kazası~w~ konumuna sür.</Text>
+        <Text><![CDATA[~o~Mağdurlar~s~ ve ~r~tren makinisti~s~ ile konuş.]]></Text>
+        <Text>~o~Mağdurlar~s~ ile konuş.</Text>
+        <Text>Şimdi ~g~tanıklar~s~ ile konuş.</Text>
+        <Text>~y~Trenlerin~w~ etrafındaki bölgede kanıt ara.</Text>
+        <Text>~r~Olası şüphelinin~w~ nerede olduğu hakkında bilgi aldık.</Text>
+        <Text>~g~Kod 4,~s~ devriye görevine dön.</Text>
+    </DisplayHelp>
+
+    <Detective_NotDUI>
+        <Dialogue>~HC_43~Dedektif~s~: Merhaba Komiserim, bu karmaşaya geldiğiniz için teşekkürler!</Dialogue>
+        <Dialogue>~HC_43~Dedektif~s~: Hemen konuya girelim: Birden fazla yaralının olduğu bir tren kazamız var.</Dialogue>
+        <Dialogue>~HC_43~Dedektif~s~: Görünüşe göre tren raydan çıkmış ve ortasından ayrılmış.</Dialogue>
+        <Dialogue><![CDATA[~HC_43~Dedektif~s~: Öncelikle, ~o~mağdurlar~s~ ve ~r~tren makinisti~s~ ile konuşmanı, sonra olay yerinde ~y~kanıt~s~ aramanı istiyorum!]]></Dialogue>
+        <Dialogue>~HC_43~Dedektif~s~: Şurada ~g~iki tanık~s~ var. İyi şanslar!</Dialogue>
+    </Detective_NotDUI>
+
+    <Detective_DUI2>
+        <Dialogue>~HC_43~Dedektif~s~: Öncelikle, ~o~mağdurlar~s~ ile konuşmanı, sonra olay yerinde ~y~kanıt~s~ aramanı istiyorum!</Dialogue>
+    </Detective_DUI2>
+
+    <Detective_DUI>
+        <Dialogue>~HC_43~Dedektif~s~: Merhaba Komiserim, bu karmaşaya geldiğiniz için teşekkürler!</Dialogue>
+        <Dialogue>~HC_43~Dedektif~s~: Hemen konuya girelim: Birden fazla yaralının olduğu bir tren kazamız var.</Dialogue>
+        <Dialogue>~HC_43~Dedektif~s~: Görünüşe göre tren raydan çıkmış ve ortasından ayrılmış.</Dialogue>
+        <Dialogue>~HC_43~Dedektif~s~: Öncelikle, ~o~mağdurlar~s~ ile konuşmanı, sonra olay yerinde ~y~kanıt~s~ aramanı istiyorum!</Dialogue>
+        <Dialogue>~HC_43~Dedektif~s~: Şurada ~g~iki tanık~s~ var. İyi şanslar!</Dialogue>
+    </Detective_DUI>
+
+    <Victim1_>
+        <Dialogue>~o~Mağdur~s~: Ben... uyuyordum, sonra birden... yüksek bir ses! Her şey sarsıldı, insanlar çığlık atıyordu... Pencerelerin dışında kıvılcımlar gördüm.</Dialogue>
+    </Victim1_>
+
+    <Victim2_NotDUI>
+        <Dialogue>~o~Mağdur~s~: Komiserim, bu nasıl olabilir? Yaralı insanlara bakın. Ve bir sürü acil durum ekibi!</Dialogue>
+        <Dialogue>~o~Mağdur~s~: Lütfen bu işin aslını ortaya çıkarın, cevaplara ihtiyacımız var.</Dialogue>
+    </Victim2_NotDUI>
+
+    <Victim2_DUI>
+        <Dialogue>~o~Mağdur~s~: Güçlü darbeden dolayı hala başım ağrıyor.</Dialogue>
+        <Dialogue>~o~Mağdur~s~: Trenin neden bu kadar hızlı gittiğini anlayamıyorum.</Dialogue>
+        <Dialogue>~o~Mağdur~s~: Bu hızla kaza olması şaşırtıcı değil!</Dialogue>
+        <Dialogue>~o~Mağdur~s~: Hemen hastaneye gitmem lazım, umarım makinist sorumlu tutulur!</Dialogue>
+    </Victim2_DUI>
+
+    <Driver_NotDUI>
+        <Dialogue>~HC_8~Makinist~s~: Hiçbir uyarı almadım. Aniden, tren raylardan fırladı! Zamanında fren yapamadım.</Dialogue>
+    </Driver_NotDUI>
+
+    <Driver_DUI>
+        <Dialogue>~y~Siz~s~: Polis, hemen dur, ellerini görebileceğim bir yere koy!</Dialogue>
+        <Dialogue>~HC_8~Makinist~s~: Neler oluyor? *hık* Seni tanımmıııııyorum.</Dialogue>
+        <Dialogue>~y~Siz~s~: Bugün {StreetName} adresindeki trenin makinisti sen miydin?</Dialogue>
+        <Dialogue>~HC_8~Makinist~s~: Şey, hayır. Ben *hık* bisiklet bile süremem...</Dialogue>
+        <Dialogue>~y~Siz~s~: Kimliğini istiyorum.</Dialogue>
+    </Driver_DUI>
+
+    <Witness1_Dismantled>
+        <Dialogue>~g~Tanık~s~: Ben tren atölyesinin başıyım. Dün bir hırsızlık olmuştu ama hiçbir şey çalınmış gibi görünmüyordu.</Dialogue>
+        <Dialogue>~g~Tanık~s~: Dünkü iki şüpheli, {Suspect1.GetGender()} ve {Suspect2.GetGender()}, bir {SuspectVehicle.Model.Name} sürüyordu.</Dialogue>
+        <Dialogue>~g~Tanık~s~: Ayrıca, geçen hafta {Suspect2.GetFullName()} adında bir çalışanı işten çıkarmıştık.</Dialogue>
+        <Dialogue>~g~Tanık~s~: Sanırım bu olay kazayla bağlantılı olabilir...</Dialogue>
+    </Witness1_Dismantled>
+
+    <Witness1_ObjectOnTracks>
+        <Dialogue>~g~Tanık~s~: Merhaba, yürüyüşe çıkmıştım ki rayların üzerinde bu iki kişiyi fark ettim.</Dialogue>
+        <Dialogue>~g~Tanık~s~: Bir şeyler mi tamir ediyorlar, yoksa sorun mu çıkarıyorlar emin olamadım.</Dialogue>
+        <Dialogue>~g~Tanık~s~: İki şüpheli, {Suspect1.GetGender()} ve {Suspect2.GetGender()} idi.</Dialogue>
+    </Witness1_ObjectOnTracks>
+
+    <Witness1_DUI>
+        <Dialogue>~g~Tanık~s~: Merhaba, buradan iki blok ötede yürüyordum ki bir şey fark ettim.</Dialogue>
+        <Dialogue>~g~Tanık~s~: Tren sinyallerini bilmiyorum ama ışık kesinlikle kırmızıydı.</Dialogue>
+        <Dialogue>~g~Tanık~s~: Sadece bunu bildirmek istedim.</Dialogue>
+    </Witness1_DUI>
+
+    <Witness2_NotDUI_WithVehicle>
+        <Dialogue>~g~Tanık~s~: Kazadan hemen sonra iki adamın kaçtığını gördüm! Sokağa doğru!</Dialogue>
+        <Dialogue>~g~Tanık~s~: Araç, plakası ~h~{SuspectVehicle.LicensePlate}~h~ olan bir ~h~{SuspectVehicle.Model.Name}~h~ idi.</Dialogue>
+        <Dialogue>~g~Tanık~s~: Alın, birini kameraya çektim!</Dialogue>
+    </Witness2_NotDUI_WithVehicle>
+
+    <Witness2_NotDUI_OnFoot>
+        <Dialogue>~g~Tanık~s~: Kazadan hemen sonra iki adamın kaçtığını gördüm! Sokağa doğru!</Dialogue>
+        <Dialogue>~g~Tanık~s~: Biri {Suspect1.GetGender()}, diğeri ise {Suspect2.GetGender()} idi.</Dialogue>
+        <Dialogue>~g~Tanık~s~: Alın, birini kameraya çektim!</Dialogue>
+    </Witness2_NotDUI_OnFoot>
+
+    <Witness2_DUI_WithVehicle>
+        <Dialogue>~g~Tanık~s~: Kaza yerinden sendeleyerek uzaklaşan birini gördüm.</Dialogue>
+        <Dialogue>~g~Tanık~s~: Bir ~h~{SuspectVehicle.Model.Name}~h~ aracına doğru koştular.</Dialogue>
+        <Dialogue>~g~Tanık~s~: Plakası ~h~{SuspectVehicle.LicensePlate}~h~ idi.</Dialogue>
+    </Witness2_DUI_WithVehicle>
+
+    <Witness2_DUI_OnFoot>
+        <Dialogue>~g~Tanık~s~: Kaza yerinden sendeleyerek uzaklaşan birini gördüm.</Dialogue>
+        <Dialogue>~g~Tanık~s~: Kaçtılar, eğer buna kaçmak denirse tabi.</Dialogue>
+        <Dialogue>~g~Tanık~s~: Umarım onları bulursunuz!</Dialogue>
+    </Witness2_DUI_OnFoot>
+
+    <Suspect1_>
+        <Dialogue>~y~Siz~s~: Dur, polis! Ellerini görebileceğim bir yere koy!</Dialogue>
+        <Dialogue>~r~Şüpheli~s~: Dinle, yanlış kişileri yakaladın.</Dialogue>
+        <Dialogue>~r~Şüpheli~s~: Tren kazasıyla bir ilgimiz yok.</Dialogue>
+        <Dialogue>~y~Siz~s~: Tren kazasını nereden biliyorsun?</Dialogue>
+        <Dialogue>~r~Şüpheli~s~: Şey...</Dialogue>
+    </Suspect1_>
+
+    <Evidence>
+        <Dismantled>
+            <Dialogue>Yağ hortumu gevşek, birinin kurcaladığını gösteriyor.</Dialogue>
+            <Dialogue>Bu fren kayıp.</Dialogue>
+            <Dialogue>Birisi elektrik sistemindeki kabloları sökmüş.</Dialogue>
+            <Dialogue>Hmm... bir hamburger, şimdi acıktım.</Dialogue>
+        </Dismantled>
+
+        <ObjectOnTracks>
+            <Dialogue>Rayların yakınındaki büyük bir kaya iyi değil...</Dialogue>
+            <Dialogue>Trenin tekerlekleri kırık, bir şeye çarpmış olmalılar...</Dialogue>
+            <Dialogue>Raylar gevşek ve burada bir levye var... hmm...</Dialogue>
+            <Dialogue>Burada neden taşlar var?</Dialogue>
+        </ObjectOnTracks>
+
+        <DUI>
+            <Dialogue>Hız göstergesi 100 km/s'te takılı kalmış... çok fazla hız.</Dialogue>
+            <Dialogue>Frenler yepyeni görünüyor, acil fren yapılmamış.</Dialogue>
+            <Dialogue>Bir pizza, hmm, nefis...</Dialogue>
+            <Dialogue>Fotoğraflı bir makinist listesi, bugün ~h~{Driver.GetFullName()}~h~ varmış...</Dialogue>
+        </DUI>
+    </Evidence>
+
+</TrainAccident>

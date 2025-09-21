@@ -1,0 +1,21 @@
+<VehicleSpotted>
+
+    <General>
+    <CalloutMessage>Önceden Kaçan Araç Tespit Edildi</CalloutMessage>
+        <Text>~o~Şüpheliyi~s~ ara.</Text>
+        <Text>Bir polis, daha önce trafik kontrolünden kaçan bir aracı tespit etti. Önce onunla konuş.</Text>
+        <Text>~g~Doğru şüpheli tutuklandı~s~</Text>
+    </General>
+
+    <Persons>
+        <Text>Memur</Text>
+    </Persons>
+
+    <D_Officer>
+        <Dialogue>Hey reis, seni görmek güzel! Kendine bayağı bir göbek yapmışsın, değil mi?</Dialogue>
+        <Dialogue>Neyse, daha önce bizden kaçan şu aracı burada tespit ettim.</Dialogue>
+        <Dialogue>Şüpheli buralarda olmalı, sadece beyaz bir erkek olduğunu biliyoruz.</Dialogue>
+        <Dialogue>Sanırım alışveriş merkezine gidiyor, muhtemelen açtır.</Dialogue>
+    </D_Officer>
+
+</VehicleSpotted>
