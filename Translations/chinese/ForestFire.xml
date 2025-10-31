@@ -1,0 +1,14 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Forest Fire</CALLOUTMESSAGE>
+    <TASK>Citizens reported a big fire in the forests of {ZONE}.</TASK>
+    <DIFFICULTY>
+        <TEXT>Difficulty:</TEXT>
+        <TEXT>~y~MEDIUM</TEXT>
+        <TEXT>~r~HARD</TEXT>
+    </DIFFICULTY>
+    <END>
+        <TEXT>The fire is out, good job!</TEXT>
+        <TEXT>You have extinguished {PERCENTAGE} %.</TEXT>
+        <TEXT>All fires have been extinguished. Great job!</TEXT>
+    </END>
+</CALLOUT>

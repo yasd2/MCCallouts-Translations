@@ -1,0 +1,14 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Waldbrand</CALLOUTMESSAGE>
+    <TASK>Anwohner melden einen Großbrand in den Wäldern von {ZONE}.</TASK>
+    <DIFFICULTY>
+        <TEXT>Schwierigkeit:</TEXT>
+        <TEXT>~y~MITTEL</TEXT>
+        <TEXT>~r~SCHWER</TEXT>
+    </DIFFICULTY>
+    <END>
+        <TEXT>Das Feuer ist aus, gute Arbeit!</TEXT>
+        <TEXT>Du hast {PERCENTAGE} % gelöscht.</TEXT>
+        <TEXT>Alle Feuer wurden gelöscht. Nicht schlecht!</TEXT>
+    </END>
+</CALLOUT>
