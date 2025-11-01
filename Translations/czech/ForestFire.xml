@@ -1,14 +1,14 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Forest Fire</CALLOUTMESSAGE>
-    <TASK>Citizens reported a big fire in the forests of {ZONE}.</TASK>
+    <CALLOUTMESSAGE>Lesní pozár</CALLOUTMESSAGE>
+    <TASK>Obcané nahlásili velký pozár v lesích {ZONE}.</TASK>
     <DIFFICULTY>
-        <TEXT>Difficulty:</TEXT>
-        <TEXT>~y~MEDIUM</TEXT>
-        <TEXT>~r~HARD</TEXT>
+        <TEXT>Obtíznost:</TEXT>
+        <TEXT>~y~STREDNÍ</TEXT>
+        <TEXT>~r~TEZKÁ</TEXT>
     </DIFFICULTY>
     <END>
-        <TEXT>The fire is out, good job!</TEXT>
-        <TEXT>You have extinguished {PERCENTAGE} %.</TEXT>
-        <TEXT>All fires have been extinguished. Great job!</TEXT>
+        <TEXT>Ohen je uhasen, dobrá práce!</TEXT>
+        <TEXT>Vy jste uhasily {PERCENTAGE} %.</TEXT>
+        <TEXT>Vsechny pozáry byly uhaseny. Skvelá práce!</TEXT>
     </END>
 </CALLOUT>
