@@ -1,0 +1,14 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>森林火灾</CALLOUTMESSAGE>
+    <TASK>市民报告称{ZONE}森林发生大火.</TASK>
+    <DIFFICULTY>
+        <TEXT>难度:</TEXT>
+        <TEXT>~y~中等</TEXT>
+        <TEXT>~r~困难</TEXT>
+    </DIFFICULTY>
+    <END>
+        <TEXT>火势已被扑灭,干得不错!</TEXT>
+        <TEXT>你已扑灭 {PERCENTAGE} % 的火势.</TEXT>
+        <TEXT>所有火势均已成功扑灭.表现得非常出色!</TEXT>
+    </END>
+</CALLOUT>
