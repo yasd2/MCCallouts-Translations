@@ -1,114 +1,114 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Assault</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>One person injured, police and EMS on scene</CALLOUTADVISORY>
-    <TASK>An officer reported an assault. EMS is already on scene. Drive to the reported location.</TASK>
+    <CALLOUTMESSAGE>Нападение</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Один человек ранен. На месте работают полиция и медики.</CALLOUTADVISORY>
+    <TASK>Офицер сообщил о нападении. Медики уже на месте. Отправляйтесь к месту происшествия.</TASK>
     <NOTIFICATIONS>
-        <TEXT>Search the area nearby for the suspect vehicle.{n}~o~Vehicle:~s~ {MODEL}{n}~o~Color:~s~ {COLOR}{n}~o~Suspect:~s~ {FIRSTNAME} {LASTNAME}</TEXT>
-        <TEXT>Search the nearby area for the suspect.{n}~o~Name:~s~ {FIRSTNAME} {LASTNAME}{n}~o~Warrant:~s~ Assault</TEXT>
-        <TEXT>An officer has pulled over a matching vehicle. Respond Code 3 as backup.</TEXT>
+        <TEXT>Обыщите ближайшую территорию в поисках автомобиля подозреваемого.{n}~o~Модель:~s~ {MODEL}{n}~o~Цвет:~s~ {COLOR}{n}~o~Подозреваемый:~s~ {FIRSTNAME} {LASTNAME}</TEXT>
+        <TEXT>Обыщите окрестности в поисках подозреваемого.{n}~o~Имя:~s~ {FIRSTNAME} {LASTNAME}{n}~o~Розыск:~s~ Нападение</TEXT>
+        <TEXT>Офицер остановил автомобиль, подходящий под описание. Следуйте на место с кодом 3 в качестве поддержки.</TEXT>
     </NOTIFICATIONS>
     <DIALOGUES id="D_Officer">
-        <DIALOGUE>~b~Officer:~s~ Hello partner, great that you got here so quickly!</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ We received a call about an assault and I was the first on scene.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ As you can see, EMS is already treating the victim.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ You should probably talk to the paramedic first to get an update on the victim's condition.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ The victim doesn't look good, maybe he's responsive and can remember something.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ A witness has come forward too, I hope they can give some useful information about the incident.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ Good luck!</DIALOGUE>
+        <DIALOGUE>~b~Офицер:~s~ Привет, партнёр! Отлично, что приехал так быстро!</DIALOGUE>
+        <DIALOGUE>~b~Офицер:~s~ Мы получили вызов о нападении, я был первым на месте.</DIALOGUE>
+        <DIALOGUE>~b~Офицер:~s~ Как видишь, медики уже оказывают помощь пострадавшему.</DIALOGUE>
+        <DIALOGUE>~b~Офицер:~s~ Советую сначала поговорить с парамедиком — он расскажет, в каком состоянии жертва.</DIALOGUE>
+        <DIALOGUE>~b~Офицер:~s~ Пострадавший выглядит плохо, но, возможно, в сознании и сможет что-то вспомнить.</DIALOGUE>
+        <DIALOGUE>~b~Офицер:~s~ Также есть свидетель — возможно, он сможет рассказать, что произошло.</DIALOGUE>
+        <DIALOGUE>~b~Офицер:~s~ Удачи тебе!</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Paramedic_Witness">
-        <DIALOGUE>~r~Paramedic:~s~ Good day, glad to get support from you - it's definitely needed.</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ We have multiple lacerations and bruises here, possibly caused by a larger object.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Something like a knife, brass knuckles, or a glass bottle?</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ Yes, exactly. The patient is seriously injured and unresponsive. I'm stabilizing him now, then it's off to the hospital.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Doesn't look like I'll get any info from the victim, I'll let you do your job.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ I'll go talk to the witness next.</DIALOGUE>
+        <DIALOGUE>~r~Парамедик:~s~ Добрый день, рад, что вы приехали — помощь нам сейчас действительно нужна.</DIALOGUE>
+        <DIALOGUE>~r~Парамедик:~s~ У пострадавшего множественные порезы и ушибы, вероятно, нанесённые каким-то тяжёлым предметом.</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Что-то вроде ножа, кастета или бутылки?</DIALOGUE>
+        <DIALOGUE>~r~Парамедик:~s~ Да, именно. Состояние серьёзное, пострадавший без сознания. Сейчас стабилизирую его, потом отвезём в больницу.</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Похоже, от жертвы я ничего не узнаю. Не буду мешать вашей работе.</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Пойду поговорю со свидетелем.</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Paramedic_VictimWitness">
-        <DIALOGUE>~r~Paramedic:~s~ Ah hello, I guess your colleague called for backup?</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ Glad you're here. The victim is doing okay under the circumstances.</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ He has a head wound, possibly caused by a punch or a light object.</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ The wound needs stitches, so I'll take him to the hospital shortly.</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ It's best if you ask your questions now while the memory is still fresh.</DIALOGUE>
+        <DIALOGUE>~r~Парамедик:~s~ О, здравствуйте! Наверное, ваш напарник вызвал подмогу?</DIALOGUE>
+        <DIALOGUE>~r~Парамедик:~s~ Хорошо, что вы здесь. Состояние пострадавшего стабильное, насколько это возможно.</DIALOGUE>
+        <DIALOGUE>~r~Парамедик:~s~ У него рана на голове, вероятно, от удара кулаком или каким-то предметом.</DIALOGUE>
+        <DIALOGUE>~r~Парамедик:~s~ Рану нужно зашить, скоро отвезу его в больницу.</DIALOGUE>
+        <DIALOGUE>~r~Парамедик:~s~ Лучше задайте вопросы сейчас, пока он ещё всё помнит.</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Victim_VictimWitness">
-        <DIALOGUE>~o~Victim:~s~ Hello officer, please find the bastard who did this!</DIALOGUE>
-        <DIALOGUE>~o~Victim:~s~ I was walking around, just trying to shop for something.</DIALOGUE>
-        <DIALOGUE>~o~Victim:~s~ Suddenly, {FIRSTNAME} {LASTNAME} showed up - I know him from the bar.</DIALOGUE>
-        <DIALOGUE>~o~Victim:~s~ He started mouthing off at me and then hit me - I don't remember much after that.</DIALOGUE>
-        <DIALOGUE>~o~Victim:~s~ Unfortunately, I didn't see where they went. Ah, my head... it hurts. Damn!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ It's okay, just rest for now. We'll record your statement and start a search immediately.</DIALOGUE>
-        <DIALOGUE>~o~Victim:~s~ Look for {FIRSTNAME} {LASTNAME}, {GENDER}! They did this!</DIALOGUE>
+        <DIALOGUE>~o~Жертва:~s~ Офицер, прошу, найдите ублюдка, который это сделал!</DIALOGUE>
+        <DIALOGUE>~o~Жертва:~s~ Я просто гулял, хотел кое-что купить.</DIALOGUE>
+        <DIALOGUE>~o~Жертва:~s~ Вдруг появился {FIRSTNAME} {LASTNAME} — я знаю его, он бывает в том же баре.</DIALOGUE>
+        <DIALOGUE>~o~Жертва:~s~ Он начал оскорблять меня, потом ударил… дальше почти ничего не помню.</DIALOGUE>
+        <DIALOGUE>~o~Жертва:~s~ Не видел, куда он побежал. Голова… чёрт, как же болит…</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Всё в порядке, просто отдохните. Мы запишем показания и начнём поиски немедленно.</DIALOGUE>
+        <DIALOGUE>~o~Жертва:~s~ Ищите {FIRSTNAME} {LASTNAME}, {GENDER}! Это он (она) сделал(а) это!</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Witness_Witness">
-        <DIALOGUE>~g~Witness:~s~ Hello officer, great you're here. I hope I can help identify the attacker.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ I saw them arguing, and suddenly one pushed the other and started hitting!</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ Pretty brutal if you ask me! No wonder an ambulance had to come.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ I heard one of them say the suspect's name: {LASTNAME}. The person was {GENDER}.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ It's sad how violence is increasing these days.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Thanks, that definitely helped.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Did you see where the suspect went?</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ They went off on foot. I can mark it on your GPS if you want!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Thanks again, we'll do our best to catch them!</DIALOGUE>
+        <DIALOGUE>~g~Свидетель:~s~ Здравствуйте, офицер. Рад, что вы прибыли. Надеюсь, смогу помочь опознать нападавшего.</DIALOGUE>
+        <DIALOGUE>~g~Свидетель:~s~ Я видел, как они спорили, потом один толкнул другого и начал избивать!</DIALOGUE>
+        <DIALOGUE>~g~Свидетель:~s~ Это было довольно жестоко, неудивительно, что пришлось вызывать скорую.</DIALOGUE>
+        <DIALOGUE>~g~Свидетель:~s~ Я услышал, как кто-то назвал фамилию — {LASTNAME}. Подозреваемый был {GENDER}.</DIALOGUE>
+        <DIALOGUE>~g~Свидетель:~s~ Печально, как много стало насилия в наши дни…</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Спасибо, это очень помогло.</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Вы не видели, куда подозреваемый направился?</DIALOGUE>
+        <DIALOGUE>~g~Свидетель:~s~ Он ушёл пешком. Я могу отметить направление на вашем GPS!</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Спасибо ещё раз. Мы постараемся поймать его!</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Witness_VictimWitness">
-        <DIALOGUE>~y~You:~s~ Hello, I'm an officer from the local police department. Can you tell me what happened?</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ Hello, yes - I think I saw someone leaving the scene.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ I heard an argument and went toward the sound.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ I only saw someone bleeding on the ground, and another person walking away quickly.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ They ran off in that direction!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Can you describe the person?</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ Sadly not, I only saw them from a distance and stayed with the injured person.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ You did the right thing, thank you - you can see how badly they were hurt.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ We'll start a close-range search right away.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ Good luck! Catch that bastard!</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Здравствуйте, я офицер полиции. Расскажите, что здесь произошло?</DIALOGUE>
+        <DIALOGUE>~g~Свидетель:~s~ Здравствуйте. Кажется, я видел, как кто-то убегал с места.</DIALOGUE>
+        <DIALOGUE>~g~Свидетель:~s~ Слышал спор, пошёл на звук.</DIALOGUE>
+        <DIALOGUE>~g~Свидетель:~s~ Увидел человека, лежащего на земле, и другого, быстро уходящего прочь.</DIALOGUE>
+        <DIALOGUE>~g~Свидетель:~s~ Он побежал вон туда!</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Вы можете описать этого человека?</DIALOGUE>
+        <DIALOGUE>~g~Свидетель:~s~ К сожалению, нет. Видел только издалека, остался с пострадавшим.</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Вы поступили правильно, спасибо. Он серьёзно пострадал.</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Мы начнём поиск прямо сейчас.</DIALOGUE>
+        <DIALOGUE>~g~Свидетель:~s~ Удачи! Поймайте этого подонка!</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Witness_TrafficStop">
-        <DIALOGUE>~y~You:~s~ Good day, I'm an officer from the local police department.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ Hello, I want to help catch the suspect.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ I know them, they also live in town.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ Their name is {FIRSTNAME} {LASTNAME}!</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ They were holding something during the fight - I couldn't quite tell what it was.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ The asshole hit the victim several times, then drove off in a {MODEL}!</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ The car color was {COLOR}.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ I wrote down the license plate... {LICENSEPLATE}!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Thanks a lot! I'll keep a lookout for the vehicle. Have a great day!</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Добрый день, я офицер дорожной полиции.</DIALOGUE>
+        <DIALOGUE>~g~Свидетель:~s~ Здравствуйте. Хочу помочь поймать преступника.</DIALOGUE>
+        <DIALOGUE>~g~Свидетель:~s~ Я знаю его — он тоже живёт в этом городе.</DIALOGUE>
+        <DIALOGUE>~g~Свидетель:~s~ Его зовут {FIRSTNAME} {LASTNAME}!</DIALOGUE>
+        <DIALOGUE>~g~Свидетель:~s~ Во время драки у него что-то было в руках, но я не разглядел, что именно.</DIALOGUE>
+        <DIALOGUE>~g~Свидетель:~s~ Этот мерзавец несколько раз ударил жертву, а потом уехал на {MODEL}!</DIALOGUE>
+        <DIALOGUE>~g~Свидетель:~s~ Цвет машины — {COLOR}.</DIALOGUE>
+        <DIALOGUE>~g~Свидетель:~s~ Я записал номер — {LICENSEPLATE}!</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Спасибо большое! Будем искать этот автомобиль. Хорошего дня!</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_TrafficOfficer_1">
-        <DIALOGUE>~b~Officer:~s~ Hey partner! I pulled this one over, the car matches the description.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ I definitely wanted backup, that's why I called you.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ I'll take the passenger side - I've got your back in case they try anything stupid.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ Go ahead and double-check the vehicle details, just to be sure.</DIALOGUE>
+        <DIALOGUE>~b~Офицер:~s~ Привет, партнёр! Я остановил эту машину — полностью совпадает с описанием.</DIALOGUE>
+        <DIALOGUE>~b~Офицер:~s~ Подмога не помешает, поэтому я тебя и вызвал.</DIALOGUE>
+        <DIALOGUE>~b~Офицер:~s~ Я возьму пассажирскую сторону — прикрою тебя, если он вздумает что-то натворить.</DIALOGUE>
+        <DIALOGUE>~b~Офицер:~s~ Проверь данные по машине, чтобы убедиться наверняка.</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Suspect_Witness">
-        <DIALOGUE>~y~You:~s~ Stop right there! Police!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ Oh my God, you scared me. What do you want?</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ You're a suspect in a criminal case. Where were you a short while ago?</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ I... is this about the fight? Come on, it wasn't a big deal.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Just so you know, the victim is being transported to the hospital! They're seriously injured!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ Oh no... I didn't mean for that to happen. Damn, I'm so sorry...</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Hands where I can see them! You're under arrest!</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Стоять! Полиция!</DIALOGUE>
+        <DIALOGUE>~r~Подозреваемый:~s~ Чёрт, вы меня напугали! Что вам нужно?</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Вы подозреваетесь в нападении. Где вы были некоторое время назад?</DIALOGUE>
+        <DIALOGUE>~r~Подозреваемый:~s~ Это из-за драки, да? Да ладно, ничего серьёзного!</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Чтобы вы знали — пострадавший в тяжёлом состоянии, его везут в больницу!</DIALOGUE>
+        <DIALOGUE>~r~Подозреваемый:~s~ Что?! Я не хотел, чтобы всё так вышло... Чёрт, простите...</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Руки, где я их вижу! Вы арестованы!</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Suspect_VictimWitness">
-        <DIALOGUE>~y~You:~s~ Police! Please come with me, I've got a few questions for you.</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ What do you want from me? Leave me alone!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Listen, we can do this the easy way or the hard way.</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ You can't prove anything. I didn't do anything! Nothing at all!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ You match the description of a suspect. Where were you an hour ago?</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ I... was at the library, yes exactly! I read and enjoy the peace away from you pigs!</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Полиция! Пожалуйста, пройдёмте, нужно задать пару вопросов.</DIALOGUE>
+        <DIALOGUE>~r~Подозреваемый:~s~ Чего вы от меня хотите? Отстаньте!</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Послушайте, можем сделать это по-хорошему или по-плохому.</DIALOGUE>
+        <DIALOGUE>~r~Подозреваемый:~s~ Вы ничего не докажете! Я ничего не делал!</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Вы подходите под описание подозреваемого. Где вы были час назад?</DIALOGUE>
+        <DIALOGUE>~r~Подозреваемый:~s~ Я... был в библиотеке, да! Читал. В отличие от вас, ползунов по улицам!</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Suspect_TrafficStop">
-        <DIALOGUE>~y~You:~s~ Good day, I'm a traffic officer from the local department. License and vehicle documents, please.</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ Is there a reason for this stop? My documents are all valid!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Where are you coming from?</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ I was just shopping, a few small things, why?</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Were you in an argument recently? Friend, coworker or similar? We got a report.</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ Yes, I had a small argument, just words, a little shoving.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Did you do more than just shove? A witness reported something different.</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ I don't know what you mean!! Go ahead and arrest me then!</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Добрый день. Я офицер дорожной полиции. Ваши права и документы на машину, пожалуйста.</DIALOGUE>
+        <DIALOGUE>~r~Подозреваемый:~s~ А причина остановки? У меня всё в порядке с документами!</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Откуда вы едете?</DIALOGUE>
+        <DIALOGUE>~r~Подозреваемый:~s~ Просто заехал в магазин, ничего особенного. А что?</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Недавно у вас был конфликт с кем-то? Нам поступило сообщение.</DIALOGUE>
+        <DIALOGUE>~r~Подозреваемый:~s~ Да, был спор — просто слова, немного толкались.</DIALOGUE>
+        <DIALOGUE>~y~Вы:~s~ Толкались, говорите? Свидетель утверждает иное.</DIALOGUE>
+        <DIALOGUE>~r~Подозреваемый:~s~ Я не знаю, о чём вы! Ну всё, арестуйте тогда меня!</DIALOGUE>
     </DIALOGUES>
     <END>
-        <TEXT>Dispatch, show us Code 4. Returning to patrol.</TEXT>
-        <TEXT>We're Code 4 here. Dispatch, no further assistance needed.</TEXT>
+        <TEXT>Диспетчер, ситуация под контролем. Возвращаемся на патруль.</TEXT>
+        <TEXT>Код 4, диспетчер. Дополнительная помощь не требуется.</TEXT>
     </END>
 </CALLOUT>
