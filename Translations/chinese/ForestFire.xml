@@ -1,14 +1,14 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Forest Fire</CALLOUTMESSAGE>
-    <TASK>Citizens reported a big fire in the forests of {ZONE}.</TASK>
+    <CALLOUTMESSAGE>森林火灾</CALLOUTMESSAGE>
+    <TASK>市民报告称{ZONE}森林发生大火.</TASK>
     <DIFFICULTY>
-        <TEXT>Difficulty:</TEXT>
-        <TEXT>~y~MEDIUM</TEXT>
-        <TEXT>~r~HARD</TEXT>
+        <TEXT>难度:</TEXT>
+        <TEXT>~y~中等</TEXT>
+        <TEXT>~r~困难</TEXT>
     </DIFFICULTY>
     <END>
-        <TEXT>The fire is out, good job!</TEXT>
-        <TEXT>You have extinguished {PERCENTAGE} %.</TEXT>
-        <TEXT>All fires have been extinguished. Great job!</TEXT>
+        <TEXT>火势已被扑灭,干得不错!</TEXT>
+        <TEXT>你已扑灭 {PERCENTAGE} % 的火势.</TEXT>
+        <TEXT>所有火势均已成功扑灭.表现得非常出色!</TEXT>
     </END>
 </CALLOUT>
