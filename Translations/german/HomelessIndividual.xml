@@ -1,0 +1,208 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Störung durch eine obdachlose Person</CALLOUTMESSAGE>
+    <TASK>
+        <TEXT>Eine ~o~obdachlose Person~s~ verursacht eine Störung. Sprechen Sie mit</TEXT>
+        <TEXT>dem ~g~Sicherheitsmitarbeiter,~s~ er hat um Hilfe gerufen.</TEXT>
+        <TEXT>der ~g~Fußgängerin,~s~ sie hat um Hilfe gerufen.</TEXT>
+        <TEXT>ihnen.</TEXT>
+    </TASK>
+    <SCENARIO>
+        <SEARCHINGTRASH>
+            <COOPERATIVE>
+                <TEXT>~y~Sie:~s~ Hallo, ist alles in Ordnung? Sie wühlen hier im Müll.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Ja… ich suche nur nach Flaschen, das ist alles. Ich mache keinen Ärger.</TEXT>
+                <TEXT>~y~Sie:~s~ Ich verstehe. Das ist jedoch Privatgelände. Könnten Sie bitte woanders hingehen?</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Oh… Entschuldigung, das wusste ich nicht. Ich will niemanden verärgern.</TEXT>
+                <TEXT>~y~Sie:~s~ Ist schon gut. Brauchen Sie irgendwas? Einen Kaffee? Hilfe bei sozialen Diensten?</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Das ist nett von Ihnen, aber nein… ich mache mich jetzt auf den Weg.</TEXT>
+                <TEXT>~y~Sie:~s~ In Ordnung. Passen Sie auf sich auf.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Danke. Ebenfalls.</TEXT>
+            </COOPERATIVE>
+            <NONCOMPLIANT>
+                <TEXT>~y~Sie:~s~ Entschuldigen Sie. Sie können hier nicht bleiben, das ist Privatgelände.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Ich bin schon seit Tagen hier. Ich störe doch niemanden.</TEXT>
+                <TEXT>~y~Sie:~s~ Es gab Beschwerden. Ich muss Sie bitten, den Bereich zu verlassen.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Ich gehe nirgendwohin. Das ist der einzige Platz, den ich habe.</TEXT>
+                <TEXT>~y~Sie:~s~ Wenn Sicherheit auftaucht, kann das unangenehm für Sie werden.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Dann sollen sie kommen. Ich bleibe genau hier.</TEXT>
+                <TEXT>~y~Sie:~s~ Ich gebe Ihnen hier eine faire Chance.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Und ich sage nein. Lassen Sie mich in Ruhe.</TEXT>
+            </NONCOMPLIANT>
+            <FIGHT>
+                <TEXT>~y~Sie:~s~ Können Sie kurz aufhören? Leute haben sich darüber beschwert, dass Sie hier wühlen.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Beschwerden? Wofür? Ich versuche doch nur zu überleben. Lassen Sie mich in Ruhe.</TEXT>
+                <TEXT>~y~Sie:~s~ Ich möchte, dass das friedlich bleibt. Bitte gehen Sie weiter.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Nein. Ich gehe nirgendwohin.</TEXT>
+                <TEXT>~y~Sie:~s~ Letzte Warnung. Machen Sie es nicht schwerer als nötig.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Schwierig? Sie machen mir keine Angst.</TEXT>
+                <TEXT>~y~Sie:~s~ Rückwärts! Sofort!</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Jetzt reicht’s! Ich zerschlage dich!</TEXT>
+                <TEXT>~y~Sie:~s~ Legen Sie die Waffen nieder! Jetzt!</TEXT>
+            </FIGHT>
+        </SEARCHINGTRASH>
+        <BEGFORMONEY>
+            <INTRO>
+                <TEXT>~y~Sie:~s~ Hallo, ich bin wegen Ihres Anrufs hier. Sie sagten, jemand belästigt Sie?</TEXT>
+                <TEXT>~g~Zivilistin:~s~ Ja, Officer. Der obdachlose Mann dort drüben fragt ständig nach Geld.</TEXT>
+                <TEXT>~y~Sie:~s~ Können Sie mir genau sagen, was passiert ist?</TEXT>
+                <TEXT>~g~Zivilistin:~s~ Ich bin einfach vorbeigegangen und er hat mich von jetzt auf gleich angesprochen.</TEXT>
+                <TEXT>~g~Zivilistin:~s~ Er hat immer wieder gedrängt und gesagt, er bräuchte das Geld mehr als ich. Er akzeptierte kein Nein.</TEXT>
+                <TEXT>~y~Sie:~s~ Hat er Sie bedroht oder berührt?</TEXT>
+                <TEXT>~g~Zivilistin:~s~ Nein, nicht wirklich… aber er war sehr aufdringlich. Das hat mich unwohl fühlen lassen.</TEXT>
+                <TEXT>~g~Zivilistin:~s~ Ich weiß, die Zeiten sind hart, aber ich sollte nicht nur fürs Gehen auf der Straße belästigt werden.</TEXT>
+                <TEXT>~y~Sie:~s~ In Ordnung, ich spreche mit ihm. Danke, dass Sie Bescheid gesagt haben.</TEXT>
+            </INTRO>
+            <COOPERATIVE>
+                <TEXT>~y~Sie:~s~ Hey, ich muss mit Ihnen reden. Sie haben die Frau um Geld gebeten?</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Ja… ich habe nur einmal gefragt. Ich wollte ihr keine Angst machen.</TEXT>
+                <TEXT>~y~Sie:~s~ Sie hat sich unwohl gefühlt. Sie dürfen Leute nicht so ansprechen.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Ich verstehe, ich wollte keinen Ärger.</TEXT>
+                <TEXT>~y~Sie:~s~ Gut. Ich brauche Sie, den Bereich zu verlassen und aufzuhören, fremde Personen um Geld zu bitten.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Gut… ich gehe. Ich versuche nur, über die Runden zu kommen, wissen Sie?</TEXT>
+                <TEXT>~y~Sie:~s~ Ich verstehe. Aber hier ist das nicht erlaubt.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Okay… ich gehe. Danke, dass Sie nichts Größeres daraus gemacht haben.</TEXT>
+            </COOPERATIVE>
+            <NONCOMPLIANT>
+                <TEXT>~y~Sie:~s~ Sir, ich muss mit Ihnen sprechen. Sie haben Leute um Geld gebeten.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Und? Ich habe niemandem wehgetan. Ich hab nur gefragt.</TEXT>
+                <TEXT>~y~Sie:~s~ Sie haben eine Frau verunsichert. Sie müssen den Bereich verlassen.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Ich gehe nirgendwohin. Die Leute laufen den ganzen Tag vorbei, ich frage, wen ich will.</TEXT>
+                <TEXT>~y~Sie:~s~ So geht das nicht. Sie dürfen Passanten nicht belästigen.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Belästigen? Ich habe kaum was gesagt. Sie übertreibt.</TEXT>
+                <TEXT>~y~Sie:~s~ Das ist Ihre letzte Verwarnung: Hören Sie auf, hier zu betteln, und verlassen Sie den Bereich.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Nein. Ich bleibe. Ich habe nirgendswo anders hin.</TEXT>
+            </NONCOMPLIANT>
+            <FIGHT>
+                <TEXT>~y~Sie:~s~ Ich brauche, dass Sie aufhören, Leute wegen Geld anzusprechen. Das geht hier nicht.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Belästigen? Ich habe nur eine einfache Frage gestellt. Die Leute sind zu empfindlich.</TEXT>
+                <TEXT>~y~Sie:~s~ Sie wurde bedroht und hat uns deswegen gerufen. Sie müssen jetzt gehen.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Warum lassen Sie mich nicht in Ruhe?</TEXT>
+                <TEXT>~y~Sie:~s~ Eskalieren Sie das nicht. Gehen Sie einfach weg.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Weggehen? Ich habe es satt, herumgeschubst zu werden!</TEXT>
+                <TEXT>~y~Sie:~s~ Hey — beruhigen Sie sich.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Nein! Ich habe genug gehört!</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Dann los! Mal sehen, was Sie draufhaben!</TEXT>
+                <TEXT>~y~Sie:~s~ Hören Sie auf! Tun Sie das nicht!</TEXT>
+            </FIGHT>
+        </BEGFORMONEY>
+        <SLEEPONSTREET>
+            <INTRO>
+                <TEXT>~y~Sie:~s~ Hallo, ich beantworte Ihren Anruf. Sie sagten, jemand liege auf dem Boden?</TEXT>
+                <TEXT>~g~Zivilist:~s~ Ja, Officer. Genau dort drüben. Er schläft seit mindestens einer Stunde auf der Straße.</TEXT>
+                <TEXT>~y~Sie:~s~ Haben Sie gesehen, ob er sich bewegt hat? Wirkte er verletzt?</TEXT>
+                <TEXT>~g~Zivilist:~s~ Nicht wirklich… ich war mir nicht sicher, ob er in Ordnung ist. Deshalb habe ich angerufen. Es sah nicht normal aus.</TEXT>
+                <TEXT>~y~Sie:~s~ Verstanden. Danke, dass Sie Bescheid gesagt haben. Wir schauen nach ihm und sorgen dafür, dass er sicher ist.</TEXT>
+                <TEXT>~g~Zivilist:~s~ Ich wollte nur nicht, dass er überfahren wird oder so. Die Autos fahren hier ziemlich nah vorbei.</TEXT>
+                <TEXT>~y~Sie:~s~ Sie haben das Richtige getan. Ich kümmere mich darum und prüfe, ob er medizinische Hilfe braucht oder nur weggehen muss.</TEXT>
+                <TEXT>~g~Zivilist:~s~ In Ordnung… danke, Officer.</TEXT>
+            </INTRO>
+            <COOPERATIVE>
+                <TEXT>~y~Sie:~s~ Hey, können Sie für mich aufwachen? Ich muss nach Ihnen sehen.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Huh…? Was…? Oh, Officer… ich bin wohl eingenickt.</TEXT>
+                <TEXT>~y~Sie:~s~ Jemand hat angerufen, weil er sich Sorgen um Ihre Gesundheit machte. Sie lagen direkt an der Straße.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Ja… ich war müde. Dachte nicht, dass das schlimm ist.</TEXT>
+                <TEXT>~y~Sie:~s~ Ich verstehe, aber hier ist es gefährlich. Die Autos fahren sehr nah vorbei, Sie könnten verletzt werden.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Alles klar… ich steh auf. Wollte keinen Ärger machen.</TEXT>
+                <TEXT>~y~Sie:~s~ Gut. Suchen Sie sich nächstes Mal bitte einen sicheren Ort.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Mach ich. Danke, dass Sie nach mir geschaut haben.</TEXT>
+            </COOPERATIVE>
+            <NONCOMPLIANT>
+                <TEXT>~y~Sie:~s~ Sir, wachen Sie für mich auf. Ich muss sicherstellen, dass es Ihnen gut geht.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Was…? Mir geht’s gut… lassen Sie mich in Ruhe… ich will nur schlafen.</TEXT>
+                <TEXT>~y~Sie:~s~ Jemand rief, weil er dachte, Sie könnten verletzt sein. Sie liegen direkt neben der Straße.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Ich bin nicht verletzt. Ich habe diesen Platz gewählt. Es ist ruhig. Ich bleibe hier.</TEXT>
+                <TEXT>~y~Sie:~s~ Dieser Ort ist nicht sicher. Sie können hier nicht schlafen, die Autos fahren gefährlich nah vorbei.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Ich habe schon an schlimmeren Orten geschlafen. Ich gehe nicht weg.</TEXT>
+                <TEXT>~y~Sie:~s~ Ich gebe Ihnen die Möglichkeit, sich freiwillig zu relocieren.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Und ich sage nein. Lassen Sie mich einfach schlafen.</TEXT>
+            </NONCOMPLIANT>
+            <FIGHT>
+                <TEXT>~y~Sie:~s~ Sir, wachen Sie auf. Ich muss nach Ihnen sehen und sicherstellen, dass Sie in Ordnung sind.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Was zum Teufel…? Warum stören Sie mich?</TEXT>
+                <TEXT>~y~Sie:~s~ Jemand war besorgt um Ihren Zustand. Sie lagen direkt an der Fahrbahn.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Ich habe geschlafen! Das ist doch keine Straftat!</TEXT>
+                <TEXT>~y~Sie:~s~ Es geht um Ihre Sicherheit. Ich brauche, dass Sie aufstehen und sich an einen sicheren Ort begeben.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Ich gehe nirgendwohin! Lassen Sie mich in Ruhe!</TEXT>
+                <TEXT>~y~Sie:~s~ Beruhigen Sie sich. Machen Sie nicht etwas, das nicht nötig ist.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Nein! Ich habe es satt, herumgeschubst zu werden!</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Geh weg von mir!</TEXT>
+                <TEXT>~y~Sie:~s~ Tun Sie das nicht! Legen Sie jetzt die Hände weg!</TEXT>
+            </FIGHT>
+        </SLEEPONSTREET>
+        <TRESPASSING>
+            <INTRO>
+                <TEXT>~g~Sicherheitsmitarbeiter:~s~ Officer, danke, dass Sie so schnell gekommen sind.</TEXT>
+                <TEXT>~g~Sicherheitsmitarbeiter:~s~ Wir haben dort drüben einen obdachlosen Mann, der schläft.</TEXT>
+                <TEXT>~g~Sicherheitsmitarbeiter:~s~ Er ist schon eine Weile hier, und dieses Gelände ist Privatbesitz. Er kann hier nicht bleiben.</TEXT>
+                <TEXT>~g~Sicherheitsmitarbeiter:~s~ Ich habe versucht, ihn zu wecken und zu bitten weiterzugehen, aber er hat kaum reagiert.</TEXT>
+                <TEXT>~g~Sicherheitsmitarbeiter:~s~ Ehrlich gesagt bin ich mir wegen seines Zustands nicht sicher. Vielleicht ist er in Ordnung, aber ich wollte kein Risiko eingehen.</TEXT>
+                <TEXT>~g~Sicherheitsmitarbeiter:~s~ Können Sie mit ihm sprechen und sicherstellen, dass er das Gelände verlässt?</TEXT>
+            </INTRO>
+            <COOPERATIVE>
+                <TEXT>~y~Sie:~s~ Hallo, können Sie für mich aufwachen? Der Sicherheitsdienst hat uns gerufen, weil Sie auf Privatgelände sind.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Huh… was? Entschuldigung, ich wollte keinen Ärger.</TEXT>
+                <TEXT>~y~Sie:~s~ Sie sind nicht in Schwierigkeiten, aber Sie können hier nicht bleiben. Sie machten uns auch wegen Ihres Zustands Sorgen.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Ich verstehe… ich war einfach erschöpft. Ich werde jetzt gehen.</TEXT>
+                <TEXT>~y~Sie:~s~ In Ordnung. Wenn Sie Hilfe oder einen sicheren Ort brauchen, kann ich Ihnen Dienste nennen.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Danke, Officer. Ich mache mich dann auf den Weg.</TEXT>
+                <TEXT>~y~Sie:~s~ Gut. Passen Sie auf sich auf, ja?</TEXT>
+            </COOPERATIVE>
+            <NONCOMPLIANT>
+                <TEXT>~y~Sie:~s~ Sir, wachen Sie für mich auf. Sie sind auf Privatgelände und können hier nicht bleiben.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Warum… warum kann ich mich hier nicht ausruhen? Ich störe doch niemanden.</TEXT>
+                <TEXT>~y~Sie:~s~ Der Sicherheitsdienst war besorgt um Ihr Wohlbefinden und darüber, dass Sie sich unerlaubt auf dem Gelände aufhalten.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Es ist nur ein Schlafplatz. Ich mache nichts kaputt.</TEXT>
+                <TEXT>~y~Sie:~s~ Ich verstehe, dass Sie müde sind, aber Sie müssen dennoch weggehen. Dieser Bereich ist nicht öffentlich zugänglich.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Ich sehe nicht ein, warum ich gehen sollte… es ist hier ruhig.</TEXT>
+                <TEXT>~y~Sie:~s~ Ich bitte Sie ein letztes Mal — machen wir es einfach. Stehen Sie auf und räumen Sie den Bereich.</TEXT>
+            </NONCOMPLIANT>
+            <FIGHT>
+                <TEXT>~y~Sie:~s~ Sir, wachen Sie auf. Sie dringen hier ein und können nicht bleiben.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Bleiben Sie weg… ich gehe nirgendwohin!</TEXT>
+                <TEXT>~y~Sie:~s~ Der Sicherheitsdienst war besorgt. Ich versuche, Ihnen zu helfen, aber Sie müssen weggehen.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Hilfe? Ihr Bullen helft nie! Lassen Sie mich einfach in Ruhe!</TEXT>
+                <TEXT>~y~Sie:~s~ Beruhigen Sie sich. Ich erteile Ihnen hiermit eine rechtmäßige Anordnung: Stehen Sie auf und verlassen Sie den Bereich.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Ich habe nein gesagt! Lassen Sie mich in Ruhe!</TEXT>
+                <TEXT>~y~Sie:~s~ Tun Sie nichts, das Sie bereuen werden — hören Sie auf, sich zu widersetzen!</TEXT>
+            </FIGHT>
+        </TRESPASSING>
+        <FIREPLACE>
+            <INTRO>
+                <TEXT>~g~Sicherheitsmitarbeiter:~s~ Officer, danke, dass Sie gekommen sind. Wir haben wieder eine obdachlose Person auf dem Gelände.</TEXT>
+                <TEXT>~g~Sicherheitsmitarbeiter:~s~ Diesmal hat sie ein kleines Feuer gemacht, um sich warmzuhalten, direkt an der Gebäudewand.</TEXT>
+                <TEXT>~y~Sie:~s~ Das ist definitiv nicht sicher. Ist sonst noch jemand da oder nur er?</TEXT>
+                <TEXT>~g~Sicherheitsmitarbeiter:~s~ Nur er, aber der Rauch hat einen unserer Sensoren ausgelöst. Und er weigerte sich, zu gehen, als ich ihn bat.</TEXT>
+                <TEXT>~y~Sie:~s~ Verstanden. Ich spreche mit ihm und bringe die Lage unter Kontrolle.</TEXT>
+                <TEXT>~g~Sicherheitsmitarbeiter:~s~ Bitte tun Sie das. Er kann hier nicht bleiben, und das Feuer ist wirklich gefährlich.</TEXT>
+                <TEXT>~y~Sie:~s~ Ich verstehe. Ich sorge dafür, dass er das Feuer löscht und weitergeht.</TEXT>
+            </INTRO>
+            <COOPERATIVE>
+                <TEXT>~y~Sie:~s~ Hallo, der Herr. Ich brauche Sie, treten Sie bitte vom Feuer zurück.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Oh… Officer. Ich wollte mich nur warmhalten.</TEXT>
+                <TEXT>~y~Sie:~s~ Ich verstehe, aber das ist Privatgelände und das Feuer ist eine ernsthafte Gefahr.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Ja… tut mir leid. Wollte keinen Ärger verursachen.</TEXT>
+                <TEXT>~y~Sie:~s~ In Ordnung. Ich brauche nur, dass Sie das Feuer löschen und weitergehen.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Okay, okay. Ich gehe. Ich will keine Probleme.</TEXT>
+                <TEXT>~y~Sie:~s~ Gut. Passen Sie auf sich und bleiben Sie sicher.</TEXT>
+            </COOPERATIVE>
+            <NONCOMPLIANT>
+                <TEXT>~y~Sie:~s~ Entschuldigung, ich brauche Sie, löschen Sie das Feuer und treten Sie von dem Bereich zurück.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Warum? Ich tu doch niemandem weh. Ich brauchte nur Wärme.</TEXT>
+                <TEXT>~y~Sie:~s~ Das ist Privatgelände und Sie können hier nicht bleiben. Das Feuer ist außerdem gefährlich.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Es ist unter Kontrolle. Ich weiß, was ich tue.</TEXT>
+                <TEXT>~y~Sie:~s~ Das ändert nichts an der Lage. Sie müssen weiterziehen.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Ich sehe nicht ein, warum ich gehen soll. Es ist nur für eine Nacht.</TEXT>
+                <TEXT>~y~Sie:~s~ Ich erteile Ihnen eine rechtmäßige Anordnung. Machen Sie es nicht schwerer als nötig.</TEXT>
+            </NONCOMPLIANT>
+            <FIGHT>
+                <TEXT>~y~Sie:~s~ Polizei. Treten Sie vom Feuer zurück und reden Sie mit mir.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Verzieh dich… ich geh nirgendwohin!</TEXT>
+                <TEXT>~y~Sie:~s~ Das ist Privatgelände und das Feuer ist gefährlich. Löschen Sie es jetzt.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Ich halte mich nicht an Ihre Befehle! Lassen Sie mich in Ruhe!</TEXT>
+                <TEXT>~y~Sie:~s~ Beruhigen Sie sich. Ich versuche, das friedlich zu regeln.</TEXT>
+                <TEXT>~o~Obdachloser:~s~ Friedlich? Sie sind hier, um mich rauszuwerfen! Vergessen Sie es!</TEXT>
+                <TEXT>~y~Sie:~s~ Tun Sie das nicht. Nehmen Sie die Hände hoch — jetzt!</TEXT>
+            </FIGHT>
+        </FIREPLACE>
+    </SCENARIO>
+</CALLOUT>
