@@ -1,0 +1,103 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Verkehrsunfall</CALLOUTMESSAGE>
+    <TASK>Mehrere Anrufer melden mindestens ein fahruntüchtiges Fahrzeug, mögliche Verletzte.</TASK>
+    <SCENARIO>
+        <DRUNKHIGH>
+            <DRIVER>
+                <TEXT>~o~Fahrer:~s~ Hallo, was gehhhht denn hier ab…</TEXT>
+                <TEXT>~y~You:~s~ Hallo. Können Sie mir sagen, was passiert ist?</TEXT>
+                <TEXT>~o~Fahrer:~s~ Kein Plan, Mann… ich bin… ich bin einfach gefahren. Lichter, Quietschen — und dann waren wir hier. Mir geht’s gut, echt. Nur ein bisschen schwindlig.</TEXT>
+                <TEXT>~y~You:~s~ Haben Sie Alkohol getrunken oder etwas genommen?</TEXT>
+                <TEXT>~o~Fahrer:~s~ Ich will keinen Ärger machen — ja, ich hatte ein paar. Nur ein paar, ehrlich. Ich kann laufen, reden. Schlüssel? Äh — meine Tasche ist hinten. Tut mir leid, Officer, ich will niemandem was.</TEXT>
+                <TEXT>~y~You:~s~ Erinnern Sie sich an irgendetwas kurz vor dem Unfall?</TEXT>
+                <TEXT>~o~Fahrer:~s~ Ich — verschwommen. Kopf dreht. Da waren Scheinwerfer, dann Metall… Ich erinnere mich an das andere Auto — oh Gott, geht’s denen gut? Ich hab doch niemanden absichtlich gerammt.</TEXT>
+                <TEXT>~y~You:~s~ Bleiben Sie hier und bewegen Sie sich nicht. Ich sehe nach dem anderen Fahrer.</TEXT>
+                <TEXT>~o~Fahrer:~s~ Ja… bitte. Sagen Sie ihnen, es tut mir leid. Wirklich leid…</TEXT>
+            </DRIVER>
+            <DRIVER2>
+                <TEXT>~o~Fahrer2:~s~ …aua… wo… wo bin ich?</TEXT>
+                <TEXT>~y~You:~s~ Sie befinden sich an der Unfallstelle. Können Sie mir sagen, was passiert ist?</TEXT>
+                <TEXT>~o~Fahrer2:~s~ Ich… ich weiß es nicht mehr. Eben bin ich noch gefahren, dann — Schmerz. Mein Kopf fühlt sich benebelt an. Ich sehe kaum klar. Meine linke Schulter tut weh. Ich weiß nicht, wie es passiert ist.</TEXT>
+                <TEXT>~y~You:~s~ Wissen Sie, ob noch jemand beteiligt war? Ein anderes Fahrzeug oder eine Person?</TEXT>
+                <TEXT>~o~Fahrer2:~s~ Ich… ich habe einen lauten Schlag gehört. Es wurde gebremst… vielleicht ein anderes Fahrzeug. Ich weiß es nicht, tut mir leid. Können Sie einen Krankenwagen rufen? Es tut weh, mich zu bewegen.</TEXT>
+                <TEXT>~y~You:~s~ Hilfe ist unterwegs. Bleiben Sie ruhig und bewegen Sie sich so wenig wie möglich. Wie ist Ihr Name?</TEXT>
+                <TEXT>~o~Fahrer2:~s~ Ich heiße… bitte… lassen Sie mich nicht verbluten…</TEXT>
+            </DRIVER2>
+        </DRUNKHIGH>
+        <MEDICALEMERGENCY>
+            <DRIVER>
+                <TEXT>~o~Fahrer:~s~ Officer… i-ich fühl mich nicht gut…</TEXT>
+                <TEXT>~y~You:~s~ Beruhigen Sie sich. Was ist passiert?</TEXT>
+                <TEXT>~o~Fahrer:~s~ Ich bin gefahren… Brust fing an zu brennen… Sicht verschwommen… wollte noch ranfahren, aber… hab’s wohl nicht geschafft.</TEXT>
+                <TEXT>~y~You:~s~ Haben Sie sonst irgendwo Schmerzen?</TEXT>
+                <TEXT>~o~Fahrer:~s~ Nein… nur dieser Druck… als würde jemand auf meiner Brust sitzen… bitte, ich bekomme schlecht Luft.</TEXT>
+                <TEXT>~y~You:~s~ Der Rettungsdienst ist da, die kümmern sich um Sie. Bewegen Sie sich so wenig wie möglich.</TEXT>
+                <TEXT>~o~Fahrer:~s~ Danke… bitte… lassen Sie mich nicht wegdriften…</TEXT>
+            </DRIVER>
+            <MEDIC>
+                <TEXT>~r~Sanitäter:~s~ Officer, wir übernehmen den Patienten. Symptome deuten auf Herzprobleme. Wir brauchen Platz zum Arbeiten.</TEXT>
+                <TEXT>~y~You:~s~ Verstanden. Brauchen Sie etwas von mir?</TEXT>
+                <TEXT>~r~Sanitäter:~s~ Halten Sie den Verkehr zurück und geben Sie uns ein paar Minuten. Wir stabilisieren und transportieren dann.</TEXT>
+            </MEDIC>
+            <MEDIC2>
+                <TEXT>~r~Sanitäter2:~s~ Blutdruck niedrig, Puls unregelmäßig. Sauerstoff wird vorbereitet.</TEXT>
+                <TEXT>~y~You:~s~ Wird der Patient es schaffen?</TEXT>
+                <TEXT>~r~Sanitäter2:~s~ Noch zu früh zu sagen, aber wir haben’s unter Kontrolle. Danke für die schnelle Reaktion.</TEXT>
+            </MEDIC2> 
+        </MEDICALEMERGENCY>
+        <TIREBURST>
+            <DRIVER>
+                <TEXT>~o~Fahrer:~s~ Officer! Gott sei Dank, dass Sie da sind!</TEXT>
+                <TEXT>~y~You:~s~ Was ist passiert?</TEXT>
+                <TEXT>~o~Fahrer:~s~ Mein Vorderreifen ist einfach so explodiert! Auto zog zur Seite und ich hab die Kontrolle verloren.</TEXT>
+                <TEXT>~y~You:~s~ Gibt es Verletzte?</TEXT>
+                <TEXT>~o~Fahrer:~s~ Nur ein paar Kratzer, und ich bin durch den Schreck völlig durch. Ich dachte, das Auto überschlägt sich.</TEXT>
+                <TEXT>~y~You:~s~ Ich rufe einen Krankenwagen für Sie. Haben Sie etwas anderes getroffen?</TEXT>
+                <TEXT>~o~Fahrer:~s~ Ja, bin in die Leitplanke gerutscht und dagegen geprallt. Hab mich zu Tode erschreckt.</TEXT>
+                <TEXT>~y~You:~s~ Bleiben Sie hier, während ich das Fahrzeug überprüfe. Wir brauchen wahrscheinlich einen Abschleppwagen.</TEXT>
+            </DRIVER>
+        </TIREBURST>
+        <FLATTIRE>
+            <DRIVER>
+                <TEXT>~o~Fahrer:~s~ Officer, entschuldigen Sie das Chaos…</TEXT>
+                <TEXT>~y~You:~s~ Was ist das Problem?</TEXT>
+                <TEXT>~o~Fahrer:~s~ Vorderreifen ist während der Fahrt platt geworden. Das Auto fing an zu wackeln, ich hab stark gebremst und bin so zum Stehen gekommen.</TEXT>
+                <TEXT>~y~You:~s~ Gibt es Verletzte?</TEXT>
+                <TEXT>~o~Fahrer:~s~ Nein, nur genervt. Hätte schlimmer kommen können.</TEXT>
+                <TEXT>~y~You:~s~ Benötigen Sie Pannenhilfe?</TEXT>
+                <TEXT>~o~Fahrer:~s~ Ja… das wäre super. Ich hab keinen Ersatzreifen.</TEXT>
+            </DRIVER>
+        </FLATTIRE>
+        <POWERFAILURE>
+            <DRIVER>
+                <TEXT>~o~Fahrer:~s~ Dieser Stromausfall kam aus dem Nichts! Alles wurde plötzlich dunkel!</TEXT>
+                <TEXT>~y~You:~s~ Erzählen Sie mir, was passiert ist.</TEXT>
+                <TEXT>~o~Fahrer:~s~ Die Straßenbeleuchtung ist sofort ausgefallen. Ich konnte überhaupt nichts mehr sehen. Ich wollte bremsen, aber war schon zu nah am Bordstein.</TEXT>
+                <TEXT>~y~You:~s~ Hatte Ihr Auto elektrische Probleme?</TEXT>
+                <TEXT>~o~Fahrer:~s~ Ja, das Armaturenbrett hat kurz geflackert, bevor ich aufgeschlagen bin. Vielleicht hat die Stromspitze das Auto auch erwischt.</TEXT>
+                <TEXT>~y~You:~s~ In Ordnung, bleiben Sie hier. Ich sehe mich in der Umgebung um.</TEXT>
+                <TEXT>~o~Fahrer:~s~ Bitte tun Sie das. Es fühlt sich an, als wäre die ganze Stadt ausgeknipst worden.</TEXT>
+            </DRIVER>
+        </POWERFAILURE>
+        <SPEEDING>
+            <DRIVER>
+                <TEXT>~o~Fahrer:~s~ Officer, hören Sie — er hat viel zu stark gebremst! Ich konnte nicht mehr reagieren!</TEXT>
+                <TEXT>~y~You:~s~ Sind Sie zu schnell gefahren?</TEXT>
+                <TEXT>~o~Fahrer:~s~ Vielleicht ein bisschen… der Verkehr war leer, ich dachte, es geht klar.</TEXT>
+                <TEXT>~y~You:~s~ Wie schnell waren Sie?</TEXT>
+                <TEXT>~o~Fahrer:~s~ Ich… weiß nicht. Schneller als erlaubt, okay?</TEXT>
+                <TEXT>~y~You:~s~ Bleiben Sie hier, während ich mit dem anderen Fahrer spreche.</TEXT>
+                <TEXT>~o~Fahrer:~s~ Na toll… Tag komplett im Eimer.</TEXT>
+            </DRIVER>
+            <DRIVER2>
+                <TEXT>~o~Fahrer2:~s~ Officer! Er ist mit voller Geschwindigkeit hinter mir hergeflogen! Ich hab in den Spiegel geschaut und er war direkt hinter mir!</TEXT>
+                <TEXT>~y~You:~s~ Waren Sie ebenfalls zu schnell?</TEXT>
+                <TEXT>~o~Fahrer2:~s~ Ich bin im Verkehrsfluss geblieben! Er kam aus dem Nichts!</TEXT>
+                <TEXT>~y~You:~s~ Benötigen Sie medizinische Hilfe?</TEXT>
+                <TEXT>~o~Fahrer2:~s~ Nein, nur durchgeschüttelt. Aber er muss langsamer fahren, bevor er jemanden umbringt.</TEXT>
+                <TEXT>~y~You:~s~ Ich spreche mit ihm. Bleiben Sie hier.</TEXT>
+                <TEXT>~o~Fahrer2:~s~ Danke. Ich will einfach nur mein Auto heil lassen…</TEXT>
+            </DRIVER2>
+        </SPEEDING>
+    </SCENARIO>
+</CALLOUT>
