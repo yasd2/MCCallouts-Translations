@@ -1,102 +1,102 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Traffic Accident</CALLOUTMESSAGE>
-    <TASK>Multiple callers reporting at least one vehicle disabled, possible injuries.</TASK>
+    <CALLOUTMESSAGE>Dopravní nehoda</CALLOUTMESSAGE>
+    <TASK>Nekolik volajících hlásí alespon jedno nepojízdné vozidlo, mozné zranení.</TASK>
     <SCENARIO>
         <DRUNKHIGH>
             <DRIVER>
-                <TEXT>~o~Driver:~s~ Hello, what's going oooon...</TEXT>
-                <TEXT>~y~You:~s~ Hello, can you tell me what has happened?</TEXT>
-                <TEXT>~o~Driver:~s~ I dunno, man... I was… I was just drivin'. Lights, screech — next thing I know we're here. I'm fine, I'm fine, really. Just a little dizzy.</TEXT>
-                <TEXT>~y~You:~s~ Have you been drinking or taking anything?</TEXT>
-                <TEXT>~o~Driver:~s~ Look, I don't wanna make trouble — yeah, I had a few. It's just a couple, honest. I can walk, I can talk. Keys? Uh—my bag's in the back. Sorry, officer, I don't mean no harm.</TEXT>
-                <TEXT>~y~You:~s~ Do you remember what happened before the crash?</TEXT>
-                <TEXT>~o~Driver:~s~ I — blur. Head spins. There was headlights, then metal... I remember the other car — oh god, are they okay? I didn't hit nobody on purpose.</TEXT>
-                <TEXT>~y~You:~s~ Stay where you are. Don't move, I'm going to check on the other driver.</TEXT>
-                <TEXT>~o~Driver:~s~ Yeah... please. Tell 'em I'm sorry. Tell 'em I'm real sorry...</TEXT>
+                <TEXT>~o~Ridic:~s~ Ahoj, jak se más...</TEXT>
+                <TEXT>~y~Ty:~s~ Dobrý den, muzete mi ríct, co se stalo?</TEXT>
+                <TEXT>~o~Ridic:~s~ Nevím, chlape... Já jsem... Já jsem jen rídil. Svetla, skrípení brzd – a najednou jsme tady. Jsem v pohode, fakt. Jen se mi trochu tocí hlava.</TEXT>
+                <TEXT>~y~Ty:~s~ Pil jste nebo vzal jste si neco?</TEXT>
+                <TEXT>~o~Ridic:~s~ Hele, nechci delat potíze – jo, dal jsem si pár. Ale bylo jich fakt jen pár, vázne. Muzu chodit, muzu mluvit. Klíce? Ehm... moje taska je vzadu. Prominte, strázníku, nemám v úmyslu nikomu ublízit.</TEXT>
+                <TEXT>~y~Ty:~s~ Pamatujete si, co se stalo pred nehodou?</TEXT>
+                <TEXT>~o~Ridic:~s~ Já — rozmazaný obraz. Tocí se mi hlava. Byly tam svetla, pak kov... Pamatuji si to druhé auto — boze, jsou v porádku? Nechtel jsem nikoho srazit.</TEXT>
+                <TEXT>~y~Ty:~s~ Zustante, kde jste. Nehýbejte se, jdu zkontrolovat druhého ridice.</TEXT>
+                <TEXT>~o~Ridic:~s~ Jo... prosím. rekni jim, ze se omlouvám. rekni jim, ze se opravdu omlouvám...</TEXT>
             </DRIVER>
             <DRIVER2>
-                <TEXT>~o~Driver2:~s~ ...ow... where... where am I?</TEXT>
-                <TEXT>~y~You:~s~ You're at the scene of a collision. Can you tell me what happened?</TEXT>
-                <TEXT>~o~Driver2:~s~ I... I don't remember. One moment I was driving, then — pain. My head feels fuzzy. I can't really see clearly. My left shoulder hurts. I don't know how it happened.</TEXT>
-                <TEXT>~y~You:~s~ Do you know if anyone else was involved? Any other car or person?</TEXT>
-                <TEXT>~o~Driver2:~s~ I... I heard a loud sound. There was braking... maybe another vehicle. I can't tell, I'm sorry. Could you call an ambulance? It hurts to move.</TEXT>
-                <TEXT>~y~You:~s~ Help is on the way. Try to stay calm and still. Your name?</TEXT>
-                <TEXT>~o~Driver2:~s~ It's... Please... don't let me bleed out...</TEXT>
+                <TEXT>~o~Ridic2:~s~ ...au... kde... kde to jsem?</TEXT>
+                <TEXT>~y~Ty:~s~ Jste na míste nehody. Muzete mi ríct, co se stalo?</TEXT>
+                <TEXT>~o~Ridic2:~s~ Já... já si nevzpomínám. Jednu chvíli jsem rídil, a pak... bolest. Mám zamlzenou hlavu. Nevidím dobre. Bolí me levé rameno. Nevím, jak se to stalo.</TEXT>
+                <TEXT>~y~Ty:~s~ Víte, jestli v tom byl zapletený jeste nekdo dalsí? Nejaké jiné auto nebo osoba?</TEXT>
+                <TEXT>~o~Ridic2:~s~ Slysel jsem hlasitý zvuk. Nekdo brzdil... mozná jiné vozidlo. Nevím to jiste, omlouvám se. Muzete zavolat sanitku? Bolí me, kdyz se hýbu.</TEXT>
+                <TEXT>~y~Ty:~s~ Pomoc je na ceste. Zkuste zustat v klidu a nehýbat se. Jak se jmenujete?</TEXT>
+                <TEXT>~o~Ridic2:~s~ Je to... Prosím... nenechte me vykrvácet...</TEXT>
             </DRIVER2>
         </DRUNKHIGH>
         <MEDICALEMERGENCY>
             <DRIVER>
-                <TEXT>~o~Driver:~s~ Officer... I–I don’t feel good...</TEXT>
-                <TEXT>~y~You:~s~ Try to stay calm. What happened?</TEXT>
-                <TEXT>~o~Driver:~s~ I was driving... chest started burning... vision went blurry... I tried to pull over but... guess I didn’t make it.</TEXT>
-                <TEXT>~y~You:~s~ Are you hurt anywhere else?</TEXT>
-                <TEXT>~o~Driver:~s~ No... just this pressure... like someone’s sitting on my chest... please, I can’t breathe right.</TEXT>
-                <TEXT>~y~You:~s~ Medical is here, they’ll take care of you. Don’t move more than you have to.</TEXT>
-                <TEXT>~o~Driver:~s~ Thank you... just... don’t let me pass out.</TEXT>
+                <TEXT>~o~Ridic:~s~ Pane policisto... Necítím se dobre...</TEXT>
+                <TEXT>~y~Ty:~s~ Zkuste zustat v klidu. Co se stalo?</TEXT>
+                <TEXT>~o~Ridic:~s~ rídil jsem... zacalo me pálit na hrudi... rozmazalo se mi videní... Snazil jsem se zastavit, ale... asi se mi to nepovedlo.</TEXT>
+                <TEXT>~y~Ty:~s~ Más jeste nekde jinde bolesti?</TEXT>
+                <TEXT>~o~Ridic:~s~ Ne... jen ten tlak... jako by mi nekdo sedel na hrudi... prosím, nemuzu dýchat.</TEXT>
+                <TEXT>~y~Ty:~s~ Lékari jsou tady, postarají se o vás. Nepohybujte se víc, nez je nutné.</TEXT>
+                <TEXT>~o~Ridic:~s~ Dekuji... jen... nenechte me omdlít.</TEXT>
             </DRIVER>
             <MEDIC>
-                <TEXT>~r~Medic:~s~ Officer, we’ve got the patient. Symptoms look cardiac. We need space to work.</TEXT>
-                <TEXT>~y~You:~s~ Understood. Anything you need from me?</TEXT>
-                <TEXT>~r~Medic:~s~ Keep the traffic back and give us a few minutes. We’ll stabilize and transport.</TEXT>
+                <TEXT>~r~Zdravotnik:~s~ Pane policisto, máme tu pacienta. Príznaky vypadají na srdecní potíze. Potrebujeme prostor k práci.</TEXT>
+                <TEXT>~y~Ty:~s~ Rozumím. Potrebujete ode me neco?</TEXT>
+                <TEXT>~r~Zdravotnik:~s~ Zadrzte provoz a dejte nám pár minut. Stabilizujeme ho a prevezeme.</TEXT>
             </MEDIC>
             <MEDIC2>
-                <TEXT>~r~Medic2:~s~ BP is low, pulse irregular. Prepping oxygen.</TEXT>
-                <TEXT>~y~You:~s~ Is the patient going to be okay?</TEXT>
-                <TEXT>~r~Medic2:~s~ Too early to tell, but we’ve got it under control. Thanks for the quick response.</TEXT>
+                <TEXT>~r~Zdravotnik2:~s~ Nízký krevní tlak, nepravidelný puls. Pripravuji kyslík.</TEXT>
+                <TEXT>~y~Ty:~s~ Bude pacient v porádku?</TEXT>
+                <TEXT>~r~Zdravotnik2:~s~ Jeste je prílis brzy na to, abychom to mohli ríct, ale máme to pod kontrolou. Dekujeme za rychlou odpoved.</TEXT>
             </MEDIC2> 
         </MEDICALEMERGENCY>
         <TIREBURST>
             <DRIVER>
-                <TEXT>~o~Driver:~s~ Officer! Thank god you’re here!</TEXT>
-                <TEXT>~y~You:~s~ What happened?</TEXT>
-                <TEXT>~o~Driver:~s~ My front tire just exploded out of nowhere! Car jerked sideways and I lost control.</TEXT>
-                <TEXT>~y~You:~s~ Any injuries?</TEXT>
-                <TEXT>~o~Driver:~s~ Just a few scratches and a bit shaken. Thought the whole car was gonna flip.</TEXT>
-                <TEXT>~y~You:~s~ I will call an ambulance for you. Did you hit anything else?</TEXT>
-                <TEXT>~o~Driver:~s~ Yes, I skidded into the guardrail and hit it. Scared the hell out of me.</TEXT>
-                <TEXT>~y~You:~s~ Stay here while I check the vehicle. We might need a tow truck for it.</TEXT>
+                <TEXT>~o~Ridic:~s~ Pane policisto! Díky bohu, ze jste tady!</TEXT>
+                <TEXT>~y~Ty:~s~ Co se stalo?</TEXT>
+                <TEXT>~o~Ridic:~s~ Moje prední pneumatika najednou explodovala! Auto se prudce vychýlilo do strany a já ztratil kontrolu nad rízením.</TEXT>
+                <TEXT>~y~Ty:~s~ Nejaká zranení?</TEXT>
+                <TEXT>~o~Ridic:~s~ Jen pár skrábancu a trochu otresu. Myslel jsem, ze se celé auto prevrátí.</TEXT>
+                <TEXT>~y~Ty:~s~ Zavolám vám sanitku. Narazil jste jeste do neceho?</TEXT>
+                <TEXT>~o~Ridic:~s~ Ano, dostal jsem smyk a narazil do svodidel. Vydesilo me to k smrti.</TEXT>
+                <TEXT>~y~Ty:~s~ Zustante tady, zatímco zkontroluji vozidlo. Mozná budeme potrebovat odtahovku.</TEXT>
             </DRIVER>
         </TIREBURST>
         <FLATTIRE>
             <DRIVER>
-                <TEXT>~o~Driver:~s~ Officer, sorry for the mess…</TEXT>
-                <TEXT>~y~You:~s~ What seems to be the issue?</TEXT>
-                <TEXT>~o~Driver:~s~ Front tire went flat while I was driving. Car started wobbling, so I braked hard and ended up stopping like this.</TEXT>
-                <TEXT>~y~You:~s~ Anyone injured?</TEXT>
-                <TEXT>~o~Driver:~s~ No, just annoyed. Could’ve been worse though.</TEXT>
-                <TEXT>~y~You:~s~ Do you need roadside assistance?</TEXT>
-                <TEXT>~o~Driver:~s~ Yeah… that’d be great. I’ve got no spare.</TEXT>
+                <TEXT>~o~Ridic:~s~ Pane policisto, omlouvám se za ten neporádek...</TEXT>
+                <TEXT>~y~Ty:~s~ V cem je problém?</TEXT>
+                <TEXT>~o~Ridic:~s~ Pri jízde mi praskla prední pneumatika. Auto zacalo klopýtat, tak jsem prudce zabrzdil a skoncil jsem takhle.</TEXT>
+                <TEXT>~y~Ty:~s~ Nejaká zranení?</TEXT>
+                <TEXT>~o~Ridic:~s~ Ne, jen me to nastvalo. Mohlo to být ale horsí.</TEXT>
+                <TEXT>~y~Ty:~s~ Potrebujete pomoc na silnici?</TEXT>
+                <TEXT>~o~Ridic:~s~ Jo... to by bylo super. Nemám náhradní.</TEXT>
             </DRIVER>
         </FLATTIRE>
         <POWERFAILURE>
             <DRIVER>
-                <TEXT>~o~Driver:~s~ That blackout came out of nowhere! Everything went dark!</TEXT>
-                <TEXT>~y~You:~s~ Tell me what happened.</TEXT>
-                <TEXT>~o~Driver:~s~ Streetlights died instantly. Couldn’t see a damn thing ahead of me. I tried to brake but I was already too close to the curb.</TEXT>
-                <TEXT>~y~You:~s~ Any electrical issues with your car?</TEXT>
-                <TEXT>~o~Driver:~s~ Yeah, the dashboard flickered right before I hit. Maybe the power surge messed with the car too.</TEXT>
-                <TEXT>~y~You:~s~ Alright, stay put. I’ll check the area.</TEXT>
-                <TEXT>~o~Driver:~s~ Please do. Feels like the whole city just switched off.</TEXT>
+                <TEXT>~o~Ridic:~s~ Ten výpadek proudu prisel z niceho nic! Vsechno zhaslo!</TEXT>
+                <TEXT>~y~Ty:~s~ rekni mi, co se stalo.</TEXT>
+                <TEXT>~o~Ridic:~s~ Poulicní osvetlení okamzite zhaslo. Pred sebou jsem nevidel ani na krok. Snazil jsem se zabrzdit, ale uz jsem byl prílis blízko obrubníku.</TEXT>
+                <TEXT>~y~Ty:~s~ Máte nejaké problémy s elektrickým systémem vaseho auta?</TEXT>
+                <TEXT>~o~Ridic:~s~ Jo, tesne pred nárazem blikala palubní deska. Mozná ten výpadek proudu ovlivnil i auto.</TEXT>
+                <TEXT>~y~Ty:~s~ Dobre, zustante na míste. Prohlédnu okolí.</TEXT>
+                <TEXT>~o~Ridic:~s~ Prosím, udelejte to. Mám pocit, jako by se celé mesto najednou vypnulo.</TEXT>
             </DRIVER>
         </POWERFAILURE>
         <SPEEDING>
             <DRIVER>
-                <TEXT>~o~Driver:~s~ Officer, look — he braked way too hard! I had no time to react!</TEXT>
-                <TEXT>~y~You:~s~ Were you speeding?</TEXT>
-                <TEXT>~o~Driver:~s~ Maybe a little… traffic was light, I thought it was fine.</TEXT>
-                <TEXT>~y~You:~s~ How fast were you going?</TEXT>
-                <TEXT>~o~Driver:~s~ I… don’t know. Faster than I should’ve, okay?</TEXT>
-                <TEXT>~y~You:~s~ Stay here while I check the other driver.</TEXT>
-                <TEXT>~o~Driver:~s~ Just great… this day is ruined.</TEXT>
+                <TEXT>~o~Ridic:~s~ Pane policisto, podívejte se — on brzdil prílis prudce! Nemel jsem cas reagovat!</TEXT>
+                <TEXT>~y~Ty:~s~ Jel jste prílis rychle?</TEXT>
+                <TEXT>~o~Ridic:~s~ Mozná trochu... provoz byl slabý, myslel jsem, ze to je v porádku.</TEXT>
+                <TEXT>~y~Ty:~s~ Jak rychle jsi jel?</TEXT>
+                <TEXT>~o~Ridic:~s~ Já… nevím. Rychleji, nez jsem mel, jasné?</TEXT>
+                <TEXT>~y~Ty:~s~ Zustante tady, zatímco já zkontroluji druhého ridice.</TEXT>
+                <TEXT>~o~Ridic:~s~ Skvelé... tenhle den je v háji.</TEXT>
             </DRIVER>
             <DRIVER2>
-                <TEXT>~o~Driver2:~s~ Officer! He was flying behind me! I checked my mirror and he was right on me!</TEXT>
-                <TEXT>~y~You:~s~ Were you speeding as well?</TEXT>
-                <TEXT>~o~Driver2:~s~ I was keeping with traffic! He came out of nowhere!</TEXT>
-                <TEXT>~y~You:~s~ Do you need medical assistance?</TEXT>
-                <TEXT>~o~Driver2:~s~ No, just rattled. But he needs to slow down before he kills someone.</TEXT>
-                <TEXT>~y~You:~s~ I’ll talk to him. Stay here.</TEXT>
-                <TEXT>~o~Driver2:~s~ Thanks. I just want my car intact...</TEXT>
+                <TEXT>~o~Ridic2:~s~ Pane policisto! Letel za mnou! Podíval jsem se do zpetného zrcátka a byl prímo za mnou!</TEXT>
+                <TEXT>~y~Ty:~s~ Jel jste také prílis rychle?</TEXT>
+                <TEXT>~o~Ridic2:~s~ Jel jsem podle provozu! Objevil se z niceho nic!</TEXT>
+                <TEXT>~y~Ty:~s~ Potrebujete lékarskou pomoc?</TEXT>
+                <TEXT>~o~Ridic2:~s~ Ne, jen jsem vydesený. Ale musí zpomalit, nez nekoho zabije.</TEXT>
+                <TEXT>~y~Ty:~s~ Promluvím s ním. Zustan tady.</TEXT>
+                <TEXT>~o~Ridic2:~s~ Díky. Chci jen, aby moje auto zustalo neposkozené...</TEXT>
             </DRIVER2>
         </SPEEDING>
     </SCENARIO>
