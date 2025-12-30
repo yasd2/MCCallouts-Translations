@@ -1,114 +1,114 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Assault</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>One person injured, police and EMS on scene</CALLOUTADVISORY>
-    <TASK>An officer reported an assault. EMS is already on scene. Drive to the reported location.</TASK>
+    <CALLOUTMESSAGE>暴行事件</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>負傷者1名あり。警察および救急隊が現着済み。</CALLOUTADVISORY>
+    <TASK>警察官より暴行事件の報告あり。救急隊はすでに現場で活動中。報告された場所へ急行せよ。</TASK>
     <NOTIFICATIONS>
-        <TEXT>Search the area nearby for the suspect vehicle.{n}~o~Vehicle:~s~ {MODEL}{n}~o~Color:~s~ {COLOR}{n}~o~Suspect:~s~ {FIRSTNAME} {LASTNAME}</TEXT>
-        <TEXT>Search the nearby area for the suspect.{n}~o~Name:~s~ {FIRSTNAME} {LASTNAME}{n}~o~Warrant:~s~ Assault</TEXT>
-        <TEXT>An officer has pulled over a matching vehicle. Respond Code 3 as backup.</TEXT>
+        <TEXT>付近を捜索し、容疑車両を発見せよ。{n}~o~車両:~s~ {MODEL}{n}~o~色:~s~ {COLOR}{n}~o~容疑者:~s~ {FIRSTNAME} {LASTNAME}</TEXT>
+        <TEXT>付近を捜索し、容疑者を発見せよ。{n}~o~氏名:~s~ {FIRSTNAME} {LASTNAME}{n}~o~容疑:~s~ 暴行</TEXT>
+        <TEXT>警察官が特徴の一致する車両を停止させた。コード3で支援に向かえ。</TEXT>
     </NOTIFICATIONS>
     <DIALOGUES id="D_Officer">
-        <DIALOGUE>~b~Officer:~s~ Hello partner, great that you got here so quickly!</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ We received a call about an assault and I was the first on scene.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ As you can see, EMS is already treating the victim.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ You should probably talk to the paramedic first to get an update on the victim's condition.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ The victim doesn't look good, maybe he's responsive and can remember something.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ A witness has come forward too, I hope they can give some useful information about the incident.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ Good luck!</DIALOGUE>
+        <DIALOGUE>~b~警察官:~s~ よう相棒、こんなに早く来てくれて助かるよ！</DIALOGUE>
+        <DIALOGUE>~b~警察官:~s~ 暴行事件の通報が入ってな、俺が一番乗りだったんだ。</DIALOGUE>
+        <DIALOGUE>~b~警察官:~s~ 見ての通り、すでに救急隊が被害者の処置にあたっている。</DIALOGUE>
+        <DIALOGUE>~b~警察官:~s~ まずは救急隊員から、被害者の容態について話を聞いてみてくれ。</DIALOGUE>
+        <DIALOGUE>~b~警察官:~s~ 被害者の様子は良くないが、意識があれば何か覚えているかもしれない。</DIALOGUE>
+        <DIALOGUE>~b~警察官:~s~ 目撃者も名乗り出てくれている。事件について何か有益な情報が得られるといいんだが。</DIALOGUE>
+        <DIALOGUE>~b~警察官:~s~ 頼んだぞ！</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Paramedic_Witness">
-        <DIALOGUE>~r~Paramedic:~s~ Good day, glad to get support from you - it's definitely needed.</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ We have multiple lacerations and bruises here, possibly caused by a larger object.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Something like a knife, brass knuckles, or a glass bottle?</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ Yes, exactly. The patient is seriously injured and unresponsive. I'm stabilizing him now, then it's off to the hospital.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Doesn't look like I'll get any info from the victim, I'll let you do your job.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ I'll go talk to the witness next.</DIALOGUE>
+        <DIALOGUE>~r~救急隊員:~s~ どうも。応援に来てもらえてよかった、まさに人手が必要だったんです。</DIALOGUE>
+        <DIALOGUE>~r~救急隊員:~s~ 裂傷や打撲が複数あります。おそらく何か大きな凶器が使われたんでしょう。</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ ナイフやメリケンサック、あるいはガラス瓶のようなものか？</DIALOGUE>
+        <DIALOGUE>~r~救急隊員:~s~ ええ、まさにそんな感じです。患者は重傷で反応がありません。安定させ次第、病院へ搬送します。</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ 被害者から情報を聞き出すのは無理そうだな。君たちは処置を続けてくれ。</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ 次は目撃者に話を聞いてくる。</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Paramedic_VictimWitness">
-        <DIALOGUE>~r~Paramedic:~s~ Ah hello, I guess your colleague called for backup?</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ Glad you're here. The victim is doing okay under the circumstances.</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ He has a head wound, possibly caused by a punch or a light object.</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ The wound needs stitches, so I'll take him to the hospital shortly.</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ It's best if you ask your questions now while the memory is still fresh.</DIALOGUE>
+        <DIALOGUE>~r~救急隊員:~s~ ああ、こんにちは。同僚の方が応援を要請したんですね？</DIALOGUE>
+        <DIALOGUE>~r~救急隊員:~s~ 来てくれてよかった。状況のわりには、被害者は持ちこたえていますよ。</DIALOGUE>
+        <DIALOGUE>~r~救急隊員:~s~ 頭部に傷があります。殴られたか、軽い物体によるものでしょう。</DIALOGUE>
+        <DIALOGUE>~r~救急隊員:~s~ 傷口を縫う必要があるので、まもなく病院へ搬送します。</DIALOGUE>
+        <DIALOGUE>~r~救急隊員:~s~ 記憶が鮮明な今のうちに、質問しておいたほうがいいでしょう。</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Victim_VictimWitness">
-        <DIALOGUE>~o~Victim:~s~ Hello officer, please find the bastard who did this!</DIALOGUE>
-        <DIALOGUE>~o~Victim:~s~ I was walking around, just trying to shop for something.</DIALOGUE>
-        <DIALOGUE>~o~Victim:~s~ Suddenly, {FIRSTNAME} {LASTNAME} showed up - I know him from the bar.</DIALOGUE>
-        <DIALOGUE>~o~Victim:~s~ He started mouthing off at me and then hit me - I don't remember much after that.</DIALOGUE>
-        <DIALOGUE>~o~Victim:~s~ Unfortunately, I didn't see where they went. Ah, my head... it hurts. Damn!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ It's okay, just rest for now. We'll record your statement and start a search immediately.</DIALOGUE>
-        <DIALOGUE>~o~Victim:~s~ Look for {FIRSTNAME} {LASTNAME}, {GENDER}! They did this!</DIALOGUE>
+        <DIALOGUE>~o~被害者:~s~ お巡りさん、頼むよ、こんなことしやがった野郎を見つけてくれ！</DIALOGUE>
+        <DIALOGUE>~o~被害者:~s~ 辺りを歩いて、買い物をしようとしてただけなんだ。</DIALOGUE>
+        <DIALOGUE>~o~被害者:~s~ そしたらいきなり {FIRSTNAME} {LASTNAME} が現れたんだ……バーで見かけたことのある奴だ。</DIALOGUE>
+        <DIALOGUE>~o~被害者:~s~ 奴はいきなり因縁をつけてきて、俺を殴り始めた……その後のことはよく覚えてないんだ。</DIALOGUE>
+        <DIALOGUE>~o~被害者:~s~ どっちへ逃げたかは見えなかった。ああ、頭が……痛え。クソッ！</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ 大丈夫だ、今は安静にしていてくれ。供述はこちらで記録して、直ちに捜索を開始する。</DIALOGUE>
+        <DIALOGUE>~o~被害者:~s~ {FIRSTNAME} {LASTNAME} を探してくれ、{GENDER}だ！ 奴がやったんだ！</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Witness_Witness">
-        <DIALOGUE>~g~Witness:~s~ Hello officer, great you're here. I hope I can help identify the attacker.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ I saw them arguing, and suddenly one pushed the other and started hitting!</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ Pretty brutal if you ask me! No wonder an ambulance had to come.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ I heard one of them say the suspect's name: {LASTNAME}. The person was {GENDER}.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ It's sad how violence is increasing these days.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Thanks, that definitely helped.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Did you see where the suspect went?</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ They went off on foot. I can mark it on your GPS if you want!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Thanks again, we'll do our best to catch them!</DIALOGUE>
+        <DIALOGUE>~g~目撃者:~s~ お巡りさん、来てくれてよかった。犯人を特定する助けになればいいんですが。</DIALOGUE>
+        <DIALOGUE>~g~目撃者:~s~ 二人が口論しているのが見えて、そうしたらいきなり片方が突き飛ばして殴り始めたんです！</DIALOGUE>
+        <DIALOGUE>~g~目撃者:~s~ 実に野蛮な光景でしたよ！ 救急車が呼ばれるのも無理はありません。</DIALOGUE>
+        <DIALOGUE>~g~目撃者:~s~ 片方が、相手のことを {LASTNAME} と呼んでいるのが聞こえました。{GENDER}でした。</DIALOGUE>
+        <DIALOGUE>~g~目撃者:~s~ 最近は暴力沙汰が増えていて悲しい世の中ですね。</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ 協力感謝する。非常に助かった。</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ 容疑者がどこへ向かったか見えたか？</DIALOGUE>
+        <DIALOGUE>~g~目撃者:~s~ 徒歩で逃げていきました。よければお巡りさんのGPSに場所をマークしますよ！</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ 重ねて礼を言う。我々も全力を尽くして奴を捕まえるよ。</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Witness_VictimWitness">
-        <DIALOGUE>~y~You:~s~ Hello, I'm an officer from the local police department. Can you tell me what happened?</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ Hello, yes - I think I saw someone leaving the scene.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ I heard an argument and went toward the sound.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ I only saw someone bleeding on the ground, and another person walking away quickly.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ They ran off in that direction!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Can you describe the person?</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ Sadly not, I only saw them from a distance and stayed with the injured person.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ You did the right thing, thank you - you can see how badly they were hurt.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ We'll start a close-range search right away.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ Good luck! Catch that bastard!</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ こんにちは、市警の者だ。何があったか教えてもらえるか？</DIALOGUE>
+        <DIALOGUE>~g~目撃者:~s~ ええ、はい……誰かが現場から立ち去るのを見たと思います。</DIALOGUE>
+        <DIALOGUE>~g~目撃者:~s~ 言い争う声が聞こえて、その音の方へ行ってみたんです。</DIALOGUE>
+        <DIALOGUE>~g~目撃者:~s~ 私が見た時には、血を流して倒れている人と、早足で立ち去る別の人がいただけでした。</DIALOGUE>
+        <DIALOGUE>~g~目撃者:~s~ 犯人はあっちの方向へ走って逃げました！</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ その人物の特徴を説明できるか？</DIALOGUE>
+        <DIALOGUE>~g~目撃者:~s~ 残念ながら……遠くから見ただけですし、私は怪我人に付き添っていたので。</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ 君の行動は正しかったよ、ありがとう。見ての通り酷い怪我だ。</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ 直ちに近隣の捜索を開始する。</DIALOGUE>
+        <DIALOGUE>~g~目撃者:~s~ 頼みましたよ！ あの人でなしを捕まえてください！</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Witness_TrafficStop">
-        <DIALOGUE>~y~You:~s~ Good day, I'm an officer from the local police department.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ Hello, I want to help catch the suspect.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ I know them, they also live in town.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ Their name is {FIRSTNAME} {LASTNAME}!</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ They were holding something during the fight - I couldn't quite tell what it was.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ The asshole hit the victim several times, then drove off in a {MODEL}!</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ The car color was {COLOR}.</DIALOGUE>
-        <DIALOGUE>~g~Witness:~s~ I wrote down the license plate... {LICENSEPLATE}!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Thanks a lot! I'll keep a lookout for the vehicle. Have a great day!</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ こんにちは、市警の者だ。</DIALOGUE>
+        <DIALOGUE>~g~目撃者:~s~ こんにちは。犯人を捕まえる手伝いがしたいんです。</DIALOGUE>
+        <DIALOGUE>~g~目撃者:~s~ 私は奴を知ってます、同じ町に住んでいる奴ですから。</DIALOGUE>
+        <DIALOGUE>~g~目撃者:~s~ 名前は {FIRSTNAME} {LASTNAME} です！</DIALOGUE>
+        <DIALOGUE>~g~目撃者:~s~ 喧嘩の最中、何かを手に持っていました……それが何だったかまでは分かりませんでしたが。</DIALOGUE>
+        <DIALOGUE>~g~目撃者:~s~ あのクソ野郎、被害者を何度も殴って、それから {MODEL} で走り去ったんです！</DIALOGUE>
+        <DIALOGUE>~g~目撃者:~s~ 車の色は {COLOR} でした。</DIALOGUE>
+        <DIALOGUE>~g~目撃者:~s~ ナンバープレートを書き留めておきました…… {LICENSEPLATE} です！</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ 大いに助かる！ その車両を警戒しておくよ。よい一日を！</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_TrafficOfficer_1">
-        <DIALOGUE>~b~Officer:~s~ Hey partner! I pulled this one over, the car matches the description.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ I definitely wanted backup, that's why I called you.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ I'll take the passenger side - I've got your back in case they try anything stupid.</DIALOGUE>
-        <DIALOGUE>~b~Officer:~s~ Go ahead and double-check the vehicle details, just to be sure.</DIALOGUE>
+        <DIALOGUE>~b~警察官:~s~ おい相棒！ こいつを止めたぞ、手配車両と特徴が一致する。</DIALOGUE>
+        <DIALOGUE>~b~警察官:~s~ 応援が欲しかったからな、それで呼んだんだ。</DIALOGUE>
+        <DIALOGUE>~b~警察官:~s~ 俺は助手席側を見る。奴が妙なマネをしようとしたらカバーに入るから任せておけ。</DIALOGUE>
+        <DIALOGUE>~b~警察官:~s~ 念のため、車両情報を再確認してくれ。</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Suspect_Witness">
-        <DIALOGUE>~y~You:~s~ Stop right there! Police!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ Oh my God, you scared me. What do you want?</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ You're a suspect in a criminal case. Where were you a short while ago?</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ I... is this about the fight? Come on, it wasn't a big deal.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Just so you know, the victim is being transported to the hospital! They're seriously injured!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ Oh no... I didn't mean for that to happen. Damn, I'm so sorry...</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Hands where I can see them! You're under arrest!</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ そこで止まれ！ 警察だ！</DIALOGUE>
+        <DIALOGUE>~r~容疑者:~s~ うわっ、なんだよビックリするな……何のご用ですか？</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ ある刑事事件の容疑者として話を聞きたい。少し前、どこにいた？</DIALOGUE>
+        <DIALOGUE>~r~容疑者:~s~ 俺……もしかしてあの喧嘩のことか？ おいおい、あんなの大したことじゃないだろ。</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ 言っておくがな、被害者は病院へ搬送されたぞ！ 重傷なんだ！</DIALOGUE>
+        <DIALOGUE>~r~容疑者:~s~ まさか……そんなつもりじゃなかったんだ。クソッ、本当にすまない……。</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ 両手を見える位置に出せ！ お前を逮捕する！</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Suspect_VictimWitness">
-        <DIALOGUE>~y~You:~s~ Police! Please come with me, I've got a few questions for you.</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ What do you want from me? Leave me alone!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Listen, we can do this the easy way or the hard way.</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ You can't prove anything. I didn't do anything! Nothing at all!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ You match the description of a suspect. Where were you an hour ago?</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ I... was at the library, yes exactly! I read and enjoy the peace away from you pigs!</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ 警察だ！ 署まで同行してもらう、いくつか質問がある。</DIALOGUE>
+        <DIALOGUE>~r~容疑者:~s~ 俺に何の用だ？ ほっといてくれよ！</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ いいか、大人しく従うか、手荒な真似をされるか、選ぶのはお前だぞ。</DIALOGUE>
+        <DIALOGUE>~r~容疑者:~s~ 証拠なんてないだろ。俺は何もしてない！ 何一つやってないぞ！</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ お前は手配中の容疑者の特徴と一致している。一時間前はどこにいた？</DIALOGUE>
+        <DIALOGUE>~r~容疑者:~s~ 俺は……図書館にいたんだよ、そう、その通りだ！ 本を読んでたのさ、お前らのようなポリ公がいない平和な場所でな！</DIALOGUE>
     </DIALOGUES>
     <DIALOGUES id="D_Suspect_TrafficStop">
-        <DIALOGUE>~y~You:~s~ Good day, I'm a traffic officer from the local department. License and vehicle documents, please.</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ Is there a reason for this stop? My documents are all valid!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Where are you coming from?</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ I was just shopping, a few small things, why?</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Were you in an argument recently? Friend, coworker or similar? We got a report.</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ Yes, I had a small argument, just words, a little shoving.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Did you do more than just shove? A witness reported something different.</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ I don't know what you mean!! Go ahead and arrest me then!</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ こんにちは、交通課です。免許証と車検証を提示してください。</DIALOGUE>
+        <DIALOGUE>~r~容疑者:~s~ 止められた理由は何です？ 書類なら全部有効なはずですが！</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ どちらから来られましたか？</DIALOGUE>
+        <DIALOGUE>~r~容疑者:~s~ ちょっと買い物をしていただけですよ、小物をいくつか。それが何か？</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ ついさっき、誰かと言い争いになりませんでしたか？ 友人や同僚とか。通報が入ってるんですが。</DIALOGUE>
+        <DIALOGUE>~r~容疑者:~s~ ああ、ちょっとした口論ならありましたよ。ただの口喧嘩です、少し小突いたくらいで。</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ 本当に小突いた程度ですか？ 目撃者の証言とは食い違っていますが。</DIALOGUE>
+        <DIALOGUE>~r~容疑者:~s~ 何が言いたいのか分かりませんね！！ だったら逮捕でも何でもすればいいでしょ！</DIALOGUE>
     </DIALOGUES>
     <END>
-        <TEXT>Dispatch, show us Code 4. Returning to patrol.</TEXT>
-        <TEXT>We're Code 4 here. Dispatch, no further assistance needed.</TEXT>
+        <TEXT>司令部、こちらコード4。パトロールに戻る。</TEXT>
+        <TEXT>現場はコード4。司令部、これ以上の支援は不要。</TEXT>
     </END>
 </CALLOUT>

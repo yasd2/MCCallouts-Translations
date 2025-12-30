@@ -1,31 +1,31 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Emergency Blood Transport</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>A patient requires blood urgently</CALLOUTADVISORY>
-    <TASK>Drive to the location.</TASK>
+    <CALLOUTMESSAGE>緊急血液輸送</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>患者が至急輸血を必要としています</CALLOUTADVISORY>
+    <TASK>指定された場所へ向かってください。</TASK>
     <STATE>
         <PICKUPBAG>
-            <TEXT>Take the blood bag from the medic, then put it in your trunk.</TEXT>
+            <TEXT>救急隊員から血液バッグを受け取り、車両のトランクに入れてください。</TEXT>
             <TEXT></TEXT>
         </PICKUPBAG>
         <PUTBAGINTRUNK>
-            <TEXT>Press ~y~{Y}~s~ to put the blood bag in the trunk.</TEXT>
+            <TEXT>~y~{Y}~s~ を押して血液バッグをトランクに納めてください。</TEXT>
             <TEXT></TEXT>
         </PUTBAGINTRUNK>
         <DRIVETODESTINATIONHOSPITAL>
-            <TEXT>Now drive to the hospital, they are already awaiting your delivery.</TEXT>
+            <TEXT>病院へ急行してください。現地で到着を待っています。</TEXT>
             <TEXT></TEXT>
         </DRIVETODESTINATIONHOSPITAL>
         <GRABFROMTRUNK>
-            <TEXT>Grab the ~r~blood bag~s~ with ~y~{Y}~s~ from the trunk.</TEXT>
+            <TEXT>トランクで ~y~{Y}~s~ を押し、~r~血液バッグ~s~を取り出してください。</TEXT>
             <TEXT></TEXT>
         </GRABFROMTRUNK>
         <GIVEBAGTODOC>
-            <TEXT>Now bring the bag to the doctor!</TEXT>
+            <TEXT>医師に血液バッグを届けてください！</TEXT>
             <TEXT></TEXT>
         </GIVEBAGTODOC>
         <AUTOEND>
-            <TEXT>You have ~g~successfully~s~ delivered the ~r~blood bag!</TEXT>
-            <TEXT>{CalloutMessage} has ended.</TEXT>
+            <TEXT>~r~血液バッグ~s~の届出に ~g~成功~s~ しました！</TEXT>
+            <TEXT>{CalloutMessage} が終了しました。</TEXT>
         </AUTOEND>
     </STATE>
 </CALLOUT>

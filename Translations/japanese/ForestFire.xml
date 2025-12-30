@@ -1,14 +1,14 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Forest Fire</CALLOUTMESSAGE>
-    <TASK>Citizens reported a big fire in the forests of {ZONE}.</TASK>
+    <CALLOUTMESSAGE>森林火災</CALLOUTMESSAGE>
+    <TASK>住民は{ZONE}の森林で大きな火災が発生したと通報した。</TASK>
     <DIFFICULTY>
-        <TEXT>Difficulty:</TEXT>
-        <TEXT>~y~MEDIUM</TEXT>
-        <TEXT>~r~HARD</TEXT>
+        <TEXT>難易度:</TEXT>
+        <TEXT>~y~ミディアム</TEXT>
+        <TEXT>~r~ハード</TEXT>
     </DIFFICULTY>
     <END>
-        <TEXT>The fire is out, good job!</TEXT>
-        <TEXT>You have extinguished {PERCENTAGE} %.</TEXT>
-        <TEXT>All fires have been extinguished. Great job!</TEXT>
+        <TEXT>火は消えました、よくやった！</TEXT>
+        <TEXT>現在消火済み： {PERCENTAGE}%</TEXT>
+        <TEXT>すべての火が消し止められました。よくやった！</TEXT>
     </END>
 </CALLOUT>

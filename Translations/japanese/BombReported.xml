@@ -1,65 +1,65 @@
 <BombReported>
 
     <General>
-        <Text>Possible bomb reported</Text>
-        <Text>Search for a potential bomb thread, ~r~Code 3~s~.</Text>
-        <Text>Press {Y} to evacuate the citizens!</Text>
-        <Text>Search for the bomb in the ~y~area~s~.</Text>
-        <Text>HINT: Press {Y} to call the bomb specialist.</Text>
-        <Text>No bomb found, the area is clear.</Text>
-        <Text>Bomb disarmed! Good job!</Text>
-        <Text>~g~Green~s~ wire cut!</Text>
-        <Text>~y~Yellow~s~ wire cut!</Text>
-        <Text>~b~Blue~s~ wire cut!</Text>
-        <Text>Shit, you have cut the wrong wire! Run, the bomb will explode!</Text>
+        <Text>爆弾設置の疑い</Text>
+        <Text>爆弾の脅威を捜索せよ。緊急走行（~r~コード3~s~）で向かえ。</Text>
+        <Text>{Y} を押して市民を避難させてください！</Text>
+        <Text>~y~指定エリア内~s~で爆弾を捜索してください。</Text>
+        <Text>ヒント: {Y} を押して爆発物処理班を呼んでください。</Text>
+        <Text>爆弾は見つかりませんでした。エリアの安全を確認。</Text>
+        <Text>爆弾の解除に成功！よくやった！</Text>
+        <Text>~g~緑~s~の配線を切断しました！</Text>
+        <Text>~y~黄色~s~の配線を切断しました！</Text>
+        <Text>~b~青~s~の配線を切断しました！</Text>
+        <Text>くそっ、線を間違えたぞ！逃げろ、爆発する！</Text>
     </General>
 
     <Persons>
-        <Text>You</Text>
-        <Text>Specialist</Text>
-        <Text>Officer</Text>
+        <Text>あなた</Text>
+        <Text>爆発物スペシャリスト</Text>
+        <Text>現場警察官</Text>
     </Persons>
 
     <Officer>
-        <Dialogue>Hi! Thanks for coming out!</Dialogue>
-        <Dialogue>We have a big scene going on! A report about a possible bomb came in!</Dialogue>
-        <Dialogue>We took it very seriously and blocked off the scene.</Dialogue>
-        <Dialogue>When we're done talking, evacuate everybody on the scene, then search for a bomb! Good luck!</Dialogue>
+        <Dialogue>お疲れ様です！来てくれて助かります！</Dialogue>
+        <Dialogue>大変な状況です！爆弾が仕掛けられた可能性があるとの通報が入りました！</Dialogue>
+        <Dialogue>我々も事態を重く見て、すでに現場を封鎖しています。</Dialogue>
+        <Dialogue>話が終わったら、現場の全員を避難させてから爆弾を捜索してください！健闘を祈ります！</Dialogue>
     </Officer>
 
     <Evacuate>
-        <Dialogue>Hey, please leave the scene immediately! We might have a bomb here!</Dialogue>
-        <Dialogue>Hey you, we have a bomb thread, get a safe distance!</Dialogue>
-        <Dialogue>This area need to be evacuated immediately! Hurry up!</Dialogue>
+        <Dialogue>おい、すぐにここから離れてくれ！爆弾があるかもしれないんだ！</Dialogue>
+        <Dialogue>そこの君、爆破予告が出ている。安全な距離まで下がってくれ！</Dialogue>
+        <Dialogue>このエリアは直ちに避難が必要だ！急いでくれ！</Dialogue>
         <Dialogue></Dialogue>
     </Evacuate>
 
     <SpecialistGeneral>
-        <Dialogue>Hello? Have you found the bomb?</Dialogue>
-        <Dialogue>Yes, I think so. It's right in front of me.</Dialogue>
-        <Dialogue>Alright, let me think. It has some kind of fancy control.</Dialogue>
-        <Dialogue>Hmm... okay... damn... what the... ? Ah, I got it.</Dialogue>
-        <Dialogue>Then... hm... oh no... ah, ok...</Dialogue>
-        <Dialogue>Awesome, I'm still alive! The bomb seems to be disarmed. Good job and thank you!</Dialogue>
-        <Dialogue>You're welcome, bye.</Dialogue>
+        <Dialogue>もしもし？爆弾は見つかったか？</Dialogue>
+        <Dialogue>ああ、そのようだ。目の前にある。</Dialogue>
+        <Dialogue>よし、考えさせてくれ。凝った制御装置が付いてるな……。</Dialogue>
+        <Dialogue>ふーむ……なるほど……おいおい、何だこれは……？ああ、わかったぞ。</Dialogue>
+        <Dialogue>それから……ええと……嘘だろ……あ、いや、いいんだ……。</Dialogue>
+        <Dialogue>最高だ、まだ生きてるぞ！爆弾は解除されたようだ。いい仕事だったな、感謝するよ！</Dialogue>
+        <Dialogue>どういたしまして。それでは。</Dialogue>
     </SpecialistGeneral>
 
     <SpecialistGYB>
-        <Dialogue>First cut the green wire.</Dialogue>
-        <Dialogue>Now cut the yellow wire.</Dialogue>
-        <Dialogue>Ok, if it hasn't exploded yet, cut the remaining blue wire.</Dialogue>
+        <Dialogue>まず緑の配線を切れ。</Dialogue>
+        <Dialogue>次に黄色の配線を切れ。</Dialogue>
+        <Dialogue>よし、まだ爆発してなきゃ、残った青の配線を切れ。</Dialogue>
     </SpecialistGYB>
 
     <SpecialistBYG>
-        <Dialogue>First cut the blue wire.</Dialogue>
-        <Dialogue>Now cut the yellow wire.</Dialogue>
-        <Dialogue>Ok, if it hasn't exploded yet, cut the remaining green wire.</Dialogue>
+        <Dialogue>まず青の配線を切れ。</Dialogue>
+        <Dialogue>次に黄色の配線を切れ。</Dialogue>
+        <Dialogue>よし、まだ爆発してなきゃ、残った緑の配線を切れ。</Dialogue>
     </SpecialistBYG>
 
     <SpecialistGBY>
-        <Dialogue>First cut the green wire.</Dialogue>
-        <Dialogue>Now cut the blue wire.</Dialogue>
-        <Dialogue>Ok, if it hasn't exploded yet, cut the remaining yellow wire.</Dialogue>
+        <Dialogue>まず緑の配線を切れ。</Dialogue>
+        <Dialogue>次に青の配線を切れ。</Dialogue>
+        <Dialogue>よし、まだ爆発してなきゃ、残った黄色の配線を切れ。</Dialogue>
     </SpecialistGBY>
 
 </BombReported>
