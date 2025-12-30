@@ -1,56 +1,56 @@
 <DrugsOnBoat>
 
     <General>
-        <Text>Known drug transport ship spotted</Text>
-        <Text>Check for possible drugs on board</Text>
-        <Text>HINT: Search the boat for drugs</Text>
-        <Text>Dispatch, I couldn't find any drugs, I will talk to the ship owner again.</Text>
-        <Text>Copy that.</Text>
-        <Text>We've received ~o~anonymous tips~s~ on locations.</Text>
-        <Text>Dispatch, got one foot pursuit!</Text>
-        <Text>Dispatch, shots fired!</Text>
-        <Text>You are on the way to a ship to search for illegal drugs.</Text>
-        <Text>Press {Y} to pick up evidence.</Text>
-        <Text>Confront the ship owner or keep searching.</Text>
-        <Text>~g~All evidence found</Text>
-        <Text>Drugs found:</Text>
+        <Text>薬物輸送の疑いがある船を発見</Text>
+        <Text>船内に薬物がないか確認してください</Text>
+        <Text>ヒント: 船内を捜索して薬物を見つけてください</Text>
+        <Text>指令部、薬物は発見できなかった。再度、船主から話を聞く。</Text>
+        <Text>了解した。</Text>
+        <Text>場所に関する ~o~匿名通報~s~ を受信しました。</Text>
+        <Text>指令部、これより徒歩で追跡する！</Text>
+        <Text>指令部、発砲を確認！</Text>
+        <Text>不法薬物を捜索するため、対象の船へ向かっています。</Text>
+        <Text>{Y} を押して証拠品を回収してください。</Text>
+        <Text>船主に詰め寄るか、捜索を続行してください。</Text>
+        <Text>~g~すべての証拠品を発見</Text>
+        <Text>発見された薬物:</Text>
     </General>
 
 
     <Persons>
-        <Text>Owner</Text>
-        <Text>You</Text>
+        <Text>船主</Text>
+        <Text>あなた</Text>
     </Persons>
 
 
     <D_Owner_Arrive>
-        <Dialogue>Hello sir, we have a search warrant for this boat.</Dialogue>
-        <Dialogue>Go to hell, you're not searching my boat!</Dialogue>
-        <Dialogue>Move aside, you can ask my deputies down there for the written warrant.</Dialogue>
+        <Dialogue>失礼、このボートに対する捜査令状が出ています。</Dialogue>
+        <Dialogue>地獄へ落ちな、俺の船を捜索させたりはしないぞ！</Dialogue>
+        <Dialogue>そこをどいてください。書面の令状が必要なら、あそこにいる私の部下に聞いてください。</Dialogue>
     </D_Owner_Arrive>
 
 
     <D_Owner_NoDrugs>
-        <Dialogue>Alright, I am finished searching your ship, you are good to go!</Dialogue>
-        <Dialogue>This took some time, but time is money! I need to hurry up now.</Dialogue>
-        <Dialogue>I'm just doing my job, anyways have a good trip!</Dialogue>
+        <Dialogue>よし、船内の捜索を終了します。もう行っていいですよ！</Dialogue>
+        <Dialogue>手間取らせやがって。時間は金なんだ！急がなきゃならねえ。</Dialogue>
+        <Dialogue>私は職務を全うしたまでです。ともかく、良い旅を！</Dialogue>
     </D_Owner_NoDrugs>
 
 
     <D_Owner_Surrender>
-        <Dialogue>Sir, I found multiple drugs on this ship, can you explain this?</Dialogue>
-        <Dialogue>... I mean ... sh*t, you got me anyways. Yeah, they are mine.</Dialogue>
-        <Dialogue>I won't resist, I tried to sell those, you can arrest me.</Dialogue>
+        <Dialogue>船主、船内から複数の薬物が発見されました。説明していただけますか？</Dialogue>
+        <Dialogue>……クソッ、結局バレちまったか。ああ、俺の持ち物だ。</Dialogue>
+        <Dialogue>抵抗はしない。それを売ろうとしてたんだ、逮捕してくれ。</Dialogue>
     </D_Owner_Surrender>
 
 
     <D_Owner_Pursuit_Shooting>
-        <Dialogue>Sir, I found multiple drugs on this ship, can you explain this?</Dialogue>
+        <Dialogue>船主、船内から複数の薬物が発見されました。説明していただけますか？</Dialogue>
     </D_Owner_Pursuit_Shooting>
 
 
     <End>
-        <Text>Callout is Code 4.</Text>
+        <Text>コールアウトはコード4です。</Text>
     </End>
 
 </DrugsOnBoat>

@@ -1,67 +1,67 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Escaped Prisoner</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>A prison bus crashed at {Zone}, an inmate escaped</CALLOUTADVISORY>
-    <TASK>A prisoner escaped recently. Drive to the last reported area.</TASK>
+    <CALLOUTMESSAGE>脱走囚</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>{Zone} で護送バスが横転、囚人が脱走しました</CALLOUTADVISORY>
+    <TASK>囚人が脱走しました。最後に目撃されたエリアへ向かってください。</TASK>
     <DIALOGUE0>
-        <DIALOGUE>~y~You:~s~ Hello sir, what happened here?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Hi! I was attacked! The prisoner—he just snapped!</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ He assaulted me while I was watching the traffic. I flipped the bus accidentally, then he jumped out of the bus.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ He’s on foot now, ran off into the woods wearing his orange jumpsuit!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Do you have any idea where he might be headed?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Last I saw, he was headed north, past that ridge over there.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ He might try to steal a car, or hide somewhere.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Be careful—he’s dangerous and desperate!</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Oh my god, he took my gun, too! I can't find it!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Alright. I’ll find him.</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ 大丈夫ですか、何があったんですか？</DIALOGUE>
+        <DIALOGUE>~o~刑務官:~s~ 助かった！襲われたんだ！囚人の奴が——急に暴れ出して！</DIALOGUE>
+        <DIALOGUE>~o~刑務官:~s~ 交通状況を確認していたら襲撃された。弾みでバスが横転して、その隙に外へ飛び出していったんだ。</DIALOGUE>
+        <DIALOGUE>~o~刑務官:~s~ オレンジ色の囚人服を着たまま、あっちの森の方へ走っていったぞ！</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ どこに向かったか心当たりはありますか？</DIALOGUE>
+        <DIALOGUE>~o~刑務官:~s~ 最後に見た時は、あそこの尾根を越えて北へ向かっていた。</DIALOGUE>
+        <DIALOGUE>~o~刑務官:~s~ 車を盗むか、どこかに潜伏するつもりかもしれない。</DIALOGUE>
+        <DIALOGUE>~o~刑務官:~s~ 気をつけてくれ。奴は自暴自棄になっていて危険だ！</DIALOGUE>
+        <DIALOGUE>~o~刑務官:~s~ ああ、なんてことだ……私の銃も奪われた！どこにもないんだ！</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ わかりました。私が捕まえます。</DIALOGUE>
     </DIALOGUE0>
     <DIALOGUE1>
-        <DIALOGUE>~y~You:~s~ Sir, are you alright? What’s going on here?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ That inmate lost it! He attacked me out of nowhere!</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ I was checking directions on my tablet, and he took the chance to overpower me. The bus rolled when I tried to stop him.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ He bolted as soon as we crashed—ran straight into the woods in full orange.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Which way did he go?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Northbound, over that hill. He was fast, too!</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ If he finds a car or a hiding spot, we might lose him.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Watch out, officer—he's not thinking straight.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Damn it, I just realized… he took my service weapon!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Got it. I’m going after him now.</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ 無事ですか？状況を教えてください。</DIALOGUE>
+        <DIALOGUE>~o~刑務官:~s~ あの囚人の野郎、正気じゃねえ！いきなり襲いかかってきやがった！</DIALOGUE>
+        <DIALOGUE>~o~刑務官:~s~ タブレットで道を確認していたら、隙を突いて組み伏せられたんだ。止めようとした時にバスが横転した。</DIALOGUE>
+        <DIALOGUE>~o~刑務官:~s~ 衝突した直後に逃げ出しやがった。オレンジの服のまま、森へ一直線だ。</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ どっちの方向へ？</DIALOGUE>
+        <DIALOGUE>~o~刑務官:~s~ 北だ、あの丘を越えていった。かなりの速さだったぞ！</DIALOGUE>
+        <DIALOGUE>~o~刑務官:~s~ 車を見つけるか隠れ場所を確保されたら、見失うかもしれない。</DIALOGUE>
+        <DIALOGUE>~o~刑務官:~s~ 警戒しろ、巡査。奴は何をしでかすかわからないぞ。</DIALOGUE>
+        <DIALOGUE>~o~刑務官:~s~ クソッ、今気づいたが……私の職務用拳銃を持って行かれた！</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ 了解。今すぐ追います。</DIALOGUE>
     </DIALOGUE1>
     <DIALOGUE2>
-        <DIALOGUE>~y~You:~s~ What happened? Are you injured?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ No serious injuries, but it was close. The inmate flipped—he ambushed me!</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ I lost control of the transport vehicle during the struggle. He forced the door open and made a run for it.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Last I saw him, he was heading for the tree line. Still in the jumpsuit.</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Any clue where he might be going?</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Could be trying to reach the main road or find a hiding place nearby.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ He’s unpredictable, and probably armed now.</DIALOGUE>
-        <DIALOGUE>~o~Prison Guard:~s~ Damn… my firearm’s missing. He must’ve grabbed it in the chaos!</DIALOGUE>
-        <DIALOGUE>~y~You:~s~ Understood. I’ll track him down.</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ 何があったんですか？怪我は？</DIALOGUE>
+        <DIALOGUE>~o~刑務官:~s~ 怪我はないが、危ないところだった。囚人が豹変して——待ち伏せされたんだ！</DIALOGUE>
+        <DIALOGUE>~o~刑務官:~s~ もみ合っている間に護送車のハンドルを取られた。奴はドアをこじ開けて逃げたよ。</DIALOGUE>
+        <DIALOGUE>~o~刑務官:~s~ 最後に見たのは、林の方へ向かっていく姿だ。まだ囚人服を着ていた。</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ どこへ向かうつもりか分かりますか？</DIALOGUE>
+        <DIALOGUE>~o~刑務官:~s~ 本道に出るか、近くに隠れる場所を探しているんだろう。</DIALOGUE>
+        <DIALOGUE>~o~刑務官:~s~ 予測不能な奴だ。それに今は恐らく武器を持っている。</DIALOGUE>
+        <DIALOGUE>~o~刑務官:~s~ 畜生……私の銃がない。混乱に乗じて奪ったに違いない！</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ 承知しました。追跡を開始します。</DIALOGUE>
     </DIALOGUE2>
     <SEARCH>
-        <TEXT>Suspect description:~n~</TEXT>
-        <TEXT>~r~Name:~s~ {Name}~n~</TEXT>
-        <TEXT>~r~Age:~s~ {Age}~n~</TEXT>
-        <TEXT>~r~Gender:~s~ {Gender}</TEXT>
-        <TEXT>Press ~{Y}~ anytime to view the info again.</TEXT>
-        <TEXT>Talk to the Prison Guard with ~{Y}~</TEXT>
+        <TEXT>容疑者の特徴:~n~</TEXT>
+        <TEXT>~r~氏名:~s~ {Name}~n~</TEXT>
+        <TEXT>~r~年齢:~s~ {Age}~n~</TEXT>
+        <TEXT>~r~性別:~s~ {Gender}</TEXT>
+        <TEXT>~y~{Y}~s~ を押せばいつでも情報を再確認できます。</TEXT>
+        <TEXT>~y~{Y}~s~ を押して刑務官と話してください</TEXT>
     </SEARCH>
     <ATTEMPTEDROBBERY>
-        <TEXT>We received a report of a Mugging nearby! Respond Code 3!</TEXT>
-        <TEXT>"~g~Victim:~s~ Officer, the robber just fled! He’s wearing an orange overall!!"</TEXT>
-        <TEXT>"~g~Victim:~s~ Help! That guy just escaped custody! He’s in an orange jumpsuit!"</TEXT>
-        <TEXT>"~g~Victim:~s~ Officer! I saw him running—orange prison uniform, heading that way!"</TEXT>
+        <TEXT>近隣で強盗が発生！コード3で臨場せよ！</TEXT>
+        <TEXT>"~g~被害者:~s~ お巡りさん、強盗が今逃げたところです！オレンジ色のオーバーオールを着ていました！"</TEXT>
+        <TEXT>"~g~被害者:~s~ 助けて！あの男、逃走中の囚人です！オレンジのジャンプスーツを着ていました！"</TEXT>
+        <TEXT>"~g~被害者:~s~ お巡りさん！逃げていくのを見ました——オレンジ色の囚人服で、あっちの方へ！"</TEXT>
     </ATTEMPTEDROBBERY>
-    <AUTOSTEHLEN>A carcacking report came in! Respond Code 3!</AUTOSTEHLEN>
-    <END> <!--Leave the space at the end of each element-->
-        <TEXT>Suspect was put behind bars! </TEXT>
-        <TEXT>The Suspect died. </TEXT>
-        <TEXT>~g~Go back to patrol.</TEXT>
+    <AUTOSTEHLEN>車両窃盗の報告あり！コード3で臨場せよ！</AUTOSTEHLEN>
+    <END> 
+        <TEXT>容疑者を投獄しました！ </TEXT>
+        <TEXT>容疑者が死亡しました。 </TEXT>
+        <TEXT>~g~パトロールに戻ってください。</TEXT>
     </END>
     <ACTION>
-        <DIALOGUE>~r~Suspect:~s~ Don't shoot! I surrender!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ Try to catch me, motherfuckers!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ You wanna fight?! Let's go!!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ Shoot me you idiots!</DIALOGUE>
-        <DIALOGUE>~r~Suspect:~s~ I will kill all of you pigs!</DIALOGUE>
+        <DIALOGUE>~r~容疑者:~s~ 撃たないでくれ！降参する！</DIALOGUE>
+        <DIALOGUE>~r~容疑者:~s~ 捕まえられるもんならやってみろ、マヌケども！</DIALOGUE>
+        <DIALOGUE>~r~容疑者:~s~ やる気か？！かかってこい！！</DIALOGUE>
+        <DIALOGUE>~r~容疑者:~s~ ほら撃てよ、バカどもが！</DIALOGUE>
+        <DIALOGUE>~r~容疑者:~s~ 貴様らポリ公は全員ぶっ殺してやる！</DIALOGUE>
     </ACTION>
 </CALLOUT>

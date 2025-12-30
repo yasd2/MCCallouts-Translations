@@ -1,20 +1,20 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Ambulance under attack</CALLOUTMESSAGE>
-    <TASK>An ambulance requested urgent help, check on them.</TASK>
+    <CALLOUTMESSAGE>救急車が攻撃を受けている</CALLOUTMESSAGE>
+    <TASK>救急車が緊急援助を要請しました。様子を確認してください。</TASK>
     <DIALOGUES>
-        <DIALOGUE>~y~You:~s~ What happened?</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ We were on route back to the hospital, when they suddenly stopped us.</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ Then they attacked us without a reason!</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ Thank you for your service!</DIALOGUE>
-        <DIALOGUE>~r~Paramedic:~s~ We will head back to the station, have a nice day!</DIALOGUE>
+        <DIALOGUE>~y~あなた:~s~ 何が起きたんです？</DIALOGUE>
+        <DIALOGUE>~r~救急隊員:~s~ 病院に変えるところだったんです。そしたらいきなり奴らに止められて。</DIALOGUE>
+        <DIALOGUE>~r~救急隊員:~s~ 何かと思ったらいきなり攻撃してきたんです！</DIALOGUE>
+        <DIALOGUE>~r~救急隊員:~s~ ご尽力に感謝します！</DIALOGUE>
+        <DIALOGUE>~r~救急隊員:~s~ では所に戻ります。どうかよい一日を！</DIALOGUE>
     </DIALOGUES>
     <EXTRA>
-        <TEXT>Press ~y~{Y}~s~ to make them stop fighting!</TEXT>
-        <TEXT>Talk to the paramedic to find out what happened.</TEXT>
+        <TEXT>~y~{Y}~s~を押して戦闘をやめさせてください。</TEXT>
+        <TEXT>何が起こったのかを確かめるため、救急隊員と話してください。</TEXT>
     </EXTRA>
     <WARN>
-        <TEXT>~y~You:~s~ Police! Stop fighting and back up!</TEXT>
-        <TEXT>~y~You:~s~ Everyone stop! This is the police!</TEXT>
+        <TEXT>~y~あなた:~s~ 警察だ！下がれ！</TEXT>
+        <TEXT>~y~あなた:~s~ 全員動くな！警察だ！</TEXT>
     </WARN>
-    <END>Ambulance under attack has ended.</END>
+    <END>「救急車が攻撃を受けている」は終了しました。</END>
 </CALLOUT>
