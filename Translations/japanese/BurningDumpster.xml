@@ -1,62 +1,62 @@
 <BurningDumpster>
 
     <General>
-        <Text>~r~Burning dumpster~b~ reported</Text>
-        <Text>Unit with fire extinguisher respond Code 2</Text>
-        <Text>Drive to the location and extinguish the ~r~fire~s~ or call the ~r~fire department!</Text>
+        <Text>~r~ゴミ箱の火災~b~の通報あり</Text>
+        <Text>消火器を装備したユニットはコード2で臨場せよ</Text>
+        <Text>現場へ向かい、~r~火~s~を消し止めるか、~r~消防隊~s~を要請してください。</Text>
     </General>
 
     <Persons>
-        <Text>Caller</Text>
-        <Text>You</Text>
+        <Text>通報者</Text>
+        <Text>あなた</Text>
     </Persons>
 
     <Extingiush>
-        <Text>To get a ~r~fire extinguisher~s~, go to your trunk and press</Text>
-        <Text>~r~Fire extinguisher~s~ equipped!</Text>
-        <Text>Now search for ~y~evidence~s~ by pressing {Key} while in the ~y~markers~s~.</Text>
+        <Text>トランクへ向かい、ボタンを押して ~r~消火器~s~ を取り出してください</Text>
+        <Text>~r~消火器~s~ を装備しました！</Text>
+        <Text>~y~マーカー~s~ の中で {Key} を押し、~y~証拠~s~ を捜索してください。</Text>
     </Extingiush>
 
     <Tasks>
-        <Text>Talk to the 911 ~b~caller~s~ with</Text>
-        <Text>Press {MusicMenuKey} anytime to view the picture again!</Text>
-        <Text>Dispatch, Suspect is ~r~fleeing!</Text>
+        <Text>ボタンを押し、911 ~b~通報者~s~ と話してください</Text>
+        <Text>{MusicMenuKey} を押せば、いつでも写真を再確認できます！</Text>
+        <Text>指令部、容疑者が ~r~逃走~s~ 中だ！</Text>
     </Tasks>
 
     <Caller>
-        <Dialogue>Hello, are you the one who called in the burning trash?</Dialogue>
-        <Dialogue>Yes, that's me. I wanted to report a suspicious person I saw.</Dialogue>
-        <Dialogue>I was walking past the trash can when I saw a person walking away.</Dialogue>
-        <Dialogue>Right after that the fire started to burn!</Dialogue>
-        <Dialogue>This sounds suspicious, do you have details on the suspect?</Dialogue>
-        <Dialogue>Sure, it was a {gender} and around {age} years old.</Dialogue>
-        <Dialogue>I was able to take a photo, here it is!</Dialogue>
-        <Dialogue>Thanks, we're looking for the suspect now. Bye!</Dialogue>
+        <Dialogue>こんにちは。あなたがゴミ箱の火災を通報してくれた方ですか？</Dialogue>
+        <Dialogue>ええ、私です。不審な人物を見かけたので報告したくて。</Dialogue>
+        <Dialogue>ゴミ箱の横を通り過ぎたとき、そこから立ち去る人物を見たんです。</Dialogue>
+        <Dialogue>その直後に、火が燃え上がりました！</Dialogue>
+        <Dialogue>それは怪しいですね。容疑者について詳しい特徴はわかりますか？</Dialogue>
+        <Dialogue>ええ、性別は {gender} で、年齢は {age} 歳くらいでした。</Dialogue>
+        <Dialogue>写真を撮れたので、確認してください！</Dialogue>
+        <Dialogue>ありがとうございます。現在、容疑者を捜索中です。それでは！</Dialogue>
     </Caller>
 
     <Genders>
-        <Text>female</Text>
-        <Text>male</Text>
-        <Text>non-binary</Text>
+        <Text>女性</Text>
+        <Text>男性</Text>
+        <Text>ノンバイナリー</Text>
     </Genders>
 
     <Evidence>
-        <Dialogue>A Molotov cocktail, this was no accident... someone wanted to start a fire.</Dialogue>
-        <Dialogue>A jerrycan full of gasoline, looks like someone was preparing to ignite something.</Dialogue>
-        <Dialogue>A bong? Strange... maybe someone was too high to notice the fire they started.</Dialogue>
-        <Dialogue>A frag grenade. This is no simple fire, we're dealing with something far more dangerous.</Dialogue>
-        <Dialogue>A smoke grenade. Could have been used to cover up their tracks before setting the fire.</Dialogue>
-        <Dialogue>A broken bottle. It seems improvised, but it could have been used to start the fire.</Dialogue>
-        <Dialogue>A gas cylinder. If this went off, the whole area could've gone up in flames.</Dialogue>
-        <Dialogue>An oil drum. It's leaking... and highly flammable. Looks like someone wanted to spread the fire.</Dialogue>
-        <Dialogue>A petrol can. Smells like gasoline... someone really wanted to burn this place down.</Dialogue>
-        <Dialogue>A sock? Well, it might not seem like much, but it smells bad enough to be a fire hazard.</Dialogue>
-        <Dialogue>Typical. Somebody threw a burning cigarette in the trash, then it started igniting.</Dialogue>
-        <Dialogue>A sock? Well, it might not seem like much, but it smells bad enough to be a fire hazard.</Dialogue>
+        <Dialogue>火炎瓶か。事故じゃないな……誰かが故意に火をつけたんだ。</Dialogue>
+        <Dialogue>ガソリンの入ったジェリカンだ。何かに火をつける準備をしていたようだな。</Dialogue>
+        <Dialogue>ボング？妙だな……ハイになりすぎて、自分が火を出したことに気づかなかったのか？</Dialogue>
+        <Dialogue>破片手榴弾だと。ただの火災じゃない、かなり危険な事態だぞ。</Dialogue>
+        <Dialogue>発煙弾だ。火をつける前に、足跡を消すために使った可能性があるな。</Dialogue>
+        <Dialogue>壊れた瓶か。間に合わせのようだが、火をつけるのには十分使えただろう。</Dialogue>
+        <Dialogue>ガスボンベだ。もし引火していたら、辺り一帯が火の海になっていたぞ。</Dialogue>
+        <Dialogue>ドラム缶だ。漏れ出している……引火性が高いな。火を広げようとした形跡がある。</Dialogue>
+        <Dialogue>ガソリン携行缶だ。ガソリンの臭いがする……本気でここを焼き払うつもりだったんだな。</Dialogue>
+        <Dialogue>靴下？まあ、大したことなさそうだが、火災の原因になりそうなほど酷い臭いだ。</Dialogue>
+        <Dialogue>よくある話だ。誰かが火のついたタバコをゴミ箱に捨てて、燃え移ったんだろう。</Dialogue>
+        <Dialogue>靴下か。大した物には見えないが、発火の危険があるほど異臭を放っているな。</Dialogue>
     </Evidence>
 
     <End>
-        <Text>~g~Situation is Code 4.</Text>
+        <Text>~g~状況はコード4。</Text>
     </End>
     
 </BurningDumpster>

@@ -1,36 +1,36 @@
 <CashTransport>
 
     <General>
-        <Text>Risky Money Transport</Text>
-        <Text>Drive to the ~g~~h~callout location~h~~s~.</Text>
-        <Text>Press {Y} to talk</Text>
-        <Text>Drive to the ~b~~h~destination~h~~s~.</Text>
-        <Text>Press {Y} anytime if the RIOT is stuck.</Text>
-        <Text>Get the ~HC_3~~h~cash suitcase~h~~s~ from the back of the ~r~~h~money truck~h~~s~.</Text>
-        <Text>Bring the case into the bank.</Text>
-        <Text>Press ~y~~h~End~h~~s~ anytime to end the callout.</Text>
+        <Text>高リスクの現金輸送</Text>
+        <Text>~g~~h~出動場所~h~~s~へ向かってください。</Text>
+        <Text>{Y} を押して話す</Text>
+        <Text>~b~~h~目的地~h~~s~へ向かってください。</Text>
+        <Text>RIOTが動けなくなった場合は {Y} を押してください。</Text>
+        <Text>~r~~h~現金輸送車~h~~s~の背後から ~HC_3~~h~現金トランク~h~~s~ を回収してください。</Text>
+        <Text>トランクを銀行内へ運んでください。</Text>
+        <Text>~y~~h~End~h~~s~ を押せばいつでもコールアウトを終了できます。</Text>
     </General>
 
     <Persons>
-        <Text>Guard</Text>
-        <Text>You</Text>
-        <Text>Bankman</Text>
+        <Text>警備員</Text>
+        <Text>あなた</Text>
+        <Text>銀行員</Text>
     </Persons>
 
     <Guard>
-        <Dialogue>Hello Officer! Thanks for coming! We have a very important delivery!</Dialogue>
-        <Dialogue>The armoured bank truck will deliver a big amount of money to our destination.</Dialogue>
-        <Dialogue>The truck will be driven by you, a armoured swat vehicle will follow.</Dialogue>
-        <Dialogue>We got reports that an attack might be happening, that's why we have you and the swat team. Let's go!</Dialogue>
+        <Dialogue>お疲れ様です、お巡りさん！来てくれて助かりました。非常に重要な届け物があるんです！</Dialogue>
+        <Dialogue>この銀行の装甲車で、目的地まで多額の現金を輸送します。</Dialogue>
+        <Dialogue>輸送車の運転はあなたにお願いします。後方をSWATの装甲車が護衛します。</Dialogue>
+        <Dialogue>襲撃の予兆があるとの報告が入っています。だからこそ、あなたとSWATチームに来てもらったんです。行きましょう！</Dialogue>
     </Guard>
 
     <Bankman>
-        <Dialogue>Hello! I see you made it out alive! Now you know why we hire professionals like you, not like ... my colleagues.</Dialogue>
-        <Dialogue>... definitely. At least the swat vehicle is bullet proof.</Dialogue>
-        <Dialogue>The money truck is armoured, too. Only the windows are not.</Dialogue>
-        <Dialogue>Here is the case.</Dialogue>
-        <Dialogue>Perfect, thank you, I put in a good word for you!</Dialogue>
-        <Dialogue>I hope the risk was worth it, have a nice day!</Dialogue>
+        <Dialogue>こんにちは！無事にご帰還されましたね！さすがです。我々が……私の同僚たちではなく、あなたのようなプロを雇う理由がよく分かりましたよ。</Dialogue>
+        <Dialogue>……全くです。少なくともSWATの車両は防弾仕様ですからね。</Dialogue>
+        <Dialogue>この輸送車も装甲仕様ですが、窓ガラスだけは例外です。</Dialogue>
+        <Dialogue>こちらがトランクです。</Dialogue>
+        <Dialogue>完璧です、ありがとうございます！あなたについては上に良く言っておきますよ！</Dialogue>
+        <Dialogue>リスクに見合う成果だったことを願っています。それでは、良い一日を！</Dialogue>
     </Bankman>
 
 </CashTransport>
