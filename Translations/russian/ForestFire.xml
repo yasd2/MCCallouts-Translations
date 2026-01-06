@@ -1,14 +1,14 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Forest Fire</CALLOUTMESSAGE>
-    <TASK>Citizens reported a big fire in the forests of {ZONE}.</TASK>
+    <CALLOUTMESSAGE>Лесной пожар</CALLOUTMESSAGE>
+    <TASK>Граждане сообщили о крупном пожаре в лесной зоне {ZONE}.</TASK>
     <DIFFICULTY>
-        <TEXT>Difficulty:</TEXT>
-        <TEXT>~y~MEDIUM</TEXT>
-        <TEXT>~r~HARD</TEXT>
+        <TEXT>Сложность:</TEXT>
+        <TEXT>~y~СРЕДНЯЯ</TEXT>
+        <TEXT>~r~ВЫСОКАЯ</TEXT>
     </DIFFICULTY>
     <END>
-        <TEXT>The fire is out, good job!</TEXT>
-        <TEXT>You have extinguished {PERCENTAGE} %.</TEXT>
-        <TEXT>All fires have been extinguished. Great job!</TEXT>
+        <TEXT>Пожар потушен, отличная работа!</TEXT>
+        <TEXT>Вы потушили {PERCENTAGE} % возгораний.</TEXT>
+        <TEXT>Все очаги пожара ликвидированы. Превосходная работа!</TEXT>
     </END>
 </CALLOUT>

@@ -1,102 +1,103 @@
+```xml
 <CALLOUT>
-    <CALLOUTMESSAGE>Traffic Accident</CALLOUTMESSAGE>
-    <TASK>Multiple callers reporting at least one vehicle disabled, possible injuries.</TASK>
+    <CALLOUTMESSAGE>Дорожно-транспортное происшествие</CALLOUTMESSAGE>
+    <TASK>Поступило несколько вызовов: как минимум одно транспортное средство выведено из строя, возможны пострадавшие.</TASK>
     <SCENARIO>
         <DRUNKHIGH>
             <DRIVER>
-                <TEXT>~o~Driver:~s~ Hello, what's going oooon...</TEXT>
-                <TEXT>~y~You:~s~ Hello, can you tell me what has happened?</TEXT>
-                <TEXT>~o~Driver:~s~ I dunno, man... I was… I was just drivin'. Lights, screech — next thing I know we're here. I'm fine, I'm fine, really. Just a little dizzy.</TEXT>
-                <TEXT>~y~You:~s~ Have you been drinking or taking anything?</TEXT>
-                <TEXT>~o~Driver:~s~ Look, I don't wanna make trouble — yeah, I had a few. It's just a couple, honest. I can walk, I can talk. Keys? Uh—my bag's in the back. Sorry, officer, I don't mean no harm.</TEXT>
-                <TEXT>~y~You:~s~ Do you remember what happened before the crash?</TEXT>
-                <TEXT>~o~Driver:~s~ I — blur. Head spins. There was headlights, then metal... I remember the other car — oh god, are they okay? I didn't hit nobody on purpose.</TEXT>
-                <TEXT>~y~You:~s~ Stay where you are. Don't move, I'm going to check on the other driver.</TEXT>
-                <TEXT>~o~Driver:~s~ Yeah... please. Tell 'em I'm sorry. Tell 'em I'm real sorry...</TEXT>
+                <TEXT>~o~Водитель:~s~ Эй… а что вообще происхо-о-одит…</TEXT>
+                <TEXT>~y~Вы:~s~ Здравствуйте. Можете сказать, что произошло?</TEXT>
+                <TEXT>~o~Водитель:~s~ Не знаю, мужик… Я ехал… просто ехал. Огни, визг — и вдруг мы уже здесь. Со мной всё нормально, правда. Просто немного кружится голова.</TEXT>
+                <TEXT>~y~Вы:~s~ Вы употребляли алкоголь или что-нибудь ещё?</TEXT>
+                <TEXT>~o~Водитель:~s~ Слушайте, я не хочу проблем — да, выпил немного. Пару штук, честно. Я могу идти, могу говорить. Ключи? Эм… сумка сзади. Простите, офицер, я не хотел ничего плохого.</TEXT>
+                <TEXT>~y~Вы:~s~ Вы помните, что было перед аварией?</TEXT>
+                <TEXT>~o~Водитель:~s~ Всё… как в тумане. Голова кружится. Фары, потом металл… Помню другую машину — боже, с ними всё в порядке? Я никого специально не бил.</TEXT>
+                <TEXT>~y~Вы:~s~ Оставайтесь на месте. Не двигайтесь, я проверю второго водителя.</TEXT>
+                <TEXT>~o~Водитель:~s~ Да… пожалуйста. Передайте им, что мне очень жаль. Правда жаль…</TEXT>
             </DRIVER>
             <DRIVER2>
-                <TEXT>~o~Driver2:~s~ ...ow... where... where am I?</TEXT>
-                <TEXT>~y~You:~s~ You're at the scene of a collision. Can you tell me what happened?</TEXT>
-                <TEXT>~o~Driver2:~s~ I... I don't remember. One moment I was driving, then — pain. My head feels fuzzy. I can't really see clearly. My left shoulder hurts. I don't know how it happened.</TEXT>
-                <TEXT>~y~You:~s~ Do you know if anyone else was involved? Any other car or person?</TEXT>
-                <TEXT>~o~Driver2:~s~ I... I heard a loud sound. There was braking... maybe another vehicle. I can't tell, I'm sorry. Could you call an ambulance? It hurts to move.</TEXT>
-                <TEXT>~y~You:~s~ Help is on the way. Try to stay calm and still. Your name?</TEXT>
-                <TEXT>~o~Driver2:~s~ It's... Please... don't let me bleed out...</TEXT>
+                <TEXT>~o~Водитель2:~s~ …ай… где… где я?</TEXT>
+                <TEXT>~y~Вы:~s~ Вы на месте ДТП. Можете сказать, что произошло?</TEXT>
+                <TEXT>~o~Водитель2:~s~ Я… я не помню. Только что ехал, а потом — боль. Голова мутная, плохо вижу. Левая рука болит. Я не знаю, как это случилось.</TEXT>
+                <TEXT>~y~Вы:~s~ Вы знаете, был ли кто-то ещё вовлечён? Другая машина или человек?</TEXT>
+                <TEXT>~o~Водитель2:~s~ Я… слышал громкий удар. Было торможение… возможно, другая машина. Не уверен, простите. Вы можете вызвать скорую? Мне больно двигаться.</TEXT>
+                <TEXT>~y~Вы:~s~ Помощь уже едет. Постарайтесь сохранять спокойствие и не двигаться. Ваше имя?</TEXT>
+                <TEXT>~o~Водитель2:~s~ Это… пожалуйста… не дайте мне истечь кровью…</TEXT>
             </DRIVER2>
         </DRUNKHIGH>
         <MEDICALEMERGENCY>
             <DRIVER>
-                <TEXT>~o~Driver:~s~ Officer... I–I don’t feel good...</TEXT>
-                <TEXT>~y~You:~s~ Try to stay calm. What happened?</TEXT>
-                <TEXT>~o~Driver:~s~ I was driving... chest started burning... vision went blurry... I tried to pull over but... guess I didn’t make it.</TEXT>
-                <TEXT>~y~You:~s~ Are you hurt anywhere else?</TEXT>
-                <TEXT>~o~Driver:~s~ No... just this pressure... like someone’s sitting on my chest... please, I can’t breathe right.</TEXT>
-                <TEXT>~y~You:~s~ Medical is here, they’ll take care of you. Don’t move more than you have to.</TEXT>
-                <TEXT>~o~Driver:~s~ Thank you... just... don’t let me pass out.</TEXT>
+                <TEXT>~o~Водитель:~s~ Офицер… мне… мне плохо…</TEXT>
+                <TEXT>~y~Вы:~s~ Постарайтесь сохранять спокойствие. Что случилось?</TEXT>
+                <TEXT>~o~Водитель:~s~ Я ехал… в груди начало жечь… зрение помутнело… пытался остановиться, но… видимо, не успел.</TEXT>
+                <TEXT>~y~Вы:~s~ Есть ли ещё какие-нибудь травмы?</TEXT>
+                <TEXT>~o~Водитель:~s~ Нет… только это давление… будто кто-то сидит на груди… пожалуйста, мне тяжело дышать.</TEXT>
+                <TEXT>~y~Вы:~s~ Медики уже здесь, они вам помогут. Постарайтесь не двигаться.</TEXT>
+                <TEXT>~o~Водитель:~s~ Спасибо… только… не дайте мне потерять сознание.</TEXT>
             </DRIVER>
             <MEDIC>
-                <TEXT>~r~Medic:~s~ Officer, we’ve got the patient. Symptoms look cardiac. We need space to work.</TEXT>
-                <TEXT>~y~You:~s~ Understood. Anything you need from me?</TEXT>
-                <TEXT>~r~Medic:~s~ Keep the traffic back and give us a few minutes. We’ll stabilize and transport.</TEXT>
+                <TEXT>~r~Медик:~s~ Офицер, мы приняли пациента. Симптомы похожи на сердечные. Нам нужно пространство.</TEXT>
+                <TEXT>~y~Вы:~s~ Понял. Что-нибудь нужно от меня?</TEXT>
+                <TEXT>~r~Медик:~s~ Оградите движение и дайте нам несколько минут. Мы стабилизируем состояние и повезём его.</TEXT>
             </MEDIC>
             <MEDIC2>
-                <TEXT>~r~Medic2:~s~ BP is low, pulse irregular. Prepping oxygen.</TEXT>
-                <TEXT>~y~You:~s~ Is the patient going to be okay?</TEXT>
-                <TEXT>~r~Medic2:~s~ Too early to tell, but we’ve got it under control. Thanks for the quick response.</TEXT>
+                <TEXT>~r~Медик2:~s~ Давление низкое, пульс нерегулярный. Готовим кислород.</TEXT>
+                <TEXT>~y~Вы:~s~ С ним всё будет в порядке?</TEXT>
+                <TEXT>~r~Медик2:~s~ Пока рано говорить, но ситуация под контролем. Спасибо за быстрый отклик.</TEXT>
             </MEDIC2> 
         </MEDICALEMERGENCY>
         <TIREBURST>
             <DRIVER>
-                <TEXT>~o~Driver:~s~ Officer! Thank god you’re here!</TEXT>
-                <TEXT>~y~You:~s~ What happened?</TEXT>
-                <TEXT>~o~Driver:~s~ My front tire just exploded out of nowhere! Car jerked sideways and I lost control.</TEXT>
-                <TEXT>~y~You:~s~ Any injuries?</TEXT>
-                <TEXT>~o~Driver:~s~ Just a few scratches and a bit shaken. Thought the whole car was gonna flip.</TEXT>
-                <TEXT>~y~You:~s~ I will call an ambulance for you. Did you hit anything else?</TEXT>
-                <TEXT>~o~Driver:~s~ Yes, I skidded into the guardrail and hit it. Scared the hell out of me.</TEXT>
-                <TEXT>~y~You:~s~ Stay here while I check the vehicle. We might need a tow truck for it.</TEXT>
+                <TEXT>~o~Водитель:~s~ Офицер! Слава богу, вы здесь!</TEXT>
+                <TEXT>~y~Вы:~s~ Что произошло?</TEXT>
+                <TEXT>~o~Водитель:~s~ Переднее колесо взорвалось ни с того ни с сего! Машину резко дёрнуло, и я потерял управление.</TEXT>
+                <TEXT>~y~Вы:~s~ Есть пострадавшие?</TEXT>
+                <TEXT>~o~Водитель:~s~ Пара царапин и сильно трясёт. Я думал, машина перевернётся.</TEXT>
+                <TEXT>~y~Вы:~s~ Я вызову скорую. Вы во что-нибудь врезались?</TEXT>
+                <TEXT>~o~Водитель:~s~ Да, меня занесло в отбойник, я в него влетел. Перепугался до чёртиков.</TEXT>
+                <TEXT>~y~Вы:~s~ Оставайтесь здесь, я осмотрю автомобиль. Возможно, понадобится эвакуатор.</TEXT>
             </DRIVER>
         </TIREBURST>
         <FLATTIRE>
             <DRIVER>
-                <TEXT>~o~Driver:~s~ Officer, sorry for the mess…</TEXT>
-                <TEXT>~y~You:~s~ What seems to be the issue?</TEXT>
-                <TEXT>~o~Driver:~s~ Front tire went flat while I was driving. Car started wobbling, so I braked hard and ended up stopping like this.</TEXT>
-                <TEXT>~y~You:~s~ Anyone injured?</TEXT>
-                <TEXT>~o~Driver:~s~ No, just annoyed. Could’ve been worse though.</TEXT>
-                <TEXT>~y~You:~s~ Do you need roadside assistance?</TEXT>
-                <TEXT>~o~Driver:~s~ Yeah… that’d be great. I’ve got no spare.</TEXT>
+                <TEXT>~o~Водитель:~s~ Офицер, извините за беспорядок…</TEXT>
+                <TEXT>~y~Вы:~s~ В чём проблема?</TEXT>
+                <TEXT>~o~Водитель:~s~ Переднее колесо спустило на ходу. Машину начало мотать, я резко затормозил и остановился вот так.</TEXT>
+                <TEXT>~y~Вы:~s~ Кто-нибудь пострадал?</TEXT>
+                <TEXT>~o~Водитель:~s~ Нет, просто раздражён. Могло быть и хуже.</TEXT>
+                <TEXT>~y~Вы:~s~ Вам нужна помощь на дороге?</TEXT>
+                <TEXT>~o~Водитель:~s~ Да… было бы здорово. Запаски нет.</TEXT>
             </DRIVER>
         </FLATTIRE>
         <POWERFAILURE>
             <DRIVER>
-                <TEXT>~o~Driver:~s~ That blackout came out of nowhere! Everything went dark!</TEXT>
-                <TEXT>~y~You:~s~ Tell me what happened.</TEXT>
-                <TEXT>~o~Driver:~s~ Streetlights died instantly. Couldn’t see a damn thing ahead of me. I tried to brake but I was already too close to the curb.</TEXT>
-                <TEXT>~y~You:~s~ Any electrical issues with your car?</TEXT>
-                <TEXT>~o~Driver:~s~ Yeah, the dashboard flickered right before I hit. Maybe the power surge messed with the car too.</TEXT>
-                <TEXT>~y~You:~s~ Alright, stay put. I’ll check the area.</TEXT>
-                <TEXT>~o~Driver:~s~ Please do. Feels like the whole city just switched off.</TEXT>
+                <TEXT>~o~Водитель:~s~ Это отключение света случилось внезапно! Всё сразу погасло!</TEXT>
+                <TEXT>~y~Вы:~s~ Расскажите, что произошло.</TEXT>
+                <TEXT>~o~Водитель:~s~ Уличные фонари погасли мгновенно. Я вообще ничего не видел впереди. Попробовал затормозить, но был слишком близко к бордюру.</TEXT>
+                <TEXT>~y~Вы:~s~ Были проблемы с электроникой автомобиля?</TEXT>
+                <TEXT>~o~Водитель:~s~ Да, приборная панель мигнула прямо перед ударом. Возможно, скачок напряжения задел и машину.</TEXT>
+                <TEXT>~y~Вы:~s~ Хорошо, оставайтесь здесь. Я осмотрю район.</TEXT>
+                <TEXT>~o~Водитель:~s~ Пожалуйста. Такое ощущение, будто весь город отключился.</TEXT>
             </DRIVER>
         </POWERFAILURE>
         <SPEEDING>
             <DRIVER>
-                <TEXT>~o~Driver:~s~ Officer, look — he braked way too hard! I had no time to react!</TEXT>
-                <TEXT>~y~You:~s~ Were you speeding?</TEXT>
-                <TEXT>~o~Driver:~s~ Maybe a little… traffic was light, I thought it was fine.</TEXT>
-                <TEXT>~y~You:~s~ How fast were you going?</TEXT>
-                <TEXT>~o~Driver:~s~ I… don’t know. Faster than I should’ve, okay?</TEXT>
-                <TEXT>~y~You:~s~ Stay here while I check the other driver.</TEXT>
-                <TEXT>~o~Driver:~s~ Just great… this day is ruined.</TEXT>
+                <TEXT>~o~Водитель:~s~ Офицер, смотрите — он затормозил слишком резко! У меня не было времени среагировать!</TEXT>
+                <TEXT>~y~Вы:~s~ Вы превышали скорость?</TEXT>
+                <TEXT>~o~Водитель:~s~ Может, немного… машин почти не было, я думал, всё нормально.</TEXT>
+                <TEXT>~y~Вы:~s~ С какой скоростью вы ехали?</TEXT>
+                <TEXT>~o~Водитель:~s~ Я… не знаю. Быстрее, чем следовало, ладно?</TEXT>
+                <TEXT>~y~Вы:~s~ Оставайтесь здесь, я поговорю со вторым водителем.</TEXT>
+                <TEXT>~o~Водитель:~s~ Просто отлично… день окончательно испорчен.</TEXT>
             </DRIVER>
             <DRIVER2>
-                <TEXT>~o~Driver2:~s~ Officer! He was flying behind me! I checked my mirror and he was right on me!</TEXT>
-                <TEXT>~y~You:~s~ Were you speeding as well?</TEXT>
-                <TEXT>~o~Driver2:~s~ I was keeping with traffic! He came out of nowhere!</TEXT>
-                <TEXT>~y~You:~s~ Do you need medical assistance?</TEXT>
-                <TEXT>~o~Driver2:~s~ No, just rattled. But he needs to slow down before he kills someone.</TEXT>
-                <TEXT>~y~You:~s~ I’ll talk to him. Stay here.</TEXT>
-                <TEXT>~o~Driver2:~s~ Thanks. I just want my car intact...</TEXT>
+                <TEXT>~o~Водитель2:~s~ Офицер! Он нёсся прямо за мной! Я посмотрел в зеркало — он был вплотную!</TEXT>
+                <TEXT>~y~Вы:~s~ Вы тоже превышали скорость?</TEXT>
+                <TEXT>~o~Водитель2:~s~ Я ехал в потоке! Он появился из ниоткуда!</TEXT>
+                <TEXT>~y~Вы:~s~ Вам нужна медицинская помощь?</TEXT>
+                <TEXT>~o~Водитель2:~s~ Нет, просто трясёт. Но ему стоит сбавить скорость, пока он кого-нибудь не убил.</TEXT>
+                <TEXT>~y~Вы:~s~ Я с ним поговорю. Оставайтесь здесь.</TEXT>
+                <TEXT>~o~Водитель2:~s~ Спасибо. Я просто хочу, чтобы машина осталась целой…</TEXT>
             </DRIVER2>
         </SPEEDING>
     </SCENARIO>

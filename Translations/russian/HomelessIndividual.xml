@@ -1,207 +1,208 @@
+```xml
 <CALLOUT>
-    <CALLOUTMESSAGE>Homeless Disturbance</CALLOUTMESSAGE>
+    <CALLOUTMESSAGE>Нарушение общественного порядка</CALLOUTMESSAGE>
     <TASK>
-        <TEXT>A ~o~Homeless Individual~s~ is causing a disturbance. Speak with </TEXT>
-        <TEXT>the ~g~Security Guard,~s~ he has called for help.</TEXT>
-        <TEXT>the ~g~Pedestrian,~s~ she has called for help.</TEXT>
-        <TEXT>them.</TEXT>
+        <TEXT>~o~Бездомный~s~ устроил беспорядок. Поговорите с </TEXT>
+        <TEXT>~g~охранником,~s~ именно он вызвал помощь.</TEXT>
+        <TEXT>~g~прохожей,~s~ именно она вызвала помощь.</TEXT>
+        <TEXT>тем, кто пожаловался.</TEXT>
     </TASK>
     <SCENARIO>
         <SEARCHINGTRASH>
             <COOPERATIVE>
-                <TEXT>~y~You:~s~ Hey there. Everything alright? You're digging through the trash here.</TEXT>
-                <TEXT>~o~Tramp:~s~ Yeah… just looking for bottles, that’s all. Not causing trouble.</TEXT>
-                <TEXT>~y~You:~s~ I understand. This is private property though. Could you move along for me?</TEXT>
-                <TEXT>~o~Tramp:~s~ Oh… sorry, didn’t know. I’m not trying to upset anyone.</TEXT>
-                <TEXT>~y~You:~s~ It’s fine. Do you need anything? A coffee? Help with services?</TEXT>
-                <TEXT>~o~Tramp:~s~ That’s kind of you, but no… I’ll get going now.</TEXT>
-                <TEXT>~y~You:~s~ Alright. Take care of yourself.</TEXT>
-                <TEXT>~o~Tramp:~s~ Thanks. You too.</TEXT>
+                <TEXT>~y~Вы:~s~ Здравствуйте. Всё в порядке? Вы тут роетесь в мусоре.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Да... просто бутылки ищу, и всё. Никому не мешаю.</TEXT>
+                <TEXT>~y~Вы:~s~ Я понимаю. Но это частная территория. Не могли бы вы пройти дальше?</TEXT>
+                <TEXT>~o~Бездомный:~s~ Ох... извините, не знал. Я никого не хотел беспокоить.</TEXT>
+                <TEXT>~y~Вы:~s~ Всё в порядке. Вам что-нибудь нужно? Кофе? Помощь соцслужб?</TEXT>
+                <TEXT>~o~Бездомный:~s~ Это очень любезно, но нет... Я сейчас пойду.</TEXT>
+                <TEXT>~y~Вы:~s~ Хорошо. Берегите себя.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Спасибо. Вам тоже.</TEXT>
             </COOPERATIVE>
             <NONCOMPLIANT>
-                <TEXT>~y~You:~s~ Excuse me. You can’t stay here, this is private property.</TEXT>
-                <TEXT>~o~Tramp:~s~ I’ve been here for days. I’m not bothering anyone.</TEXT>
-                <TEXT>~y~You:~s~ There were complaints. I need you to move along.</TEXT>
-                <TEXT>~o~Tramp:~s~ I’m not going anywhere. This is the only spot I’ve got.</TEXT>
-                <TEXT>~y~You:~s~ If security shows up, it might get difficult for you.</TEXT>
-                <TEXT>~o~Tramp:~s~ Let them come. I’m staying right here.</TEXT>
-                <TEXT>~y~You:~s~ I’m giving you a fair chance here.</TEXT>
-                <TEXT>~o~Tramp:~s~ And I’m saying no. Let me be.</TEXT>
+                <TEXT>~y~Вы:~s~ Прошу прощения. Вам нельзя здесь находиться, это частная территория.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Я тут уже несколько дней. Никому не мешаю.</TEXT>
+                <TEXT>~y~Вы:~s~ Поступали жалобы. Мне нужно, чтобы вы прошли дальше.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Я никуда не уйду. Это моё единственное место.</TEXT>
+                <TEXT>~y~Вы:~s~ Если прибудет охрана, для вас это может усложниться.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Пусть приходят. Я остаюсь здесь.</TEXT>
+                <TEXT>~y~Вы:~s~ Я даю вам шанс решить это мирно.</TEXT>
+                <TEXT>~o~Бездомный:~s~ А я говорю «нет». Оставьте меня в покое.</TEXT>
             </NONCOMPLIANT>
             <FIGHT>
-                <TEXT>~y~You:~s~ Hey, can you stop for a moment? People complained about you digging here.</TEXT>
-                <TEXT>~o~Tramp:~s~ Complained? About what? I’m just trying to survive. Leave me alone.</TEXT>
-                <TEXT>~y~You:~s~ I want to keep this peaceful. Please move along for me.</TEXT>
-                <TEXT>~o~Tramp:~s~ No. I’m not going anywhere.</TEXT>
-                <TEXT>~y~You:~s~ Last warning. Don’t make this harder than it needs to be.</TEXT>
-                <TEXT>~o~Tramp:~s~ Harder? You don’t scare me.</TEXT>
-                <TEXT>~y~You:~s~ Back up. Now.</TEXT>
-                <TEXT>~o~Tramp:~s~ That’s it! I’ll smash you!</TEXT>
-                <TEXT>~y~You:~s~ Stand down! Now!</TEXT>
+                <TEXT>~y~Вы:~s~ Эй, можете на секунду остановиться? Люди жалуются, что вы тут роетесь.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Жалуются? На что? Я просто пытаюсь выжить. Отстаньте от меня.</TEXT>
+                <TEXT>~y~Вы:~s~ Я хочу решить это мирно. Пожалуйста, пройдите дальше.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Нет. Я никуда не уйду.</TEXT>
+                <TEXT>~y~Вы:~s~ Последнее предупреждение. Не усложняйте.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Усложняю? Вы мне не страшны.</TEXT>
+                <TEXT>~y~Вы:~s~ Назад. Немедленно.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Ну всё! Я тебя сейчас!</TEXT>
+                <TEXT>~y~Вы:~s~ Прекратите! Немедленно!</TEXT>
             </FIGHT>
         </SEARCHINGTRASH>
         <BEGFORMONEY>
             <INTRO>
-                <TEXT>~y~You:~s~ Hello, I’m here about the call. You reported someone bothering you?</TEXT>
-                <TEXT>~g~Civilian:~s~ Yes, officer. That homeless guy over there keeps asking me for money.</TEXT>
-                <TEXT>~y~You:~s~ Can you tell me what happened exactly?</TEXT>
-                <TEXT>~g~Civilian:~s~ I was just walking by, minding my business, and he stopped me out of nowhere.</TEXT>
-                <TEXT>~g~Civilian:~s~ He kept insisting, saying he ‘needed it more than I do’. He wouldn’t take no for an answer.</TEXT>
-                <TEXT>~y~You:~s~ Did he threaten you or touch you in any way?</TEXT>
-                <TEXT>~g~Civilian:~s~ No, not really… but he was way too pushy. Made me uncomfortable.</TEXT>
-                <TEXT>~g~Civilian:~s~ I get that times are tough, but I shouldn’t be harassed just for walking down the street.</TEXT>
-                <TEXT>~y~You:~s~ Alright, I’ll go talk to him. Thanks for letting me know.</TEXT>
+                <TEXT>~y~Вы:~s~ Здравствуйте, я по вызову. Вы сообщали, что вас кто-то донимает?</TEXT>
+                <TEXT>~g~Горожанин:~s~ Да, офицер. Вон тот бездомный постоянно просит у меня деньги.</TEXT>
+                <TEXT>~y~Вы:~s~ Расскажите, что именно произошло?</TEXT>
+                <TEXT>~g~Горожанин:~s~ Я просто шёл мимо, занимался своими делами, и он вдруг остановил меня.</TEXT>
+                <TEXT>~g~Горожанин:~s~ Он продолжал настаивать, говорил, что «это ему нужнее, чем мне». Не принимал «нет» за ответ.</TEXT>
+                <TEXT>~y~Вы:~s~ Он вам угрожал или прикасался к вам?</TEXT>
+                <TEXT>~g~Горожанин:~s~ Нет, не совсем... но он был слишком навязчив. Мне было не по себе.</TEXT>
+                <TEXT>~g~Горожанин:~s~ Я понимаю, времена тяжёлые, но меня не должны донимать просто за то, что я иду по улице.</TEXT>
+                <TEXT>~y~Вы:~s~ Хорошо, я поговорю с ним. Спасибо, что сообщили.</TEXT>
             </INTRO>
             <COOPERATIVE>
-                <TEXT>~y~You:~s~ Hey, I need to talk to you. You were asking that woman for money?</TEXT>
-                <TEXT>~o~Tramp:~s~ Yeah… I only asked once. I didn’t mean to scare her.</TEXT>
-                <TEXT>~y~You:~s~ She felt uncomfortable. You can’t approach people like that.</TEXT>
-                <TEXT>~o~Tramp:~s~ I get it, I get it… I wasn’t trying to cause trouble.</TEXT>
-                <TEXT>~y~You:~s~ Good. I need you to leave the area and stop asking strangers for cash.</TEXT>
-                <TEXT>~o~Tramp:~s~ Alright… I’ll move along. Just trying to get by, you know?</TEXT>
-                <TEXT>~y~You:~s~ I understand. But you can’t do it here.</TEXT>
-                <TEXT>~o~Tramp:~s~ Okay… I’m going. Thanks for not making a big deal out of it.</TEXT>
+                <TEXT>~y~Вы:~s~ Эй, мне нужно с вами поговорить. Это вы просили у той женщины деньги?</TEXT>
+                <TEXT>~o~Бездомный:~s~ Да... Я только раз спросил. Я не хотел её пугать.</TEXT>
+                <TEXT>~y~Вы:~s~ Ей было некомфортно. Нельзя так обращаться к людям.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Я понял, понял... Я не хотел создавать проблем.</TEXT>
+                <TEXT>~y~Вы:~s~ Хорошо. Мне нужно, чтобы вы ушли отсюда и перестали просить деньги у незнакомцев.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Ладно... Я пройду дальше. Просто пытаюсь выжить, понимаете?</TEXT>
+                <TEXT>~y~Вы:~s~ Я понимаю. Но здесь этого делать нельзя.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Хорошо... Я ухожу. Спасибо, что не устроили скандал.</TEXT>
             </COOPERATIVE>
             <NONCOMPLIANT>
-                <TEXT>~y~You:~s~ Sir, I need to speak with you. You’ve been asking people for money.</TEXT>
-                <TEXT>~o~Tramp:~s~ So what? I didn’t hurt anyone. I just asked.</TEXT>
-                <TEXT>~y~You:~s~ You made a woman feel uncomfortable. You need to move along.</TEXT>
-                <TEXT>~o~Tramp:~s~ I’m not going anywhere. People walk by all day, I can ask whoever I want.</TEXT>
-                <TEXT>~y~You:~s~ That’s not how it works. You can’t harass passersby.</TEXT>
-                <TEXT>~o~Tramp:~s~ Harass? I barely said anything. She’s overreacting.</TEXT>
-                <TEXT>~y~You:~s~ This is your last warning: stop begging here and leave the area.</TEXT>
-                <TEXT>~o~Tramp:~s~ No. I stay. I got nowhere else to go.</TEXT>
+                <TEXT>~y~Вы:~s~ Гражданин, мне нужно с вами поговорить. Вы просили у людей деньги.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Ну и что? Я никого не тронул. Я просто спросил.</TEXT>
+                <TEXT>~y~Вы:~s~ Вы заставили женщину чувствовать себя неловко. Вам нужно пройти дальше.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Я никуда не уйду. Люди ходят тут весь день, я могу спрашивать у кого хочу.</TEXT>
+                <TEXT>~y~Вы:~s~ Так не пойдёт. Нельзя приставать к прохожим.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Приставать? Я едва слово сказал. Она преувеличивает.</TEXT>
+                <TEXT>~y~Вы:~s~ Последнее предупреждение: прекратите попрошайничать и покиньте это место.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Нет. Я остаюсь. Мне больше некуда идти.</TEXT>
             </NONCOMPLIANT>
             <FIGHT>
-                <TEXT>~y~You:~s~ I’m going to need you to stop bothering people for money. You can’t do that here.</TEXT>
-                <TEXT>~o~Tramp:~s~ Bothering? I just asked a simple question. People are so damn sensitive.</TEXT>
-                <TEXT>~y~You:~s~ She called us because she felt threatened. You need to leave, now.</TEXT>
-                <TEXT>~o~Tramp:~s~ Leave? Why don’t you leave me alone instead?</TEXT>
-                <TEXT>~y~You:~s~ Don’t escalate this. Just walk away.</TEXT>
-                <TEXT>~o~Tramp:~s~ Walk away? I’m sick of being pushed around!</TEXT>
-                <TEXT>~y~You:~s~ Hey — calm down.</TEXT>
-                <TEXT>~o~Tramp:~s~ No! I’m done listening!</TEXT>
-                <TEXT>~o~Tramp:~s~ Come on then! Let’s see what you’ve got!</TEXT>
-                <TEXT>~y~You:~s~ Stop! Don’t do this!</TEXT>
+                <TEXT>~y~Вы:~s~ Мне нужно, чтобы вы перестали донимать людей, выпрашивая деньги. Здесь этого делать нельзя.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Донавил? Я просто задал вопрос. Люди стали чертовски чувствительными.</TEXT>
+                <TEXT>~y~Вы:~s~ Она вызвала нас, потому что почувствовала угрозу. Вам нужно уйти, сейчас же.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Уйти? А может, это вы отстанете от меня?</TEXT>
+                <TEXT>~y~Вы:~s~ Не усугубляйте. Просто уйдите.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Уйти? Я сыт по горло тем, что меня гонят!</TEXT>
+                <TEXT>~y~Вы:~s~ Эй — успокойтесь.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Нет! Я больше не слушаю!</TEXT>
+                <TEXT>~o~Бездомный:~s~ Давай! Посмотрим, на что ты способен!</TEXT>
+                <TEXT>~y~Вы:~s~ Стоп! Не делайте этого!</TEXT>
             </FIGHT>
         </BEGFORMONEY>
         <SLEEPONSTREET>
             <INTRO>
-                <TEXT>~y~You:~s~ Hello, I’m responding to your call. You said someone was lying on the ground?</TEXT>
-                <TEXT>~g~Civilian:~s~ Yes, officer. Right over there. He’s been sleeping on the street for at least an hour.</TEXT>
-                <TEXT>~y~You:~s~ Did you see him move at all? Any signs he might be hurt?</TEXT>
-                <TEXT>~g~Civilian:~s~ Not really… I wasn’t sure if he was okay. That’s why I called. It didn’t look normal.</TEXT>
-                <TEXT>~y~You:~s~ I understand. Thanks for letting us know. We’ll check on him and make sure he’s safe.</TEXT>
-                <TEXT>~g~Civilian:~s~ I just didn’t want him to get run over or something. Cars pass pretty close here.</TEXT>
-                <TEXT>~y~You:~s~ You did the right thing. I’ll take it from here and see if he needs medical help or just needs to move along.</TEXT>
-                <TEXT>~g~Civilian:~s~ Alright… thank you, officer.</TEXT>
+                <TEXT>~y~Вы:~s~ Здравствуйте, я по вашему вызову. Вы говорили, что кто-то лежит на земле?</TEXT>
+                <TEXT>~g~Горожанин:~s~ Да, офицер. Прямо там. Он спит на улице уже как минимум час.</TEXT>
+                <TEXT>~y~Вы:~s~ Вы видели, чтобы он двигался? Может, есть признаки, что он ранен?</TEXT>
+                <TEXT>~g~Горожанин:~s~ Не особо... Я не был уверен, что с ним всё в порядке. Поэтому и позвонил. Выглядело это ненормально.</TEXT>
+                <TEXT>~y~Вы:~s~ Я понимаю. Спасибо, что сообщили. Мы его проверим и убедимся, что он в безопасности.</TEXT>
+                <TEXT>~g~Горожанин:~s~ Я просто не хотел, чтобы его задавили или что-то вроде того. Машины проезжают тут совсем рядом.</TEXT>
+                <TEXT>~y~Вы:~s~ Вы поступили правильно. Я займусь этим и выясню, нужна ли ему медицинская помощь или просто нужно пройти дальше.</TEXT>
+                <TEXT>~g~Горожанин:~s~ Ладно... спасибо, офицер.</TEXT>
             </INTRO>
             <COOPERATIVE>
-                <TEXT>~y~You:~s~ Hey, can you wake up for me? I need to check on you.</TEXT>
-                <TEXT>~o~Tramp:~s~ Huh…? What…? Oh, officer… I must’ve dozed off.</TEXT>
-                <TEXT>~y~You:~s~ Someone called because they were worried about your health. You were lying right by the street.</TEXT>
-                <TEXT>~o~Tramp:~s~ Yeah… I was tired. Didn’t think it was a big deal.</TEXT>
-                <TEXT>~y~You:~s~ I get that, but it’s dangerous here. Cars pass close, you could get hurt.</TEXT>
-                <TEXT>~o~Tramp:~s~ Alright… alright… I’ll get up. Didn’t mean to cause trouble.</TEXT>
-                <TEXT>~y~You:~s~ Good. Just try to find a safer place next time.</TEXT>
-                <TEXT>~o~Tramp:~s~ Will do. Thanks for checking on me.</TEXT>
+                <TEXT>~y~Вы:~s~ Эй, можете проснуться? Мне нужно вас проверить.</TEXT>
+                <TEXT>~o~Бездомный:~s~ М-м?.. Что?.. А, офицер... Я, наверное, задремал.</TEXT>
+                <TEXT>~y~Вы:~s~ Кто-то позвонил, потому что беспокоился о вашем здоровье. Вы лежали прямо у проезжей части.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Да... Я устал. Не думал, что это кого-то побеспокоит.</TEXT>
+                <TEXT>~y~Вы:~s~ Я понимаю, но здесь опасно. Машины проезжают близко, вас могут сбить.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Ладно... ладно... Я встаю. Не хотел создавать проблем.</TEXT>
+                <TEXT>~y~Вы:~s~ Хорошо. Постарайтесь в следующий раз найти место поспокойнее.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Обязательно. Спасибо, что проверили.</TEXT>
             </COOPERATIVE>
             <NONCOMPLIANT>
-                <TEXT>~y~You:~s~ Sir, wake up for me. I need to make sure you're okay.</TEXT>
-                <TEXT>~o~Tramp:~s~ Wha…? I'm fine… leave me be… just trying to sleep.</TEXT>
-                <TEXT>~y~You:~s~ Someone called because they thought you might be hurt. You’re right next to the road.</TEXT>
-                <TEXT>~o~Tramp:~s~ I’m not hurt. I chose this spot. It’s quiet. I’m staying.</TEXT>
-                <TEXT>~y~You:~s~ This place isn’t safe. You can’t sleep here, cars pass dangerously close.</TEXT>
-                <TEXT>~o~Tramp:~s~ I’ve slept in worse places. I’m not moving.</TEXT>
-                <TEXT>~y~You:~s~ I’m giving you the chance to relocate on your own.</TEXT>
-                <TEXT>~o~Tramp:~s~ And I’m telling you no. Just let me sleep.</TEXT>
+                <TEXT>~y~Вы:~s~ Гражданин, проснитесь. Мне нужно убедиться, что с вами всё в порядке.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Чего?.. Я в порядке... отстаньте... просто сплю.</TEXT>
+                <TEXT>~y~Вы:~s~ Кто-то позвонил, потому что подумал, что вы могли пострадать. Вы лежите прямо у дороги.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Я не пострадал. Я сам выбрал это место. Тут тихо. Я остаюсь.</TEXT>
+                <TEXT>~y~Вы:~s~ Здесь небезопасно. Вы не можете здесь спать, машины проезжают опасно близко.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Я спал и в худших местах. Я не сдвинусь.</TEXT>
+                <TEXT>~y~Вы:~s~ Я даю вам шанс переселиться самостоятельно.</TEXT>
+                <TEXT>~o~Бездомный:~s~ А я говорю вам «нет». Просто дайте мне поспать.</TEXT>
             </NONCOMPLIANT>
             <FIGHT>
-                <TEXT>~y~You:~s~ Sir, wake up. I need to check on you and make sure you're safe.</TEXT>
-                <TEXT>~o~Tramp:~s~ What the hell…? Why are you bothering me?</TEXT>
-                <TEXT>~y~You:~s~ Someone was concerned about your condition. You were lying right by traffic.</TEXT>
-                <TEXT>~o~Tramp:~s~ I was sleeping! That’s not a crime!</TEXT>
-                <TEXT>~y~You:~s~ It’s for your safety. I need you to get up and move somewhere safer.</TEXT>
-                <TEXT>~o~Tramp:~s~ I’m not going anywhere! Leave me alone!</TEXT>
-                <TEXT>~y~You:~s~ Calm down. Don't turn this into something it doesn't need to be.</TEXT>
-                <TEXT>~o~Tramp:~s~ No! I’m sick of being pushed around!</TEXT>
-                <TEXT>~o~Tramp:~s~ Get away from me!</TEXT>
-                <TEXT>~y~You:~s~ Don’t do this! Stand down now!</TEXT>
+                <TEXT>~y~Вы:~s~ Гражданин, проснитесь. Мне нужно вас проверить и убедиться, что вы в безопасности.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Какого чёрта?.. Почему вы меня донимаете?</TEXT>
+                <TEXT>~y~Вы:~s~ Кто-то беспокоился о вашем состоянии. Вы лежали прямо у потока машин.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Я спал! Это же не преступление!</TEXT>
+                <TEXT>~y~Вы:~s~ Это для вашей же безопасности. Мне нужно, чтобы вы встали и перешли в более безопасное место.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Я никуда не уйду! Отстаньте от меня!</TEXT>
+                <TEXT>~y~Вы:~s~ Успокойтесь. Не стоит делать из этого того, чем это не является.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Нет! Я сыт по горло тем, что меня гонят!</TEXT>
+                <TEXT>~o~Бездомный:~s~ Отойдите от меня!</TEXT>
+                <TEXT>~y~Вы:~s~ Не делайте этого! Прекратите немедленно!</TEXT>
             </FIGHT>
         </SLEEPONSTREET>
         <TRESPASSING>
             <INTRO>
-                <TEXT>~g~Security:~s~ Officer, thanks for coming so quickly.</TEXT>
-                <TEXT>~g~Security:~s~ We've got a homeless guy sleeping right over there.</TEXT>
-                <TEXT>~g~Security:~s~ He’s been here for a while, and this area is private property. He can’t stay here.</TEXT>
-                <TEXT>~g~Security:~s~ I tried waking him up and asking him to move along, but he barely responded.</TEXT>
-                <TEXT>~g~Security:~s~ Honestly, I’m not sure about his condition. He might be fine, but I didn't want to risk it.</TEXT>
-                <TEXT>~g~Security:~s~ Could you talk to him and make sure he leaves the premises?</TEXT>
+                <TEXT>~g~Охрана:~s~ Офицер, спасибо, что быстро приехали.</TEXT>
+                <TEXT>~g~Охрана:~s~ У нас тут бездомный спит, прямо вон там.</TEXT>
+                <TEXT>~g~Охрана:~s~ Он тут уже какое-то время, а это частная территория. Он не может здесь оставаться.</TEXT>
+                <TEXT>~g~Охрана:~s~ Я пытался его разбудить и попросить уйти, но он почти не отреагировал.</TEXT>
+                <TEXT>~g~Охрана:~s~ Честно говоря, я не уверен в его состоянии. Может, он в порядке, но я не хотел рисковать.</TEXT>
+                <TEXT>~g~Охрана:~s~ Не могли бы вы поговорить с ним и проследить, чтобы он покинул территорию?</TEXT>
             </INTRO>
             <COOPERATIVE>
-                <TEXT>~y~You:~s~ Hey there, can you wake up for me? Security called us because you're on private property.</TEXT>
-                <TEXT>~o~Tramp:~s~ Huh… what? Sorry, I didn't mean to cause trouble.</TEXT>
-                <TEXT>~y~You:~s~ You're not in trouble, but you can't stay here. They were also worried about your condition.</TEXT>
-                <TEXT>~o~Tramp:~s~ I get it… I was just exhausted. I’ll get moving.</TEXT>
-                <TEXT>~y~You:~s~ Alright. If you need assistance or somewhere safer to go, I can point you to some services.</TEXT>
-                <TEXT>~o~Tramp:~s~ Appreciate it, officer. I’ll head out now.</TEXT>
-                <TEXT>~y~You:~s~ Good. Take care of yourself, alright?</TEXT>
+                <TEXT>~y~Вы:~s~ Эй, можете проснуться? Охрана вызвала нас, потому что вы на частной территории.</TEXT>
+                <TEXT>~o~Бездомный:~s~ М-м?.. Что? Извините, я не хотел создавать проблем.</TEXT>
+                <TEXT>~y~Вы:~s~ У вас нет проблем, но оставаться здесь нельзя. Они также беспокоились о вашем состоянии.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Я понимаю... Я просто выбился из сил. Я сейчас уйду.</TEXT>
+                <TEXT>~y~Вы:~s~ Хорошо. Если вам нужна помощь или более безопасное место, я могу подсказать, куда обратиться.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Благодарю, офицер. Я сейчас выйду.</TEXT>
+                <TEXT>~y~Вы:~s~ Хорошо. Берегите себя, ладно?</TEXT>
             </COOPERATIVE>
             <NONCOMPLIANT>
-                <TEXT>~y~You:~s~ Sir, wake up for me. You’re on private property and you can’t stay here.</TEXT>
-                <TEXT>~o~Tramp:~s~ Why… why can’t I just rest? I'm not bothering anyone.</TEXT>
-                <TEXT>~y~You:~s~ Security was concerned about your wellbeing and the fact that you’re trespassing.</TEXT>
-                <TEXT>~o~Tramp:~s~ It’s just a spot to sleep. I’m not hurting anything.</TEXT>
-                <TEXT>~y~You:~s~ I understand you're tired, but you still need to move along. This area isn’t open to the public.</TEXT>
-                <TEXT>~o~Tramp:~s~ I don’t see why I should leave… it’s quiet here.</TEXT>
-                <TEXT>~y~You:~s~ I’m asking you one last time — let’s make this easy. You need to get up and clear the area.</TEXT>
+                <TEXT>~y~Вы:~s~ Гражданин, проснитесь. Вы на частной территории и не можете здесь оставаться.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Почему... почему я не могу просто отдохнуть? Я никому не мешаю.</TEXT>
+                <TEXT>~y~Вы:~s~ Охрана беспокоилась о вашем самочувствии и о том, что вы нарушаете границы.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Это просто место, чтобы поспать. Я ничему не вредю.</TEXT>
+                <TEXT>~y~Вы:~s~ Я понимаю, что вы устали, но вам всё равно нужно пройти дальше. Эта территория не для публики.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Не понимаю, почему я должен уходить... здесь тихо.</TEXT>
+                <TEXT>~y~Вы:~s~ Я прошу вас в последний раз — давайте без осложнений. Вам нужно встать и очистить территорию.</TEXT>
             </NONCOMPLIANT>
             <FIGHT>
-                <TEXT>~y~You:~s~ Sir, wake up. You’re trespassing and you can’t stay here.</TEXT>
-                <TEXT>~o~Tramp:~s~ Back off… I’m not going anywhere!</TEXT>
-                <TEXT>~y~You:~s~ Security was worried something was wrong. I’m trying to help you, but you need to move.</TEXT>
-                <TEXT>~o~Tramp:~s~ Help? You cops never help! Just leave me alone!</TEXT>
-                <TEXT>~y~You:~s~ Calm down. I’m giving you a lawful order to get up and leave the area.</TEXT>
-                <TEXT>~o~Tramp:~s~ I said no! Get away from me!</TEXT>
-                <TEXT>~y~You:~s~ Don’t do something you’ll regret — stop resisting!</TEXT>
+                <TEXT>~y~Вы:~s~ Гражданин, проснитесь. Вы нарушаете границы и не можете здесь оставаться.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Отвали... я никуда не уйду!</TEXT>
+                <TEXT>~y~Вы:~s~ Охрана беспокоилась, что что-то не так. Я пытаюсь вам помочь, но вам нужно уйти.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Помочь? Вы, полицейские, никогда не помогаете! Просто отстаньте от меня!</TEXT>
+                <TEXT>~y~Вы:~s~ Успокойтесь. Я отдаю вам законное распоряжение встать и покинуть территорию.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Я сказал нет! Отойдите от меня!</TEXT>
+                <TEXT>~y~Вы:~s~ Не делайте того, о чём пожалеете — прекратите сопротивление!</TEXT>
             </FIGHT>
         </TRESPASSING>
         <FIREPLACE>
             <INTRO>
-                <TEXT>~g~Security:~s~ Officer, thanks for coming. We've got a homeless guy on the property again.</TEXT>
-                <TEXT>~g~Security:~s~ This time he's actually started a small fire to keep warm, right up against the building.</TEXT>
-                <TEXT>~y~You:~s~ Alright, that’s definitely not safe. Anyone else around or just him?</TEXT>
-                <TEXT>~g~Security:~s~ Just him, but the smoke set off one of our sensors. And he refused to leave when I asked.</TEXT>
-                <TEXT>~y~You:~s~ Got it. I’ll talk to him and get this situation under control.</TEXT>
-                <TEXT>~g~Security:~s~ Please do. He can’t stay here, and that fire is a real hazard.</TEXT>
-                <TEXT>~y~You:~s~ I understand. I’ll make sure he puts out the fire and moves along.</TEXT>
+                <TEXT>~g~Охрана:~s~ Офицер, спасибо, что приехали. У нас снова на территории бездомный.</TEXT>
+                <TEXT>~g~Охрана:~s~ На этот раз он развёл маленький костёр, чтобы согреться, прямо у стены здания.</TEXT>
+                <TEXT>~y~Вы:~s~ Ясно, это определённо небезопасно. Кто-нибудь ещё рядом или только он?</TEXT>
+                <TEXT>~g~Охрана:~s~ Только он, но дым сработал на одном из наших датчиков. И он отказался уходить, когда я его попросил.</TEXT>
+                <TEXT>~y~Вы:~s~ Понял. Я поговорю с ним и возьму ситуацию под контроль.</TEXT>
+                <TEXT>~g~Охрана:~s~ Пожалуйста. Он не может здесь оставаться, и этот огонь — настоящая угроза.</TEXT>
+                <TEXT>~y~Вы:~s~ Я понимаю. Я прослежу, чтобы он потушил огонь и ушёл.</TEXT>
             </INTRO>
             <COOPERATIVE>
-                <TEXT>~y~You:~s~ Hey, sir. I need you to step away from the fire for me.</TEXT>
-                <TEXT>~o~Tramp:~s~ Oh… officer. I was just trying to stay warm.</TEXT>
-                <TEXT>~y~You:~s~ I understand, but this is private property and that fire is a serious hazard.</TEXT>
-                <TEXT>~o~Tramp:~s~ Yeah… I’m sorry. Didn’t mean to cause any trouble.</TEXT>
-                <TEXT>~y~You:~s~ It’s alright. I just need you to put the fire out and move along.</TEXT>
-                <TEXT>~o~Tramp:~s~ Okay, okay. I’ll leave. I don’t want any problems.</TEXT>
-                <TEXT>~y~You:~s~ Good. Take care of yourself and stay safe out there.</TEXT>
+                <TEXT>~y~Вы:~s~ Эй, гражданин. Мне нужно, чтобы вы отошли от огня.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Ох... офицер. Я просто пытался согреться.</TEXT>
+                <TEXT>~y~Вы:~s~ Я понимаю, но это частная территория, и этот огонь представляет серьёзную опасность.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Да... извините. Не хотел никому мешать.</TEXT>
+                <TEXT>~y~Вы:~s~ Всё в порядке. Мне просто нужно, чтобы вы потушили огонь и прошли дальше.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Ладно, ладно. Я уйду. Я не хочу никаких проблем.</TEXT>
+                <TEXT>~y~Вы:~s~ Хорошо. Берегите себя и оставайтесь в безопасности.</TEXT>
             </COOPERATIVE>
             <NONCOMPLIANT>
-                <TEXT>~y~You:~s~ Sir, I need you to put out the fire and step away from this area.</TEXT>
-                <TEXT>~o~Tramp:~s~ Why? I’m not hurting anyone. I just needed warmth.</TEXT>
-                <TEXT>~y~You:~s~ This is private property and you can’t stay here. The fire is also dangerous.</TEXT>
-                <TEXT>~o~Tramp:~s~ It's under control. I know what I’m doing.</TEXT>
-                <TEXT>~y~You:~s~ That doesn’t change the situation. You need to move along.</TEXT>
-                <TEXT>~o~Tramp:~s~ I don’t see why I have to leave. It’s just one night.</TEXT>
-                <TEXT>~y~You:~s~ I’m giving you a lawful order. Don’t make this harder than it has to be.</TEXT>
+                <TEXT>~y~Вы:~s~ Гражданин, мне нужно, чтобы вы потушили огонь и отошли от этого места.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Почему? Я никому не мешаю. Мне просто нужно было согреться.</TEXT>
+                <TEXT>~y~Вы:~s~ Это частная территория, и вы не можете здесь оставаться. К тому же, огонь опасен.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Всё под контролем. Я знаю, что делаю.</TEXT>
+                <TEXT>~y~Вы:~s~ Это не меняет ситуацию. Вам нужно пройти дальше.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Не понимаю, почему я должен уходить. Всего на одну ночь.</TEXT>
+                <TEXT>~y~Вы:~s~ Я отдаю вам законное распоряжение. Не заставляйте усложнять.</TEXT>
             </NONCOMPLIANT>
             <FIGHT>
-                <TEXT>~y~You:~s~ Sir, police. Step away from the fire and talk to me.</TEXT>
-                <TEXT>~o~Tramp:~s~ Get lost… I’m not going anywhere!</TEXT>
-                <TEXT>~y~You:~s~ This is private property and that fire is a hazard. You need to put it out now.</TEXT>
-                <TEXT>~o~Tramp:~s~ I don’t take orders from you! Leave me alone!</TEXT>
-                <TEXT>~y~You:~s~ Calm down. I’m trying to resolve this peacefully.</TEXT>
-                <TEXT>~o~Tramp:~s~ Peaceful? You’re here to kick me out! Forget it!</TEXT>
-                <TEXT>~y~You:~s~ Don’t do this. Put your hands where I can see them — now!</TEXT>
+                <TEXT>~y~Вы:~s~ Гражданин, полиция. Отойдите от огня и поговорите со мной.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Отвали... я никуда не уйду!</TEXT>
+                <TEXT>~y~Вы:~s~ Это частная территория, и этот огонь представляет угрозу. Вам нужно потушить его сейчас же.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Я не собираюсь выполнять ваши приказы! Отстаньте от меня!</TEXT>
+                <TEXT>~y~Вы:~s~ Успокойтесь. Я пытаюсь решить это мирно.</TEXT>
+                <TEXT>~o~Бездомный:~s~ Мирно? Вы здесь для того, чтобы выгнать меня! Забудьте!</TEXT>
+                <TEXT>~y~Вы:~s~ Не делайте этого. Руки, где я их вижу — сейчас же!</TEXT>
             </FIGHT>
         </FIREPLACE>
     </SCENARIO>
