@@ -1,100 +1,100 @@
 <ConvenienceStoreDispute>
 
     <General>
-        <Text>Convenience Store Dispute</Text>
-        <Text>Solve the discrepancy</Text>
+        <Text>コンビニでの喧嘩</Text>
+        <Text>不一致を解決してください</Text>
     </General>
 
     <Persons>
-        <Text>~y~You:~s~ </Text>
-        <Text>~HC_7~Lady:~s~ </Text>
-        <Text>~b~Clerk:~s~ </Text>
+        <Text>~y~あなた:~s~ </Text>
+        <Text>~HC_7~女性:~s~ </Text>
+        <Text>~b~店員:~s~ </Text>
     </Persons>
 
     <D_Argue>
-        <Dialogue>Officer! The clerk doesn't want to take my coupon!</Dialogue>
-        <Dialogue>M'am, I already told you, this coupon is invalid. I can't accept it.</Dialogue>
-        <Dialogue>That's ridicolous, it's valid! I do have rights! You can't refuse to take it!</Dialogue>
-        <Dialogue>Officer, may you please take a look at it and clarify?</Dialogue>
-        <Dialogue>Sure, let me see it...</Dialogue>
-        <Dialogue>* Looks at coupon... *</Dialogue>
+        <Dialogue>お巡りさん！この店員、私のクーポンを使わせてくれないのよ！</Dialogue>
+        <Dialogue>お客様、何度も申し上げた通り、このクーポンは無効なんです。お受けできません。</Dialogue>
+        <Dialogue>ふざけないで、有効に決まってるわ！私には権利があるのよ！拒否するなんて許されないわ！</Dialogue>
+        <Dialogue>お巡りさん、これを見てはっきりさせていただけますか？</Dialogue>
+        <Dialogue>分かりました、見せてください……。</Dialogue>
+        <Dialogue>（クーポンを確認する……）</Dialogue>
     </D_Argue>
 
     <D_Expired>
-        <Dialogue>* Coupon for 30 $ at 24/7 market, expires on 06/01/2024 *</Dialogue>
-        <Dialogue>The coupon is definitely expired.</Dialogue>
+        <Dialogue>（24/7マーケットの30ドル分クーポン。有効期限は2024年6月1日で切れている）</Dialogue>
+        <Dialogue>このクーポンは完全に期限切れですね。</Dialogue>
     </D_Expired>
 
     <D_Manipulated>
-        <Dialogue>* You can see the 24/7 market coupon for 30$ is manipulated to 60 $ *</Dialogue>
-        <Dialogue>This coupon has been manipulated. Look, the numbers were changed.</Dialogue>
+        <Dialogue>（24/7マーケットの30ドル分のクーポンが、60ドルに改ざんされているのが分かる）</Dialogue>
+        <Dialogue>このクーポンは細工されていますね。ほら、数字が書き換えられています。</Dialogue>
     </D_Manipulated>
 
     <D_RefuseLeave>
-        <Dialogue>This can't be real! You're lying!</Dialogue>
-        <Dialogue>Officer, that's racist! I won't go before I receive my right!</Dialogue>
+        <Dialogue>そんなはずないわ！嘘よ！</Dialogue>
+        <Dialogue>お巡りさん、それは差別よ！自分の権利が認められるまで、私は一歩も動かないから！</Dialogue>
     </D_RefuseLeave>
 
     <D_Run>
-        <Dialogue>Everybody is against me! Forget it, I won't pay this!</Dialogue>
+        <Dialogue>どいつもこいつも私に逆らって！もういいわ、こんなの払わないから！</Dialogue>
     </D_Run>
 
     <D_Fight>
-        <Dialogue>I have enough of your bullshit!</Dialogue>
-        <Dialogue>And you Officer, are part of the problem!!! Aaaaaargh!</Dialogue>
+        <Dialogue>あんたたちのデタラメにはもうウンザリよ！</Dialogue>
+        <Dialogue>それにあんた、お巡りさん！あんたも同罪よ！！！あぁぁぁぁぁ！</Dialogue>
     </D_Fight>
 
     <D_Taser>
-        <Dialogue>How dare you threaten me!</Dialogue>
-        <Dialogue>ASSAULT! You have attacked me!</Dialogue>
-        <Dialogue>This is self-defense!</Dialogue>
+        <Dialogue>よくも私を脅したわね！</Dialogue>
+        <Dialogue>暴行よ！あんた私を攻撃したわね！</Dialogue>
+        <Dialogue>これは正当防衛よ！</Dialogue>
     </D_Taser>
 
 
 
     <D_Eco_Argue>
-        <Dialogue>This is outrageous! Look at this packaging! Plastic everywhere! Are you trying to kill the planet?</Dialogue>
-        <Dialogue>Ma'am, I understand your concern, but we don't manufacture the products. We just sell them.</Dialogue>
-        <Dialogue>Just sell them? So you're complicit! Selling non-eco-friendly products is basically illegal!</Dialogue>
-        <Dialogue>Ma'am, that's not true. There are no laws against this packaging—</Dialogue>
-        <Dialogue>Don't lie to me! I'll have this store shut down for engaging in illegal activities! You're part of the problem! You're a—you're a murderer!</Dialogue>
-        <Dialogue>Excuse me? Alright Officer, please remove her from the store and M'am, you're banned from this store from now on.</Dialogue>
+        <Dialogue>信じられないわ！この包装を見てちょうだい！プラスチックだらけじゃない！地球を殺す気なの？</Dialogue>
+        <Dialogue>お客様、お気持ちは分かりますが、うちは商品を製造しているわけではありません。販売しているだけです。</Dialogue>
+        <Dialogue>売っているだけ？共犯だって言ってるのよ！環境に優しくない商品を売るなんて、実質的に違法よ！</Dialogue>
+        <Dialogue>お客様、そんなことはありません。この包装を禁止する法律なんて——</Dialogue>
+        <Dialogue>私に嘘をつかないで！違法行為をしてる店なんて畳ませてやるわ！あんたも問題の一部よ！この——この人殺し！</Dialogue>
+        <Dialogue>なんですって？……お巡りさん、彼女を店から連れ出してください。お客様、あなたは今後出入り禁止です。</Dialogue>
     </D_Eco_Argue>
 
     <D_Eco_RefuseLeave>
-        <Dialogue>I will not leave this store until this criminal is arrested!</Dialogue>
-        <Dialogue>Ma'am, I understand you're upset, but this is not a criminal matter. You need to leave the store, or I'll have to remove you myself.</Dialogue>
-        <Dialogue>I refuse! If you don't arrest this murderer, then YOU'RE complicit too! I'll stay here all day if I have to!</Dialogue>
+        <Dialogue>この犯罪者が逮捕されるまで、絶対にここを動かないわ！</Dialogue>
+        <Dialogue>お客様、お怒りは分かりますが、これは刑事事件ではありません。店を出てください。さもないと、私が実力で行使することになります。</Dialogue>
+        <Dialogue>断るわ！この人殺しを逮捕しないなら、あんたも共犯よ！必要なら一日中でもここにいてやるわ！</Dialogue>
     </D_Eco_RefuseLeave>
 
     <D_Eco_FleeWPackage>
-        <Dialogue>You know what? If you won't fix it, I'll do it myself! This ends now!</Dialogue>
-        <Dialogue>I'm saving the planet! This belongs in proper disposal, not on your filthy shelves!</Dialogue>
-        <Dialogue>Ma'am, that's theft. Put the item down and step away.</Dialogue>
-        <Dialogue>It's not theft if I'm saving humanity! Arrest THEM for stocking this garbage!</Dialogue>
-        <Dialogue>Ma'am, this is your last warning. Drop the item and cooperate, or you'll be placed under arrest.</Dialogue>
+        <Dialogue>いいわよ。あんたたちが解決しないなら、私が自分でやるわ！これで終わりよ！</Dialogue>
+        <Dialogue>私は地球を救うのよ！これは適切な場所に廃棄されるべきであって、あんたたちの汚い棚に置くべきじゃないわ！</Dialogue>
+        <Dialogue>お客様、それは窃盗になります。商品を置いて、離れてください。</Dialogue>
+        <Dialogue>人類を救うのが窃盗なわけないでしょ！こんなゴミを置いているこいつらを逮捕しなさいよ！</Dialogue>
+        <Dialogue>お客様、これが最後の警告です。商品を置いて協力してください。さもないと逮捕します。</Dialogue>
     </D_Eco_FleeWPackage>
 
     <D_Eco_Argumentative>
-        <Dialogue>Officer! You need to arrest this man immediately! He's a murderer! Selling all this plastic — he's practically choking the Earth himself!</Dialogue>
-        <Dialogue>Ma'am, this isn't a criminal matter. Now, if you—</Dialogue>
-        <Dialogue>Don't even start with me! Where's your supervisor? I want their name. And YOU— * pointing at the officer * —I want your name and badge number! RIGHT NOW!</Dialogue>
-        <Dialogue>Ma'am, we're not doing this. Either leave the store, or I'll have to escort you out.</Dialogue>
-        <Dialogue>Oh, I'd love to see you try! I'm going to report ALL of you! Corporate, the mayor, the media—everyone will hear about this!</Dialogue>
+        <Dialogue>お巡りさん！この男を今すぐ逮捕して！こいつは人殺しよ！こんなにプラスチックを売り飛ばして——地球の首を絞めているようなものだわ！</Dialogue>
+        <Dialogue>お客様、これは事件ではありません。さて、あなたが——</Dialogue>
+        <Dialogue>私に指図しないで！上司はどこ？名前を教えなさい。それからあんたも——（警官を指差して）——名前とバッジ番号を言いなさい！今すぐよ！</Dialogue>
+        <Dialogue>お客様、その要求には応じられません。店を出るか、私が外へお連れするか選んでください。</Dialogue>
+        <Dialogue>あら、できるものならやってみなさいよ！全員通報してやるわ！本社にも、市長にも、メディアにも——全員に言いふらしてやるんだから！</Dialogue>
     </D_Eco_Argumentative>
 
     <D_Eco_Taser>
-        <Dialogue>Oh, so now you're threatening me? I feel so unsafe right now! This is assault!</Dialogue>
-        <Dialogue>Ma'am, no one is threatening you. Please calm—</Dialogue>
-        <Dialogue>ASSAULT! YOU ASSAULTED ME! Everyone saw it!</Dialogue>
-        <Dialogue>Ma'am, no one has touched you. Let's just—</Dialogue>
-        <Dialogue>Don't you talk to me, murderer!</Dialogue>
+        <Dialogue>あら、今度は私を脅すつもり？すごく怖いんですけど！これって暴行罪よね！</Dialogue>
+        <Dialogue>お客様、誰もあなたを脅してはいません。落ち着いて——</Dialogue>
+        <Dialogue>暴行よ！あんたが私に暴行したのよ！みんな見てたわ！</Dialogue>
+        <Dialogue>お客様、誰もあなたに触れていません。ひとまず——</Dialogue>
+        <Dialogue>私に話しかけないで、人殺し！</Dialogue>
     </D_Eco_Taser>
 
 
 
     <End>
-        <Text>Callout is Code 4.</Text>
+        <Text>コールアウトはコード4です。</Text>
     </End>
 
 </ConvenienceStoreDispute>

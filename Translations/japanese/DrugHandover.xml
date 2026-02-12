@@ -1,56 +1,56 @@
 <DrugHandover>
 
     <General>
-        <CalloutMessage>Drug Handover</CalloutMessage>
-        <CalloutAdvisory>~o~Intercept the meeting as a special force sniper~s~</CalloutAdvisory>
+        <CalloutMessage>薬物取引</CalloutMessage>
+        <CalloutAdvisory>~o~特殊部隊の狙撃手として取引を阻止せよ~s~</CalloutAdvisory>
     </General>
 
     <Persons>
-        <Text>You</Text>
-        <Text>Officer</Text>
+        <Text>あなた</Text>
+        <Text>警察官</Text>
     </Persons>
 
     <EState>
         <Meeting>
             <D_Briefing>
-                <Dialogue>Hello, thanks for joining us.</Dialogue>
-                <Dialogue>This briefing is intended to give you an overview of what's going on.</Dialogue>
-                <Dialogue>We have reports of a illegal drug handover taking place today at the Sandy Shores Airfield.</Dialogue>
-                <Dialogue>Since you're one of the best trained sniper elites, your job is to scout and call us once a drug deal is made.</Dialogue>
-                <Dialogue>We will then come in hot with 2 unmarked units and 1 swat bearcat. If we're taking fire, your job is to take them out.</Dialogue>
-                <Dialogue>We have spotted a good sniper position for you on one of the buildings next to the airfield.</Dialogue>
-                <Dialogue>But for now, first choose a sniper, for that in the police station right there on the table.</Dialogue>
+                <Dialogue>よく来てくれた。協力に感謝する。</Dialogue>
+                <Dialogue>今回の状況を把握してもらうためにブリーフィングを行う。</Dialogue>
+                <Dialogue>本日、サンディ海岸飛行場で不法な薬物の受け渡しが行われるとの情報が入った。</Dialogue>
+                <Dialogue>君はエリート狙撃兵として訓練を受けている。仕事は監視を行い、取引が行われた瞬間に我々に連絡することだ。</Dialogue>
+                <Dialogue>連絡を受け次第、覆面パトカー2台とSWATの装甲車1台で突入する。もしこちらが撃たれた場合は、敵を排除してくれ。</Dialogue>
+                <Dialogue>飛行場近くの建物に、君のための最適な狙撃ポイントを確保してある。</Dialogue>
+                <Dialogue>まずは、署内のテーブルにあるスナイパーライフルを選んで装備してくれ。</Dialogue>
             </D_Briefing>
-            <Text>Get yourself a sniper in the police station.</Text>
+            <Text>警察署内でスナイパーライフルを装備してください。</Text>
         </Meeting>
 
         <Weapon>
             <WeaponSelector>
-                <Text>Weapon Chooser</Text>
-                <Text>Weapons</Text>
-                <Text>Select a Weapon</Text>
-                <Text>You have equipped the </Text> <!--WeaponType is harcoded in english-->
-            </WeaponSelector>
-            <Text>Now drive to the scene and prepare.</Text>
+                <Text>武器選択</Text>
+                <Text>武器一覧</Text>
+                <Text>武器を選択してください</Text>
+                <Text>以下の武器を装備しました： </Text> 
+                </WeaponSelector>
+            <Text>現場へ向かい、待機してください。</Text>
         </Weapon>
 
         <DriveToScene>
-            <Text>This is the reported ~o~drug handover meeting point~s~. You'll now see on the minimap where ~g~your sniper position~s~ will be, go on the roof there.</Text>
+            <Text>ここが報告のあった ~o~薬物取引の場所~s~ です。ミニマップに表示された ~g~狙撃ポイント~s~ （屋上）へ向かってください。</Text>
         </DriveToScene>
 
         <IsAtÜbergabeort>
-            <Text>Now wait for the ~r~actual handover.</Text>
+            <Text>~r~取引~s~ が始まるまで待機してください。</Text>
         </IsAtÜbergabeort>
     </EState>
 
     <Scenarios>
-        <Text>Once the ~g~handover~s~ is done, go in and arrest the ~r~suspects!</Text>
-        <Text>We have ~r~shots fired!</Text>
-        <Text>The ~r~suspects~s~ are leaving, secure the ~g~case!</Text>
-        <Text>The suspects are ~r~fleeing~s~, we are pursuing!</Text>
-        <Text>The suspects are surrendering!</Text>
-        <Text>You can pick up the ~g~case~s~ with {0}.</Text>
-        <Text>~g~Case~s~ secured!</Text>
+        <Text>~g~取引~s~ が完了したら突入し、~r~容疑者~s~ を逮捕してください！</Text>
+        <Text>~r~発砲を確認！~s~</Text>
+        <Text>~r~容疑者~s~ が逃走を図っている。~g~アタッシュケース~s~ を確保しろ！</Text>
+        <Text>容疑者が ~r~逃走中~s~ です。追跡を開始します！</Text>
+        <Text>容疑者が降伏しています！</Text>
+        <Text>{0} を押して ~g~アタッシュケース~s~ を回収できます。</Text>
+        <Text>~g~アタッシュケース~s~ を確保しました！</Text>
     </Scenarios>
 
 </DrugHandover>

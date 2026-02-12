@@ -1,31 +1,31 @@
 <Burglary>
 
     <General>
-        <CalloutMessage>Citizen reports a Burglary</CalloutMessage>
-        <Text>Drive to the Burglary, proceed with caution.</Text>
-        <Text>Search for evidence, press {0} to pick up.</Text>
-        <Text>Inspect the area around the house.</Text>
+        <CalloutMessage>住居侵入の通報あり</CalloutMessage>
+        <Text>現場へ向かい、警戒を確保してください。</Text>
+        <Text>証拠品を捜索し、{0} で回収してください。</Text>
+        <Text>住宅の周囲を確認してください。</Text>
     </General>
 
     <FalseAlarm>
-        <Dialogue>Dispatch, nothing going on here.</Dialogue>
-        <Dialogue>Copy that, go back to patrol.</Dialogue>
+        <Dialogue>指令部、こちらは異常なし。誤報だと思われる。</Dialogue>
+        <Dialogue>了解。パトロールに復帰せよ。</Dialogue>
     </FalseAlarm>
 
     <AnimalOnScene>
-        <Dialogue>Dispatch, false alarm, just an animal causing chaos.</Dialogue>
-        <Dialogue>Copy that, go back to patrol.</Dialogue>
+        <Dialogue>指令部、誤報だ。動物が騒ぎを起こしていただけだった。</Dialogue>
+        <Dialogue>了解した。パトロールに戻れ。</Dialogue>
     </AnimalOnScene>
 
     <BurglarLeft>
-        <Dialogue>Dispatch, we have signs of an intruder here, searching the scene.</Dialogue>
-        <Dialogue>Hmmm, that doesn't help.</Dialogue>
-        <Dialogue>Dispatch, I found a document of {DriversName}.</Dialogue>
-        <Dialogue>I got an ALPR hit on a speeding vehicle, owner is {DriversName}.</Dialogue>
+        <Dialogue>指令部、侵入の形跡あり。これより現場を捜索する。</Dialogue>
+        <Dialogue>ふむ、これでは手掛かりにならないな。</Dialogue>
+        <Dialogue>指令部、{DriversName} 名義の書類を発見した。</Dialogue>
+        <Dialogue>速度超過車両がALPRにヒット。所有者は {DriversName} だ。</Dialogue>
     </BurglarLeft>
 
     <BurglarIsLeaving>
-        <Dialogue>Dispatch, one Vehicle ~r~fleeing~s~, two occupants!</Dialogue>
+        <Dialogue>指令部、車両が1台 ~r~逃走~s~ 中！ 2名乗車している！</Dialogue>
     </BurglarIsLeaving>
 
 </Burglary>
