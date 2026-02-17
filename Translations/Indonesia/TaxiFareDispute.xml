@@ -1,0 +1,32 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Ribut Ongkos Taksi</CALLOUTMESSAGE>
+    <CALLOUTADVISORY></CALLOUTADVISORY>
+    <TASK>Gas ke lokasi dan selesaikan ributnya.</TASK>
+    <D_PEACEFUL>
+        <DIALOGUE>~y~Kamu:~s~ Oke, ada apa nih?</DIALOGUE>
+        <DIALOGUE>~b~Supir:~s~ Pak Polisi, orang ini naik taksi saya, pas sampai dia langsung turun dan nggak mau bayar!</DIALOGUE>
+        <DIALOGUE>~p~Penumpang:~s~ Karena dia muter-muter jauh banget! Aku cek peta, dia tambah minimal 10 blok ekstra. Aku nggak mau bayar segitu!</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Lihat deh, berantem nggak bakal selesai. Gimana kalau kita cari jalan tengah?</DIALOGUE>
+        <DIALOGUE>~b~Supir:~s~ Jalan tengah? Aku anter dia sampe sini, dia harus bayar ongkos. Itu aturannya!</DIALOGUE>
+        <DIALOGUE>~p~Penumpang:~s~ Iya? Terus soal jalan memutar yang kamu tambahin buat nipu aku gimana?</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Gini aja – supir kasih diskon kecil, penumpang bayar sisanya. Biar dua-duanya senang, gimana?</DIALOGUE>
+        <DIALOGUE>~b~Supir:~s~ Ugh… ya udah deh. Aku kasih diskon 20%. Itu penawaran terakhir.</DIALOGUE>
+        <DIALOGUE>~p~Penumpang:~s~ Oke lah… masih ngerasa nggak adil, tapi ya sudahlah. Nih, ambil uangnya.</DIALOGUE>
+    </D_PEACEFUL>
+    <D_FIGHT>
+        <DIALOGUE>~y~Kamu:~s~ Ada apa nih?</DIALOGUE>
+        <DIALOGUE>~b~Supir:~s~ Orang ini naik taksi aku terus nggak mau bayar! Buang-buang waktu aku, aku nggak kerja gratisan!</DIALOGUE>
+        <DIALOGUE>~p~Penumpang:~s~ Diam lu! Lu pikir aku nggak notice lu muter jauh banget? Lu nipu aku, aku nggak kasih sepeser pun!</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Pak, lu naik taksi berarti lu harus bayar. Itu aturannya.</DIALOGUE>
+        <DIALOGUE>~p~Penumpang:~s~ Kayak neraka! Si penipu ini pikir bisa manfaatin orang!</DIALOGUE>
+        <DIALOGUE>~b~Supir:~s~ Lu yang penipu! Aku kasih jasa, lu malah mau kabur bayar!</DIALOGUE>
+        <DIALOGUE>~p~Penumpang:~s~ Mau ambil duit aku? Coba aja!</DIALOGUE>
+    </D_FIGHT>
+    <END>
+        <TEXT>{CalloutMessage} Code 4. Lanjut patroli biasa.</TEXT>
+        <TEXT>{CalloutMessage} selesai. Lanjut shift kamu.</TEXT>
+        <TEXT>{CalloutMessage} beres. Balik tugas patroli.</TEXT>
+        <TEXT>{CalloutMessage} over. Kembali ke patroli standar.</TEXT>
+        <TEXT>{CalloutMessage} complete. Kamu boleh lanjut patroli lagi.</TEXT>
+    </END>
+</CALLOUT>
