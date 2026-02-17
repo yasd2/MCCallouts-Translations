@@ -1,0 +1,50 @@
+<Shooting>
+
+    <General>
+        <Text>Tembak-menembak</Text>
+        <Text>Dua orang lagi saling tembak pake pistol</Text>
+        <Text>Gas ke TKP ~b~Code 3~s~, dua penembak, ~r~hati-hati~s~, ~r~tembakan~s~ udah ~r~terjadi~s~!</Text>
+        <Text>~y~Kamu~s~: ~p~Lepas ~r~senjata~s~ kalian, ~b~Polisi~s~!!!</Text>
+        <Text>Panggil backup!</Text>
+        <Text></Text>
+        <Text></Text>
+    </General>
+
+
+    <Outcomes>
+
+        <StillShooting>
+            <Text>~y~Kamu~s~: Kayaknya mereka nggak denger, pakai ~r~kekuatan~s~ atau ~o~lakuin~s~ sesuai yang kamu ~o~anggap benar~s~!</Text>
+        </StillShooting>
+
+        <Surrender>
+            <Text>~r~Tersangka Pertama~s~: Jangan tembak, aku ~g~nyerah~s~!</Text>
+            <Text>~p~Tersangka Kedua~s~: Aku juga ~g~nyerah~s~!</Text>
+        </Surrender>
+
+        <ShootAtPlayer>
+            <Text>Tembakan ke arah polisi!</Text>
+            <Text>~p~Tersangka~s~: Aku nyerah, masukin aku ke bui aja, udah capek.</Text>
+        </ShootAtPlayer>
+
+    </Outcomes>
+
+    <Arrest>
+        <Text>Dispatch, satu tersangka ~y~udah ditangkap~w~!</Text>
+        <Text>Dispatch, satu tersangka ~o~ambruk~w~!</Text>
+    </Arrest>
+
+    <OnScene>
+        <Text>Panggil ~b~transport~s~ buat kedua ~r~tersangka~s~.</Text>
+        <Text>Panggil ~b~transport~s~ dan ~p~coroner~s~ buat masing-masing ~r~tersangka~s~.</Text>
+        <Text>Panggil ~p~coroner~s~ buat kedua ~r~tersangka~s~.</Text>
+    </OnScene>
+
+    <End>
+        <Text>Ada ~r~error ped GTA~s~, panggilan ~g~selesai~s~</Text>
+        <Text>~y~Kamu~s~ tewas, panggilan ~g~selesai~s~</Text>
+        <Text>Panggilan selesai</Text>
+        <Text>~g~Code 4~s~, ~b~bersihin~s~ ~b~TKP~s~ dan balik ~g~patroli~s~.</Text>
+    </End>
+
+</Shooting>
