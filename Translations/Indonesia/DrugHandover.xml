@@ -1,0 +1,56 @@
+<DrugHandover>
+
+    <General>
+        <CalloutMessage>Penyerahan Narkoba</CalloutMessage>
+        <CalloutAdvisory>~o~Cegah pertemuan sebagai sniper pasukan khusus~s~</CalloutAdvisory>
+    </General>
+
+    <Persons>
+        <Text>Kamu</Text>
+        <Text>Polisi</Text>
+    </Persons>
+
+    <EState>
+        <Meeting>
+            <D_Briefing>
+                <Dialogue>Halo, terima kasih sudah bergabung.</Dialogue>
+                <Dialogue>Briefing ini untuk memberi gambaran umum tentang situasi.</Dialogue>
+                <Dialogue>Kami dapat laporan ada penyerahan narkoba ilegal hari ini di Lapangan Terbang Grapeseed.</Dialogue>
+                <Dialogue>Karena kamu salah satu sniper elit terbaik yang terlatih, tugasmu adalah mengintai dan beri tahu kami begitu transaksi narkoba terjadi.</Dialogue>
+                <Dialogue>Kami akan masuk langsung dengan 2 unit tanpa tanda dan 1 BearCat SWAT. Kalau kami diserang, tugasmu adalah menjatuhkan mereka.</Dialogue>
+                <Dialogue>Kami sudah temukan posisi sniper bagus untukmu di salah satu atap gedung di sebelah lapangan terbang.</Dialogue>
+                <Dialogue>Tapi untuk sekarang, pertama-tama pilih senjata sniper dulu. Ada di atas meja di kantor polisi di sana.</Dialogue>
+            </D_Briefing>
+            <Text>Ambil senjata sniper di kantor polisi.</Text>
+        </Meeting>
+
+        <Weapon>
+            <WeaponSelector>
+                <Text>Pemilih Senjata</Text>
+                <Text>Senjata</Text>
+                <Text>Pilih Senjata</Text>
+                <Text>Kamu telah membekali </Text> <!--WeaponType is hardcoded in english-->
+            </WeaponSelector>
+            <Text>Sekarang berkendara ke lokasi dan siapkan diri.</Text>
+        </Weapon>
+
+        <DriveToScene>
+            <Text>Ini titik pertemuan ~o~penyerahan narkoba~s~ yang dilaporkan. Kamu sekarang akan lihat di minimap di mana ~g~posisi sniper-mu~s~, naik ke atap di sana.</Text>
+        </DriveToScene>
+
+        <IsAtÜbergabeort>
+            <Text>Sekarang tunggu ~r~penyerahan sebenarnya~s~.</Text>
+        </IsAtÜbergabeort>
+    </EState>
+
+    <Scenarios>
+        <Text>Begitu ~g~penyerahan~s~ selesai, masuk dan tangkap ~r~tersangka~s~!</Text>
+        <Text>Ada ~r~tembakan~s~!</Text>
+        <Text>~r~Tersangka~s~ kabur, amankan ~g~koper~s~!</Text>
+        <Text>Tersangka sedang ~r~kabur~s~, kami sedang kejar!</Text>
+        <Text>Tersangka menyerah!</Text>
+        <Text>Kamu bisa ambil ~g~koper~s~ dengan {0}.</Text>
+        <Text>~g~Koper~s~ sudah diamankan!</Text>
+    </Scenarios>
+
+</DrugHandover>
