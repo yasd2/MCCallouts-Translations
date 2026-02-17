@@ -1,0 +1,36 @@
+<ZombiesReported>
+
+    <General>
+        <Text>Ada warga lapor lihat zombi</Text>
+        <Text>Gas ke warga yang lapor, ~r~Code 3~s~.</Text>
+    </General>
+
+    <Persons>
+        <Text>Kamu</Text>
+        <Text>Warga</Text>   
+    </Persons>
+
+    <Civilian>
+        <Dialogue>Halo, kamu baik-baik aja?</Dialogue>
+        <Dialogue>Kamu nggak bakal percaya... aku lihat zombi!</Dialogue>
+        <Dialogue>Oke, semuanya bakal baik-baik aja...</Dialogue>
+        <Dialogue>Itu dia—aaaaaah!</Dialogue>
+    </Civilian>
+
+    <Civilian2>
+        <Dialogue>Hai, ada apa nih?</Dialogue>
+        <Dialogue>Aku kayaknya gila... aku lihat zombi berkeliaran...</Dialogue>
+        <Dialogue>Sial, kamu yakin?</Dialogue>
+        <Dialogue>Ya Tuhan, itu dia—lari!</Dialogue>
+    </Civilian2>
+
+    <Wave>
+        <Text>Gelombang {WaveNumber} mulai!</Text>
+        <Text>~g~Gelombang {WaveNumber} selesai</Text>
+        <Text>~o~Gelombang {WaveNumber} mulai dalam {time} detik~s~</Text>
+        <Text>Selamat, 10 gelombang dikuasai.</Text>
+        <Text>Tekan ~y~End~s~ kapan aja buat akhiri panggilan.</Text>
+        <Text>Gelombang {WaveNumber}</Text>
+    </Wave>
+
+</ZombiesReported>
