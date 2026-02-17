@@ -1,0 +1,45 @@
+<StreetRace>
+
+    <CalloutMessage>Operasi Balapan Liar Undercover</CalloutMessage>
+    <CalloutAdvisory>~s~Cek ~y~pertemuan mobil~s~ yang ~o~mungkin jadi balapan liar~s~</CalloutAdvisory>
+    <Task>Gas ke ~y~lokasi pertemuan mobil~s~.</Task>
+
+    <Telephone>
+        <Help>Kamu bisa atur volume telepon pake {J}</Help>
+        <Ring>*Telepon berdering* - Tekan ~y~{Y}~s~ dua kali buat angkat telepon.</Ring>
+        <Dialogue>~g~Detektif:~s~ Halo, ini Detektif Barker! Kita punya misi baru nih.</Dialogue>
+        <Dialogue>~g~Detektif:~s~ Ada pertemuan mobil di ~y~{ZONE}~s~.</Dialogue>
+        <Dialogue>~g~Detektif:~s~ Tugas kamu ke sana undercover, pura-pura jadi spotter mobil.</Dialogue>
+        <Dialogue>~g~Detektif:~s~ Kalau ternyata ada balapan liar, kamu bisa langsung panggil pengejaran atau tunggu bentar.</Dialogue>
+        <Dialogue>~g~Detektif:~s~ Sekarang langsung gas ke pertemuan mobilnya. Semangat!</Dialogue>
+    </Telephone>
+
+    <Driver1>
+        <Dialogue>~o~{NAME}:~s~ Yo bro, lagi cari mobil cepet dan keren nih?</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Cek nih ~b~{CARMODEL}~s~ aku!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Mau duduk di dalam boleh, tapi jangan nyetir keliling ya!</Dialogue>
+    </Driver1>
+
+    <Driver6>
+        <Dialogue>~o~{NAME}:~s~ Halo bro! Tempatnya mantap nih buat kumpul mobil!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Semua pada hobi yang sama — orang-orangnya asik semua!</Dialogue>
+        <Dialogue>~o~{NAME}:~s~ Tapi polisi tuh selalu pengen rusak keseruan kita. Aku nggak ngerti kenapa sih...</Dialogue>
+    </Driver6>
+
+    <DriveToMeeting>Ngobrol sama ~o~orang-orang~s~ di lokasi.</DriveToMeeting>
+
+    <Scenario>
+        <NoRace>Dispatch, di sini nggak ada balapan liar, kita Code 4.</NoRace>
+        <Race>~o~Driver:~s~ Ayo, siapa berani balapan liar? Coba salip aku!</Race>
+    </Scenario>
+
+    <RaceActive>
+        <Help>Kamu bisa panggil ~r~pengejaran~s~ kapan aja pake ~y~{9}!</Help>
+        <Dialogue>Dispatch, ada ~r~balapan liar aktif~s~ nih, kirim unit tambahan!</Dialogue>
+    </RaceActive>
+
+    <Surrender>Tersangka-tersangka nyerah.</Surrender>
+
+    <End>Balapan Liar selesai.</End>
+
+</StreetRace>
