@@ -1,0 +1,9 @@
+<General>
+    <UpdateChecker>
+        <Text>Versi terbaru MCCallouts c; </Text>
+        <Text>Versi Beta / Mendatang MCCallouts c: </Text>
+        <Text>~r~Versi lama terdeteksi.~w~~n~Update secepatnya kalau bisa!</Text>
+        <Text>~y~MCCallouts berhasil dimuat~w~ tapi ~r~gagal memeriksa~w~ update.</Text>
+        <Text>~y~MCCallouts ~g~berhasil dimuat~w~!~n~Selamat berpatroli!</Text>
+    </UpdateChecker>
+</General>

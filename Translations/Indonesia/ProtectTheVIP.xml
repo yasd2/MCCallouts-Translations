@@ -1,0 +1,31 @@
+<ProtectTheVIP>
+    <CalloutMessage>Proteksi VIP</CalloutMessage>
+    <CalloutAdvisory>Lindungi dia dari anggota kartel!</CalloutAdvisory>
+    <Task>Gas ke ~g~VIP~s~.</Task>
+    <VIP>
+        <Dialogue>Hai! Makasih banyak atas bantuannya, aku lagi diincar kartel nih.</Dialogue>
+        <Dialogue>Aku dapat banyak ancaman online soal nyawaku. Butuh perlindungan.</Dialogue>
+        <Dialogue>Aku pemilik bisnis ~HC_17~Rusty Brown's Ring Donuts~s~.</Dialogue>
+        <Dialogue>Waduh, itu mereka dateng!</Dialogue>
+        <Task>Tekan ~o~{Y}~s~ - VIP ~o~pindah~s~ ke posisimu sekarang</Task>
+        <Task>Tekan ~g~{J}~s~ - nyalain/matiin kalau VIP ~g~ngikutin~s~ kamu</Task>
+        <Task>Kontrol VIP</Task>
+        <Task>Aksi</Task>
+        <Dead>~r~VIP tewas</Dead>
+    </VIP>
+
+    <Difficulty>
+        <Title>Kesulitan</Title>
+        <Easy>Mudah</Easy>
+        <Medium>Sedang</Medium>
+        <Hard>Sulit</Hard>
+    </Difficulty>
+
+    <FightGang>
+        <Dialogue>~y~Kamu:~s~ Kemari dulu!</Dialogue>
+        <Dialogue>Ikut aku!</Dialogue>
+        <Dialogue>Diem di sini aja!</Dialogue>
+    </FightGang>
+
+    <End>~b~Proteksi VIP telah selesai.</End>
+</ProtectTheVIP>

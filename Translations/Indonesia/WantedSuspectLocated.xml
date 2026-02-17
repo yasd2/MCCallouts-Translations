@@ -1,0 +1,25 @@
+<WantedSuspectLocated>
+
+    <General>
+        <Text>Lokasi kemungkinan tersangka buronan</Text>
+        <Text>Cek 2 lokasi potensial</Text>
+        <Text>Tersangka ditahan, ~g~Code 4~w~</Text>
+    </General>
+
+    <Scenes>
+        <Text>Cari ~r~tersangka~w~ di area pertama.</Text>
+        <Text>Cari ~r~tersangka~w~ di ~g~area~w~ ini.</Text>
+        <Text>Nggak ketemu tersangka, pindah ke ~g~lokasi kedua~w~.</Text>
+        <Text>Sekarang cari ~r~tersangka~w~ di area kedua. Dia ~r~pasti~w~ di sana!</Text>
+        <Text>~r~Deskripsi tersangka:{0}~y~Pria Asia~s~, kurus,{0}rambut hitam, umur 30{0}pakai kaos ~b~biru~s~</Text>
+        <Text>~r~Deskripsi tersangka:{0}~y~Wanita kulit hitam~s~, kurus,{0}rambut hitam, umur 30,{0}pakai baju ~r~merah~s~</Text> <!--{0} adalah baris baru-->
+        <Text>~r~Tersangka pria Asia~s~,{0}umur pertengahan 30an, kurus rambut hitam{0}dan pakai kaos ~b~biru~s~.</Text>
+    </Scenes>
+    
+    <Outcomes>
+        <Dialogue>~r~Tersangka~w~: Ya Tuhan, polisi! Jangan tembak! Aku nyerah!</Dialogue>
+        <Dialogue>~r~Tersangka~w~: Sial, polisi! Anjir lu semua, aku ~o~tembak kepala~w~ lu, babi-babi bodoh!</Dialogue>
+        <Dialogue>~y~Kamu~w~: Dispatch, tersangka ketemu, bakal jadi ~o~pengejaran~w~ nih!</Dialogue>
+    </Outcomes>
+
+</WantedSuspectLocated>

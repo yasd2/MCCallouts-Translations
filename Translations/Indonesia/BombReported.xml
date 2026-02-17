@@ -1,0 +1,65 @@
+<BombReported>
+
+    <General>
+        <Text>Ancaman bom dilaporkan</Text>
+        <Text>Cari kemungkinan ancaman bom, ~r~Code 3~s~.</Text>
+        <Text>Tekan {Y} untuk evakuasi warga!</Text>
+        <Text>Cari bom di ~y~area~s~ tersebut.</Text>
+        <Text>PETUNJUK: Tekan {Y} untuk panggil spesialis bom.</Text>
+        <Text>Tidak ditemukan bom, area sudah aman.</Text>
+        <Text>Bom berhasil dinonaktifkan! Kerja bagus!</Text>
+        <Text>Kabel ~g~hijau~s~ dipotong!</Text>
+        <Text>Kabel ~y~kuning~s~ dipotong!</Text>
+        <Text>Kabel ~b~biru~s~ dipotong!</Text>
+        <Text>Sial, kamu potong kabel salah! Lari, bom akan meledak!</Text>
+    </General>
+
+    <Persons>
+        <Text>Kamu</Text>
+        <Text>Spesialis</Text>
+        <Text>Polisi</Text>
+    </Persons>
+
+    <Officer>
+        <Dialogue>Halo! Makasih udah datang!</Dialogue>
+        <Dialogue>Ada kejadian besar nih! Ada laporan kemungkinan bom!</Dialogue>
+        <Dialogue>Kami anggap serius banget dan sudah blokir area TKP.</Dialogue>
+        <Dialogue>Begitu selesai ngobrol, evakuasi semua orang di lokasi, lalu cari bomnya! Semoga sukses!</Dialogue>
+    </Officer>
+
+    <Evacuate>
+        <Dialogue>Hey, tolong tinggalkan area ini segera! Mungkin ada bom di sini!</Dialogue>
+        <Dialogue>Hey kamu, ada ancaman bom, mundur ke jarak aman!</Dialogue>
+        <Dialogue>Area ini harus dievakuasi sekarang juga! Cepat!</Dialogue>
+        <Dialogue></Dialogue>
+    </Evacuate>
+
+    <SpecialistGeneral>
+        <Dialogue>Halo? Sudah nemu bomnya?</Dialogue>
+        <Dialogue>Iya, kayaknya ini. Ada tepat di depan saya.</Dialogue>
+        <Dialogue>Oke, biar saya pikir dulu. Ini ada kontrol rumit gitu.</Dialogue>
+        <Dialogue>Hmm... oke... sial... apa ini...? Ah, paham.</Dialogue>
+        <Dialogue>Lalu... hm... oh tidak... ah, oke...</Dialogue>
+        <Dialogue>Keren, saya masih hidup! Bom sepertinya sudah dinonaktifkan. Kerja bagus dan terima kasih!</Dialogue>
+        <Dialogue>Sama-sama, bye.</Dialogue>
+    </SpecialistGeneral>
+
+    <SpecialistGYB>
+        <Dialogue>Pertama potong kabel hijau.</Dialogue>
+        <Dialogue>Sekarang potong kabel kuning.</Dialogue>
+        <Dialogue>Oke, kalau belum meledak, potong kabel biru yang tersisa.</Dialogue>
+    </SpecialistGYB>
+
+    <SpecialistBYG>
+        <Dialogue>Pertama potong kabel biru.</Dialogue>
+        <Dialogue>Sekarang potong kabel kuning.</Dialogue>
+        <Dialogue>Oke, kalau belum meledak, potong kabel hijau yang tersisa.</Dialogue>
+    </SpecialistBYG>
+
+    <SpecialistGBY>
+        <Dialogue>Pertama potong kabel hijau.</Dialogue>
+        <Dialogue>Sekarang potong kabel biru.</Dialogue>
+        <Dialogue>Oke, kalau belum meledak, potong kabel kuning yang tersisa.</Dialogue>
+    </SpecialistGBY>
+
+</BombReported>

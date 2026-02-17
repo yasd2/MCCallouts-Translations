@@ -1,0 +1,208 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Gangguan Tunawisma</CALLOUTMESSAGE>
+    <TASK>
+        <TEXT>Seorang ~o~tunawisma~s~ sedang mengganggu. Bicara dengan </TEXT>
+        <TEXT>~g~satpam~s~, dia yang melapor minta bantuan.</TEXT>
+        <TEXT>~g~pejalan kaki~s~, dia yang melapor minta bantuan.</TEXT>
+        <TEXT>mereka.</TEXT>
+    </TASK>
+    <SCENARIO>
+        <SEARCHINGTRASH>
+            <COOPERATIVE>
+                <TEXT>~y~Kamu:~s~ Halo. Semuanya baik-baik saja? Kamu lagi cari-cari di sampah di sini.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Iya… cuma cari botol aja. Nggak bikin masalah kok.</TEXT>
+                <TEXT>~y~Kamu:~s~ Saya paham. Tapi ini properti pribadi. Bisa minggir dulu untuk saya?</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Oh… maaf, nggak tahu. Saya nggak mau ganggu orang.</TEXT>
+                <TEXT>~y~Kamu:~s~ Nggak apa-apa. Butuh sesuatu? Kopi? Bantuan layanan sosial?</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Baik hati sekali, tapi nggak usah… saya pergi sekarang aja.</TEXT>
+                <TEXT>~y~Kamu:~s~ Baiklah. Hati-hati ya.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Makasih. Kamu juga.</TEXT>
+            </COOPERATIVE>
+            <NONCOMPLIANT>
+                <TEXT>~y~Kamu:~s~ Permisi. Kamu nggak boleh di sini, ini properti pribadi.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Saya sudah di sini berhari-hari. Saya nggak ganggu siapa-siapa.</TEXT>
+                <TEXT>~y~Kamu:~s~ Ada keluhan. Saya minta kamu minggir dulu.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Saya nggak mau pergi. Ini satu-satunya tempat saya punya.</TEXT>
+                <TEXT>~y~Kamu:~s~ Kalau satpam datang, bisa jadi susah buat kamu.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Biarin aja datang. Saya tetap di sini.</TEXT>
+                <TEXT>~y~Kamu:~s~ Saya kasih kesempatan adil nih.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Dan saya bilang nggak. Biarin saya sendiri.</TEXT>
+            </NONCOMPLIANT>
+            <FIGHT>
+                <TEXT>~y~Kamu:~s~ Hey, bisa berhenti sebentar? Orang-orang komplain kamu lagi cari-cari di sini.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Komplain? Soal apa? Saya cuma berusaha bertahan hidup. Tinggalin saya.</TEXT>
+                <TEXT>~y~Kamu:~s~ Saya mau jaga ini tetap damai. Tolong minggir untuk saya.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Nggak. Saya nggak pergi kemana-mana.</TEXT>
+                <TEXT>~y~Kamu:~s~ Peringatan terakhir. Jangan bikin ini lebih susah dari yang seharusnya.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Lebih susah? Kamu nggak bikin saya takut.</TEXT>
+                <TEXT>~y~Kamu:~s~ Mundur. Sekarang.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Sudah! Aku bakal hajar kamu!</TEXT>
+                <TEXT>~y~Kamu:~s~ Berhenti! Sekarang juga!</TEXT>
+            </FIGHT>
+        </SEARCHINGTRASH>
+        <BEGFORMONEY>
+            <INTRO>
+                <TEXT>~y~Kamu:~s~ Halo, saya datang atas laporan. Kamu melaporkan ada yang mengganggu?</TEXT>
+                <TEXT>~g~Warga:~s~ Iya, Pak Polisi. Orang tunawisma di sana terus minta uang ke saya.</TEXT>
+                <TEXT>~y~Kamu:~s~ Bisa ceritakan apa yang terjadi persis?</TEXT>
+                <TEXT>~g~Warga:~s~ Saya lagi jalan biasa aja, tiba-tiba dia hentikan saya.</TEXT>
+                <TEXT>~g~Warga:~s~ Dia ngotot bilang ‘dia butuh lebih dari saya’. Nggak mau diterima jawaban nggak.</TEXT>
+                <TEXT>~y~Kamu:~s~ Dia ancam atau sentuh kamu?</TEXT>
+                <TEXT>~g~Warga:~s~ Nggak sih… tapi terlalu memaksa. Bikin saya nggak nyaman.</TEXT>
+                <TEXT>~g~Warga:~s~ Saya paham hidup susah, tapi saya nggak boleh diganggu cuma karena jalan di trotoar.</TEXT>
+                <TEXT>~y~Kamu:~s~ Baiklah, saya akan bicara sama dia. Terima kasih sudah lapor.</TEXT>
+            </INTRO>
+            <COOPERATIVE>
+                <TEXT>~y~Kamu:~s~ Halo, saya perlu bicara. Kamu minta uang ke wanita tadi?</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Iya… cuma sekali kok. Saya nggak maksud bikin takut.</TEXT>
+                <TEXT>~y~Kamu:~s~ Dia merasa nggak nyaman. Kamu nggak boleh dekati orang begitu.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Paham, paham… saya nggak mau bikin masalah.</TEXT>
+                <TEXT>~y~Kamu:~s~ Bagus. Saya minta kamu pergi dari area ini dan jangan minta uang ke orang asing lagi.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Baiklah… saya pergi. Cuma berusaha bertahan hidup aja.</TEXT>
+                <TEXT>~y~Kamu:~s~ Saya mengerti. Tapi nggak bisa di sini.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Oke… saya pergi. Makasih nggak dibikin ribet.</TEXT>
+            </COOPERATIVE>
+            <NONCOMPLIANT>
+                <TEXT>~y~Kamu:~s~ Pak, saya perlu bicara. Kamu sudah minta uang ke orang-orang.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Terus kenapa? Saya nggak nyakitin siapa-siapa. Cuma minta.</TEXT>
+                <TEXT>~y~Kamu:~s~ Kamu bikin seorang wanita nggak nyaman. Kamu harus pergi dari sini.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Saya nggak mau pergi. Orang lewat seharian, saya boleh minta ke siapa saja.</TEXT>
+                <TEXT>~y~Kamu:~s~ Bukan begitu caranya. Kamu nggak boleh ganggu pejalan kaki.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Ganggu? Saya cuma bilang sedikit. Dia lebay.</TEXT>
+                <TEXT>~y~Kamu:~s~ Ini peringatan terakhir: berhenti minta-minta di sini dan pergi dari area ini.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Nggak. Saya tinggal. Saya nggak punya tempat lain.</TEXT>
+            </NONCOMPLIANT>
+            <FIGHT>
+                <TEXT>~y~Kamu:~s~ Saya minta kamu berhenti ganggu orang untuk minta uang. Nggak boleh di sini.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Ganggu? Saya cuma tanya. Orang-orang sensi banget sekarang.</TEXT>
+                <TEXT>~y~Kamu:~s~ Dia lapor karena merasa terancam. Kamu harus pergi sekarang.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Pergi? Kenapa nggak kamu aja yang pergi?</TEXT>
+                <TEXT>~y~Kamu:~s~ Jangan eskalasi. Cukup pergi saja.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Pergi? Saya muak diusir-usir!</TEXT>
+                <TEXT>~y~Kamu:~s~ Tenang. Jangan bikin ribet.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Nggak! Saya sudah muak!</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Ayo kalau berani! Tunjukin apa yang kamu punya!</TEXT>
+                <TEXT>~y~Kamu:~s~ Berhenti! Jangan lakukan ini!</TEXT>
+            </FIGHT>
+        </BEGFORMONEY>
+        <SLEEPONSTREET>
+            <INTRO>
+                <TEXT>~y~Kamu:~s~ Halo, saya respons panggilanmu. Kamu bilang ada orang tidur di jalan?</TEXT>
+                <TEXT>~g~Warga:~s~ Iya, Pak. Di sana. Sudah tidur di trotoar setidaknya satu jam.</TEXT>
+                <TEXT>~y~Kamu:~s~ Kamu lihat dia gerak sama sekali? Ada tanda dia terluka?</TEXT>
+                <TEXT>~g~Warga:~s~ Nggak sih… saya nggak yakin dia baik-baik saja. Makanya saya lapor. Kelihatannya nggak normal.</TEXT>
+                <TEXT>~y~Kamu:~s~ Paham. Terima kasih sudah lapor. Kami akan cek dan pastikan dia aman.</TEXT>
+                <TEXT>~g~Warga:~s~ Saya cuma nggak mau dia ketabrak atau apa. Mobil lewat deket banget di sini.</TEXT>
+                <TEXT>~y~Kamu:~s~ Kamu sudah berbuat benar. Saya ambil alih dari sini dan lihat apakah dia butuh medis atau cuma perlu dipindah.</TEXT>
+                <TEXT>~g~Warga:~s~ Baiklah… terima kasih, Pak Polisi.</TEXT>
+            </INTRO>
+            <COOPERATIVE>
+                <TEXT>~y~Kamu:~s~ Halo, bisa bangun sebentar? Saya perlu cek kondisimu.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Huh…? Apa…? Oh, Pak Polisi… kayaknya saya ketiduran.</TEXT>
+                <TEXT>~y~Kamu:~s~ Ada yang lapor khawatir kesehatanmu. Kamu tidur tepat di pinggir jalan.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Iya… saya capek banget. Nggak mikir itu masalah besar.</TEXT>
+                <TEXT>~y~Kamu:~s~ Saya paham, tapi ini berbahaya. Mobil lewat dekat, kamu bisa celaka.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Baiklah… saya bangun. Nggak maksud bikin repot.</TEXT>
+                <TEXT>~y~Kamu:~s~ Bagus. Coba cari tempat yang lebih aman lain kali ya.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Iya. Makasih sudah cek saya.</TEXT>
+            </COOPERATIVE>
+            <NONCOMPLIANT>
+                <TEXT>~y~Kamu:~s~ Pak, bangun dulu. Saya perlu pastikan kamu baik-baik saja.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Apa…? Saya baik-baik saja… biarin saya tidur…</TEXT>
+                <TEXT>~y~Kamu:~s~ Ada yang lapor khawatir kamu terluka. Kamu tepat di pinggir jalan.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Saya nggak terluka. Saya pilih tempat ini. Tenang. Saya tinggal.</TEXT>
+                <TEXT>~y~Kamu:~s~ Tempat ini nggak aman. Kamu nggak boleh tidur di sini, mobil lewat bahaya dekat.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Saya pernah tidur di tempat lebih parah. Saya nggak pindah.</TEXT>
+                <TEXT>~y~Kamu:~s~ Saya kasih kesempatan pindah sendiri.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Dan saya bilang nggak. Biarin saya tidur.</TEXT>
+            </NONCOMPLIANT>
+            <FIGHT>
+                <TEXT>~y~Kamu:~s~ Pak, bangun. Saya perlu cek kamu dan pastikan kamu aman.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Apa-apaan…? Kenapa ganggu saya?</TEXT>
+                <TEXT>~y~Kamu:~s~ Ada yang khawatir kondisimu. Kamu tidur tepat di lalu lintas.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Saya lagi tidur! Itu bukan kejahatan!</TEXT>
+                <TEXT>~y~Kamu:~s~ Demi keselamatanmu. Saya minta kamu bangun dan pindah ke tempat aman.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Saya nggak mau pergi! Tinggalin saya!</TEXT>
+                <TEXT>~y~Kamu:~s~ Tenang. Jangan bikin ini jadi masalah.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Nggak! Saya muak diusir-usir!</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Jauh dari saya!</TEXT>
+                <TEXT>~y~Kamu:~s~ Jangan lakukan ini! Berhenti melawan sekarang!</TEXT>
+            </FIGHT>
+        </SLEEPONSTREET>
+        <TRESPASSING>
+            <INTRO>
+                <TEXT>~g~Satpam:~s~ Pak Polisi, makasih cepat datang.</TEXT>
+                <TEXT>~g~Satpam:~s~ Ada tunawisma tidur tepat di sana.</TEXT>
+                <TEXT>~g~Satpam:~s~ Sudah lama di sini, dan ini properti pribadi. Dia nggak boleh tinggal di sini.</TEXT>
+                <TEXT>~g~Satpam:~s~ Saya coba bangunin dan minta pergi, tapi dia hampir nggak respon.</TEXT>
+                <TEXT>~g~Satpam:~s~ Jujur, saya nggak yakin kondisinya. Mungkin baik-baik saja, tapi saya nggak mau ambil risiko.</TEXT>
+                <TEXT>~g~Satpam:~s~ Bisa bicara sama dia dan pastikan dia keluar dari area ini?</TEXT>
+            </INTRO>
+            <COOPERATIVE>
+                <TEXT>~y~Kamu:~s~ Halo, bisa bangun? Satpam lapor kamu di properti pribadi.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Huh… apa? Maaf, nggak maksud bikin masalah.</TEXT>
+                <TEXT>~y~Kamu:~s~ Kamu nggak dalam masalah, tapi nggak boleh di sini. Mereka juga khawatir kondisimu.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Paham… saya cuma capek banget. Saya pergi sekarang.</TEXT>
+                <TEXT>~y~Kamu:~s~ Baik. Kalau butuh bantuan atau tempat aman, saya bisa tunjukin layanan sosial.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Terima kasih, Pak. Saya pergi sekarang.</TEXT>
+                <TEXT>~y~Kamu:~s~ Bagus. Hati-hati ya.</TEXT>
+            </COOPERATIVE>
+            <NONCOMPLIANT>
+                <TEXT>~y~Kamu:~s~ Pak, bangun. Kamu di properti pribadi dan nggak boleh tinggal di sini.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Kenapa… kenapa nggak boleh istirahat? Saya nggak ganggu siapa-siapa.</TEXT>
+                <TEXT>~y~Kamu:~s~ Satpam khawatir kesehatanmu dan kamu masuk tanpa izin.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Cuma tempat tidur. Saya nggak rusak apa-apa.</TEXT>
+                <TEXT>~y~Kamu:~s~ Saya paham kamu capek, tapi kamu tetap harus pergi. Area ini bukan untuk umum.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Saya nggak ngerti kenapa harus pergi… di sini tenang.</TEXT>
+                <TEXT>~y~Kamu:~s~ Ini permintaan terakhir — mari kita bikin mudah. Bangun dan keluar dari area ini.</TEXT>
+            </NONCOMPLIANT>
+            <FIGHT>
+                <TEXT>~y~Kamu:~s~ Pak, polisi. Jauh dari sini dan bicara sama saya.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Mundur… saya nggak pergi kemana-mana!</TEXT>
+                <TEXT>~y~Kamu:~s~ Ini properti pribadi dan kamu masuk tanpa izin. Kamu harus pergi sekarang.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Saya nggak terima perintah dari kamu! Tinggalin saya!</TEXT>
+                <TEXT>~y~Kamu:~s~ Tenang. Saya coba selesaikan ini damai.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Damai? Kamu datang buat usir saya! Lupain aja!</TEXT>
+                <TEXT>~y~Kamu:~s~ Jangan lakukan yang kamu nyesel — berhenti melawan!</TEXT>
+            </FIGHT>
+        </TRESPASSING>
+        <FIREPLACE>
+            <INTRO>
+                <TEXT>~g~Satpam:~s~ Pak Polisi, makasih datang. Ada tunawisma lagi di area kami.</TEXT>
+                <TEXT>~g~Satpam:~s~ Kali ini dia bikin api kecil buat hangat, tepat di dekat gedung.</TEXT>
+                <TEXT>~y~Kamu:~s~ Baiklah, itu pasti nggak aman. Ada orang lain atau cuma dia?</TEXT>
+                <TEXT>~g~Satpam:~s~ Cuma dia, tapi asapnya nyalain sensor kami. Dan dia tolak pergi pas saya minta.</TEXT>
+                <TEXT>~y~Kamu:~s~ Mengerti. Saya akan bicara dan atur situasi ini.</TEXT>
+                <TEXT>~g~Satpam:~s~ Tolong ya. Dia nggak boleh di sini, dan api itu bahaya banget.</TEXT>
+                <TEXT>~y~Kamu:~s~ Paham. Saya pastikan dia padamkan api dan pergi.</TEXT>
+            </INTRO>
+            <COOPERATIVE>
+                <TEXT>~y~Kamu:~s~ Halo Pak. Saya minta kamu menjauh dari api dulu.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Oh… Pak Polisi. Saya cuma mau hangat.</TEXT>
+                <TEXT>~y~Kamu:~s~ Saya paham, tapi ini properti pribadi dan api itu bahaya serius.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Iya… maaf. Nggak maksud bikin repot.</TEXT>
+                <TEXT>~y~Kamu:~s~ Nggak apa. Saya cuma minta kamu padamkan api dan pergi dari sini.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Oke, oke. Saya pergi. Nggak mau masalah.</TEXT>
+                <TEXT>~y~Kamu:~s~ Bagus. Hati-hati di luar sana ya.</TEXT>
+            </COOPERATIVE>
+            <NONCOMPLIANT>
+                <TEXT>~y~Kamu:~s~ Pak, saya minta kamu padamkan api dan menjauh dari area ini.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Kenapa? Saya nggak nyakitin siapa-siapa. Cuma butuh hangat.</TEXT>
+                <TEXT>~y~Kamu:~s~ Ini properti pribadi dan kamu nggak boleh di sini. Api itu juga berbahaya.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Ini terkendali. Saya tahu apa yang saya lakukan.</TEXT>
+                <TEXT>~y~Kamu:~s~ Itu nggak mengubah situasi. Kamu harus pergi.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Saya nggak ngerti kenapa harus pergi. Cuma semalam aja.</TEXT>
+                <TEXT>~y~Kamu:~s~ Ini perintah hukum. Jangan bikin lebih susah dari yang perlu.</TEXT>
+            </NONCOMPLIANT>
+            <FIGHT>
+                <TEXT>~y~Kamu:~s~ Pak, polisi. Jauh dari api dan bicara sama saya.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Pergi sana… saya nggak mau pergi!</TEXT>
+                <TEXT>~y~Kamu:~s~ Ini properti pribadi dan api itu bahaya. Kamu harus padamkan sekarang.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Saya nggak terima perintah dari kamu! Tinggalin saya!</TEXT>
+                <TEXT>~y~Kamu:~s~ Tenang. Saya coba selesaikan damai.</TEXT>
+                <TEXT>~o~Tunawisma:~s~ Damai? Kamu mau usir saya! Lupain!</TEXT>
+                <TEXT>~y~Kamu:~s~ Jangan lakukan yang kamu nyesel — tangan di tempat saya bisa lihat — sekarang!</TEXT>
+            </FIGHT>
+        </FIREPLACE>
+    </SCENARIO>
+</CALLOUT>

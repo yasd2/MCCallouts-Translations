@@ -1,0 +1,63 @@
+<NoiseComplaint>
+
+    <General>
+        <Text>Keluhan Kebisingan</Text>
+        <Text>Laporan pesta rumah berisik</Text>
+        <Text>Tetangga lapor ada pesta rumah terlalu berisik. Pastikan ~o~penyelenggara~s~ nurunin volume musiknya.</Text>
+        <Text>Tekan {Key} buat atur volume buat diri sendiri.</Text>
+    </General>
+
+    <Persons>
+        <Text>Kamu</Text>
+        <Text>Pemilik Rumah</Text>
+        <Text>DJ</Text>
+    </Persons>
+
+    <Tasks>
+        <Text>Keluar dari pesta dengan nyetir ke ~y~marker kuning~s~.</Text>
+        <Text>Lakuin sesuai yang kamu anggap benar di sini, lalu ngobrol sama ~g~~h~DJ~h~~s~.</Text>
+        <Text>Ada laporan keluhan kebisingan lagi di alamat yang sama. Respons Code 2.</Text>
+    </Tasks>
+
+    <OwnerCooperative>
+        <Dialogue>Halo Pak Polisi, ada yang bisa dibantu?</Dialogue>
+        <Dialogue>Kami dapat laporan soal musik terlalu kenceng. Tolong turunin volumenya ya.</Dialogue>
+        <Dialogue>Kalau aku harus balik lagi ke sini, kamu bakal kena tilang karena kebisingan.</Dialogue>
+        <Dialogue>Oke oke, kami turunin deh.</Dialogue>
+        <Dialogue>Makasih kerjasamanya, selamat malam dan enjoy pestanya!</Dialogue>
+    </OwnerCooperative>
+
+    <OwnerUncooperative>
+        <Dialogue>Yoo, polisi dateng, lu lagi ngapain di sini sih anjir?</Dialogue>
+        <Dialogue>Kami dikirim ke alamat ini gara-gara laporan musik kenceng.</Dialogue>
+        <Dialogue>Anjir, ini keliatan kayak TK? Kami lagi party gila-gilaan!!</Dialogue>
+        <Dialogue>Matikan atau turunin musiknya sekarang juga.</Dialogue>
+        <Dialogue>Aku lagi nggak ngapa-ngapain, mau tangkap aku atau pergi aja, babi.</Dialogue>
+    </OwnerUncooperative>
+
+    <OwnerSecond>
+        <Dialogue>Halo lagi, kami dapat laporan musik kamu kenceng lagi nih.</Dialogue>
+        <Dialogue>Dan kayaknya kamu malah naikin volume lagi bukannya diturunin...</Dialogue>
+        <Dialogue>Ya ampun Pak Polisi, kami lagi seru-seruan, pesta gede nih.</Dialogue>
+        <Dialogue>Boleh aja, asal volumenya wajar dan nggak ganggu tetangga.</Dialogue>
+        <Dialogue>Kalau aku harus balik lagi, kamu langsung ditangkap!</Dialogue>
+        <Dialogue>Aku kasih tilang nih, ini sudah kedua kalinya aku ke sini.</Dialogue>
+        <Dialogue>Selamat malam, tapi lebih pelan ya pestanya.</Dialogue>
+    </OwnerSecond>
+
+    <DJ>
+        <Dialogue>Halo Pak, kamu DJ-nya di sini ya?</Dialogue>
+        <Dialogue>Iya Pak, maaf banget atas ~o~pemilik rumah~s~-nya, nama saya ~g~DJ Moodyman~s~.</Dialogue>
+        <Dialogue>Oh, kamu yang main di yacht waktu itu ya?</Dialogue>
+        <Dialogue>Iya, aku inget kamu ada di sana. Ada apa nih Pak?</Dialogue>
+        <Dialogue>Tolong turunin volumenya ya, ada tetangga yang terganggu.</Dialogue>
+        <Dialogue>Oh iya, nggak masalah. Maaf banget pemiliknya kurang kooperatif tadi.</Dialogue>
+        <Dialogue>Aku urus dia nanti. Selamat malam dan semangat nge-DJ-nya!</Dialogue>
+    </DJ>
+
+    <End>
+        <Text>~g~Panggilan Code 4.</Text>
+        <Text>Tekan ~y~End~s~ kapan aja buat akhiri panggilan.</Text>
+    </End>
+
+</NoiseComplaint>

@@ -1,0 +1,210 @@
+<BicycleAccident>
+
+    <General>
+        <Text>Kecelakaan lalu lintas sepeda</Text>
+        <Text>Analisa TKP</Text>
+        <Text>Dan sudah tahu apa penyebab kecelakaan ini?</Text>
+        <Text>Panggilan Kecelakaan Sepeda telah berakhir.</Text>
+    </General>
+
+    <D_Witness1_0>
+        <Dialogue>Halo, nama saya Greg. Saya ceritain kenapa ini terjadi.</Dialogue>
+        <Dialogue>Lihat tersangka di sana? Dia harus kena tilang.</Dialogue>
+        <Dialogue>Dia ngebut melebihi batas kecepatan.</Dialogue>
+        <Dialogue>Orang-orang sekarang cuek aja sama batas kecepatan.</Dialogue>
+    </D_Witness1_0>
+
+    <D_Witness2_0>
+        <Dialogue>Halo. Saya lihat sebagian kejadiannya.</Dialogue>
+        <Dialogue>Dia lagi nunggu di trotoar sambil lihat ke belakang arah kendaraan yang datang.</Dialogue>
+        <Dialogue>Dia pegang sesuatu di tangan juga. Saya nggak jelas apa itu.</Dialogue>
+        <Dialogue>Saya nggak 100% yakin dan nggak mau salahkan pengendara sepeda, tapi dia kelihatan gugup.</Dialogue>
+        <Dialogue>Lalu saya lagi urus urusan sendiri, tiba-tiba dengar suara benturan keras, itu pas kecelakaan terjadi.</Dialogue>
+    </D_Witness2_0>
+
+    <D_Witness3_0>
+        <Dialogue>Nama saya Paul, saya bilang nih, kita butuh perlindungan lebih buat pengendara sepeda.</Dialogue>
+        <Dialogue>Nggak ada jalur sepeda, mau di mana pengendara sepeda nyaman?</Dialogue>
+        <Dialogue>Tapi nggak bisa salahkan pengemudi mobil, pengendara sepeda ini bodoh banget.</Dialogue>
+        <Dialogue>Dia lihat ke kanan, langsung ke arah kendaraan yang datang. Pas itu dia mulai jalan.</Dialogue>
+        <Dialogue>Itu bodoh kan?</Dialogue>
+    </D_Witness3_0>
+
+    <D_Witness4_Driver_0>
+        <Dialogue>Halo, nama saya Sarah. Saya lihat kejadiannya sambil nyetir.</Dialogue>
+        <Dialogue>Tersangka jelas lagi ngapain gitu.</Dialogue>
+        <Dialogue>Oh maaf, maksud saya pengendara sepedanya.</Dialogue>
+        <Dialogue>Dia pegang kamera di tangan, kelihatannya mau rekam.</Dialogue>
+        <Dialogue>Kelihatannya pengendara sepeda mau loncat langsung ke depan kendaraan.</Dialogue>
+    </D_Witness4_Driver_0>
+
+    <D_Suspect_0>
+        <Dialogue>Halo Pak Polisi, maaf atas semuanya.</Dialogue>
+        <Dialogue>Ini salah pengendara sepeda? Atau saya? Saya sama sekali nggak lihat dia.</Dialogue>
+        <Dialogue>Saya lagi nyetir, tiba-tiba pengendara sepeda udah di depan saya.</Dialogue>
+        <Dialogue>Saya rem mendadak, tapi nggak cukup. Semoga dia selamat.</Dialogue>
+        <Dialogue>Mobil saya rusak parah, tapi asuransi yang urus itu.</Dialogue>
+    </D_Suspect_0>
+
+    <D_Witness1_1>
+        <Dialogue>Yo, kenapa lama banget?! Saya buru-buru nih.</Dialogue>
+        <Dialogue>Saya lagi ke kantor, udah telat 5 menit!</Dialogue>
+        <Dialogue>Saya cuma lihat pengendara sepeda ngebut parah.</Dialogue>
+        <Dialogue>Dia ngebut di trotoar, itu yang saya lihat.</Dialogue>
+        <Dialogue>Saya harus pergi sekarang, bye!</Dialogue>
+    </D_Witness1_1>
+
+    <D_Witness2_1>
+        <Dialogue>Halo, nama saya Linda. Pengendara sepeda ini selalu ngeblok jalan!</Dialogue>
+        <Dialogue>Pantes aja kecelakaan kayak gini sering terjadi. Pengemudi harus cepat sampai tujuan, nggak bisa nunggu pengendara sepeda.</Dialogue>
+        <Dialogue>Pengendara sepeda ini bahkan nggak pakai helm! Ceroboh banget!</Dialogue>
+        <Dialogue>Dia ngebut parah. Dan mobil lain harus nyalip bahaya, ngeriskoin nyawa lalu lintas yang datang!</Dialogue>
+        <Dialogue>Saya bilang, harus diawasi pengendara sepeda ini.</Dialogue>
+    </D_Witness2_1>
+
+    <D_Witness3_1>
+        <Dialogue>Halo, nama saya Paul. Saya mau lapor. Wow, seragamnya keren banget.</Dialogue>
+        <Dialogue>Pistol apa yang kamu bawa? SFP9 ya? Bagus banget.</Dialogue>
+        <Dialogue>Oh ya, maaf, pertama-tama saya lihat pengendara sepeda nggak pakai helm.</Dialogue>
+        <Dialogue>Catat: Pengendara sepeda pakai headset dan nggak pakai helm saat berkendara.</Dialogue>
+        <Dialogue>Bilang dong, apa saya cocok jadi polisi?</Dialogue>
+    </D_Witness3_1>
+
+    <D_Witness4_Driver_1>
+        <Dialogue>Halo, nama saya Sarah. Saya nyetir ke arah kecelakaan di jalur berlawanan. Saya lihat semuanya.</Dialogue>
+        <Dialogue>Mobilnya lagi parkir, lalu pengemudi mau mulai jalan.</Dialogue>
+        <Dialogue>Pas itu pengendara sepeda pindah dari trotoar ke jalan, dia bahkan nggak lihat.</Dialogue>
+        <Dialogue>Pengendara sepeda ngebut. Itu aja yang saya lihat.</Dialogue>
+    </D_Witness4_Driver_1>
+
+    <D_Suspect_1_2>
+        <Dialogue>Halo, adegan apa ini. Semua gara-gara pengendara sepeda ini potong saya.</Dialogue>
+        <Dialogue>Pengendara sepeda bodoh, lihat mobil saya sekarang! Depannya rusak parah!</Dialogue>
+        <Dialogue>Saya baru beli mobil ini, belum sebulan!</Dialogue>
+        <Dialogue>Pengendara sepeda lagi di trotoar, tiba-tiba nyelonong ke saya. Saya nggak sempat bereaksi.</Dialogue>
+        <Dialogue>Semoga dia cepat sembuh, jangan salah paham. Tapi saya nggak salah.</Dialogue>
+    </D_Suspect_1_2>
+
+    <D_Witness1_2>
+        <Dialogue>Yo, saya buru-buru, cepet dong. Dengar nih.</Dialogue>
+        <Dialogue>Nama saya? Greg. Saya harus cepat ke kantor.</Dialogue>
+        <Dialogue>Saya cuma lihat mobilnya ngebut parah.</Dialogue>
+        <Dialogue>Saya nggak tahu apa-apa soal sepedanya, nggak lihat.</Dialogue>
+        <Dialogue>Boleh pergi sekarang? Itu aja yang saya tahu.</Dialogue>
+    </D_Witness1_2>
+
+    <D_Witness2_2>
+        <Dialogue>Hey, nama saya Linda. Wah, lihat sepedanya, rusak total.</Dialogue>
+        <Dialogue>Saya lagi ngawasin pengendara sepedanya, karena sepedanya itu... favorit saya dulu.</Dialogue>
+        <Dialogue>Oh maaf, dia lagi di pinggir jalan. Tiba-tiba kena tabrak dari belakang.</Dialogue>
+        <Dialogue>Saya dengar rem keras lalu... sepedanya terbang...</Dialogue>
+    </D_Witness2_2>
+
+    <D_Witness3_2>
+        <Dialogue>Oh halo Pak Polisi, nama saya Paul, senang ketemu!</Dialogue>
+        <Dialogue>Kamu tahu saya lagi mikir kerja di kepolisian, saya cocok banget.</Dialogue>
+        <Dialogue>Saya lagi jalan pas lihat pengendara sepeda ini. Dia nggak pakai helm dan nggak ada lampu depan.</Dialogue>
+        <Dialogue>Kadang susah lihat orang pakai baju gelap, apalagi cuaca buruk.</Dialogue>
+    </D_Witness3_2>
+
+    <D_Witness4_Driver_2>
+        <Dialogue>Hai! Nama saya Sarah. Saya kerja di toko roti deket sini.</Dialogue>
+        <Dialogue>Saya lagi lihat dari jendela pas mobil lewat.</Dialogue>
+        <Dialogue>Mungkin ngebut, tapi saya lihat dia lagi pegang HP. Pasti mobil ini.</Dialogue>
+        <Dialogue>Saya lari keluar pas dengar benturan keras. Itu pas kejadiannya.</Dialogue>
+    </D_Witness4_Driver_2>
+
+    <Persons>
+        <Text>Kamu</Text>
+        <Text>Greg</Text>
+        <Text>Linda</Text>
+        <Text>Paul</Text>
+        <Text>Sarah</Text>
+        <Text>Paramedis</Text>
+        <Text>Korban</Text>
+        <Text>Peter</Text>
+        <Text>Isabella</Text>
+        <Text>Polisi Thompson</Text>
+        <Text>Polisi Reynolds</Text>
+        <Text>Polisi Harrison</Text>
+        <Text>Polisi Clinton</Text>
+        <Text>Pemadam Kebakaran</Text>
+    </Persons>
+
+    <D_Paramedic1>
+        <Dialogue>Hey, lagi apa? Jangan terganggu sama jam tangan Crowex gede saya yang 10 juta ini.</Dialogue>
+        <Dialogue>Oh, pasien gimana? Pengendara sepedanya kelihatan parah. Luka berat.</Dialogue>
+        <Dialogue>Dia nggak responsif, jadi harus langsung bawa ke RS sekarang.</Dialogue>
+    </D_Paramedic1>
+
+    <D_Paramedic2>
+        <Dialogue>Saya nggak ada waktu ngobrol. Pengendara sepedanya luka parah, jangan ganggu.</Dialogue>
+        <Dialogue>* mendesah * ...</Dialogue>
+    </D_Paramedic2>
+
+    <D_Officer1>
+        <Dialogue>Hey Polisi! Makasih udah datang! Ada kecelakaan lalu lintas di sini.</Dialogue>
+        <Dialogue>Silakan wawancara saksi-saksi, saya jaga di sini sementara.</Dialogue>
+        <Dialogue>Cari tahu siapa yang salah dan apa yang sebenarnya terjadi. Kalau sudah selesai investigasi, bicara lagi sama saya! Semoga sukses!</Dialogue>
+    </D_Officer1>
+
+    <D_Officer1_InsuranceFraud>
+        <Dialogue>Pengendara sepeda mencoba melakukan penipuan asuransi terhadap pengemudi.</Dialogue>
+        <Dialogue>Begitu dia dinyatakan sehat oleh medis, kita tangkap dia! Terima kasih sejauh ini!</Dialogue>
+    </D_Officer1_InsuranceFraud>
+
+    <D_Officer1_BikersFault>
+        <Dialogue>Pengendara sepeda jelas nggak fokus ke jalan. Ini salah dia.</Dialogue>
+        <Dialogue>Oke, begitu dinyatakan sehat oleh medis, dia kena denda! Terima kasih!</Dialogue>
+    </D_Officer1_BikersFault>
+
+    <D_Officer1_DriversFault>
+        <Dialogue>Pengemudi jelas nggak patuh aturan lalu lintas. Dia yang salah!</Dialogue>
+        <Dialogue>Mengerti, tangkap pengemudinya!</Dialogue>
+    </D_Officer1_DriversFault>
+
+    <D_Officer2>
+        <Dialogue>Saya belum minum kopi pagi, mesinnya rusak...</Dialogue>
+    </D_Officer2>
+
+    <D_Officer3>
+        <Dialogue>Hey, orang ini lihat sesuatu, mungkin kamu bisa bicara sama dia.</Dialogue>
+    </D_Officer3>
+
+    <D_Officer4>
+        <Dialogue>Hai partner, kecelakaan parah nih. Pastikan wawancara semua saksi ya.</Dialogue>
+    </D_Officer4>
+
+    <D_Fireman1>
+        <Dialogue>Kendaraan ini rusak parah di depan.</Dialogue>
+        <Dialogue>Kami cuma di sini kalau-kalau kendaraannya terbakar atau bocor oli.</Dialogue>
+    </D_Fireman1>
+
+    <D_Fireman3>
+        <Dialogue>Man, saya suka kopi dari Bean Machine, apalagi shift malam. Kamu harus coba!</Dialogue>
+    </D_Fireman3>
+
+    <Menu>
+        <Text>Skenario</Text>
+        <Text>Kecelakaan Lalu Lintas</Text>
+        <Text>Pilih yang benar!</Text>
+
+        <Text>Penipuan Asuransi</Text>
+        <Text>Pengendara sepeda sengaja!</Text>
+        <Text>Pengendara sepeda mencoba Penipuan Asuransi!</Text>
+
+        <Text>Salah Pengendara Sepeda</Text>
+        <Text>Pengendara sepeda nggak perhatian!</Text>
+        <Text>Ini salah pengendara sepeda!</Text>
+
+        <Text>Salah Pengemudi</Text>
+        <Text>Pengemudi yang salah!</Text>
+        <Text>Pengemudi mobil menyebabkan kecelakaan!</Text>
+
+        <Text>~g~Investigasi benar</Text>
+        <Text>~r~Investigasi gagal</Text>
+
+        <Text>Tekan ~y~End~s~ kapan saja untuk akhiri panggilan.</Text>
+    </Menu>
+
+</BicycleAccident>

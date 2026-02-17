@@ -1,0 +1,114 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Pengeroyokan</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Satu orang terluka, polisi dan EMS sudah di lokasi</CALLOUTADVISORY>
+    <TASK>Seorang polisi melaporkan adanya pengeroyokan. EMS sudah di lokasi. Segera ke lokasi yang dilaporkan.</TASK>
+    <NOTIFICATIONS>
+        <TEXT>Cari di sekitar area untuk kendaraan tersangka.{n}~o~Kendaraan:~s~ {MODEL}{n}~o~Warna:~s~ {COLOR}{n}~o~Tersangka:~s~ {FIRSTNAME} {LASTNAME}</TEXT>
+        <TEXT>Cari di area sekitar untuk tersangka.{n}~o~Nama:~s~ {FIRSTNAME} {LASTNAME}{n}~o~Surat Perintah:~s~ Pengeroyokan</TEXT>
+        <TEXT>Seorang polisi telah menghentikan kendaraan yang cocok. Datang Code 3 sebagai backup.</TEXT>
+    </NOTIFICATIONS>
+    <DIALOGUES id="D_Officer">
+        <DIALOGUE>~b~Polisi:~s~ Halo partner, bagus kamu cepat datang!</DIALOGUE>
+        <DIALOGUE>~b~Polisi:~s~ Kami dapat laporan pengeroyokan, dan saya yang pertama tiba di lokasi.</DIALOGUE>
+        <DIALOGUE>~b~Polisi:~s~ Seperti yang kamu lihat, EMS sudah merawat korban.</DIALOGUE>
+        <DIALOGUE>~b~Polisi:~s~ Sebaiknya kamu bicara dulu dengan paramedis untuk update kondisi korban.</DIALOGUE>
+        <DIALOGUE>~b~Polisi:~s~ Korban kelihatannya parah, mungkin dia masih sadar dan bisa ingat sesuatu.</DIALOGUE>
+        <DIALOGUE>~b~Polisi:~s~ Ada saksi yang maju, semoga mereka bisa kasih info berguna soal kejadiannya.</DIALOGUE>
+        <DIALOGUE>~b~Polisi:~s~ Semoga sukses!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Paramedic_Witness">
+        <DIALOGUE>~r~Paramedis:~s~ Selamat siang, senang dapat bantuan dari kamu - memang dibutuhkan banget.</DIALOGUE>
+        <DIALOGUE>~r~Paramedis:~s~ Ada beberapa luka robek dan memar di sini, kemungkinan karena benda tumpul besar.</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Seperti pisau, sarung tangan tinju besi, atau botol kaca?</DIALOGUE>
+        <DIALOGUE>~r~Paramedis:~s~ Ya, persis. Pasiennya luka berat dan tidak sadar. Saya stabilkan dulu, lalu langsung ke RS.</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Kelihatannya saya nggak bakal dapat info dari korban, saya biarkan kamu kerja dulu.</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Saya lanjut bicara dengan saksi selanjutnya.</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Paramedic_VictimWitness">
+        <DIALOGUE>~r~Paramedis:~s~ Ah halo, sepertinya rekan kamu panggil backup ya?</DIALOGUE>
+        <DIALOGUE>~r~Paramedis:~s~ Senang kamu datang. Korban lumayan stabil dalam keadaan ini.</DIALOGUE>
+        <DIALOGUE>~r~Paramedis:~s~ Ada luka di kepala, mungkin karena pukulan atau benda ringan.</DIALOGUE>
+        <DIALOGUE>~r~Paramedis:~s~ Lukanya butuh jahitan, jadi sebentar lagi saya bawa ke RS.</DIALOGUE>
+        <DIALOGUE>~r~Paramedis:~s~ Sebaiknya tanya sekarang selagi ingatannya masih segar.</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Victim_VictimWitness">
+        <DIALOGUE>~o~Korban:~s~ Halo Pak Polisi, tolong tangkap bajingan yang ngerjain saya ini!</DIALOGUE>
+        <DIALOGUE>~o~Korban:~s~ Saya lagi jalan-jalan, mau belanja sesuatu aja.</DIALOGUE>
+        <DIALOGUE>~o~Korban:~s~ Tiba-tiba {FIRSTNAME} {LASTNAME} muncul - saya kenal dia dari bar.</DIALOGUE>
+        <DIALOGUE>~o~Korban:~s~ Dia mulai ngomong kasar, lalu mukul saya - setelah itu saya nggak ingat banyak.</DIALOGUE>
+        <DIALOGUE>~o~Korban:~s~ Sayangnya saya nggak lihat ke mana dia pergi. Ah, kepala saya... sakit banget. Sial!</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Tenang, istirahat dulu. Kami catat keteranganmu dan langsung mulai cari.</DIALOGUE>
+        <DIALOGUE>~o~Korban:~s~ Cari {FIRSTNAME} {LASTNAME}, {GENDER}! Dia yang ngerjain saya!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Witness_Witness">
+        <DIALOGUE>~g~Saksi:~s~ Halo Pak Polisi, bagus Anda datang. Semoga saya bisa bantu identifikasi pelakunya.</DIALOGUE>
+        <DIALOGUE>~g~Saksi:~s~ Saya lihat mereka berantem, tiba-tiba yang satu dorong dan mulai mukul!</DIALOGUE>
+        <DIALOGUE>~g~Saksi:~s~ Cukup brutal menurut saya! Pantas ambulans dipanggil.</DIALOGUE>
+        <DIALOGUE>~g~Saksi:~s~ Saya dengar salah satunya nyebut nama tersangka: {LASTNAME}. Orangnya {GENDER}.</DIALOGUE>
+        <DIALOGUE>~g~Saksi:~s~ Sedih ya, kekerasan makin sering akhir-akhir ini.</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Terima kasih, itu sangat membantu.</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Kamu lihat ke mana tersangka pergi?</DIALOGUE>
+        <DIALOGUE>~g~Saksi:~s~ Dia kabur jalan kaki. Mau saya tandain di GPS kamu?</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Terima kasih lagi, kami akan usahakan tangkap dia!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Witness_VictimWitness">
+        <DIALOGUE>~y~Kamu:~s~ Halo, saya polisi dari kepolisian setempat. Bisa ceritakan apa yang terjadi?</DIALOGUE>
+        <DIALOGUE>~g~Saksi:~s~ Halo, ya - saya rasa saya lihat seseorang pergi dari TKP.</DIALOGUE>
+        <DIALOGUE>~g~Saksi:~s~ Saya dengar ribut, lalu mendekat ke arah suara.</DIALOGUE>
+        <DIALOGUE>~g~Saksi:~s~ Saya cuma lihat orang berdarah di tanah, dan orang lain cepat-cepat pergi.</DIALOGUE>
+        <DIALOGUE>~g~Saksi:~s~ Dia lari ke arah sana!</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Bisa deskripsikan orangnya?</DIALOGUE>
+        <DIALOGUE>~g~Saksi:~s~ Sayangnya tidak, saya cuma lihat dari jauh dan tetap nemenin yang terluka.</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Kamu sudah berbuat benar, terima kasih - kelihatan banget lukanya parah.</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Kami langsung mulai pencarian jarak dekat.</DIALOGUE>
+        <DIALOGUE>~g~Saksi:~s~ Semoga sukses! Tangkap bajingan itu!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Witness_TrafficStop">
+        <DIALOGUE>~y~Kamu:~s~ Selamat siang, saya polisi lalu lintas dari kepolisian setempat.</DIALOGUE>
+        <DIALOGUE>~g~Saksi:~s~ Halo, saya mau bantu tangkap tersangkanya.</DIALOGUE>
+        <DIALOGUE>~g~Saksi:~s~ Saya kenal dia, dia juga tinggal di kota ini.</DIALOGUE>
+        <DIALOGUE>~g~Saksi:~s~ Namanya {FIRSTNAME} {LASTNAME}!</DIALOGUE>
+        <DIALOGUE>~g~Saksi:~s~ Dia pegang sesuatu pas berantem - saya nggak jelas apa itu.</DIALOGUE>
+        <DIALOGUE>~g~Saksi:~s~ Si brengsek itu mukul korban berkali-kali, lalu kabur naik {MODEL}!</DIALOGUE>
+        <DIALOGUE>~g~Saksi:~s~ Warnanya {COLOR}.</DIALOGUE>
+        <DIALOGUE>~g~Saksi:~s~ Saya catat nomor platnya... {LICENSEPLATE}!</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Terima kasih banyak! Saya akan awasi kendaraannya. Selamat hari!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_TrafficOfficer_1">
+        <DIALOGUE>~b~Polisi:~s~ Hei partner! Saya hentikan ini, mobilnya cocok deskripsi.</DIALOGUE>
+        <DIALOGUE>~b~Polisi:~s~ Saya pasti butuh backup, makanya saya panggil kamu.</DIALOGUE>
+        <DIALOGUE>~b~Polisi:~s~ Saya ambil sisi penumpang - saya cover kamu kalau mereka coba nekat.</DIALOGUE>
+        <DIALOGUE>~b~Polisi:~s~ Cek ulang detail kendaraannya dulu, biar pasti.</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Suspect_Witness">
+        <DIALOGUE>~y~Kamu:~s~ Berhenti di situ! Polisi!</DIALOGUE>
+        <DIALOGUE>~r~Tersangka:~s~ Ya Tuhan, kamu bikin kaget. Mau apa?</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Kamu tersangka dalam kasus pidana. Tadi kamu di mana?</DIALOGUE>
+        <DIALOGUE>~r~Tersangka:~s~ Saya... ini soal perkelahian ya? Ah, nggak gede kok.</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Info aja, korban lagi dibawa ke RS! Lukanya berat!</DIALOGUE>
+        <DIALOGUE>~r~Tersangka:~s~ Oh tidak... saya nggak maksud gitu. Sial, maaf banget...</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Tangan di tempat yang bisa saya lihat! Kamu ditangkap!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Suspect_VictimWitness">
+        <DIALOGUE>~y~Kamu:~s~ Polisi! Ikut saya dulu, ada beberapa pertanyaan.</DIALOGUE>
+        <DIALOGUE>~r~Tersangka:~s~ Mau apa sih? Biarin aku!</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Dengar, bisa mudah atau susah nih.</DIALOGUE>
+        <DIALOGUE>~r~Tersangka:~s~ Kamu nggak bisa buktiin apa-apa. Aku nggak ngapa-ngapain!</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Kamu cocok deskripsi tersangka. Satu jam lalu kamu di mana?</DIALOGUE>
+        <DIALOGUE>~r~Tersangka:~s~ Saya... di perpustakaan, ya bener! Saya baca dan nikmatin tenang jauh dari kalian babi!</DIALOGUE>
+    </DIALOGUES>
+    <DIALOGUES id="D_Suspect_TrafficStop">
+        <DIALOGUE>~y~Kamu:~s~ Selamat siang, saya polisi lalu lintas setempat. SIM dan STNK-nya dong.</DIALOGUE>
+        <DIALOGUE>~r~Tersangka:~s~ Ada alasan apa dihentikan? Dokumen saya lengkap!</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Dari mana tadi?</DIALOGUE>
+        <DIALOGUE>~r~Tersangka:~s~ Baru belanja, barang kecil aja, kenapa?</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Baru-baru ini ada ribut? Teman, rekan kerja atau semacamnya? Ada laporan.</DIALOGUE>
+        <DIALOGUE>~r~Tersangka:~s~ Ya, ada sedikit ribut, cuma omongan, dorong-dorongan kecil.</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Lebih dari dorong aja? Saksi bilang beda.</DIALOGUE>
+        <DIALOGUE>~r~Tersangka:~s~ Aku nggak tahu maksudmu!! Tangkap aja kalau mau!</DIALOGUE>
+    </DIALOGUES>
+    <END>
+        <TEXT>Dispatch, kami Code 4. Kembali patroli.</TEXT>
+        <TEXT>Kami Code 4 di sini. Dispatch, tidak perlu bantuan lagi.</TEXT>
+    </END>
+</CALLOUT>

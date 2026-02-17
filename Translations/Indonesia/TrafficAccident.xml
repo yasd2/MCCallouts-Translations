@@ -1,0 +1,103 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Kecelakaan Lalu Lintas</CALLOUTMESSAGE>
+    <TASK>Banyak laporan kecelakaan, setidaknya satu kendaraan rusak, kemungkinan ada korban luka.</TASK>
+    <SCENARIO>
+        <DRUNKHIGH>
+            <DRIVER>
+                <TEXT>~o~Supir:~s~ Halo... apa kabarnya nih...</TEXT>
+                <TEXT>~y~Kamu:~s~ Halo, bisa ceritain apa yang terjadi?</TEXT>
+                <TEXT>~o~Supir:~s~ Aku nggak tahu... aku lagi nyetir... lampu, bunyi rem mendadak — eh tiba-tiba udah di sini. Aku baik-baik aja kok, beneran. Cuma agak pusing.</TEXT>
+                <TEXT>~y~Kamu:~s~ Kamu minum atau pakai sesuatu tadi?</TEXT>
+                <TEXT>~o~Supir:~s~ Lihat deh, aku nggak mau bikin ribet — iya, aku minum sedikit. Cuma segelas-dua, jujur. Aku masih bisa jalan, bisa ngomong. Kunci? Ehm—tas aku di belakang. Maaf ya Pak, aku nggak maksud bikin masalah.</TEXT>
+                <TEXT>~y~Kamu:~s~ Ingat nggak apa yang terjadi sebelum tabrakan?</TEXT>
+                <TEXT>~o~Supir:~s~ Aku... buram. Kepala muter. Ada lampu depan, lalu suara besi... aku inget mobil lain — ya Tuhan, mereka aman nggak? Aku nggak sengaja nabrak kok.</TEXT>
+                <TEXT>~y~Kamu:~s~ Tetap di situ ya. Jangan gerak, aku cek supir lain dulu.</TEXT>
+                <TEXT>~o~Supir:~s~ Iya... tolong ya. Bilang ke mereka aku minta maaf. Bilang aku bener-bener minta maaf...</TEXT>
+            </DRIVER>
+            <DRIVER2>
+                <TEXT>~o~Supir2:~s~ ...aduh... ini di mana...?</TEXT>
+                <TEXT>~y~Kamu:~s~ Kamu di TKP tabrakan. Bisa ceritain apa yang terjadi?</TEXT>
+                <TEXT>~o~Supir2:~s~ Aku... nggak ingat. Tadi lagi nyetir, tiba-tiba — sakit. Kepala pusing. Penglihatan buram. Bahu kiri sakit. Aku nggak tahu gimana bisa begini.</TEXT>
+                <TEXT>~y~Kamu:~s~ Kamu tahu ada orang/kendaraan lain yang terlibat?</TEXT>
+                <TEXT>~o~Supir2:~s~ Aku... dengar suara keras. Ada rem... mungkin mobil lain. Aku nggak bisa lihat jelas, maaf. Bisa panggil ambulans? Sakit kalau gerak.</TEXT>
+                <TEXT>~y~Kamu:~s~ Bantuan medis lagi otw. Tetap tenang dan jangan gerak banyak. Namanya siapa?</TEXT>
+                <TEXT>~o~Supir2:~s~ Namaku... Tolong... jangan biarin aku kehabisan darah...</TEXT>
+            </DRIVER2>
+        </DRUNKHIGH>
+        <MEDICALEMERGENCY>
+            <DRIVER>
+                <TEXT>~o~Supir:~s~ Pak Polisi... aku nggak enak badan...</TEXT>
+                <TEXT>~y~Kamu:~s~ Tenang dulu. Apa yang terjadi?</TEXT>
+                <TEXT>~o~Supir:~s~ Aku lagi nyetir... dada tiba-tiba panas... penglihatan buram... aku coba minggir tapi... kayaknya nggak sempet.</TEXT>
+                <TEXT>~y~Kamu:~s~ Ada luka lain nggak?</TEXT>
+                <TEXT>~o~Supir:~s~ Nggak... cuma dada ini berat... kayak ada yang nindih... aku susah napas nih.</TEXT>
+                <TEXT>~y~Kamu:~s~ Medis lagi dateng, mereka bakal urus kamu. Jangan gerak banyak ya.</TEXT>
+                <TEXT>~o~Supir:~s~ Makasih... jangan sampe aku pingsan ya...</TEXT>
+            </DRIVER>
+            <MEDIC>
+                <TEXT>~r~Medis:~s~ Pak Polisi, kami ambil pasiennya. Gejalanya mirip serangan jantung. Kasih ruang ya kami kerja.</TEXT>
+                <TEXT>~y~Kamu:~s~ Mengerti. Butuh apa dari saya?</TEXT>
+                <TEXT>~r~Medis:~s~ Tahan lalu lintas dan kasih kami beberapa menit. Kami stabilkan dulu, lalu bawa ke RS.</TEXT>
+            </MEDIC>
+            <MEDIC2>
+                <TEXT>~r~Medis2:~s~ Tekanan darah rendah, denyut nggak stabil. Siapin oksigen.</TEXT>
+                <TEXT>~y~Kamu:~s~ Pasiennya bakal selamat nggak?</TEXT>
+                <TEXT>~r~Medis2:~s~ Masih terlalu dini buat bilang pasti, tapi kami tangani. Makasih respons cepatnya.</TEXT>
+            </MEDIC2> 
+        </MEDICALEMERGENCY>
+        <TIREBURST>
+            <DRIVER>
+                <TEXT>~o~Supir:~s~ Pak Polisi! Syukur banget kamu dateng!</TEXT>
+                <TEXT>~y~Kamu:~s~ Apa yang terjadi?</TEXT>
+                <TEXT>~o~Supir:~s~ Ban depan tiba-tiba pecah! Mobil oleng ke samping, aku hilang kendali.</TEXT>
+                <TEXT>~y~Kamu:~s~ Ada yang luka?</TEXT>
+                <TEXT>~o~Supir:~s~ Cuma lecet sedikit dan kaget. Kukira mobil bakal jungkir balik.</TEXT>
+                <TEXT>~y~Kamu:~s~ Aku panggil ambulans buat kamu. Kamu nabrak apa lagi?</TEXT>
+                <TEXT>~o~Supir:~s~ Iya, aku nyenggol pembatas jalan. Bikin jantungan banget.</TEXT>
+                <TEXT>~y~Kamu:~s~ Tetap di situ ya. Aku cek kendaraannya. Mungkin butuh derek.</TEXT>
+            </DRIVER>
+        </TIREBURST>
+        <FLATTIRE>
+            <DRIVER>
+                <TEXT>~o~Supir:~s~ Pak Polisi, maaf bikin macet...</TEXT>
+                <TEXT>~y~Kamu:~s~ Ada masalah apa?</TEXT>
+                <TEXT>~o~Supir:~s~ Ban depan kempes pas lagi nyetir. Mobil goyang-goyang, aku rem mendadak dan berhenti begini.</TEXT>
+                <TEXT>~y~Kamu:~s~ Ada yang luka?</TEXT>
+                <TEXT>~o~Supir:~s~ Nggak, cuma kesel. Untung nggak parah.</TEXT>
+                <TEXT>~y~Kamu:~s~ Butuh bantuan pinggir jalan?</TEXT>
+                <TEXT>~o~Supir:~s~ Iya... bagus deh. Aku nggak bawa ban serep.</TEXT>
+            </DRIVER>
+        </FLATTIRE>
+        <POWERFAILURE>
+            <DRIVER>
+                <TEXT>~o~Supir:~s~ Mati lampu tiba-tiba! Semua gelap!</TEXT>
+                <TEXT>~y~Kamu:~s~ Ceritain dong apa yang terjadi.</TEXT>
+                <TEXT>~o~Supir:~s~ Lampu jalan mati seketika. Aku nggak bisa lihat apa-apa di depan. Aku coba rem tapi udah terlalu deket trotoar.</TEXT>
+                <TEXT>~y~Kamu:~s~ Ada masalah listrik di mobil kamu?</TEXT>
+                <TEXT>~o~Supir:~s~ Iya, dashboard kedip-kedip pas sebelum nabrak. Mungkin lonjakan listrik juga ngaruh ke mobil.</TEXT>
+                <TEXT>~y~Kamu:~s~ Oke, tetap di situ ya. Aku cek sekitarnya.</TEXT>
+                <TEXT>~o~Supir:~s~ Tolong ya. Rasanya seluruh kota mati lampu.</TEXT>
+            </DRIVER>
+        </POWERFAILURE>
+        <SPEEDING>
+            <DRIVER>
+                <TEXT>~o~Supir:~s~ Pak Polisi, lihat deh — dia ngerem mendadak banget! Aku nggak sempet bereaksi!</TEXT>
+                <TEXT>~y~Kamu:~s~ Kamu lagi ngebut ya?</TEXT>
+                <TEXT>~o~Supir:~s~ Mungkin sedikit... lalu lintas sepi, aku pikir aman.</TEXT>
+                <TEXT>~y~Kamu:~s~ Lagi ngebut berapa?</TEXT>
+                <TEXT>~o~Supir:~s~ Aku... nggak tahu pasti. Lebih cepet dari yang seharusnya, oke?</TEXT>
+                <TEXT>~y~Kamu:~s~ Tetap di situ ya, aku cek supir lain dulu.</TEXT>
+                <TEXT>~o~Supir:~s~ Sialan... hari ini hancur.</TEXT>
+            </DRIVER>
+            <DRIVER2>
+                <TEXT>~o~Supir2:~s~ Pak Polisi! Dia ngebut dari belakang! Aku cek spion, dia langsung nempel!</TEXT>
+                <TEXT>~y~Kamu:~s~ Kamu juga ngebut nggak?</TEXT>
+                <TEXT>~o~Supir2:~s~ Aku ikut lalu lintas aja! Dia tiba-tiba muncul!</TEXT>
+                <TEXT>~y~Kamu:~s~ Butuh medis nggak?</TEXT>
+                <TEXT>~o~Supir2:~s~ Nggak, cuma kaget. Tapi dia harus pelanin, nanti bikin orang mati.</TEXT>
+                <TEXT>~y~Kamu:~s~ Aku ngobrol sama dia. Tetap di sini ya.</TEXT>
+                <TEXT>~o~Supir2:~s~ Makasih. Aku cuma pengen mobilku utuh...</TEXT>
+            </DRIVER2>
+        </SPEEDING>
+    </SCENARIO>
+</CALLOUT>

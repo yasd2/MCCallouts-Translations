@@ -1,0 +1,35 @@
+<PrisonerFlight>
+
+    <General>
+        <Text>Pengiriman Tahanan dengan Pesawat</Text>
+        <Text>Butuh pilot polisi buat angkut tahanan</Text>
+        <Text>Gas ke ~g~bandara~s~, pesawatnya udah nunggu!</Text>
+    </General>
+
+    <Agent>
+        <Dialogue>Ngobrol sama ~b~agen~s~ pake</Dialogue>
+        <Dialogue>~y~Kamu~s~: Halo, saya pilot dari kepolisian, ada apa nih?</Dialogue>
+        <Dialogue>~b~Agen~s~: Selamat siang, kami punya tahanan berisiko tinggi di sini, mau dikirim ke North Yankton.</Dialogue>
+        <Dialogue>~b~Agen~s~: Kami punya jet pribadi di sini, tahanan udah ada di dalam.</Dialogue>
+        <Dialogue>~b~Agen~s~: Tolong terbang ke tujuan, koordinatnya udah ada di navigasi kamu, nggak bakal nyasar.</Dialogue>
+        <Dialogue>~b~Agen~s~: Polisi di sana udah nunggu. Selamat terbang ya!</Dialogue>
+        <Dialogue><![CDATA[Masuk pesawat & terbang ke ~o~tujuan~s~.]]></Dialogue>
+        <Dialogue>Nggak ada dialog lagi.</Dialogue>
+    </Agent>
+
+    <Officer>
+        <Dialogue>Terbang ke ~o~marker tujuan~s~ di minimap kamu.</Dialogue>
+        <Dialogue>Ngobrol sama ~b~petugas~s~ pake</Dialogue>
+        <Dialogue><![CDATA[~b~Petugas~s~: Halo & selamat datang di North Yankton!]]></Dialogue>
+        <Dialogue><![CDATA[~b~Petugas~s~: Dingin banget di sini ya, jalanannya licin juga...]]></Dialogue>
+        <Dialogue>~b~Petugas~s~: Tersangkanya udah duduk di kendaraan.</Dialogue>
+        <Dialogue>~b~Petugas~s~: Tolong bawa ke ~g~penjara~s~ yang ditandain di GPS pake mobil patroli kami.</Dialogue>
+        <Dialogue><![CDATA[Masuk kendaraan & bawa ke ~g~penjara~s~.]]></Dialogue>
+        <Dialogue>Nggak ada dialog lagi.</Dialogue>
+        <Dialogue>Bawa ke ~g~penjara~s~ yang ditandain di GPS.</Dialogue>
+        <Dialogue>Panggilan selesai</Dialogue>
+        <Dialogue>Kerja bagus!</Dialogue>
+        <Dialogue>Code 4.</Dialogue>
+    </Officer>
+
+</PrisonerFlight>

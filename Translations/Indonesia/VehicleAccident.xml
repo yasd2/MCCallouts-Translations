@@ -1,0 +1,31 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Kecelakaan Kendaraan</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>~r~Respons Code 3</CALLOUTADVISORY>
+    <TASK>Gas ke ~r~lokasi kecelakaan~s~. Pastikan atur lalu lintas dan cek supirnya aman atau nggak.</TASK>
+    <SCENARIOS>
+        <DRIVERINJURED>
+            <TEXT>Tekan ~{Y}~ buat ngobrol.</TEXT>
+            <DIALOGUE>~y~Kamu:~s~ Halo? Butuh apa nih?</DIALOGUE>
+            <DIALOGUE>~p~Supir:~s~ Aku... sakit... butuh... ambulans. Tolong...</DIALOGUE>
+            <TEXT>Panggil ambulans buat korban luka.</TEXT>
+        </DRIVERINJURED>
+        <DRIVEROKBUTDRUNK>
+            <DIALOGUE>~y~Kamu:~s~ Bisa ceritain apa yang terjadi?</DIALOGUE>
+            <DIALOGUE>~o~Supir:~s~ Aku nggak terlalu inget... *hik*</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Kamu dari mana tadi?</DIALOGUE>
+            <DIALOGUE>~o~Supir:~s~ Dari pesta temen. Aku bisa tes kesadaran, aku bersih banget kok.</DIALOGUE>
+        </DRIVEROKBUTDRUNK>
+        <DRIVERSHOTWEAPONNEARBY> 
+            <TEXT>Tekan ~{Y}~ buat ambil senjatanya.</TEXT>
+            <TEXT>Tekan ~y~{Y}~s~ buat minta cek nomor seri dari Dispatch.</TEXT>
+            <SERIALNUMBER>
+                <DIALOGUE>~y~Kamu:~s~ Dispatch, bisa cek nomor seri pistol ini ~r~{serialnumber}~s~?</DIALOGUE>
+                <DIALOGUE>10-4, lagi dicek.</DIALOGUE>
+                <DIALOGUE>Senjata: Pistol</DIALOGUE>
+                <DIALOGUE>~b~Pemilik: {DriversName}</DIALOGUE>
+                <DIALOGUE>~r~Peringatan: Pemilik dicari</DIALOGUE>
+                <DIALOGUE>Perhatian: Ada laporan orang mencurigakan di dekat sini, respons ~r~Code 3~s~ ya.</DIALOGUE>
+            </SERIALNUMBER>
+        </DRIVERSHOTWEAPONNEARBY>
+    </SCENARIOS>
+</CALLOUT>

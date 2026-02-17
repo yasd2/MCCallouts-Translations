@@ -1,0 +1,36 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>~b~~h~[SWAT]~h~ Operasi Tropical Justice~s~</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>~s~Bos kartel ~r~berbahaya~s~ barikade diri di kompleks benteng di ~o~Cayo Perico~s~</CalloutAdvisory>
+    <Task>Gas ke ~g~bandara~s~.</Task>
+
+    <Detective>
+        <Help>Ngobrol sama ~g~detektif~s~ pake {Y}</Help>
+        <Dialogue>Selamat siang! Kita punya misi besar nih — namanya ~g~Operasi Tropical Justice!</Dialogue>
+        <Dialogue>Kamu bakal terbang ke ~g~Cayo Perico~s~, tempat ~r~bos mafia~s~ lagi sembunyi.</Dialogue>
+        <Dialogue>Setelah mendarat, nyetir dulu agak jauh sampe ke ~y~kompleksnya~s~.</Dialogue>
+        <Dialogue>Cari dia dengan hati-hati, tapi tetap waspada — banyak ~r~penjaga bersenjata~s~!</Dialogue>
+        <Dialogue>Tangkap ~r~bosnya~s~, lalu terbang balik ke ~o~Los Santos~s~ dan masukin dia ke bui.</Dialogue>
+        <Dialogue>Aku saranin pakai ~b~rompi anti peluru~s~ dan bawa ~p~senapan~s~ yang reliable. Semangat!</Dialogue>
+        <Help>Masuk ke ~o~pesawat~s~ atau ~o~helikopter~s~ — terserah kamu!</Help>
+    </Detective>
+
+    <Help>
+        <Text>Terbang ke ~o~tujuan~s~ yang ditandain di GPS. Bisa ~y~skip penerbangan~s~ pake {J}</Text>
+        <Text>Masuk ke ~HC_10~kendaraan polisi tanpa tanda~s~.</Text>
+        <Text>Nyetir ke ~y~kompleks~s~.</Text>
+        <Text>Cari ~r~bos mafia~s~! Hati-hati, ada ~r~penjaga bersenjata~s~!</Text>
+        <Text>Kamu nemuin ~r~bosnya~s~, tangkap dia!</Text>
+        <Text>Bawa ~r~bosnya~s~ ke kendaraanmu dan balik ke bandara.</Text>
+        <Text>Kamu bisa bawa tersangka ke penjara atau akhiri panggilan.</Text>
+        <Text>Tekan {End} buat ~r~akhiri operasi~s~.</Text>
+        <Text>Operasi Tropical Justice selesai.</Text>
+    </Help>
+
+    <Mission>
+        <Text>~g~Misi berhasil</Text>
+        <Text>~r~Misi gagal</Text>
+    </Mission>
+
+    <Warper>Tekan {J} buat masuk/keluar ~y~kompleks~s~</Warper>
+
+</TropicalJustice>

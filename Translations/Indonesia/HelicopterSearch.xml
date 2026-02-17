@@ -1,0 +1,27 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Pencarian Helikopter untuk Kendaraan Curian</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Masuk ke peran pilot!</CALLOUTADVISORY>
+    <TASK>Kendaraan curian terdeteksi di area ini oleh kamera CCTV. Temui polisi di titik pertemuan.</TASK>
+    <COP>
+        <DIALOGUE>~b~Polisi:~s~ Halo, Pilot! Senang kamu bergabung dengan kami.</DIALOGUE>
+        <DIALOGUE>~b~Polisi:~s~ Kami sedang mencari kendaraan curian yang terakhir terlihat di area ini.</DIALOGUE>
+        <DIALOGUE>~b~Polisi:~s~ Kami punya info model dan warna kendaraannya, tapi ada beberapa kendaraan yang mirip.</DIALOGUE>
+        <DIALOGUE>~b~Polisi:~s~ Tolong kelilingi area tempat kendaraan terakhir terlihat dan scan kendaraan di sekitar pakai scanner helikopter.</DIALOGUE>
+        <DIALOGUE>~b~Polisi:~s~ Semoga sukses!</DIALOGUE>
+    </COP>
+    <VEHICLEINFO>
+        <TEXT>Kendaraan yang dicari:~n~</TEXT>
+        <TEXT>~b~Model:~s~ {Model}~n~</TEXT>
+        <TEXT>~b~Warna:~s~ {Color}~n~</TEXT>
+        <TEXT>~b~Terakhir terlihat di~s~ {Zone}</TEXT>
+    </VEHICLEINFO>
+    <SEARCH>
+        <TEXT>~r~Tersangka sudah discan dan ditemukan! Ikuti dia sampai berhenti atau ~o~lakukan penghentian lalu lintas~s~!</TEXT>
+        <TEXT>Itu bukan mobil yang kita cari.</TEXT>
+        <TEXT>Tersangka sudah parkir, sekarang tangkap dia!</TEXT>
+    </SEARCH>
+    <ACTION>
+        <TEXT>Tersangka mengabaikan perintahmu.</TEXT>
+        <TEXT>Tersangka menyerah.</TEXT>
+    </ACTION>
+</CALLOUT>

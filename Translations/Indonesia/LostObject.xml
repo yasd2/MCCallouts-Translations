@@ -1,0 +1,83 @@
+<LostObject>
+
+    <!-- Halo penerjemah, jangan bingung sama CDATA!                    -->
+    <!-- Tulis aja di antara kurung [ ]                                  -->
+    <!-- Contoh: <![CDATA[ TULIS TEKSNYA DI SINI ]]>                     -->
+    <!-- CDATA cuma biar '&' sama '<>' muncul di game                    -->
+
+
+    <General>
+        <Text>Barang Hilang</Text>
+        <Text>Pelapor kehilangan barang, butuh polisi</Text>
+        <Text><![CDATA[Gas ke ~g~pelapor~s~ & cari tahu masalahnya apa.]]></Text>
+    </General>
+
+
+    <DisplayHelp>
+        <Text>Ngobrol sama pelapor tekan </Text>
+        <Text>Cari ~o~HP~s~-nya. Tekan </Text> <!--Cari ~o~HP~s~-nya. Tekan __Key-Y__ buat ambil barangnya.-->
+        <Text>Cari ~o~dompet~s~-nya. Tekan </Text>    <!--Cari ~o~dompet~s~-nya. Tekan __Key-Y__ buat ambil barangnya.-->
+        <Text>Cari ~o~sepatu~s~-nya. Tekan </Text>      <!--Cari ~o~sepatu~s~-nya. Tekan __Key-Y__ buat ambil barangnya.-->
+        <Text>buat ambil barangnya.</Text>
+        <Text>Tekan </Text>                                 <!--Tekan __Key-Y__ buat teriak ke pelapor!-->
+        <Text>buat teriak ke pelapor!</Text>               <!--Tekan __Key-Y__ buat teriak ke pelapor!-->
+        <Text>Nih ~r~petunjuk~s~ kecil buat bantu.</Text>
+        <Text>Tekan ~g~1 ~s~buat setuju atau ~r~2~s~ buat batal.</Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+        <Text>~r~HP~s~ ketemu!</Text>
+        <Text>~r~Dompet~s~ ketemu!</Text>
+        <Text>~r~Sepatu~s~ ketemu!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>~y~Kamu~s~: Halo, kamu yang lapor barang hilang?</Dialogue>
+        <Dialogue>~b~Pelapor~s~: Tunggu bentar, aku dateng!</Dialogue>
+        <Dialogue>~b~Pelapor~s~: Makasih banget! Andai mata aku kayak mata kamu!</Dialogue>
+        <Dialogue>~y~Kamu~s~: Santai aja, bye!</Dialogue>
+    </Conversation>
+
+
+    <OutcomeCellphone>
+        <Dialogue>~b~Pelapor~s~: Iya, aku yang lapor. HP aku ilang, nggak ketemu.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Paham. Aku bantu cari ya.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Terakhir dipake kapan?</Dialogue>
+        <Dialogue><![CDATA[~b~Pelapor~s~: Aku lagi jalan di sini & kupikir aku masukin ke saku.]]></Dialogue>
+        <Dialogue>~y~Kamu~s~: Berarti masih di sekitar sini nih. Ayo kita cari bareng.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Heeeey, HP kamu ketemu nih!</Dialogue>
+    </OutcomeCellphone>
+
+
+    <OutcomeWallet>
+        <Dialogue><![CDATA[~b~Pelapor~s~: Iya, aku yang lapor. Dompet aku ilang, nggak ketemu.]]></Dialogue>
+        <Dialogue>~y~Kamu~s~: Wah sayang banget. Pasti ketemu kok.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Ingat nggak terakhir pegang kapan?</Dialogue>
+        <Dialogue>~b~Pelapor~s~: Baru tadi aja, pasti masih di sekitar sini.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Oke, ayo cari dompetnya.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Heeeey, dompet kamu ketemu!</Dialogue>
+    </OutcomeWallet>
+
+
+    <OutcomeShoe>
+        <Dialogue>~b~Pelapor~s~: Iya, aku butuh bantuan. Aku punya masalah gede banget.</Dialogue>
+        <Dialogue>~b~Pelapor~s~: Sepatuku ilang... sepatu kesayanganku, sayang banget!</Dialogue>
+        <Dialogue>~y~Kamu~s~: Ahh... maaf ya, ini bukan alasan buat panggil polisi.</Dialogue>
+        <Dialogue>~b~Pelapor~s~: Tapi ini sepatu 1,5 juta loh! Maaf, tapi tolong bantu cari ya?</Dialogue>
+        <Dialogue>~y~Kamu~s~: Oke deh, aku bantu cari sepatunya. Ayo kita cari di sekitar sini.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Nggak, seperti yang aku bilang. Tolong panggil polisi cuma buat keadaan darurat aja ya. Selamat hari!</Dialogue>
+        <Dialogue>~y~Kamu~s~: Heeeey, sepatumu ketemu nih!</Dialogue>
+        <Dialogue>~y~Kamu~s~: Oke, tapi lain kali cuma panggil kalau darurat ya! Bye!</Dialogue>
+    </OutcomeShoe>
+
+
+    <End>
+        <Text>Kami ~g~Code 4~s~, ~b~barang hilang udah ~g~ketemu~s~.</Text>
+        <Text>Code ~g~4~s~, kasus selesai.</Text>
+    </End>
+
+
+
+</LostObject>

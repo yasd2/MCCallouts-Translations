@@ -1,0 +1,140 @@
+<TrainAccident>
+
+    <CalloutMessage>Kecelakaan Kereta Api</CalloutMessage>
+    <CalloutAdvisory><![CDATA[Selidiki kejadiannya & tangkap tersangkanya!]]></CalloutAdvisory>
+
+    <Mugshot>Foto Tersangka</Mugshot>
+
+    <DisplayHelp>
+        <Text>Gas ke ~b~lokasi kecelakaan kereta~s~.</Text>
+        <Text><![CDATA[Ngobrol sama ~o~korban~s~ & ~r~masinis kereta~s~.]]></Text>
+        <Text>Ngobrol sama ~o~korban~s~.</Text>
+        <Text>Sekarang ngobrol sama ~g~saksi~s~.</Text>
+        <Text>Cari bukti di sekitar ~y~kereta~s~.</Text>
+        <Text>Kami dapat info lokasi ~r~tersangka potensial~s~.</Text>
+        <Text>~g~Code 4,~s~ lanjut patroli.</Text>
+    </DisplayHelp>
+
+    <Detective_NotDUI>
+        <Dialogue>~HC_43~Detektif~s~: Halo Petugas, makasih udah dateng ke kekacauan ini!</Dialogue>
+        <Dialogue>~HC_43~Detektif~s~: Langsung aja: Ada kecelakaan kereta dengan banyak korban luka.</Dialogue>
+        <Dialogue>~HC_43~Detektif~s~: Keretanya kelihatan anjlok dan terbelah di tengah.</Dialogue>
+        <Dialogue><![CDATA[~HC_43~Detektif~s~: Pertama, tolong ngobrol sama ~o~korban~s~ & ~r~masinis~s~, lalu selidiki TKP buat ~y~bukti~s~!]]></Dialogue>
+        <Dialogue>~HC_43~Detektif~s~: Di sana ada ~g~dua saksi~s~. Semangat!</Dialogue>
+    </Detective_NotDUI>
+
+    <Detective_DUI2>
+        <Dialogue>~HC_43~Detektif~s~: Pertama, tolong ngobrol sama ~o~korban~s~, lalu selidiki TKP buat ~y~bukti~s~!</Dialogue>
+    </Detective_DUI2>
+
+    <Detective_DUI>
+        <Dialogue>~HC_43~Detektif~s~: Halo Petugas, makasih udah dateng ke kekacauan ini!</Dialogue>
+        <Dialogue>~HC_43~Detektif~s~: Langsung aja: Ada kecelakaan kereta dengan banyak korban luka.</Dialogue>
+        <Dialogue>~HC_43~Detektif~s~: Keretanya kelihatan anjlok dan terbelah di tengah.</Dialogue>
+        <Dialogue>~HC_43~Detektif~s~: Pertama, tolong ngobrol sama ~o~korban~s~, lalu selidiki TKP buat ~y~bukti~s~!</Dialogue>
+        <Dialogue>~HC_43~Detektif~s~: Di sana ada ~g~dua saksi~s~. Semangat!</Dialogue>
+    </Detective_DUI>
+
+    <Victim1_>
+        <Dialogue>~o~Korban~s~: Aku... lagi tidur, tiba-tiba... bunyi keras banget! Semua goyang, orang-orang teriak... aku lihat percikan api di luar jendela.</Dialogue>
+    </Victim1_>
+
+    <Victim2_NotDUI>
+        <Dialogue>~o~Korban~s~: Pak Polisi, kok bisa gini? Lihat semua orang luka. Dan banyak petugas darurat!</Dialogue>
+        <Dialogue>~o~Korban~s~: Tolong cari tahu penyebabnya ya, kami butuh jawaban.</Dialogue>
+    </Victim2_NotDUI>
+
+    <Victim2_DUI>
+        <Dialogue>~o~Korban~s~: Kepala aku masih pusing karena benturan keras tadi.</Dialogue>
+        <Dialogue>~o~Korban~s~: Aku nggak ngerti kenapa kereta ngebut banget.</Dialogue>
+        <Dialogue>~o~Korban~s~: Pantas aja kecelakaan terjadi dengan kecepatan segitu!</Dialogue>
+        <Dialogue>~o~Korban~s~: Aku mau ke RS sekarang, semoga masinisnya dihukum!</Dialogue>
+    </Victim2_DUI>
+
+    <Driver_NotDUI>
+        <Dialogue>~HC_8~Masinis~s~: Aku nggak ada peringatan apa-apa. Tiba-tiba kereta loncat dari rel! Aku nggak sempet ngerem.</Dialogue>
+    </Driver_NotDUI>
+
+    <Driver_DUI>
+        <Dialogue>~y~Kamu~s~: Polisi, berhenti di situ, tangan kelihatan!</Dialogue>
+        <Dialogue>~HC_8~Masinis~s~: Ada apa? *hik* Aku nggak kenal luuuu.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Kamu masinis kereta di {StreetName} hari ini?</Dialogue>
+        <Dialogue>~HC_8~Masinis~s~: Uh, bukan. Aku *hik* bahkan nggak bisa naik sepeda...</Dialogue>
+        <Dialogue>~y~Kamu~s~: Saya perlu KTP kamu.</Dialogue>
+    </Driver_DUI>
+
+    <Witness1_Dismantled>
+        <Dialogue>~g~Saksi~s~: Saya kepala bengkel kereta. Kemarin ada masuk tanpa izin, tapi kelihatannya nggak ada yang dicuri.</Dialogue>
+        <Dialogue>~g~Saksi~s~: Dua tersangka kemarin, {Suspect1.GetGender()} dan {Suspect2.GetGender()}, naik ~h~{SuspectVehicle.Model.Name}~h~.</Dialogue>
+        <Dialogue>~g~Saksi~s~: Kami juga pecat karyawan minggu lalu namanya {Suspect2.GetFullName()}.</Dialogue>
+        <Dialogue>~g~Saksi~s~: Aku curiga ini ada hubungannya sama kecelakaan...</Dialogue>
+    </Witness1_Dismantled>
+
+    <Witness1_ObjectOnTracks>
+        <Dialogue>~g~Saksi~s~: Halo, aku lagi jalan-jalan pas lihat dua orang di rel kereta.</Dialogue>
+        <Dialogue>~g~Saksi~s~: Aku nggak yakin mereka lagi perbaiki atau bikin rusak.</Dialogue>
+        <Dialogue>~g~Saksi~s~: Dua tersangkanya {Suspect1.GetGender()} dan {Suspect2.GetGender()}.</Dialogue>
+    </Witness1_ObjectOnTracks>
+
+    <Witness1_DUI>
+        <Dialogue>~g~Saksi~s~: Halo, aku lagi jalan dua blok dari sini pas notice sesuatu.</Dialogue>
+        <Dialogue>~g~Saksi~s~: Aku nggak paham sinyal kereta, tapi lampunya pasti merah.</Dialogue>
+        <Dialogue>~g~Saksi~s~: Aku cuma lapor aja.</Dialogue>
+    </Witness1_DUI>
+
+    <Witness2_NotDUI_WithVehicle>
+        <Dialogue>~g~Saksi~s~: Aku lihat dua orang lari kabur pas kecelakaan! Ke arah jalan!</Dialogue>
+        <Dialogue>~g~Saksi~s~: Mobilnya ~h~{SuspectVehicle.Model.Name}~h~, plat nomor ~h~{SuspectVehicle.LicensePlate}~h~.</Dialogue>
+        <Dialogue>~g~Saksi~s~: Nih, aku sempet foto salah satunya!</Dialogue>
+    </Witness2_NotDUI_WithVehicle>
+
+    <Witness2_NotDUI_OnFoot>
+        <Dialogue>~g~Saksi~s~: Aku lihat dua orang lari kabur pas kecelakaan! Ke arah jalan!</Dialogue>
+        <Dialogue>~g~Saksi~s~: Satunya {Suspect1.GetGender()}, satunya lagi {Suspect2.GetGender()}.</Dialogue>
+        <Dialogue>~g~Saksi~s~: Nih, aku sempet foto salah satunya!</Dialogue>
+    </Witness2_NotDUI_OnFoot>
+
+    <Witness2_DUI_WithVehicle>
+        <Dialogue>~g~Saksi~s~: Aku lihat orang jalan sempoyongan dari TKP.</Dialogue>
+        <Dialogue>~g~Saksi~s~: Dia lari ke ~h~{SuspectVehicle.Model.Name}~h~.</Dialogue>
+        <Dialogue>~g~Saksi~s~: Plat nomornya ~h~{SuspectVehicle.LicensePlate}~h~.</Dialogue>
+    </Witness2_DUI_WithVehicle>
+
+    <Witness2_DUI_OnFoot>
+        <Dialogue>~g~Saksi~s~: Aku lihat orang jalan sempoyongan dari TKP.</Dialogue>
+        <Dialogue>~g~Saksi~s~: Dia lari kabur, kalau bisa disebut lari sih.</Dialogue>
+        <Dialogue>~g~Saksi~s~: Semoga kamu nemuin dia!</Dialogue>
+    </Witness2_DUI_OnFoot>
+
+    <Suspect1_>
+        <Dialogue>~y~Kamu~s~: Berhenti, polisi! Tangan kelihatan!</Dialogue>
+        <Dialogue>~r~Tersangka~s~: Dengar, kalian salah orang.</Dialogue>
+        <Dialogue>~r~Tersangka~s~: Kami nggak ada hubungannya sama kecelakaan kereta.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Kok kamu tahu soal kecelakaan kereta?</Dialogue>
+        <Dialogue>~r~Tersangka~s~: Ehm...</Dialogue>
+    </Suspect1_>
+
+    <Evidence>
+        <Dismantled>
+            <Dialogue>Selang oli lepas, kayaknya sengaja dilepas orang.</Dialogue>
+            <Dialogue>Remnya hilang.</Dialogue>
+            <Dialogue>Kabel listrik diputus.</Dialogue>
+            <Dialogue>Hmm... burger, sekarang aku laper.</Dialogue>
+        </Dismantled>
+
+        <ObjectOnTracks>
+            <Dialogue>Batu besar di deket rel nggak bagus...</Dialogue>
+            <Dialogue>Roda kereta rusak, pasti nabrak sesuatu...</Dialogue>
+            <Dialogue>Relnya longgar dan ada linggis di sini... hmm...</Dialogue>
+            <Dialogue>Kenapa ada batu di sini?</Dialogue>
+        </ObjectOnTracks>
+
+        <DUI>
+            <Dialogue>Speedometer macet di 100 km/jam... kecepatan gila.</Dialogue>
+            <Dialogue>Rem kelihatan baru, nggak ada pengereman darurat.</Dialogue>
+            <Dialogue>Pizza, hmm, enak...</Dialogue>
+            <Dialogue>Daftar masinis beserta foto, hari ini yang bertugas ~h~{Driver.GetFullName()}~h~...</Dialogue>
+        </DUI>
+    </Evidence>
+
+</TrainAccident>

@@ -1,0 +1,125 @@
+<HostageSituation>
+
+    <!-- Halo penerjemah, jangan bingung sama CDATA!                    -->
+    <!-- Tulis aja di antara kurung [ ]                                  -->
+    <!-- Contoh: <![CDATA[ TULIS TEKSNYA DI SINI ]]>                     -->
+    <!-- CDATA cuma biar '&' sama '<>' bisa muncul di game               -->
+
+    <General>
+        <Text>Sanderaan</Text>
+        <Text>Ada orang yang nyandera orang lain sambil ancam pake senjata</Text>
+        <Text>Gas ke lokasi sanderaan Code 3, prioritas tinggi!</Text>
+        <Text><![CDATA[Parkir mobil di marker kuning & ambil posisi cover sambil ngobrol sama tersangka.]]></Text>
+        <Text>Ngobrol sama ~g~sandera~s~.</Text>
+        <Text>Oke oke, aku nyerah!</Text>
+        <Text>Parkir di situ dan ambil cover di belakang mobilmu.</Text>
+    </General>
+
+    <PedStatus>
+        <Text>~r~Tersangka ~s~udah ditangkap!</Text>
+        <Text>~g~Sandera ~y~ditangkap?!</Text>
+        <Text>~o~Tersangka~s~ udah ~r~tewas.~s~</Text>
+        <Text>~g~Sandera~s~ udah ~r~tewas...~s~</Text>
+    </PedStatus>
+
+    <DisplayHelp>
+        <Text>Tekan</Text>                                                          <!-- Tekan _Key_Y__ buat akhiri ... -->
+        <Text>buat akhiri panggilan setelah selesai ~b~investigasi~s~.</Text>       <!-- Tekan _Key_Y__ buat akhiri ... -->
+        <Text>Ngobrol sama tersangka pake</Text>                                   <!-- Ngobrol sama tersangka pake _Key_Y_ -->
+    </DisplayHelp>
+
+    <DistanceToSuspect> <!-- Kalau kamu terlalu deket sama tersangka yang lagi pegang sandera, pertama dapet peringatan, kalau masih deket beberapa detik kemudian, dia nembak -->
+        <Dialogue>~o~Minggir atau aku tembak!</Dialogue>
+        <Dialogue>~g~Pas banget waktunya!</Dialogue>
+        <Dialogue>~r~Sekarang hujan peluru nih!</Dialogue>
+    </DistanceToSuspect>
+
+    <DistanceWarner> <!-- Kalau kamu terlalu deket sama mobil tersangka yang lagi bawa sandera, pertama dapet peringatan, kalau masih deket beberapa detik kemudian, dia nembak -->
+        <Dialogue>~o~Jaga jarak dong, nanti tersangka marah!~s~</Dialogue>
+        <Dialogue>~g~Bagus, jaga jarak aman ya.~s~</Dialogue>
+        <Dialogue>~r~Kamu kelewat deket! Hati-hati!~s~</Dialogue>
+    </DistanceWarner>
+
+    <Menu>
+        <MenuName>Pilih aksi:</MenuName>
+
+        <Menu1>
+            <Conversation>Diam aja di situ</Conversation>
+            <Conversation>~y~Kamu~s~: Tenang aja, aku diem di sini kok.</Conversation>
+            <Conversation>Ngancam keras</Conversation>
+            <Conversation>~y~Kamu~s~: Aku tembak kepalamu kalau gitu, bajingan!</Conversation>
+        </Menu1>
+
+        <Menu2>
+            <Conversation>20 juta cash</Conversation> <!-- Bisa ganti mata uang ke Rp kalau mau lebih lokal -->
+            <Conversation>~y~Kamu~s~: Kami kasih 20 juta cash, gimana, deal?</Conversation>
+            <Conversation>Perbaiki kondisi tahanan</Conversation>
+            <Conversation>~y~Kamu~s~: Kami bisa kasih bosmu sel yang lebih gede plus TV, gimana tuh?</Conversation>
+            <Conversation><![CDATA[Usul mulai baru & psikolog]]></Conversation>
+            <Conversation>~y~Kamu~s~: Aku ngerti. Temenku psikolog bagus banget, dia bisa bantu kamu balik ke jalur yang bener, gimana?</Conversation>
+        </Menu2>
+
+        <Menu3>
+            <Conversation>Mobil kabur dengan bensin terbatas</Conversation>
+            <Conversation>~y~Kamu~s~: Kamu dapet mobil kabur tapi bensinnya dikit, mau ke mana nih?</Conversation>
+            <Conversation>Nawarin pizza</Conversation>
+            <Conversation>~y~Kamu~s~: Gimana kalau mending pesen pizza aja?</Conversation>
+        </Menu3>
+    </Menu>
+
+    <SuspectTalk>
+        <Dialogue>~r~Tersangka~s~: Minggir! Mau apa kalian di sini?! Jangan deket-deket!</Dialogue>
+        <Dialogue>~r~Tersangka~s~: Mending kalian berharap gitu! Sekarang semua pergi, aku nggak mau lihat polisi lagi!</Dialogue>
+        <Dialogue>~r~Tersangka~s~: Kalian nggak bisa ngapa-ngapain! Aku nggak mau lihat polisi lagi, kalau nggak hujan peluru nih!</Dialogue>
+        <Dialogue>~y~Kamu~s~: Aku ngerti, tapi gedung ini sudah dikepung.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Aku pengen ini berakhir damai, buat kamu, sandera, dan rekan-rekan polisi.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Kenapa kamu rampok toko itu?</Dialogue>
+        <Reasons>
+            <Dialogue>~r~Tersangka~s~: Aku butuh ~b~duit~s~, aku ~b~bangkrut~s~ dan nggak bisa bayar sewa lagi!</Dialogue>
+            <Dialogue>~r~Tersangka~s~: Ini salah dia! ~b~Dia ninggalin aku!~s~ Makanya sekarang dia sandera aku!</Dialogue>
+            <Dialogue>~r~Tersangka~s~: ~b~Bos~s~ aku lagi ~b~di bui~s~, aku nggak pergi sebelum dia bebas!</Dialogue>
+        </Reasons>
+        <Dialogue>~y~Kamu~s~: Dengar baik-baik, aku tawarin kesepakatan ini buat kamu:</Dialogue>
+        <Dialogue>~r~Tersangka~s~: Kami deal, tapi kamu mau apa sebagai gantinya?</Dialogue>
+        <Dialogue>~y~Kamu~s~: Sekali lagi, semua harus pulang selamat dan kamu harus lepasin sandera!</Dialogue>
+        <Dialogue>~r~Tersangka~s~: Kasih aku mobil kabur, nanti aku lepasin sandera!</Dialogue>
+        <Dialogue>~r~Tersangka~s~: Itu nggak masuk akal, tawaran terakhir...</Dialogue>
+        <Fail>
+            <Dialogue>~r~Tersangka~s~: Anjir sama tawaranmu! Polisi masih di sini lagi!</Dialogue>
+            <Dialogue>~r~Tersangka~s~: Sekarang liat aja apa yang kamu dapet!</Dialogue>
+            <Dialogue>~r~Tersangka~s~: Kamu gila! Sekarang liat aja apa yang kamu dapet!</Dialogue>
+        </Fail>
+        <Dialogue>~r~Tersangka~s~: Aku nggak bilang, tapi aku lepasin sandera begitu nggak lihat polisi lagi.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Mobilnya bentar lagi sampai...</Dialogue>
+    </SuspectTalk>
+
+    <SuspectDrives>
+        <Text>Ikutin mobil tersangka, tapi jaga jarak ya, biar dia nggak ngeh kamu ngikutin!</Text>
+        <Text><![CDATA[~g~Tersangka harus ngerasa aman,~s~ saatnya kepung & ~r~tangkap dia!~s~]]></Text>
+        <Text>Tracker sudah dipasang dan aktif di kendaraannya.</Text>
+        <Text>FBI lapor: Kamu bisa ~y~matikan mesin kendaraan~s~ dengan tekan ~y~O~s~!</Text>
+        <Text><![CDATA[Tangkap ~y~tersangka~s~! Kepung mobilnya & tangkap dia!]]></Text>
+        <Text>Kendaraan sudah dimatikan, tangkap tersangkanya!</Text>
+    </SuspectDrives>
+
+    <HostageTalk>
+        <Dialogue>~g~Sandera~s~: Makasih banget, orang itu gila beneran! Nggak nyangka!</Dialogue>
+        <Dialogue>~y~Kamu~s~: Tenang dulu. Penyandera udah nggak jadi masalah lagi buat kamu.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Kamu baik-baik aja? Butuh medis atau bantuan psikolog?</Dialogue>
+        <Dialogue>~g~Sandera~s~: Aku baik-baik aja, cuma pengen pulang.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Gimana ceritanya bisa jadi sanderaan gini?</Dialogue>
+        <ExGirlfriend>
+            <Dialogue>~g~Sandera~s~: Mantan pacarku gila, aku putus dua minggu lalu.</Dialogue>
+            <Dialogue><![CDATA[~g~Sandera~s~: Dia nggak terima & ngikutin aku sampe sini.]]></Dialogue>
+        </ExGirlfriend>
+        <Dialogue>~g~Sandera~s~: Aku cuma mau belanja, tiba-tiba orang itu dateng dan todongin pistol ke kepala aku!</Dialogue>
+        <Dialogue>~g~Sandera~s~: Dia bener-bener nekat buat paksa tuntutannya...</Dialogue>
+        <Dialogue><![CDATA[~y~Kamu~s~: Oke, kalau nggak ada keluhan lain, selamat jalan pulang ya & hati-hati!]]></Dialogue>
+        <Dialogue>~g~Sandera~s~: Makasih lagi, bye!</Dialogue>
+    </HostageTalk>
+
+    <End>
+        <Text>~g~Code 4.</Text>
+    </End>
+
+</HostageSituation>

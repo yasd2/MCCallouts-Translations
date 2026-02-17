@@ -1,0 +1,14 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Kebakaran Hutan</CALLOUTMESSAGE>
+    <TASK>Warga melaporkan kebakaran besar di hutan {ZONE}.</TASK>
+    <DIFFICULTY>
+        <TEXT>Kesulitan:</TEXT>
+        <TEXT>~y~SEDANG</TEXT>
+        <TEXT>~r~SULIT</TEXT>
+    </DIFFICULTY>
+    <END>
+        <TEXT>Api sudah padam, kerja bagus!</TEXT>
+        <TEXT>Kamu telah memadamkan {PERCENTAGE} %.</TEXT>
+        <TEXT>Semua api telah dipadamkan. Kerja hebat!</TEXT>
+    </END>
+</CALLOUT>

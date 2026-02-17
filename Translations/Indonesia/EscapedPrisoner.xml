@@ -1,0 +1,67 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Tahanan Kabur</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Bus penjara kecelakaan di {Zone}, seorang tahanan kabur</CALLOUTADVISORY>
+    <TASK>Tahanan baru saja kabur. Berkendara ke area terakhir yang dilaporkan.</TASK>
+    <DIALOGUE0>
+        <DIALOGUE>~y~Kamu:~s~ Halo Pak, ada apa di sini?</DIALOGUE>
+        <DIALOGUE>~o~Penjaga Penjara:~s~ Halo! Saya diserang! Tahanan itu—dia tiba-tiba ngamuk!</DIALOGUE>
+        <DIALOGUE>~o~Penjaga Penjara:~s~ Dia serang saya pas saya lagi awasin lalu lintas. Bus terbalik karena kecelakaan, lalu dia lompat keluar.</DIALOGUE>
+        <DIALOGUE>~o~Penjaga Penjara:~s~ Sekarang dia kabur jalan kaki, lari ke hutan pakai baju tahanan oranye!</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Ada ide ke mana dia mungkin pergi?</DIALOGUE>
+        <DIALOGUE>~o~Penjaga Penjara:~s~ Terakhir saya lihat, dia ke arah utara, lewat bukit di sana.</DIALOGUE>
+        <DIALOGUE>~o~Penjaga Penjara:~s~ Dia mungkin coba curi mobil, atau sembunyi di suatu tempat.</DIALOGUE>
+        <DIALOGUE>~o~Penjaga Penjara:~s~ Hati-hati—dia berbahaya dan putus asa!</DIALOGUE>
+        <DIALOGUE>~o~Penjaga Penjara:~s~ Ya Tuhan, dia ambil pistol saya juga! Saya nggak nemu!</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Baiklah. Saya akan cari dia.</DIALOGUE>
+    </DIALOGUE0>
+    <DIALOGUE1>
+        <DIALOGUE>~y~Kamu:~s~ Pak, Bapak baik-baik saja? Ada apa di sini?</DIALOGUE>
+        <DIALOGUE>~o~Penjaga Penjara:~s~ Tahanan itu gila! Dia serang saya tiba-tiba!</DIALOGUE>
+        <DIALOGUE>~o~Penjaga Penjara:~s~ Saya lagi cek arah di tablet, dia manfaatin kesempatan buat ngalahin saya. Bus terguling pas saya coba hentikan dia.</DIALOGUE>
+        <DIALOGUE>~o~Penjaga Penjara:~s~ Begitu kecelakaan, dia langsung kabur—lari ke hutan pakai baju oranye penuh.</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Ke mana arahnya?</DIALOGUE>
+        <DIALOGUE>~o~Penjaga Penjara:~s~ Ke utara, lewat bukit itu. Dia cepat banget!</DIALOGUE>
+        <DIALOGUE>~o~Penjaga Penjara:~s~ Kalau dia nemu mobil atau tempat sembunyi, kita bisa kehilangan jejak.</DIALOGUE>
+        <DIALOGUE>~o~Penjaga Penjara:~s~ Hati-hati, Pak Polisi—dia lagi nggak waras.</DIALOGUE>
+        <DIALOGUE>~o~Penjaga Penjara:~s~ Sial… saya baru sadar, senjata dinas saya hilang!</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Mengerti. Saya langsung kejar dia sekarang.</DIALOGUE>
+    </DIALOGUE1>
+    <DIALOGUE2>
+        <DIALOGUE>~y~Kamu:~s~ Ada apa? Bapak terluka?</DIALOGUE>
+        <DIALOGUE>~o~Penjaga Penjara:~s~ Nggak luka parah, tapi hampir. Tahanan itu ngamuk—dia serang saya tiba-tiba!</DIALOGUE>
+        <DIALOGUE>~o~Penjaga Penjara:~s~ Saya kehilangan kendali kendaraan pengangkut pas berantem. Dia paksa buka pintu dan kabur.</DIALOGUE>
+        <DIALOGUE>~o~Penjaga Penjara:~s~ Terakhir saya lihat, dia ke arah pepohonan. Masih pakai jumpsuit.</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Ada petunjuk ke mana dia pergi?</DIALOGUE>
+        <DIALOGUE>~o~Penjaga Penjara:~s~ Mungkin coba ke jalan utama atau cari tempat sembunyi deket sini.</DIALOGUE>
+        <DIALOGUE>~o~Penjaga Penjara:~s~ Dia nggak bisa diprediksi, dan mungkin sudah bersenjata sekarang.</DIALOGUE>
+        <DIALOGUE>~o~Penjaga Penjara:~s~ Sial… pistol saya hilang. Pasti dia ambil pas kekacauan!</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Paham. Saya akan lacak dia.</DIALOGUE>
+    </DIALOGUE2>
+    <SEARCH>
+        <TEXT>Deskripsi tersangka:~n~</TEXT>
+        <TEXT>~r~Nama:~s~ {Name}~n~</TEXT>
+        <TEXT>~r~Umur:~s~ {Age}~n~</TEXT>
+        <TEXT>~r~Jenis Kelamin:~s~ {Gender}</TEXT>
+        <TEXT>Tekan ~{Y}~ kapan saja untuk lihat info lagi.</TEXT>
+        <TEXT>Bicara dengan Penjaga Penjara dengan ~{Y}~</TEXT>
+    </SEARCH>
+    <ATTEMPTEDROBBERY>
+        <TEXT>Kami dapat laporan perampokan di dekat sini! Respons Code 3!</TEXT>
+        <TEXT>"~g~Korban:~s~ Pak Polisi, perampoknya baru kabur! Dia pakai baju oranye!!"</TEXT>
+        <TEXT>"~g~Korban:~s~ Tolong! Orang itu baru kabur dari tahanan! Dia pakai jumpsuit oranye!"</TEXT>
+        <TEXT>"~g~Korban:~s~ Pak Polisi! Saya lihat dia lari—seragam penjara oranye, ke arah sana!"</TEXT>
+    </ATTEMPTEDROBBERY>
+    <AUTOSTEHLEN>Laporan pencurian mobil masuk! Respons Code 3!</AUTOSTEHLEN>
+    <END> <!--Leave the space at the end of each element-->
+        <TEXT>Tersangka sudah dikurung kembali! </TEXT>
+        <TEXT>Tersangka tewas. </TEXT>
+        <TEXT>~g~Kembali patroli.</TEXT>
+    </END>
+    <ACTION>
+        <DIALOGUE>~r~Tersangka:~s~ Jangan tembak! Saya menyerah!</DIALOGUE>
+        <DIALOGUE>~r~Tersangka:~s~ Coba tangkap aku, bajingan!</DIALOGUE>
+        <DIALOGUE>~r~Tersangka:~s~ Mau berantem?! Ayo!!</DIALOGUE>
+        <DIALOGUE>~r~Tersangka:~s~ Tembak aku kalian idiot!</DIALOGUE>
+        <DIALOGUE>~r~Tersangka:~s~ Aku akan bunuh kalian semua babi!</DIALOGUE>
+    </ACTION>
+</CALLOUT>

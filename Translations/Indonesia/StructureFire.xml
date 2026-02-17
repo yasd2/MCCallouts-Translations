@@ -1,0 +1,46 @@
+<StructureFire>
+    <CalloutMessage>~r~~h~Kebakaran Bangunan~h~~s~</CalloutMessage>
+    <Task>Gas ke ~r~bangunan yang terbakar Code 3!</Task>
+    <State>
+        <Extinguish>
+            <Text>~o~Padamkan api sendiri ~r~atau panggil pemadam kebakaran!</Text>
+            <Text>Semua api sudah padam.</Text>
+        </Extinguish>
+        <Investigate>
+            <Text>Sekarang cari bukti di TKP terkait kebakaran. Tekan ~y~{Y}~s~ buat ambil.</Text>
+            <Text>Kami dapat info lokasi bukti.</Text>
+            <Text>Kamu nemuin bukti.</Text>
+        </Investigate>
+        <Manhunt>
+            <Text>Pelapor kasih info lokasi perkiraan tersangka.</Text>
+        </Manhunt>
+        <End>
+            <Text>Kebakaran Bangunan selesai.</Text>
+        </End>
+    </State>
+    <Scenario>
+        <SecureSceneOnly>
+            <Text>Tekan ~{End}~ buat akhiri panggilan.</Text>
+        </SecureSceneOnly>
+        <NoFire>
+            <Text>Untungnya nggak ada api di lokasi ini.</Text>
+        </NoFire>
+    </Scenario>
+    <SuspectAction>
+        <Ignoring>
+            <Text>Tersangka kelihatan ~y~cuek~s~ aja sama kamu dateng.</Text>
+        </Ignoring>
+        <Shooting>
+            <Text>~y~Kamu:~s~ ~r~Tembakan!~s~</Text>
+        </Shooting>
+        <Surrender>
+            <Text>Tersangka ~g~nyerah~s~.</Text>
+        </Surrender>
+        <Pursuit>
+            <Text>~y~Kamu:~s~ Ada ~o~pengejaran~s~ nih!</Text>
+        </Pursuit>
+    </SuspectAction>
+    <FireProgressBar>
+        <Text>~h~Api yang sudah dipadamkan~h~</Text>
+    </FireProgressBar>
+</StructureFire>

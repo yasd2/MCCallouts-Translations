@@ -1,0 +1,31 @@
+<Burglary>
+
+    <General>
+        <CalloutMessage>Warga melaporkan perampokan rumah</CalloutMessage>
+        <Text>Berkendara ke lokasi perampokan rumah, tetap waspada.</Text>
+        <Text>Cari barang bukti, tekan {0} untuk mengambil.</Text>
+        <Text>Periksa area sekitar rumah.</Text>
+    </General>
+
+    <FalseAlarm>
+        <Dialogue>Dispatch, tidak ada apa-apa di sini.</Dialogue>
+        <Dialogue>Copy, kembali patroli saja.</Dialogue>
+    </FalseAlarm>
+
+    <AnimalOnScene>
+        <Dialogue>Dispatch, false alarm, cuma hewan yang bikin rusuh.</Dialogue>
+        <Dialogue>Copy, kembali patroli saja.</Dialogue>
+    </AnimalOnScene>
+
+    <BurglarLeft>
+        <Dialogue>Dispatch, ada tanda-tanda penyusup di sini, sedang memeriksa TKP.</Dialogue>
+        <Dialogue>Hmmm, ini nggak membantu.</Dialogue>
+        <Dialogue>Dispatch, saya temukan dokumen atas nama {DriversName}.</Dialogue>
+        <Dialogue>Saya dapat hit ALPR pada kendaraan yang ngebut, pemiliknya {DriversName}.</Dialogue>
+    </BurglarLeft>
+
+    <BurglarIsLeaving>
+        <Dialogue>Dispatch, satu kendaraan ~r~kabur~s~, ada dua orang di dalam!</Dialogue>
+    </BurglarIsLeaving>
+
+</Burglary>

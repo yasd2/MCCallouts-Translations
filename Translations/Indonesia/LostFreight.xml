@@ -1,0 +1,68 @@
+<LostFreight>
+
+    <!-- Halo penerjemah, jangan bingung sama CDATA!                    -->
+    <!-- Tulis aja di antara kurung [ ]                                  -->
+    <!-- Contoh: <![CDATA[ TULIS TEKSNYA DI SINI ]]>                     -->
+    <!-- CDATA cuma biar '&' sama '<>' muncul di game                    -->
+
+
+    <General>
+        <Text>Barang Hilang di Jalan</Text>
+        <Text>Pelapor bilang ada barang hilang di jalan raya.</Text>
+        <Text><![CDATA[Gas ke lokasi pelapor & hubungi dia dulu.]]></Text>
+    </General>
+
+
+    <DisplayHelp>
+        <Text>Ngobrol sama pelapor pake </Text>
+        <Text><![CDATA[Cari di ~y~area~s~ & angkat rintangan pake ]]></Text>
+        <Text>Ngobrol sama ~b~polisi~s~ pake </Text>
+        <Text>Nggak ada obrolan lagi.</Text>
+        <Text>Nih sedikit ~g~bantuan~s~.</Text>
+    </DisplayHelp>
+
+
+    <Pickup>
+        <Text>~r~Nggak ada barang~s~ di deket sini.</Text>
+        <Text>~r~Barang~s~ udah diangkat!</Text>
+    </Pickup>
+
+
+    <Conversation>
+        <Dialogue>~y~Kamu~s~: Halo, kamu yang lapor barang hilang?</Dialogue>
+        <Dialogue><![CDATA[~b~Pelapor~s~: Iya, pintu trailer kebuka tiba-tiba, barang-barangnya berhamburan ke jalan!]]></Dialogue>
+        <Dialogue>~y~Kamu~s~: Bahaya nih, bawa apa aja tadi?</Dialogue>
+        <Dialogue>~b~Pelapor~s~: Macem-macem ~b~barang tenis~s~, lagi beresin gudang klub kami.</Dialogue>
+        <Dialogue>~b~Pelapor~s~: Banyak ~b~barang kantor~s~, lemari, monitor, kursi, speaker...</Dialogue>
+        <Dialogue>~b~Pelapor~s~: Banyak juga ~b~peralatan dapur~s~, panci, sendok-garpu, piring, dll, gara-gara kantor pindah.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Oke, kamu lagi ke arah mana?</Dialogue>
+        <Dialogue>~b~Pelapor~s~: Aku cuma lewat ~y~arah ini aja~s~, jadi cari di satu sisi jalan tol itu.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Dispatch, tutup pintu masuk tol terakhir, ada barang berserakan di jalan!</Dialogue>
+        <Dialogue>Copy, lalu lintas ditutup, unit lagi otw.</Dialogue>
+    </Conversation>
+
+
+    <Officer1>
+        <Dialogue>~b~Polisi Blue~s~: Halo! Semoga harinya lagi seru ya!</Dialogue>
+        <Dialogue>~b~Polisi Blue~s~: Aku tahan lalu lintas sampe jalan bersih!</Dialogue>
+        <Dialogue>~b~Polisi Blue~s~: Semangat!</Dialogue>
+    </Officer1>
+
+
+    <Officer2>
+        <Dialogue>~b~Polisi Night~s~: Halo, ini bakal lama nggak sih?</Dialogue>
+        <Dialogue>~b~Polisi Night~s~: Aku juga punya urusan lain loh!</Dialogue>
+        <Dialogue>~b~Polisi Night~s~: Kalau kamu nggak banyak omong, aku udah cabut dari tadi!</Dialogue>
+    </Officer2>
+
+
+    <End>
+        <Text>Kami ~g~Code 4~s~</Text>
+        <Text>Barang yang diangkat:</Text> <!--Ada 4 barang yang harus dicari, pesan ini nunjukin berapa yang udah kamu temuin.-->
+        <Text>/~g~4</Text> <!--Artinya X barang dari 4 udah ditemuin -> X/4 barang ditemuin-->
+        <Text>~r~Makasih, ~g~lalu lintas bisa mengalir lagi!</Text>
+    </End>
+
+
+
+</LostFreight>

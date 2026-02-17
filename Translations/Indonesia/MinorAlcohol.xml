@@ -1,0 +1,75 @@
+<MinorAlcohol>
+
+    <General>
+        <Text>Laporan minum-minum di bawah umur</Text>
+        <Text>Panggilan selesai</Text>
+        <Text>Gas ke lokasinya.</Text>
+        <Text>Nggak ada dialog lagi.</Text>
+        <Text>Cek KTP dan lakukan tes kesadaran di tempat.</Text>
+        <Text>Ngobrol sama {0}</Text>
+        <Text>Gas ke ~q~Yacht~s~ dan ngobrol sama ~q~Kapten~s~.</Text>
+    </General>
+
+    <Music>
+        <Text>Tekan {0} buat ~b~atur~s~ volume musiknya.</Text>
+        <Text>Tekan {0} dan {1} buat ~b~atur~s~ volume musiknya.</Text>
+        <Text>Pengaturan</Text>
+        <Text>Volume</Text>
+        <Text><![CDATA[<- Kecilkan; Besarin ->]]></Text>
+        <Text>Putar lagu random</Text>
+        <Text>Mulai lagu acak dari folder musik</Text>
+    </Music>
+
+    <Characters>
+        <Text>~b~Kamu: ~s~</Text>
+        <Text>~y~Orang: ~s~</Text>
+        <Text>~q~Kapten: ~s~</Text>
+        <Text>~r~Asisten Caty: ~s~</Text>
+        <Text>~r~Asisten Nicole: ~s~</Text>
+    </Characters>
+
+    <TalkToCaptain>
+        <Dialogue>Halo, makasih udah dateng!</Dialogue>
+        <Dialogue>Malam ini pesta gede, ~g~DJ Moodyman~s~ yang lagi mix!</Dialogue>
+        <Dialogue>Sayangnya kayaknya ada beberapa anak di bawah umur ikut-ikutan.</Dialogue>
+        <Dialogue>Tolong cek mereka ya, nggak boleh ada anak kecil di sini.</Dialogue>
+        <Dialogue>Cek orang-orang yang kelihatannya cocok.</Dialogue>
+    </TalkToCaptain>
+
+    <Caty>
+        <Dialogue>Hai, semoga kamu bisa nemuin anak-anak di kapal, cek di belakang kapal ya!</Dialogue>
+        <Dialogue>~g~DJ Moodyman~s~ lagi main di platform atas, jangan naik panggung nanti rusak pesta c;</Dialogue>
+    </Caty>
+
+    <Nicole>
+        <Dialogue>Oh halo Pak Polisi..</Dialogue>
+        <Dialogue>Kalau butuh apa-apa, langsung hubungi aku aja, kami bantu semampu kami!</Dialogue>
+    </Nicole>
+
+    <PedToCheck0>
+        <Dialogue>Halo, saya polisi dari kantor setempat!</Dialogue>
+        <Dialogue>Kami dapat laporan ada anak di bawah umur lagi pesta dan minum-minum.</Dialogue>
+        <Dialogue>Saya perlu lihat KTP kamu, dan mungkin saya lakukan tes kesadaran di tempat.</Dialogue>
+    </PedToCheck0>
+
+    <PedToCheck1>
+        <Dialogue>Halo, saya polisi dari kantor setempat!</Dialogue>
+        <Dialogue>Kami dapat panggilan soal pesta di bawah umur dan minum-minum.</Dialogue>
+        <Dialogue>Tolong kasih KTP kamu, dan mungkin saya tes breathalyzer.</Dialogue>
+    </PedToCheck1>
+
+    <PedToCheck2>
+        <Dialogue>Hai, saya polisi.</Dialogue>
+        <Dialogue>Ada yang lapor soal pesta anak di bawah umur dan minum-minum.</Dialogue>
+        <Dialogue>Saya perlu lihat KTP kamu dan mungkin lakukan tes kesadaran.</Dialogue>
+    </PedToCheck2>
+
+    <Transport>
+        <Text>Tekan ~y~1~s~ kalau udah selesai buat ~y~teleport~s~ kamu dan tersangka ke ~b~kapal polisi~s~.</Text>
+        <Text>Bawa tersangka ke ~b~marker biru~s~ biar mereka naik ke kapal polisi.</Text>
+        <Text>Bawa tersangka ke penjara, tekan ~y~End~s~ kapan aja buat akhiri panggilan.</Text>
+        <Text>Tolong ~b~lepas~s~ tersangka dan ~b~mundur~s~ sedikit.</Text>
+        <Text>~b~Tersangka~s~ sekarang lagi nunggu di kapal polisi.</Text>
+    </Transport>
+
+</MinorAlcohol>

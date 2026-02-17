@@ -1,0 +1,172 @@
+<SolveMurder2>
+
+    <General>
+        <Text>~p~Detektif~s~ dibutuhkan untuk kasus pembunuhan</Text>
+        <Text>~g~Dispatch~s~: Gas ke Mirror Park di Los Santos, ~p~detektif~w~ dibutuhkan.</Text>
+    </General>
+
+    <Officer>
+        <Dialogue>Ngobrol sama ~b~petugas~w~ pake </Dialogue>
+        <Dialogue>~b~Petugas~s~: Halo Detektif! Seneng banget kamu dateng!</Dialogue>
+        <Dialogue>~b~Petugas~s~: Nama saya ~g~Jack Walter~s~, panggil aja Jack. Semoga macetnya nggak parah tadi.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Selamat siang! Nggak kok, lumayan lancar. Ada apa nih?</Dialogue>
+        <Dialogue>~b~Jack~s~: Ada ~g~orang mati~s~ di sebelah kanan, mungkin dibunuh. Petugas Dawson ~g~di sana~s~ punya info lebih lanjut.</Dialogue>
+        <Dialogue>~b~Jack~s~: Di sebelah lain ada 3 tersangka potensial, salah satunya yang lapor.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Makasih, aku ngobrol sama ~b~Petugas Dawson~s~ dulu ya.</Dialogue>
+        <Dialogue>Pergi dan ngobrol sama ~b~Petugas Dawson~s~.</Dialogue>
+    </Officer>
+
+    <Officer2>
+        <Dialogue>Ngobrol sama ~b~Petugas Dawson~s~ pake </Dialogue>
+        <Dialogue>~y~Kamu~s~: Halo, Petugas Dawson! Petugas Walter bilang kamu punya info?</Dialogue>
+        <Dialogue>~b~Petugas~s~: Selamat siang Detektif! Panggil aja Erika!</Dialogue>
+        <Dialogue>~b~Erika~s~: Korban namanya Lilliana Wyatt, 33 tahun, tinggal di Nikola Avenue deket sini.</Dialogue>
+        <Dialogue>~b~Erika~s~: Iya, kami punya 3 tersangka potensial untuk kemungkinan pembunuhan.</Dialogue>
+        <Dialogue>~b~Erika~s~: Salah satunya, Belle Hamilton, yang lapor, tapi dia juga bisa jadi pelakunya.</Dialogue>
+        <Dialogue>~b~Erika~s~: Saran aku, ke TKP dulu dan selidiki, lihat apa bisa nemuin bukti.</Dialogue>
+        <Dialogue>Pergi ke TKP dan cari ~b~barang bukti~s~.</Dialogue>
+    </Officer2>
+
+    <Evidence>
+        <Text>~y~Kamu~s~: Dia ada luka di kepala, kelihatannya kena pukul pake botol pecah di sana...</Text>
+        <Text>HP... di backgroundnya keliatan ~p~Obey Tailgater hitam~s~...</Text>
+        <Text>Hmmm... burger setengah dimakan... nggak terlalu menarik.</Text>
+        <Text>Darahnya masih segar, pasti kejadiannya nggak lebih dari 2 jam lalu...</Text>
+        <Text>Investigasi selesai! Pergi ke ~o~yang lapor~w~ dan ngobrol pake </Text>
+    </Evidence>
+
+    <Suspect1>
+        <Dialogue>Ngobrol sama ~o~tersangka~w~ pake </Dialogue>
+        <Dialogue>~y~Kamu~s~: Halo! Saya detektif di kasus ini. Boleh tahu namanya?</Dialogue>
+        <Dialogue>~o~Yang Lapor~s~: Selamat malam, nama saya Belle Hamilton. Saya lagi jalan di trotoar pas lihat dia...</Dialogue>
+        <Dialogue>~y~Kamu~s~: Kamu sudah berbuat benar lapor ke kami. Aku cek data kamu sebentar ya.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Dispatch, bisa cek orang 'Belle Hamilton'?</Dialogue>
+        <Dialogue>Tunggu sebentar, lagi dicek.</Dialogue>
+        <Dialogue>~b~Belle Hamilton~s~</Dialogue>
+        <Dialogue>~g~Nggak ada surat perintah</Dialogue>
+        <Dialogue>~g~Nggak ada penangkapan</Dialogue>
+        <Dialogue>~y~1 tilang: Ngebut~s~</Dialogue>
+        <Dialogue>~y~Kamu~s~: Rekamannya bersih. Masih ada beberapa pertanyaan buat kamu.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Kamu kenal korban?</Dialogue>
+        <Dialogue>~o~Ms. Hamilton~s~: Nggak, aku nggak kenal. Bayangin keluarganya, pasti sedih banget...</Dialogue>
+        <Dialogue>~y~Kamu~s~: Kami urus keluarganya. Boleh lihat HP kamu sebentar?</Dialogue>
+        <Dialogue>*nunjukin HP*</Dialogue>
+        <Dialogue>~o~Ms. Hamilton~s~: Nih, tapi... aaah... ada foto pribadi aku, nggak bisa kasih.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Boleh simpen. Ah, kamu naik mobil apa dan plat nomornya?</Dialogue>
+        <Dialogue>~o~Ms. Hamilton~s~: Aku naik Lampadati Pigalle, plat nomor 86LUN445.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Dispatch, cek kendaraan 86LUN445.</Dialogue>
+        <Dialogue>Copy, tunggu sebentar.</Dialogue>
+        <Dialogue>~b~86LUN445~s~</Dialogue>
+        <Dialogue>~g~Model~s~: Lampadati Pigalle</Dialogue>
+        <Dialogue>~b~Pemilik~s~: Belle Hamilton</Dialogue>
+        <Dialogue>~r~Asuransi kadaluarsa~s~</Dialogue>
+        <Dialogue>~y~Kamu~s~: Oke, tapi asuransi mobilmu kadaluarsa, sebaiknya diperpanjang.</Dialogue>
+        <Dialogue>~o~Ms. Hamilton~s~: Oh, makasih. Aku nggak tahu, nanti aku urus.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Itu aja dulu, tunggu instruksi selanjutnya ya.</Dialogue>
+        <Dialogue>Sekarang ke ~o~tersangka~s~ berikutnya dan ngobrol.</Dialogue>
+
+        <Dialogue>~y~Kamu~s~: Itu aja, makasih waktunya.</Dialogue>
+    </Suspect1>
+
+    <Suspect2>
+        <Dialogue>Ngobrol sama ~o~dia~s~ pake </Dialogue>
+        <Dialogue>~y~Kamu~s~: Selamat malam, Pak! Saya detektif di kasus ini. Boleh tahu namanya?</Dialogue>
+        <Dialogue>~o~Tersangka~s~: Halo Detektif, nama saya Talon Knight, lahir 12 Desember 1992. Kenapa aku ditahan di sini?</Dialogue>
+        <Dialogue>~y~Kamu~s~: Kamu ada di area pas kejadian terjadi.</Dialogue>
+        <Dialogue>~o~Talon~s~: Ini melanggar hakku! Lepasin aku, aku nggak ngapa-ngapain!</Dialogue>
+        <Dialogue>~y~Kamu~s~: Jawab pertanyaanku dulu, baru boleh pergi. Kamu tinggal di mana?</Dialogue>
+        <Dialogue>~o~Talon~s~: Aku tinggal deket sini, dua blok dari sini.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Dan kamu kenal korban?</Dialogue>
+        <Dialogue>~o~Talon~s~: Nggak?</Dialogue>
+        <Dialogue>~y~Kamu~s~: Kamu tinggal deket korban dan bilang nggak kenal Lilliana Wyatt?</Dialogue>
+        <Dialogue>~o~Talon~s~: Oke, aku kenal dia, cuma nggak suka. Dia nggak ramah, jarang aktif, dan nggak disukai tetangga...</Dialogue>
+        <Dialogue>~o~Talon~s~: Pernah dia lapor polisi gara-gara anjingku menggonggong beberapa kali, pas jam 10 malam lewat...</Dialogue>
+        <Dialogue>~y~Kamu~s~: Hmmm... Oke, boleh lihat HP kamu?</Dialogue>
+        <Dialogue>~o~Talon~s~: Mau sih, tapi minggu lalu aku jatuhin dan kasih ke tukang servis. Biayanya sekitar 1,5 juta...</Dialogue>
+        <Dialogue>~y~Kamu~s~: Paham. Kamu naik mobil apa dan plat nomornya?</Dialogue>
+        <Dialogue>~o~Talon~s~: Aku punya Vapid Minivan, plat nomornya... aaaah... 47LIF... 341.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Dispatch, cek plat 47LIF341.</Dialogue>
+        <Dialogue>Copy, tunggu sebentar.</Dialogue>
+        <Dialogue>~b~47LIF341~s~</Dialogue>
+        <Dialogue>~g~Model~s~: Vapid Minivan</Dialogue>
+        <Dialogue>~b~Pemilik~s~: Talon Knight</Dialogue>
+        <Dialogue>~y~Catatan: Kendaraan terdaftar 4 bulan lalu~s~</Dialogue>
+        <Dialogue>~y~Kamu~s~: Dispatch, cek nama 'Talon Knight' juga ya.</Dialogue>
+        <Dialogue>Tunggu, lagi dicek.</Dialogue>
+        <Dialogue>~b~Talon Knight~s~</Dialogue>
+        <Dialogue>~g~Nggak ada penangkapan</Dialogue>
+        <Dialogue>~y~1 tilang: Parkir di sisi jalan yang salah~s~</Dialogue>
+        <Dialogue>~y~Kamu~s~: Rekamannya bersih, nanti aku balik lagi kalau perlu.</Dialogue>
+        <Dialogue>~o~Talon~s~: Oke!</Dialogue>
+        <Dialogue>Ngobrol sama ~o~tersangka~s~ terakhir.</Dialogue>
+    </Suspect2>
+
+    <Suspect3>
+        <Dialogue>Ngobrol sama ~o~dia~s~ pake </Dialogue>
+        <Dialogue>~y~Kamu~s~: Halo Bu! Saya detektif di kasus ini, boleh tahu namanya?</Dialogue>
+        <Dialogue>~o~Tersangka~s~: Halo, nama saya Nylah Lane.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Oke. Dispatch, bisa cek nama 'Nylah Lane'?</Dialogue>
+        <Dialogue>Copy, lagi dicek.</Dialogue>
+        <Dialogue>~b~Nylah Lane~s~</Dialogue>
+        <Dialogue>~g~Nggak ada surat perintah~s~</Dialogue>
+        <Dialogue>~g~Nggak ada penangkapan</Dialogue>
+        <Dialogue>~y~1 tilang: Parkir di tempat disabilitas~s~</Dialogue>
+        <Dialogue>~y~Kamu~s~: Oke, bagus. Kamu tinggal di mana?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Aku tinggal di Vinewood Hills, punya flat di sana.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Wah, bagus tuh tempatnya! Boleh lihat HP kamu?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Iya boleh, HP-nya di tas aku... Oh, sh*t, mana ya?... Mungkin ketinggalan di mobil.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Semoga aja. Kamu naik mobil apa?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Aku naik... aaaaah... Grotti ... Stinger, ya itu.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Oke, plat nomornya?</Dialogue>
+        <Dialogue>~o~Nylah~s~: ... Aaah, aku lupa.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Lupa plat nomor mobil sendiri?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Iya, maksudku... ribet...</Dialogue>
+        <Dialogue>~y~Kamu~s~: Oke, terserah. Dispatch, cek plat ~b~Grotti Stinger~s~, pemilik ~b~Nylah Lane~s~.</Dialogue>
+        <Dialogue>10-4, lagi dicek.</Dialogue>
+        <Dialogue>Nggak ada hasil kombinasi ini, cek pemiliknya.</Dialogue>
+        <Dialogue>Ditemukan kendaraan lain atas nama pemilik:</Dialogue>
+        <Dialogue>~b~58RLD582~s~</Dialogue>
+        <Dialogue>~y~Model~s~: Obey Tailgater</Dialogue>
+        <Dialogue>~b~Pemilik~s~: Nylah Lane</Dialogue>
+        <Dialogue>~y~Kamu~s~: Menarik. Bu, kenapa bohong soal mobilnya?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Maksudnya apa? Aku punya 2 mobil... atau iya?</Dialogue>
+        <Dialogue>~y~Kamu~s~: Lucu ya, kamu bohong juga soal HP?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Kamu nemuin di deket sini? Makanya nanya?</Dialogue>
+        <Dialogue>~y~Kamu~s~: ... Apa hubunganmu sama korban?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Dia sepupuku dan dia berutang banyak sama aku.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Makanya kamu bunuh dia?</Dialogue>
+        <Dialogue>~o~Nylah~s~: Aku cuma dateng ke rumahnya buat konfrontasi soal utang.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Makasih kerjasamanya, nanti aku balik lagi.</Dialogue>
+        <Dialogue>Ngobrol lagi sama ~b~Petugas Erika~s~.</Dialogue>
+    </Suspect3>
+
+    <Officer3>
+        <Dialogue>Ngobrol lagi sama ~b~petugas~w~ pake </Dialogue>
+        <Dialogue>~y~Kamu~s~: Oke, aku udah selidiki TKP dan ngobrol sama tersangka.</Dialogue>
+        <Dialogue>~b~Erika~s~: Dan kamu udah tahu siapa pembunuhnya?</Dialogue>
+        <Dialogue>Tekan {1} ~r~buat Belle Hamilton~s~, {2} ~o~buat Talon Knight~s~ atau {3} ~y~buat Nylah Lane~s~!</Dialogue>
+
+        <Dialogue>~y~Kamu~s~: ... ~r~Belle Hamilton~s~!</Dialogue>
+        <Dialogue>~y~Kamu~s~: Ms. Hamilton nggak mau nunjukin isi HP-nya dan bilang dia ada di area pas kejadian!</Dialogue>
+        <Dialogue>~y~Kamu~s~: Dia pembunuhnya!</Dialogue>
+
+        <Dialogue>~y~Kamu~s~: ... ~o~Talon Knight~s~!</Dialogue>
+        <Dialogue>~y~Kamu~s~: Mr. Knight nggak suka korban dan tinggal deket!</Dialogue>
+        <Dialogue>~y~Kamu~s~: Dia juga nggak bisa nunjukin HP-nya! Dia pembunuhnya!</Dialogue>
+
+        <Dialogue>~y~Kamu~s~: ... ~y~Nylah Lane~s~!</Dialogue>
+        <Dialogue>~y~Kamu~s~: Ms. Lane ada di area pas kejadian dan saudara korban!</Dialogue>
+        <Dialogue>~y~Kamu~s~: Dia bohong soal mobil dan HP-nya!</Dialogue>
+        <Dialogue>~y~Kamu~s~: HP-nya nunjukin mobilnya. Dia kehilangan di TKP. Dia pembunuhnya!</Dialogue>
+
+        <Dialogue>~b~Erika~s~: Oh, gitu ya! Langsung tangkap ~r~tersangkanya~s~!</Dialogue>
+    </Officer3>
+
+    <Arrest>
+        <Text>Kamu berhasil tangkap ~r~pembunuhnya~s~! ~g~Bersihin TKP~s~!</Text>
+        <Text>Waduh, kamu tangkap orang ~y~salah~s~! ~g~Bersihin TKP~s~!</Text>
+        <Text>Salah satu ~o~tersangka~s~ ~r~tewas~s~.{0}Situasi ~g~Code 4~s~, ~g~bersihin TKP~s~!</Text>
+        <Text>~b~Petugas~s~ ~r~tewas~s~.{0}Situasi ~g~Code 4~s~.</Text>
+    </Arrest>
+
+</SolveMurder2>
