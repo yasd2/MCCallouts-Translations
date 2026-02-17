@@ -1,0 +1,62 @@
+<BurningDumpster>
+
+    <General>
+        <Text>~r~Tempat sampah terbakar~b~ dilaporkan</Text>
+        <Text>Unit dengan pemadam api respons Code 3</Text>
+        <Text>Berkendara ke lokasi dan padamkan ~r~api~s~ atau panggil ~r~pemadam kebakaran~s~!</Text>
+    </General>
+
+    <Persons>
+        <Text>Pelapor</Text>
+        <Text>Kamu</Text>
+    </Persons>
+
+    <Extingiush>
+        <Text>Untuk mendapatkan ~r~pemadam api~s~, buka bagasi mobilmu dan tekan</Text>
+        <Text>~r~Pemadam api~s~ sudah dipegang!</Text>
+        <Text>Sekarang cari ~y~bukti~s~ dengan menekan {Key} saat berada di ~y~marker~s~.</Text>
+    </Extingiush>
+
+    <Tasks>
+        <Text>Bicara dengan pelapor 911 ~b~dengan~s~</Text>
+        <Text>Tekan {MusicMenuKey} kapan saja untuk lihat foto lagi!</Text>
+        <Text>Dispatch, tersangka ~r~kabur~s~!</Text>
+    </Tasks>
+
+    <Caller>
+        <Dialogue>Halo, kamu yang melaporkan tempat sampah terbakar?</Dialogue>
+        <Dialogue>Iya, itu saya. Saya mau lapor ada orang mencurigakan yang saya lihat.</Dialogue>
+        <Dialogue>Saya lagi lewat tempat sampah pas lihat seseorang berjalan menjauh.</Dialogue>
+        <Dialogue>Langsung setelah itu api menyala!</Dialogue>
+        <Dialogue>Ini mencurigakan. Ada detail soal tersangkanya?</Dialogue>
+        <Dialogue>Tentu, itu orang {gender} dan umurnya sekitar {age} tahun.</Dialogue>
+        <Dialogue>Saya sempat foto. Ini fotonya!</Dialogue>
+        <Dialogue>Terima kasih. Kami cari tersangkanya sekarang. Selamat tinggal!</Dialogue>
+    </Caller>
+
+    <Genders>
+        <Text>perempuan</Text>
+        <Text>laki-laki</Text>
+        <Text>non-biner</Text>
+    </Genders>
+
+    <Evidence>
+        <Dialogue>Koktail Molotov, ini bukan kecelakaan... seseorang sengaja nyalain api.</Dialogue>
+        <Dialogue>Jeriken bensin penuh, kelihatannya seseorang siap-siap bakar sesuatu.</Dialogue>
+        <Dialogue>Bong? Aneh... mungkin orangnya lagi tinggi banget sampe nggak sadar nyalain api.</Dialogue>
+        <Dialogue>Granat fragmentasi. Ini bukan kebakaran biasa, kita hadapi sesuatu yang jauh lebih berbahaya.</Dialogue>
+        <Dialogue>Granat asap. Mungkin dipakai buat nutupin jejak sebelum nyalain api.</Dialogue>
+        <Dialogue>Botol pecah. Kelihatannya improvisasi, tapi bisa dipakai buat mulai api.</Dialogue>
+        <Dialogue>Tabung gas. Kalau ini meledak, seluruh area bisa ikut terbakar.</Dialogue>
+        <Dialogue>Drum minyak. Bocor... dan sangat mudah terbakar. Kayaknya seseorang mau sebar api.</Dialogue>
+        <Dialogue>Kaleng bensin. Bau bensin banget... seseorang beneran mau bakar tempat ini.</Dialogue>
+        <Dialogue>Kaos kaki? Kelihatannya sepele, tapi baunya cukup busuk buat jadi bahaya kebakaran.</Dialogue>
+        <Dialogue>Klasik. Ada yang buang rokok menyala ke sampah, lalu mulai menyala.</Dialogue>
+        <Dialogue>Kaos kaki? Kelihatannya sepele, tapi baunya cukup busuk buat jadi bahaya kebakaran.</Dialogue>
+    </Evidence>
+
+    <End>
+        <Text>~g~Situasi Code 4.</Text>
+    </End>
+    
+</BurningDumpster>
