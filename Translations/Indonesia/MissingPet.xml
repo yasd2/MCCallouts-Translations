@@ -1,0 +1,119 @@
+<MissingPet>
+
+    <General>
+        <Text>Hewan Peliharaan Hilang</Text>
+        <Text>Pelapor khawatir soal peliharaannya</Text>
+        <Text>Gas ke ~b~~h~pelapor~h~~s~ buat cari tahu lebih lanjut soal hewan yang hilang.</Text>
+    </General>
+
+    <Persons>
+        <Dialogue>Pelapor</Dialogue>
+        <Dialogue>Supir</Dialogue>
+        <Dialogue>Kamu</Dialogue>
+        <Dialogue>Korban</Dialogue>
+    </Persons>
+
+    <Tasks>
+        <Text>Tekan {Key} buat ngobrol sama orangnya.</Text>
+        <Text>Ada laporan orang diserang hewan!</Text>
+        <Text>Coba ~y~taser~s~ hewannya biar ~o~berhenti~s~ nyerang!</Text>
+        <Text>~r~Hewan peliharaan~s~ udah ~g~berhenti nyerang~s~!</Text>
+        <Text>Panggil ~g~animal control~s~ buat hewannya.</Text>
+        <Text>Panggil ~r~ambulans~s~ buat korbannya.</Text>
+        <Text>Ngobrol sama korban pake</Text>
+        <Text>Gas ke pelapor dan kasih update.</Text>
+        <Text>Tekan ~y~J~s~ buat ~r~teleport~s~ hewannya ke mobil kamu!</Text>
+        <Text>~r~Masuk mobil dulu,~s~ baru coba lagi.</Text>
+    </Tasks>
+
+    <TasksAccident>
+        <Text>Ada orang nemuin {PetTypeAsNormalWord} dan lapor.</Text>
+        <Text>Gas ke lokasi tempat hewan ditemuin.</Text>
+        <Text>Panggil ~b~~h~coroner~h~~s~ buat hewannya, lalu balik ke ~b~~h~pelapor~h~~s~ lagi.</Text>
+    </TasksAccident>
+
+    <Animals>
+        <Text>Anjing Agresif</Text>
+        <Text>Harimau Gunung</Text>
+        <Text>Anjing</Text>
+        <Text>Kucing</Text>
+        <Text>Coyote</Text>
+        <Text>Rusa</Text>
+        <Text>Kelinci</Text>
+        <Text>Ayam</Text>
+        <Text>Babi Hutan</Text>
+        <Text>Monyet</Text>
+        <Text>Monyet Rhesus</Text>
+    </Animals>
+
+    <CallerGeneral>
+        <Dialogue>Halo! Aku nggak bisa nemuin peliharaanku!</Dialogue>
+        <Dialogue>Sudah hilang beberapa menit, tapi pasti masih deket sini!</Dialogue>
+        <Dialogue>Oh, maaf, ini {PetTypeAsNormalWord}, namanya {PetName}.</Dialogue>
+        <Dialogue>Dia tiba-tiba lepas! Tolong bantu cari ya!</Dialogue>
+    </CallerGeneral>
+
+    <DriverAccident1>
+        <Dialogue>Halo Pak Polisi! Lihat nih apa yang terjadi!</Dialogue>
+        <Dialogue>Hewan itu langsung lari ke depan mobilku! Aku nggak sempat ngerem!</Dialogue>
+        <Dialogue>Mobilku juga rusak! Bisa panggil taksi sama tow truck buat aku?</Dialogue>
+    </DriverAccident1>
+
+    <DriverAccident2>
+        <Dialogue>Halo Pak, maaf banget, aku lagi nyetir tiba-tiba hewan ini nyebrang.</Dialogue>
+        <Dialogue>Aku nggak bisa ngerem tepat waktu. Sialan.</Dialogue>
+        <Dialogue>Selama kamu nggak apa-apa, semuanya oke. Mobilmu juga aman kok.</Dialogue>
+        <Dialogue>Makasih laporannya. Aku kasih tahu pemiliknya. Hati-hati nyetir ya.</Dialogue>
+    </DriverAccident2>
+
+    <CallerReturnAccident1>
+        <Dialogue>Halo, aku balik bawa kabar buruk nih.</Dialogue>
+        <Dialogue>Ya ampun, kenapa?</Dialogue>
+        <Dialogue>Hewannya ketabrak mobil dan nggak selamat.</Dialogue>
+        <Dialogue>Ah sedih banget. Tapi bukan peliharaanku kok, punya tetangga.</Dialogue>
+        <Dialogue>Tetangga bakal benci aku selamanya, ya ampun...</Dialogue>
+        <Dialogue>Tetep makasih udah kasih tahu ya.</Dialogue>
+        <Dialogue>Ya ampun, hati-hati ya!</Dialogue>
+    </CallerReturnAccident1>
+
+    <CallerReturnAccident2>
+        <Dialogue>Hai...</Dialogue>
+        <Dialogue>Dan... udah nemuin peliharaanku?</Dialogue>
+        <Dialogue>Maaf ya, tapi peliharaanmu ketabrak mobil. Baru ada yang lapor.</Dialogue>
+        <Dialogue>Ya Tuhan... Bukan punyaku kok. Punya tetangga yang lagi liburan, aku jagain...</Dialogue>
+        <Dialogue>Ada yang bisa aku bantu lagi nggak?</Dialogue>
+        <Dialogue>Nggak, makasih... sialan... gimana aku jelasin ini...</Dialogue>
+    </CallerReturnAccident2>
+
+    <DriverAttackSafed1>
+        <Dialogue>Ya Tuhan, makasih udah selamatin aku!</Dialogue>
+        <Dialogue>Aku lagi urusan sendiri tiba-tiba hewan ini nyerang!</Dialogue>
+        <Dialogue>Nggak masalah, seneng kamu selamat.</Dialogue>
+        <Dialogue>Makasih ya, hati-hati!</Dialogue>
+    </DriverAttackSafed1>
+
+    <CallerAttackReturnPetAlive2>
+        <Dialogue>Hai, aku bawa balik peliharaanmu nih!</Dialogue>
+        <Dialogue>Keren, makasih! Kemana aja kamu, {PetName}?</Dialogue>
+        <Dialogue>Harus aku bilang nih, peliharaanmu nyerang orang yang nggak salah apa-apa!</Dialogue>
+        <Dialogue>Oh maaf banget, semoga orangnya nggak luka parah.</Dialogue>
+        <Dialogue>Aku perlu data kamu, seperti KTP, buat laporan.</Dialogue>
+        <Dialogue>Begitu selesai, kamu boleh pulang.</Dialogue>
+    </CallerAttackReturnPetAlive2>
+
+    <CallerAttackReturnPetDead2>
+        <Dialogue>Halo, aku bawa kabar buruk. Sayangnya peliharaanmu nyerang orang.</Dialogue>
+        <Dialogue>Aku terpaksa pakai kekuatan mematikan; peliharaannya nggak selamat.</Dialogue>
+        <Dialogue>Oh oke, maaf banget. Semoga orangnya nggak apa-apa ya?</Dialogue>
+        <Dialogue>Orangnya aman kok.</Dialogue>
+        <Dialogue>Lain kali aku lebih hati-hati sama peliharaanku.</Dialogue>
+        <Dialogue>Yang penting semua aman. Hati-hati ya!</Dialogue>
+    </CallerAttackReturnPetDead2>
+
+
+    <End>
+        <Text>Tekan ~y~End~s~ kapan aja buat akhiri panggilan.</Text>
+        <Text>~g~Panggilan Code 4.</Text>
+    </End>
+
+</MissingPet>
