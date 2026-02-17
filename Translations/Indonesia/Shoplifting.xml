@@ -1,0 +1,70 @@
+<Shoplifting>
+
+    <General>
+        <Text>Pencurian di Toko</Text>
+        <Text>Pemilik toko minta polisi</Text>
+        
+        <Text>~HC_64~Pemilik Toko~s~:</Text>
+        <Text>~y~Kamu~s~:</Text>
+    </General>
+
+    <GetInfos>
+        <Dialogue>Halo, saya polisi dari kantor setempat.</Dialogue>
+        <Dialogue>Kamu lapor ada pencurian di toko ya?</Dialogue>
+        <Dialogue>Halo! Iya, tersangkanya baru aja pergi beberapa menit lalu!</Dialogue>
+        <Dialogue>Si badut ini nyolong banyak barang, dia bawa tas gede isinya.</Dialogue>
+        <Dialogue>Seperti apa sih orangnya?</Dialogue>
+
+        <!-- {1}: ShoplHelper.Background() -->
+        <Dialogue>Cowok kulit hitam</Dialogue>
+        <Dialogue>Cowok kulit putih</Dialogue>
+
+        <!-- {1}: {Suspect.GetRoundAge()} = {10} -->
+        <Dialogue>umurnya sekitar {10} tahun.</Dialogue>
+
+        <!-- {2}: ShoplHelper.TShirt() -->
+        <Dialogue>Pake tanktop putih</Dialogue>
+        <Dialogue>Pake tanktop abu-abu</Dialogue>
+        <Dialogue>Pake jaket kulit hitam</Dialogue>
+
+        <!-- {2}: ShoplHelper.Pants() -->
+        <Dialogue>dan celana kotak-kotak.</Dialogue>
+        <Dialogue>dan celana putih.</Dialogue>
+        <Dialogue>dan jeans biru muda.</Dialogue>
+
+        <Dialogue>Aku sempet rekam di CCTV, ini fotonya!</Dialogue>
+        <Dialogue>Tersangkanya kabur jalan kaki!</Dialogue>
+        <Dialogue>Oke makasih ya, bye!</Dialogue>
+    </GetInfos>
+
+    <LocationUpdater>
+        <Text>Lokasi ~y~udah diupdate~s~!</Text> 
+        <Text>Lokasi ~g~udah diupdate~s~!</Text> <!-- EasyLocationUpdater -->
+        <Text>~r~Tersangka~s~ udah ketemu. Tangkap dia!</Text>
+    </LocationUpdater>
+
+    <Mugshot>
+        <Text>Cowok kulit hitam</Text>
+        <Text>tanktop putih</Text>
+
+        <Text>Cowok kulit putih</Text>
+        <Text>tanktop abu-abu</Text>
+
+        <Text>jaket kulit hitam</Text>
+
+        <Text>~h~Deskripsi tersangka~h~</Text>
+
+        <Text>Tekan ~y~J~s~ kapan aja buat lihat ~y~foto~s~ lagi!</Text>
+    </Mugshot>
+
+    <SearchForSuspect>
+        <Text>Sekarang cari tersangkanya di ~y~area~s~ yang udah ~y~ditandain~s~ di GPS kamu.</Text>
+        <Text>Cari tersangka dan lanjutkan.</Text>
+    </SearchForSuspect>
+
+    <WaitForEnd>
+        <Text>Tersangka tewas.</Text>
+        <Text>~g~Code 4.</Text>
+    </WaitForEnd>
+
+</Shoplifting>
