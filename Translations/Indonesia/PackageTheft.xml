@@ -1,0 +1,86 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Pencurian Paket</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Petugas dibutuhkan untuk pengawasan area</CALLOUTADVISORY>
+    <TASK>Ada beberapa laporan pencurian paket di {ZoneName}. Gas ke area itu dan tetap waspada.</TASK>
+    <D_FriendlyPostman>
+        <DIALOGUE>~y~Kamu~s~: Selamat siang, Pak. Boleh sebentar saya ngobrol?</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Boleh aja Pak, ada masalah apa nih?</DIALOGUE>
+        <DIALOGUE>~y~Kamu~s~: Nggak parah kok. Baru-baru ini banyak paket hilang di komplek ini. Saya lihat tadi Bapak baru antar paket, cuma mau pastiin semuanya aman.</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Ah iya, saya paham. Beberapa tetangga juga sempet cerita ada yang aneh-aneh.</DIALOGUE>
+        <DIALOGUE>~y~Kamu~s~: Boleh tahu Bapak dari perusahaan ekspedisi mana dan paket tadi buat alamat berapa?</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Saya dari GoPostal. Paketnya buat nomor 123 Jalan Grove – kotak kecil aja. Saya taruh di teras dan foto juga kok.</DIALOGUE>
+        <DIALOGUE>~y~Kamu~s~: Oke, bagus. Cuma cek rutin aja. Makasih ya kerjasamanya.</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Sama-sama Pak. Lebih baik aman daripada nyesel.</DIALOGUE>
+        <DIALOGUE>~y~Kamu~s~: Bapak boleh lanjut. Hati-hati di jalan ya.</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Pasti Pak. Makasih udah ngecek, hati-hati juga ya Pak Polisi.</DIALOGUE>
+    </D_FriendlyPostman>
+    <D_AnnoyedPostman>
+        <DIALOGUE>~y~Kamu~s~: Halo. Sebentar boleh saya tanya?</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Ya… boleh lah. Ini kenapa sih?</DIALOGUE>
+        <DIALOGUE>~y~Kamu~s~: Ada laporan kurir palsu yang nyolong paket di daerah ini. Cuma mau pastiin pengiriman Bapak beneran.</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Serius? Saya masih ada 40 alamat lagi loh.</DIALOGUE>
+        <DIALOGUE>~y~Kamu~s~: Paham. Cuma butuh konfirmasi paket tadi ditaruh di mana dan Bapak dari perusahaan mana.</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Nomor 119 Jalan Grove. Kotak kecil, ditanda tangan "J. Ramirez" di manifes. Saya taruh deket pintu.</DIALOGUE>
+        <DIALOGUE>~y~Kamu~s~: Oke. Boleh lihat ID atau badge Bapak sebentar?</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Iya iya, tunggu bentar. *[kasih ID]* Nih.</DIALOGUE>
+        <DIALOGUE>~y~Kamu~s~: Makasih. Cocok. Maaf ya ganggu.</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Udah bisa jalan sekarang?</DIALOGUE>
+        <DIALOGUE>~y~Kamu~s~: Silakan lanjut. Maaf atas keterlambatannya.</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Lain kali mungkin telepon dulu atau gimana gitu...</DIALOGUE>
+    </D_AnnoyedPostman>
+    <D_SuspectTalk>
+        <DIALOGUE>~y~Kamu~s~: Selamat siang. Tadi saya lihat kamu keluar dari rumah sana—boleh tahu lagi ngapain?</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Cuma antar paket, Pak. Lagi jalur kerja saya.</DIALOGUE>
+        <DIALOGUE>~y~Kamu~s~: Aneh nih, kami dapat laporan banyak paket hilang akhir-akhir ini. Boleh tahu alamatnya?</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Ehm… 142 Jalan Grove kayaknya? Cuma ikut perintah aja.</DIALOGUE>
+        <DIALOGUE>~y~Kamu~s~: Rumah itu udah berminggu-minggu nggak ada pengiriman. Boleh lihat surat-suratnya?</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Aku… kayaknya lupa badge di gudang. Lihat deh, ini kerja kecil-kecilan aja.</DIALOGUE>
+        <DIALOGUE>~y~Kamu~s~: Kayaknya lebih ke pencurian nih. Turun dari kendaraan dulu.</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Oke oke. Nggak usah ribut. Aku nurut kok.</DIALOGUE>
+        <DIALOGUE>~y~Kamu~s~: Bagus. Kamu ikut saya sekarang.</DIALOGUE>
+    </D_SuspectTalk>
+    <D_SuspectPursuit>
+        <DIALOGUE>~y~Kamu~s~: Berhenti kendaraannya dan turun. Ada yang perlu ditanyain.</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Kayaknya nggak perlu deh. Saya lagi kerja biasa, Pak.</DIALOGUE>
+        <DIALOGUE>~y~Kamu~s~: Kamu cocok deskripsi tersangka pencurian paket. Matikan mesinnya.</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Ya… nggak hari ini!</DIALOGUE>
+    </D_SuspectPursuit>
+    <D_SuspectShooting>
+        <DIALOGUE>~y~Kamu~s~: Oke, keluar dari kendaraan—tangan di tempat yang bisa saya lihat.</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Jangan deket-deket, sumpah!</DIALOGUE>
+        <DIALOGUE>~y~Kamu~s~: Kamu menyamar jadi kurir dan nyolong paket. Udah tamat!</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Kalian polisi pikir bisa ngatur semuanya!</DIALOGUE>
+        <DIALOGUE>~y~Kamu~s~: Lepas senjatanya sekarang!</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Nggak bakal!</DIALOGUE>
+        <DIALOGUE>~y~Kamu~s~: Peringatan terakhir!</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Aku nggak mau masuk bui!</DIALOGUE>
+    </D_SuspectShooting>
+    <D_SuspectSurrender>
+        <DIALOGUE>~y~Kamu~s~: Keluar dari kendaraan sekarang dan tangan kelihatan!</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Oke oke! Jangan tembak!</DIALOGUE>
+        <DIALOGUE>~y~Kamu~s~: Berlutut sekarang!</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Baiklah! Aku nyerah!</DIALOGUE>
+        <DIALOGUE>~y~Kamu~s~: Kamu ditangkap karena pencurian paket dan menyamar jadi kurir.</DIALOGUE>
+        <DIALOGUE>~o~Kurir~s~: Aku nggak maksud jadi gini...</DIALOGUE>
+        <DIALOGUE>~y~Kamu~s~: Nanti di kantor bisa jelasin.</DIALOGUE>
+    </D_SuspectSurrender>
+    <SCENARIOS>
+        <THIEF>
+            <TEXT>Awasi area ini. Sebentar lagi seharusnya ada pengiriman.</TEXT>
+            <TEXT>Lakukan penghentian lalu lintas buat ngobrol sama supirnya.</TEXT>
+            <TEXT>Tekan ~y~{Y}~s~ buat ngobrol sama supirnya.</TEXT>
+        </THIEF>
+        <POSTMAN>
+            <TEXT>Awasi area ini. Sebentar lagi seharusnya ada pengiriman.</TEXT> <!--Sama kayak di atas-->
+            <TEXT>Lakukan penghentian lalu lintas buat ngobrol sama supirnya.</TEXT> <!--Sama-->
+            <TEXT>Tekan ~y~{Y}~s~ buat ngobrol sama supirnya.</TEXT> <!--Sama-->
+            <TEXT>~g~Pengiriman kelihatan beneran. Nggak perlu tindakan lebih lanjut.</TEXT>
+        </POSTMAN>
+    </SCENARIOS>
+    <END>
+        <TEXT>Investigasi pencurian paket selesai. Lanjut patroli.</TEXT>
+        <TEXT>Kayaknya udah gitu aja. Lanjut patroli.</TEXT>
+        <TEXT>Nggak ada lagi yang perlu diurus di sini. Balik keluar sana.</TEXT>
+        <TEXT>~r~Kurir tewas</TEXT>
+    </END>
+</CALLOUT>
