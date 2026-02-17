@@ -1,0 +1,67 @@
+<IllegalFishing>
+
+    <General>
+        <Text>Ada laporan kemungkinan penangkapan ikan ilegal</Text>
+    </General>
+
+    <Setup>
+        <Dialogue>Tekan {0} buat ngobrol</Dialogue>
+        <Dialogue>~y~Kamu~s~: Halo, saya polisi dari kantor setempat.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Kami dapat laporan ada aktivitas penangkapan ikan ilegal di sini.</Dialogue>
+        <Dialogue>~b~Tersangka~s~: Oh, saya sendirian aja kok di sini, nggak ada yang ilegal, cuma mancing biasa...</Dialogue>
+        <Dialogue>~y~Kamu~s~: Udah dapet ikan berapa?</Dialogue>
+        <Dialogue>~b~Tersangka~s~: Udah dapet beberapa sih.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Oke, saya perlu lihat surat izin mancing kamu.</Dialogue>
+        <Dialogue>Tekan {0} buat buka menu interaksi, pakai STP buat cek ID-nya.</Dialogue>
+        <Dialogue>Tekan {0} dan {1} buat buka menu interaksi, pakai STP buat cek ID-nya.</Dialogue>
+        <Dialogue>Tekan {0} buat buka menu interaksi.</Dialogue>
+        <Dialogue>Tekan {0} dan {1} buat buka menu interaksi.</Dialogue>
+    </Setup>
+    
+    <ConversationAfterCheckingLicense>
+        <Dialogue>~y~Kamu~s~: Oke, saya sudah verifikasi datanya.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Surat izin mancing kamu masih berlaku, aman nih sejauh ini!</Dialogue>
+        <Dialogue>~y~Kamu~s~: Surat izin mancing kamu lagi ditangguhkan, kamu nggak boleh mancing!</Dialogue>
+        <Dialogue>~y~Kamu~s~: Selain itu ID kamu bersih, nggak ada masalah.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Kamu juga nggak punya surat perintah penangkapan.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Database nunjukin kamu ada surat perintah, jadi kamu harus ikut kami.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Kamu nggak bilang soal surat perintah tadi. Kamu ditangkap sekarang.</Dialogue>
+        <Dialogue>Tangkap tersangkanya.</Dialogue>
+        <Dialogue>Begitu selesai, lepasin tersangka dan balik patroli.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Kamu bakal kena tilang karena mancing ilegal.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Jangan balik lagi ke sini, kalau nggak nanti aku bawa ke kantor dan kita sama-sama repot.</Dialogue>
+        <Dialogue>Kasih tilang ke tersangka dan lepasin dia.</Dialogue>
+        <Dialogue>Tekan {0} lagi kalau mau ngobrol</Dialogue>
+    </ConversationAfterCheckingLicense>
+
+    <ConversationAfterPursuitArrest>
+        <Dialogue>~y~Kamu~s~: Bodoh banget sih kabur gara-gara hal kecil gini...</Dialogue>
+        <Dialogue>~b~Tersangka~s~: Udah telat sekarang...</Dialogue>
+    </ConversationAfterPursuitArrest>
+
+    <ConversationAndSearch>
+        <Dialogue>~y~Kamu~s~: Kamu bawa apa aja yang bisa nyakitin atau menusuk saya?</Dialogue>
+        <Dialogue>~b~Tersangka~s~: Nggak ada...</Dialogue>
+        <Dialogue>Geledah tersangka, urus dokumen, dan bawa ke kantor.</Dialogue>
+    </ConversationAndSearch>
+
+    <End>
+        <Text>Tersangka tewas.</Text>
+        <Text>Tekan {0} kapan aja buat akhiri panggilan.</Text>
+        <Text>~r~GTA-Error: Ped jadi invalid.~s~</Text>
+        <Text>~g~Code 4.~s~</Text>
+    </End>
+
+    <Menu>
+        <Text>Menu Interaksi</Text>
+        <Text>Pilihan:</Text>
+        <Text>Tunjukkan surat izin mancing</Text>
+        <Text>Nama:</Text>
+        <Text>Lahir:</Text>
+        <Text>Surat Izin Mancing</Text>
+        <Text>Tunjukkan KTP</Text>
+        <Text>~g~Izin masih berlaku~s~</Text>
+        <Text>~r~Izin ditangguhkan~s~</Text>
+    </Menu>
+
+</IllegalFishing>
