@@ -1,0 +1,35 @@
+<PersonWithFirearm>
+
+    <General>
+        <Text>Orang Bawa Senjata Api</Text>
+        <Text>Ada orang yang dicurigai bawa senjata api. Hubungi dan cek dia.</Text>
+        <Text>Dekati ~r~tersangka~w~ dan lanjut ~y~ngobrol~w~.</Text>
+        <Text>Tekan {0} buat berhenti dan ngobrol sama tersangka.</Text>
+        <Text>Nggak ada dialog lagi sama ~r~tersangka~w~.</Text>
+    </General> 
+
+    <Conversation>
+        <Dialogue>~b~Kamu:~w~ Halo, boleh sebentar kita ngobrol nggak?</Dialogue>
+        <Dialogue>~r~Tersangka:~w~ Nggak! Lu siapa?! Mau apa!</Dialogue>
+        <Dialogue>~b~Kamu:~w~ Cuma mau ngobrol aja. Kayaknya kamu bawa senjata nih.</Dialogue>
+        <Dialogue>~r~Tersangka:~w~ Bohong! Lu salah orang!</Dialogue>
+        <Dialogue>~b~Kamu:~w~ Tolong kooperasi dong biar kita bisa beresin ini cepet.</Dialogue>
+    </Conversation>
+
+    <Shooting>
+        <Dialogue>~r~Tersangka:~w~ NGGAK! JANGAN PERNAH!</Dialogue>
+    </Shooting>
+
+    <Surrender>  
+        <Dialogue>~r~Tersangka:~w~ Oke, maaf... harus ngapain?</Dialogue>
+        <Dialogue>~b~Kamu:~w~ Tolong angkat tangan ke atas biar aku bisa tangkap kamu.</Dialogue>
+        <Dialogue>~r~Tersangka:~w~ Iya Pak... maaf...</Dialogue>
+    </Surrender>
+
+    <End>
+        <Text>Tersangka ditahan, ~g~Code 4~w~</Text>
+        <Text>~g~Code 4~w~</Text>
+        <Text>~r~Tersangka tewas.~g~ Code 4</Text>
+    </End>
+
+</PersonWithFirearm>
