@@ -1,0 +1,26 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Transport Darah Darurat</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Pasien membutuhkan darah secara mendesak</CALLOUTADVISORY>
+    <TASK>Berkendara ke lokasi.</TASK>
+    <STATE>
+        <PICKUPBAG>
+            <TEXT>Ambil kantong darah dari paramedis, lalu masukkan ke bagasi mobilmu.</TEXT>
+        </PICKUPBAG>
+        <PUTBAGINTRUNK>
+            <TEXT>Tekan ~y~{Y}~s~ untuk memasukkan kantong darah ke bagasi.</TEXT>
+        </PUTBAGINTRUNK>
+        <DRIVETODESTINATIONHOSPITAL>
+            <TEXT>Sekarang bawa ke rumah sakit, mereka sudah menunggu pengirimanmu.</TEXT>
+        </DRIVETODESTINATIONHOSPITAL>
+        <GRABFROMTRUNK>
+            <TEXT>Ambil ~r~kantong darah~s~ dengan ~y~{Y}~s~ dari bagasi.</TEXT>
+        </GRABFROMTRUNK>
+        <GIVEBAGTODOC>
+            <TEXT>Sekarang bawa kantong itu ke dokter!</TEXT>
+        </GIVEBAGTODOC>
+        <AUTOEND>
+            <TEXT>Kamu telah ~g~berhasil~s~ mengantarkan ~r~kantong darah~s~!</TEXT>
+            <TEXT>{CalloutMessage} telah berakhir.</TEXT>
+        </AUTOEND>
+    </STATE>
+</CALLOUT>
