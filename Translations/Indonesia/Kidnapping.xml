@@ -1,0 +1,64 @@
+<Kidnapping>
+
+    <General>
+        <Message>Pelapor bilang ada kemungkinan penculikan pakai kendaraan</Message>
+        <Message>Butuh penghentian lalu lintas</Message>
+        <Message>Lakukan ~g~penghentian lalu lintas~w~ pada ~o~kendaraan yang dicurigai~w~, respons Code 3.</Message>
+        <Message>Dispatch, satu tersangka ~y~udah ditangkap~w~!</Message>
+        <Message>Supirnya ~r~tewas, ~g~Code 4</Message>
+        <Message>Penumpangnya ~r~tewas, ~g~Code 4</Message>
+        <Message>Waduh, korbannya ~r~tewas! ~g~Code 4</Message>
+    </General>
+
+    <Infos>
+        <Info>Kendaraan ini dilaporkan ~y~ngebut~w~.</Info>
+        <Info>Model kendaraannya ~b~Granger SUV hitam~w~.</Info>
+    </Infos>
+
+    <Conversation1>
+        <Dialogue>Ngobrol sama supir pake </Dialogue>
+        <Dialogue>~y~Kamu~w~: Halo, saya polisi dari kantor setempat.</Dialogue>
+        <Dialogue>~o~Supir~w~: Kelihatan dong. Ada apa dihentikan?</Dialogue>
+        <Dialogue>~y~Kamu~w~: Kami dapat laporan soal kendaraan kamu. Siapa lagi yang bareng kamu?</Dialogue>
+        <Dialogue>~o~Supir~w~: Cuma bos saya di belakang kiri. Nggak usah tahu lebih lanjut.</Dialogue>
+        <Dialogue>~y~Kamu~w~: Ya terserah saya dong mau ngobrol sama siapa.</Dialogue>
+        <Dialogue>~o~Penumpang belakang kiri~w~: Bro, jangan macem-macem, kami nggak ngapa-ngapain!</Dialogue>
+        <Dialogue>~y~Kamu~w~: Pak, saya lagi nggak ngobrol sama Bapak, biarin saya ngobrol sama Bu-nya dulu.</Dialogue>
+        <Dialogue>~y~Kamu~w~: Bu, gimana kabarnya? Kenal sama bapak-bapak ini?</Dialogue>
+        <Dialogue>~p~Wanita~w~: Iya...</Dialogue>
+        <Dialogue>Wanita itu kelihatan ~r~gemetaran~w~ dan merasa ~r~nggak nyaman~w~.</Dialogue>
+        <Dialogue>~o~Penumpang belakang kiri~w~: Lihat kan, nggak ada apa-apa. Jangan buang waktu!</Dialogue>
+        <Dialogue>Kelihatannya ada yang nggak beres, panggil backup unit.</Dialogue>
+        <Dialogue>~y~Kamu~w~: Oke, saya minta semua turun satu-satu ya...</Dialogue>
+    </Conversation1>
+
+    <OutcomeVehiclePursuit>
+        <Dialogue>~o~Penumpang belakang kiri~w~: ~r~Gas gas gas~w~!</Dialogue>
+        <Dialogue>~y~Kamu~w~: Dispatch, bakal jadi ~r~pengejaran~w~ nih!</Dialogue>
+        <Dialogue>~g~Kejar~w~ kedua tersangka, panggil ~b~backup~w~ kalau perlu!</Dialogue>
+    </OutcomeVehiclePursuit>
+
+    <OutcomeSurrender>
+        <Dialogue>~o~Supir~w~: ~r~Kami nyerah~w~!</Dialogue>
+        <Dialogue>~g~Tangkap~w~ kedua tersangka!</Dialogue>
+    </OutcomeSurrender>
+
+    <OutcomeFootPursuit>
+        <Dialogue>~o~Penumpang belakang kiri~w~: ~r~Lari!</Dialogue>
+        <Dialogue>~y~Kamu~w~: Dispatch, dua tersangka ~r~kabur jalan kaki~w~!</Dialogue>
+        <Dialogue>~g~Kejar~w~ kedua tersangka, panggil ~b~backup~w~ kalau perlu!</Dialogue>
+    </OutcomeFootPursuit>
+
+    <VictimTalk>
+        <Dialogue>Pergi ke ~g~korban~w~ dan pastikan dia ~g~baik-baik aja~w~.</Dialogue>
+        <Dialogue>~y~Kamu~w~: Halo Bu, sekarang sudah aman.</Dialogue>
+        <Dialogue>~g~Korban~w~: Ya Tuhan, makasih banget! Saya takut sekali tadi!</Dialogue>
+        <Dialogue>~y~Kamu~w~: Kenal nggak sama orang-orang yang nyulik Ibu?</Dialogue>
+        <Dialogue>~g~Korban~w~: Nggak, baru pertama kali lihat! Mereka bilang mau jual saya!</Dialogue>
+        <Dialogue>~y~Kamu~w~: Mereka sekarang sudah di tahanan. Butuh bantuan medis nggak?</Dialogue>
+        <Dialogue>~g~Korban~w~: Nggak, saya baik-baik aja, cuma masih gemetar. Makasih banyak atas bantuannya!</Dialogue>
+        <Dialogue>~y~Kamu~w~: Senang Ibu selamat, hati-hati pulang ya!</Dialogue>
+        <Dialogue>Pilih, mau panggil ~y~taksi~w~, ~g~Uber~w~ buat jemput dia, atau suruh dia ~b~pulang sendiri~w~.</Dialogue>
+    </VictimTalk>
+    
+</Kidnapping>
