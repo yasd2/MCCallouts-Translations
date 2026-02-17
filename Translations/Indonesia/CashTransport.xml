@@ -1,0 +1,36 @@
+<CashTransport>
+
+    <General>
+        <Text>Pengangkutan Uang Berisiko</Text>
+        <Text>Berkendara ke ~g~~h~lokasi panggilan~h~~s~.</Text>
+        <Text>Tekan {Y} untuk berbicara.</Text>
+        <Text>Berkendara ke ~b~~h~tujuan~h~~s~.</Text>
+        <Text>Tekan {Y} kapan saja jika RIOT macet.</Text>
+        <Text>Ambil ~HC_3~~h~koper uang~h~~s~ dari belakang ~r~~h~truk uang~h~~s~.</Text>
+        <Text>Bawa koper itu ke dalam bank.</Text>
+        <Text>Tekan ~y~~h~End~h~~s~ kapan saja untuk akhiri panggilan.</Text>
+    </General>
+
+    <Persons>
+        <Text>Penjaga</Text>
+        <Text>Kamu</Text>
+        <Text>Petugas Bank</Text>
+    </Persons>
+
+    <Guard>
+        <Dialogue>Halo, Pak Polisi! Makasih udah datang! Kami punya pengiriman sangat penting nih.</Dialogue>
+        <Dialogue>Truk bank lapis baja ini akan antar jumlah uang besar ke tujuan kami.</Dialogue>
+        <Dialogue>Kamu yang nyetir truknya, dan kendaraan SWAT lapis baja akan mengawal dari belakang.</Dialogue>
+        <Dialogue>Kami dapat laporan kemungkinan ada serangan. Makanya ada kamu dan tim SWAT. Ayo berangkat!</Dialogue>
+    </Guard>
+
+    <Bankman>
+        <Dialogue>Halo! Senang lihat kamu selamat sampai. Sekarang tahu kenapa kami pakai profesional kayak kamu, bukan kayak... rekan kerja saya.</Dialogue>
+        <Dialogue>... Pasti. Setidaknya kendaraan SWAT tahan peluru.</Dialogue>
+        <Dialogue>Truk uangnya juga lapis baja—cuma kacanya aja yang nggak.</Dialogue>
+        <Dialogue>Ini kopernya.</Dialogue>
+        <Dialogue>Sempurna, terima kasih. Saya akan kasih rekomendasi bagus buat kamu!</Dialogue>
+        <Dialogue>Semoga risikonya worth it. Selamat hari!</Dialogue>
+    </Bankman>
+
+</CashTransport>
