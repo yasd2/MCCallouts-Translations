@@ -1,0 +1,25 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>~b~Pemburuan Tersangka~s~</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Tersangka buronan terakhir terlihat di {ZoneName}</CALLOUTADVISORY>
+    <TASK>Gas ke perimeter. Petugas sudah tutup area.</TASK>
+    <WARRANTS>
+        <TEXT>Pembunuhan</TEXT>
+        <TEXT>Pengeroyokan</TEXT>
+        <TEXT>Tidak hadir sidang</TEXT>
+        <TEXT>Ngebut ceroboh</TEXT>
+    </WARRANTS>
+    <BACKUP>
+        <TEXT>~b~Tekan ~y~{Y}~b~ dalam 10 detik ke depan buat panggil backup. Mereka bakal bantu cari.</TEXT>
+        <TEXT>~b~Backup lagi otw dan bakal bantu cari tersangka.</TEXT>
+        <TEXT>Diterima. Backup nggak dikirim.</TEXT>
+    </BACKUP>
+    <SEARCH>
+        <TEXT>Kita lagi cari ~r~{Name}~s~, dicari karena ~r~{Warrant}.</TEXT> 
+        <TEXT>Butuh bantuan? Tekan ~{9}~ buat lokasi ~r~tersangka~s~!</TEXT>
+        <TEXT>~r~Tersangka~s~ udah ketemu! Tangkap dia!</TEXT>
+    </SEARCH>
+    <END>
+        <TEXT>{CalloutMessage} selesai.~n~</TEXT>
+        <TEXT>~g~Tersangka ~r~{Name}~g~ udah ditangkap.~n~</TEXT>
+    </END>
+</CALLOUT>

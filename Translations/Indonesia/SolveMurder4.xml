@@ -1,0 +1,125 @@
+<SolveMurder3>
+
+    <General>
+        <Text>~p~Detektif~s~ dibutuhkan untuk kasus pembunuhan</Text>
+        <Text>Petugas tewas setelah penghentian lalu lintas</Text>
+    </General>
+
+    <Approach>
+        <Text>Ngobrol sama ~HC_43~detektif~s~ buat update situasi TKP.</Text>
+    </Approach>
+
+    <Characters>
+        <Text>~HC_43~Detektif~s~: </Text>
+        <Text>~y~Kamu~s~: </Text>
+        <Text>~p~Laboran~s~: </Text>
+        <Text>~g~Saksi~s~: </Text>
+        <Text>~r~Tersangka~s~: </Text>
+    </Characters>
+
+    <TalkToDetective>
+        <Dialogue>Halo ~HC_43~Detektif~s~! TKP-nya gede banget nih! Ada apa sih?</Dialogue>
+        <Dialogue>Halo, iya bener! Sayangnya salah satu ~b~petugas~s~ kami ~r~dibunuh~s~ pas lagi hentikan kendaraan...</Dialogue>
+        <Dialogue>Saat ini kami belum tahu pelakunya siapa, makanya panggil kamu yang udah berpengalaman.</Dialogue>
+        <Dialogue>Aku denger kasus di ~g~Pom Bensin Mount Chiliad~s~ kamu pecahin dengan baik!</Dialogue>
+        <Dialogue>Makasih Pak, kita lihat apa yang bisa aku temuin di kasus ini.</Dialogue>
+        <Dialogue>Oh maaf, iya silakan, tolong selidiki ~y~barang bukti~s~ di TKP, apa aja bisa bantu.</Dialogue>
+        <Dialogue>Kamu bisa tekan ~y~{0}~s~ buat ~y~ambil~s~ ~y~bukti~s~ kalau lagi berdiri di deketnya. ~g~Semangat~s~!</Dialogue>
+        <Dialogue>Pergi ke area tertutup dan cari bukti, tekan ~y~{1}~s~ buat ambil ~y~bukti~s~.</Dialogue>
+        <Dialogue>Cek lagi TKP-nya, kamu masih ~o~kurang beberapa~s~!</Dialogue>
+    </TalkToDetective>
+
+    <SearchForEvidence>
+        <Dialogue>Nih sedikit ~HC_211~bantuan~s~.</Dialogue>
+        <Dialogue>~r~Nggak ada bukti~s~ di deket sini.</Dialogue>
+
+        <Dialogue>Ada ~o~senapan~s~, ini pasti punya tersangka atau petugas.</Dialogue>
+        <Dialogue>Ini pasti ~o~dompet~s~ tersangka...</Dialogue>
+        <Dialogue>Ada ~o~HP~s~, sayangnya nggak tahu password-nya.</Dialogue>
+        <Dialogue>Ada ~o~bir~s~? Kayaknya dibuang dari jendela.</Dialogue>
+
+        <Dialogue>Ada ~o~pisau~s~... ada darah di sini.</Dialogue>
+        <Dialogue>Ada ~o~KTP~s~, lebih baik kasih ke laboran.</Dialogue>
+        <Dialogue>Ada ~o~flashdisk~s~, penasaran isinya apa.</Dialogue>
+        <Dialogue>Ada ~o~tas~s~... jangan tambah sidik jari lagi di sini.</Dialogue>
+
+        <Dialogue>Ada ~o~pistol~s~... kelihatannya bukan punya polisi.</Dialogue>
+        <Dialogue>Ada ~o~plat nomor~s~... mungkin punya tersangka?</Dialogue>
+        <Dialogue>Ada ~o~sepatu~s~, bukan sepatu dinas polisi.</Dialogue>
+        <Dialogue>Ada ~o~whiskey~s~... pengen nyicip satu shot nih :p</Dialogue>
+
+        <Dialogue>Ngobrol sama ~HC_43~detektif~s~ soal ~g~bukti yang udah ketemu~s~.</Dialogue>
+    </SearchForEvidence>
+
+    <AgainTalkToDetective>
+        <Dialogue>Hai, udah ada info baru?</Dialogue>
+        <Dialogue>Iya! ~o~{4}~s~ ini bawa kita ke arah yang benar!</Dialogue>
+        <Dialogue>Bagus! Selain itu ada ~g~saksi~s~ di sana, semoga dia bisa kasih detail lebih lanjut.</Dialogue>
+        <Dialogue>Pergi ke ~g~saksi~s~ dan ngobrol pake ~y~{0}~s~</Dialogue>
+    </AgainTalkToDetective>
+
+    <TalkToWitness>
+
+        <Vehicle>
+            <Dialogue>Halo Bu, saya ~y~detektif~s~ di kasus ini, kamu lihat apa tadi?</Dialogue>
+            <Dialogue>Halo ~y~Detektif~s~, nama saya {5} dan iya, aku punya info.</Dialogue>
+            <Dialogue>Awalnya aku mau belanja di supermarket sana.</Dialogue>
+            <Dialogue>Tentu aku notice penghentian lalu lintas dengan lampu biru kedip-kedip, tiba-tiba ada mobil kabur buru-buru.</Dialogue>
+            <Dialogue>Aku nggak lihat supirnya atau plat nomornya, tapi modelnya ~o~{0}~s~.</Dialogue>
+            <Dialogue>Keren, makasih infonya, kita lihat apa dispatch bisa temuin.</Dialogue>
+        </Vehicle>
+
+        <House>
+            <Dialogue>Halo Bu, saya ~y~detektif~s~ di kasus ini, kamu lihat apa tadi?</Dialogue>
+            <Dialogue>Halo ~y~Detektif~s~, nama saya {5} dan iya, aku punya info.</Dialogue>
+            <Dialogue>Awalnya aku mau belanja di supermarket sana, aku warga lokal.</Dialogue>
+            <Dialogue>Tentu aku notice penghentian lalu lintas dengan lampu biru kedip-kedip, tiba-tiba ada orang lari kabur.</Dialogue>
+            <Dialogue>Aku rasa aku kenal orangnya, tersangkanya pasti ~o~{4}~s~.</Dialogue>
+            <Dialogue>Keren, makasih infonya, kita lihat apa dispatch bisa temuin.</Dialogue>
+        </House>
+        
+    </TalkToWitness>
+
+    <SearchForSuspect>
+
+        <Vehicle>
+            <Dialogue>Dispatch, bisa cek kamera lalu lintas buat kendaraan tersangka pembunuhan, modelnya ~o~{0}~s~.</Dialogue>
+            <Dialogue>Lagi dicek...</Dialogue>
+            <Dialogue>Ada hit, ditandain di GPS kamu</Dialogue>
+            
+            <Dialogue>~r~ALPR Hit Baru~s~ di ~y~Kendaraan {1}!~s~</Dialogue>
+        </Vehicle>
+
+        <House>
+            <Dialogue>Dispatch, bisa set rute ke rumah tersangka?</Dialogue>
+            <Dialogue>Lagi dicek...</Dialogue>
+            <Dialogue>Rumahnya ketemu, ditandain di GPS</Dialogue>
+        </House>
+
+    </SearchForSuspect>
+
+    <InPursuit>
+        <Dialogue>Oh sial, polisi!</Dialogue>
+    </InPursuit>
+
+    <QuestioningSuspect>
+        <Dialogue>Begitu siap, ~r~konfrontasi tersangka~s~ soal aksinya, pake ~y~{0}~s~ buat ngobrol.</Dialogue>
+        <Dialogue>Demi hukum, kamu ditangkap karena ~r~pembunuhan~s~ ~b~petugas polisi~s~!</Dialogue>
+        <Dialogue>Aku baca hak Miranda kamu... *baca hak Miranda*</Dialogue>
+        <Dialogue>Kenapa kamu kabur?</Dialogue>
+        <Dialogue>Pak, aku bener-bener minta maaf atas apa yang aku lakuin, aku salah besar.</Dialogue>
+        <Dialogue>Aku kabur karena takut, itu aja.</Dialogue>
+        <Dialogue>Kamu bunuh petugas polisi!</Dialogue>
+        <Dialogue>Apa? Dia mati? Aku cuma... cuma nggak mau masuk bui, tapi aku nggak mau bunuh dia...</Dialogue>
+        <Dialogue>Kamu tembak ke arahnya...</Dialogue>
+        <Dialogue>Aku cuma mau bikin dia takut biar bisa kabur dan bebas.</Dialogue>
+        <Dialogue>Kamu bakal dibooking di penjara dan mungkin lama nggak keluar...</Dialogue>
+        <Dialogue>Bawa ~r~tersangka~s~ ke ~o~penjara~s~.</Dialogue>
+    </QuestioningSuspect>
+
+    <End>
+        <Text>Tekan ~y~End~s~ kapan aja buat akhiri panggilan.</Text>
+        <Text>Kami ~g~Code 4.~s~</Text>
+    </End>
+
+</SolveMurder3>

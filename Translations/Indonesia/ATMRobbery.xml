@@ -1,0 +1,43 @@
+<ATMRobbery>
+
+    <CamText>
+        <Text>KAM1</Text> <!--gunakan teks singkat!-->
+    </CamText>
+
+    <D_Victim>
+        <Dialogue>Halo Pak Polisi! Saya baru saja dirampok!</Dialogue>
+        <Dialogue>Saya baru selesai tarik uang dari ATM, tiba-tiba ada orang datang dan merebut dompet saya!</Dialogue>
+        <Dialogue>Kami berkelahi, dia memukul kepala saya!</Dialogue>
+        <Dialogue>Sayangnya saya tidak ingat lagi seperti apa orang itu...</Dialogue>
+        <Dialogue>Tidak masalah, saya lihat ada kamera pengawas di sana. Saya akan cek apa yang bisa saya lakukan.</Dialogue>
+        <Dialogue>Dispatch, bisakah kamu berikan akses ke CCTV di lokasi saya sekarang?</Dialogue>
+    </D_Victim>
+
+    <D_Suspect>
+        <Dialogue>Ada masalah apa sih? Kenapa kamu ngikutin aku?</Dialogue>
+        <Dialogue>Kamu cocok dengan deskripsi pelaku perampokan ATM yang baru terjadi.</Dialogue>
+        <Dialogue>Apa aku kelihatan kayak penjahat? Ini konyol banget.</Dialogue>
+        <Dialogue>Kamu salah orang, aku nggak ngapa-ngapain!</Dialogue>
+    </D_Suspect>
+
+    <Persons>
+        <Text>Korban</Text>
+        <Text>Kamu</Text>
+        <Text>Tersangka</Text>
+    </Persons>
+
+    <General>
+        <CalloutMessage>Perampokan ATM</CalloutMessage>
+        <CalloutAdvisory>Ada laporan seseorang dirampok tepat setelah menarik uang dari ATM</CalloutAdvisory>
+        <Text>Tekan {0} untuk berbicara dengan ~g~pemanggil~s~.</Text>
+        <Text>Menunggu.</Text>
+        <Text>Sekarang kamu seharusnya sudah punya akses ke kamera.</Text>
+        <Text>Tekan {0} untuk melihat feed kamera!</Text>
+        <Text>Ada laporan perampokan lain; ~y~area ditandai~s~ di GPS kamu.</Text>
+        <Text>Tekan {0} untuk berbicara dengan ~r~tersangka~s~.</Text>
+        <Text>Tersangka kelihatannya cuek saja.</Text>
+        <Text>Periksa kondisi mereka.</Text>
+        <Text>Lakukan penghentian lalu lintas.</Text>
+    </General>
+
+</ATMRobbery>

@@ -1,0 +1,50 @@
+<DrugsOnBoat>
+
+    <General>
+        <Text>Kapal pengangkut narkoba diketahui terlihat</Text>
+        <Text>Periksa kemungkinan adanya narkoba di kapal</Text>
+        <Text>PETUNJUK: Cari narkoba di kapal</Text>
+        <Text>Dispatch, saya tidak menemukan narkoba apa pun, saya akan bicara lagi dengan pemilik kapal.</Text>
+        <Text>Copy itu.</Text>
+        <Text>Kami menerima ~o~tips anonim~s~ tentang lokasi-lokasi.</Text>
+        <Text>Dispatch, ada satu pelarian kaki!</Text>
+        <Text>Dispatch, ada tembakan!</Text>
+        <Text>Kamu sedang menuju kapal untuk mencari narkoba ilegal.</Text>
+        <Text>Tekan {Y} untuk mengambil barang bukti.</Text>
+        <Text>Konfrontasi pemilik kapal atau lanjutkan pencarian.</Text>
+        <Text>~g~Semua bukti ditemukan</Text>
+        <Text>Narkoba ditemukan:</Text>
+    </General>
+
+    <Persons>
+        <Text>Pemilik</Text>
+        <Text>Kamu</Text>
+    </Persons>
+
+    <D_Owner_Arrive>
+        <Dialogue>Halo Pak, kami punya surat perintah penggeledahan untuk kapal ini.</Dialogue>
+        <Dialogue>Pergi ke neraka, kalian nggak boleh geledah kapal saya!</Dialogue>
+        <Dialogue>Minggir, kamu bisa tanya deputi saya di bawah sana untuk surat perintah tertulisnya.</Dialogue>
+    </D_Owner_Arrive>
+
+    <D_Owner_NoDrugs>
+        <Dialogue>Baiklah, saya sudah selesai geledah kapal Anda, Anda boleh pergi!</Dialogue>
+        <Dialogue>Ini memakan waktu, tapi waktu adalah uang! Saya harus buru-buru sekarang.</Dialogue>
+        <Dialogue>Saya cuma menjalankan tugas, pokoknya selamat jalan!</Dialogue>
+    </D_Owner_NoDrugs>
+
+    <D_Owner_Surrender>
+        <Dialogue>Pak, saya menemukan beberapa narkoba di kapal ini, bisa jelaskan?</Dialogue>
+        <Dialogue>... Maksud saya ... sial, kamu tangkap saya juga. Ya, itu punya saya.</Dialogue>
+        <Dialogue>Saya nggak akan melawan, saya memang mau jual itu, tangkap saja saya.</Dialogue>
+    </D_Owner_Surrender>
+
+    <D_Owner_Pursuit_Shooting>
+        <Dialogue>Pak, saya menemukan beberapa narkoba di kapal ini, bisa jelaskan?</Dialogue>
+    </D_Owner_Pursuit_Shooting>
+
+    <End>
+        <Text>Panggilan Code 4.</Text>
+    </End>
+
+</DrugsOnBoat>

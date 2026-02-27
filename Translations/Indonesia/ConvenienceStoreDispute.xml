@@ -1,0 +1,96 @@
+<ConvenienceStoreDispute>
+
+    <General>
+        <Text>Perselisihan di Minimarket</Text>
+        <Text>Selesaikan perselisihannya</Text>
+    </General>
+
+    <Persons>
+        <Text>~y~Kamu:~s~ </Text>
+        <Text>~HC_7~Wanita:~s~ </Text>
+        <Text>~b~Kasir:~s~ </Text>
+    </Persons>
+
+    <D_Argue>
+        <Dialogue>Pak Polisi! Kasirnya nggak mau terima kupon saya!</Dialogue>
+        <Dialogue>Bu, saya sudah bilang, kupon ini sudah tidak berlaku. Saya nggak bisa terima.</Dialogue>
+        <Dialogue>Itu konyol banget, ini masih valid! Saya punya hak! Kamu nggak boleh nolak!</Dialogue>
+        <Dialogue>Pak Polisi, tolong lihat dan jelaskan dong?</Dialogue>
+        <Dialogue>Oke, biar saya lihat dulu...</Dialogue>
+        <Dialogue>* Melihat kupon... *</Dialogue>
+    </D_Argue>
+
+    <D_Expired>
+        <Dialogue>* Kupon diskon 30$ di 24/7 market, berlaku sampai 06/01/2024 *</Dialogue>
+        <Dialogue>Kupon ini jelas sudah kadaluarsa.</Dialogue>
+    </D_Expired>
+
+    <D_Manipulated>
+        <Dialogue>* Terlihat kupon 24/7 market untuk 30$ telah diubah jadi 60$ *</Dialogue>
+        <Dialogue>Kupon ini sudah dimanipulasi. Lihat, angkanya diubah.</Dialogue>
+    </D_Manipulated>
+
+    <D_RefuseLeave>
+        <Dialogue>Ini nggak mungkin! Kamu bohong!</Dialogue>
+        <Dialogue>Pak Polisi, ini rasis! Saya nggak mau pergi sebelum dapat hak saya!</Dialogue>
+    </D_RefuseLeave>
+
+    <D_Run>
+        <Dialogue>Semua orang melawan saya! Sudahlah, saya nggak bayar ini!</Dialogue>
+    </D_Run>
+
+    <D_Fight>
+        <Dialogue>Saya sudah muak sama omong kosongmu!</Dialogue>
+        <Dialogue>Dan kamu Pak Polisi, bagian dari masalahnya juga!!! Aaaaaargh!</Dialogue>
+    </D_Fight>
+
+    <D_Taser>
+        <Dialogue>Berani-beraninya kamu ancam saya!</Dialogue>
+        <Dialogue>PENYERANGAN! Kamu sudah menyerang saya!</Dialogue>
+        <Dialogue>Ini bela diri!</Dialogue>
+    </D_Taser>
+
+    <D_Eco_Argue>
+        <Dialogue>Ini keterlaluan! Lihat kemasannya ini! Plastik di mana-mana! Kalian mau bunuh bumi?</Dialogue>
+        <Dialogue>Bu, saya paham kekhawatiran Ibu, tapi kami nggak produksi barangnya. Kami cuma jual.</Dialogue>
+        <Dialogue>Cuma jual? Berarti kalian ikut bersalah! Jual produk nggak ramah lingkungan itu praktis ilegal!</Dialogue>
+        <Dialogue>Bu, itu nggak benar. Nggak ada undang-undang yang melarang kemasan ini—</Dialogue>
+        <Dialogue>Jangan bohong! Saya akan tutup toko ini karena terlibat aktivitas ilegal! Kalian bagian dari masalah! Kalian pembunuh!</Dialogue>
+        <Dialogue>Maaf? Oke Pak Polisi, tolong keluarkan dia dari toko. Dan Bu, mulai sekarang Ibu dilarang masuk ke toko ini.</Dialogue>
+    </D_Eco_Argue>
+
+    <D_Eco_RefuseLeave>
+        <Dialogue>Saya nggak akan keluar dari toko ini sebelum penjahat ini ditangkap!</Dialogue>
+        <Dialogue>Bu, saya paham Ibu kesal, tapi ini bukan masalah pidana. Ibu harus keluar, atau saya terpaksa keluarkan sendiri.</Dialogue>
+        <Dialogue>Saya tolak! Kalau kamu nggak tangkap pembunuh ini, berarti KAMU juga ikut bersalah! Saya akan tinggal di sini seharian kalau perlu!</Dialogue>
+    </D_Eco_RefuseLeave>
+
+    <D_Eco_FleeWPackage>
+        <Dialogue>Tahu nggak? Kalau kalian nggak mau perbaiki, saya yang lakukan sendiri! Ini harus berakhir sekarang!</Dialogue>
+        <Dialogue>Saya selamatkan bumi! Ini harus dibuang dengan benar, bukan di rak kotor kalian!</Dialogue>
+        <Dialogue>Bu, itu pencurian. Taruh barangnya dan mundur.</Dialogue>
+        <Dialogue>Bukan pencurian kalau saya selamatkan umat manusia! Tangkap MEREKA karena stok sampah ini!</Dialogue>
+        <Dialogue>Bu, ini peringatan terakhir. Lepaskan barangnya dan kooperasi, atau Ibu akan ditangkap.</Dialogue>
+    </D_Eco_FleeWPackage>
+
+    <D_Eco_Argumentative>
+        <Dialogue>Pak Polisi! Tangkap orang ini sekarang juga! Dia pembunuh! Jual plastik semua — dia praktis mencekik bumi sendiri!</Dialogue>
+        <Dialogue>Bu, ini bukan masalah pidana. Sekarang, kalau Ibu—</Dialogue>
+        <Dialogue>Jangan mulai sama saya! Mana atasanmu? Saya mau nama dia. Dan KAMU— * menunjuk polisi * —saya mau nama dan nomor badge-mu! SEKARANG JUGA!</Dialogue>
+        <Dialogue>Bu, kami nggak main-main. Keluar dari toko sekarang, atau saya antar keluar.</Dialogue>
+        <Dialogue>Oh, saya pengen lihat kamu coba! Saya akan lapor KALIAN SEMUA! Kantor pusat, walikota, media—semua akan tahu ini!</Dialogue>
+    </D_Eco_Argumentative>
+
+    <D_Eco_Taser>
+        <Dialogue>Oh, jadi sekarang kamu ancam saya? Saya merasa sangat tidak aman sekarang! Ini penyerangan!</Dialogue>
+        <Dialogue>Bu, nggak ada yang ancam Ibu. Tolong tenang—</Dialogue>
+        <Dialogue>PENYERANGAN! KAMU MENYERANG SAYA! Semua orang lihat!</Dialogue>
+        <Dialogue>Bu, nggak ada yang menyentuh Ibu. Mari kita—</Dialogue>
+        <Dialogue>Jangan bicara sama saya, pembunuh!</Dialogue>
+    </D_Eco_Taser>
+
+    <End>
+        <Text>Panggilan Code 4.</Text>
+    </End>
+
+</ConvenienceStoreDispute>

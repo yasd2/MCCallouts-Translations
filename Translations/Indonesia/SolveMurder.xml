@@ -1,0 +1,65 @@
+<SolveMurder>
+
+    <General>
+        <Text>~r~Detektif~s~ dibutuhkan untuk kasus pembunuhan</Text>
+        <Text>~g~Dispatch~s~: Gas ke ~y~Pom Bensin Mount Chiliad~w~ di jalan raya, ~r~detektif~w~ dibutuhkan.</Text>
+    </General>
+
+    <Officer>
+        <Dialogue>Ngobrol sama ~b~petugas~w~ pake </Dialogue>
+        <Dialogue>~b~Petugas~s~: Halo Detektif! Seneng banget kamu dateng!</Dialogue>
+        <Dialogue>~b~Petugas~s~: Ada mayat di sebelah kananku dan dua tersangka potensial.</Dialogue>
+        <Dialogue>~b~Petugas~s~: Tolong ke ~r~TKP~w~ di sebelah kanan dan ~r~selidiki~s~, lihat apa kamu bisa nemuin sesuatu.</Dialogue>
+    </Officer>
+
+    <Evidence>
+        <Text>~y~Kamu~s~: Ada ~r~botol minuman keras kosong yang masih segar~s~, penasaran ini punya korban atau bukan...</Text>
+        <Text>~y~Kamu~s~: Lukanya kelihatan ~o~banyak tusukan~s~, di leher, perut, dan punggung.</Text>
+        <Text>~y~Kamu~s~: Ada ~g~keripik~w~? Kayaknya ada yang ~g~baru aja~w~ ~g~makan~w~ ini...</Text>
+        <Text>Investigasi selesai! Pergi ke salah satu ~r~tersangka~w~ dan ngobrol pake </Text>
+    </Evidence>
+
+    <Suspect1>
+        <Dialogue>Ngobrol sama ~o~tersangka~w~ pake </Dialogue>
+        <Dialogue>~y~Kamu~s~: Halo, saya detektif di kasus ini, boleh tanya beberapa hal?</Dialogue>
+        <Dialogue>~o~Ayla May~s~: Aku ~r~gugup~s~ banget. Aku nggak ada hubungannya sama ini.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Tenang aja, kamu aman. Kamu biasa minum alkohol jenis apa?</Dialogue>
+        <Dialogue>~o~Ayla May~s~: Aku jarang banget minum alkohol... kalau pun, paling segelas anggur merah.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Kamu suka makan ~r~keripik~w~ kadang-kadang?</Dialogue>
+        <Dialogue>~o~Ayla May~s~: ~g~Nggak~w~, aku hidup sehat, banyak olahraga juga.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Itu aja dulu, makasih waktunya.</Dialogue>
+    </Suspect1>
+
+    <Suspect2>
+        <Dialogue>Ngobrol sama ~o~tersangka~w~ pake </Dialogue>
+        <Dialogue>~y~Kamu~s~: Hai, saya ~r~detektif~s~ di kasus ini, boleh tanya-tanya sebentar?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: Howdy! Yeeeaaaaahh, jangan malu-maluin dong *tertawa*</Dialogue>
+        <Dialogue>~y~Kamu~s~: Kamu kelihatan ~r~mabuk~w~ nih, minum berapa tadi?!</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: Aku nggak minum apa-apa, bahkan setetes pun...</Dialogue>
+        <Dialogue>~y~Kamu~s~: Serius dong. Kamu kerja apa?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: Pasti, aku ~o~pemburu~w~, punya hutan nggak jauh dari sini.</Dialogue>
+        <Dialogue>~y~Kamu~s~: Oke, kamu suka makan ~r~keripik~w~ sesering aku nggak?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: Yeeeaaaaah, ~r~AKU SUKA BANGET KERIPIK~w~, selalu makan, ~y~baru aja abis satu bungkus...</Dialogue>
+        <Dialogue>~y~Kamu~s~: Tanya-tanya selesai, nanti aku kasih tahu langkah selanjutnya.</Dialogue>
+    </Suspect2>
+
+    <Officer2>
+        <Dialogue>Ngobrol lagi sama ~b~petugas~w~ pake </Dialogue>
+        <Dialogue>~b~Petugas~w~: Dan kamu udah bisa tentuin siapa ~r~pembunuhnya~w~ dari bukti dan keterangan tadi?</Dialogue>
+        <Dialogue>~y~Kamu~s~: Iya, aku yakin pembunuhnya adalah... ~o~[1] Ayla May  ~r~[2] Jameson Fisher</Dialogue>
+        <Dialogue>Tekan ~o~'1' ~w~atau ~r~'2' ~w~buat pilih ~r~pembunuhnya~w~.</Dialogue>
+        <Dialogue>~y~Kamu~s~: ...~o~Ayla May~w~!</Dialogue>
+        <Dialogue>~y~Kamu~s~: ...~r~Jameson Fisher~w~!</Dialogue>
+        <Dialogue>~b~Petugas~w~: Oke, langsung tangkap tersangkanya!</Dialogue>
+    </Officer2>
+
+    <Arrest>
+        <Text>Waduh, kamu salah tangkap orang ~r~tak bersalah~w~! ~o~Code 4~w~</Text>
+        <Text>Investigasi ~g~Code 4~w~, kasus ~g~terpecahkan~w~, ~g~tersangka yang bener udah ditangkap!</Text>
+        <Text>Panggil ~b~coroner~w~ buat angkut ~y~korban~w~ dan bawa ~r~tersangka~w~ ke ~o~penjara~w~.</Text>
+        <Text>~g~Ayla May ~r~tewas.~s~ Kamu yakin itu perlu? ~g~Code 4~s~</Text>
+        <Text>~b~Jameson Fisher ~r~tewas,~s~ semoga kamu punya pengacara bagus!? ~g~Code 4~s~</Text>
+        <Text>~b~Petugas~s~ ~r~tewas~s~, ini ending nggak bagus!? ~g~Code 4~s~</Text>
+    </Arrest>
+
+</SolveMurder>

@@ -1,0 +1,20 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>Ambulans diserang</CALLOUTMESSAGE>
+    <TASK>Ambulans meminta bantuan mendesak, periksa kondisi mereka.</TASK>
+    <DIALOGUES>
+        <DIALOGUE>~y~Kamu:~s~ Ada apa ini?</DIALOGUE>
+        <DIALOGUE>~r~Paramedis:~s~ Kami sedang dalam perjalanan kembali ke rumah sakit, tiba-tiba mereka menghentikan kami.</DIALOGUE>
+        <DIALOGUE>~r~Paramedis:~s~ Lalu mereka menyerang kami tanpa alasan!</DIALOGUE>
+        <DIALOGUE>~r~Paramedis:~s~ Terima kasih atas bantuannya!</DIALOGUE>
+        <DIALOGUE>~r~Paramedis:~s~ Kami akan kembali ke markas, selamat hari!</DIALOGUE>
+    </DIALOGUES>
+    <EXTRA>
+        <TEXT>Tekan ~y~{Y}~s~ untuk membuat mereka berhenti bertarung!</TEXT>
+        <TEXT>Bicara dengan paramedis untuk cari tahu apa yang terjadi.</TEXT>
+    </EXTRA>
+    <WARN>
+        <TEXT>~y~Kamu:~s~ Polisi! Berhenti bertarung dan mundur!</TEXT>
+        <TEXT>~y~Kamu:~s~ Semua berhenti! Ini polisi!</TEXT>
+    </WARN>
+    <END>Panggilan Ambulans diserang telah berakhir.</END>
+</CALLOUT>

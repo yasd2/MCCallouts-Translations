@@ -1,0 +1,22 @@
+<IntoxicatedIndividual>
+
+    <General>
+        <Text>Orang mabuk di tempat umum</Text>
+        <Text>Pak</Text>
+        <Text>Bu</Text>
+        <Text>Tekan {0} buat ngobrol sama tersangka.</Text>
+        <Text>~y~Kamu~s~: Permisi {0}, butuh bantuan nggak?</Text>
+        <Text>~p~Tersangka~s~: Nggaaaah *hik* semuanya *hik* baaaiiik ajaaa.</Text>
+        <Text>~y~Kamu~s~: Mabuk di tempat umum itu nggak boleh. Saya harus kasih tilang nih.</Text>
+        <Text>~p~Tersangka~s~: Ti-tilang apa? Minggir dong dari mukaku.</Text>
+        <Text>Nggak ada omongan lagi.</Text>
+    </General>
+
+    <End>
+        <Text>Satu tersangka ditangkap! ~g~Code 4~s~</Text>
+        <Text>Satu tersangka ambruk, ~g~Code 4~w~</Text>
+        <Text>~g~Code 4~w~</Text>
+        <Text>~r~GTA Ped Error,~s~ Panggilan diakhiri</Text>
+    </End>
+
+</IntoxicatedIndividual>

@@ -1,0 +1,45 @@
+<SearchWarrant>
+
+    <General>
+        <Text>Ada Surat Perintah Penggeledahan</Text>
+        <Text>Geledah rumahnya buat cari narkoba, senjata, duit, tulang, atau orang</Text>
+        <Text>Cari {ChosenEvidenceTranslation} di dalam bangunan!</Text>
+        <Text>Kami dapat ~r~info~s~ di mana barang bukti ~r~disembunyiin~s~.</Text>
+        <Text>Kami dapat info tersangka lagi kerja sekarang. Namanya {SuspectName}.</Text>
+        <Text>Barang bukti ditemukan:</Text>
+    </General>
+
+    <Persons>
+        <Text>Tukang Kebun</Text>
+        <Text>Kamu</Text>
+    </Persons>
+
+    <EvidTranslation>
+        <Text>Perhiasan</Text>
+        <Text>Emas</Text>
+        <Text>Uang</Text>
+        <Text>Senjata</Text>
+        <Text>Narkoba</Text>
+    </EvidTranslation>
+
+    <D_Gardener>
+        <Dialogue>Halo Pak, kami punya surat perintah penggeledahan buat properti ini dan seluruh rumahnya.</Dialogue>
+        <Dialogue>Oh halo, saya cuma tukang kebun di sini. Saat ini nggak ada orang di rumah, tapi pintunya kebuka kok.</Dialogue>
+    </D_Gardener>
+
+    <EvidenceChecker>
+        <Text>Barang bukti ketemu!</Text>
+        <Text>~g~Semua barang bukti udah ketemu! Kerja bagus!~s~</Text>
+    </EvidenceChecker>
+
+    <SuspectAction>
+        <Dialogue>Tersangka kabur jalan kaki, Dispatch!</Dialogue>
+        <Dialogue>Ah sial, kalian tangkap aku juga...</Dialogue>
+        <Dialogue>~r~Tersangka:~s~ Sialan polisi, aku tembak jalan keluar!</Dialogue>
+    </SuspectAction>
+
+    <End>
+        <Text>Panggilan Code 4.</Text>
+    </End>
+
+</SearchWarrant>

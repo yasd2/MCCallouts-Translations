@@ -1,0 +1,20 @@
+<CALLOUT>
+    <CALLOUTMESSAGE>~b~~h~[SWAT]~h~ Siap Tembak~s~</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Tim SWAT dibutuhkan buat geledah gedung!</CALLOUTADVISORY>
+    <TASKS>
+        <TEXT>Gas ke ~o~lokasi~s~.</TEXT>
+        <TEXT>Masuk dan bersihkan gedung, ~r~beberapa tersangka bersenjata udah barikade diri. ~b~Bawa partner backup bakal bantu banget!</TEXT>
+        <TEXT>Tekan ~{J}~ buat masuk/keluar</TEXT>
+    </TASKS>
+    <SUCCESS>
+        <TEXT>~g~Semua ancaman berhasil dinetralisir!</TEXT>
+        <TEXT>Tekan ~{End}~ buat akhiri panggilan.</TEXT>
+    </SUCCESS>
+    <STATS>
+        <TEXT>Dinetralisir:</TEXT>
+        <TEXT>Ditangkap:</TEXT>
+        <TEXT>~g~Misi berhasil~n~</TEXT>
+        <TEXT>~r~Misi gagal~n~</TEXT>
+        <TEXT>Ancaman tersisa:</TEXT>
+    </STATS>
+</CALLOUT>

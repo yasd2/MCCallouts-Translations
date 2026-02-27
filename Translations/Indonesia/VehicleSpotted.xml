@@ -1,0 +1,21 @@
+<VehicleSpotted>
+
+    <General>
+        <CalloutMessage>Kendaraan Kabur Sebelumnya Terlihat</CalloutMessage>
+        <Text>Cari ~o~tersangka~s~.</Text>
+        <Text>Petugas nemuin kendaraan yang kabur dari penghentian lalu lintas tadi. Ngobrol sama dia dulu.</Text>
+        <Text>~g~Tersangka yang bener udah ditangkap~s~</Text>
+    </General>
+
+    <Persons>
+        <Text>Petugas</Text>
+    </Persons>
+
+    <D_Officer>
+        <Dialogue>Yo bro, seneng liat kamu! Kelihatan perutnya makin mantap ya?</Dialogue>
+        <Dialogue>Pokoknya, aku nemuin mobil ini di sini, yang kabur dari kita tadi.</Dialogue>
+        <Dialogue>Tersangkanya pasti masih di sekitar sini, kita cuma tahu dia cowok kulit putih.</Dialogue>
+        <Dialogue>Aku tebak dia lagi ke mall belanja, mungkin laper nih.</Dialogue>
+    </D_Officer>
+
+</VehicleSpotted>
