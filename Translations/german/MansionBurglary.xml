@@ -1,0 +1,216 @@
+<CALLOUT>
+    <THEACTIVEROBBERY>
+        <CALLOUTMESSAGE>Stiller Alarm in der Villa ausgelöst</CALLOUTMESSAGE>
+        <TASK>Betritt die Villa. Achte auf mögliche Eindringlinge!</TASK>
+        <SCENARIO>
+            <ANIMAL>
+                <TEXT>Zentrale, hier ist Fehlalarm, ein Tier hat das ausgelöst.</TEXT>
+                <TEXT>10-4, finde das Tier und sieh nach, ob ~r~die Tierkontrolle nötig ist.</TEXT>
+            </ANIMAL>
+            <BURGLAR_RUNNING>
+                <ACTION>
+                    <SURRENDER>Ich ergebe mich! Nicht schießen!</SURRENDER>
+                    <SURRENDER>Scheiße, die Cops, ihr habt mich...</SURRENDER>
+                    <FLEEONFOOT>Oh shit! Wie sind die Bullen so schnell hier?!</FLEEONFOOT>
+                    <FLEEONFOOT>Scheiße, die Cops!!</FLEEONFOOT>
+                    <FISTFIGHT>Hey, du Arschloch! Ich mach dich fertig!</FISTFIGHT>
+                    <FISTFIGHT>Verschwinde von mir, verdammt!</FISTFIGHT>
+                    <KNIFEFIGHT>Oh, du hättest nicht hierher kommen sollen...</KNIFEFIGHT>
+                    <KNIFEFIGHT>Wurdest du schon mal abgestochen?! Hahaha!</KNIFEFIGHT>
+                    <GUNFIGHT>Oh, du hättest nicht hierher kommen sollen...</GUNFIGHT>
+                    <GUNFIGHT>Wurdest du schon mal angeschossen?! Jetzt wird's passieren!</GUNFIGHT>
+                </ACTION>
+                <ITEMS>
+                    <TEXT>~y~Dietrich</TEXT>
+                    <TEXT>~r~Gestohlenes Handy</TEXT>
+                    <TEXT>~r~Gestohlene Geldbörse</TEXT>
+                    <TEXT>~r~Gestohlenes Bargeld</TEXT>
+                    <TEXT>Taschenlampe</TEXT>
+                    <TEXT>~y~Handschuhe</TEXT>                  
+                </ITEMS>
+            </BURGLAR_RUNNING>
+            <SMOKE_DETECTOR_FIRE>
+                <TEXT>Du kannst den Alarm umschalten, indem du {SKIPKEY} drückst</TEXT>
+                <TEXT>Hier liegt kein Einbruch vor, sondern ein ~r~Feuer~s~!</TEXT>
+                <TEXT>Hol einen ~o~Feuerlöscher~s~ oder ruf die ~r~Feuerwehr!</TEXT>
+                <TEXT>Das ~r~Feuer~s~ ist ~g~unter Kontrolle. Code 4.</TEXT>
+            </SMOKE_DETECTOR_FIRE>
+        </SCENARIO>
+    </THEACTIVEROBBERY>
+
+
+    <THEINVESTIGATE>
+        <CALLOUTMESSAGE>Ermittlung: Villaeinbruch</CALLOUTMESSAGE>
+        <TASK>Die Verstärkung ist bereits am Tatort. Sprich mit dem leitenden Beamten für weitere Infos.</TASK>
+        <SEARCHFOREVIDENCE>
+            <TEXT>Beweis {counter}/{EvidenceCounter} gefunden!</TEXT>
+            <TEXT>Du hast alle Beweise gefunden! ~o~Sprich mit dem CSI draußen!</TEXT>
+        </SEARCHFOREVIDENCE>
+        <SEARCHFORSUSPECT>Verdächtiger gefunden!</SEARCHFORSUSPECT>
+        <SUSPECTACTION>
+            <TEXT>Der Verdächtige flieht zu Fuß! Abfangen und festnehmen!</TEXT>
+            <TEXT>Der Verdächtige greift mit einer Nahkampfwaffe an! Überwältige ihn!</TEXT>
+        </SUSPECTACTION>
+        <DIALOGUES>
+            <D_COP_1>
+                <TEXT>~b~Beamter:~s~ Schön, dass du da bist. Der Tatort ist gesichert, aber wer das getan hat, ist längst über alle Berge.</TEXT>
+                <TEXT>~y~Du:~s~ Hast du eine Ahnung, mit was wir es hier zu tun haben?</TEXT>
+                <TEXT>~b~Beamter:~s~ Das war kein Zufall. Er wusste genau, wo er hin musste und was er vermeiden sollte.</TEXT>
+                <TEXT>~b~Beamter:~s~ Der CSI ist schon drinnen. Er braucht Hilfe, alles zu protokollieren.</TEXT>
+                <TEXT>~y~Du:~s~ Was ist meine Aufgabe?</TEXT>
+                <TEXT>~b~Beamter:~s~ Geh die Räume durch, finde die Beweise. Wir brauchen handfeste Hinweise, bevor die Spur kalt wird.</TEXT>
+                <TEXT>~b~Beamter:~s~ Und pass auf, wo du hintrittst — verunreinige nichts, an dem der CSI gerade arbeitet.</TEXT>
+            </D_COP_1>
+            <D_COP_2>
+                <TEXT>~b~Beamter:~s~ Hey. Der Verdächtige ist weg, der Tatort ist sauber. Die Forensik hat schon jemanden drinnen.</TEXT>
+                <TEXT>~y~Du:~s~ Was wissen wir bisher?</TEXT>
+                <TEXT>~b~Beamter:~s~ Ehrlich gesagt? Wer das getan hat, hatte keine Ahnung, was er tut.</TEXT>
+                <TEXT>~b~Beamter:~s~ Hat Sachen umgeworfen, eine Spur durch die halbe Villa hinterlassen. Einfach... schlampig.</TEXT>
+                <TEXT>~y~Du:~s~ Wie konnte er dann entkommen?</TEXT>
+                <TEXT>~b~Beamter:~s~ Falscher Ort, falsche Zeit für uns. Richtiger Ort für ihn.</TEXT>
+                <TEXT>~b~Beamter:~s~ Geh rein und dokumentiere die Beweise. Sollte nicht schwer sein — er hat genug zurückgelassen.</TEXT>
+            </D_COP_2>
+            <D_COP_3>
+                <TEXT>~b~Beamter:~s~ Na ja, der Vogel ist geflogen. Kein Verdächtiger, nur ein chaotischer Tatort.</TEXT>
+                <TEXT>~y~Du:~s~ Haben wir jemanden drinnen?</TEXT>
+                <TEXT>~b~Beamter:~s~ Nur einen CSI-Techniker. Der stört dich nicht, macht sein eigenes Ding.</TEXT>
+                <TEXT>~y~Du:~s~ Was brauchst du von mir?</TEXT>
+                <TEXT>~b~Beamter:~s~ Such nach Hinweisen. Wir wissen noch nicht so genau, mit was wir es hier zu tun haben.</TEXT>
+                <TEXT>~b~Beamter:~s~ Könnte alles sein. Finde einfach die Beweise und lass die Forensik den Rest klären.</TEXT>
+                <TEXT>~b~Beamter:~s~ Lass dir Zeit. Machen wir das ordnungsgemäß.</TEXT>
+            </D_COP_3>
+            <D_COP2_1>
+                <TEXT>~b~Beamter:~s~ Wer das hier durchgezogen hat, wusste genau, was er tat.</TEXT>
+                <TEXT>~b~Beamter:~s~ Kein Lärm, keine zerbrochenen Scheiben, keine verschwendete Zeit. Rein und raus.</TEXT>
+                <TEXT>~y~Du:~s~ Ist hier jemand durch diese Tür gekommen?</TEXT>
+                <TEXT>~b~Beamter:~s~ Nicht seit ich hier bin. Aber ich garantier dir — er ist auf dem Weg raus hier durchgekommen.</TEXT>
+                <TEXT>~b~Beamter:~s~ Saubere Flucht. Keine Panik. Diese Person hat das schon mal gemacht.</TEXT>
+            </D_COP2_1>
+            <D_COP2_2>
+                <TEXT>~b~Beamter:~s~ Ich sichere den Seiteneingang. Aufregende Sache.</TEXT>
+                <TEXT>~b~Beamter:~s~ Siehst du die Sicherheitsleute da vorne? Fünfzig Dollar die Stunde.</TEXT>
+                <TEXT>~b~Beamter:~s~ Und der Einbrecher ist trotzdem einfach rein, als würde ihm der Laden gehören.</TEXT>
+                <TEXT>~y~Du:~s~ Irgendeine Idee wie?</TEXT>
+                <TEXT>~b~Beamter:~s~ Reines Glück, wenn du mich fragst. Der Typ ist wahrscheinlich die ganze Zeit über seine eigenen Füße gestolpert.</TEXT>
+                <TEXT>~b~Beamter:~s~ Frag die Möchtegern-Cops. Ach warte — die wissen's auch nicht.</TEXT>
+            </D_COP2_2>
+            <D_COP2_3>
+                <TEXT>~b~Beamter:~s~ Hey. Hier kommt niemand durch diese Tür. Das sind meine Befehle.</TEXT>
+                <TEXT>~b~Beamter:~s~ Der Besitzer hat selbst angerufen. Von seiner Yacht aus. Seiner zweiten Yacht.</TEXT>
+                <TEXT>~b~Beamter:~s~ Der Sicherheitsdienst denkt, es war ein Profi. Der CSI drinnen denkt, es war ein glücklicher Amateur.</TEXT>
+                <TEXT>~y~Du:~s~ Was denkst du?</TEXT>
+                <TEXT>~b~Beamter:~s~ Ich denke, das übersteigt meine Gehaltsklasse. Türwache, weißt du noch?</TEXT>
+            </D_COP2_3>
+            <D_CSI_1A>
+                <TEXT>~y~Du:~s~ Hab das hier in der Nähe des Seiteneingangs gefunden. Sieht relevant aus.</TEXT>
+                <TEXT>~o~CSI:~s~ Gutes Auge. Genau sowas hatte ich erhofft.</TEXT>
+                <TEXT>~o~CSI:~s~ Mein Kollege hat drinnen auch ein paar Proben genommen. Zusammen könnte uns das ein solides Profil liefern.</TEXT>
+                <TEXT>~o~CSI:~s~ Ich bin im Van. Jemand, der so vorsichtig ist, macht nicht viele Fehler — lass ihn uns finden.</TEXT>
+                <TEXT>~y~Du:~s~ Lass dir Zeit.</TEXT>
+                <TEXT>~o~CSI:~s~ Präzision braucht Zeit. Ich werde gründlich sein.</TEXT>
+            </D_CSI_1A>
+            <D_CSI_1B>
+                <TEXT>~o~CSI:~s~ Okay. Wir haben einen Teilabdruck und ein paar Faserspuren. Nicht viel, aber genug.</TEXT>
+                <TEXT>~o~CSI:~s~ Wer das auch war, er war vorsichtig. Aber nicht vorsichtig genug.</TEXT>
+                <TEXT>~o~CSI:~s~ Ich hab alles an die Zentrale geschickt. Die werden bald eine Verdächtigenbeschreibung haben.</TEXT>
+                <TEXT>~y~Du:~s~ Gute Arbeit.</TEXT>
+                <TEXT>~o~CSI:~s~ Diese Person hat das schon mal gemacht. Die Akten werden es zeigen — da bin ich mir sicher.</TEXT>
+            </D_CSI_1B>
+            <D_CSI_2A>
+                <TEXT>~y~Du:~s~ Hier — das hab ich drinnen gefunden.</TEXT>
+                <TEXT>~o~CSI:~s~ Hm. Der Sicherheitsdienst ist hier überall rumgelaufen und du hast trotzdem was gefunden — beeindruckend.</TEXT>
+                <TEXT>~o~CSI:~s~ Mein Kollege hat auch ein paar Proben genommen. Amateurarbeit hinterlässt viel, also sollten wir genug haben.</TEXT>
+                <TEXT>~o~CSI:~s~ Ich bin im Van. Sollte nicht lange dauern, bei so viel Material.</TEXT>
+                <TEXT>~y~Du:~s~ Lass dir Zeit.</TEXT>
+                <TEXT>~o~CSI:~s~ Oh, das werde ich.</TEXT>
+            </D_CSI_2A>
+            <D_CSI_2B>
+                <TEXT>~o~CSI:~s~ Na ja. Mehr als ich erwartet hab, ehrlich gesagt — aber das passt.</TEXT>
+                <TEXT>~o~CSI:~s~ Abdrücke, Fasern, Werkzeugspuren. Diese Person hat eine Spur hinterlassen, der sogar ein Anfänger folgen könnte.</TEXT>
+                <TEXT>~o~CSI:~s~ Hab schon alles an die Zentrale geschickt. Die haben bald eine Beschreibung für dich.</TEXT>
+                <TEXT>~y~Du:~s~ Danke für die schnelle Arbeit.</TEXT>
+                <TEXT>~o~CSI:~s~ Schnell? Bei so vielen Beweisen hat sich das quasi selbst analysiert.</TEXT>
+            </D_CSI_2B>
+            <D_CSI_3A>
+                <TEXT>~y~Du:~s~ Ich hab Beweise gefunden. Sieh dir das mal an.</TEXT>
+                <TEXT>~o~CSI:~s~ Interessant... manche Teile wirken durchdacht. Andere wirken hastig.</TEXT>
+                <TEXT>~o~CSI:~s~ Mein Kollege hat drinnen auch ein paar Spuren gefunden. Vielleicht ergibt das zusammen einen Sinn.</TEXT>
+                <TEXT>~o~CSI:~s~ Ich werde alles im Van auswerten. Gib mir ein paar Minuten.</TEXT>
+                <TEXT>~y~Du:~s~ Ich bin draußen.</TEXT>
+                <TEXT>~o~CSI:~s~ Geh nicht zu weit weg. Ich hab vielleicht noch Fragen.</TEXT>
+            </D_CSI_3A>
+            <D_CSI_3B>
+                <TEXT>~o~CSI:~s~ Okay, also... das Bild ist gemischt.</TEXT>
+                <TEXT>~o~CSI:~s~ Manches sieht so aus, als hätte jemand genau gewusst, was er tut.</TEXT>
+                <TEXT>~o~CSI:~s~ Andere Teile? Reines Chaos. Ich kann dir ehrlich gesagt kein klares Profil liefern.</TEXT>
+                <TEXT>~y~Du:~s~ Was sagen wir also der Zentrale?</TEXT>
+                <TEXT>~o~CSI:~s~ Ich hab denen alles geschickt. Die sollen es klären — das übersteigt meine Gehaltsklasse.</TEXT>
+                <TEXT>~o~CSI:~s~ Viel Glück. Davon wirst du bei diesem Fall ein bisschen brauchen.</TEXT>
+            </D_CSI_3B>
+            <D_CSI2_1>
+                <TEXT>~o~CSI:~s~ Vorsicht mit dem Türrahmen — ich hab ihn gerade erst nach Fingerabdrücken abgesucht.</TEXT>
+                <TEXT>~y~Du:~s~ Sorry. Was Brauchbares gefunden?</TEXT>
+                <TEXT>~o~CSI:~s~ Kaum eine Spur. Handschuhe, ziemlich sicher. Bewusste Bewegung durch den Raum.</TEXT>
+                <TEXT>~o~CSI:~s~ Diese Person wusste, wo die Kameras waren. Kein Herumstolpern.</TEXT>
+                <TEXT>~y~Du:~s~ Ich check die anderen Räume.</TEXT>
+                <TEXT>~o~CSI:~s~ Mach das. Und dokumentier alles — bei jemandem, der so vorsichtig ist, zählt selbst das kleinste Detail.</TEXT>
+            </D_CSI2_1>
+            <D_CSI2_2>
+                <TEXT>~o~CSI:~s~ Sieh dir diese Werkzeugspuren am Schloss an. Lehrbuchmäßiger Amateur.</TEXT>
+                <TEXT>~y~Du:~s~ Also definitiv kein Profi?</TEXT>
+                <TEXT>~o~CSI:~s~ Nicht mal annähernd. Panisch, überstürzt, in jedem Raum Spuren hinterlassen.</TEXT>
+                <TEXT>~o~CSI:~s~ Ehrlich gesagt bin ich überrascht, dass er überhaupt gefunden hat, wonach er gesucht hat.</TEXT>
+                <TEXT>~y~Du:~s~ Ich check den Flur.</TEXT>
+                <TEXT>~o~CSI:~s~ Gut. Er hat auf dem Weg raus Sachen fallen lassen — du wirst sicher was finden.</TEXT>
+            </D_CSI2_2>
+            <D_CSI2_3>
+                <TEXT>~o~CSI:~s~ Hey. Nur ein weiterer Dienstag in Los Santos.</TEXT>
+                <TEXT>~y~Du:~s~ Hat er viel zurückgelassen?</TEXT>
+                <TEXT>~o~CSI:~s~ Das ist das Merkwürdige — manches wirkt überstürzt und schlampig, anderes wirkt bewusst.</TEXT>
+                <TEXT>~o~CSI:~s~ Ich kann mir bei dem Fall noch keinen Reim machen. Könnte beides sein.</TEXT>
+                <TEXT>~y~Du:~s~ Ich geh alles durch und markiere, was ich finde.</TEXT>
+                <TEXT>~o~CSI:~s~ Gut. Vielleicht hilft mir das, was du findest, mir eine Meinung zu bilden.</TEXT>
+            </D_CSI2_3>
+            <D_SECURITY_1>
+                <TEXT>~y~Du:~s~ Du warst als Erster am Tatort?</TEXT>
+                <TEXT>~r~Sicherheitsdienst:~s~ Genau. Der Alarm kam um 2:47 Uhr rein. Ich war in unter vier Minuten hier.</TEXT>
+                <TEXT>~r~Sicherheitsdienst:~s~ Aber er war schon weg. Draußen keine Spur mehr von ihm.</TEXT>
+                <TEXT>~y~Du:~s~ Und niemand wurde geschnappt.</TEXT>
+                <TEXT>~r~Sicherheitsdienst:~s~ Wer es auch war, er kannte das Grundstück. Hat jeden blinden Fleck, jeden Kamerawinkel vermieden.</TEXT>
+                <TEXT>~r~Sicherheitsdienst:~s~ Ich mach das seit elf Jahren. Das war kein Amateur.</TEXT>
+                <TEXT>~y~Du:~s~ Ist dir sonst noch was aufgefallen?</TEXT>
+                <TEXT>~r~Sicherheitsdienst:~s~ Die Tür auf der Ostseite war von innen entriegelt, als ich ankam. Niemand konnte sich das erklären.</TEXT>
+            </D_SECURITY_1>
+            <D_SECURITY_2>
+                <TEXT>~y~Du:~s~ Erzähl mir, was heute Nacht passiert ist.</TEXT>
+                <TEXT>~r~Sicherheitsdienst:~s~ Alarm ausgelöst, wir sind ausgerückt, haben den Bereich abgesichert. Das System hat einwandfrei funktioniert.</TEXT>
+                <TEXT>~y~Du:~s~ Aber der Einbrecher war schon weg.</TEXT>
+                <TEXT>~r~Sicherheitsdienst:~s~ Der Besitzer hat das Basis-Paket gewählt. Ein Wächter, vier Kameras. Dafür hat er bezahlt.</TEXT>
+                <TEXT>~r~Sicherheitsdienst:~s~ Schau — der Typ hatte einfach Glück. Ganz simpel.</TEXT>
+                <TEXT>~y~Du:~s~ Hast du was gesehen, bevor der Alarm ausging?</TEXT>
+                <TEXT>~r~Sicherheitsdienst:~s~ Nichts Ungewöhnliches. Er muss sich während meiner Runde rein geschlichen haben.</TEXT>
+                <TEXT>~r~Sicherheitsdienst:~s~ ...Da stand ein Van die Straße runter. Grau. Aber das ist wahrscheinlich nichts.</TEXT>
+                <TEXT>~y~Du:~s~ Wahrscheinlich nichts.</TEXT>
+                <TEXT>~r~Sicherheitsdienst:~s~ Schau mich nicht so an, Beamter.</TEXT>
+            </D_SECURITY_2>
+            <D_SECURITY_3>
+                <TEXT>~y~Du:~s~ Hey — du warst als Erster am Tatort?</TEXT>
+                <TEXT>~r~Sicherheitsdienst:~s~ Ja, Sir. Der Alarm kam um 2:47 Uhr rein, ich war um 2:51 Uhr hier.</TEXT>
+                <TEXT>~r~Sicherheitsdienst:~s~ Die Seitentür war schon offen, als ich ankam. Nicht aufgebrochen — einfach offen.</TEXT>
+                <TEXT>~y~Du:~s~ Was ist deine Einschätzung dazu?</TEXT>
+                <TEXT>~r~Sicherheitsdienst:~s~ Ehrlich? Ich weiß es nicht. Irgendwas passt hier nicht zusammen.</TEXT>
+                <TEXT>~r~Sicherheitsdienst:~s~ Von außen wirkte es professionell. Aber drinnen sieht's aus wie ein Chaos.</TEXT>
+                <TEXT>~r~Sicherheitsdienst:~s~ Ich hab beides schon gesehen. Bei diesem hier... kann ich dir nicht sagen, was es ist.</TEXT>
+            </D_SECURITY_3>
+        </DIALOGUES>
+        <FIRSTOFFICERTALK>
+            <TEXT>Durchsuche die Villa nach Beweisen.</TEXT>
+            <TEXT>~g~Hinweis:~s~ Wir haben Tipps erhalten, wo sich die Beweise befinden.</TEXT>
+        </FIRSTOFFICERTALK>
+        <HASCSICHECKEDEVIDENCE>
+            <TEXT>~r~Offener Haftbefehl:~s~</TEXT>
+            <TEXT>Verdächtiger: {BurglarName}</TEXT>
+            <TEXT>Zuletzt gesehen in einem ~y~{BurglarCarModel}~s~</TEXT>
+        </HASCSICHECKEDEVIDENCE>
+    </THEINVESTIGATE>
+</CALLOUT>

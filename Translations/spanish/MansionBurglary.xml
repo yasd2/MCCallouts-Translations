@@ -1,0 +1,216 @@
+<CALLOUT>
+    <THEACTIVEROBBERY>
+        <CALLOUTMESSAGE>Silent Alarm triggered at Mansion</CALLOUTMESSAGE>
+        <TASK>Make entry at the mansion. Be aware of possible intruders!</TASK>
+        <SCENARIO>
+            <ANIMAL>
+                <TEXT>Dispatch, false alarm here, an animal has caused this.</TEXT>
+                <TEXT>10-4, find the animal and see if ~r~animal control is necessary.</TEXT>
+            </ANIMAL>
+            <BURGLAR_RUNNING>
+                <ACTION>
+                    <SURRENDER>I'm surrendering! Don't shoot!</SURRENDER>
+                    <SURRENDER>Fuck, the cops, you caught me...</SURRENDER>
+                    <FLEEONFOOT>Oh shit! How did the pigs came that quickly?!</FLEEONFOOT>
+                    <FLEEONFOOT>Fuck, the cops!!</FLEEONFOOT>
+                    <FISTFIGHT>Hey you asshole! I'll fuck you up!</FISTFIGHT>
+                    <FISTFIGHT>Get the fuck away from me!</FISTFIGHT>
+                    <KNIFEFIGHT>Oh, you shouldn't have got here...</KNIFEFIGHT>
+                    <KNIFEFIGHT>Have you ever been stabbed?! Hahaha!</KNIFEFIGHT>
+                    <GUNFIGHT>Oh, you shouldn't have got here...</GUNFIGHT>
+                    <GUNFIGHT>Did you ever got shot?! Now you will be!</GUNFIGHT>
+                </ACTION>
+                <ITEMS>
+                    <TEXT>~y~Lockpick</TEXT>
+                    <TEXT>~r~Stolen phone</TEXT>
+                    <TEXT>~r~Stolen wallet</TEXT>
+                    <TEXT>~r~Stolen cash</TEXT>
+                    <TEXT>Flashlight</TEXT>
+                    <TEXT>~y~Gloves</TEXT>                  
+                </ITEMS>
+            </BURGLAR_RUNNING>
+            <SMOKE_DETECTOR_FIRE>
+                <TEXT>You can toggle the alarm by pressing {SKIPKEY}</TEXT>
+                <TEXT>There is no burglary here, we have a ~r~fire~s~ instead!</TEXT>
+                <TEXT>Get a ~o~fire extinguisher~s~ or call the ~r~fire department!</TEXT>
+                <TEXT>The ~r~fire~s~ is ~g~under control. Code 4.</TEXT>
+            </SMOKE_DETECTOR_FIRE>
+        </SCENARIO>
+    </THEACTIVEROBBERY>
+
+
+    <THEINVESTIGATE>
+        <CALLOUTMESSAGE>Mansion Burglary Investigation</CALLOUTMESSAGE>
+        <TASK>The cavalry is already on scene. Talk to the leading officer for more info.</TASK>
+        <SEARCHFOREVIDENCE>
+            <TEXT>Evidence {counter}/{EvidenceCounter} found!</TEXT>
+            <TEXT>You found all evidence! ~o~Go talk to the CSI outside!</TEXT>
+        </SEARCHFOREVIDENCE>
+        <SEARCHFORSUSPECT>Suspect located!</SEARCHFORSUSPECT>
+        <SUSPECTACTION>
+            <TEXT>The suspect is fleeing on foot! Intercept and apprehend!</TEXT>
+            <TEXT>The suspect is attacking with a melee weapon! Subdue them!</TEXT>
+        </SUSPECTACTION>
+        <DIALOGUES>
+            <D_COP_1>
+                <TEXT>~b~Officer:~s~ Glad you're here. Scene is secure, but whoever did this is long gone.</TEXT>
+                <TEXT>~y~You:~s~ Any idea what we're dealing with?</TEXT>
+                <TEXT>~b~Officer:~s~ This wasn't random. They knew exactly where to go and what to avoid.</TEXT>
+                <TEXT>~b~Officer:~s~ CSI is already inside. He needs help logging everything.</TEXT>
+                <TEXT>~y~You:~s~ What's my objective?</TEXT>
+                <TEXT>~b~Officer:~s~ Walk the rooms, find the evidence. We need solid leads before this trail goes cold.</TEXT>
+                <TEXT>~b~Officer:~s~ And watch your step — don't contaminate anything CSI is working on.</TEXT>
+            </D_COP_1>
+            <D_COP_2>
+                <TEXT>~b~Officer:~s~ Hey. Suspect is gone, scene is clear. Forensics has someone inside already.</TEXT>
+                <TEXT>~y~You:~s~ What do we know so far?</TEXT>
+                <TEXT>~b~Officer:~s~ Honestly? Whoever did this had no idea what they were doing.</TEXT>
+                <TEXT>~b~Officer:~s~ Knocked things over, left a trail through half the rooms. Just... sloppy.</TEXT>
+                <TEXT>~y~You:~s~ So how did they get away?</TEXT>
+                <TEXT>~b~Officer:~s~ Wrong place, wrong time for us. Right place for them.</TEXT>
+                <TEXT>~b~Officer:~s~ Go inside and log the evidence. Shouldn't be hard to find — they left plenty behind.</TEXT>
+            </D_COP_2>
+            <D_COP_3>
+                <TEXT>~b~Officer:~s~ Well, the bird has flown. No suspect, just a messy crime scene.</TEXT>
+                <TEXT>~y~You:~s~ Do we have anyone on the inside?</TEXT>
+                <TEXT>~b~Officer:~s~ Just a CSI tech. He won't bother you, doing his own thing.</TEXT>
+                <TEXT>~y~You:~s~ What do you need from me?</TEXT>
+                <TEXT>~b~Officer:~s~ Hunt for clues. We don't really know what we're dealing with yet.</TEXT>
+                <TEXT>~b~Officer:~s~ Could be anything. Just find the evidence and let forensics figure it out.</TEXT>
+                <TEXT>~b~Officer:~s~ Take your time. Let's do this by the book.</TEXT>
+            </D_COP_3>
+            <D_COP2_1>
+                <TEXT>~b~Officer:~s~ Whoever pulled this off knew what they were doing.</TEXT>
+                <TEXT>~b~Officer:~s~ No noise, no broken glass, no wasted time. In and out.</TEXT>
+                <TEXT>~y~You:~s~ Anyone come through this door?</TEXT>
+                <TEXT>~b~Officer:~s~ Not since I got here. But I guarantee you — they came through here on the way out.</TEXT>
+                <TEXT>~b~Officer:~s~ Clean exit. No panic. This person has done this before.</TEXT>
+            </D_COP2_1>
+            <D_COP2_2>
+                <TEXT>~b~Officer:~s~ I'm securing the side entrance. Exciting stuff.</TEXT>
+                <TEXT>~b~Officer:~s~ You see those security guys out front? Fifty bucks an hour.</TEXT>
+                <TEXT>~b~Officer:~s~ And the burglar still walked right in like he owned the place.</TEXT>
+                <TEXT>~y~You:~s~ Any idea how?</TEXT>
+                <TEXT>~b~Officer:~s~ Pure luck, if you ask me. Guy probably tripped over himself the whole way through.</TEXT>
+                <TEXT>~b~Officer:~s~ Ask the rent-a-cops. Oh wait — they don't know either.</TEXT>
+            </D_COP2_2>
+            <D_COP2_3>
+                <TEXT>~b~Officer:~s~ Hey. Nobody gets through this door. Those are my orders.</TEXT>
+                <TEXT>~b~Officer:~s~ Owner called it in himself. From his yacht. His second yacht.</TEXT>
+                <TEXT>~b~Officer:~s~ Security thinks it was a pro. CSI inside thinks it was a lucky amateur.</TEXT>
+                <TEXT>~y~You:~s~ What do you think?</TEXT>
+                <TEXT>~b~Officer:~s~ I think it's above my pay grade. Door duty, remember?</TEXT>
+            </D_COP2_3>
+            <D_CSI_1A>
+                <TEXT>~y~You:~s~ Found this near the side entrance. Looks relevant.</TEXT>
+                <TEXT>~o~CSI:~s~ Good eye. This is exactly the kind of thing I was hoping for.</TEXT>
+                <TEXT>~o~CSI:~s~ My colleague grabbed a few samples inside as well. Combined, this could give us a solid profile.</TEXT>
+                <TEXT>~o~CSI:~s~ I'll be in the van. Someone this careful doesn't make many mistakes — let's find them.</TEXT>
+                <TEXT>~y~You:~s~ Take your time.</TEXT>
+                <TEXT>~o~CSI:~s~ Precision takes time. I'll be thorough.</TEXT>
+            </D_CSI_1A>
+            <D_CSI_1B>
+                <TEXT>~o~CSI:~s~ Alright. We got a partial print and some fiber traces. Not much, but enough.</TEXT>
+                <TEXT>~o~CSI:~s~ Whoever this was, they were careful. But not careful enough.</TEXT>
+                <TEXT>~o~CSI:~s~ I sent everything to dispatch. They'll have a suspect description shortly.</TEXT>
+                <TEXT>~y~You:~s~ Good work.</TEXT>
+                <TEXT>~o~CSI:~s~ This person has done this before. The record will show it — I'm sure of it.</TEXT>
+            </D_CSI_1B>
+            <D_CSI_2A>
+                <TEXT>~y~You:~s~ Here — found this inside.</TEXT>
+                <TEXT>~o~CSI:~s~ Hm. Security walked all over this place and you still found something — impressive.</TEXT>
+                <TEXT>~o~CSI:~s~ My colleague grabbed a few samples too. Amateur work leaves a lot behind, so we should have plenty.</TEXT>
+                <TEXT>~o~CSI:~s~ I'll be in the van. Shouldn't take long with this much to work with.</TEXT>
+                <TEXT>~y~You:~s~ Take your time.</TEXT>
+                <TEXT>~o~CSI:~s~ Oh, I will.</TEXT>
+            </D_CSI_2A>
+            <D_CSI_2B>
+                <TEXT>~o~CSI:~s~ Well. More than I expected, honestly — but that tracks.</TEXT>
+                <TEXT>~o~CSI:~s~ Prints, fibers, tool marks. This person left a trail a rookie could follow.</TEXT>
+                <TEXT>~o~CSI:~s~ Sent everything to dispatch already. They'll have a description for you soon.</TEXT>
+                <TEXT>~y~You:~s~ Thanks for the fast work.</TEXT>
+                <TEXT>~o~CSI:~s~ Fast? With this much evidence it basically analyzed itself.</TEXT>
+            </D_CSI_2B>
+            <D_CSI_3A>
+                <TEXT>~y~You:~s~ I found some evidence. Take a look at this.</TEXT>
+                <TEXT>~o~CSI:~s~ Interesting... parts of this look deliberate. Other parts look rushed.</TEXT>
+                <TEXT>~o~CSI:~s~ My colleague found some traces inside too. Maybe together it'll start making sense.</TEXT>
+                <TEXT>~o~CSI:~s~ I'll run everything in the van. Give me a few minutes.</TEXT>
+                <TEXT>~y~You:~s~ I'll be outside.</TEXT>
+                <TEXT>~o~CSI:~s~ Don't go too far. I might have questions.</TEXT>
+            </D_CSI_3A>
+            <D_CSI_3B>
+                <TEXT>~o~CSI:~s~ Okay, so... it's a mixed picture.</TEXT>
+                <TEXT>~o~CSI:~s~ Some of this looks like someone who knew exactly what they were doing.</TEXT>
+                <TEXT>~o~CSI:~s~ Other parts? Pure chaos. I honestly can't give you a clean profile.</TEXT>
+                <TEXT>~y~You:~s~ So what do we tell dispatch?</TEXT>
+                <TEXT>~o~CSI:~s~ I sent them everything. Let them figure it out — that's above my pay grade.</TEXT>
+                <TEXT>~o~CSI:~s~ Good luck. You're going to need a little of it on this one.</TEXT>
+            </D_CSI_3B>
+            <D_CSI2_1>
+                <TEXT>~o~CSI:~s~ Careful with that door frame — I just finished dusting it.</TEXT>
+                <TEXT>~y~You:~s~ Sorry. Found anything useful?</TEXT>
+                <TEXT>~o~CSI:~s~ Barely a trace. Gloves, almost certainly. Deliberate movement through the room.</TEXT>
+                <TEXT>~o~CSI:~s~ This person knew where the cameras were. They didn't stumble around.</TEXT>
+                <TEXT>~y~You:~s~ I'll check the other rooms.</TEXT>
+                <TEXT>~o~CSI:~s~ Do that. And log everything — even the smallest detail matters with someone this careful.</TEXT>
+            </D_CSI2_1>
+            <D_CSI2_2>
+                <TEXT>~o~CSI:~s~ Look at these tool marks on the lock. Textbook amateur.</TEXT>
+                <TEXT>~y~You:~s~ So definitely not a professional?</TEXT>
+                <TEXT>~o~CSI:~s~ Not even close. Panicked, rushed, left traces in every room.</TEXT>
+                <TEXT>~o~CSI:~s~ Honestly I'm surprised they found what they were looking for at all.</TEXT>
+                <TEXT>~y~You:~s~ I'll check the hallway.</TEXT>
+                <TEXT>~o~CSI:~s~ Good. They dropped things on the way out — you'll find something for sure.</TEXT>
+            </D_CSI2_2>
+            <D_CSI2_3>
+                <TEXT>~o~CSI:~s~ Hey. Just another Tuesday in Los Santos.</TEXT>
+                <TEXT>~y~You:~s~ Did they leave much behind?</TEXT>
+                <TEXT>~o~CSI:~s~ That's the weird part — some things look rushed and sloppy, other things look deliberate.</TEXT>
+                <TEXT>~o~CSI:~s~ I can't figure this one out yet. Could go either way.</TEXT>
+                <TEXT>~y~You:~s~ I'll do a walkthrough and tag what I find.</TEXT>
+                <TEXT>~o~CSI:~s~ Good. Maybe what you find will help me make up my mind.</TEXT>
+            </D_CSI2_3>
+            <D_SECURITY_1>
+                <TEXT>~y~You:~s~ You were first on scene?</TEXT>
+                <TEXT>~r~Security:~s~ That's right. Alarm came in at 2:47. I was here in under four minutes.</TEXT>
+                <TEXT>~r~Security:~s~ But they were already gone. Not a trace of them left outside.</TEXT>
+                <TEXT>~y~You:~s~ And nobody was caught.</TEXT>
+                <TEXT>~r~Security:~s~ Whoever it was knew this property. Avoided every blind spot, every camera angle.</TEXT>
+                <TEXT>~r~Security:~s~ I've been doing this for eleven years. This wasn't an amateur.</TEXT>
+                <TEXT>~y~You:~s~ Anything else stand out?</TEXT>
+                <TEXT>~r~Security:~s~ The east side door was unlocked from the inside when I arrived. Nobody could explain that.</TEXT>
+            </D_SECURITY_1>
+            <D_SECURITY_2>
+                <TEXT>~y~You:~s~ Walk me through what happened tonight.</TEXT>
+                <TEXT>~r~Security:~s~ Alarm triggered, we responded, we secured the perimeter. System worked fine.</TEXT>
+                <TEXT>~y~You:~s~ But the burglar was already gone.</TEXT>
+                <TEXT>~r~Security:~s~ The owner chose the basic package. One guard, four cameras. That's what he paid for.</TEXT>
+                <TEXT>~r~Security:~s~ Look — this guy got lucky. Pure and simple.</TEXT>
+                <TEXT>~y~You:~s~ Did you see anything before the alarm went off?</TEXT>
+                <TEXT>~r~Security:~s~ Nothing out of the ordinary. He must have slipped in during my rounds.</TEXT>
+                <TEXT>~r~Security:~s~ ...There was a van down the street. Grey. But that's probably nothing.</TEXT>
+                <TEXT>~y~You:~s~ Probably nothing.</TEXT>
+                <TEXT>~r~Security:~s~ Don't look at me like that, officer.</TEXT>
+            </D_SECURITY_2>
+            <D_SECURITY_3>
+                <TEXT>~y~You:~s~ Hey — you were first on scene?</TEXT>
+                <TEXT>~r~Security:~s~ Yes sir. Alarm came in at 2:47, I was here by 2:51.</TEXT>
+                <TEXT>~r~Security:~s~ Side door was already open when I arrived. Not forced — just open.</TEXT>
+                <TEXT>~y~You:~s~ What's your read on this?</TEXT>
+                <TEXT>~r~Security:~s~ Honestly? I don't know. Something about this doesn't add up.</TEXT>
+                <TEXT>~r~Security:~s~ Felt professional from the outside. But inside looks like a mess.</TEXT>
+                <TEXT>~r~Security:~s~ I've seen both. This one... I can't tell you which it is.</TEXT>
+            </D_SECURITY_3>
+        </DIALOGUES>
+        <FIRSTOFFICERTALK>
+            <TEXT>Search the mansion for evidence.</TEXT>
+            <TEXT>~g~Hint:~s~ We have received tips where the evidence is located.</TEXT>
+        </FIRSTOFFICERTALK>
+        <HASCSICHECKEDEVIDENCE>
+            <TEXT>~r~Outstanding Warrant:~s~</TEXT>
+            <TEXT>Suspect: {BurglarName}</TEXT>
+            <TEXT>Last seen in a ~y~{BurglarCarModel}~s~</TEXT>
+        </HASCSICHECKEDEVIDENCE>
+    </THEINVESTIGATE>
+</CALLOUT>
