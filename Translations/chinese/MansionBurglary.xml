@@ -1,216 +1,216 @@
 <CALLOUT>
     <THEACTIVEROBBERY>
-        <CALLOUTMESSAGE>Silent Alarm triggered at Mansion</CALLOUTMESSAGE>
-        <TASK>Make entry at the mansion. Be aware of possible intruders!</TASK>
+        <CALLOUTMESSAGE>豪宅触发静默警报</CALLOUTMESSAGE>
+        <TASK>进入豪宅。注意可能的入侵者！</TASK>
         <SCENARIO>
             <ANIMAL>
-                <TEXT>Dispatch, false alarm here, an animal has caused this.</TEXT>
-                <TEXT>10-4, find the animal and see if ~r~animal control is necessary.</TEXT>
+                <TEXT>调度台，误报，是动物引起的。</TEXT>
+                <TEXT>10-4，找到那只动物，看看是否需要~r~动物管理部门~s~介入。</TEXT>
             </ANIMAL>
             <BURGLAR_RUNNING>
                 <ACTION>
-                    <SURRENDER>I'm surrendering! Don't shoot!</SURRENDER>
-                    <SURRENDER>Fuck, the cops, you caught me...</SURRENDER>
-                    <FLEEONFOOT>Oh shit! How did the pigs came that quickly?!</FLEEONFOOT>
-                    <FLEEONFOOT>Fuck, the cops!!</FLEEONFOOT>
-                    <FISTFIGHT>Hey you asshole! I'll fuck you up!</FISTFIGHT>
-                    <FISTFIGHT>Get the fuck away from me!</FISTFIGHT>
-                    <KNIFEFIGHT>Oh, you shouldn't have got here...</KNIFEFIGHT>
-                    <KNIFEFIGHT>Have you ever been stabbed?! Hahaha!</KNIFEFIGHT>
-                    <GUNFIGHT>Oh, you shouldn't have got here...</GUNFIGHT>
-                    <GUNFIGHT>Did you ever got shot?! Now you will be!</GUNFIGHT>
+                    <SURRENDER>我投降！别开枪！</SURRENDER>
+                    <SURRENDER>操，是警察，你抓住我了……</SURRENDER>
+                    <FLEEONFOOT>我靠！条子怎么来得这么快？！</FLEEONFOOT>
+                    <FLEEONFOOT>操，警察！！</FLEEONFOOT>
+                    <FISTFIGHT>嘿，你个混蛋！我要揍扁你！</FISTFIGHT>
+                    <FISTFIGHT>给我滚远点！</FISTFIGHT>
+                    <KNIFEFIGHT>哦，你不该来这儿的……</KNIFEFIGHT>
+                    <KNIFEFIGHT>你被捅过吗？！哈哈哈！</KNIFEFIGHT>
+                    <GUNFIGHT>哦，你不该来这儿的……</GUNFIGHT>
+                    <GUNFIGHT>你中过枪吗？！现在你就要尝到了！</GUNFIGHT>
                 </ACTION>
                 <ITEMS>
-                    <TEXT>~y~Lockpick</TEXT>
-                    <TEXT>~r~Stolen phone</TEXT>
-                    <TEXT>~r~Stolen wallet</TEXT>
-                    <TEXT>~r~Stolen cash</TEXT>
-                    <TEXT>Flashlight</TEXT>
-                    <TEXT>~y~Gloves</TEXT>                  
+                    <TEXT>~y~撬锁工具</TEXT>
+                    <TEXT>~r~被盗手机</TEXT>
+                    <TEXT>~r~被盗钱包</TEXT>
+                    <TEXT>~r~被盗现金</TEXT>
+                    <TEXT>手电筒</TEXT>
+                    <TEXT>~y~手套</TEXT>                  
                 </ITEMS>
             </BURGLAR_RUNNING>
             <SMOKE_DETECTOR_FIRE>
-                <TEXT>You can toggle the alarm by pressing {SKIPKEY}</TEXT>
-                <TEXT>There is no burglary here, we have a ~r~fire~s~ instead!</TEXT>
-                <TEXT>Get a ~o~fire extinguisher~s~ or call the ~r~fire department!</TEXT>
-                <TEXT>The ~r~fire~s~ is ~g~under control. Code 4.</TEXT>
+                <TEXT>你可以按 {SKIPKEY} 来切换警报</TEXT>
+                <TEXT>这里没有入室盗窃，是~r~火灾~s~！</TEXT>
+                <TEXT>拿~o~灭火器~s~或呼叫~r~消防部门~s~！</TEXT>
+                <TEXT>~r~火势~s~已~g~得到控制。情况稳定。</TEXT>
             </SMOKE_DETECTOR_FIRE>
         </SCENARIO>
     </THEACTIVEROBBERY>
 
 
     <THEINVESTIGATE>
-        <CALLOUTMESSAGE>Mansion Burglary Investigation</CALLOUTMESSAGE>
-        <TASK>The cavalry is already on scene. Talk to the leading officer for more info.</TASK>
+        <CALLOUTMESSAGE>豪宅入室盗窃调查</CALLOUTMESSAGE>
+        <TASK>警力已到达现场。与带队警官交谈以获取更多信息。</TASK>
         <SEARCHFOREVIDENCE>
-            <TEXT>Evidence {counter}/{EvidenceCounter} found!</TEXT>
-            <TEXT>You found all evidence! ~o~Go talk to the CSI outside!</TEXT>
+            <TEXT>已找到证据 {counter}/{EvidenceCounter}！</TEXT>
+            <TEXT>你找到了所有证据！~o~去和外面的CSI探员谈谈！</TEXT>
         </SEARCHFOREVIDENCE>
-        <SEARCHFORSUSPECT>Suspect located!</SEARCHFORSUSPECT>
+        <SEARCHFORSUSPECT>已定位嫌疑人！</SEARCHFORSUSPECT>
         <SUSPECTACTION>
-            <TEXT>The suspect is fleeing on foot! Intercept and apprehend!</TEXT>
-            <TEXT>The suspect is attacking with a melee weapon! Subdue them!</TEXT>
+            <TEXT>嫌疑人正在步行逃跑！拦截并逮捕！</TEXT>
+            <TEXT>嫌疑人正在用近战武器攻击！制服他们！</TEXT>
         </SUSPECTACTION>
         <DIALOGUES>
             <D_COP_1>
-                <TEXT>~b~Officer:~s~ Glad you're here. Scene is secure, but whoever did this is long gone.</TEXT>
-                <TEXT>~y~You:~s~ Any idea what we're dealing with?</TEXT>
-                <TEXT>~b~Officer:~s~ This wasn't random. They knew exactly where to go and what to avoid.</TEXT>
-                <TEXT>~b~Officer:~s~ CSI is already inside. He needs help logging everything.</TEXT>
-                <TEXT>~y~You:~s~ What's my objective?</TEXT>
-                <TEXT>~b~Officer:~s~ Walk the rooms, find the evidence. We need solid leads before this trail goes cold.</TEXT>
-                <TEXT>~b~Officer:~s~ And watch your step — don't contaminate anything CSI is working on.</TEXT>
+                <TEXT>~b~警官：~s~ 很高兴你来了。现场是安全的，但干这事的人早就跑了。</TEXT>
+                <TEXT>~y~警员：~s~ 知道我们面对的是什么情况吗？</TEXT>
+                <TEXT>~b~警官：~s~ 这不是随机的。他们确切地知道要去哪里，要避开什么。</TEXT>
+                <TEXT>~b~警官：~s~ CSI已经进去了。他需要帮忙记录所有东西。</TEXT>
+                <TEXT>~y~警员：~s~ 我的任务是什么？</TEXT>
+                <TEXT>~b~警官：~s~ 走遍各个房间，找到证据。我们得在线索冷却前找到确凿的线索。</TEXT>
+                <TEXT>~b~警官：~s~ 注意脚下——别污染CSI正在处理的东西。</TEXT>
             </D_COP_1>
             <D_COP_2>
-                <TEXT>~b~Officer:~s~ Hey. Suspect is gone, scene is clear. Forensics has someone inside already.</TEXT>
-                <TEXT>~y~You:~s~ What do we know so far?</TEXT>
-                <TEXT>~b~Officer:~s~ Honestly? Whoever did this had no idea what they were doing.</TEXT>
-                <TEXT>~b~Officer:~s~ Knocked things over, left a trail through half the rooms. Just... sloppy.</TEXT>
-                <TEXT>~y~You:~s~ So how did they get away?</TEXT>
-                <TEXT>~b~Officer:~s~ Wrong place, wrong time for us. Right place for them.</TEXT>
-                <TEXT>~b~Officer:~s~ Go inside and log the evidence. Shouldn't be hard to find — they left plenty behind.</TEXT>
+                <TEXT>~b~警官：~s~ 嘿。嫌疑人跑了，现场已经清理。鉴证科里面已经有人了。</TEXT>
+                <TEXT>~y~警员：~s~ 我们目前知道什么？</TEXT>
+                <TEXT>~b~警官：~s~ 说实话？干这事的人根本不知道自己在干嘛。</TEXT>
+                <TEXT>~b~警官：~s~ 碰倒东西，穿过半个房间都留下了痕迹。就是……太马虎了。</TEXT>
+                <TEXT>~y~警员：~s~ 那他们是怎么逃掉的？</TEXT>
+                <TEXT>~b~警官：~s~ 对我们来说，时机和地点都不对。对他们来说，正好。</TEXT>
+                <TEXT>~b~警官：~s~ 进去记录证据。应该不难找——他们留下了不少东西。</TEXT>
             </D_COP_2>
             <D_COP_3>
-                <TEXT>~b~Officer:~s~ Well, the bird has flown. No suspect, just a messy crime scene.</TEXT>
-                <TEXT>~y~You:~s~ Do we have anyone on the inside?</TEXT>
-                <TEXT>~b~Officer:~s~ Just a CSI tech. He won't bother you, doing his own thing.</TEXT>
-                <TEXT>~y~You:~s~ What do you need from me?</TEXT>
-                <TEXT>~b~Officer:~s~ Hunt for clues. We don't really know what we're dealing with yet.</TEXT>
-                <TEXT>~b~Officer:~s~ Could be anything. Just find the evidence and let forensics figure it out.</TEXT>
-                <TEXT>~b~Officer:~s~ Take your time. Let's do this by the book.</TEXT>
+                <TEXT>~b~警官：~s~ 唉，人已经跑了。没有嫌疑人，只有一个凌乱的犯罪现场。</TEXT>
+                <TEXT>~y~警员：~s~ 我们里面有自己人吗？</TEXT>
+                <TEXT>~b~警官：~s~ 只有一个CSI技术员。他不会打扰你，做他自己的事。</TEXT>
+                <TEXT>~y~警员：~s~ 你需要我做什么？</TEXT>
+                <TEXT>~b~警官：~s~ 寻找线索。我们还不清楚到底面对的是什么。</TEXT>
+                <TEXT>~b~警官：~s~ 可能是任何情况。找到证据，让鉴证科去分析。</TEXT>
+                <TEXT>~b~警官：~s~ 慢慢来。我们按规程办事。</TEXT>
             </D_COP_3>
             <D_COP2_1>
-                <TEXT>~b~Officer:~s~ Whoever pulled this off knew what they were doing.</TEXT>
-                <TEXT>~b~Officer:~s~ No noise, no broken glass, no wasted time. In and out.</TEXT>
-                <TEXT>~y~You:~s~ Anyone come through this door?</TEXT>
-                <TEXT>~b~Officer:~s~ Not since I got here. But I guarantee you — they came through here on the way out.</TEXT>
-                <TEXT>~b~Officer:~s~ Clean exit. No panic. This person has done this before.</TEXT>
+                <TEXT>~b~警官：~s~ 干这事的人很清楚自己在做什么。</TEXT>
+                <TEXT>~b~警官：~s~ 没有声音，没有碎玻璃，不浪费时间。进出干净利落。</TEXT>
+                <TEXT>~y~警员：~s~ 有人从这个门经过吗？</TEXT>
+                <TEXT>~b~警官：~s~ 我到这儿之后没有。但我敢保证——他们出来时肯定经过了这里。</TEXT>
+                <TEXT>~b~警官：~s~ 干净的撤离。没有慌乱。这人以前干过这种事。</TEXT>
             </D_COP2_1>
             <D_COP2_2>
-                <TEXT>~b~Officer:~s~ I'm securing the side entrance. Exciting stuff.</TEXT>
-                <TEXT>~b~Officer:~s~ You see those security guys out front? Fifty bucks an hour.</TEXT>
-                <TEXT>~b~Officer:~s~ And the burglar still walked right in like he owned the place.</TEXT>
-                <TEXT>~y~You:~s~ Any idea how?</TEXT>
-                <TEXT>~b~Officer:~s~ Pure luck, if you ask me. Guy probably tripped over himself the whole way through.</TEXT>
-                <TEXT>~b~Officer:~s~ Ask the rent-a-cops. Oh wait — they don't know either.</TEXT>
+                <TEXT>~b~警官：~s~ 我在把守侧门。真是令人兴奋的工作。</TEXT>
+                <TEXT>~b~警官：~s~ 你看到前面那些保安了吗？一小时五十美元。</TEXT>
+                <TEXT>~b~警官：~s~ 结果窃贼还是大摇大摆地走进去了，跟逛自己家一样。</TEXT>
+                <TEXT>~y~警员：~s~ 知道是怎么做到的吗？</TEXT>
+                <TEXT>~b~警官：~s~ 要我说，纯属运气。那家伙可能全程都在跌跌撞撞。</TEXT>
+                <TEXT>~b~警官：~s~ 去问问那些雇佣保安吧。哦等等——他们也不知道。</TEXT>
             </D_COP2_2>
             <D_COP2_3>
-                <TEXT>~b~Officer:~s~ Hey. Nobody gets through this door. Those are my orders.</TEXT>
-                <TEXT>~b~Officer:~s~ Owner called it in himself. From his yacht. His second yacht.</TEXT>
-                <TEXT>~b~Officer:~s~ Security thinks it was a pro. CSI inside thinks it was a lucky amateur.</TEXT>
-                <TEXT>~y~You:~s~ What do you think?</TEXT>
-                <TEXT>~b~Officer:~s~ I think it's above my pay grade. Door duty, remember?</TEXT>
+                <TEXT>~b~警官：~s~ 嘿。谁也不能通过这扇门。这是我的命令。</TEXT>
+                <TEXT>~b~警官：~s~ 是业主自己报的警。从他的游艇上。他的第二艘游艇。</TEXT>
+                <TEXT>~b~警官：~s~ 保安认为是个老手。里面的CSI认为是个走运的业余选手。</TEXT>
+                <TEXT>~y~警员：~s~ 你怎么看？</TEXT>
+                <TEXT>~b~警官：~s~ 我觉得这超出了我的职责范围。记得吗，我在守门。</TEXT>
             </D_COP2_3>
             <D_CSI_1A>
-                <TEXT>~y~You:~s~ Found this near the side entrance. Looks relevant.</TEXT>
-                <TEXT>~o~CSI:~s~ Good eye. This is exactly the kind of thing I was hoping for.</TEXT>
-                <TEXT>~o~CSI:~s~ My colleague grabbed a few samples inside as well. Combined, this could give us a solid profile.</TEXT>
-                <TEXT>~o~CSI:~s~ I'll be in the van. Someone this careful doesn't make many mistakes — let's find them.</TEXT>
-                <TEXT>~y~You:~s~ Take your time.</TEXT>
-                <TEXT>~o~CSI:~s~ Precision takes time. I'll be thorough.</TEXT>
+                <TEXT>~y~警员：~s~ 在侧门附近找到了这个。看起来相关。</TEXT>
+                <TEXT>~o~CSI：~s~ 好眼力。这正是我希望能找到的东西。</TEXT>
+                <TEXT>~o~CSI：~s~ 我的同事在里面也采集了一些样本。结合起来，这能给我们提供一个可靠的轮廓。</TEXT>
+                <TEXT>~o~CSI：~s~ 我会在鉴证车里。像这么小心的人不会犯太多错——我们来找出来。</TEXT>
+                <TEXT>~y~警员：~s~ 慢慢来。</TEXT>
+                <TEXT>~o~CSI：~s~ 精确需要时间。我会很彻底的。</TEXT>
             </D_CSI_1A>
             <D_CSI_1B>
-                <TEXT>~o~CSI:~s~ Alright. We got a partial print and some fiber traces. Not much, but enough.</TEXT>
-                <TEXT>~o~CSI:~s~ Whoever this was, they were careful. But not careful enough.</TEXT>
-                <TEXT>~o~CSI:~s~ I sent everything to dispatch. They'll have a suspect description shortly.</TEXT>
-                <TEXT>~y~You:~s~ Good work.</TEXT>
-                <TEXT>~o~CSI:~s~ This person has done this before. The record will show it — I'm sure of it.</TEXT>
+                <TEXT>~o~CSI：~s~ 好了。我们拿到了一个局部指纹和一些纤维痕迹。不算多，但足够了。</TEXT>
+                <TEXT>~o~CSI：~s~ 不管是谁，他们很小心。但还不够小心。</TEXT>
+                <TEXT>~o~CSI：~s~ 我已经把所有东西发给调度台了。他们很快会给出嫌疑人描述。</TEXT>
+                <TEXT>~y~警员：~s~ 干得好。</TEXT>
+                <TEXT>~o~CSI：~s~ 这人以前干过。记录会证明的——我肯定。</TEXT>
             </D_CSI_1B>
             <D_CSI_2A>
-                <TEXT>~y~You:~s~ Here — found this inside.</TEXT>
-                <TEXT>~o~CSI:~s~ Hm. Security walked all over this place and you still found something — impressive.</TEXT>
-                <TEXT>~o~CSI:~s~ My colleague grabbed a few samples too. Amateur work leaves a lot behind, so we should have plenty.</TEXT>
-                <TEXT>~o~CSI:~s~ I'll be in the van. Shouldn't take long with this much to work with.</TEXT>
-                <TEXT>~y~You:~s~ Take your time.</TEXT>
-                <TEXT>~o~CSI:~s~ Oh, I will.</TEXT>
+                <TEXT>~y~警员：~s~ 给——这个是我在里面找到的。</TEXT>
+                <TEXT>~o~CSI：~s~ 嗯。保安把这里踩了个遍，你还是找到了东西——厉害。</TEXT>
+                <TEXT>~o~CSI：~s~ 我的同事也采集了一些样本。业余选手会留下很多东西，所以我们手里的应该够多。</TEXT>
+                <TEXT>~o~CSI：~s~ 我会在鉴证车里。有这么多材料可分析，应该用不了太久。</TEXT>
+                <TEXT>~y~警员：~s~ 慢慢来。</TEXT>
+                <TEXT>~o~CSI：~s~ 哦，我会的。</TEXT>
             </D_CSI_2A>
             <D_CSI_2B>
-                <TEXT>~o~CSI:~s~ Well. More than I expected, honestly — but that tracks.</TEXT>
-                <TEXT>~o~CSI:~s~ Prints, fibers, tool marks. This person left a trail a rookie could follow.</TEXT>
-                <TEXT>~o~CSI:~s~ Sent everything to dispatch already. They'll have a description for you soon.</TEXT>
-                <TEXT>~y~You:~s~ Thanks for the fast work.</TEXT>
-                <TEXT>~o~CSI:~s~ Fast? With this much evidence it basically analyzed itself.</TEXT>
+                <TEXT>~o~CSI：~s~ 嗯。老实说，比我想象的多——但这说得通。</TEXT>
+                <TEXT>~o~CSI：~s~ 指纹、纤维、工具痕迹。这人留下的痕迹，新手都能跟着走。</TEXT>
+                <TEXT>~o~CSI：~s~ 已经把全部东西发给调度台了。他们很快会给你一份描述。</TEXT>
+                <TEXT>~y~警员：~s~ 谢谢你的高效工作。</TEXT>
+                <TEXT>~o~CSI：~s~ 高效？有这么多证据，基本上它自己就分析完了。</TEXT>
             </D_CSI_2B>
             <D_CSI_3A>
-                <TEXT>~y~You:~s~ I found some evidence. Take a look at this.</TEXT>
-                <TEXT>~o~CSI:~s~ Interesting... parts of this look deliberate. Other parts look rushed.</TEXT>
-                <TEXT>~o~CSI:~s~ My colleague found some traces inside too. Maybe together it'll start making sense.</TEXT>
-                <TEXT>~o~CSI:~s~ I'll run everything in the van. Give me a few minutes.</TEXT>
-                <TEXT>~y~You:~s~ I'll be outside.</TEXT>
-                <TEXT>~o~CSI:~s~ Don't go too far. I might have questions.</TEXT>
+                <TEXT>~y~警员：~s~ 我找到了一些证据。你看看这个。</TEXT>
+                <TEXT>~o~CSI：~s~ 有意思……部分看起来是刻意为之。其他部分看起来很仓促。</TEXT>
+                <TEXT>~o~CSI：~s~ 我的同事在里面也找到了一些痕迹。也许放一起就能弄明白了。</TEXT>
+                <TEXT>~o~CSI：~s~ 我会在鉴证车里处理所有东西。给我几分钟。</TEXT>
+                <TEXT>~y~警员：~s~ 我在外面等。</TEXT>
+                <TEXT>~o~CSI：~s~ 别走太远。我可能会有问题要问你。</TEXT>
             </D_CSI_3A>
             <D_CSI_3B>
-                <TEXT>~o~CSI:~s~ Okay, so... it's a mixed picture.</TEXT>
-                <TEXT>~o~CSI:~s~ Some of this looks like someone who knew exactly what they were doing.</TEXT>
-                <TEXT>~o~CSI:~s~ Other parts? Pure chaos. I honestly can't give you a clean profile.</TEXT>
-                <TEXT>~y~You:~s~ So what do we tell dispatch?</TEXT>
-                <TEXT>~o~CSI:~s~ I sent them everything. Let them figure it out — that's above my pay grade.</TEXT>
-                <TEXT>~o~CSI:~s~ Good luck. You're going to need a little of it on this one.</TEXT>
+                <TEXT>~o~CSI：~s~ 好了，所以……情况很复杂。</TEXT>
+                <TEXT>~o~CSI：~s~ 有些部分看起来像是完全知道自己在做什么的人干的。</TEXT>
+                <TEXT>~o~CSI：~s~ 其他部分？纯粹的混乱。老实说，我给不出一个清晰的画像。</TEXT>
+                <TEXT>~y~警员：~s~ 那我们该跟调度台说什么？</TEXT>
+                <TEXT>~o~CSI：~s~ 我把所有东西都发给他们了。让他们去琢磨吧——这不归我管。</TEXT>
+                <TEXT>~o~CSI：~s~ 祝你好运。这个案子你需要点运气。</TEXT>
             </D_CSI_3B>
             <D_CSI2_1>
-                <TEXT>~o~CSI:~s~ Careful with that door frame — I just finished dusting it.</TEXT>
-                <TEXT>~y~You:~s~ Sorry. Found anything useful?</TEXT>
-                <TEXT>~o~CSI:~s~ Barely a trace. Gloves, almost certainly. Deliberate movement through the room.</TEXT>
-                <TEXT>~o~CSI:~s~ This person knew where the cameras were. They didn't stumble around.</TEXT>
-                <TEXT>~y~You:~s~ I'll check the other rooms.</TEXT>
-                <TEXT>~o~CSI:~s~ Do that. And log everything — even the smallest detail matters with someone this careful.</TEXT>
+                <TEXT>~o~CSI：~s~ 小心那个门框——我刚做完指纹采集。</TEXT>
+                <TEXT>~y~警员：~s~ 抱歉。找到什么有用的了吗？</TEXT>
+                <TEXT>~o~CSI：~s~ 几乎没有痕迹。戴了手套，几乎可以肯定。在房间里移动时很谨慎。</TEXT>
+                <TEXT>~o~CSI：~s~ 这人知道摄像头在哪。他们不是瞎撞的。</TEXT>
+                <TEXT>~y~警员：~s~ 我去检查其他房间。</TEXT>
+                <TEXT>~o~CSI：~s~ 去吧。把所有东西都记录下来——对于这么小心的人，即使是再小的细节也很重要。</TEXT>
             </D_CSI2_1>
             <D_CSI2_2>
-                <TEXT>~o~CSI:~s~ Look at these tool marks on the lock. Textbook amateur.</TEXT>
-                <TEXT>~y~You:~s~ So definitely not a professional?</TEXT>
-                <TEXT>~o~CSI:~s~ Not even close. Panicked, rushed, left traces in every room.</TEXT>
-                <TEXT>~o~CSI:~s~ Honestly I'm surprised they found what they were looking for at all.</TEXT>
-                <TEXT>~y~You:~s~ I'll check the hallway.</TEXT>
-                <TEXT>~o~CSI:~s~ Good. They dropped things on the way out — you'll find something for sure.</TEXT>
+                <TEXT>~o~CSI：~s~ 看锁上的这些工具痕迹。教科书式的业余水平。</TEXT>
+                <TEXT>~y~警员：~s~ 所以肯定不是专业人士？</TEXT>
+                <TEXT>~o~CSI：~s~ 差得远呢。慌乱，仓促，在每个房间都留下了痕迹。</TEXT>
+                <TEXT>~o~CSI：~s~ 说实话，我很惊讶他们竟然还能找到要找的东西。</TEXT>
+                <TEXT>~y~警员：~s~ 我去检查走廊。</TEXT>
+                <TEXT>~o~CSI：~s~ 好。他们出去时掉了东西——你肯定能找到点东西。</TEXT>
             </D_CSI2_2>
             <D_CSI2_3>
-                <TEXT>~o~CSI:~s~ Hey. Just another Tuesday in Los Santos.</TEXT>
-                <TEXT>~y~You:~s~ Did they leave much behind?</TEXT>
-                <TEXT>~o~CSI:~s~ That's the weird part — some things look rushed and sloppy, other things look deliberate.</TEXT>
-                <TEXT>~o~CSI:~s~ I can't figure this one out yet. Could go either way.</TEXT>
-                <TEXT>~y~You:~s~ I'll do a walkthrough and tag what I find.</TEXT>
-                <TEXT>~o~CSI:~s~ Good. Maybe what you find will help me make up my mind.</TEXT>
+                <TEXT>~o~CSI：~s~ 嘿。不过是洛圣都的又一个星期二罢了。</TEXT>
+                <TEXT>~y~警员：~s~ 他们留下了很多东西吗？</TEXT>
+                <TEXT>~o~CSI：~s~ 奇怪的地方就在这里——有些东西看起来仓促又马虎，另一些看起来是刻意为之。</TEXT>
+                <TEXT>~o~CSI：~s~ 我还没法搞清楚。两种可能都有。</TEXT>
+                <TEXT>~y~警员：~s~ 我会走一遍，标记我找到的东西。</TEXT>
+                <TEXT>~o~CSI：~s~ 好。也许你找到的东西能帮我下定决心。</TEXT>
             </D_CSI2_3>
             <D_SECURITY_1>
-                <TEXT>~y~You:~s~ You were first on scene?</TEXT>
-                <TEXT>~r~Security:~s~ That's right. Alarm came in at 2:47. I was here in under four minutes.</TEXT>
-                <TEXT>~r~Security:~s~ But they were already gone. Not a trace of them left outside.</TEXT>
-                <TEXT>~y~You:~s~ And nobody was caught.</TEXT>
-                <TEXT>~r~Security:~s~ Whoever it was knew this property. Avoided every blind spot, every camera angle.</TEXT>
-                <TEXT>~r~Security:~s~ I've been doing this for eleven years. This wasn't an amateur.</TEXT>
-                <TEXT>~y~You:~s~ Anything else stand out?</TEXT>
-                <TEXT>~r~Security:~s~ The east side door was unlocked from the inside when I arrived. Nobody could explain that.</TEXT>
+                <TEXT>~y~警员：~s~ 你是第一个到场的？</TEXT>
+                <TEXT>~r~保安：~s~ 没错。警报在2：47响起。我四分钟内就到了这里。</TEXT>
+                <TEXT>~r~保安：~s~ 但他们已经走了。外面一点痕迹都没留下。</TEXT>
+                <TEXT>~y~警员：~s~ 没人被抓住。</TEXT>
+                <TEXT>~r~保安：~s~ 不管是谁，都很熟悉这处房产。避开了每一个盲点，每一个摄像头角度。</TEXT>
+                <TEXT>~r~保安：~s~ 我干这行十一年了。这不是新手干的。</TEXT>
+                <TEXT>~y~警员：~s~ 还有其他异常吗？</TEXT>
+                <TEXT>~r~保安：~s~ 我到的时候，东边的门是从里面打开的。没人能解释这是怎么回事。</TEXT>
             </D_SECURITY_1>
             <D_SECURITY_2>
-                <TEXT>~y~You:~s~ Walk me through what happened tonight.</TEXT>
-                <TEXT>~r~Security:~s~ Alarm triggered, we responded, we secured the perimeter. System worked fine.</TEXT>
-                <TEXT>~y~You:~s~ But the burglar was already gone.</TEXT>
-                <TEXT>~r~Security:~s~ The owner chose the basic package. One guard, four cameras. That's what he paid for.</TEXT>
-                <TEXT>~r~Security:~s~ Look — this guy got lucky. Pure and simple.</TEXT>
-                <TEXT>~y~You:~s~ Did you see anything before the alarm went off?</TEXT>
-                <TEXT>~r~Security:~s~ Nothing out of the ordinary. He must have slipped in during my rounds.</TEXT>
-                <TEXT>~r~Security:~s~ ...There was a van down the street. Grey. But that's probably nothing.</TEXT>
-                <TEXT>~y~You:~s~ Probably nothing.</TEXT>
-                <TEXT>~r~Security:~s~ Don't look at me like that, officer.</TEXT>
+                <TEXT>~y~警员：~s~ 跟我说说今晚发生了什么。</TEXT>
+                <TEXT>~r~保安：~s~ 警报触发，我们响应，我们封锁了周边。系统运行正常。</TEXT>
+                <TEXT>~y~警员：~s~ 但窃贼已经跑了。</TEXT>
+                <TEXT>~r~保安：~s~ 业主选的是基础套餐。一个保安，四个摄像头。他付的就是这个价。</TEXT>
+                <TEXT>~r~保安：~s~ 听着——这家伙走了运。纯粹是运气。</TEXT>
+                <TEXT>~y~警员：~s~ 警报响起前你看到什么了吗？</TEXT>
+                <TEXT>~r~保安：~s~ 没什么异常。他肯定是在我巡逻时溜进去的。</TEXT>
+                <TEXT>~r~保安：~s~ ……街对面有辆面包车。灰色的。但那大概没什么。</TEXT>
+                <TEXT>~y~警员：~s~ 大概没什么。</TEXT>
+                <TEXT>~r~保安：~s~ 别那样看着我，警官。</TEXT>
             </D_SECURITY_2>
             <D_SECURITY_3>
-                <TEXT>~y~You:~s~ Hey — you were first on scene?</TEXT>
-                <TEXT>~r~Security:~s~ Yes sir. Alarm came in at 2:47, I was here by 2:51.</TEXT>
-                <TEXT>~r~Security:~s~ Side door was already open when I arrived. Not forced — just open.</TEXT>
-                <TEXT>~y~You:~s~ What's your read on this?</TEXT>
-                <TEXT>~r~Security:~s~ Honestly? I don't know. Something about this doesn't add up.</TEXT>
-                <TEXT>~r~Security:~s~ Felt professional from the outside. But inside looks like a mess.</TEXT>
-                <TEXT>~r~Security:~s~ I've seen both. This one... I can't tell you which it is.</TEXT>
+                <TEXT>~y~警员：~s~ 嘿——你是第一个到场的？</TEXT>
+                <TEXT>~r~保安：~s~ 是的，警官。警报在2：47响起，我2：51到的这里。</TEXT>
+                <TEXT>~r~保安：~s~ 我到的时候侧门已经开了。不是被撬开的——就是开着的。</TEXT>
+                <TEXT>~y~警员：~s~ 你怎么看这事？</TEXT>
+                <TEXT>~r~保安：~s~ 说实话？我不知道。这事有些地方对不上。</TEXT>
+                <TEXT>~r~保安：~s~ 从外面看感觉很专业。但里面看起来一团糟。</TEXT>
+                <TEXT>~r~保安：~s~ 两种我都见过。这个……我说不准是哪种。</TEXT>
             </D_SECURITY_3>
         </DIALOGUES>
         <FIRSTOFFICERTALK>
-            <TEXT>Search the mansion for evidence.</TEXT>
-            <TEXT>~g~Hint:~s~ We have received tips where the evidence is located.</TEXT>
+            <TEXT>搜索豪宅寻找证据。</TEXT>
+            <TEXT>~g~提示：~s~ 我们收到了一些关于证据位置的线索。</TEXT>
         </FIRSTOFFICERTALK>
         <HASCSICHECKEDEVIDENCE>
-            <TEXT>~r~Outstanding Warrant:~s~</TEXT>
-            <TEXT>Suspect: {BurglarName}</TEXT>
-            <TEXT>Last seen in a ~y~{BurglarCarModel}~s~</TEXT>
+            <TEXT>~r~未执行的逮捕令：~s~</TEXT>
+            <TEXT>嫌疑人：{BurglarName}</TEXT>
+            <TEXT>最后出现在一辆 ~y~{BurglarCarModel}~s~ 中</TEXT>
         </HASCSICHECKEDEVIDENCE>
     </THEINVESTIGATE>
 </CALLOUT>
