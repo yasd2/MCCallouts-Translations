@@ -1,37 +1,42 @@
 <TropicalJustice>
 
-    <CalloutMessage>Operation Tropical Justice</CalloutMessage>
-    <CalloutAdvisory>~s~A ~r~dangerous cartel boss~s~ has barricaded himself in a fortified compound on ~o~Cayo Perico~s~</CalloutAdvisory>
-    <Task>Drive to the ~g~airport.</Task>
+  <CalloutMessage>Operazione Giustizia Tropicale</CalloutMessage>
+<CalloutAdvisory>~s~Un ~r~pericoloso boss del cartello~s~ si è barricato in un complesso fortificato su ~o~Cayo Perico~s~</CalloutAdvisory>
+<Task>Raggiungi il ~g~l’aeroporto.</Task>
+
 
     <Detective>
-        <Help>Talk to the ~g~Detective~s~ with {Y}</Help>
-        <Dialogue>Good day! We have a major mission ahead — it's called ~g~Operation Tropical Justice!</Dialogue>
-        <Dialogue>You'll be flying to ~g~Cayo Perico~s~, where the ~r~Mafia Boss~s~ is hiding.</Dialogue>
-        <Dialogue>After landing, you'll need to drive for a while until you reach his ~y~property~s~.</Dialogue>
-        <Dialogue>Search for him carefully, but stay alert — there are ~r~armed guards~s~!</Dialogue>
-        <Dialogue>Arrest the ~r~boss~s~, then fly back to ~o~Los Santos~s~ and put him behind bars.</Dialogue>
-        <Dialogue>I recommend wearing ~b~armor~s~ and bringing a reliable ~p~rifle.~s~ Good luck!</Dialogue>
-        <Help>Get into the ~o~plane~s~ or the ~o~helicopter~s~ – the choice is yours!</Help>
+ <Help>Parla con il ~g~Detective~s~ con {Y}</Help>
+<Dialogue>Buona giornata! Abbiamo una missione importante davanti a noi — si chiama ~g~Operazione Giustizia Tropicale!</Dialogue>
+<Dialogue>Vola verso ~g~Cayo Perico~s~, dove si nasconde il ~r~Boss della Mafia~s~.</Dialogue>
+<Dialogue>Dopo l’atterraggio, dovrai guidare per un po’ finché non raggiungerai la sua ~y~proprietà~s~.</Dialogue>
+<Dialogue>Cercalo con attenzione, ma resta all’erta — ci sono ~r~guardie armate~s~!</Dialogue>
+<Dialogue>Arresta il ~r~boss~s~, poi torna a ~o~Los Santos~s~ e mettilo dietro le sbarre.</Dialogue>
+<Dialogue>Ti consiglio di indossare ~b~armatura~s~ e portare un ~p~fucile~s~ affidabile. Buona fortuna!</Dialogue>
+<Help>Sali sull’~o~aereo~s~ o sull’~o~elicottero~s~ — la scelta è tua!</Help>
+
     </Detective>
 
     <Help>
-        <Text>Fly to the ~o~destination~s~ marked on your gps. You can ~y~skip the flight~s~ with {J}</Text>
-        <Text>Get in the ~HC_10~unmarked police vehicle.</Text>
-        <Text>Drive to the ~y~property.</Text>
-        <Text>Search for the ~r~mafia boss~s~! Be careful, there are ~r~armed guards!</Text>
-        <Text>You found the ~r~boss~s~, arrest him!</Text>
-        <Text>Take the ~r~boss~s~ to your vehicle and drive back to the airport.</Text>
-        <Text>You can take the suspect to jail or end the callout.</Text>
-        <Text>Press {End} to ~r~end the operation.</Text>
-        <Text>Operation Tropical Justice has ended.</Text>
+        <Text>Vola verso la ~o~destinazione~s~ segnata sul tuo GPS. Puoi ~y~saltare il volo~s~ con {J}</Text>
+<Text>Sali sul ~HC_10~veicolo di polizia non identificato.</Text>
+<Text>Guida fino alla ~y~proprietà.</Text>
+<Text>Cerca il ~r~boss della mafia~s~! Fai attenzione, ci sono ~r~guardie armate!</Text>
+<Text>Hai trovato il ~r~boss~s~, arrestalo!</Text>
+<Text>Porta il ~r~boss~s~ al tuo veicolo e torna all’aeroporto.</Text>
+<Text>Puoi portare il sospetto in prigione oppure terminare la chiamata.</Text>
+<Text>Premi {End} per ~r~terminare l’operazione.</Text>
+<Text>L’Operazione Giustizia Tropicale è terminata.</Text>
+
     </Help>
 
     <Mission>
-        <Text>~g~Mission passed</Text>
-        <Text>~r~Mission failed</Text>
+ <Text>~g~Missione completata</Text>
+<Text>~r~Missione fallita</Text>
+
     </Mission>
 
-    <Warper>Press {J} to enter/exit the ~y~property</Warper>
+   <Warper>Premi {J} per entrare/uscire dalla ~y~proprietà</Warper>
+
 
 </TropicalJustice>
