@@ -1,13 +1,16 @@
 <SolveMurder3>
 
+
     <General>
-        <Text>~p~Detektif~s~ dibutuhkan untuk kasus pembunuhan</Text>
-        <Text>Petugas tewas setelah penghentian lalu lintas</Text>
+        <Text>~b~Detektif~s~ dibutuhkan untuk kasus pembunuhan</Text>
+        <Text>Petugas tewas setelah menghentikan sebuah kendaraan</Text>
     </General>
 
+
     <Approach>
-        <Text>Ngobrol sama ~HC_43~detektif~s~ buat update situasi TKP.</Text>
+        <Text>Bicaralah dengan ~HC_43~Detektif~s~ untuk mendapatkan informasi terbaru tentang TKP.</Text>
     </Approach>
+
 
     <Characters>
         <Text>~HC_43~Detektif~s~: </Text>
@@ -17,109 +20,155 @@
         <Text>~r~Tersangka~s~: </Text>
     </Characters>
 
+
     <TalkToDetective>
-        <Dialogue>Halo ~HC_43~Detektif~s~! TKP-nya gede banget nih! Ada apa sih?</Dialogue>
-        <Dialogue>Halo, iya bener! Sayangnya salah satu ~b~petugas~s~ kami ~r~dibunuh~s~ pas lagi hentikan kendaraan...</Dialogue>
-        <Dialogue>Saat ini kami belum tahu pelakunya siapa, makanya panggil kamu yang udah berpengalaman.</Dialogue>
-        <Dialogue>Aku denger kasus di ~g~Pom Bensin Mount Chiliad~s~ kamu pecahin dengan baik!</Dialogue>
-        <Dialogue>Makasih Pak, kita lihat apa yang bisa aku temuin di kasus ini.</Dialogue>
-        <Dialogue>Oh maaf, iya silakan, tolong selidiki ~y~barang bukti~s~ di TKP, apa aja bisa bantu.</Dialogue>
-        <Dialogue>Kamu bisa tekan ~y~{0}~s~ buat ~y~ambil~s~ ~y~bukti~s~ kalau lagi berdiri di deketnya. ~g~Semangat~s~!</Dialogue>
-        <Dialogue>Pergi ke area tertutup dan cari bukti, tekan ~y~{1}~s~ buat ambil ~y~bukti~s~.</Dialogue>
-        <Dialogue>Cek lagi TKP-nya, kamu masih ~o~kurang beberapa~s~!</Dialogue>
+        <Dialogue>Halo ~HC_43~Detektif~s~! Besar sekali TKP kita kali ini! Apa yang terjadi?</Dialogue>
+        <Dialogue>Halo, ya, benar sekali! Sayangnya, salah satu ~b~petugas~s~ kita telah ~r~dibunuh~s~ saat melakukan pemeriksaan lalu lintas...</Dialogue>
+        <Dialogue>Saat ini kami belum tahu siapa pelakunya. Itulah sebabnya kami memanggilmu, karena kamu sudah cukup berpengalaman.</Dialogue>
+        <Dialogue>Aku pernah mendengar tentang kasus di ~g~Mount Chiliad~s~ dekat pom bensin. Kamu berhasil menyelesaikannya dengan baik!</Dialogue>
+        <Dialogue>Terima kasih, Pak. Mari kita lihat apa yang bisa kutemukan dalam kasus ini.</Dialogue>
+        <Dialogue>Oh, maaf. Ya, tentu saja. Silakan cari ~y~barang bukti~s~ di TKP. Apa pun bisa membantu.</Dialogue>
+        <Dialogue>Kamu bisa menekan ~y~{0}~s~ untuk ~y~mengambil~s~ ~y~barang bukti~s~ saat berdiri di dekatnya. ~g~Semoga berhasil~s~!</Dialogue>
+        <Dialogue>Pergilah ke area yang ditutup dan cari barang bukti. Tekan ~y~{1}~s~ untuk mengambil ~y~barang bukti~s~.</Dialogue>
+        <Dialogue>Periksa TKP sekali lagi. Masih ada beberapa barang bukti yang ~o~belum kamu temukan~s~!</Dialogue>
     </TalkToDetective>
 
+
     <SearchForEvidence>
-        <Dialogue>Nih sedikit ~HC_211~bantuan~s~.</Dialogue>
-        <Dialogue>~r~Nggak ada bukti~s~ di deket sini.</Dialogue>
+        <Dialogue>Ini sedikit ~HC_211~bantuan~s~.</Dialogue>
+        <Dialogue>~r~Tidak ada barang bukti~s~ di sekitar sini.</Dialogue>
 
-        <Dialogue>Ada ~o~senapan~s~, ini pasti punya tersangka atau petugas.</Dialogue>
-        <Dialogue>Ini pasti ~o~dompet~s~ tersangka...</Dialogue>
-        <Dialogue>Ada ~o~HP~s~, sayangnya nggak tahu password-nya.</Dialogue>
-        <Dialogue>Ada ~o~bir~s~? Kayaknya dibuang dari jendela.</Dialogue>
+        <Dialogue>Sebuah ~o~senapan~s~, ini pasti milik tersangka atau petugas.</Dialogue>
+        <Dialogue>Ini pasti ~o~dompet~s~ milik tersangka...</Dialogue>
+        <Dialogue>Sebuah ~o~ponsel~s~, andai saja aku tahu kata sandinya.</Dialogue>
+        <Dialogue>Sebuah ~o~bir~s~? Seseorang pasti membuangnya dari jendela.</Dialogue>
 
-        <Dialogue>Ada ~o~pisau~s~... ada darah di sini.</Dialogue>
-        <Dialogue>Ada ~o~KTP~s~, lebih baik kasih ke laboran.</Dialogue>
-        <Dialogue>Ada ~o~flashdisk~s~, penasaran isinya apa.</Dialogue>
-        <Dialogue>Ada ~o~tas~s~... jangan tambah sidik jari lagi di sini.</Dialogue>
+        <Dialogue>Sebuah ~o~pisau~s~... ada darah di atasnya.</Dialogue>
+        <Dialogue>Sebuah ~o~kartu identitas~s~, sebaiknya kuberikan kepada Laboran.</Dialogue>
+        <Dialogue>Sebuah ~o~USB flash drive~s~, aku penasaran apa isinya.</Dialogue>
+        <Dialogue>Sebuah ~o~tas~s~... sebaiknya jangan menambahkan sidik jari lagi padanya.</Dialogue>
 
-        <Dialogue>Ada ~o~pistol~s~... kelihatannya bukan punya polisi.</Dialogue>
-        <Dialogue>Ada ~o~plat nomor~s~... mungkin punya tersangka?</Dialogue>
-        <Dialogue>Ada ~o~sepatu~s~, bukan sepatu dinas polisi.</Dialogue>
-        <Dialogue>Ada ~o~whiskey~s~... pengen nyicip satu shot nih :p</Dialogue>
+        <Dialogue>Sebuah ~o~pistol~s~... sepertinya bukan milik polisi.</Dialogue>
+        <Dialogue>Sebuah ~o~pelat nomor~s~... mungkin ini milik tersangka?</Dialogue>
+        <Dialogue>Sebuah ~o~sepatu~s~, bukan sepatu yang digunakan oleh kepolisian.</Dialogue>
+        <Dialogue>Sebuah ~o~wiski~s~... andai saja aku bisa menyesapnya :p</Dialogue>
 
-        <Dialogue>Ngobrol sama ~HC_43~detektif~s~ soal ~g~bukti yang udah ketemu~s~.</Dialogue>
+        <Dialogue>Bicaralah dengan ~HC_43~Detektif~s~ tentang ~g~barang bukti yang ditemukan~s~.</Dialogue>
     </SearchForEvidence>
 
+
     <AgainTalkToDetective>
-        <Dialogue>Hai, udah ada info baru?</Dialogue>
-        <Dialogue>Iya! ~o~{4}~s~ ini bawa kita ke arah yang benar!</Dialogue>
-        <Dialogue>Bagus! Selain itu ada ~g~saksi~s~ di sana, semoga dia bisa kasih detail lebih lanjut.</Dialogue>
-        <Dialogue>Pergi ke ~g~saksi~s~ dan ngobrol pake ~y~{0}~s~</Dialogue>
+        <Dialogue>Hei, aku menemukan beberapa barang bukti menarik yang bisa membantu kita.</Dialogue>
+        <Dialogue>Baiklah, beri tahu aku!</Dialogue>
+        <Dialogue>Aku menemukan {0}.</Dialogue>
+        <Dialogue>sebuah senapan, dompet, ponsel, dan bir</Dialogue>
+        <Dialogue>sebuah pisau, kartu identitas, USB flash drive, dan tas</Dialogue>
+        <Dialogue>sebuah pistol, pelat nomor, sepatu, dan sebotol wiski</Dialogue>
+        <Dialogue>Aku cukup yakin ini adalah senjata pembunuhannya.</Dialogue>
+        <Dialogue>Selain itu, kita seharusnya bisa mendapatkan informasi tentang tersangkanya.</Dialogue>
+        <Dialogue>Tentu! Pergilah ke ~p~Laboran~s~. Dia akan menganalisis barang bukti dan mencari tahu lebih banyak!</Dialogue>
+        <Dialogue>Gunakan ~y~{1}~s~ untuk berbicara dengan ~p~Laboran~s~ tentang ~y~barang bukti~s~.</Dialogue>
     </AgainTalkToDetective>
+
+
+    <TalkToLaborant>
+        <Dialogue>Halo, Pak. Terima kasih sudah datang. Aku menemukan banyak barang bukti. Bisakah Anda memeriksanya?</Dialogue>
+        <Dialogue>Halo juga. Tentu saja, itu memang pekerjaanku c; Silakan serahkan barang buktinya.</Dialogue>
+        <Dialogue>Terima kasih, akan segera kuperiksa.</Dialogue>
+        <Dialogue>Tekan ~y~{3}~s~ sekali lagi untuk berbicara.</Dialogue>
+        <Dialogue>Baiklah, aku sudah memeriksa barang buktinya.</Dialogue>
+
+        <Dialogue>Pemilik ~o~{3}~s~ adalah ~o~{4}~s~!</Dialogue>
+        <Dialogue>Di dalam ~o~{3}~s~, aku menemukan SIM milik ~o~{4}~s~.</Dialogue>
+        <Dialogue>Pada ~o~{3}~s~, aku menemukan nama pemiliknya: ~o~{4}~s~!</Dialogue>
+        <Dialogue>~o~{3}~s~ hampir tidak terbaca, tetapi namanya adalah ~o~{4}~s~.</Dialogue>
+        <Dialogue>Di dalam ~o~{3}~s~, aku menemukan berkas milik ~o~{4}~s~.</Dialogue>
+        <Dialogue>Nomor seri pada ~o~{3}~s~ mengarah kepada ~o~{4}~s~.</Dialogue>
+        <Dialogue>~o~{3}~s~ ternyata milik ~o~{4}~s~.</Dialogue>
+
+        <Dialogue>Sepertinya ini tersangka kita!</Dialogue>
+        <Dialogue>Ini bisa jadi tersangka kita!</Dialogue>
+
+        <Dialogue>Detektif ingin berbicara denganmu lagi. Silakan temui dia kembali.</Dialogue>
+        <Dialogue>Bicaralah dengan ~HC_43~Detektif~s~ sekali lagi.</Dialogue>
+    </TalkToLaborant>
+
+
+    <TalkToDetectiveAnalyzedEvidence>
+        <Dialogue>Hei, apakah kita punya informasi baru?</Dialogue>
+        <Dialogue>Ya! ~o~{4}~s~ memberi kita petunjuk ke arah yang benar!</Dialogue>
+        <Dialogue>Sempurna! Selain itu, ada seorang ~g~saksi~s~ di sana. Semoga dia bisa memberikan informasi lebih lanjut.</Dialogue>
+        <Dialogue>Pergilah ke ~g~saksi~s~ dan berbicaralah dengannya menggunakan ~y~{0}~s~</Dialogue>
+    </TalkToDetectiveAnalyzedEvidence>
+
 
     <TalkToWitness>
 
         <Vehicle>
-            <Dialogue>Halo Bu, saya ~y~detektif~s~ di kasus ini, kamu lihat apa tadi?</Dialogue>
-            <Dialogue>Halo ~y~Detektif~s~, nama saya {5} dan iya, aku punya info.</Dialogue>
-            <Dialogue>Awalnya aku mau belanja di supermarket sana.</Dialogue>
-            <Dialogue>Tentu aku notice penghentian lalu lintas dengan lampu biru kedip-kedip, tiba-tiba ada mobil kabur buru-buru.</Dialogue>
-            <Dialogue>Aku nggak lihat supirnya atau plat nomornya, tapi modelnya ~o~{0}~s~.</Dialogue>
-            <Dialogue>Keren, makasih infonya, kita lihat apa dispatch bisa temuin.</Dialogue>
+            <Dialogue>Halo, Bu. Saya ~y~Detektif~s~ yang menangani kasus ini. Apakah Anda melihat sesuatu?</Dialogue>
+            <Dialogue>Halo ~y~Detektif~s~, nama saya {5} dan ya, saya punya beberapa informasi.</Dialogue>
+            <Dialogue>Awalnya saya ingin pergi berbelanja di supermarket yang ada di sana.</Dialogue>
+            <Dialogue>Tentu saja saya melihat pemeriksaan lalu lintas dengan lampu biru yang berkedip-kedip. Tiba-tiba, saya melihat sebuah kendaraan melaju pergi dengan tergesa-gesa.</Dialogue>
+            <Dialogue>Saya tidak bisa melihat pengemudinya maupun pelat nomornya, tetapi model kendaraannya adalah ~o~{0}~s~.</Dialogue>
+            <Dialogue>Bagus sekali, terima kasih atas informasinya. Mari kita lihat apa yang bisa ditemukan oleh pusat komando.</Dialogue>
         </Vehicle>
 
         <House>
-            <Dialogue>Halo Bu, saya ~y~detektif~s~ di kasus ini, kamu lihat apa tadi?</Dialogue>
-            <Dialogue>Halo ~y~Detektif~s~, nama saya {5} dan iya, aku punya info.</Dialogue>
-            <Dialogue>Awalnya aku mau belanja di supermarket sana, aku warga lokal.</Dialogue>
-            <Dialogue>Tentu aku notice penghentian lalu lintas dengan lampu biru kedip-kedip, tiba-tiba ada orang lari kabur.</Dialogue>
-            <Dialogue>Aku rasa aku kenal orangnya, tersangkanya pasti ~o~{4}~s~.</Dialogue>
-            <Dialogue>Keren, makasih infonya, kita lihat apa dispatch bisa temuin.</Dialogue>
+            <Dialogue>Halo, Bu. Saya ~y~Detektif~s~ yang menangani kasus ini. Apakah Anda melihat sesuatu?</Dialogue>
+            <Dialogue>Halo ~y~Detektif~s~, nama saya {5} dan ya, saya punya beberapa informasi.</Dialogue>
+            <Dialogue>Awalnya saya ingin pergi berbelanja di supermarket yang ada di sana. Saya memang warga setempat.</Dialogue>
+            <Dialogue>Tentu saja saya melihat pemeriksaan lalu lintas dengan lampu biru yang berkedip-kedip. Tiba-tiba, saya melihat seseorang melarikan diri.</Dialogue>
+            <Dialogue>Sepertinya saya mengenali orang itu. Tersangkanya pasti ~o~{4}~s~.</Dialogue>
+            <Dialogue>Bagus sekali, terima kasih atas informasinya. Mari kita lihat apa yang bisa ditemukan oleh pusat komando.</Dialogue>
         </House>
-        
+
     </TalkToWitness>
+
 
     <SearchForSuspect>
 
         <Vehicle>
-            <Dialogue>Dispatch, bisa cek kamera lalu lintas buat kendaraan tersangka pembunuhan, modelnya ~o~{0}~s~.</Dialogue>
-            <Dialogue>Lagi dicek...</Dialogue>
-            <Dialogue>Ada hit, ditandain di GPS kamu</Dialogue>
-            
-            <Dialogue>~r~ALPR Hit Baru~s~ di ~y~Kendaraan {1}!~s~</Dialogue>
+            <Dialogue>Pusat komando, bisakah kalian memeriksa kamera lalu lintas untuk mencari kendaraan tersangka pembunuhan? Modelnya ~o~{0}~s~.</Dialogue>
+            <Dialogue>Sedang memeriksa...</Dialogue>
+            <Dialogue>Kami menemukan kecocokan pada sebuah kendaraan. Lokasinya sudah ditandai di GPS-mu.</Dialogue>
+
+            <Dialogue>~r~Deteksi ALPR baru~s~ pada ~y~Kendaraan {1}!~s~</Dialogue>
         </Vehicle>
 
         <House>
-            <Dialogue>Dispatch, bisa set rute ke rumah tersangka?</Dialogue>
-            <Dialogue>Lagi dicek...</Dialogue>
-            <Dialogue>Rumahnya ketemu, ditandain di GPS</Dialogue>
+            <Dialogue>Pusat komando, bisakah kalian mengatur rute menuju rumah tersangka?</Dialogue>
+            <Dialogue>Sedang memeriksa...</Dialogue>
+            <Dialogue>Rumahnya sudah ditemukan dan ditandai di GPS-mu.</Dialogue>
         </House>
 
     </SearchForSuspect>
 
+
     <InPursuit>
-        <Dialogue>Oh sial, polisi!</Dialogue>
+        <Dialogue>Sial, polisi!</Dialogue>
     </InPursuit>
 
+
     <QuestioningSuspect>
-        <Dialogue>Begitu siap, ~r~konfrontasi tersangka~s~ soal aksinya, pake ~y~{0}~s~ buat ngobrol.</Dialogue>
-        <Dialogue>Demi hukum, kamu ditangkap karena ~r~pembunuhan~s~ ~b~petugas polisi~s~!</Dialogue>
-        <Dialogue>Aku baca hak Miranda kamu... *baca hak Miranda*</Dialogue>
-        <Dialogue>Kenapa kamu kabur?</Dialogue>
-        <Dialogue>Pak, aku bener-bener minta maaf atas apa yang aku lakuin, aku salah besar.</Dialogue>
-        <Dialogue>Aku kabur karena takut, itu aja.</Dialogue>
-        <Dialogue>Kamu bunuh petugas polisi!</Dialogue>
-        <Dialogue>Apa? Dia mati? Aku cuma... cuma nggak mau masuk bui, tapi aku nggak mau bunuh dia...</Dialogue>
-        <Dialogue>Kamu tembak ke arahnya...</Dialogue>
-        <Dialogue>Aku cuma mau bikin dia takut biar bisa kabur dan bebas.</Dialogue>
-        <Dialogue>Kamu bakal dibooking di penjara dan mungkin lama nggak keluar...</Dialogue>
+        <Dialogue>Jika kamu sudah siap, ~r~konfrontasi tersangka~s~ tentang tindakannya. Gunakan ~y~{0}~s~ untuk berbicara.</Dialogue>
+        <Dialogue>Atas nama hukum, kamu ditangkap atas ~r~pembunuhan~s~ seorang ~b~petugas polisi~s~!</Dialogue>
+        <Dialogue>Aku akan membacakan hak Miranda kepadamu... *membacakan hak Miranda*</Dialogue>
+        <Dialogue>Mengapa kamu melarikan diri?</Dialogue>
+        <Dialogue>Pak, saya benar-benar minta maaf atas perbuatan saya. Saya telah melakukan kesalahan besar.</Dialogue>
+        <Dialogue>Saya melarikan diri karena takut, itu saja.</Dialogue>
+        <Dialogue>Kamu telah membunuh seorang petugas polisi!</Dialogue>
+        <Dialogue>Apa? Dia meninggal? Aku hanya... Aku hanya tidak mau masuk penjara, tapi aku tidak bermaksud membunuhnya...</Dialogue>
+        <Dialogue>Kamu menembaknya...</Dialogue>
+        <Dialogue>Aku hanya ingin menakutinya agar bisa melarikan diri dan bebas.</Dialogue>
+        <Dialogue>Kamu akan dipenjara dan kemungkinan besar tidak akan bebas dalam waktu dekat...</Dialogue>
         <Dialogue>Bawa ~r~tersangka~s~ ke ~o~penjara~s~.</Dialogue>
     </QuestioningSuspect>
 
+
     <End>
-        <Text>Tekan ~y~End~s~ kapan aja buat akhiri panggilan.</Text>
-        <Text>Kami ~g~Code 4.~s~</Text>
+        <Text>Tekan ~y~End~s~ kapan saja untuk mengakhiri panggilan.</Text>
+        <Text>Kita ~g~Code 4.~s~</Text>
     </End>
+
 
 </SolveMurder3>

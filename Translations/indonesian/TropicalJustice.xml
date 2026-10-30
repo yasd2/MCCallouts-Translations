@@ -1,29 +1,30 @@
-<CALLOUT>
-    <CALLOUTMESSAGE>~b~~h~[SWAT]~h~ Operasi Tropical Justice~s~</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>~s~Bos kartel ~r~berbahaya~s~ barikade diri di kompleks benteng di ~o~Cayo Perico~s~</CalloutAdvisory>
-    <Task>Gas ke ~g~bandara~s~.</Task>
+<TropicalJustice>
+
+    <CalloutMessage>Operasi Tropical Justice</CalloutMessage>
+    <CalloutAdvisory>~s~Seorang ~r~bos kartel berbahaya~s~ telah membarikade diri di sebuah kompleks berbenteng di ~o~Cayo Perico~s~</CalloutAdvisory>
+    <Task>Pergi ke ~g~bandara.</Task>
 
     <Detective>
-        <Help>Ngobrol sama ~g~detektif~s~ pake {Y}</Help>
-        <Dialogue>Selamat siang! Kita punya misi besar nih — namanya ~g~Operasi Tropical Justice!</Dialogue>
-        <Dialogue>Kamu bakal terbang ke ~g~Cayo Perico~s~, tempat ~r~bos mafia~s~ lagi sembunyi.</Dialogue>
-        <Dialogue>Setelah mendarat, nyetir dulu agak jauh sampe ke ~y~kompleksnya~s~.</Dialogue>
-        <Dialogue>Cari dia dengan hati-hati, tapi tetap waspada — banyak ~r~penjaga bersenjata~s~!</Dialogue>
-        <Dialogue>Tangkap ~r~bosnya~s~, lalu terbang balik ke ~o~Los Santos~s~ dan masukin dia ke bui.</Dialogue>
-        <Dialogue>Aku saranin pakai ~b~rompi anti peluru~s~ dan bawa ~p~senapan~s~ yang reliable. Semangat!</Dialogue>
-        <Help>Masuk ke ~o~pesawat~s~ atau ~o~helikopter~s~ — terserah kamu!</Help>
+        <Help>Bicaralah dengan ~g~Detektif~s~ menggunakan {Y}</Help>
+        <Dialogue>Selamat siang! Kita punya misi besar — namanya ~g~Operasi Tropical Justice!</Dialogue>
+        <Dialogue>Kamu akan terbang ke ~g~Cayo Perico~s~, tempat ~r~Bos Mafia~s~ bersembunyi.</Dialogue>
+        <Dialogue>Setelah mendarat, kamu harus berkendara cukup jauh sampai mencapai ~y~propertinya~s~.</Dialogue>
+        <Dialogue>Carilah dia dengan saksama, tetapi tetap waspada — ada ~r~penjaga bersenjata~s~!</Dialogue>
+        <Dialogue>Tangkap ~r~bosnya~s~, lalu terbang kembali ke ~o~Los Santos~s~ dan masukkan dia ke penjara.</Dialogue>
+        <Dialogue>Saya sarankan untuk memakai ~b~rompi pelindung~s~ dan membawa ~p~senapan~s~ yang andal. Semoga berhasil!</Dialogue>
+        <Help>Masuklah ke ~o~pesawat~s~ atau ~o~helikopter~s~ — pilihan ada di tanganmu!</Help>
     </Detective>
 
     <Help>
-        <Text>Terbang ke ~o~tujuan~s~ yang ditandain di GPS. Bisa ~y~skip penerbangan~s~ pake {J}</Text>
-        <Text>Masuk ke ~HC_10~kendaraan polisi tanpa tanda~s~.</Text>
-        <Text>Nyetir ke ~y~kompleks~s~.</Text>
+        <Text>Terbang ke ~o~tujuan~s~ yang ditandai di GPS-mu. Kamu bisa ~y~melewati penerbangan~s~ dengan {J}</Text>
+        <Text>Masuklah ke ~HC_10~kendaraan polisi tanpa tanda pengenal.</Text>
+        <Text>Berkendaralah ke ~y~properti tersebut.</Text>
         <Text>Cari ~r~bos mafia~s~! Hati-hati, ada ~r~penjaga bersenjata~s~!</Text>
-        <Text>Kamu nemuin ~r~bosnya~s~, tangkap dia!</Text>
-        <Text>Bawa ~r~bosnya~s~ ke kendaraanmu dan balik ke bandara.</Text>
-        <Text>Kamu bisa bawa tersangka ke penjara atau akhiri panggilan.</Text>
-        <Text>Tekan {End} buat ~r~akhiri operasi~s~.</Text>
-        <Text>Operasi Tropical Justice selesai.</Text>
+        <Text>Kamu telah menemukan ~r~bosnya~s~, tangkap dia!</Text>
+        <Text>Bawa ~r~bosnya~s~ ke kendaraanmu dan berkendaralah kembali ke bandara.</Text>
+        <Text>Kamu bisa membawa tersangka ke penjara atau mengakhiri panggilan.</Text>
+        <Text>Tekan {End} untuk ~r~mengakhiri operasi~s~.</Text>
+        <Text>Operasi Tropical Justice telah berakhir.</Text>
     </Help>
 
     <Mission>
@@ -31,6 +32,6 @@
         <Text>~r~Misi gagal</Text>
     </Mission>
 
-    <Warper>Tekan {J} buat masuk/keluar ~y~kompleks~s~</Warper>
+    <Warper>Tekan {J} untuk masuk/keluar dari ~y~properti</Warper>
 
 </TropicalJustice>
