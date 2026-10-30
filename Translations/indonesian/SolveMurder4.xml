@@ -1,125 +1,166 @@
-<SolveMurder3>
 
-    <General>
-        <Text>~p~Detektif~s~ dibutuhkan untuk kasus pembunuhan</Text>
-        <Text>Petugas tewas setelah penghentian lalu lintas</Text>
-    </General>
-
-    <Approach>
-        <Text>Ngobrol sama ~HC_43~detektif~s~ buat update situasi TKP.</Text>
-    </Approach>
-
-    <Characters>
-        <Text>~HC_43~Detektif~s~: </Text>
-        <Text>~y~Kamu~s~: </Text>
-        <Text>~p~Laboran~s~: </Text>
-        <Text>~g~Saksi~s~: </Text>
-        <Text>~r~Tersangka~s~: </Text>
-    </Characters>
-
-    <TalkToDetective>
-        <Dialogue>Halo ~HC_43~Detektif~s~! TKP-nya gede banget nih! Ada apa sih?</Dialogue>
-        <Dialogue>Halo, iya bener! Sayangnya salah satu ~b~petugas~s~ kami ~r~dibunuh~s~ pas lagi hentikan kendaraan...</Dialogue>
-        <Dialogue>Saat ini kami belum tahu pelakunya siapa, makanya panggil kamu yang udah berpengalaman.</Dialogue>
-        <Dialogue>Aku denger kasus di ~g~Pom Bensin Mount Chiliad~s~ kamu pecahin dengan baik!</Dialogue>
-        <Dialogue>Makasih Pak, kita lihat apa yang bisa aku temuin di kasus ini.</Dialogue>
-        <Dialogue>Oh maaf, iya silakan, tolong selidiki ~y~barang bukti~s~ di TKP, apa aja bisa bantu.</Dialogue>
-        <Dialogue>Kamu bisa tekan ~y~{0}~s~ buat ~y~ambil~s~ ~y~bukti~s~ kalau lagi berdiri di deketnya. ~g~Semangat~s~!</Dialogue>
-        <Dialogue>Pergi ke area tertutup dan cari bukti, tekan ~y~{1}~s~ buat ambil ~y~bukti~s~.</Dialogue>
-        <Dialogue>Cek lagi TKP-nya, kamu masih ~o~kurang beberapa~s~!</Dialogue>
-    </TalkToDetective>
-
-    <SearchForEvidence>
-        <Dialogue>Nih sedikit ~HC_211~bantuan~s~.</Dialogue>
-        <Dialogue>~r~Nggak ada bukti~s~ di deket sini.</Dialogue>
-
-        <Dialogue>Ada ~o~senapan~s~, ini pasti punya tersangka atau petugas.</Dialogue>
-        <Dialogue>Ini pasti ~o~dompet~s~ tersangka...</Dialogue>
-        <Dialogue>Ada ~o~HP~s~, sayangnya nggak tahu password-nya.</Dialogue>
-        <Dialogue>Ada ~o~bir~s~? Kayaknya dibuang dari jendela.</Dialogue>
-
-        <Dialogue>Ada ~o~pisau~s~... ada darah di sini.</Dialogue>
-        <Dialogue>Ada ~o~KTP~s~, lebih baik kasih ke laboran.</Dialogue>
-        <Dialogue>Ada ~o~flashdisk~s~, penasaran isinya apa.</Dialogue>
-        <Dialogue>Ada ~o~tas~s~... jangan tambah sidik jari lagi di sini.</Dialogue>
-
-        <Dialogue>Ada ~o~pistol~s~... kelihatannya bukan punya polisi.</Dialogue>
-        <Dialogue>Ada ~o~plat nomor~s~... mungkin punya tersangka?</Dialogue>
-        <Dialogue>Ada ~o~sepatu~s~, bukan sepatu dinas polisi.</Dialogue>
-        <Dialogue>Ada ~o~whiskey~s~... pengen nyicip satu shot nih :p</Dialogue>
-
-        <Dialogue>Ngobrol sama ~HC_43~detektif~s~ soal ~g~bukti yang udah ketemu~s~.</Dialogue>
-    </SearchForEvidence>
-
-    <AgainTalkToDetective>
-        <Dialogue>Hai, udah ada info baru?</Dialogue>
-        <Dialogue>Iya! ~o~{4}~s~ ini bawa kita ke arah yang benar!</Dialogue>
-        <Dialogue>Bagus! Selain itu ada ~g~saksi~s~ di sana, semoga dia bisa kasih detail lebih lanjut.</Dialogue>
-        <Dialogue>Pergi ke ~g~saksi~s~ dan ngobrol pake ~y~{0}~s~</Dialogue>
-    </AgainTalkToDetective>
-
-    <TalkToWitness>
-
-        <Vehicle>
-            <Dialogue>Halo Bu, saya ~y~detektif~s~ di kasus ini, kamu lihat apa tadi?</Dialogue>
-            <Dialogue>Halo ~y~Detektif~s~, nama saya {5} dan iya, aku punya info.</Dialogue>
-            <Dialogue>Awalnya aku mau belanja di supermarket sana.</Dialogue>
-            <Dialogue>Tentu aku notice penghentian lalu lintas dengan lampu biru kedip-kedip, tiba-tiba ada mobil kabur buru-buru.</Dialogue>
-            <Dialogue>Aku nggak lihat supirnya atau plat nomornya, tapi modelnya ~o~{0}~s~.</Dialogue>
-            <Dialogue>Keren, makasih infonya, kita lihat apa dispatch bisa temuin.</Dialogue>
-        </Vehicle>
-
-        <House>
-            <Dialogue>Halo Bu, saya ~y~detektif~s~ di kasus ini, kamu lihat apa tadi?</Dialogue>
-            <Dialogue>Halo ~y~Detektif~s~, nama saya {5} dan iya, aku punya info.</Dialogue>
-            <Dialogue>Awalnya aku mau belanja di supermarket sana, aku warga lokal.</Dialogue>
-            <Dialogue>Tentu aku notice penghentian lalu lintas dengan lampu biru kedip-kedip, tiba-tiba ada orang lari kabur.</Dialogue>
-            <Dialogue>Aku rasa aku kenal orangnya, tersangkanya pasti ~o~{4}~s~.</Dialogue>
-            <Dialogue>Keren, makasih infonya, kita lihat apa dispatch bisa temuin.</Dialogue>
-        </House>
-        
-    </TalkToWitness>
-
-    <SearchForSuspect>
-
-        <Vehicle>
-            <Dialogue>Dispatch, bisa cek kamera lalu lintas buat kendaraan tersangka pembunuhan, modelnya ~o~{0}~s~.</Dialogue>
-            <Dialogue>Lagi dicek...</Dialogue>
-            <Dialogue>Ada hit, ditandain di GPS kamu</Dialogue>
-            
-            <Dialogue>~r~ALPR Hit Baru~s~ di ~y~Kendaraan {1}!~s~</Dialogue>
-        </Vehicle>
-
-        <House>
-            <Dialogue>Dispatch, bisa set rute ke rumah tersangka?</Dialogue>
-            <Dialogue>Lagi dicek...</Dialogue>
-            <Dialogue>Rumahnya ketemu, ditandain di GPS</Dialogue>
-        </House>
-
-    </SearchForSuspect>
-
-    <InPursuit>
-        <Dialogue>Oh sial, polisi!</Dialogue>
-    </InPursuit>
-
-    <QuestioningSuspect>
-        <Dialogue>Begitu siap, ~r~konfrontasi tersangka~s~ soal aksinya, pake ~y~{0}~s~ buat ngobrol.</Dialogue>
-        <Dialogue>Demi hukum, kamu ditangkap karena ~r~pembunuhan~s~ ~b~petugas polisi~s~!</Dialogue>
-        <Dialogue>Aku baca hak Miranda kamu... *baca hak Miranda*</Dialogue>
-        <Dialogue>Kenapa kamu kabur?</Dialogue>
-        <Dialogue>Pak, aku bener-bener minta maaf atas apa yang aku lakuin, aku salah besar.</Dialogue>
-        <Dialogue>Aku kabur karena takut, itu aja.</Dialogue>
-        <Dialogue>Kamu bunuh petugas polisi!</Dialogue>
-        <Dialogue>Apa? Dia mati? Aku cuma... cuma nggak mau masuk bui, tapi aku nggak mau bunuh dia...</Dialogue>
-        <Dialogue>Kamu tembak ke arahnya...</Dialogue>
-        <Dialogue>Aku cuma mau bikin dia takut biar bisa kabur dan bebas.</Dialogue>
-        <Dialogue>Kamu bakal dibooking di penjara dan mungkin lama nggak keluar...</Dialogue>
-        <Dialogue>Bawa ~r~tersangka~s~ ke ~o~penjara~s~.</Dialogue>
-    </QuestioningSuspect>
-
-    <End>
-        <Text>Tekan ~y~End~s~ kapan aja buat akhiri panggilan.</Text>
-        <Text>Kami ~g~Code 4.~s~</Text>
-    </End>
-
-</SolveMurder3>
+<CALLOUT>
+    <CALLOUTMESSAGE>~HC_48~SolveMurder4</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Sesosok mayat ditemukan di samping sebuah rumah pertanian di North Yankton</CALLOUTADVISORY>
+    <TASK>Pergi ke ~b~TKP, petugas~s~ sedang menunggumu di sana.</TASK>
+    <DIALOGUES>
+        <COP1>
+            <DIALOGUE>~b~Polisi:~s~ Selamat datang di North Yankton yang dingin dan bersalju!</DIALOGUE>
+            <DIALOGUE>~b~Polisi:~s~ Sayangnya, ada mayat di sana. Kami belum tahu banyak, jadi sebaiknya kamu periksa TKP terlebih dahulu.</DIALOGUE>
+            <DIALOGUE>~b~Polisi:~s~ Setelah itu, ada tiga orang yang menjadi tersangka. Kamu harus menyusuri jalan untuk menemui mereka.</DIALOGUE>
+            <DIALOGUE>~b~Polisi:~s~ Ada juga seorang tetangga yang memberi tahu kami bahwa dia melihat sesuatu...</DIALOGUE>
+        </COP1>
+        <COP1_MURDERERCHOSEN>
+            <DIALOGUE>~b~Polisi:~s~ Menurutmu, siapa pembunuhnya?</DIALOGUE>
+            <DIALOGUE>~b~Polisi:~s~ Tangkap ~r~pembunuhnya!</DIALOGUE>
+        </COP1_MURDERERCHOSEN>
+        <SUSPECT1_INNOCENT>
+            <DIALOGUE>~y~Kamu:~s~ Halo Pak, saya punya beberapa pertanyaan untuk Anda. Anda merupakan salah satu tersangka dalam kasus pembunuhan yang baru saja terjadi. Siapa nama Anda?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Pembunuhan? Mengerikan sekali! Nama saya James Walker, Anda bisa memanggil saya Jimmy.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda merokok?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Tidak, dan saya bangga akan hal itu.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apa pekerjaan Anda?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Saya seorang mekanik, saya bekerja memperbaiki mobil.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda minum alkohol?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Tidak terlalu, terkadang saya minum bir.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda memiliki senjata api?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Tidak, saya tidak punya.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda memakai jam tangan?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Ya, saya punya banyak jam tangan. Saya membutuhkannya untuk pekerjaan saya.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Di mana Anda berada saat korban meninggal?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Saya sedang berbicara dengan seorang pelanggan tentang mobilnya yang rusak. Saya memberitahunya bahwa mobil itu tidak bisa diperbaiki.</DIALOGUE>
+        </SUSPECT1_INNOCENT>
+        <SUSPECT1_GUILTY>
+            <DIALOGUE>~y~Kamu:~s~ Halo Pak, Anda dicurigai telah membunuh seseorang. Saya punya beberapa pertanyaan untuk Anda. Mari kita mulai dengan nama Anda.</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Saya tidak melakukan apa-apa! Nama saya James Walker, teman-teman memanggil saya Jimmy.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda merokok?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Tidak, dan saya bangga akan hal itu.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apa pekerjaan Anda?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Saya seorang mekanik, saya bekerja memperbaiki mobil.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda minum alkohol?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Tidak terlalu, terkadang saya minum bir.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda memiliki senjata api?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Tidak, saya tidak punya.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda memakai jam tangan?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Ya, sekarang saya... oh, ternyata hilang.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Di mana Anda berada saat korban meninggal?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Saya... berada di garasi memperbaiki mobil. Saya orang terakhir di sana.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Pada malam hari?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Ya, masih banyak pekerjaan yang harus saya selesaikan.</DIALOGUE>
+        </SUSPECT1_GUILTY>
+        <SUSPECT2_INNOCENT>
+            <DIALOGUE>~y~Kamu:~s~ Halo Bu, Anda dicurigai telah membunuh seseorang. Saya punya beberapa pertanyaan untuk Anda. Mari kita mulai dengan nama Anda.</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Astaga, pembunuhan? Saya? Saya tidak melakukan apa-apa. Nama saya Lisa Carter.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda merokok?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Ya, terkadang. Pernahkah Anda mencoba mengisap ganja?</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ ...Apa pekerjaan Anda?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Saya bekerja di sebuah kantor di kota.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda minum alkohol?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Ya, sayangnya cukup sering. Terkadang wiski, terkadang sampanye.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda memiliki senjata api?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Saya tidak suka senjata, jadi tidak.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda memakai jam tangan?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Saya punya satu, tetapi tidak pernah memakainya. Mengapa Anda bertanya?</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Di mana Anda berada saat korban meninggal?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Saya sedang pergi bersama seorang teman. Anda bisa bertanya kepadanya.</DIALOGUE>
+        </SUSPECT2_INNOCENT>
+        <SUSPECT2_GUILTY>
+            <DIALOGUE>~y~Kamu:~s~ Halo Bu, Anda dicurigai telah membunuh seseorang. Saya punya beberapa pertanyaan untuk Anda. Mari kita mulai dengan nama Anda.</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Astaga, pembunuhan? Saya? Saya tidak melakukan apa-apa. Nama saya Lisa Carter.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda seorang perokok?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Ya, terkadang saya merokok. Apakah Anda merokok ganja?</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ ...Apa pekerjaan Anda?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Saya bekerja di sebuah kantor di kota.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda sering minum alkohol?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Ya, sayangnya cukup sering. Terkadang wiski, terkadang sampanye.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda membawa senjata api?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Saya tidak suka senjata, jadi tidak.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Jam tangan apa yang Anda miliki?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Saya punya satu, tetapi tidak pernah memakainya. Mengapa Anda bertanya?</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Di mana Anda berada saat korban meninggal?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Saya sedang berpesta di klub, saya minum banyak anggur.</DIALOGUE>
+        </SUSPECT2_GUILTY>
+        <SUSPECT3_INNOCENT>
+            <DIALOGUE>~y~Kamu:~s~ Halo Pak, saya punya beberapa pertanyaan untuk Anda. Anda merupakan salah satu tersangka dalam kasus pembunuhan yang baru saja terjadi. Siapa nama Anda?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Astaga, pembunuhan? Saya? Saya tidak melakukan apa-apa. Nama saya Daniel, atau Danny Reed.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda seorang perokok?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Anda tahu, saya seorang pemburu dan saya punya banyak waktu luang, jadi ya, saya merokok.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apa pekerjaan Anda?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Seperti yang sudah saya katakan, saya seorang pemburu.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda sering minum alkohol?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Tidak, tidak sering. Tapi saya pernah minum alkohol sebelumnya.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda membawa senjata api?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Tidak sekarang, tetapi sebagai seorang pemburu, Anda bisa membayangkan bahwa saya punya beberapa.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Jam tangan apa yang Anda miliki?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Saya punya satu. Modelnya murah, jadi kalau rusak, saya tinggal membeli yang baru.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Di mana Anda berada saat korban meninggal?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Saya berada di rumah bersama istri saya. Kami sedang makan malam.</DIALOGUE>
+        </SUSPECT3_INNOCENT>
+        <SUSPECT3_GUILTY>
+            <DIALOGUE>~y~Kamu:~s~ Halo Pak, saya punya beberapa pertanyaan untuk Anda. Anda merupakan salah satu tersangka dalam kasus pembunuhan yang baru saja terjadi. Siapa nama Anda?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Astaga, pembunuhan? Saya? Saya tidak melakukan apa-apa. Nama saya Daniel, atau Danny Reed.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda seorang perokok?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Anda tahu, saya seorang pemburu dan saya punya banyak waktu luang, jadi ya, saya merokok.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apa pekerjaan Anda?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Seperti yang sudah saya katakan, saya seorang pemburu.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda sering minum alkohol?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Tidak, tidak sering. Tapi saya pernah minum alkohol sebelumnya.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Apakah Anda membawa senjata api?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Ya... sepertinya saya meninggalkannya di mobil. Saya tidak bisa menemukannya.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Jam tangan apa yang Anda miliki?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Biasanya saya membawa satu, tetapi sekarang tidak bisa menemukannya. Untungnya harganya tidak mahal.</DIALOGUE>
+            <DIALOGUE>~y~Kamu:~s~ Di mana Anda berada saat korban meninggal?</DIALOGUE>
+            <DIALOGUE>~y~Tersangka:~s~ Saya sedang berburu di hutan. Sayangnya, saya tidak mendapatkan hasil buruan apa pun.</DIALOGUE>
+        </SUSPECT3_GUILTY>
+        <WITNESS_SUSPECT1>
+            <DIALOGUE>~y~Kamu:~s~ Halo Pak, rekan saya bilang Anda menyaksikan sesuatu?</DIALOGUE>
+            <DIALOGUE>~g~Tetangga:~s~ Halo, benar sekali. Saya ingin melaporkan apa yang saya lihat.</DIALOGUE>
+            <DIALOGUE>~g~Tetangga:~s~ Saya mendengar ada pembunuhan sekitar waktu saya melewati tempat itu.</DIALOGUE>
+            <DIALOGUE>~g~Tetangga:~s~ Saya melihat sebuah mobil meninggalkan TKP. Saat itu lalu lintas tidak terlalu ramai.</DIALOGUE>
+            <DIALOGUE>~g~Tetangga:~s~ Mobil itu terlihat seperti kendaraan perusahaan, berupa van berukuran besar.</DIALOGUE>
+            <DIALOGUE>~g~Tetangga:~s~ Semoga informasi ini membantu!</DIALOGUE>
+        </WITNESS_SUSPECT1>
+        <WITNESS_SUSPECT2>
+            <DIALOGUE>~y~Kamu:~s~ Halo Pak, rekan saya bilang Anda menyaksikan sesuatu?</DIALOGUE>
+            <DIALOGUE>~g~Tetangga:~s~ Halo, benar sekali. Saya ingin melaporkan apa yang saya lihat.</DIALOGUE>
+            <DIALOGUE>~g~Tetangga:~s~ Saya mendengar ada orang meninggal yang ditemukan di luar kota.</DIALOGUE>
+            <DIALOGUE>~g~Tetangga:~s~ Saya melihat seseorang berjalan menjauh dari area ini sambil membawa sesuatu di tangannya.</DIALOGUE>
+            <DIALOGUE>~g~Tetangga:~s~ Benda itu mengeluarkan asap. Saya kira itu cerutu.</DIALOGUE>
+            <DIALOGUE>~g~Tetangga:~s~ Maaf, hanya itu yang saya tahu!</DIALOGUE>
+        </WITNESS_SUSPECT2>
+        <WITNESS_SUSPECT3>
+            <DIALOGUE>~y~Kamu:~s~ Halo Pak, rekan saya bilang Anda menyaksikan sesuatu?</DIALOGUE>
+            <DIALOGUE>~g~Tetangga:~s~ Selamat malam, sepertinya saya bisa menjadi saksi.</DIALOGUE>
+            <DIALOGUE>~g~Tetangga:~s~ Saya mendengar ada pembunuhan sekitar waktu saya melewati area tersebut.</DIALOGUE>
+            <DIALOGUE>~g~Tetangga:~s~ Saya melihat sebuah mobil meninggalkan TKP. Saat itu lalu lintas tidak terlalu ramai.</DIALOGUE>
+            <DIALOGUE>~g~Tetangga:~s~ Mobil itu sangat kotor dan memiliki ban yang besar.</DIALOGUE>
+            <DIALOGUE>~g~Tetangga:~s~ Semoga informasi saya berguna!</DIALOGUE>
+        </WITNESS_SUSPECT3>
+    </DIALOGUES>
+    <STATE>
+        <SEARCHFOREVIDENCE>
+            <TEXT>Carilah barang bukti di jalan.</TEXT>
+            <TEXT>Barang bukti ditemukan!</TEXT>
+        </SEARCHFOREVIDENCE>
+        <TALKTOSUSPECTSWITNESS>
+            <TEXT>Bicaralah dengan ~y~para tersangka~s~ dan ~g~saksi.</TEXT>
+        </TALKTOSUSPECTSWITNESS>
+        <ARRESTMURDERER>
+            <TEXT>~g~Pembunuh yang benar berhasil ditangkap</TEXT>
+            <TEXT>~r~Orang yang salah ditangkap</TEXT>
+        </ARRESTMURDERER>
+        <END>
+            <TEXT>{CalloutMessage} telah berakhir.</TEXT>
+        </END>
+    </STATE>
+    <MENU>
+        <TITLE>Pembunuh</TITLE>
+        <SUBTITLE>Pembunuhnya adalah...</SUBTITLE>
+        <ITEM>James 'Jimmy' Walker, mekanik mobil</ITEM>
+        <ITEM>Lisa Carter, wanita tersebut</ITEM>
+        <ITEM>Daniel 'Danny' Reed, sang pemburu</ITEM>
+        <DIALOGUE>~y~Kamu:~s~ James Walker!</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Lisa Carter!</DIALOGUE>
+        <DIALOGUE>~y~Kamu:~s~ Daniel Reed!</DIALOGUE>
+    </MENU>
+</CALLOUT>
